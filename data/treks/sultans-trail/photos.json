@@ -1,0 +1,34 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Smederevo fortress (Smederevska tvrđava) - by Pudelek 02.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Smederevo_fortress_(Smederevska_tvr%C4%91ava)_-_by_Pudelek_02.JPG",
+    "author": "Pudelek (Marcin Szala)",
+    "license": "CC BY-SA 3.0 rs",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/rs/deed.en",
+    "shows": "Smederevo fortress on the Danube (stage end ST-404)",
+    "width": 1600,
+    "height": 1169,
+    "sizes": {
+      "480": "/photos/sultans-trail/d05cdc67bf-480.webp",
+      "960": "/photos/sultans-trail/d05cdc67bf-960.webp",
+      "1600": "/photos/sultans-trail/d05cdc67bf-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Stražilovo.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Stra%C5%BEilovo.JPG",
+    "author": "Micki",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Stražilovo on Fruška Gora, near Sremski Karlovci (stage ST-326)",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/sultans-trail/f6a1bd2647-480.webp",
+      "960": "/photos/sultans-trail/f6a1bd2647-960.webp",
+      "1600": "/photos/sultans-trail/f6a1bd2647-1600.webp"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Jankovac, Papuk.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Jankovac,_Papuk.jpg",
+    "author": "Tanalama1",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Jankovac forest on Papuk (lodge is control point 28)",
+    "width": 1600,
+    "height": 2133,
+    "sizes": {
+      "480": "/photos/slavonski-planinarski-put/533d2339f3-480.webp",
+      "960": "/photos/slavonski-planinarski-put/533d2339f3-960.webp",
+      "1600": "/photos/slavonski-planinarski-put/533d2339f3-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Slap Skakavac kod Jankovca na Papuku.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Slap_Skakavac_kod_Jankovca_na_Papuku.jpg",
+    "author": "Luka Badurina",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Skakavac waterfall below Jankovac lodge",
+    "width": 1600,
+    "height": 2416,
+    "sizes": {
+      "480": "/photos/slavonski-planinarski-put/e32a9dd0a8-480.webp",
+      "960": "/photos/slavonski-planinarski-put/e32a9dd0a8-960.webp",
+      "1600": "/photos/slavonski-planinarski-put/e32a9dd0a8-1600.webp"
+    }
+  }
+]

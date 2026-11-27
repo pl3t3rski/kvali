@@ -1,0 +1,34 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Eagles Nests Trail 01.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Eagles_Nests_Trail_01.jpg",
+    "author": "Scotch Mist",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Scenery on the Trail of the Eagles' Nests",
+    "width": 1600,
+    "height": 2407,
+    "sizes": {
+      "480": "/photos/trail-of-the-eagles-nests/36928b75ea-480.webp",
+      "960": "/photos/trail-of-the-eagles-nests/36928b75ea-960.webp",
+      "1600": "/photos/trail-of-the-eagles-nests/36928b75ea-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Eagles Nests Trail 03.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Eagles_Nests_Trail_03.jpg",
+    "author": "Scotch Mist",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Scenery on the Trail of the Eagles' Nests",
+    "width": 1600,
+    "height": 2407,
+    "sizes": {
+      "480": "/photos/trail-of-the-eagles-nests/1e21acca66-480.webp",
+      "960": "/photos/trail-of-the-eagles-nests/1e21acca66-960.webp",
+      "1600": "/photos/trail-of-the-eagles-nests/1e21acca66-1600.webp"
+    }
+  }
+]

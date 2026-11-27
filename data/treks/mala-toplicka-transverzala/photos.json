@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Vidojevica mountain 01.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Vidojevica_mountain_01.jpg",
+    "author": "Geograf208",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Vidojevica mountain (control point 5, observatory)",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/mala-toplicka-transverzala/e738ec7502-480.webp",
+      "960": "/photos/mala-toplicka-transverzala/e738ec7502-960.webp",
+      "1600": "/photos/mala-toplicka-transverzala/e738ec7502-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Đavolja varoš 02.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:%C4%90avolja_varo%C5%A1_02.jpg",
+    "author": "Mickey Mystique",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Đavolja Varoš earth pyramids (control point 12)",
+    "width": 1600,
+    "height": 2133,
+    "sizes": {
+      "480": "/photos/mala-toplicka-transverzala/26c528d77e-480.webp",
+      "960": "/photos/mala-toplicka-transverzala/26c528d77e-960.webp",
+      "1600": "/photos/mala-toplicka-transverzala/26c528d77e-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Prolom Banja, panorama.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Prolom_Banja,_panorama.jpg",
+    "author": "Katarina Z",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "shows": "Prolom Banja, the finish",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/mala-toplicka-transverzala/4175174ffa-480.webp",
+      "960": "/photos/mala-toplicka-transverzala/4175174ffa-960.webp",
+      "1600": "/photos/mala-toplicka-transverzala/4175174ffa-1600.webp"
+    }
+  }
+]

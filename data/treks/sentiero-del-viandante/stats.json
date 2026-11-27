@@ -1,0 +1,18 @@
+{
+  "distance_km": 71.6,
+  "ascent_m": 3367,
+  "descent_m": 3294,
+  "lowest_m": 190,
+  "highest_m": 774,
+  "bbox": [
+    9.28772,
+    45.855,
+    9.56796,
+    46.13712
+  ],
+  "midpoint": [
+    9.31346,
+    46.06249
+  ],
+  "route_hash": "0c7a6bec1f8842d6"
+}

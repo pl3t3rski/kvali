@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Wielki Rogacz szlak.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Wielki_Rogacz_szlak.jpg",
+    "author": "Andrzej O",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Trail junction on the Wielki Rogacz summit (1182 m), the end of the trail",
+    "width": 1600,
+    "height": 2133,
+    "sizes": {
+      "480": "/photos/tarnow-wielki-rogacz-trail/d61eab6244-480.webp",
+      "960": "/photos/tarnow-wielki-rogacz-trail/d61eab6244-960.webp",
+      "1600": "/photos/tarnow-wielki-rogacz-trail/d61eab6244-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Skamieniałe Miasto a12.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Skamienia%C5%82e_Miasto_a12.jpg",
+    "author": "Jerzy Opioła",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "shows": "Skamieniałe Miasto rock reserve at Ciężkowice",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/tarnow-wielki-rogacz-trail/051f3eff8d-480.webp",
+      "960": "/photos/tarnow-wielki-rogacz-trail/051f3eff8d-960.webp",
+      "1600": "/photos/tarnow-wielki-rogacz-trail/051f3eff8d-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Ciezkowice Skamieniale Miasto 08.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Ciezkowice_Skamieniale_Miasto_08.jpg",
+    "author": "Andrzej Otrębski",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Skamieniałe Miasto (Petrified Town) reserve, Ciężkowice",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/tarnow-wielki-rogacz-trail/1a65caa4a4-480.webp",
+      "960": "/photos/tarnow-wielki-rogacz-trail/1a65caa4a4-960.webp",
+      "1600": "/photos/tarnow-wielki-rogacz-trail/1a65caa4a4-1600.webp"
+    }
+  }
+]

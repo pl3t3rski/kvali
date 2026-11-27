@@ -1,0 +1,34 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Slovenska planinska pot - Osankarica (3626122380).jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Slovenska_planinska_pot_-_Osankarica_(3626122380).jpg",
+    "author": "breki74 from Maribor, Slovenia",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "shows": "The trail at Osankarica on Pohorje",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/slovenian-mountain-trail/d2859dbc91-480.webp",
+      "960": "/photos/slovenian-mountain-trail/d2859dbc91-960.webp",
+      "1600": "/photos/slovenian-mountain-trail/d2859dbc91-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Slovenska planinska pot - proti Mariboru - panoramio.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Slovenska_planinska_pot_-_proti_Mariboru_-_panoramio.jpg",
+    "author": "dominkod",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "shows": "A section of the trail heading toward Maribor",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/slovenian-mountain-trail/6312c185e7-480.webp",
+      "960": "/photos/slovenian-mountain-trail/6312c185e7-960.webp",
+      "1600": "/photos/slovenian-mountain-trail/6312c185e7-1600.webp"
+    }
+  }
+]

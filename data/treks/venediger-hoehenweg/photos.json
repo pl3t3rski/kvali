@@ -1,0 +1,66 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Venediger Höhenweg 2020.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Venediger_H%C3%B6henweg_2020.jpg",
+    "author": "Whgler",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Trail above Prägraten",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/venediger-hoehenweg/62ec625fcd-480.webp",
+      "960": "/photos/venediger-hoehenweg/62ec625fcd-960.webp",
+      "1600": "/photos/venediger-hoehenweg/62ec625fcd-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Venediger Höhenweg Timmeltal.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Venediger_H%C3%B6henweg_Timmeltal.jpg",
+    "author": "Whgler",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "View over the Timmeltal from the trail",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/venediger-hoehenweg/c65b8941b7-480.webp",
+      "960": "/photos/venediger-hoehenweg/c65b8941b7-960.webp",
+      "1600": "/photos/venediger-hoehenweg/c65b8941b7-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Venediger Höhenweg Eselrücken.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Venediger_H%C3%B6henweg_Eselr%C3%BCcken.jpg",
+    "author": "Whgler",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Trail seen from the Eselrücken",
+    "width": 1600,
+    "height": 2133,
+    "sizes": {
+      "480": "/photos/venediger-hoehenweg/599cf718de-480.webp",
+      "960": "/photos/venediger-hoehenweg/599cf718de-960.webp",
+      "1600": "/photos/venediger-hoehenweg/599cf718de-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Venedigerblick.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Venedigerblick.jpg",
+    "author": "FkMohr",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "shows": "Großvenediger from the east slope of the Türmljoch",
+    "width": 1600,
+    "height": 1068,
+    "sizes": {
+      "480": "/photos/venediger-hoehenweg/c4a76bdd49-480.webp",
+      "960": "/photos/venediger-hoehenweg/c4a76bdd49-960.webp",
+      "1600": "/photos/venediger-hoehenweg/c4a76bdd49-1600.webp"
+    }
+  }
+]

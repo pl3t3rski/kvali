@@ -1,0 +1,64 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Klafferkessel-2.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Klafferkessel-2.JPG",
+    "author": "Gergi084",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Klafferkessel lake basin (~2,300 m)",
+    "width": 1600,
+    "height": 1071,
+    "sizes": {
+      "480": "/photos/schladminger-tauern-hoehenweg/40e7283c70-480.webp",
+      "960": "/photos/schladminger-tauern-hoehenweg/40e7283c70-960.webp",
+      "1600": "/photos/schladminger-tauern-hoehenweg/40e7283c70-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Klafferkessel with Greifenberg.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Klafferkessel_with_Greifenberg.jpg",
+    "author": "Herzi Pinki",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "shows": "Klafferkessel with the Greifenberg (2,618 m), the route's high point",
+    "width": 480,
+    "height": 327,
+    "sizes": {
+      "480": "/photos/schladminger-tauern-hoehenweg/9405c5d94c-480.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Giglach-Höhenweg am 6.10.2023.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Giglach-H%C3%B6henweg_am_6.10.2023.jpg",
+    "author": "Michael Burgholzer",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Giglach high path (stage 1 area), October 2023",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/schladminger-tauern-hoehenweg/0d8f078858-480.webp",
+      "960": "/photos/schladminger-tauern-hoehenweg/0d8f078858-960.webp",
+      "1600": "/photos/schladminger-tauern-hoehenweg/0d8f078858-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Greifenberg von Osten.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Greifenberg_von_Osten.jpg",
+    "author": "Jörg Braukmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Greifenberg from the Klafferkessel",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/schladminger-tauern-hoehenweg/d19c93a5a3-480.webp",
+      "960": "/photos/schladminger-tauern-hoehenweg/d19c93a5a3-960.webp",
+      "1600": "/photos/schladminger-tauern-hoehenweg/d19c93a5a3-1600.webp"
+    }
+  }
+]

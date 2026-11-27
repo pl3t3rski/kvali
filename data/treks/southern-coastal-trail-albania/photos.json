@@ -1,0 +1,34 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Gjipe Beach, Albania.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Gjipe_Beach,_Albania.JPG",
+    "author": "Pudelek (Marcin Szala)",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Gjipe beach, on stage 1",
+    "width": 1600,
+    "height": 554,
+    "sizes": {
+      "480": "/photos/southern-coastal-trail-albania/66b619ac09-480.webp",
+      "960": "/photos/southern-coastal-trail-albania/66b619ac09-960.webp",
+      "1600": "/photos/southern-coastal-trail-albania/66b619ac09-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Qeparo beach.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Qeparo_beach.jpg",
+    "author": "Leeturtle",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Qeparo beach, below Old Qeparo on stage 4",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/southern-coastal-trail-albania/cdf292d906-480.webp",
+      "960": "/photos/southern-coastal-trail-albania/cdf292d906-960.webp",
+      "1600": "/photos/southern-coastal-trail-albania/cdf292d906-1600.webp"
+    }
+  }
+]

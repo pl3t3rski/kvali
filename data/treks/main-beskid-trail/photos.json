@@ -1,0 +1,66 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Chryszczata - Główny Szlak Beskidzki 01.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Chryszczata_-_G%C5%82%C3%B3wny_Szlak_Beskidzki_01.jpg",
+    "author": "Yarl",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "The trail to Chryszczata (Bieszczady foothills)",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/main-beskid-trail/84fc1fcd03-480.webp",
+      "960": "/photos/main-beskid-trail/84fc1fcd03-960.webp",
+      "1600": "/photos/main-beskid-trail/84fc1fcd03-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Główny Szlak Beskidzki - Path to Smerek 02.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:G%C5%82%C3%B3wny_Szlak_Beskidzki_-_Path_to_Smerek_02.jpg",
+    "author": "Yarl",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "The trail from Kalnica up to Smerek (Bieszczady)",
+    "width": 1600,
+    "height": 2400,
+    "sizes": {
+      "480": "/photos/main-beskid-trail/ef30a8517b-480.webp",
+      "960": "/photos/main-beskid-trail/ef30a8517b-960.webp",
+      "1600": "/photos/main-beskid-trail/ef30a8517b-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Maciejowa, Gorce, trail.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Maciejowa,_Gorce,_trail.jpg",
+    "author": "MOs810",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "The trail at Maciejowa in the Gorce",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/main-beskid-trail/9d27352ae0-480.webp",
+      "960": "/photos/main-beskid-trail/9d27352ae0-960.webp",
+      "1600": "/photos/main-beskid-trail/9d27352ae0-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Czerwony szlak pieszy na Przehybę w Beskidzie Sądeckim, 20240921 1234 5912.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Czerwony_szlak_pieszy_na_Przehyb%C4%99_w_Beskidzie_S%C4%85deckim,_20240921_1234_5912.jpg",
+    "author": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "shows": "The red-marked trail near Przehyba (Beskid Sądecki)",
+    "width": 1600,
+    "height": 2396,
+    "sizes": {
+      "480": "/photos/main-beskid-trail/c35aa18490-480.webp",
+      "960": "/photos/main-beskid-trail/c35aa18490-960.webp",
+      "1600": "/photos/main-beskid-trail/c35aa18490-1600.webp"
+    }
+  }
+]

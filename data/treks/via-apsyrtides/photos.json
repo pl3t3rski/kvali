@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Beli-Cres.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Beli-Cres.jpg",
+    "author": "Alexander Leisser",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Beli on Cres (end of stage 1)",
+    "width": 1600,
+    "height": 1062,
+    "sizes": {
+      "480": "/photos/via-apsyrtides/f86a80188f-480.webp",
+      "960": "/photos/via-apsyrtides/f86a80188f-960.webp",
+      "1600": "/photos/via-apsyrtides/f86a80188f-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Beli, Cres, Croatia.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Beli,_Cres,_Croatia.JPG",
+    "author": "Croq",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Beli village on its hilltop",
+    "width": 1600,
+    "height": 1115,
+    "sizes": {
+      "480": "/photos/via-apsyrtides/0e99e7f341-480.webp",
+      "960": "/photos/via-apsyrtides/0e99e7f341-960.webp",
+      "1600": "/photos/via-apsyrtides/0e99e7f341-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Valun, Cres, Croatia - panoramio.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Valun,_Cres,_Croatia_-_panoramio.jpg",
+    "author": "nschuwi",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "shows": "Valun (end of stage 4)",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/via-apsyrtides/41615a1858-480.webp",
+      "960": "/photos/via-apsyrtides/41615a1858-960.webp",
+      "1600": "/photos/via-apsyrtides/41615a1858-1600.webp"
+    }
+  }
+]

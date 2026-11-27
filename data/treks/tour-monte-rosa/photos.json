@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Rif-theodulo.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Rif-theodulo.jpg",
+    "author": "Jan Liska | www.liska.de",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "shows": "Theodulhütte and Testa Grigia at the Theodul Pass",
+    "width": 1600,
+    "height": 1000,
+    "sizes": {
+      "480": "/photos/tour-monte-rosa/68e101b470-480.webp",
+      "960": "/photos/tour-monte-rosa/68e101b470-960.webp",
+      "1600": "/photos/tour-monte-rosa/68e101b470-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Macugnaga (4882926389).jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Macugnaga_(4882926389).jpg",
+    "author": "Grzegorz Jereczek from Gdańsk, Poland",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "shows": "Macugnaga under the east face of Monte Rosa",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/tour-monte-rosa/1285b811e6-480.webp",
+      "960": "/photos/tour-monte-rosa/1285b811e6-960.webp",
+      "1600": "/photos/tour-monte-rosa/1285b811e6-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Panorama from Theodulpass at Breuil-Cervinia - panoramio.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Panorama_from_Theodulpass_at_Breuil-Cervinia_-_panoramio.jpg",
+    "author": "qwesy qwesy",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "shows": "Panorama from the Theodul Pass above Breuil-Cervinia",
+    "width": 1600,
+    "height": 1029,
+    "sizes": {
+      "480": "/photos/tour-monte-rosa/57cba01efa-480.webp",
+      "960": "/photos/tour-monte-rosa/57cba01efa-960.webp",
+      "1600": "/photos/tour-monte-rosa/57cba01efa-1600.webp"
+    }
+  }
+]

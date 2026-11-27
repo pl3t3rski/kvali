@@ -1,0 +1,33 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Memminger Hütte.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Memminger_H%C3%BCtte.JPG",
+    "author": "Vince51",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Memminger Hütte with the Seeköpfel",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/lechtaler-hoehenweg/8d2565450c-480.webp",
+      "960": "/photos/lechtaler-hoehenweg/8d2565450c-960.webp",
+      "1600": "/photos/lechtaler-hoehenweg/8d2565450c-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Memminger Huette vom Vorderen Seekopf.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Memminger_Huette_vom_Vorderen_Seekopf.jpg",
+    "author": "Karl Haarmann at de.wikipedia 14:32, 9. Mär. 2007 (CET",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "shows": "Memminger Hütte and Vorderer Seewisee from above",
+    "width": 960,
+    "height": 926,
+    "sizes": {
+      "480": "/photos/lechtaler-hoehenweg/dc5da5eded-480.webp",
+      "960": "/photos/lechtaler-hoehenweg/dc5da5eded-960.webp"
+    }
+  }
+]

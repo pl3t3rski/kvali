@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:1588-Oeschinensee.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:1588-Oeschinensee.jpg",
+    "author": "FkMohr",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "shows": "Oeschinensee and the Blüemlisalp, on the Griesalp–Hohtürli–Kandersteg stage",
+    "width": 1600,
+    "height": 1068,
+    "sizes": {
+      "480": "/photos/via-alpina-1/7c5bdaef29-480.webp",
+      "960": "/photos/via-alpina-1/7c5bdaef29-960.webp",
+      "1600": "/photos/via-alpina-1/7c5bdaef29-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Oeschinensee at sunset.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Oeschinensee_at_sunset.jpg",
+    "author": "Jean Schmitt",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Oeschinensee at sunset with Fründenhorn and Doldenhorn",
+    "width": 1600,
+    "height": 1068,
+    "sizes": {
+      "480": "/photos/via-alpina-1/df99b314c9-480.webp",
+      "960": "/photos/via-alpina-1/df99b314c9-960.webp",
+      "1600": "/photos/via-alpina-1/df99b314c9-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Oeschinensee mit Kühen.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Oeschinensee_mit_K%C3%BChen.jpg",
+    "author": "Monika.frischknecht",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Cows grazing above Oeschinensee",
+    "width": 1600,
+    "height": 1138,
+    "sizes": {
+      "480": "/photos/via-alpina-1/c5bd8d0e5d-480.webp",
+      "960": "/photos/via-alpina-1/c5bd8d0e5d-960.webp",
+      "1600": "/photos/via-alpina-1/c5bd8d0e5d-1600.webp"
+    }
+  }
+]

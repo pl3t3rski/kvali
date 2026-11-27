@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Val Veni by MTB.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Val_Veni_by_MTB.JPG",
+    "author": "Nick Moyes",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "TMB route in Val Veny near Col de la Seigne",
+    "width": 1600,
+    "height": 1127,
+    "sizes": {
+      "480": "/photos/tour-du-mont-blanc/0d08bbcadb-480.webp",
+      "960": "/photos/tour-du-mont-blanc/0d08bbcadb-960.webp",
+      "1600": "/photos/tour-du-mont-blanc/0d08bbcadb-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:At Col de la Seigne there is a wide overview in the Aosta valley with Mont Blanc 4810 m (10 km) left and Matterhorn (white top in the middle) 4478 m at 70,5 km distance^ clearly visible - panoramio.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:At_Col_de_la_Seigne_there_is_a_wide_overview_in_the_Aosta_valley_with_Mont_Blanc_4810_m_(10_km)_left_and_Matterhorn_(white_top_in_the_middle)_4478_m_at_70,5_km_distance%5E_clearly_visible_-_panoramio.jpg",
+    "author": "Henk Monster",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "shows": "View from Col de la Seigne (FR/IT border) into the Aosta Valley",
+    "width": 1600,
+    "height": 1060,
+    "sizes": {
+      "480": "/photos/tour-du-mont-blanc/922a5532cd-480.webp",
+      "960": "/photos/tour-du-mont-blanc/922a5532cd-960.webp",
+      "1600": "/photos/tour-du-mont-blanc/922a5532cd-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Rifugio Walter Bonatti Refuge.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Rifugio_Walter_Bonatti_Refuge.jpg",
+    "author": "Cboon",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Rifugio Walter Bonatti above Val Ferret (shared with Alta Via 1 Valle d'Aosta)",
+    "width": 1600,
+    "height": 1064,
+    "sizes": {
+      "480": "/photos/tour-du-mont-blanc/05b49dbb13-480.webp",
+      "960": "/photos/tour-du-mont-blanc/05b49dbb13-960.webp",
+      "1600": "/photos/tour-du-mont-blanc/05b49dbb13-1600.webp"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Via Egnatia Librazhd.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Via_Egnatia_Librazhd.jpg",
+    "author": "Albinfo",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Original Roman paving of the Via Egnatia in the Polis mountains, Librazhd",
+    "width": 1600,
+    "height": 1107,
+    "sizes": {
+      "480": "/photos/via-egnatia-durres-thessaloniki/d075d7d61f-480.webp",
+      "960": "/photos/via-egnatia-durres-thessaloniki/d075d7d61f-960.webp",
+      "1600": "/photos/via-egnatia-durres-thessaloniki/d075d7d61f-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Ura e Kamares (Kamare Bridge), Elbasan (4).jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Ura_e_Kamares_(Kamare_Bridge),_Elbasan_(4).jpg",
+    "author": "Liridon",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Ura e Kamarës, the old stone bridge over the Shkumbin near Mirakë",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/via-egnatia-durres-thessaloniki/005d70e9b0-480.webp",
+      "960": "/photos/via-egnatia-durres-thessaloniki/005d70e9b0-960.webp",
+      "1600": "/photos/via-egnatia-durres-thessaloniki/005d70e9b0-1600.webp"
+    }
+  }
+]

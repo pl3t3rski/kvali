@@ -1,0 +1,34 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Jezerca Peak.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Jezerca_Peak.jpg",
+    "author": "DriniTeta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Summit of Maja Jezercë (2,694 m), the trail's high point",
+    "width": 1600,
+    "height": 900,
+    "sizes": {
+      "480": "/photos/via-dinarica-white-trail/1e04291b53-480.webp",
+      "960": "/photos/via-dinarica-white-trail/1e04291b53-960.webp",
+      "1600": "/photos/via-dinarica-white-trail/1e04291b53-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Zhapik ne Theth.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Zhapik_ne_Theth.jpg",
+    "author": "Irma Tollmi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Theth, the last village before the final stage to Valbona",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/via-dinarica-white-trail/5ec5571639-480.webp",
+      "960": "/photos/via-dinarica-white-trail/5ec5571639-960.webp",
+      "1600": "/photos/via-dinarica-white-trail/5ec5571639-1600.webp"
+    }
+  }
+]
