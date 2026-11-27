@@ -14,5 +14,37 @@
       "960": "/photos/black-rock-lake-lagodekhi/b9532eacce-960.webp",
       "1600": "/photos/black-rock-lake-lagodekhi/b9532eacce-1600.webp"
     }
+  },
+  {
+    "source": "commons",
+    "title": "File:Black Rock Lake 1.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Black_Rock_Lake_1.jpg",
+    "author": "Paata vardanashvili",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Black Rock Lake in the Lagodekhi Protected Areas",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/black-rock-lake-lagodekhi/5af449250d-480.webp",
+      "960": "/photos/black-rock-lake-lagodekhi/5af449250d-960.webp",
+      "1600": "/photos/black-rock-lake-lagodekhi/5af449250d-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Lagodekhi Protected Area, Georgia.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Lagodekhi_Protected_Area,_Georgia.jpg",
+    "author": "Giorgi Balakhadze",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "In the Lagodekhi Protected Areas",
+    "width": 1600,
+    "height": 902,
+    "sizes": {
+      "480": "/photos/black-rock-lake-lagodekhi/0c8cf5df37-480.webp",
+      "960": "/photos/black-rock-lake-lagodekhi/0c8cf5df37-960.webp",
+      "1600": "/photos/black-rock-lake-lagodekhi/0c8cf5df37-1600.webp"
+    }
   }
 ]

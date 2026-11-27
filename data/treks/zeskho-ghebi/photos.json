@@ -13,5 +13,18 @@
       "480": "/photos/zeskho-ghebi/ff5508bb3e-480.webp",
       "960": "/photos/zeskho-ghebi/ff5508bb3e-960.webp"
     }
+  },
+  {
+    "source": "commons",
+    "title": "File:Vittorio Sella. Gebi.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Vittorio_Sella._Gebi.jpg",
+    "author": "Vittorio Sella",
+    "license": "Public domain",
+    "shows": "Ghebi, photographed by Vittorio Sella around 1890",
+    "width": 480,
+    "height": 298,
+    "sizes": {
+      "480": "/photos/zeskho-ghebi/5ebdf63dcc-480.webp"
+    }
   }
 ]

@@ -38,6 +38,7 @@ flags:
   permit_notes: Border-zone permit needed between Zeskho and Ghebi (from the border-guard station in Oni; passports checked at the Zeskho checkpoint). Cost not stated in sources.
   water_scarce: false
   exposed_or_via_ferrata: false
+  waymarked: no
 links:
   official_site: https://georgia.travel/zeskho-ghebi
 establishment_signals:
@@ -49,6 +50,10 @@ photos:
     author: Jelger Groeneveld
     license: CC BY 2.0
     shows: Rioni gorge between Utsera and Chiora/Ghebi, the approach to the trek's end
+  - file_url: https://commons.wikimedia.org/wiki/File:Vittorio_Sella._Gebi.jpg
+    author: Vittorio Sella
+    license: Public domain
+    shows: Ghebi, photographed by Vittorio Sella around 1890
 sources:
   distance_km: https://www.caucasus-trekking.com/treks/svanetiracha
   total_ascent_m: https://www.caucasus-trekking.com/treks/svanetiracha
@@ -60,6 +65,7 @@ sources:
   logistics: https://www.caucasus-trekking.com/treks/svanetiracha
   permit: https://transcaucasiantrail.org/en/thru-hike-the-tct
   permit_detail: https://transcaucasiantrail.org/en/2024/08/24/day-12-oni-to-tsana
+  waymarked: https://www.caucasus-trekking.com/treks/svanetiracha
 conflicts:
   - field: distance_km
     values:

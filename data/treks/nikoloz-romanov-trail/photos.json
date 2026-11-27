@@ -14,5 +14,37 @@
       "960": "/photos/nikoloz-romanov-trail/78c0d9a05a-960.webp",
       "1600": "/photos/nikoloz-romanov-trail/78c0d9a05a-1600.webp"
     }
+  },
+  {
+    "source": "commons",
+    "title": "File:ლომის მთის ტურისტული თავშესაფარი 1.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:%E1%83%9A%E1%83%9D%E1%83%9B%E1%83%98%E1%83%A1_%E1%83%9B%E1%83%97%E1%83%98%E1%83%A1_%E1%83%A2%E1%83%A3%E1%83%A0%E1%83%98%E1%83%A1%E1%83%A2%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%97%E1%83%90%E1%83%95%E1%83%A8%E1%83%94%E1%83%A1%E1%83%90%E1%83%A4%E1%83%90%E1%83%A0%E1%83%98_1.jpg",
+    "author": "Giorgimailo",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "The tourist shelter on Lomismta",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/nikoloz-romanov-trail/7eddea1d88-480.webp",
+      "960": "/photos/nikoloz-romanov-trail/7eddea1d88-960.webp",
+      "1600": "/photos/nikoloz-romanov-trail/7eddea1d88-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:დაისი ლომის მთაზე.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:%E1%83%93%E1%83%90%E1%83%98%E1%83%A1%E1%83%98_%E1%83%9A%E1%83%9D%E1%83%9B%E1%83%98%E1%83%A1_%E1%83%9B%E1%83%97%E1%83%90%E1%83%96%E1%83%94.jpg",
+    "author": "Giorgimailo",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Sunset on Mount Lomismta",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/nikoloz-romanov-trail/1dcca2beff-480.webp",
+      "960": "/photos/nikoloz-romanov-trail/1dcca2beff-960.webp",
+      "1600": "/photos/nikoloz-romanov-trail/1dcca2beff-1600.webp"
+    }
   }
 ]

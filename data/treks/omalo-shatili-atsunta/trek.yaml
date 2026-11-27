@@ -9,7 +9,16 @@ route:
   type: point-to-point
   start: Omalo
   end: Shatili
-  osm_relation_id: 12211099
+  osm_relation_id:
+    - 12211099
+    - 21145876
+  osm_section:
+    from:
+      - 42.3731
+      - 45.6332
+    to:
+      - 42.657
+      - 45.157
   gpx_source: https://www.caucasus-trekking.com/treks/omaloshatili
 distance_km: 75.13
 total_ascent_m: 2948

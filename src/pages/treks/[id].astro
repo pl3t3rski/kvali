@@ -1,24 +1,30 @@
 ---
 /**
- * One static page per trek, in the Kvali design: the photo and the plain facts first,
- * then what a walker needs to plan, the trip reports and the sources.
+ * One static page per trek, in the Kvali design. The facts are shown before they are told:
+ * big numbers, a strip of months, a difficulty meter, badges, the height profile and a map,
+ * each with a short line of plain words under it.
  */
+import RouteMap from '../../components/RouteMap.svelte';
 import { getSiteTreks } from '../../data/site';
 import type { SiteTrek } from '../../data/treks';
-import Flags from '../../design/Flags.astro';
+import Icon from '../../design/Icon.astro';
+import type { IconName } from '../../design/icon-names';
+import LevelMeter from '../../design/LevelMeter.astro';
+import MonthStrip from '../../design/MonthStrip.astro';
 import Photo from '../../design/Photo.astro';
-import RouteTrace from '../../design/RouteTrace.astro';
+import Profile from '../../design/Profile.astro';
 import Base from '../../layouts/Base.astro';
 import { trekFlags } from '../../lib/flags';
+import { BOOKING_LABELS, PERMIT_LABELS, ROUTE_TYPE_LABELS, SLEEPING_LABELS, formatCountries, formatKm, formatMetres, formatMonths } from '../../lib/format';
 import { url } from '../../lib/paths';
-import { BOOKING_LABELS, PERMIT_LABELS, ROUTE_TYPE_LABELS, SLEEPING_LABELS, formatCountries, formatDays, formatKm, formatMetres, formatMonths } from '../../lib/format';
+import type { SleepingType } from '../../schema/values';
 
 export async function getStaticPaths() {
   return (await getSiteTreks()).map((item) => ({ params: { id: item.trek.id }, props: item }));
 }
 
 type Props = SiteTrek;
-const { trek, stats, photos, folder } = Astro.props;
+const { trek, stats, photos } = Astro.props;
 const [lead, ...morePhotos] = photos;
 const largest = (sizes: Record<string, string>) => Object.values(sizes).at(-1)!;
 
@@ -31,15 +37,17 @@ const flags = trekFlags({
   water_scarce: trek.flags?.water_scarce,
   exposed_or_via_ferrata: trek.flags?.exposed_or_via_ferrata,
 });
-const facts = [
-  trek.typical_days && formatDays(trek.typical_days.min, trek.typical_days.max),
-  formatKm(stats.distance_km),
-  `${formatMetres(stats.ascent_m)} up`,
-  `highest point ${formatMetres(stats.highest_m)}`,
-].filter(Boolean);
 
-const routeLine =
-  trek.route.type === 'loop' || !trek.route.end ? `From and back to ${trek.route.start}` : `${trek.route.start} to ${trek.route.end}`;
+const days = trek.typical_days;
+const tiles = [
+  days && { number: days.min === days.max ? String(days.min) : `${days.min}–${days.max}`, unit: 'days', label: 'on foot' },
+  { number: String(Math.round(stats.distance_km)), unit: 'km', label: 'from end to end' },
+  { number: stats.ascent_m.toLocaleString('en-GB'), unit: 'm', label: 'of climbing' },
+  { number: stats.highest_m.toLocaleString('en-GB'), unit: 'm', label: 'highest point' },
+].filter((tile): tile is { number: string; unit: string; label: string } => Boolean(tile));
+
+const SLEEPING_ICONS: Record<SleepingType, IconName> = { huts: 'hut', guesthouses: 'guesthouse', camping: 'camping', mixed: 'hut' };
+const loop = trek.route.type === 'loop' || !trek.route.end;
 
 // The one thing on the page that must be seen: what to arrange or watch out for.
 const beforeYouGo = [
@@ -50,14 +58,16 @@ const beforeYouGo = [
   trek.flags?.waymarked === 'no' && 'The route is not waymarked.',
 ].filter((line): line is string => Boolean(line));
 
-/** "best_months" → "Best months" */
+/** "best_months" → "Best months", "distance_km" → "Distance" */
 const sourceLabel = (key: string) => {
   const words = key.replace(/_(km|m)$/, '').replace(/[._]+/g, ' ').trim();
   return words.charAt(0).toUpperCase() + words.slice(1);
 };
 const sources = Object.entries(trek.sources).flatMap(([field, value]) =>
-  (Array.isArray(value) ? value : [value]).map((url) => ({ field, url })),
+  (Array.isArray(value) ? value : [value]).map((link) => ({ field, link })),
 );
+/** A sentence from research may or may not end with a full stop. */
+const sentence = (text: string) => (/[.!?]$/.test(text.trim()) ? text.trim() : `${text.trim()}.`);
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -85,76 +95,133 @@ const jsonLd = {
         <h1 class="t-title kv-hand">{trek.name}</h1>
         {trek.status === 'draft' && <p class="t-small"><span class="kv-mark" data-pen="mark" data-pen-mark="underline">Draft</span>. Not reviewed yet, so a fact here may be wrong.</p>}
         <p class="lead measure">{trek.one_liner}</p>
-        <p class="t-stat">{facts.join(' · ')}</p>
-        <Flags flags={flags} />
+        <div class="kv-badges">
+          {
+            flags.map((flag) => (
+              <span class:list={['kv-badge', { 'kv-badge-warning': flag.tone === 'warning' }]} data-pen="badge">
+                {flag.icon && <Icon name={flag.icon} size={22} />}
+                <span>{flag.label}</span>
+              </span>
+            ))
+          }
+        </div>
         <div class="actions">
-          <a class="kv-btn kv-btn-primary" data-pen="button" data-pen-variant="primary" href={url(`/?trek=${trek.id}`)}>See it on the map</a>
+          <a class="kv-btn kv-btn-primary" data-pen="button" data-pen-variant="primary" href={url(`/?trek=${trek.id}`)}>See it among the others</a>
           {trek.links?.official_site && <a class="kv-btn kv-btn-secondary" data-pen="button" href={trek.links.official_site} rel="noopener">Official site</a>}
         </div>
       </div>
       {lead && <Photo photo={lead} eager />}
     </header>
 
+    <ul class="kv-tiles" aria-label="The trek in numbers">
+      {
+        tiles.map((tile) => (
+          <li class="kv-tile" data-pen="frame" data-pen-weight="fine">
+            <span class="kv-tile-number">{tile.number} <small>{tile.unit}</small></span>
+            <span class="t-label kv-hand">{tile.label}</span>
+          </li>
+        ))
+      }
+    </ul>
+
     {
       beforeYouGo.length > 0 && (
         <aside class="kv-frame kv-frame-butter before" data-pen="frame" data-pen-fill="butter" aria-labelledby="before-title">
           <h2 class="t-subheading kv-hand" id="before-title">Before you go</h2>
-          {beforeYouGo.map((line) => <p class="t-body">{line}</p>)}
+          {beforeYouGo.map((line) => <p class="t-body">{sentence(line)}</p>)}
         </aside>
       )
     }
 
     <div class="facts">
-      <section class="stack">
-        <h2 class="t-heading kv-hand">When to go</h2>
+      <section class="kv-fact" data-pen="frame" data-pen-weight="fine">
+        <div class="kv-fact-head"><Icon name="season" size={32} /><h2 class="t-subheading kv-hand">When to go</h2></div>
+        <MonthStrip months={months} />
         <p class="t-body">{months.length > 0 ? `Best in ${formatMonths(months)}.` : 'The best months are not known yet.'}</p>
-        {trek.when?.open_season && <p class="t-body">{trek.when.open_season}.</p>}
+        {trek.when?.open_season && <p class="t-small">{sentence(trek.when.open_season)}</p>}
       </section>
 
-      <section class="stack">
-        <h2 class="t-heading kv-hand">Where you sleep</h2>
-        <p class="t-body">
-          {trek.sleeping?.type ? `${SLEEPING_LABELS[trek.sleeping.type]}.` : 'Not known yet.'}
-          {trek.sleeping?.booking_ahead && ` ${BOOKING_LABELS[trek.sleeping.booking_ahead]}.`}
-        </p>
-        {trek.sleeping?.notes && <p class="t-body">{trek.sleeping.notes}</p>}
+      <section class="kv-fact" data-pen="frame" data-pen-weight="fine">
+        <div class="kv-fact-head">
+          <Icon name={trek.sleeping?.type ? SLEEPING_ICONS[trek.sleeping.type] : 'hut'} size={32} /><h2 class="t-subheading kv-hand">Where you sleep</h2>
+        </div>
+        <div class="kv-badges">
+          <span class="kv-badge" data-pen="badge">{trek.sleeping?.type ? (trek.sleeping.type === 'mixed' ? 'Mixed: beds and tent' : SLEEPING_LABELS[trek.sleeping.type]) : 'Not known yet'}</span>
+          {trek.sleeping?.booking_ahead && <span class="kv-badge" data-pen="badge">{BOOKING_LABELS[trek.sleeping.booking_ahead]}</span>}
+        </div>
+        {trek.sleeping?.notes && <p class="t-small">{sentence(trek.sleeping.notes)}</p>}
       </section>
 
-      <section class="stack">
-        <h2 class="t-heading kv-hand">How hard</h2>
-        <p class="t-body">
-          {trek.difficulty?.level ? `${trek.difficulty.level} of 4, where 1 is the easiest.` : 'Not rated yet.'}
-        </p>
-        {trek.difficulty?.reason && <p class="t-body">{trek.difficulty.reason}.</p>}
-      </section>
-
-      <section class="stack">
-        <h2 class="t-heading kv-hand">The route</h2>
-        <p class="t-body">{trek.route.type ? `${ROUTE_TYPE_LABELS[trek.route.type]}. ` : ''}{routeLine}.</p>
-        <p class="t-stat">
-          {formatKm(stats.distance_km)} · {formatMetres(stats.ascent_m)} up · {formatMetres(stats.descent_m)} down · between {formatMetres(stats.lowest_m)} and {formatMetres(stats.highest_m)}
-        </p>
-        <p class="t-caption">Measured from the route line, not copied from other sites.</p>
+      <section class="kv-fact" data-pen="frame" data-pen-weight="fine">
+        <div class="kv-fact-head"><Icon name="summit" size={32} /><h2 class="t-subheading kv-hand">How hard</h2></div>
+        {
+          trek.difficulty?.level ? (
+            <div class="level">
+              <LevelMeter level={trek.difficulty.level} seed={trek.id} />
+              <span class="t-stat">{trek.difficulty.level} of 4</span>
+            </div>
+          ) : (
+            <p class="t-body">Not rated yet.</p>
+          )
+        }
+        {trek.difficulty?.reason && <p class="t-small">{sentence(trek.difficulty.reason)}</p>}
+        <p class="t-caption">1 is the easiest, 4 the hardest.</p>
       </section>
 
       {
         trek.logistics && (
-          <section class="stack wide">
-            <h2 class="t-heading kv-hand">Getting there and back</h2>
-            {trek.logistics.getting_to_start && <p class="t-body measure">To the start: {trek.logistics.getting_to_start}</p>}
-            {trek.logistics.leaving_from_end && <p class="t-body measure">From the end: {trek.logistics.leaving_from_end}</p>}
-            {trek.logistics.nearest_airports?.length && <p class="t-body">Nearest airports: {trek.logistics.nearest_airports.join(', ')}.</p>}
+          <section class="kv-fact" data-pen="frame" data-pen-weight="fine">
+            <div class="kv-fact-head"><Icon name="trace" size={32} /><h2 class="t-subheading kv-hand">Getting there and back</h2></div>
+            {trek.logistics.getting_to_start && (
+              <div>
+                <p class="t-label kv-hand">To the start</p>
+                <p class="t-small">{sentence(trek.logistics.getting_to_start)}</p>
+              </div>
+            )}
+            {trek.logistics.leaving_from_end && (
+              <div>
+                <p class="t-label kv-hand">From the end</p>
+                <p class="t-small">{sentence(trek.logistics.leaving_from_end)}</p>
+              </div>
+            )}
+            {trek.logistics.nearest_airports?.length && (
+              <div class="airports">
+                <p class="t-label kv-hand">Nearest airports</p>
+                <div class="kv-badges">{trek.logistics.nearest_airports.map((airport) => <span class="kv-badge" data-pen="badge">{airport}</span>)}</div>
+              </div>
+            )}
           </section>
         )
       }
     </div>
 
-    <figure class="trace">
-      <RouteTrace routePath={folder.routePath} seed={trek.id} label={`The shape of the route of ${trek.name}, north up`} />
-      <figcaption class="t-caption">
-        The trace of the route, north up. Route line © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap contributors</a>
-      </figcaption>
-    </figure>
+    <section class="route stack">
+      <h2 class="t-heading kv-hand">The route</h2>
+      <p class="ends kv-hand">
+        <span>{trek.route.start}</span>
+        <span class="steps" aria-hidden="true"></span>
+        <span class="visually-hidden">{loop ? 'and back to' : 'to'}</span>
+        <span>{loop ? trek.route.start : trek.route.end}</span>
+      </p>
+      <div class="kv-badges">
+        {trek.route.type && <span class="kv-badge" data-pen="badge">{ROUTE_TYPE_LABELS[trek.route.type]}</span>}
+        <span class="kv-badge" data-pen="badge">{formatKm(stats.distance_km)}</span>
+        <span class="kv-badge" data-pen="badge">{formatMetres(stats.ascent_m)} up</span>
+        <span class="kv-badge" data-pen="badge">{formatMetres(stats.descent_m)} down</span>
+      </div>
+      {
+        stats.profile && (
+          <figure class="figure">
+            <Profile profile={stats.profile} distance_km={stats.distance_km} lowest_m={stats.lowest_m} highest_m={stats.highest_m} />
+            <figcaption class="t-caption">Height along the route line. The line may run from the end of the trek to its start.</figcaption>
+          </figure>
+        )
+      }
+      <figure class="figure">
+        <RouteMap client:visible id={trek.id} bbox={stats.bbox} label={`Map of ${trek.name}`} />
+        <figcaption class="t-caption">Distance and climbing are measured from this line, not copied from other sites. On a phone, move the map with two fingers.</figcaption>
+      </figure>
+    </section>
 
     {
       morePhotos.length > 0 && (
@@ -170,10 +237,10 @@ const jsonLd = {
           <h2 class="t-heading kv-hand">People who walked it</h2>
           <ul class="reports">
             {trek.trip_reports.map((report) => (
-              <li class="stack-tight">
-                <a class="t-body" href={report.url} rel="noopener">{report.title}</a>
-                <span class="t-body">{report.summary}</span>
-                {report.year_hiked && <span class="t-caption">Walked in {report.year_hiked}</span>}
+              <li class="report">
+                <a class="t-subheading kv-hand" href={report.url} rel="noopener">{report.title}</a>
+                <span class="t-body">{sentence(report.summary)}</span>
+                <span class="t-caption">{report.year_hiked ? `Walked in ${report.year_hiked} · ` : ''}{new URL(report.url).hostname.replace(/^www\./, '')}</span>
               </li>
             ))}
           </ul>
@@ -184,7 +251,7 @@ const jsonLd = {
     <section class="stack">
       <h2 class="t-heading kv-hand">Sources</h2>
       <ul class="sources t-caption">
-        {sources.map(({ field, url }) => <li>{sourceLabel(field)}: <a href={url} rel="noopener">{new URL(url).hostname}</a></li>)}
+        {sources.map(({ field, link }) => <li>{sourceLabel(field)}: <a href={link} rel="noopener">{new URL(link).hostname.replace(/^www\./, '')}</a></li>)}
         <li>Route line: © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap contributors</a></li>
       </ul>
       <p class="t-caption">Last verified <time datetime={trek.last_verified}>{trek.last_verified}</time></p>
@@ -218,22 +285,48 @@ const jsonLd = {
   }
   .facts {
     display: grid;
-    gap: var(--space-7) var(--space-7);
+    gap: var(--space-4);
+    align-items: start;
+  }
+  .level {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+  .airports {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+  .ends {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-3);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.15;
+  }
+  /* Footsteps between the two ends: a dotted line always means a route. */
+  .steps {
+    flex: 1 1 4rem;
+    max-width: 14rem;
+    height: 6px;
+    background-image: radial-gradient(circle, var(--pen) 2.6px, transparent 3px);
+    background-size: 14px 6px;
+    background-repeat: repeat-x;
+  }
+  .figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
   }
   .prints {
     display: grid;
     gap: var(--space-6);
     align-items: start;
-  }
-  .trace {
-    box-sizing: border-box;
-    max-width: 712px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-3);
-    padding: var(--space-5);
-    background: var(--paper-deep);
   }
   .reports,
   .sources {
@@ -242,17 +335,17 @@ const jsonLd = {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: var(--space-4);
   }
   .reports {
+    gap: var(--space-5);
     max-width: 62ch;
   }
-  .sources {
-    gap: var(--space-1);
-  }
-  .stack-tight {
+  .report {
     display: flex;
     flex-direction: column;
+    gap: var(--space-1);
+  }
+  .sources {
     gap: var(--space-1);
   }
   @media (min-width: 900px) {
@@ -262,9 +355,6 @@ const jsonLd = {
     }
     .facts {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-    .facts .wide {
-      grid-column: 1 / -1;
     }
     .prints {
       grid-template-columns: repeat(3, minmax(0, 1fr));

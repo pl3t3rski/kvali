@@ -9,7 +9,14 @@ route:
   type: point-to-point
   start: Gandzani
   end: Borjomi (or Zanavi)
-  gpx_source: https://caltopo.com/m/FEK39NC
+  osm_relation_id: 19410123
+  osm_section:
+    from:
+      - 41.3477
+      - 43.7499
+    to:
+      - 41.8412
+      - 43.3839
 distance_km: 102
 total_ascent_m: 3563
 typical_days:

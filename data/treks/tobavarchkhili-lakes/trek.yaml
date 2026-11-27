@@ -51,7 +51,11 @@ trip_reports:
     title: Our trek to Tobavarchkhili lake
     year_hiked: 2019
     summary: Four Belgian friends, 5 days from Mukhuri by the classic trail; cab to Natipuru hut, camped at Okhoje lake.
-photos: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Tobavarchkhili.jpg
+    author: Superhickish
+    license: CC BY-SA 4.0
+    shows: Tobavarchkhili lake
 sources:
   distance_km: https://www.caucasus-trekking.com/treks/trek-to-tobavarchkhili-lakes
   total_ascent_m: https://www.caucasus-trekking.com/treks/trek-to-tobavarchkhili-lakes

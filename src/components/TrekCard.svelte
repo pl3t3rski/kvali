@@ -6,7 +6,7 @@
   import Flags from '../design/Flags.svelte';
   import { pen } from '../design/sketch';
   import { trekFlags } from '../lib/flags';
-  import { ROUTE_TYPE_LABELS, formatCountries, formatMetres, formatMonths, statsLine } from '../lib/format';
+  import { ROUTE_TYPE_LABELS, formatCountries, formatMonths } from '../lib/format';
   import { PHOTO_SOURCE_NAMES } from '../lib/photo-source';
   import { url } from '../lib/paths';
 
@@ -41,13 +41,33 @@
       <span class="kv-mark kv-mark-highlight" use:pen={{ kind: 'mark' }}>{trek.name}</span>
     </h2>
     <p class="t-body">{trek.one_liner}</p>
-    <p class="t-stat">{statsLine(trek)} · {formatMetres(trek.ascent_m)} up</p>
+    <ul class="numbers" aria-label="The trek in numbers">
+      {#if trek.days}
+        <li use:pen={{ kind: 'frame', weight: 'fine' }}>
+          <span class="number">{trek.days[0] === trek.days[1] ? trek.days[0] : `${trek.days[0]}–${trek.days[1]}`}</span>
+          <span class="t-caption">days</span>
+        </li>
+      {/if}
+      <li use:pen={{ kind: 'frame', weight: 'fine' }}>
+        <span class="number">{Math.round(trek.distance_km)}</span>
+        <span class="t-caption">km</span>
+      </li>
+      <li use:pen={{ kind: 'frame', weight: 'fine' }}>
+        <span class="number">{trek.ascent_m.toLocaleString('en-GB')}</span>
+        <span class="t-caption">m up</span>
+      </li>
+      {#if trek.difficulty}
+        <li use:pen={{ kind: 'frame', weight: 'fine' }}>
+          <span class="number">{trek.difficulty}<small> of 4</small></span>
+          <span class="t-caption">how hard</span>
+        </li>
+      {/if}
+    </ul>
+    <Flags flags={trekFlags(trek)} badges />
     <p class="t-small">
       {trek.route_type ? `${ROUTE_TYPE_LABELS[trek.route_type]}. ` : ''}{route}.
       {#if trek.best_months.length > 0}Best in {formatMonths(trek.best_months)}.{/if}
-      {#if trek.difficulty}Difficulty {trek.difficulty} of 4.{/if}
     </p>
-    <Flags flags={trekFlags(trek)} />
   </div>
 
   <div><Button variant="primary" href={url(`/treks/${trek.id}/`)}>See the whole trek</Button></div>
@@ -64,6 +84,30 @@
     display: flex;
     flex-direction: column;
     gap: var(--space-3);
+  }
+  .numbers {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(4.75rem, 1fr));
+    gap: var(--space-2);
+  }
+  .numbers li {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-3) var(--space-3) var(--space-2);
+  }
+  .number {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .number small {
+    font-size: 13px;
+    font-weight: 500;
   }
   h2:focus {
     outline: none;

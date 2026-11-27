@@ -22,6 +22,9 @@ const SMOOTH_WINDOW = 5;
 /** Climbs and drops smaller than 5 m are treated as noise. */
 const CLIMB_THRESHOLD_M = 5;
 
+/** Heights kept for the profile drawing on the trek page. */
+const PROFILE_POINTS = 160;
+
 /** Samples read per stretch (about 100 km), and how many elevation tiles to keep in memory. */
 const BATCH = 3300;
 const MAX_TILES_IN_MEMORY = 250;
@@ -32,6 +35,8 @@ async function computeStats(route: RouteFeature, dem: Dem): Promise<TrekStats> {
   const lines = linesOf(route.geometry);
   const sampled = lines.map((line) => resample(line, SAMPLE_STEP_M));
 
+  /** The smoothed heights of every line, one after the other. */
+  const whole: number[] = [];
   let ascent = 0;
   let descent = 0;
   let lowest = Infinity;
@@ -47,6 +52,7 @@ async function computeStats(route: RouteFeature, dem: Dem): Promise<TrekStats> {
       for (const point of batch) elevations.push(dem.elevation(point));
     }
     const profile = smooth(elevations, SMOOTH_WINDOW);
+    whole.push(...profile);
     const totals = gainLoss(profile, CLIMB_THRESHOLD_M);
     ascent += totals.ascent;
     descent += totals.descent;
@@ -64,6 +70,9 @@ async function computeStats(route: RouteFeature, dem: Dem): Promise<TrekStats> {
     highest_m: Math.round(highest),
     bbox: bboxOf(lines).map((value) => round(value, 5)) as BBox,
     midpoint: pointAtFraction(lines, 0.5).map((value) => round(value, 5)) as LonLat,
+    profile: Array.from({ length: PROFILE_POINTS }, (_, index) =>
+      Math.round(whole[Math.round((index * (whole.length - 1)) / (PROFILE_POINTS - 1))]),
+    ),
     route_hash: routeHash(route),
   };
 }

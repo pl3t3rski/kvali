@@ -33,7 +33,15 @@ flags:
   exposed_or_via_ferrata: false
 establishment_signals: []
 trip_reports: []
-photos: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Lentekhi_in_fall.jpg
+    author: Labrang
+    license: CC BY-SA 4.0
+    shows: Lentekhi in autumn, at the southern end of the trek
+  - file_url: https://commons.wikimedia.org/wiki/File:Latali.jpg
+    author: Gogi Bedenashvili
+    license: CC BY-SA 2.0
+    shows: Ienashi in the Latali community, Upper Svaneti
 sources:
   distance_km: https://www.loc.wiki/hiking-trails/matskhvarishi-lentekhi-macxvarishi-lentexi-24628422
   typical_days: https://muchbetteradventures.com/magazine/hiking-georgia-5-best-treks-caucasus-mountains

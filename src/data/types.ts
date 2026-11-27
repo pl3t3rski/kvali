@@ -22,6 +22,8 @@ export interface RouteProperties {
   /** One relation, or the stage relations the line was joined from. */
   osm_relation_id?: number | number[];
   gpx_source?: string;
+  /** The section cut out of a longer relation, as in trek.yaml. */
+  osm_section?: { from: [number, number]; to: [number, number] };
   /** Date the geometry was fetched, YYYY-MM-DD. */
   fetched: string;
   /** How many relations (the route and its stages) and ways the line was built from. */
@@ -46,6 +48,11 @@ export interface TrekStats {
   bbox: BBox;
   /** The point at 50% of the route length. */
   midpoint: LonLat;
+  /**
+   * Height in metres at evenly spaced points along the route, for the profile drawing.
+   * Older stats files do not have it.
+   */
+  profile?: number[];
   /** Hash of the route geometry the stats were computed from. */
   route_hash: string;
 }

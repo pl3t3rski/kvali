@@ -1,0 +1,39 @@
+---
+/** Difficulty as four hand-drawn rings, the reached ones filled in butter. 1 is the easiest. */
+import { PEN, loopD, patchD, rngFrom } from './pen';
+
+interface Props {
+  level: number;
+  /** Fixes the drawing, so a trek always gets the same rings. */
+  seed: string;
+}
+const { level, seed } = Astro.props;
+const rng = rngFrom(`level:${seed}`);
+const STEP = 34;
+const rings = [1, 2, 3, 4].map((step) => {
+  const cx = 17 + (step - 1) * STEP;
+  return {
+    on: step <= level,
+    patch: patchD(cx - 12, 6, 24, 22, rng, 1.6),
+    ring: loopD(cx, 17, 11, 10.5, step <= level ? PEN.regular : PEN.fine, rng),
+  };
+});
+---
+
+<svg class="level-meter" width={4 * STEP} height="34" viewBox={`0 0 ${4 * STEP} 34`} role="img" aria-label={`Difficulty ${level} of 4`}>
+  {rings.map((item) => item.on && <path class="fill" d={item.patch} />)}
+  {rings.map((item) => <path class="ring" d={item.ring} />)}
+</svg>
+
+<style>
+  .level-meter {
+    display: block;
+    flex: none;
+  }
+  .fill {
+    fill: var(--butter);
+  }
+  .ring {
+    fill: var(--pen);
+  }
+</style>

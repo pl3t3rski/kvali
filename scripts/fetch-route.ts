@@ -13,7 +13,7 @@ import { parseGpx } from './lib/gpx';
 import { fetchRetry } from './lib/http';
 import { collectMainWays, fetchRelation, toCoordinates } from './lib/osm';
 import { error, finish, info, parseArgs, warn } from './lib/report';
-import { orientLines, stitchWays } from './lib/stitch';
+import { cutSection, orientLines, stitchWays } from './lib/stitch';
 
 /** Gaps longer than this are reported for review. */
 const GAP_WARNING_M = 200;
@@ -24,13 +24,20 @@ async function fromOsm(relationIds: number | number[]): Promise<{ lines: LonLat[
   const nodes = new Map<number, LonLat>();
   const ways: number[][] = [];
   const dropped: Record<string, number> = {};
+  const seen = new Set<string>();
+  const later = new Set<string>();
   let relations = 0;
   for (const id of ids) {
     const data = await fetchRelation(id);
     const main = collectMainWays(id, data);
     if (main.ways.length === 0) throw new Error(`Relation ${id} has no main-route ways`);
     for (const [nodeId, point] of data.nodes) nodes.set(nodeId, point);
-    ways.push(...main.ways);
+    // Two relations may share a stretch. A way that an earlier relation already gave is not added again.
+    const fresh = main.ways.filter((way) => !seen.has(way.join(',')));
+    for (const way of main.ways) later.add(way.join(','));
+    for (const key of later) seen.add(key);
+    later.clear();
+    ways.push(...fresh);
     relations += main.relations;
     for (const [role, count] of Object.entries(main.dropped)) dropped[role] = (dropped[role] ?? 0) + count;
   }
@@ -60,7 +67,8 @@ function sourceChanged(folder: TrekFolder): boolean {
   if (route.osm_relation_id !== undefined) {
     return (
       existing.properties.source !== 'osm' ||
-      JSON.stringify(existing.properties.osm_relation_id) !== JSON.stringify(route.osm_relation_id)
+      JSON.stringify(existing.properties.osm_relation_id) !== JSON.stringify(route.osm_relation_id) ||
+      JSON.stringify(existing.properties.osm_section) !== JSON.stringify(route.osm_section)
     );
   }
   return existing.properties.source !== 'gpx' || existing.properties.gpx_source !== route.gpx_source;
@@ -71,7 +79,14 @@ async function fetchRoute(folder: TrekFolder): Promise<void> {
   const fetched =
     route.osm_relation_id !== undefined ? await fromOsm(route.osm_relation_id) : await fromGpx(route.gpx_source!);
 
-  const { lines, gaps } = orientLines(fetched.lines.map((line) => roundLine(line, 6)));
+  let { lines, gaps } = orientLines(fetched.lines.map((line) => roundLine(line, 6)));
+  if (route.osm_section && route.osm_relation_id !== undefined) {
+    // [latitude, longitude] in trek.yaml; [longitude, latitude] in the geometry.
+    const [fromLat, fromLon] = route.osm_section.from;
+    const [toLat, toLon] = route.osm_section.to;
+    ({ lines, gaps } = orientLines(cutSection(lines, [fromLon, fromLat], [toLon, toLat])));
+    fetched.meta.osm_section = route.osm_section;
+  }
   if (lines.length === 0) throw new Error('No usable line in the route source');
 
   const feature: RouteFeature = {

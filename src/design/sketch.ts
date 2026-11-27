@@ -11,7 +11,7 @@
  */
 import { PEN, frameD, loopD, patchD, rngFrom, underlineD, type PenWeight, type Rng } from './pen';
 
-export type PenKind = 'frame' | 'chip' | 'button' | 'card' | 'mark';
+export type PenKind = 'frame' | 'chip' | 'badge' | 'button' | 'card' | 'mark';
 
 export interface PenOptions {
   kind: PenKind;
@@ -52,6 +52,9 @@ function strokes(o: PenOptions, W: number, H: number, r: Rng): Stroke[] {
             { d: frameD(5, 8, W - 10, H - 16, PEN.regular, r, 1), cls: 'kv-ink-on' },
           ]
         : [{ d: frameD(3, 6, W - 6, H - 12, PEN.fine, r, 2), cls: 'kv-ink' }];
+    case 'badge':
+      // A small fact in a fine frame. It is not a control, so it has no selected state.
+      return [{ d: frameD(2, 3, W - 4, H - 6, PEN.fine, r, 2), cls: 'kv-ink' }];
     case 'button':
       if (o.variant === 'primary') return [{ d: patchD(1, 2, W - 2, H - 4, r, 2.4), cls: 'kv-fill-action' }];
       if (o.variant === 'quiet') return [{ d: underlineD(6, H - 9, W - 12, PEN.regular, r), cls: 'kv-ink' }];

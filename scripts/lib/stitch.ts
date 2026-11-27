@@ -122,3 +122,34 @@ export function orientLines(lines: LonLat[][]): { lines: LonLat[][]; gaps: Route
   }
   return { lines: ordered, gaps };
 }
+
+/**
+ * Keep only the part of a route between two places. The lines must already be in walking
+ * order. Each place is matched to the nearest point of the route; what lies between stays.
+ */
+export function cutSection(lines: LonLat[][], from: LonLat, to: LonLat): LonLat[][] {
+  const nearest = (place: LonLat) => {
+    let best = { line: 0, point: 0, distance: Infinity };
+    lines.forEach((line, lineIndex) => {
+      line.forEach((point, pointIndex) => {
+        const distance = distanceM(place, point);
+        if (distance < best.distance) best = { line: lineIndex, point: pointIndex, distance };
+      });
+    });
+    return best;
+  };
+  let a = nearest(from);
+  let b = nearest(to);
+  const reversed = a.line > b.line || (a.line === b.line && a.point > b.point);
+  if (reversed) [a, b] = [b, a];
+  const section = lines
+    .map((line, index) => {
+      if (index < a.line || index > b.line) return [];
+      const start = index === a.line ? a.point : 0;
+      const end = index === b.line ? b.point : line.length - 1;
+      return line.slice(start, end + 1);
+    })
+    .filter((line) => line.length >= 2);
+  // Keep the direction asked for: from the first place to the second.
+  return reversed ? section.reverse().map((line) => [...line].reverse()) : section;
+}

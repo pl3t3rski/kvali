@@ -1,0 +1,31 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Lentekhi in fall.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Lentekhi_in_fall.jpg",
+    "author": "Labrang",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Lentekhi in autumn, at the southern end of the trek",
+    "width": 960,
+    "height": 640,
+    "sizes": {
+      "480": "/photos/lentekhi-matskhvarishi/17e1cd2447-480.webp",
+      "960": "/photos/lentekhi-matskhvarishi/17e1cd2447-960.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Latali.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Latali.jpg",
+    "author": "Gogi Bedenashvili",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "shows": "Ienashi in the Latali community, Upper Svaneti",
+    "width": 480,
+    "height": 360,
+    "sizes": {
+      "480": "/photos/lentekhi-matskhvarishi/5917100599-480.webp"
+    }
+  }
+]

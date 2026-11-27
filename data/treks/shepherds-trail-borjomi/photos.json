@@ -14,5 +14,21 @@
       "960": "/photos/shepherds-trail-borjomi/78c0d9a05a-960.webp",
       "1600": "/photos/shepherds-trail-borjomi/78c0d9a05a-1600.webp"
     }
+  },
+  {
+    "source": "commons",
+    "title": "File:ლომის მთა 02.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:%E1%83%9A%E1%83%9D%E1%83%9B%E1%83%98%E1%83%A1_%E1%83%9B%E1%83%97%E1%83%90_02.jpg",
+    "author": "Giorgimailo",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Mount Lomismta",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/shepherds-trail-borjomi/bfd18318f7-480.webp",
+      "960": "/photos/shepherds-trail-borjomi/bfd18318f7-960.webp",
+      "1600": "/photos/shepherds-trail-borjomi/bfd18318f7-1600.webp"
+    }
   }
 ]

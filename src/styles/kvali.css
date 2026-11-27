@@ -184,3 +184,28 @@ a:focus-visible {
 }
 
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+/* ---- badges: one small fact in a fine frame, with an icon when there is one ---- */
+.kv-badge {
+  display: inline-flex; align-items: center; gap: var(--space-2);
+  box-sizing: border-box; min-height: 36px; padding: 0 var(--space-3);
+  font-family: var(--font-hand); font-variation-settings: 'INFM' 100, 'BNCE' 25;
+  font-size: 15px; font-weight: 600; line-height: 1; color: var(--ink);
+}
+.kv-badge .kv-icon { color: var(--pen); }
+.kv-badge-warning,
+.kv-badge-warning .kv-icon { color: var(--warning-ink); }
+.kv-badge-warning .kv-ink { fill: var(--warning-ink); }
+.kv-badges { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-3); }
+
+/* ---- stat tiles: one big number each ---- */
+.kv-tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3); margin: 0; padding: 0; list-style: none; }
+.kv-tile { box-sizing: border-box; padding: var(--space-4) var(--space-5); display: flex; flex-direction: column; gap: var(--space-1); }
+.kv-tile-number { font-size: 32px; line-height: 36px; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.kv-tile-number small { font-size: 17px; font-weight: 500; }
+@media (min-width: 720px) { .kv-tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-4); } }
+
+/* ---- a fact card: icon, heading, then the fact shown before it is told ---- */
+.kv-fact { box-sizing: border-box; padding: var(--space-5); display: flex; flex-direction: column; gap: var(--space-3); }
+.kv-fact-head { display: flex; align-items: center; gap: var(--space-3); }
+.kv-fact-head .kv-icon { color: var(--pen); }

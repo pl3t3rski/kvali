@@ -14,5 +14,37 @@
       "960": "/photos/st-andrew-trail-borjomi/6534ed41ad-960.webp",
       "1600": "/photos/st-andrew-trail-borjomi/6534ed41ad-1600.webp"
     }
+  },
+  {
+    "source": "commons",
+    "title": "File:წმინდა ანდრია პირველწოდებულის ბილიკი.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:%E1%83%AC%E1%83%9B%E1%83%98%E1%83%9C%E1%83%93%E1%83%90_%E1%83%90%E1%83%9C%E1%83%93%E1%83%A0%E1%83%98%E1%83%90_%E1%83%9E%E1%83%98%E1%83%A0%E1%83%95%E1%83%94%E1%83%9A%E1%83%AC%E1%83%9D%E1%83%93%E1%83%94%E1%83%91%E1%83%A3%E1%83%9A%E1%83%98%E1%83%A1_%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%99%E1%83%98.jpg",
+    "author": "Giorgimailo",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "On the St. Andrew Trail",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/st-andrew-trail-borjomi/32b9941e74-480.webp",
+      "960": "/photos/st-andrew-trail-borjomi/32b9941e74-960.webp",
+      "1600": "/photos/st-andrew-trail-borjomi/32b9941e74-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:სამეცხვარეოს ტურისტული თავშესაფარი.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:%E1%83%A1%E1%83%90%E1%83%9B%E1%83%94%E1%83%AA%E1%83%AE%E1%83%95%E1%83%90%E1%83%A0%E1%83%94%E1%83%9D%E1%83%A1_%E1%83%A2%E1%83%A3%E1%83%A0%E1%83%98%E1%83%A1%E1%83%A2%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%97%E1%83%90%E1%83%95%E1%83%A8%E1%83%94%E1%83%A1%E1%83%90%E1%83%A4%E1%83%90%E1%83%A0%E1%83%98.jpg",
+    "author": "Giorgimailo",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "The Sametskhvario shelter",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/st-andrew-trail-borjomi/4c6217426b-480.webp",
+      "960": "/photos/st-andrew-trail-borjomi/4c6217426b-960.webp",
+      "1600": "/photos/st-andrew-trail-borjomi/4c6217426b-1600.webp"
+    }
   }
 ]

@@ -1,0 +1,49 @@
+---
+/** The twelve months in a row, the best ones highlighted in butter. Read at a glance. */
+import { MONTHS, formatMonths } from '../lib/format';
+
+interface Props {
+  /** Best months, 1–12. */
+  months: number[];
+}
+const { months } = Astro.props;
+---
+
+<div class="month-strip" role="img" aria-label={months.length > 0 ? `Best in ${formatMonths(months)}` : 'The best months are not known yet'}>
+  {
+    MONTHS.map((name, index) =>
+      months.includes(index + 1) ? (
+        <span class="month on"><span class="kv-mark kv-mark-highlight kv-hand" data-pen="mark">{name.slice(0, 3)}</span></span>
+      ) : (
+        <span class="month">{name.slice(0, 3)}</span>
+      ),
+    )
+  }
+</div>
+
+<style>
+  .month-strip {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: var(--space-2) 0;
+  }
+  .month {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--ink-quiet);
+  }
+  .month.on {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .month.on .kv-mark {
+    margin: 0;
+    padding: 0 0.15em;
+  }
+  @media (min-width: 420px) {
+    .month-strip {
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+    }
+  }
+</style>

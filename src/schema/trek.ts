@@ -65,6 +65,7 @@ const isoDate = z.preprocess(
 );
 
 const relationId = z.number().int().positive();
+const latLon = z.tuple([z.number().min(-90).max(90), z.number().min(-180).max(180)]);
 
 const tripReport = z.strictObject({
   url: httpUrl,
@@ -113,6 +114,11 @@ const trekObject = z.strictObject({
     end: text.optional(),
     /** One relation, or several stage relations in walking order when no single relation covers the trek. */
     osm_relation_id: z.union([relationId, z.array(relationId).min(1)]).optional(),
+    /**
+     * When the relation is a longer trail and the trek is one section of it: where the section
+     * starts and ends, each as [latitude, longitude]. The route line is cut at the nearest points.
+     */
+    osm_section: z.strictObject({ from: latLon, to: latLon }).optional(),
     /** A GPX file to use when OpenStreetMap has no relation. A web page that only links to one does not work. */
     gpx_source: httpUrl.optional(),
     /** Licence of the GPX file and the credit it asks for. Needed when `gpx_source` is the geometry source. */
