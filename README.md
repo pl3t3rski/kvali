@@ -5,17 +5,19 @@ The full plan is in [Kvali — Technical Specification v1.md](<Kvali — Technic
 
 ## What is built so far
 
-The data side is complete; the visual side is not started.
+The data side is complete and the main view works, but nothing is styled yet.
 
 | Part | State |
 | --- | --- |
 | Trek schema and validation rules | Done (`src/schema/trek.ts`, `scripts/lib/rules.ts`) |
 | Route, stats and photo scripts | Done (`scripts/`) |
 | Index build, link check, monthly re-verification | Done (`scripts/`) |
-| Filter, sorting and URL-state logic for the map view | Done, not yet wired to any UI (`src/lib/`) |
+| Filter, sorting and URL-state logic for the map view | Done (`src/lib/`) |
+| Main view: map, synced list, five filters, trek card, shareable URL, keyboard use | Working, unstyled, with placeholder route colours (`src/components/`) |
 | Trek pages, list page, About page | Plain unstyled HTML with all content and SEO tags (`src/pages/`) |
 | CI workflows | Written, not yet run on GitHub (`.github/workflows/`) |
-| Map, synced list, filters UI, mobile sheet, all styling | Not started; waits for the design |
+| Mobile bottom sheet and all styling | Not started; waits for the design |
+| Photo on the trek card in the map view | Not started; `index.json` needs the photo credit first |
 | Static map image on trek pages | Not started |
 | Research prompt | Not in the repo yet (`research/README.md`) |
 
@@ -35,6 +37,7 @@ npm install
 | `npm run validate` | Checks every trek against the schema and the rules. Makes no network requests |
 | `npm run check:links` | Checks that source, trip-report and official links still answer |
 | `npm test` | Runs the unit tests |
+| `npm run typecheck` | Type-checks the scripts and the Svelte components |
 | `npm run dev` | Local site, drafts included |
 | `npm run build` | Builds the site into `dist/`, published treks only |
 | `npm run build:drafts` | Same, drafts included |
@@ -81,6 +84,10 @@ researched value, and `last_verified` older than 24 months.
 - **Route joining.** Done by `scripts/lib/stitch.ts` instead of the osmtogeojson library, because it
   has to keep route order, drop side routes and report gaps.
 - **Filters.** "No permit" matches only `permit: none`; "Waymarked" matches only `waymarked: yes`.
+- **Map position in the URL.** Besides the filters and the trek, the query holds the map position
+  (`map=zoom/lat/lon`) once the map has been moved. A link with a trek and no position opens zoomed to the trek.
+- **Trek card in the map view.** It replaces the list while open and shows no photo yet.
+- **Placeholder colours.** Route colours by sleeping type are placeholders in `src/components/map-config.ts`.
 
 ## Deployment
 

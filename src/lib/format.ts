@@ -1,5 +1,5 @@
 /** Wording for values shown on cards and trek pages. One place to change the labels. */
-import { countryName, type Permit, type RouteType, type SleepingType, type Waymarked } from '../schema/trek';
+import { countryName, type Permit, type RouteType, type SleepingType, type Waymarked } from '../schema/values';
 
 export const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 

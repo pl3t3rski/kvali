@@ -3,7 +3,7 @@
  * Map and list both call `visibleTreks`, which is what keeps them in sync.
  */
 import type { BBox, TrekIndexEntry } from '../data/types';
-import type { SleepingType } from '../schema/trek';
+import type { SleepingType } from '../schema/values';
 import { bboxIntersects } from './geo';
 import { byEstablishment } from './sort';
 

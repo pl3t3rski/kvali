@@ -5,7 +5,7 @@
  *
  * Unknown or malformed values are ignored rather than treated as errors.
  */
-import { SLEEPING_TYPES, type SleepingType } from '../schema/trek';
+import { SLEEPING_TYPES, type SleepingType } from '../schema/values';
 import { DAYS_MAX, DAYS_MIN, NO_FILTERS, type Filters } from './filters';
 
 export interface MapView {

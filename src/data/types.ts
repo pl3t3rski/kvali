@@ -1,6 +1,6 @@
 /** Shapes of the generated files and of the built site data. */
 import type { Feature, LineString, MultiLineString } from 'geojson';
-import type { Permit, RouteType, SleepingType, Waymarked } from '../schema/trek';
+import type { Permit, RouteType, SleepingType, Waymarked } from '../schema/values';
 
 /** [west, south, east, north] in degrees. */
 export type BBox = [number, number, number, number];

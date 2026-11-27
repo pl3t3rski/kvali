@@ -11,9 +11,11 @@ interface Props {
   image?: string;
   /** Schema.org data for the page. */
   jsonLd?: Record<string, unknown>;
+  /** The page fills the window exactly, for the map view. */
+  fullscreen?: boolean;
 }
 
-const { title, description = SITE_TAGLINE, image, jsonLd } = Astro.props;
+const { title, description = SITE_TAGLINE, image, jsonLd, fullscreen = false } = Astro.props;
 const pageTitle = title ? `${title} · ${SITE_NAME}` : `${SITE_NAME} · ${SITE_TAGLINE}`;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const imageUrl = image ? new URL(image, Astro.site).href : undefined;
@@ -37,7 +39,7 @@ const imageUrl = image ? new URL(image, Astro.site).href : undefined;
     <meta name="twitter:card" content={imageUrl ? 'summary_large_image' : 'summary'} />
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   </head>
-  <body>
+  <body class:list={{ fullscreen }}>
     <header>
       <a href="/">{SITE_NAME}</a>
       <nav><a href="/about/">About</a></nav>
@@ -47,3 +49,17 @@ const imageUrl = image ? new URL(image, Astro.site).href : undefined;
     </main>
   </body>
 </html>
+
+<style is:global>
+  /* Layout only: lets the map view fill the window below the header. */
+  body.fullscreen {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    margin: 0;
+  }
+  body.fullscreen > main {
+    flex: 1;
+    min-height: 0;
+  }
+</style>
