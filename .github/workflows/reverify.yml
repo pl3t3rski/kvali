@@ -1,0 +1,34 @@
+# Runs on the first day of every month: lists treks not verified for 24 months
+# and dead links, and opens one issue with that list.
+name: reverify
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  reverify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+      - run: npm run reverify
+
+      - name: Open an issue with the findings
+        run: |
+          if [ -f reverify-report.md ]; then
+            gh issue create --title "Re-verification: $(date +%B\ %Y)" --body-file reverify-report.md
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}

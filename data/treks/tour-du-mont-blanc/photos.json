@@ -1,0 +1,32 @@
+[
+  {
+    "title": "File:Col de la Seigne adret.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Col_de_la_Seigne_adret.jpg",
+    "author": "Rémih",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Col de la Seigne, the pass between France and Italy",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/tour-du-mont-blanc/373d18b513-480.webp",
+      "960": "/photos/tour-du-mont-blanc/373d18b513-960.webp",
+      "1600": "/photos/tour-du-mont-blanc/373d18b513-1600.webp"
+    }
+  },
+  {
+    "title": "File:Grandes Jorasses - Val Ferret, Courmayeur, Aosta, Italy - August 8, 2016.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Grandes_Jorasses_-_Val_Ferret,_Courmayeur,_Aosta,_Italy_-_August_8,_2016.jpg",
+    "author": "Giorgio Galeotti",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "shows": "The Grandes Jorasses seen from the Italian Val Ferret",
+    "width": 1600,
+    "height": 601,
+    "sizes": {
+      "480": "/photos/tour-du-mont-blanc/86dea6e8a2-480.webp",
+      "960": "/photos/tour-du-mont-blanc/86dea6e8a2-960.webp",
+      "1600": "/photos/tour-du-mont-blanc/86dea6e8a2-1600.webp"
+    }
+  }
+]

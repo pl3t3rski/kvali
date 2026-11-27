@@ -1,0 +1,65 @@
+# SAMPLE DRAFT. Written from memory to test the pipeline, not from the research prompt.
+# Every field needs checking against real sources before this trek is published;
+# the entry under `conflicts` keeps it from being published by accident.
+id: transcaucasian-trail-upper-svaneti
+status: draft
+name: Transcaucasian Trail, Upper Svaneti
+countries: [GE]
+region: Svaneti, Greater Caucasus
+one_liner: Village to village below the highest Caucasus peaks, past Mestia to the tower houses of Ushguli.
+
+route:
+  type: point-to-point
+  start: Chuberi
+  end: Ushguli
+  osm_relation_id: 16118590
+
+distance_km: 140
+
+typical_days:
+  min: 8
+  max: 10
+
+when:
+  best_months: [7, 8, 9]
+
+sleeping:
+  type: guesthouses
+
+difficulty:
+  level: 3
+  reason: Remote in places, with long climbs over passes and some river crossings.
+
+flags:
+  permit: none
+  waymarked: partial
+  water_scarce: false
+  exposed_or_via_ferrata: false
+
+links:
+  official_site: https://transcaucasiantrail.org/
+
+establishment_signals:
+  - Section of the Transcaucasian Trail, with an official trail association
+
+trip_reports: []
+
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Ushguli_Svaneti_Georgia.JPG
+    author: Florian Pinel
+    license: CC BY-SA 3.0
+    shows: Ushguli and its tower houses, at the end of the trek
+  - file_url: https://commons.wikimedia.org/wiki/File:Towers_of_Mestia,_Svaneti.jpg
+    author: D.Rovchak
+    license: CC BY-SA 4.0
+    shows: The tower houses of Mestia
+
+sources:
+  when.best_months: https://transcaucasiantrail.org/
+  sleeping: https://transcaucasiantrail.org/
+  flags.permit: https://transcaucasiantrail.org/
+
+conflicts:
+  - Sample record written to test the pipeline. No field has been checked against a source yet.
+
+last_verified: 2026-11-27

@@ -1,0 +1,184 @@
+---
+/**
+ * One static page per trek. Plain semantic HTML with all the content and the
+ * SEO tags; no styling yet.
+ */
+import { getSiteTreks } from '../../data/site';
+import type { SiteTrek } from '../../data/treks';
+import Base from '../../layouts/Base.astro';
+import {
+  BOOKING_LABELS,
+  PERMIT_LABELS,
+  ROUTE_TYPE_LABELS,
+  SLEEPING_LABELS,
+  WAYMARKED_LABELS,
+  formatCountries,
+  formatDays,
+  formatKm,
+  formatMetres,
+  formatMonths,
+} from '../../lib/format';
+
+export async function getStaticPaths() {
+  return (await getSiteTreks()).map((item) => ({ params: { id: item.trek.id }, props: item }));
+}
+
+type Props = SiteTrek;
+const { trek, stats, photos } = Astro.props;
+
+const largest = (sizes: Record<string, string>) => Object.values(sizes).at(-1)!;
+const srcset = (sizes: Record<string, string>) =>
+  Object.entries(sizes)
+    .map(([width, path]) => `${path} ${width}w`)
+    .join(', ');
+
+const sources = Object.entries(trek.sources).flatMap(([field, value]) =>
+  (Array.isArray(value) ? value : [value]).map((url) => ({ field, url })),
+);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'TouristTrip',
+  name: trek.name,
+  description: trek.one_liner,
+  url: new URL(Astro.url.pathname, Astro.site).href,
+  ...(photos[0] ? { image: new URL(largest(photos[0].sizes), Astro.site).href } : {}),
+  itinerary: {
+    '@type': 'ItemList',
+    itemListElement: [trek.route.start, trek.route.end].map((name, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      item: { '@type': 'Place', name },
+    })),
+  },
+};
+---
+
+<Base title={trek.name} description={trek.one_liner} image={photos[0] && largest(photos[0].sizes)} jsonLd={jsonLd}>
+  <article>
+    {
+      photos.map((photo, index) => (
+        <figure>
+          <img
+            src={largest(photo.sizes)}
+            srcset={srcset(photo.sizes)}
+            sizes="100vw"
+            width={photo.width}
+            height={photo.height}
+            alt={photo.shows}
+            loading={index === 0 ? 'eager' : 'lazy'}
+          />
+          <figcaption>
+            {photo.shows}. Photo: <a href={photo.page_url}>{photo.author}</a>,{' '}
+            {photo.license_url ? <a href={photo.license_url}>{photo.license}</a> : photo.license}, via Wikimedia Commons
+          </figcaption>
+        </figure>
+      ))
+    }
+
+    <h1>{trek.name}</h1>
+    {trek.status === 'draft' && <p><strong>Draft: not reviewed yet.</strong></p>}
+    <p>{trek.region}, {formatCountries(trek.countries)}</p>
+    <p>{trek.one_liner}</p>
+
+    <dl>
+      <dt>Length</dt>
+      <dd>{formatDays(trek.typical_days.min, trek.typical_days.max)}</dd>
+      <dt>Distance</dt>
+      <dd>{formatKm(stats.distance_km)}</dd>
+      <dt>Total ascent</dt>
+      <dd>{formatMetres(stats.ascent_m)}</dd>
+      <dt>Highest point</dt>
+      <dd>{formatMetres(stats.highest_m)}</dd>
+      <dt>Route</dt>
+      <dd>
+        {ROUTE_TYPE_LABELS[trek.route.type]}:
+        {trek.route.type === 'loop' ? ` from and back to ${trek.route.start}` : ` ${trek.route.start} to ${trek.route.end}`}
+      </dd>
+      <dt>Best months</dt>
+      <dd>
+        {formatMonths(trek.when.best_months)}
+        {trek.when.open_season && ` (${trek.when.open_season})`}
+      </dd>
+      <dt>Sleeping</dt>
+      <dd>
+        {SLEEPING_LABELS[trek.sleeping.type]}
+        {trek.sleeping.booking_ahead && ` · ${BOOKING_LABELS[trek.sleeping.booking_ahead]}`}
+      </dd>
+      <dt>Difficulty</dt>
+      <dd>{trek.difficulty.level} of 4. {trek.difficulty.reason}</dd>
+    </dl>
+
+    <h2>Good to know</h2>
+    <ul>
+      <li>{PERMIT_LABELS[trek.flags.permit]}</li>
+      <li>{WAYMARKED_LABELS[trek.flags.waymarked]}</li>
+      {trek.flags.water_scarce && <li>Water is scarce on parts of the route</li>}
+      {trek.flags.exposed_or_via_ferrata && <li>Has exposed or via ferrata sections</li>}
+    </ul>
+
+    {
+      trek.logistics && (
+        <section>
+          <h2>Getting there and back</h2>
+          <dl>
+            {trek.logistics.getting_to_start && (
+              <>
+                <dt>To the start</dt>
+                <dd>{trek.logistics.getting_to_start}</dd>
+              </>
+            )}
+            {trek.logistics.leaving_from_end && (
+              <>
+                <dt>From the end</dt>
+                <dd>{trek.logistics.leaving_from_end}</dd>
+              </>
+            )}
+            {trek.logistics.nearest_airports?.length && (
+              <>
+                <dt>Nearest airports</dt>
+                <dd>{trek.logistics.nearest_airports.join(', ')}</dd>
+              </>
+            )}
+          </dl>
+        </section>
+      )
+    }
+
+    {
+      trek.trip_reports.length > 0 && (
+        <section>
+          <h2>Trip reports</h2>
+          <ul>
+            {trek.trip_reports.map((report) => (
+              <li>
+                <a href={report.url} rel="noopener">{report.title}</a> (hiked {report.year_hiked}). {report.summary}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      trek.links?.official_site && (
+        <p>
+          <a href={trek.links.official_site} rel="noopener">Official website</a>
+        </p>
+      )
+    }
+
+    <section>
+      <h2>Sources</h2>
+      <ul>
+        {sources.map(({ field, url }) => (
+          <li>
+            {field}: <a href={url} rel="noopener">{new URL(url).hostname}</a>
+          </li>
+        ))}
+        <li>Route line: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a></li>
+      </ul>
+      <p>Last verified: <time datetime={trek.last_verified}>{trek.last_verified}</time></p>
+    </section>
+  </article>
+</Base>

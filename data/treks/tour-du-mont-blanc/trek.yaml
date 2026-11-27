@@ -1,0 +1,70 @@
+# SAMPLE DRAFT. Written from memory to test the pipeline, not from the research prompt.
+# Every field needs checking against real sources before this trek is published;
+# the entry under `conflicts` keeps it from being published by accident.
+id: tour-du-mont-blanc
+status: draft
+name: Tour du Mont Blanc
+countries: [FR, IT, CH]
+region: Mont Blanc massif
+one_liner: The classic loop around Mont Blanc through France, Italy and Switzerland, from hut to hut over high passes.
+
+route:
+  type: loop
+  start: Les Houches
+  end: Les Houches
+  osm_relation_id: 124456
+
+distance_km: 170
+total_ascent_m: 10000
+
+typical_days:
+  min: 7
+  max: 11
+
+when:
+  best_months: [7, 8, 9]
+  open_season: Mid-June to mid-September, when the huts are staffed
+
+sleeping:
+  type: huts
+  booking_ahead: required
+
+difficulty:
+  level: 3
+  reason: Long days with around 1,000 m of climbing each, on good paths without technical ground.
+
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+
+links:
+  official_site: https://www.autourdumontblanc.com/en/
+
+establishment_signals:
+  - Official website with hut booking
+  - Waymarked along the whole route
+  - Several printed guidebooks
+
+trip_reports: []
+
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Col_de_la_Seigne_adret.jpg
+    author: Rémih
+    license: CC BY-SA 4.0
+    shows: Col de la Seigne, the pass between France and Italy
+  - file_url: https://commons.wikimedia.org/wiki/File:Grandes_Jorasses_-_Val_Ferret,_Courmayeur,_Aosta,_Italy_-_August_8,_2016.jpg
+    author: Giorgio Galeotti
+    license: CC BY 4.0
+    shows: The Grandes Jorasses seen from the Italian Val Ferret
+
+sources:
+  when.best_months: https://www.autourdumontblanc.com/en/
+  sleeping: https://www.autourdumontblanc.com/en/
+  flags.permit: https://www.autourdumontblanc.com/en/
+
+conflicts:
+  - Sample record written to test the pipeline. No field has been checked against a source yet.
+
+last_verified: 2026-11-27

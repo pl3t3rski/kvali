@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.astro/
+.cache/
+.DS_Store
+
+# Built by `npm run build:index` at deploy time
+public/index.json
+public/routes-lite.geojson
+public/routes/
+reverify-report.md
+
+# Third-party reference images; kept out of the repository
+design references/

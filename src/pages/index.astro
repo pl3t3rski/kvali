@@ -1,0 +1,33 @@
+---
+/**
+ * Main view. For now a plain list of the treks; the map, the synced list and the
+ * filters (one Svelte island on top of public/index.json and routes-lite.geojson)
+ * come with the design.
+ */
+import { SITE_TAGLINE } from '../config';
+import { getSiteTreks } from '../data/site';
+import Base from '../layouts/Base.astro';
+import { formatCountries, formatDays, formatKm } from '../lib/format';
+
+const treks = await getSiteTreks();
+---
+
+<Base>
+  <h1>{SITE_TAGLINE}</h1>
+  <p>{treks.length} {treks.length === 1 ? 'trek' : 'treks'}</p>
+  <ul>
+    {
+      treks.map(({ trek, stats }) => (
+        <li>
+          <a href={`/treks/${trek.id}/`}>{trek.name}</a>
+          {trek.status === 'draft' && <em> (draft)</em>}
+          <br />
+          {trek.region}, {formatCountries(trek.countries)} · {formatDays(trek.typical_days.min, trek.typical_days.max)} ·{' '}
+          {formatKm(stats.distance_km)}
+          <br />
+          {trek.one_liner}
+        </li>
+      ))
+    }
+  </ul>
+</Base>

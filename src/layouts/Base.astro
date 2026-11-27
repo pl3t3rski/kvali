@@ -1,0 +1,49 @@
+---
+/**
+ * Bare page shell: head tags only, no styling yet. The design goes in here later.
+ */
+import { SITE_NAME, SITE_TAGLINE } from '../config';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Site path of the Open Graph image. */
+  image?: string;
+  /** Schema.org data for the page. */
+  jsonLd?: Record<string, unknown>;
+}
+
+const { title, description = SITE_TAGLINE, image, jsonLd } = Astro.props;
+const pageTitle = title ? `${title} · ${SITE_NAME}` : `${SITE_NAME} · ${SITE_TAGLINE}`;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const imageUrl = image ? new URL(image, Astro.site).href : undefined;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {imageUrl && <meta property="og:image" content={imageUrl} />}
+    <meta name="twitter:card" content={imageUrl ? 'summary_large_image' : 'summary'} />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body>
+    <header>
+      <a href="/">{SITE_NAME}</a>
+      <nav><a href="/about/">About</a></nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>

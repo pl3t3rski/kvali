@@ -1,0 +1,81 @@
+# Runs on every push to a branch other than main (so also on every push to a pull request).
+# Fetches routes, stats and photos, commits them to the branch, then validates.
+name: validate
+
+on:
+  push:
+    branches-ignore: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      HAS_CLOUDFLARE: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - name: Cache elevation tiles
+        uses: actions/cache@v4
+        with:
+          path: .cache/dem
+          key: dem-${{ github.run_id }}
+          restore-keys: dem-
+
+      - name: Unit tests
+        run: npm test
+
+      # Each step writes its warnings (route gaps, licence mismatches) to the job summary.
+      - name: Fetch routes
+        run: npm run fetch:route
+      - name: Compute stats
+        run: npm run compute:stats
+      - name: Fetch photos
+        run: npm run fetch:photos
+
+      # Committed so that the build never depends on OSM or Commons being reachable.
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/treks public/photos
+          if git diff --cached --quiet; then
+            echo "No generated files changed."
+          else
+            git commit -m "Update generated route, stats and photo files"
+            git push
+          fi
+
+      - name: Validate
+        run: npm run validate
+
+      - name: Check links
+        run: npm run check:links
+
+      - name: Build
+        run: npm run build
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+
+      # Preview URL for the branch. Skipped until the Cloudflare secrets are set.
+      - name: Deploy preview
+        if: env.HAS_CLOUDFLARE == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=${{ vars.CLOUDFLARE_PROJECT || 'kvali' }} --branch=${{ github.ref_name }}
