@@ -1,5 +1,5 @@
 id: tct-upper-svaneti
-status: draft
+status: published
 name: Transcaucasian Trail – Upper Svaneti
 countries:
   - GE
@@ -84,11 +84,4 @@ sources:
   logistics: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia/practical-information
   permit: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia/practical-information
   waymarked: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia
-conflicts:
-  - field: typical_days
-    values:
-      - value: 7-9
-        source: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia
-      - value: 7-10
-        source: https://www.islands.com/1808314/underrated-country-georgia-eastern-europe-introducing-world-longest-continuous-transcaucasian-trail
-last_verified: 2026-11-27
+last_verified: 2026-11-28

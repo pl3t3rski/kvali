@@ -1,5 +1,5 @@
 id: mestia-ushguli
-status: draft
+status: published
 name: Mestia – Ushguli
 countries:
   - GE
@@ -105,25 +105,4 @@ sources:
   waymarked: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
   official_status: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia
   guidebook: https://www.lehmanns.ch/media/683729/1
-conflicts:
-  - field: distance_km
-    values:
-      - value: 56.9
-        source: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
-      - value: 58
-        source: https://georgia.travel/trekking-in-georgia
-      - value: 55
-        source: https://muchbetteradventures.com/magazine/hiking-georgia-5-best-treks-caucasus-mountains
-  - field: typical_days
-    values:
-      - value: 3-4
-        source: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
-      - value: 4-5
-        source: https://georgia.travel/trekking-in-georgia
-  - field: best_months
-    values:
-      - value: early June – late October
-        source: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
-      - value: July – September (sometimes mid-October)
-        source: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia/practical-information
-last_verified: 2026-11-27
+last_verified: 2026-11-28

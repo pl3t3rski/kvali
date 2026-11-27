@@ -1,5 +1,5 @@
 id: st-andrew-trail-borjomi
-status: draft
+status: published
 name: St. Andrew Trail (Borjomi-Kharagauli National Park, trail 2)
 countries:
   - GE
@@ -81,11 +81,4 @@ sources:
   permit: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
   waymarked: https://nationalparks.ge/en/site/borjomi-kharagaulinp/adventuresInner/9
   travel_articles: https://georgia.travel/trekking-in-georgia
-conflicts:
-  - field: distance_km
-    values:
-      - value: 54
-        source: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
-      - value: 51.2
-        source: https://alltrails.com/parks/georgia/samtskhe-javakheti/borjomi-kharagauli-national-park
-last_verified: 2026-11-27
+last_verified: 2026-11-28
