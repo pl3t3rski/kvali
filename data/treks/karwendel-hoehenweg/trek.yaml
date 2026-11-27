@@ -1,0 +1,82 @@
+id: karwendel-hoehenweg
+status: draft
+name: Karwendel Höhenweg
+countries:
+  - AT
+region: Karwendel Nature Park, Tyrol
+one_liner: Six demanding stages through the limestone Karwendel between Reith bei Seefeld and Scharnitz, five huts, rail-served at both ends.
+route:
+  type: point-to-point
+  start: Reith bei Seefeld station
+  end: Scharnitz (Nature Park info centre)
+distance_km: 70
+total_ascent_m: 4470
+typical_days:
+  min: 6
+  max: 6
+when:
+  best_months:
+    - July
+    - August
+    - September
+sleeping:
+  type: huts
+  notes: Five Alpine Club huts (e.g. Nördlinger Hütte, Solsteinhaus, Pfeishütte, Bettelwurfhütte, Hallerangerhaus); descent from every hut.
+difficulty:
+  level: 3
+  reason: Fitness and technique 6/6 on tirol.at; long, difficult stages; not for alpine beginners; high point 2,699 m.
+logistics:
+  getting_to_start: Reith bei Seefeld is on the Karwendel railway (bus and train).
+  leaving_from_end: Scharnitz station (bus and train).
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://karwendel-hoehenweg.at/
+establishment_signals:
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://www.moonhoneytravel.com/de/europa/oesterreich/karwendel-hoehenweg/
+    title: "Karwendel Höhenweg: Unsere 6-tägige Hüttenwanderung"
+    summary: Six days, Scharnitz to Reith direction.
+  - url: https://mountainbalance.de/karwendelhoehenweg/
+    title: Tourenbericht Karwendelhöhenweg – Wandern mit Hund
+    summary: Solo with a dog; notes on dog-friendly huts.
+  - url: https://www.ultraleicht-trekking.com/forum/topic/10917-karwendel-h%C3%B6henweg/
+    title: Karwendel-Höhenweg – Reiseberichte (forum)
+    summary: Forum member combined stages and did it in 4 days.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Hallerangerhaus_Karwendel_(1).jpg
+    author: Lehtho
+    license: CC BY-SA 4.0
+    shows: Hallerangerhaus, a hut on the route
+  - file_url: https://commons.wikimedia.org/wiki/File:Pfeish%C3%BCtte_2016-07.jpg
+    author: HerrAdams
+    license: CC BY-SA 4.0
+    shows: Pfeishütte, a hut on the route
+  - file_url: https://commons.wikimedia.org/wiki/File:Hallerangerhaus.jpg
+    author: Klaus Kettner
+    license: CC BY-SA 3.0
+    shows: Hallerangerhaus in the Karwendel
+sources:
+  distance_km: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
+  total_ascent_m: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
+  typical_days: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
+  best_months: https://www.seefeld.com/en/a-karwendel-hoehenweg
+  sleeping: https://magazin.alpenverein.de/files/broschueren/2103-karwendel-hoehenweg-broschuere_ol_30979.pdf
+  difficulty: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
+  logistics: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg-etappe-1
+  permit: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
+  huts_names: https://www.seefeld.com/en/karwendel-high-trail.html
+conflicts:
+  - field: total_ascent_m
+    values:
+      - value: 4470
+        source: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
+      - value: 7,000 (60 km)
+        source: https://www.moonhoneytravel.com/de/europa/oesterreich/karwendel-hoehenweg/
+last_verified: 2026-11-27

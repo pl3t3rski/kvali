@@ -1,0 +1,98 @@
+id: black-rock-lake-lagodekhi
+status: draft
+name: Black Rock Lake Trail (Lagodekhi Protected Areas)
+countries:
+  - GE
+region: Lagodekhi, Kakheti (Greater Caucasus)
+one_liner: Brutal 1,500 m first-day climb through beech forest to alpine huts and a border lake shared with Dagestan.
+route:
+  type: loop
+  start: Lagodekhi Protected Areas visitor centre
+  end: Lagodekhi Protected Areas visitor centre
+  osm_relation_id: 10543211
+  gpx_source: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+distance_km: 38.2
+total_ascent_m: 2888
+typical_days:
+  min: 2
+  max: 3
+when:
+  open_season: Late spring to early autumn (georgia.travel)
+sleeping:
+  type: huts
+  booking_ahead: not-needed
+  notes: "Meteo shelter (16 places) and Demidov hut: bunks and mattresses, no blankets or meals; 30 GEL hut / 5 GEL camping, paid when you register. Camping at the lake itself is not allowed."
+difficulty:
+  level: 3
+  reason: Day 1 climbs ~1,500 m, day 3 descends ~2,100 m; slippery when wet; not technical
+logistics:
+  getting_to_start: Marshrutka roughly hourly from Tbilisi (Isani) to Lagodekhi, ~2.5 h; walk or taxi up to the visitor centre.
+  leaving_from_end: Marshrutkas from Lagodekhi back to Tbilisi about every 45 min.
+  nearest_airports:
+    - Tbilisi
+flags:
+  permit: free-registration
+  permit_notes: Register at the Lagodekhi visitor centre before starting (hut/camping fees paid there). Show passport/ID at the border-guard post near the lake.
+  waymarked: true
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://apa.gov.ge/en/eco-tourism/Trails/lagodexis-daculi-teritoriebis-turistuli-bilikebi/4-shvi-kldeebis-tba
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://everywherewego.net/?p=1558
+    title: "Georgia: 3-day hike to Black Rock Lake"
+    summary: Anticlockwise in 3 days, 43 km and 2,100 m up and down, carrying all food; calls it way outside their comfort zone.
+  - url: https://www.redfedoradiary.com/?p=133
+    title: Hiking the Black Rock Lake in Lagodekhi, Georgia
+    summary: Done in three days; recommends four or five for a more relaxed pace.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Lake_Grdzeli,_Lagodekhi_Protected_Area,_Georgia.jpg
+    author: Giorgi Balakhadze
+    license: CC BY-SA 4.0
+    shows: Lake Grdzeli (Khala-Khel), the destination of the Black Rock Lake Trail
+sources:
+  distance_km: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+  total_ascent_m: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+  typical_days: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+  open_season: https://georgia.travel/trekking-in-georgia
+  sleeping: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+  difficulty: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+  logistics: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+  permit: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+  waymarked: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+  camping_rule: https://georgiantravelguide.com/en/black-rock-lake-round-trip
+conflicts:
+  - field: distance_km
+    values:
+      - value: 38.2
+        source: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+      - value: 48
+        source: https://apa.gov.ge/en/eco-tourism/Trails/lagodexis-daculi-teritoriebis-turistuli-bilikebi/4-shvi-kldeebis-tba
+      - value: 43
+        source: https://everywherewego.net/?p=1558
+  - field: typical_days
+    values:
+      - value: 3 (2 possible for fit hikers)
+        source: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+      - value: 2-3
+        source: https://georgia.travel/trekking-in-georgia
+      - value: "3"
+        source: https://apa.gov.ge/en/eco-tourism/Trails/lagodexis-daculi-teritoriebis-turistuli-bilikebi/4-shvi-kldeebis-tba
+  - field: route.type
+    values:
+      - value: loop (Meteo shelter up, Demidov hut down)
+        source: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+      - value: out-and-back to the lake from the shelter
+        source: https://apa.gov.ge/en/eco-tourism/Trails/lagodexis-daculi-teritoriebis-turistuli-bilikebi/4-shvi-kldeebis-tba
+  - field: difficulty
+    values:
+      - value: Hard
+        source: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+      - value: Average
+        source: https://apa.gov.ge/en/eco-tourism/Trails/lagodexis-daculi-teritoriebis-turistuli-bilikebi/4-shvi-kldeebis-tba
+last_verified: 2026-11-27

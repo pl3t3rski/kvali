@@ -1,0 +1,82 @@
+id: lechtaler-hoehenweg
+status: draft
+name: Lechtaler Höhenweg
+countries:
+  - AT
+region: Lechtal Alps, Tyrol
+one_liner: Rugged ridge-hopping hut route along the main crest of the Lechtal Alps at 2,000–2,500 m, with cable-secured cols; part of the Nordalpenweg/E4.
+route:
+  type: point-to-point
+  start: Stuttgarter Hütte (above Zürs)
+  end: Hanauer Hütte (above Boden/Bschlabs)
+  osm_relation_id: 33863
+distance_km: 84.5
+total_ascent_m: 6773
+typical_days:
+  min: 6
+  max: 10
+when:
+  best_months: []
+sleeping:
+  type: huts
+  notes: Chain of Alpine Club huts incl. Stuttgarter, Leutkircher, Kaiserjochhaus, Ansbacher, Memminger, Württemberger Haus, Steinsee, Hanauer Hütte.
+difficulty:
+  level: 3
+  reason: "'Difficult' black stages with steel-cable-secured cols (e.g. Alperschonjoch); high point ~2,650 m; short but rough days."
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: http://www.lechtaler-hoehenweg.at/
+establishment_signals:
+  - official_status
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://rucksacktraeger.com/lechtaler-hoehenweg-in-6-tagen-mehrtagestour-lechtaler-alpen/
+    title: "Lechtaler Höhenweg: 6 Tage durch die Lechtaler Alpen"
+    summary: Six-day traverse with stage details.
+  - url: https://www.munichmountaingirls.de/2017/08/22/lechtaler-hoehenweg-wandern-bergsteigen/
+    title: 3 Tage Lechtaler Höhenweg
+    summary: Three-day section, personal impressions.
+  - url: https://www.gipfel-glueck.de/lechtaler-hoehenweg-einmal-anders/
+    title: Lechtaler Höhenweg – einmal anders
+    summary: Walked in persistent rain, adding via ferratas.
+  - url: https://trekkingtrails.de/lechtaler-hoehenweg/
+    title: Lechtaler Höhenweg – 7 Tage in mehr als 2.000 m Höhe
+    summary: Simmshütte to Hanauer Hütte as part of a self-built Oberstdorf–Meran alternative.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Memminger_H%C3%BCtte.JPG
+    author: Vince51
+    license: CC BY-SA 3.0
+    shows: Memminger Hütte with the Seeköpfel
+  - file_url: https://commons.wikimedia.org/wiki/File:Memminger_Huette_vom_Vorderen_Seekopf.jpg
+    author: Karl Haarmann
+    license: CC BY-SA 3.0
+    shows: Memminger Hütte and Vorderer Seewisee from above
+  - file_url: https://commons.wikimedia.org/wiki/File:Stapfetobel.jpg
+    author: Karl Haarmann
+    license: CC BY-SA 3.0
+    shows: Stapfetobel on the link between Leutkircher and Stuttgarter Hütte
+sources:
+  distance_km: https://www.lechtal.at/en/tours/lechtaler-hoehenweg.html
+  total_ascent_m: https://www.lechtal.at/en/tours/lechtaler-hoehenweg.html
+  typical_days: https://rucksacktraeger.com/lechtaler-hoehenweg-in-6-tagen-mehrtagestour-lechtaler-alpen/
+  sleeping: https://www.lechtal.at/en/tours/lechtaler-hoehenweg.html
+  difficulty: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/lechtaler-hoehenweg-etappe-3
+  permit: https://www.lechtal.at/en/tours/lechtaler-hoehenweg.html
+  official_status: https://www.lechtal.at/en/tours/mehrtagestour-lechleiten-nach-hinterhornbach-1.html
+  osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=33863
+  typical_days_max: https://www.lechtal.at/en/tours/lechtaler-hoehenweg.html
+conflicts:
+  - field: distance_km
+    values:
+      - value: 84.5
+        source: https://www.lechtal.at/en/tours/lechtaler-hoehenweg.html
+      - value: ~100 (13 huts, 10 days slogan)
+        source: https://www.lechtal.at/en/tours/lechtaler-hoehenweg.html
+last_verified: 2026-11-27

@@ -1,0 +1,54 @@
+id: karawanken-karavanke-trail
+status: draft
+name: Karawanken-Karavanke Trail (Geopark)
+countries:
+  - AT
+  - SI
+region: Karavanke / Karawanken (UNESCO Global Geopark)
+one_liner: 13-stage geology loop through the Karavanke Geopark on both sides of the Austria-Slovenia border, alpine in places.
+route:
+  type: loop
+  start: Zell-Pfarre / Sele (Austria)
+  end: Zell-Pfarre / Sele (Austria)
+  gpx_source: https://www.geopark-karawanken.at/en/seite/view/karawankentrail
+distance_km: 265
+typical_days:
+  min: 13
+  max: 13
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+    - October
+  open_season: About June to October; high alpine stages only after snowmelt
+sleeping:
+  type: mixed
+  notes: Huts, guesthouses or villages along the route.
+difficulty:
+  level: 3
+  reason: Moderately difficult to difficult; alpine paths with exposed terrain needing sure footing; high point Hochobir 2,139 m; 5-10 h stages.
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: Crosses the Austria-Slovenia border; carry a passport or ID card.
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.geopark-karawanken.at/en/seite/view/karawankentrail
+establishment_signals:
+  - official status (UNESCO Global Geopark trail)
+  - official website
+  - published guidebook (printed Karawanken Trail Guide from the Geopark)
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.geopark-karawanken.at/en/seite/view/karawankentrail
+  typical_days: https://www.geopark-karawanken.at/en/seite/view/karawankentrail
+  best_months: https://www.kaernten.at/wandern/weitwandern/karawanken-trail/
+  open_season: https://www.kaernten.at/wandern/weitwandern/karawanken-trail/
+  sleeping: https://www.kaernten.at/wandern/weitwandern/karawanken-trail/
+  difficulty: https://www.kaernten.at/wandern/weitwandern/karawanken-trail/
+  permit: https://www.kaernten.at/wandern/weitwandern/karawanken-trail/
+last_verified: 2026-11-27

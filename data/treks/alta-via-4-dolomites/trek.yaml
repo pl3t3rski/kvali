@@ -1,0 +1,53 @@
+id: alta-via-4-dolomites
+status: draft
+name: Alta Via 4 delle Dolomiti (Dolomiten-Höhenweg Nr. 4, "Alta Via Grohmann")
+countries:
+  - IT
+region: Eastern Dolomites (Tre Cime, Cadini, Sorapiss, Antelao)
+one_liner: Short, spectacular Tre Cime–Sorapiss–Antelao traverse from San Candido to Pieve di Cadore in six days.
+route:
+  type: point-to-point
+  start: San Candido/Innichen
+  end: Pieve di Cadore
+  osm_relation_id: 1658415
+distance_km: 85
+total_ascent_m: 4500
+typical_days:
+  min: 6
+  max: 6
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Huts open June to September; recommended late June to late September
+sleeping:
+  type: huts
+  notes: 11 rifugi and 1 bivouac (Comici) on the main route.
+difficulty:
+  level: 3
+  reason: Graded EE; paths mostly not tiring but the ascent to Rifugio Vandelli–Bivacco Comici needs some mountaineering experience
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+establishment_signals:
+  - one of the numbered Dolomites high routes
+  - waymarked
+  - tourism-portal route page (dolomiti.it)
+  - outlined in Cicerone "Alta Via 2 - Trekking in the Dolomites (with Alte Vie 3-6 in outline)"
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+  total_ascent_m: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+  best_months: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+  open_season: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+  sleeping: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+conflicts: []
+last_verified: 2026-11-27

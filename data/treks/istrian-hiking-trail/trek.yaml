@@ -1,0 +1,71 @@
+id: istrian-hiking-trail
+status: draft
+name: Istrian Hiking Trail (Istarski planinarski put, IPP)
+countries:
+  - HR
+region: Istria (Ćićarija, Učka)
+one_liner: "Sea to sea across green Istria: from the Piran Bay coast over Ćićarija and Učka to Crna Punta, through hill villages."
+route:
+  type: point-to-point
+  start: Crveni Vrh / Monte Rosso (Umag area)
+  end: Crna Punta (Labin peninsula)
+  osm_relation_id: 6535783
+distance_km: 200
+typical_days:
+  min: 8
+  max: 8
+sleeping:
+  type: mixed
+  notes: Mountain houses at Žbevnica, Korita, Poklon, Babino sklonište and Skitača, plus village accommodation. Skitača opens by arrangement.
+difficulty:
+  level: 2
+  reason: About 54 walking hours over hill country and the Ćićarija and Učka massifs.
+logistics:
+  getting_to_start: Information board at the trailhead in Crveni Vrh, off the first Umag motorway exit.
+flags:
+  permit: none
+  waymarked: yes
+links:
+  official_site: https://www.hps.hr/info/planinarske-obilaznice/1215-istarski-planinarski-put/
+establishment_signals:
+  - "Official status: HPS-registered route; European long-distance path E12 runs on it for 59.4 km (Plovanija–Poreč)"
+  - Waymarked (red-white marks; E12 signs on the shared section)
+  - Official website (HPS registry; Buzet tourist board page)
+  - "Guidebook: 'Istarski planinarski put – vodič i dnevnik' (Istarski planinarski savez)"
+trip_reports:
+  - url: https://virtualmountains.co.uk/Istria/Istria.html
+    title: Mountains of Croatia – Istria
+    year_hiked: 2016
+    summary: Photo tours of Učka and Ćićarija sections, partly on the IPP, walked in 2016 and August 2022. Not a full traverse.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Vojak_-_U%C4%8Dka.jpg
+    author: Davor Šulavjak
+    license: CC BY-SA 4.0
+    shows: Vojak, highest point of Učka, end of IPP section 2
+  - file_url: https://commons.wikimedia.org/wiki/File:Planina_%C4%86i%C4%87arija,_Istra,_Hrvatska_-_cesta_Mune-Vodice_(003).jpg
+    author: Ante Perkovic
+    license: CC BY-SA 3.0
+    shows: Ćićarija plateau between Mune and Vodice
+sources:
+  distance_km: https://tz-buzet.hr/en/outdoor-sports/hiking-trails
+  typical_days: https://www.alltrails.com/da-dk/rute/croatia/istra/istarski-planinarski-put-etapa-8-labin-crna-punta
+  walking_hours: https://www.hps.hr/info/planinarske-obilaznice/1215-istarski-planinarski-put/
+  sleeping: https://www.hps.hr/info/planinarske-obilaznice/1215-istarski-planinarski-put/
+  difficulty: https://www.hps.hr/info/planinarske-obilaznice/1215-istarski-planinarski-put/
+  logistics: https://www.hike.uno/hiking_tour/crveni_vrh_markovac_po_ipp/33/4195/10436
+  waymarked: https://era-ewv-ferp.org/e-paths/e12/e12-in-croatia
+  guidebook: https://era-ewv-ferp.org/e-paths/e12/e12-in-croatia
+conflicts:
+  - field: distance_km
+    values:
+      - value: 200
+        source: https://tz-buzet.hr/en/outdoor-sports/hiking-trails
+      - value: 153
+        source: https://www.alltrails.com/da-dk/rute/croatia/istra/istarski-planinarski-put-etapa-8-labin-crna-punta
+  - field: route.start
+    values:
+      - value: Crveni Vrh (Monte Rosso)
+        source: https://www.hps.hr/info/planinarske-obilaznice/1215-istarski-planinarski-put/
+      - value: Juricani (Umag)
+        source: https://mail.tz-buzet.hr/en/component/tags/tag/pjesacke-staze
+last_verified: 2026-11-27

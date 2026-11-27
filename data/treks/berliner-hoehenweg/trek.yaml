@@ -1,0 +1,107 @@
+id: berliner-hoehenweg
+status: draft
+name: Berliner Höhenweg (Zillertaler Runde)
+countries:
+  - AT
+region: Zillertal Alps, Tyrol
+one_liner: High, glacier-flanked hut traverse of the Zillertal Alps over the 3,133 m Schönbichler Horn; steep and exposed in places, about a week.
+route:
+  type: point-to-point
+  start: Finkenberg (Gamshütte)
+  end: Mayrhofen (Karl-von-Edel-Hütte)
+  osm_relation_id: 240736
+distance_km: 80.3
+total_ascent_m: 7644
+typical_days:
+  min: 7
+  max: 9
+when:
+  best_months:
+    - July
+    - September
+  open_season: Huts open mid-June to late September; snow lingers on north slopes into July
+sleeping:
+  type: huts
+  notes: Eight Alpine Club huts; descent to the valley from every hut.
+difficulty:
+  level: 4
+  reason: High-alpine, close to glaciers, steep and exposed; crosses the Schönbichler Horn (3,133 m); several days above 1,200 m ascent.
+logistics:
+  getting_to_start: Mayrhofen by train/bus from Jenbach (also from Munich, Innsbruck, Salzburg); Finkenberg is next door.
+  leaving_from_end: Descend from the Karl-von-Edel-Hütte to Mayrhofen; valley villages are linked by public transport.
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.alpenverein.de/files/2303-zillertaler-runde-berliner-hoehenweg-broschuere_ol.pdf
+establishment_signals:
+  - waymarked
+  - official_site
+  - guidebook
+  - trip_reports
+trip_reports:
+  - url: https://www.puls-der-freiheit.de/wandern/h%C3%BCttentrekking/berliner-h%C3%B6henweg/
+    title: Berliner Höhenweg – Erfahrungsbericht
+    summary: Continuous stage-by-stage account of the whole route.
+  - url: https://www.moonhoneytravel.com/de/europa/oesterreich/berliner-hoehenweg/
+    title: Unsere Erfahrungen am Berliner Höhenweg
+    summary: Started at the Schlegeis reservoir instead of Finkenberg on the tourist board's advice.
+  - url: https://neumannmarcel.de/berliner-hoehenweg-in-3-tagen-fastpacking-durch-die-zillertaler-alpen/
+    title: "Berliner Höhenweg in 3 Tagen: Fastpacking"
+    summary: Fastpacked in 3 days instead of 7 (90 km, 7,649 m).
+  - url: https://airfreshing.com/ziel-berliner-hoehenweg-huettentour-zillertal/
+    title: "Ziel: Berliner Höhenweg – 3-tägige Hüttentour"
+    summary: Three-day section hike.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Berliner_H%C3%B6henweg_oberhalb_Berliner_H%C3%BCtte.jpg
+    author: Whgler
+    license: CC BY-SA 3.0
+    shows: Trail just above the Berliner Hütte
+  - file_url: https://commons.wikimedia.org/wiki/File:Berliner_H%C3%B6henweg_Greizer_H%C3%BCtte.jpg
+    author: Whgler
+    license: CC BY-SA 3.0
+    shows: Trail above the Greizer Hütte
+  - file_url: https://commons.wikimedia.org/wiki/File:Berliner_H_Weg_2006a.jpg
+    author: Holger.Ellgaard
+    license: Copyrighted free use
+    shows: Berliner Höhenweg in September 2006
+sources:
+  distance_km: https://www.bergwelten.com/t/b/18865
+  total_ascent_m: https://www.bergwelten.com/t/b/18865
+  typical_days: https://www.cicerone.co.uk/products/trekking-in-austrias-zillertal-alps
+  best_months: https://www.cicerone.co.uk/products/trekking-in-austrias-zillertal-alps
+  open_season: https://www.cicerone.co.uk/products/trekking-in-austrias-zillertal-alps
+  sleeping: https://www.alpenverein.de/files/2303-zillertaler-runde-berliner-hoehenweg-broschuere_ol.pdf
+  difficulty: https://www.bergwelten.com/t/b/18865
+  logistics: https://www.cicerone.co.uk/products/trekking-in-austrias-zillertal-alps
+  permit: https://www.alpenverein.de/files/2303-zillertaler-runde-berliner-hoehenweg-broschuere_ol.pdf
+  waymarked: https://www.alpenverein.de/files/broschueren/huettenflyer_berliner-huette_2016_27623.pdf
+  guidebook: https://www.cicerone.co.uk/products/trekking-in-austrias-zillertal-alps
+  osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=240736
+  high_point: https://www.tyrol.com/activities/sport/hiking/hiking-tours/stage-of-the-berliner-hoehenweg-zillertal-runde-furtschaglhaus-berliner-huette
+conflicts:
+  - field: distance_km
+    values:
+      - value: 80.3
+        source: https://www.bergwelten.com/t/b/18865
+      - value: ">70"
+        source: https://www.alpenverein.de/files/2303-zillertaler-runde-berliner-hoehenweg-broschuere_ol.pdf
+      - value: 71 (tirol.at sidebar listing)
+        source: https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-adlerweg-etappe-16-leutasch-ehrwald
+      - value: 95.4
+        source: https://www.bergwelten.com/a/die-berliner-huette
+      - value: 80
+        source: https://www.cicerone.co.uk/products/trekking-in-austrias-zillertal-alps
+  - field: total_ascent_m
+    values:
+      - value: 7644
+        source: https://www.bergwelten.com/t/b/18865
+      - value: 6700
+        source: https://www.alpenverein.de/files/2303-zillertaler-runde-berliner-hoehenweg-broschuere_ol.pdf
+      - value: 5300 (tirol.at sidebar listing)
+        source: https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-adlerweg-etappe-16-leutasch-ehrwald
+last_verified: 2026-11-27

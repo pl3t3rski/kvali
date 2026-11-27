@@ -1,0 +1,59 @@
+id: alta-via-della-valmalenco
+status: draft
+name: Alta Via della Valmalenco
+countries:
+  - IT
+region: Valmalenco, Bernina/Disgrazia group (Lombardy)
+one_liner: Eight-stage hut circuit of Valmalenco under the Bernina glaciers, with a glacier crossing at the Vedretta di Caspoggio (~3,000 m).
+route:
+  type: loop
+  start: Torre di Santa Maria
+  end: Caspoggio (back in the valley)
+  osm_relation_id: 6474351
+distance_km: 110
+total_ascent_m: 7951
+typical_days:
+  min: 8
+  max: 8
+when:
+  best_months:
+    - July
+    - August
+    - September
+  open_season: Summer months only (route reaches ~3,000 m)
+sleeping:
+  type: huts
+  notes: Main Valmalenco rifugi (e.g. Marinelli, Bignami); can be split into 2–3-day mini routes.
+difficulty:
+  level: 4
+  reason: Highest pass Bocchetta di Caspoggio ~3,000 m with crossing of the Vedretta di Caspoggio between Marinelli and Bignami huts
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://sondrioevalmalenco.it/en/tours/alta-della-valmalenco
+establishment_signals:
+  - regional route (OSM rwn)
+  - waymarked
+  - tourism-board pages (Sondrio e Valmalenco
+  - inLombardia
+  - Bormio)
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://bormio.eu/en/alta-via-della-valmalenco
+  total_ascent_m: https://www.bormio.eu/en/itinerari/cammino/alta-via-della-valmalenco
+  typical_days: https://sondrioevalmalenco.it/en/tours/alta-della-valmalenco
+  best_months: https://bormio.eu/en/alta-via-della-valmalenco
+  open_season: https://www.bormio.eu/it/itinerari/cammino/document-en-alta-via-della-valmalenco-it-alta-via-della-valmalenco-de-alta-via-della-valmalenco
+  sleeping: https://www.gps-tour.info/it/viaggio/detail.46838.html
+  difficulty: https://www.gps-tour.info/it/viaggio/detail.46838.html
+conflicts:
+  - field: distance_km
+    values:
+      - value: 110
+        source: https://bormio.eu/en/alta-via-della-valmalenco
+      - value: 101.5
+        source: https://www.bormio.eu/en/itinerari/cammino/alta-via-della-valmalenco
+last_verified: 2026-11-27

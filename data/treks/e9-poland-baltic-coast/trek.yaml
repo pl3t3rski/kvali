@@ -1,0 +1,78 @@
+id: e9-poland-baltic-coast
+status: draft
+name: European long-distance path E9 - Poland (incl. Szlak Nadmorski coastal trail)
+countries:
+  - PL
+region: Polish Baltic coast
+one_liner: The whole Polish Baltic coast on foot, from the German border at Świnoujście past dunes, cliffs and resorts to the Vistula Lagoon; flat, sandy and busy in summer.
+route:
+  type: point-to-point
+  start: Świnoujście (German border)
+  end: Gronowo (Russian border, Kaliningrad)
+  osm_relation_id: 3009329
+distance_km: 726.8
+when:
+  best_months: []
+  open_season: Some accommodation and catering close outside the summer holiday season.
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: Hotels, guesthouses and tent sites at least every 10-20 km. Single-night stays can be hard to find in high season. Camping on beaches and entering the dunes is not allowed.
+difficulty:
+  level: 1
+  reason: Flat coastal walking on asphalt, dirt and sand; the challenge is distance and soft sand.
+logistics:
+  getting_to_start: Świnoujście has rail and bus links; the route uses the Bielik ferry crossing in town.
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit. Beach camping and walking in the dunes are prohibited.
+  waymarked: yes
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.era-ewv-ferp.org/?p=8495
+establishment_signals:
+  - official status (E9 European long-distance path; PTTK)
+  - waymarked along the whole route (local trails joined with a uniform E9 symbol)
+  - official website (European Ramblers Association route page)
+  - regularly covered in trip reports and travel articles (mainly the Świnoujście-Hel beach walk)
+trip_reports:
+  - url: https://www.national-geographic.pl/traveler/kierunki/pocztowki-znad-baltyku/
+    title: Pocztówki znad Bałtyku
+    summary: Świnoujście to Hel along the beach (~350 km) in 9 days 7 hours, about 40 km a day, sleeping in the open; published 2012.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Szlak_Nadmorski_Rowy_-_Łeba_(czerwony).jpg
+    author: Mirrabellka44
+    license: CC BY 3.0
+    shows: The red coastal trail between Rowy and Łeba
+  - file_url: https://commons.wikimedia.org/wiki/File:Szlak1002_PromenadaGwiazdMiędzyzdroje.jpg
+    author: PawelNorbertStrzelecki
+    license: CC BY-SA 4.0
+    shows: Coastal trail waymark on the promenade in Międzyzdroje
+  - file_url: https://commons.wikimedia.org/wiki/File:Ekopark_Wschodni_kz03.jpg
+    author: Krzysztof Ziarnek, Kenraiz
+    license: CC BY-SA 4.0
+    shows: The coastal trail in Ekopark Wschodni east of Kołobrzeg
+sources:
+  distance_km: https://www.era-ewv-ferp.org/?p=8495
+  open_season: https://www.era-ewv-ferp.org/?p=8495
+  sleeping: https://www.era-ewv-ferp.org/?p=8495
+  difficulty: https://www.era-ewv-ferp.org/?p=8495
+  logistics: https://www.era-ewv-ferp.org/?p=8495
+  permit: https://www.national-geographic.pl/traveler/kierunki/pocztowki-znad-baltyku/
+  waymarked: https://www.era-ewv-ferp.org/?p=8495
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/3009329
+conflicts:
+  - field: distance_km
+    values:
+      - value: 726.8
+        source: https://www.era-ewv-ferp.org/?p=8495
+      - value: 607.9
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/3009329
+  - field: route.end
+    values:
+      - value: Gronowo (border crossing)
+        source: https://www.era-ewv-ferp.org/?p=8495
+      - value: Braniewo (Russian border)
+        source: https://hiking.waymarkedtrails.org/api/v1/list/search?query=E9%20Polska&limit=15
+last_verified: 2026-11-27

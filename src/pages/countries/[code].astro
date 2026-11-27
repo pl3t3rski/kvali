@@ -1,0 +1,161 @@
+---
+/**
+ * One page per country that has a trek: the country's treks as cards, and, when the
+ * country has a folder in data/countries, its photos with where each was taken and who took it.
+ */
+import { readCountryFolders, readCountryPhotos } from '../../data/countries';
+import { getSiteTreks } from '../../data/site';
+import type { SiteTrek } from '../../data/treks';
+import type { PhotoMeta } from '../../data/types';
+import Flags from '../../design/Flags.astro';
+import Photo from '../../design/Photo.astro';
+import Base from '../../layouts/Base.astro';
+import { cardFlags } from '../../lib/flags';
+import { formatDays, formatKm } from '../../lib/format';
+import { url } from '../../lib/paths';
+import { establishmentScore } from '../../lib/sort';
+import { countryName } from '../../schema/values';
+
+export async function getStaticPaths() {
+  const all = await getSiteTreks();
+  const folders = new Map(readCountryFolders().map((folder) => [folder.country.code, folder]));
+  // Every country that has a trek gets a page; a folder in data/countries adds its photos.
+  const codes = new Set([...folders.keys(), ...all.flatMap((item) => item.trek.countries)]);
+  return [...codes].map((code) => {
+    const folder = folders.get(code);
+    return {
+      params: { code: code.toLowerCase() },
+      props: {
+        code,
+        photos: folder ? readCountryPhotos(folder) : [],
+        // Best established first, as in the list beside the map.
+        treks: all
+          .filter((item) => item.trek.countries.includes(code))
+          .sort((a, b) => establishmentScore(b.trek.establishment_signals) - establishmentScore(a.trek.establishment_signals) || a.trek.name.localeCompare(b.trek.name)),
+      },
+    };
+  });
+}
+
+interface Props {
+  code: string;
+  photos: PhotoMeta[];
+  treks: SiteTrek[];
+}
+const { code, photos, treks } = Astro.props;
+const name = countryName(code)!;
+const [lead, ...morePhotos] = photos;
+
+const days = treks.flatMap((item) => (item.trek.typical_days ? [item.trek.typical_days.min, item.trek.typical_days.max] : []));
+const summary = [
+  `${treks.length} ${treks.length === 1 ? 'trek' : 'treks'}`,
+  days.length > 0 && `from ${Math.min(...days)} to ${Math.max(...days)} days`,
+].filter(Boolean).join(', ');
+
+// A link to the map, opened on the country: the box around all its treks.
+let mapLink = url('/');
+if (treks.length > 0) {
+  const west = Math.min(...treks.map((item) => item.stats.bbox[0]));
+  const south = Math.min(...treks.map((item) => item.stats.bbox[1]));
+  const east = Math.max(...treks.map((item) => item.stats.bbox[2]));
+  const north = Math.max(...treks.map((item) => item.stats.bbox[3]));
+  const zoom = Math.min(9, Math.log2(360 / Math.max(east - west, north - south, 0.5)) + 0.4);
+  mapLink = url(`/?map=${zoom.toFixed(2)}/${((south + north) / 2).toFixed(4)}/${((west + east) / 2).toFixed(4)}`);
+}
+const largest = (sizes: Record<string, string>) => Object.values(sizes).at(-1)!;
+---
+
+<Base title={`Treks in ${name}`} description={`Multi-day treks in ${name}: ${summary}.`} image={lead && largest(lead.sizes)}>
+  <div class="page">
+    <header class:list={['top', { 'with-photo': lead }]}>
+      <div class="stack">
+        <p class="t-caption"><a href={url('/countries/')}>All countries</a></p>
+        <h1 class="t-title kv-hand">{name}</h1>
+        <p class="lead">{summary}.</p>
+        <div><a class="kv-btn kv-btn-primary" data-pen="button" data-pen-variant="primary" href={mapLink}>See them on the map</a></div>
+      </div>
+      {lead && <Photo photo={lead} eager />}
+    </header>
+
+    <section class="stack">
+      <h2 class="t-heading kv-hand">The treks</h2>
+      <ul class="cards">
+        {
+          treks.map(({ trek, stats }) => (
+            <li>
+              <a class="kv-card" data-pen="card" href={url(`/treks/${trek.id}/`)}>
+                <span class="kv-card-body">
+                  <span class="t-caption">{trek.region}{trek.status === 'draft' ? ' · draft' : ''}</span>
+                  <span class="kv-card-name">{trek.name}</span>
+                  <span class="kv-stats">
+                    {[trek.typical_days && formatDays(trek.typical_days.min, trek.typical_days.max), formatKm(stats.distance_km)].filter(Boolean).join(' · ')}
+                  </span>
+                  <span class="t-small">{trek.one_liner}</span>
+                  <Flags
+                    flags={cardFlags({
+                      sleeping: trek.sleeping?.type,
+                      best_months: trek.when?.best_months ?? [],
+                      permit: trek.flags?.permit,
+                      waymarked: trek.flags?.waymarked,
+                      water_scarce: trek.flags?.water_scarce,
+                      exposed_or_via_ferrata: trek.flags?.exposed_or_via_ferrata,
+                    })}
+                  />
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    {
+      morePhotos.length > 0 && (
+        <section class="stack">
+          <h2 class="t-heading kv-hand">What it looks like</h2>
+          <div class="prints">
+            {morePhotos.map((photo, index) => <Photo photo={photo} tilt={index % 2 === 0 ? 'right' : 'left'} sizes="(min-width: 900px) 340px, 100vw" />)}
+          </div>
+        </section>
+      )
+    }
+  </div>
+</Base>
+
+<style>
+  .top {
+    display: grid;
+    gap: var(--space-6);
+    align-items: start;
+  }
+  .lead {
+    margin: 0;
+    font-size: 19px;
+    line-height: 28px;
+  }
+  .cards {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: var(--space-4);
+  }
+  .prints {
+    display: grid;
+    gap: var(--space-6);
+    align-items: start;
+  }
+  @media (min-width: 900px) {
+    .top.with-photo {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+      gap: var(--space-7);
+      align-items: center;
+    }
+    .cards {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .prints {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+</style>

@@ -1,0 +1,64 @@
+[
+  {
+    "source": "unsplash",
+    "title": "Unsplash Vy0KuvkCR0s",
+    "page_url": "https://unsplash.com/photos/Vy0KuvkCR0s",
+    "author": "Nick Night",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "shows": "Ushguli at dusk, with Shkhara in cloud behind it",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/tct-upper-svaneti/22205e617f-480.webp",
+      "960": "/photos/tct-upper-svaneti/22205e617f-960.webp",
+      "1600": "/photos/tct-upper-svaneti/22205e617f-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Mt Ushba, Georgia.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Mt_Ushba,_Georgia.jpg",
+    "author": "Paata Vardanashvili from Tbilisi, Georgia",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "shows": "Mt Ushba, which dominates the Becho valley stages",
+    "width": 480,
+    "height": 320,
+    "sizes": {
+      "480": "/photos/tct-upper-svaneti/f23a7b488a-480.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Mestia with Svan towers.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Mestia_with_Svan_towers.jpg",
+    "author": "Jelger Groeneveld",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "shows": "Mestia with Svan towers, the trail's halfway town",
+    "width": 1600,
+    "height": 1071,
+    "sizes": {
+      "480": "/photos/tct-upper-svaneti/3990bb0e21-480.webp",
+      "960": "/photos/tct-upper-svaneti/3990bb0e21-960.webp",
+      "1600": "/photos/tct-upper-svaneti/3990bb0e21-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Ushguli Svaneti Georgia.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Ushguli_Svaneti_Georgia.JPG",
+    "author": "Florian Pinel",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Ushguli community, the eastern end of the section",
+    "width": 1600,
+    "height": 1071,
+    "sizes": {
+      "480": "/photos/tct-upper-svaneti/7ed39c408d-480.webp",
+      "960": "/photos/tct-upper-svaneti/7ed39c408d-960.webp",
+      "1600": "/photos/tct-upper-svaneti/7ed39c408d-1600.webp"
+    }
+  }
+]

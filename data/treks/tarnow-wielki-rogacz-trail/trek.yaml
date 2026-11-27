@@ -1,0 +1,67 @@
+id: tarnow-wielki-rogacz-trail
+status: draft
+name: Tarnów-Wielki Rogacz Blue Trail (Niebieski szlak Tarnów - Wielki Rogacz)
+countries:
+  - PL
+region: Ciężkowice and Rożnów foothills, Beskid Wyspowy, Gorce, Pieniny, Beskid Sądecki
+one_liner: From the city of Tarnów through rock-city foothills and over Lubań and the Pieniny's Three Crowns to the Beskid Sądecki ridge, in about a week.
+route:
+  type: point-to-point
+  start: Tarnów
+  end: Wielki Rogacz (Beskid Sądecki)
+  osm_relation_id: 1472092
+distance_km: 191.4
+typical_days:
+  min: 5
+  max: 8
+when:
+  best_months: []
+  open_season: The Dunajec river crossing on the route is closed 1 November to 14 April.
+sleeping:
+  notes: Well-developed accommodation in the Pieniny before the last stage; little else documented.
+difficulty:
+  level: 2
+  reason: Foothills first, then mountain ranges (Gorce, Pieniny, Beskid Sądecki); no technical sections reported.
+logistics:
+  getting_to_start: "Tarnów: the trail starts on ul. Tuchowska next to the Old Cemetery (St Valentine's chapel)."
+  leaving_from_end: Ends at a junction with the red Main Beskid Trail below Wielki Rogacz; no direct transport.
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: Part of the route is in a fee-paying national park (Pieniny).
+  waymarked: yes
+establishment_signals:
+  - waymarked along the whole route (blue, PTTK)
+  - covered in national media as one of Poland's long-distance trails
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Wielki_Rogacz_szlak.jpg
+    author: Andrzej O
+    license: CC BY-SA 3.0
+    shows: Trail junction on the Wielki Rogacz summit (1182 m), the end of the trail
+  - file_url: https://commons.wikimedia.org/wiki/File:Skamieniałe_Miasto_a12.jpg
+    author: Jerzy Opioła
+    license: CC BY 2.5
+    shows: Skamieniałe Miasto rock reserve at Ciężkowice
+  - file_url: https://commons.wikimedia.org/wiki/File:Ciezkowice_Skamieniale_Miasto_08.jpg
+    author: Andrzej Otrębski
+    license: CC BY-SA 4.0
+    shows: Skamieniałe Miasto (Petrified Town) reserve, Ciężkowice
+sources:
+  distance_km: https://hiking.waymarkedtrails.org/api/v1/details/relation/1472092
+  typical_days: https://www.rmf24.pl/fakty/news-szlak-tarnow-wielki-rogacz-urok-polskich-gor,nId,5385689
+  open_season: https://mapa-turystyczna.pl/photo/174821/route/p9us?page=1
+  sleeping: https://www.rmf24.pl/fakty/news-szlak-tarnow-wielki-rogacz-urok-polskich-gor,nId,5385689
+  difficulty: https://www.rmf24.pl/fakty/news-szlak-tarnow-wielki-rogacz-urok-polskich-gor,nId,5385689
+  logistics: https://www.rmf24.pl/fakty/news-szlak-tarnow-wielki-rogacz-urok-polskich-gor,nId,5385689
+  leaving_from_end: https://www.komoot.com/highlight/5160629
+  permit: https://mapa-turystyczna.pl/photo/174821/route/p9us?page=1
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/1472092
+conflicts:
+  - field: distance_km
+    values:
+      - value: 191.4
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/1472092
+      - value: over 180
+        source: https://www.rmf24.pl/fakty/news-szlak-tarnow-wielki-rogacz-urok-polskich-gor,nId,5385689
+last_verified: 2026-11-27

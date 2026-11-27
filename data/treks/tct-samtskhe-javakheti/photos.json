@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Tabatskuri Lake.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Tabatskuri_Lake.jpg",
+    "author": "Yasuhiro Kojima",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Lake Tabatskuri, the halfway point and first guesthouse",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/tct-samtskhe-javakheti/6d1de1e097-480.webp",
+      "960": "/photos/tct-samtskhe-javakheti/6d1de1e097-960.webp",
+      "1600": "/photos/tct-samtskhe-javakheti/6d1de1e097-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Tabatskuri Lake and Abuli-Samsari Range.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Tabatskuri_Lake_and_Abuli-Samsari_Range.jpg",
+    "author": "Sandroshanidze",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Abul-Samsari range seen from Lake Tabatskuri",
+    "width": 1600,
+    "height": 508,
+    "sizes": {
+      "480": "/photos/tct-samtskhe-javakheti/4aa0e0cebd-480.webp",
+      "960": "/photos/tct-samtskhe-javakheti/4aa0e0cebd-960.webp",
+      "1600": "/photos/tct-samtskhe-javakheti/4aa0e0cebd-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Abuli Fortress 3.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Abuli_Fortress_3.jpg",
+    "author": "Kojima Yasuhiro",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "shows": "Abuli Fortress on Mt Patara Abuli; stage 1's jeep track heads towards it",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/tct-samtskhe-javakheti/a6b5ac9823-480.webp",
+      "960": "/photos/tct-samtskhe-javakheti/a6b5ac9823-960.webp",
+      "1600": "/photos/tct-samtskhe-javakheti/a6b5ac9823-1600.webp"
+    }
+  }
+]

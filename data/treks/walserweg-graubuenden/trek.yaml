@@ -1,0 +1,67 @@
+id: walserweg-graubuenden
+status: draft
+name: Walserweg Graubünden – regional route 35
+countries:
+  - CH
+  - AT
+region: Graubünden high valleys (Rheinwald, Vals, Safiental, Avers, Davos, Prättigau) to Vorarlberg
+one_liner: Three weeks through the remote high valleys settled by the Walser, from San Bernardino to Austria's Brandnertal, with farm dinners and quiet passes.
+route:
+  type: point-to-point
+  start: San Bernardino
+  end: Brand (AT)
+  osm_relation_id: 17036352
+distance_km: 320
+total_ascent_m: 19600
+typical_days:
+  min: 19
+  max: 23
+when:
+  best_months: []
+sleeping:
+  type: mixed
+  notes: Mostly village accommodation (Vals, Safien, Juf/Avers, Davos, Arosa, Klosters, St. Antönien) plus an SAC hut (Chamonas d'Ela).
+difficulty:
+  level: 3
+  reason: Technically medium, physically difficult; 4.5–7 h stages averaging ~1,000 m ascent over many passes.
+logistics:
+  getting_to_start: San Bernardino village (Misox side of the San Bernardino Pass).
+  leaving_from_end: Brand in the Brandnertal, Vorarlberg (Austria).
+  nearest_airports:
+    - Zurich
+    - Milan Malpensa
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.myswitzerland.com/en/experiences/route/walserweg/
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en/experiences/route/walserweg/
+  total_ascent_m: https://www.myswitzerland.com/en/experiences/route/walserweg/
+  typical_days: https://www.myswitzerland.com/en/experiences/route/walserweg/
+  sleeping: https://www.myswitzerland.com/en/experiences/route/walserweg/
+  difficulty: https://www.myswitzerland.com/en/experiences/route/walserweg/
+  logistics: https://www.myswitzerland.com/en/experiences/route/walserweg/
+  permit: https://www.myswitzerland.com/en/experiences/route/walserweg/
+conflicts:
+  - field: typical_days
+    values:
+      - value: 19 stages (stage list)
+        source: https://www.myswitzerland.com/en/experiences/route/walserweg/
+      - value: 23 one-day stages (intro text)
+        source: https://www.myswitzerland.com/en-gb/experiences/summer-autumn/hiking/regional-multiday-routes-search/?p=2
+  - field: distance_km
+    values:
+      - value: 320
+        source: https://www.myswitzerland.com/en/experiences/route/walserweg/
+      - value: 300
+        source: https://www.myswitzerland.com/en-gb/experiences/summer-autumn/hiking/regional-multiday-routes-search/?p=2
+last_verified: 2026-11-27

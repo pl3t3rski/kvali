@@ -1,0 +1,82 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Karnischer Hoehenweg.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Karnischer_Hoehenweg.jpg",
+    "author": "Felsigel",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "shows": "Trail between the Sillianer Hütte and the Obstanserseehütte",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/karnischer-hoehenweg/d6c6f729ac-480.webp",
+      "960": "/photos/karnischer-hoehenweg/d6c6f729ac-960.webp",
+      "1600": "/photos/karnischer-hoehenweg/d6c6f729ac-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Karnischer Hoehenweg (Große Kinigat).jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Karnischer_Hoehenweg_(Gro%C3%9Fe_Kinigat).jpg",
+    "author": "Felsigel",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "shows": "Trail north of the Große Kinigat massif",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/karnischer-hoehenweg/fab9b5905f-480.webp",
+      "960": "/photos/karnischer-hoehenweg/fab9b5905f-960.webp",
+      "1600": "/photos/karnischer-hoehenweg/fab9b5905f-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Ausgesetzter Pfad.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Ausgesetzter_Pfad.jpg",
+    "author": "Mikmaq",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "shows": "An exposed section of the trail",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/karnischer-hoehenweg/6c9547d57f-480.webp",
+      "960": "/photos/karnischer-hoehenweg/6c9547d57f-960.webp",
+      "1600": "/photos/karnischer-hoehenweg/6c9547d57f-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Hollbrucker Seen Karnische Alpen 20070706a.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Hollbrucker_Seen_Karnische_Alpen_20070706a.jpg",
+    "author": "Tigerente",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "shows": "Hollbrucker Seen lakes, Carnic Alps",
+    "width": 1600,
+    "height": 1071,
+    "sizes": {
+      "480": "/photos/karnischer-hoehenweg/db04ec3145-480.webp",
+      "960": "/photos/karnischer-hoehenweg/db04ec3145-960.webp",
+      "1600": "/photos/karnischer-hoehenweg/db04ec3145-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Karnischer Höhenweg Wegweiser 20070707.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Karnischer_H%C3%B6henweg_Wegweiser_20070707.jpg",
+    "author": "Tigerente",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Trail signpost on the Karnischer Höhenweg",
+    "width": 1600,
+    "height": 2390,
+    "sizes": {
+      "480": "/photos/karnischer-hoehenweg/ab7faa8772-480.webp",
+      "960": "/photos/karnischer-hoehenweg/ab7faa8772-960.webp",
+      "1600": "/photos/karnischer-hoehenweg/ab7faa8772-1600.webp"
+    }
+  }
+]

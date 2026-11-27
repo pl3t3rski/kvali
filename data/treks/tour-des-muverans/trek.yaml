@@ -1,0 +1,78 @@
+id: tour-des-muverans
+status: draft
+name: Tour des Muverans
+countries:
+  - CH
+region: Vaud and Valais Alps – Derborence, Ovronnaz, Pont de Nant
+one_liner: A little-known four-day hut loop around the Grand Muveran over six passes and past three lakes, mostly above the treeline.
+route:
+  type: loop
+  start: Lac de Derborence
+  end: Lac de Derborence
+  osm_relation_id: 241670
+distance_km: 52
+total_ascent_m: 4380
+typical_days:
+  min: 4
+  max: 5
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: June to September.
+sleeping:
+  type: huts
+  booking_ahead: recommended
+  notes: Numerous huts and gîtes (e.g. Cabane Rambert, Cabane du Demècre, Cabane de la Tourche, Refuge Giacomini, Refuge du Lac de Derborence). A 2022 trip report advises booking huts ahead, especially at weekends.
+difficulty:
+  level: 3
+  reason: Not technically difficult but needs ~6 h/day; officially technically medium, physically difficult; days up to ~1,400 m ascent (Derborence–Rambert).
+logistics:
+  getting_to_start: "Four entry points reachable by public transport: Derborence (PostBus from Sion in summer), Solalex, Pont de Nant and Ovronnaz."
+  leaving_from_end: Loop – leave from any of the same access points.
+  nearest_airports:
+    - Geneva
+flags:
+  permit: none
+  permit_notes: "Several conservation areas: dogs must be leashed almost the whole way."
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.myswitzerland.com/en-gb/experiences/route/tour-des-muverans/
+establishment_signals:
+  - official_site
+  - waymarked
+  - trip_reports
+trip_reports:
+  - url: https://www.rexby.com/it/hike_away/i/B8yfSFmcRSe9AqiHgiv4CA
+    title: Tour des Muverans (Alexandra Elias – hike_away)
+    year_hiked: 2022
+    summary: Solo 4-day hut-to-hut loop in summer 2022; book huts beforehand, dogs on leash in protected areas.
+  - url: https://oboeclassics.com/~oboe3583/weekwalks/Muverans_narrative.htm
+    title: The Tour des Muverans – narrative (Week Walks)
+    summary: Five-day version with gîtes and cabanes (Dorbon, Lui d'Août, Demècre), chamois at Cabane Rambert.
+  - url: https://summitpost.org/muverans-hiking-tour/162348
+    title: Muverans hiking tour
+    summary: Four days at an average altitude of ~2,000 m over six cols, with stage times.
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en-gb/experiences/route/tour-des-muverans/
+  total_ascent_m: https://www.myswitzerland.com/en-gb/experiences/route/tour-des-muverans/
+  typical_days: https://www.myswitzerland.com/en-gb/experiences/route/tour-des-muverans/
+  best_months: https://www.myswitzerland.com/en-gb/experiences/route/tour-des-muverans/
+  open_season: https://www.myswitzerland.com/en-gb/experiences/route/tour-des-muverans/
+  sleeping: https://www.rexby.com/it/hike_away/i/B8yfSFmcRSe9AqiHgiv4CA
+  difficulty: https://www.myswitzerland.com/en-my/experiences/route/tour-des-muverans/
+  logistics: https://www.myswitzerland.com/cs/zazitky/route/tour-des-muverans/
+  permit: https://www.myswitzerland.com/en-my/experiences/route/tour-des-muverans/
+conflicts:
+  - field: distance_km
+    values:
+      - value: 52
+        source: https://www.myswitzerland.com/en-gb/experiences/route/tour-des-muverans/
+      - value: 54
+        source: https://bookatrekking.com/en/trek/tour-des-muverans-5-days/
+last_verified: 2026-11-27

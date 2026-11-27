@@ -1,0 +1,66 @@
+id: grande-traversata-elbana
+status: draft
+name: Grande Traversata Elbana (GTE)
+countries:
+  - IT
+region: Isle of Elba, Tuscan Archipelago National Park
+one_liner: East-to-west ridge traverse of Elba from Cavo to Pomonte or Patresi, sea views all the way; best in spring and autumn.
+route:
+  type: point-to-point
+  start: Cavo
+  end: Pomonte (GTE Sud) or Patresi (GTE Nord)
+distance_km: 58
+typical_days:
+  min: 3
+  max: 4
+when:
+  best_months:
+    - March
+    - April
+    - May
+    - June
+    - September
+    - October
+    - November
+sleeping:
+  type: guesthouses
+  notes: Overnight in villages off the ridge (Porto Azzurro, Procchio, Poggio, Marina di Campo); stages often require descending to town.
+difficulty:
+  level: 2
+  reason: Ridge paths with daily ascents up to ~950–1,200 m, rocky granite around Monte Capanne, summer heat
+logistics:
+  getting_to_start: Hydrofoil or ferry from Piombino to Cavo
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.islepark.it/rete-sentieristica/gte
+establishment_signals:
+  - national park trail (Tuscan Archipelago NP)
+  - waymarked CAI red-white plus GTE flags
+  - guidebook (Terre di mezzo 2024)
+  - Cammini d'Italia listing
+  - covered in outdoor media
+trip_reports:
+  - url: https://www.tcs.ch/de/testberichte-ratgeber/broschueren-publikationen/touring-magazin/artikel/elba.php
+    title: "Elba: Grande Traversata Elbana (TCS Touring magazine)"
+    summary: Journalist walked the GTE in 3 stages from Cavo to Pomonte in about 25 hours of walking
+photos: []
+sources:
+  distance_km: https://www.muchbetteradventures.com/magazine/grand-traverse-of-elba-tuscany/
+  typical_days: https://fastestknowntime.com/route/gte-sud-grande-traversata-elbana-da-cavo-pomonte-italy
+  best_months: https://www.komoot.com/it-it/collection/1596434/grande-traversata-elbana-due-passi-in-montagna-e-un-tuffo-in-mare
+  sleeping: https://fastestknowntime.com/route/gte-sud-grande-traversata-elbana-da-cavo-pomonte-italy
+  difficulty: https://camminiditalia.org/en/cammini/grande-traversata-elbana/
+  logistics: https://camminiditalia.org/en/?p=67634
+conflicts:
+  - field: distance_km
+    values:
+      - value: 58
+        source: https://www.muchbetteradventures.com/magazine/grand-traverse-of-elba-tuscany/
+      - value: 46 (Sud) / 56 (Nord)
+        source: https://issuu.com/auroraciardelli/docs/web-eng_sentieri_2020_ogg24
+      - value: 62
+        source: https://www.montagna.tv/229758/e-il-momento-giusto-per-la-grande-traversata-elbana/amp/
+last_verified: 2026-11-27

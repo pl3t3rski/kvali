@@ -1,0 +1,74 @@
+id: nordalpenweg-01
+status: draft
+name: Nordalpenweg 01 (Austrian Long-Distance Trail 01)
+countries:
+  - AT
+region: Northern Limestone Alps, Burgenland/Vienna to Lake Constance
+one_liner: Austria's oldest east–west long trail through the Northern Limestone Alps, ~1,000 km and mostly high-alpine, from Lake Neusiedl or Vienna to Bregenz.
+route:
+  type: point-to-point
+  start: Rust am Neusiedler See (01A) or Perchtoldsdorf near Vienna
+  end: Bregenz (Lake Constance)
+  osm_relation_id: 177745
+distance_km: 1000
+when:
+  best_months: []
+sleeping:
+  type: mixed
+difficulty:
+  level: 4
+  reason: Largely high-alpine up to ~3,000 m (Zugspitze variant); alpine gear, sure-footedness and route-finding needed; one avoidable via ferrata (Zahme Gamseck).
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - guidebook
+  - trip_reports
+trip_reports:
+  - url: https://www.weissenboek.com/nordalpenweg/
+    title: Nordalpenweg, der österreichische Weitwanderweg 01
+    summary: Walked Vienna to Bregenz in 55 stages, mostly on the original route.
+  - url: https://www.outdoorseiten.net/archiv/tourenberichte-d-a-ch/78215-at-der-sterreichische-weitwanderweg-01-in-sechs-jahren.html
+    title: "[AT] Der Österreichische Weitwanderweg 01 in sechs Jahren"
+    summary: Completed the 01 in sections over six years.
+  - url: https://www.komoot.com/de-de/collection/1140546/nordalpenweg-01-in-49-tagen-quer-durch-oesterreich
+    title: Nordalpenweg 01 – In 49 Tagen quer durch Österreich
+    summary: Komoot collection of a 49-day crossing.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Eisenerz_-_%C3%96WWW_01_-_Nordalpenweg_Bodensee-Wienerwald.jpg
+    author: Haeferl
+    license: CC BY-SA 3.0
+    shows: Nordalpenweg sign in Eisenerz, Styria
+  - file_url: https://commons.wikimedia.org/wiki/File:Blick_vom_Nordalpenweg_auf_die_SO_Bergkette.jpg
+    author: MeckiZ1967
+    license: CC BY-SA 4.0
+    shows: View from the trail between Ravensburger Hütte and Spullersee
+sources:
+  distance_km: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
+  difficulty: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
+  permit: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
+  waymarked: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
+  official_status: https://www.alpenverein.at/weitwanderer/weitwanderwege/index.php?navid=159071997350
+  guidebook: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
+  stages: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
+  osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=177745
+conflicts:
+  - field: stages
+    values:
+      - value: 61 (2025 guidebook)
+        source: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
+      - value: 49 (guidebooks to 2024)
+        source: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
+      - value: 55 (walked)
+        source: https://www.weissenboek.com/nordalpenweg/der-weg/
+last_verified: 2026-11-27

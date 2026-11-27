@@ -1,0 +1,91 @@
+id: juliana-trail
+status: draft
+name: Juliana Trail
+countries:
+  - SI
+  - IT
+region: Julian Alps
+one_liner: Valley-and-village loop around Triglav National Park, inn to inn with trains and buses on most stages, no mountain huts.
+route:
+  type: loop
+  start: Kranjska Gora
+  end: Kranjska Gora
+  osm_relation_id: 11724854
+  gpx_source: https://julian-alps.com/en/tour/backpacking/juliana-trail-overall-tour/34541732/
+distance_km: 270
+typical_days:
+  min: 16
+  max: 21
+when:
+  best_months:
+    - April
+    - May
+    - September
+    - October
+  open_season: Late March to late October; some low stages passable year-round without snow
+sleeping:
+  type: guesthouses
+  booking_ahead: required
+  notes: No mountain huts on the trail. Official advice is to book at least 3 months ahead; high season (late June to late September) can sell out. Camping only on campsites, strictly enforced in Triglav National Park.
+difficulty:
+  level: 2
+  reason: Stages of about 8-23 km with up to about 1,000 m ascent on the steepest days; no technical sections in the sources.
+logistics:
+  getting_to_start: Trains serve Jesenice, Bled, Bohinjska Bistrica, Podbrdo and Most na Soči, so you can start at many stages.
+  leaving_from_end: Loop back to Kranjska Gora; Arriva buses run from Kranjska Gora.
+  nearest_airports: []
+flags:
+  permit: none
+  waymarked: yes
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://julian-alps.com/en/p/juliana-trail/42271466/
+establishment_signals:
+  - official status (Julian Alps destination / Triglav National Park area trail)
+  - waymarked along the whole route
+  - official website
+  - published guidebook (official guide book; Cicerone)
+  - regularly covered in trip reports
+trip_reports:
+  - url: https://www.outsideonline.com/outdoor-adventure/hiking-and-backpacking/juliana-trail-trek-slovenia?scope=anon
+    title: A New Trail in Slovenia Takes You Back in Time (Outside)
+    year_hiked: 2019
+    summary: Walked the loop over about two and a half weeks in autumn 2019, just after it opened; the village hospitality was the highlight.
+  - url: https://www.afar.com/magazine/what-it-was-like-to-hike-slovenias-juliana-trail
+    title: Learning the Value of Slowing Down on Slovenia's Juliana Trail (AFAR)
+    summary: Nine days of selected stages in off-season April; a snowstorm forced her to skip stage 2.
+  - url: https://charlieontravel.com/juliana-trail-slovenia/
+    title: Hiking Slovenia's Juliana Trail
+    summary: Three days (stages 5-7, Bled to Bohinjska Bistrica, walked in reverse) in September; finding beds was the hard part, so book months ahead.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Juliana_trail.jpg
+    author: Hladnikm
+    license: CC BY-SA 4.0
+    shows: Juliana Trail (Commons description says only 'Juliana trail')
+sources:
+  distance_km: https://julian-alps.com/en/p/juliana-trail/42271466/
+  total_ascent_m: https://julian-alps.com/en/p/juliana-trail/42271466/
+  typical_days: https://cicerone.co.uk/the-juliana-trail-what-you-need-to-know
+  best_months: https://julian-alps.com/en/p/juliana-trail-q-a/50160113/
+  open_season: https://julian-alps.com/en/p/juliana-trail-q-a/50160113/
+  sleeping: https://julian-alps.com/en/p/juliana-trail-q-a/50160113/
+  difficulty: https://julian-alps.com/en/p/juliana-trail/42271466/
+  logistics: https://julian-alps.com/en/p/juliana-trail-q-a/50160113/
+  permit: https://julian-alps.com/en/p/juliana-trail-q-a/50160113/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/11724854
+conflicts:
+  - field: total_ascent_m
+    values:
+      - value: 7163
+        source: https://www.slovenia.info/en/press-centre/press-releases/10492-the-new-270-km-trail-through-the-julian-alps-is-also-officially-open
+      - value: 7412
+        source: https://julian-alps.com/en/p/juliana-trail/42271466/
+      - value: 10000
+        source: https://www.slovenia.info/en/stories/juliana-trail-a-long-distance-hiking-trail
+  - field: distance_km
+    values:
+      - value: 270 (16-stage core loop)
+        source: https://julian-alps.com/en/p/juliana-trail/42271466/
+      - value: 330 (20 stages incl. 4 Brda stages)
+        source: https://cicerone.co.uk/the-juliana-trail-what-you-need-to-know
+last_verified: 2026-11-27

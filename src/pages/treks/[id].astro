@@ -1,37 +1,60 @@
 ---
 /**
- * One static page per trek. Plain semantic HTML with all the content and the
- * SEO tags; no styling yet.
+ * One static page per trek, in the Kvali design: the photo and the plain facts first,
+ * then what a walker needs to plan, the trip reports and the sources.
  */
 import { getSiteTreks } from '../../data/site';
 import type { SiteTrek } from '../../data/treks';
+import Flags from '../../design/Flags.astro';
+import Photo from '../../design/Photo.astro';
+import RouteTrace from '../../design/RouteTrace.astro';
 import Base from '../../layouts/Base.astro';
-import {
-  BOOKING_LABELS,
-  PERMIT_LABELS,
-  ROUTE_TYPE_LABELS,
-  SLEEPING_LABELS,
-  WAYMARKED_LABELS,
-  formatCountries,
-  formatDays,
-  formatKm,
-  formatMetres,
-  formatMonths,
-} from '../../lib/format';
+import { trekFlags } from '../../lib/flags';
+import { url } from '../../lib/paths';
+import { BOOKING_LABELS, PERMIT_LABELS, ROUTE_TYPE_LABELS, SLEEPING_LABELS, formatCountries, formatDays, formatKm, formatMetres, formatMonths } from '../../lib/format';
 
 export async function getStaticPaths() {
   return (await getSiteTreks()).map((item) => ({ params: { id: item.trek.id }, props: item }));
 }
 
 type Props = SiteTrek;
-const { trek, stats, photos } = Astro.props;
-
+const { trek, stats, photos, folder } = Astro.props;
+const [lead, ...morePhotos] = photos;
 const largest = (sizes: Record<string, string>) => Object.values(sizes).at(-1)!;
-const srcset = (sizes: Record<string, string>) =>
-  Object.entries(sizes)
-    .map(([width, path]) => `${path} ${width}w`)
-    .join(', ');
 
+const months = trek.when?.best_months ?? [];
+const flags = trekFlags({
+  sleeping: trek.sleeping?.type,
+  best_months: months,
+  permit: trek.flags?.permit,
+  waymarked: trek.flags?.waymarked,
+  water_scarce: trek.flags?.water_scarce,
+  exposed_or_via_ferrata: trek.flags?.exposed_or_via_ferrata,
+});
+const facts = [
+  trek.typical_days && formatDays(trek.typical_days.min, trek.typical_days.max),
+  formatKm(stats.distance_km),
+  `${formatMetres(stats.ascent_m)} up`,
+  `highest point ${formatMetres(stats.highest_m)}`,
+].filter(Boolean);
+
+const routeLine =
+  trek.route.type === 'loop' || !trek.route.end ? `From and back to ${trek.route.start}` : `${trek.route.start} to ${trek.route.end}`;
+
+// The one thing on the page that must be seen: what to arrange or watch out for.
+const beforeYouGo = [
+  trek.flags?.permit && trek.flags.permit !== 'none' && `${PERMIT_LABELS[trek.flags.permit]}.`,
+  trek.flags?.permit_notes,
+  trek.flags?.water_scarce && 'Water is scarce on parts of the route.',
+  trek.flags?.exposed_or_via_ferrata && 'Parts of the route are exposed.',
+  trek.flags?.waymarked === 'no' && 'The route is not waymarked.',
+].filter((line): line is string => Boolean(line));
+
+/** "best_months" → "Best months" */
+const sourceLabel = (key: string) => {
+  const words = key.replace(/_(km|m)$/, '').replace(/[._]+/g, ' ').trim();
+  return words.charAt(0).toUpperCase() + words.slice(1);
+};
 const sources = Object.entries(trek.sources).flatMap(([field, value]) =>
   (Array.isArray(value) ? value : [value]).map((url) => ({ field, url })),
 );
@@ -42,10 +65,10 @@ const jsonLd = {
   name: trek.name,
   description: trek.one_liner,
   url: new URL(Astro.url.pathname, Astro.site).href,
-  ...(photos[0] ? { image: new URL(largest(photos[0].sizes), Astro.site).href } : {}),
+  ...(lead ? { image: new URL(url(largest(lead.sizes)), Astro.site).href } : {}),
   itinerary: {
     '@type': 'ItemList',
-    itemListElement: [trek.route.start, trek.route.end].map((name, index) => ({
+    itemListElement: [trek.route.start, trek.route.end ?? trek.route.start].map((name, index) => ({
       '@type': 'ListItem',
       position: index + 1,
       item: { '@type': 'Place', name },
@@ -54,105 +77,103 @@ const jsonLd = {
 };
 ---
 
-<Base title={trek.name} description={trek.one_liner} image={photos[0] && largest(photos[0].sizes)} jsonLd={jsonLd}>
-  <article>
+<Base title={trek.name} description={trek.one_liner} image={lead && largest(lead.sizes)} jsonLd={jsonLd}>
+  <article class="page">
+    <header class:list={['top', { 'with-photo': lead }]}>
+      <div class="stack">
+        <p class="t-caption">{trek.region} · {formatCountries(trek.countries)}</p>
+        <h1 class="t-title kv-hand">{trek.name}</h1>
+        {trek.status === 'draft' && <p class="t-small"><span class="kv-mark" data-pen="mark" data-pen-mark="underline">Draft</span>. Not reviewed yet, so a fact here may be wrong.</p>}
+        <p class="lead measure">{trek.one_liner}</p>
+        <p class="t-stat">{facts.join(' · ')}</p>
+        <Flags flags={flags} />
+        <div class="actions">
+          <a class="kv-btn kv-btn-primary" data-pen="button" data-pen-variant="primary" href={url(`/?trek=${trek.id}`)}>See it on the map</a>
+          {trek.links?.official_site && <a class="kv-btn kv-btn-secondary" data-pen="button" href={trek.links.official_site} rel="noopener">Official site</a>}
+        </div>
+      </div>
+      {lead && <Photo photo={lead} eager />}
+    </header>
+
     {
-      photos.map((photo, index) => (
-        <figure>
-          <img
-            src={largest(photo.sizes)}
-            srcset={srcset(photo.sizes)}
-            sizes="100vw"
-            width={photo.width}
-            height={photo.height}
-            alt={photo.shows}
-            loading={index === 0 ? 'eager' : 'lazy'}
-          />
-          <figcaption>
-            {photo.shows}. Photo: <a href={photo.page_url}>{photo.author}</a>,{' '}
-            {photo.license_url ? <a href={photo.license_url}>{photo.license}</a> : photo.license}, via Wikimedia Commons
-          </figcaption>
-        </figure>
-      ))
+      beforeYouGo.length > 0 && (
+        <aside class="kv-frame kv-frame-butter before" data-pen="frame" data-pen-fill="butter" aria-labelledby="before-title">
+          <h2 class="t-subheading kv-hand" id="before-title">Before you go</h2>
+          {beforeYouGo.map((line) => <p class="t-body">{line}</p>)}
+        </aside>
+      )
     }
 
-    <h1>{trek.name}</h1>
-    {trek.status === 'draft' && <p><strong>Draft: not reviewed yet.</strong></p>}
-    <p>{trek.region}, {formatCountries(trek.countries)}</p>
-    <p>{trek.one_liner}</p>
+    <div class="facts">
+      <section class="stack">
+        <h2 class="t-heading kv-hand">When to go</h2>
+        <p class="t-body">{months.length > 0 ? `Best in ${formatMonths(months)}.` : 'The best months are not known yet.'}</p>
+        {trek.when?.open_season && <p class="t-body">{trek.when.open_season}.</p>}
+      </section>
 
-    <dl>
-      <dt>Length</dt>
-      <dd>{formatDays(trek.typical_days.min, trek.typical_days.max)}</dd>
-      <dt>Distance</dt>
-      <dd>{formatKm(stats.distance_km)}</dd>
-      <dt>Total ascent</dt>
-      <dd>{formatMetres(stats.ascent_m)}</dd>
-      <dt>Highest point</dt>
-      <dd>{formatMetres(stats.highest_m)}</dd>
-      <dt>Route</dt>
-      <dd>
-        {ROUTE_TYPE_LABELS[trek.route.type]}:
-        {trek.route.type === 'loop' ? ` from and back to ${trek.route.start}` : ` ${trek.route.start} to ${trek.route.end}`}
-      </dd>
-      <dt>Best months</dt>
-      <dd>
-        {formatMonths(trek.when.best_months)}
-        {trek.when.open_season && ` (${trek.when.open_season})`}
-      </dd>
-      <dt>Sleeping</dt>
-      <dd>
-        {SLEEPING_LABELS[trek.sleeping.type]}
-        {trek.sleeping.booking_ahead && ` · ${BOOKING_LABELS[trek.sleeping.booking_ahead]}`}
-      </dd>
-      <dt>Difficulty</dt>
-      <dd>{trek.difficulty.level} of 4. {trek.difficulty.reason}</dd>
-    </dl>
+      <section class="stack">
+        <h2 class="t-heading kv-hand">Where you sleep</h2>
+        <p class="t-body">
+          {trek.sleeping?.type ? `${SLEEPING_LABELS[trek.sleeping.type]}.` : 'Not known yet.'}
+          {trek.sleeping?.booking_ahead && ` ${BOOKING_LABELS[trek.sleeping.booking_ahead]}.`}
+        </p>
+        {trek.sleeping?.notes && <p class="t-body">{trek.sleeping.notes}</p>}
+      </section>
 
-    <h2>Good to know</h2>
-    <ul>
-      <li>{PERMIT_LABELS[trek.flags.permit]}</li>
-      <li>{WAYMARKED_LABELS[trek.flags.waymarked]}</li>
-      {trek.flags.water_scarce && <li>Water is scarce on parts of the route</li>}
-      {trek.flags.exposed_or_via_ferrata && <li>Has exposed or via ferrata sections</li>}
-    </ul>
+      <section class="stack">
+        <h2 class="t-heading kv-hand">How hard</h2>
+        <p class="t-body">
+          {trek.difficulty?.level ? `${trek.difficulty.level} of 4, where 1 is the easiest.` : 'Not rated yet.'}
+        </p>
+        {trek.difficulty?.reason && <p class="t-body">{trek.difficulty.reason}.</p>}
+      </section>
+
+      <section class="stack">
+        <h2 class="t-heading kv-hand">The route</h2>
+        <p class="t-body">{trek.route.type ? `${ROUTE_TYPE_LABELS[trek.route.type]}. ` : ''}{routeLine}.</p>
+        <p class="t-stat">
+          {formatKm(stats.distance_km)} · {formatMetres(stats.ascent_m)} up · {formatMetres(stats.descent_m)} down · between {formatMetres(stats.lowest_m)} and {formatMetres(stats.highest_m)}
+        </p>
+        <p class="t-caption">Measured from the route line, not copied from other sites.</p>
+      </section>
+
+      {
+        trek.logistics && (
+          <section class="stack wide">
+            <h2 class="t-heading kv-hand">Getting there and back</h2>
+            {trek.logistics.getting_to_start && <p class="t-body measure">To the start: {trek.logistics.getting_to_start}</p>}
+            {trek.logistics.leaving_from_end && <p class="t-body measure">From the end: {trek.logistics.leaving_from_end}</p>}
+            {trek.logistics.nearest_airports?.length && <p class="t-body">Nearest airports: {trek.logistics.nearest_airports.join(', ')}.</p>}
+          </section>
+        )
+      }
+    </div>
+
+    <figure class="trace">
+      <RouteTrace routePath={folder.routePath} seed={trek.id} label={`The shape of the route of ${trek.name}, north up`} />
+      <figcaption class="t-caption">
+        The trace of the route, north up. Route line © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap contributors</a>
+      </figcaption>
+    </figure>
 
     {
-      trek.logistics && (
-        <section>
-          <h2>Getting there and back</h2>
-          <dl>
-            {trek.logistics.getting_to_start && (
-              <>
-                <dt>To the start</dt>
-                <dd>{trek.logistics.getting_to_start}</dd>
-              </>
-            )}
-            {trek.logistics.leaving_from_end && (
-              <>
-                <dt>From the end</dt>
-                <dd>{trek.logistics.leaving_from_end}</dd>
-              </>
-            )}
-            {trek.logistics.nearest_airports?.length && (
-              <>
-                <dt>Nearest airports</dt>
-                <dd>{trek.logistics.nearest_airports.join(', ')}</dd>
-              </>
-            )}
-          </dl>
-        </section>
+      morePhotos.length > 0 && (
+        <div class="prints">
+          {morePhotos.map((photo, index) => <Photo photo={photo} tilt={index % 2 === 0 ? 'right' : 'left'} sizes="(min-width: 900px) 340px, 100vw" />)}
+        </div>
       )
     }
 
     {
       trek.trip_reports.length > 0 && (
-        <section>
-          <h2>Trip reports</h2>
-          <ul>
+        <section class="stack">
+          <h2 class="t-heading kv-hand">People who walked it</h2>
+          <ul class="reports">
             {trek.trip_reports.map((report) => (
-              <li>
-                <a href={report.url} rel="noopener">{report.title}</a> (hiked {report.year_hiked}). {report.summary}
+              <li class="stack-tight">
+                <a class="t-body" href={report.url} rel="noopener">{report.title}</a>
+                <span class="t-body">{report.summary}</span>
+                {report.year_hiked && <span class="t-caption">Walked in {report.year_hiked}</span>}
               </li>
             ))}
           </ul>
@@ -160,25 +181,93 @@ const jsonLd = {
       )
     }
 
-    {
-      trek.links?.official_site && (
-        <p>
-          <a href={trek.links.official_site} rel="noopener">Official website</a>
-        </p>
-      )
-    }
-
-    <section>
-      <h2>Sources</h2>
-      <ul>
-        {sources.map(({ field, url }) => (
-          <li>
-            {field}: <a href={url} rel="noopener">{new URL(url).hostname}</a>
-          </li>
-        ))}
-        <li>Route line: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a></li>
+    <section class="stack">
+      <h2 class="t-heading kv-hand">Sources</h2>
+      <ul class="sources t-caption">
+        {sources.map(({ field, url }) => <li>{sourceLabel(field)}: <a href={url} rel="noopener">{new URL(url).hostname}</a></li>)}
+        <li>Route line: © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap contributors</a></li>
       </ul>
-      <p>Last verified: <time datetime={trek.last_verified}>{trek.last_verified}</time></p>
+      <p class="t-caption">Last verified <time datetime={trek.last_verified}>{trek.last_verified}</time></p>
     </section>
   </article>
 </Base>
+
+<style>
+  .top {
+    display: grid;
+    gap: var(--space-6);
+    align-items: start;
+  }
+  .lead {
+    margin: 0;
+    font-size: 19px;
+    line-height: 28px;
+  }
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    margin-top: var(--space-2);
+  }
+  .before {
+    max-width: 62ch;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    transform: rotate(var(--tilt-right));
+  }
+  .facts {
+    display: grid;
+    gap: var(--space-7) var(--space-7);
+  }
+  .prints {
+    display: grid;
+    gap: var(--space-6);
+    align-items: start;
+  }
+  .trace {
+    box-sizing: border-box;
+    max-width: 712px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    padding: var(--space-5);
+    background: var(--paper-deep);
+  }
+  .reports,
+  .sources {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+  .reports {
+    max-width: 62ch;
+  }
+  .sources {
+    gap: var(--space-1);
+  }
+  .stack-tight {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+  @media (min-width: 900px) {
+    .top.with-photo {
+      grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+      gap: var(--space-7);
+    }
+    .facts {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .facts .wide {
+      grid-column: 1 / -1;
+    }
+    .prints {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+</style>

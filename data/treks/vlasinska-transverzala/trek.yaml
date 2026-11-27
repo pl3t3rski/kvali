@@ -1,0 +1,57 @@
+id: vlasinska-transverzala
+status: draft
+name: Vlasina Transversal (Vlasinska transverzala, T-7-38)
+countries:
+  - RS
+region: Čemernik and Vlasina, south-east Serbia
+one_liner: A steep four-day climb from Vlasotince over Čemernik towards Vlasina Lake, past remains of the Roman Via Militaris.
+route:
+  type: point-to-point
+  start: Vlasotince
+  osm_relation_id: 13244993
+distance_km: 90
+total_ascent_m: 5004
+typical_days:
+  min: 4
+  max: 4
+sleeping:
+  type: guesthouses
+  notes: Hotels and apartments at Vlasina Lake.
+difficulty:
+  level: 3
+  reason: About 1,250 m of climbing a day on average (5,004 m over 4 days).
+flags:
+  permit: free-registration
+  permit_notes: No trail permit; booklet from PD Čemernik in Vlasotince. Foreigners must register their stay with the police within 24 h.
+  waymarked: yes
+links:
+  official_site: https://pss.rs/terenipp/vlasinska-transverzala/
+establishment_signals:
+  - "Official status: PSS-registered transversal T-7-38 (opened 2009)"
+  - Waymarked with standard PSS marks (last verified 2010)
+  - "Official website: PSS register page; covered by the 1:50,000 Vlasina Lake hiking map"
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Vlasina_Lake_019.jpg
+    author: Vislupus
+    license: CC BY-SA 4.0
+    shows: Vlasina Lake (1,204 m)
+  - file_url: https://commons.wikimedia.org/wiki/File:Lake_Vlasina,_Serbia,.jpg
+    author: Jenny Poole
+    license: CC BY 2.0
+    shows: Vlasina Lake
+  - file_url: https://commons.wikimedia.org/wiki/File:Cemernik_02.jpg
+    author: Geograf208
+    license: CC BY-SA 4.0
+    shows: Landscape on Čemernik
+sources:
+  distance_km: https://pss.rs/terenipp/vlasinska-transverzala/
+  total_ascent_m: https://pss.rs/terenipp/vlasinska-transverzala/
+  typical_days: https://pss.rs/terenipp/vlasinska-transverzala/
+  sleeping: https://pss.rs/terenipp/vlasinska-transverzala/
+  difficulty: https://pss.rs/terenipp/vlasinska-transverzala/
+  route_start: https://www.iso-maps.com/en/randonnee/serbie/centralna-srbija/vlasinska-transverzala-135341
+  permit: https://mfa.gov.rs/en/citizens/travel-serbia/registration-stay
+  waymarked: https://pss.rs/terenipp/vlasinska-transverzala/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/13244993
+last_verified: 2026-11-27

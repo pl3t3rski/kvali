@@ -1,25 +1,52 @@
-/** Settings of the map view. Everything visual here is a placeholder until the design arrives. */
+/** Settings of the map view. Colours are read from the design tokens, never written here. */
 import type { BBox } from '../data/types';
 import type { SleepingType } from '../schema/values';
 
+/** The design tokens the map draws with, read from the page so the map follows the theme. */
+export interface MapColours {
+  paper: string;
+  paperDeep: string;
+  ink: string;
+  inkQuiet: string;
+  pen: string;
+  butter: string;
+  dusk: string;
+  moss: string;
+  larch: string;
+  glacier: string;
+}
+
+export function readColours(): MapColours {
+  const style = getComputedStyle(document.documentElement);
+  const token = (name: string) => style.getPropertyValue(name).trim();
+  return {
+    paper: token('--paper'),
+    paperDeep: token('--paper-deep'),
+    ink: token('--ink'),
+    inkQuiet: token('--ink-quiet'),
+    pen: token('--pen'),
+    butter: token('--butter'),
+    dusk: token('--dusk'),
+    moss: token('--moss'),
+    larch: token('--larch'),
+    glacier: token('--glacier'),
+  };
+}
+
 /**
- * PLACEHOLDER COLOURS. Route colour by where you sleep; replace with the design's palette.
- * Colour is never the only signal: the list, the card and the filter show the label next to it.
+ * Route colour by where you sleep, as the design system sets it: larch for huts, dusk for
+ * guesthouses, moss for camping. The design names no colour for mixed sleeping; it gets the
+ * plain pen colour, and a trek whose sleeping is not known yet gets the quiet ink.
+ * Colour is never the only signal: the list and the card say the same in words.
  */
-export const PLACEHOLDER_SLEEPING_COLOURS: Record<SleepingType, string> = {
-  huts: '#d95f02',
-  guesthouses: '#1b9e77',
-  camping: '#7570b3',
-  mixed: '#555555',
-};
+export function sleepingColours(c: MapColours): Record<SleepingType | 'unknown', string> {
+  return { huts: c.larch, guesthouses: c.dusk, camping: c.moss, mixed: c.ink, unknown: c.inkQuiet };
+}
 
-/** PLACEHOLDER: colour of the hovered or selected route. */
-export const PLACEHOLDER_HIGHLIGHT_COLOUR = '#111111';
-
-/** Muted OpenFreeMap base style. */
+/** OpenFreeMap's plain style. Its colours are replaced with the design tokens once it has loaded. */
 export const BASE_STYLE_URL = 'https://tiles.openfreemap.org/styles/positron';
 
-/** AWS Terrain Tiles, used for the hillshade. */
+/** AWS Terrain Tiles: the contour lines are drawn from these. */
 export const DEM_TILES_URL = 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png';
 export const DEM_ATTRIBUTION =
   '<a href="https://github.com/tilezen/joerd/blob/master/docs/attribution.md" target="_blank" rel="noopener">Terrain: Tilezen / AWS</a>';

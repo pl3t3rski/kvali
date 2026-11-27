@@ -1,0 +1,68 @@
+id: suedalpenweg-03
+status: draft
+name: Südalpenweg 03 (Austrian Long-Distance Trail 03)
+countries:
+  - AT
+region: South Styrian wine country, Koralpe, Karawanken, Carnic Alps
+one_liner: Austria's southern national trail from the Styrian vineyards along the Slovenian and Italian borders to East Tyrol; gentle in the east, alpine in the Carnic Alps.
+route:
+  type: point-to-point
+  start: Bad Radkersburg (Styria)
+  end: Sillian (East Tyrol)
+  osm_relation_id: 186221
+distance_km: 500
+typical_days:
+  min: 25
+  max: 25
+when:
+  best_months: []
+sleeping:
+  type: mixed
+difficulty:
+  level: 3
+  reason: Ranges from very easy to demanding; up to ~2,700 m; full alpine equipment, sure-footedness and head for heights required on the western sections.
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.alpenverein.at/weitwanderer/weitwanderwege/suedalpenweg.php
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - guidebook
+  - trip_reports
+trip_reports:
+  - url: https://www.ifollowedthewhiteblazes.com/fazit-suedalpenweg-03/
+    title: Fazit – Südalpenweg 03
+    summary: Thru-hiker's summary of the whole trail.
+  - url: https://gepacktundlos.com/suedalpenweg-03/
+    title: Südalpenweg 03 – Weitwandern von Bad Radkersburg bis nach Sillian
+    summary: Account of walking the border region between Austria, Slovenia and Italy.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Wolayerseehuette_Neu_seit_2013.jpg
+    author: Wolayerseehütte
+    license: CC BY-SA 4.0
+    shows: Wolayerseehütte in the Carnic Alps (shared with the Karnischer Höhenweg)
+sources:
+  distance_km: https://www.alpenverein.at/weitwanderer/weitwanderwege/suedalpenweg.php
+  typical_days: https://www.alpenverein.at/weitwanderer/weitwanderwege/suedalpenweg.php
+  difficulty: https://www.alpenverein.at/weitwanderer/weitwanderwege/suedalpenweg.php
+  permit: https://www.alpenverein.at/weitwanderer/weitwanderwege/suedalpenweg.php
+  waymarked: https://www.austria.info/de-de/aktivitaeten/weitwandern/
+  official_status: https://www.alpenverein.at/weitwanderer/weitwanderwege/index.php?navid=159071997350
+  guidebook: https://www.alpenverein.at/weitwanderer/weitwanderwege/suedalpenweg.php
+  osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=186221
+conflicts:
+  - field: distance_km
+    values:
+      - value: ~500 km main route (660 km incl. Bozen extension)
+        source: https://www.alpenverein.at/weitwanderer/weitwanderwege/suedalpenweg.php
+      - value: 463.2
+        source: https://www.outdooractive.com/de/route/fernwanderweg/weitwanderweg-03-suedalpenweg/14534584/review
+last_verified: 2026-11-27

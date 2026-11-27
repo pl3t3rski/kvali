@@ -1,0 +1,57 @@
+id: tour-des-combins
+status: draft
+name: Tour des Combins
+countries:
+  - CH
+  - IT
+region: Pennine Alps (Valais / Aosta Valley – Valpelline, Great St Bernard)
+one_liner: Quieter TMB alternative circling the Grand Combin through Val de Bagnes and Italy's Ollomont valley via the Fenêtre de Durand (2,797 m).
+route:
+  type: loop
+  start: Bourg-Saint-Pierre (CH) or Great St Bernard Pass
+  end: Same as start
+  osm_relation_id: 49181
+distance_km: 101.57
+total_ascent_m: 6173
+typical_days:
+  min: 6
+  max: 7
+sleeping:
+  type: huts
+  notes: Swiss cabanes and Italian rifugi (e.g. Rifugio Letey on the Italian side).
+difficulty:
+  level: 3
+  reason: High passes up to the Fenêtre de Durand (2,797 m), glacial moraine terrain, days of ~800–950 m ascent
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.lovevda.it/en/sport/trekking/international-tours/tour-des-combins
+establishment_signals:
+  - international trail (CH/IT)
+  - waymarked
+  - tourism-board page (Aosta Valley "international tours")
+  - covered in trip reports and trek operators
+trip_reports:
+  - url: https://novo-monde.com/?p=30791
+    title: Tour des Combins (Novo-monde)
+    summary: Couple's day-by-day account from Bourg-Saint-Pierre via Cabane de Mille, Panossière and Chanrion, with video
+  - url: https://summitpost.org/tour-des-combins/162426
+    title: Tour des Combins
+    summary: First-hand stage notes incl. Chanrion – Fenêtre de Durand – By/Ollomont
+photos: []
+sources:
+  distance_km: https://fastestknowntime.com/route/tour-des-combins-switzerland-italy
+  total_ascent_m: https://fastestknowntime.com/route/tour-des-combins-switzerland-italy
+  typical_days: https://fastestknowntime.com/route/tour-des-combins-switzerland-italy
+  sleeping: https://bookatrekking.com/en/trek/compact-tour-des-combins-6-days/
+  difficulty: https://bookatrekking.com/en/trek/compact-tour-des-combins-6-days/
+conflicts:
+  - field: total_ascent_m
+    values:
+      - value: 6173
+        source: https://fastestknowntime.com/route/tour-des-combins-switzerland-italy
+      - value: 5570
+        source: https://bookatrekking.com/en/trek/compact-tour-des-combins-6-days/
+last_verified: 2026-11-27

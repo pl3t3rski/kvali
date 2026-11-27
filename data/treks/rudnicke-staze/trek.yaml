@@ -1,0 +1,64 @@
+id: rudnicke-staze
+status: draft
+name: Rudnik Trails Transversal (Rudničke staze, T-2-6)
+countries:
+  - RS
+region: Rudnik, Šumadija (central Serbia)
+one_liner: Three days over the volcanic cone of Ostrvica and Rudnik's Veliki Šturac to Vraćevšnica monastery.
+route:
+  type: point-to-point
+  start: Zagrađe (on the Ibar highway)
+  end: Vraćevšnica monastery
+  osm_relation_id: 13233413
+distance_km: 72
+total_ascent_m: 777
+typical_days:
+  min: 3
+  max: 3
+difficulty:
+  reason: "Not rated: sources disagree on total ascent (777 m vs 4,605 m)."
+flags:
+  permit: free-registration
+  permit_notes: No trail permit; booklet, rules and a logbook from PTT POSK (Belgrade). Foreigners must register their stay with the police within 24 h.
+  waymarked: yes
+links:
+  official_site: https://pss.rs/terenipp/rudnicke-staze/
+establishment_signals:
+  - "Official status: PSS-registered transversal T-2-6 (opened 2002)"
+  - Waymarked with standard PSS marks (last verified 2010)
+  - "Official website: PSS register page and club PTT POSK (pdptt.rs)"
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Ostrvica.jpg
+    author: Ranko (sr.wikipedia)
+    license: CC BY-SA 2.5
+    shows: Ostrvica volcanic peak
+  - file_url: https://commons.wikimedia.org/wiki/File:Strogi_prirodni_rezervat_Veliki_Sturac,_planina_Rudnik_01.jpg
+    author: BrankaVV
+    license: CC BY-SA 4.0
+    shows: Veliki Šturac strict nature reserve on Rudnik
+  - file_url: https://commons.wikimedia.org/wiki/File:Vra%C4%87ev%C5%A1nica_kod_Gornjeg_Milanovca_01.jpg
+    author: BrankaVV
+    license: CC BY-SA 4.0
+    shows: Vraćevšnica monastery, the finish
+sources:
+  distance_km: https://pss.rs/terenipp/rudnicke-staze/
+  total_ascent_m: https://pss.rs/terenipp/rudnicke-staze/
+  typical_days: https://pss.rs/terenipp/rudnicke-staze/
+  permit: https://mfa.gov.rs/en/citizens/travel-serbia/registration-stay
+  waymarked: https://pss.rs/terenipp/rudnicke-staze/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/13233413
+conflicts:
+  - field: total_ascent_m
+    values:
+      - value: 777
+        source: https://pss.rs/terenipp/rudnicke-staze/
+      - value: 4605 (computed from the OSM route)
+        source: https://www.iso-maps.com/en/randonnee/serbie/centralna-srbija/rudnicke-staze-135200
+  - field: distance_km
+    values:
+      - value: 72
+        source: https://pss.rs/terenipp/rudnicke-staze/
+      - value: 76.7 (mapped in OSM)
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/13233413
+last_verified: 2026-11-27

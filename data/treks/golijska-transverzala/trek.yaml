@@ -1,0 +1,57 @@
+id: golijska-transverzala
+status: draft
+name: Golija Transversal (Golijska transverzala, T-5-4)
+countries:
+  - RS
+region: Stolovi, Čemerno, Radočelo and Golija, south-west Serbia
+one_liner: Five days from Žiča monastery over Stolovi, past Maglič fortress and Studenica monastery, up to Jankov Kamen (1,833 m) on Golija.
+route:
+  type: point-to-point
+  start: Žiča monastery (near Kraljevo)
+  end: Duga Poljana (Golija)
+  osm_relation_id: 13236066
+distance_km: 129.7
+total_ascent_m: 5377
+typical_days:
+  min: 5
+  max: 5
+difficulty:
+  level: 2
+  reason: About 26 km and 1,075 m of climbing a day; the first day climbs from 226 m at Žiča to 1,375 m at Usovica.
+flags:
+  permit: free-registration
+  permit_notes: No trail permit; stamp booklet (dnevnik) from the club. Foreigners must register their stay with the police within 24 h.
+  waymarked: yes
+links:
+  official_site: https://pss.rs/terenipp/golijska-transverzala/
+establishment_signals:
+  - "Official status: PSS-registered transversal T-5-4 (opened 2003)"
+  - Waymarked with standard PSS marks (last verified 2012)
+  - "Official website: PSS register page and club Železničar PSK Kraljevo"
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Manastir_%C5%BDi%C4%8Da_(by_Pudelek).JPG
+    author: Pudelek
+    license: CC BY-SA 3.0
+    shows: Žiča monastery, the start
+  - file_url: https://commons.wikimedia.org/wiki/File:Magli%C4%8D_Fortress_overview,_Serbia.jpg
+    author: PLAZANAC1
+    license: CC BY-SA 3.0
+    shows: Maglič fortress (control point 3)
+  - file_url: https://commons.wikimedia.org/wiki/File:Studenica_monastery_(Manastir_Studenica)_-_by_Pudelek.jpg
+    author: Pudelek (Marcin Szala)
+    license: CC BY-SA 3.0
+    shows: Studenica monastery (control point 6)
+  - file_url: https://commons.wikimedia.org/wiki/File:At_the_foot_of_Jankov_Kamen.jpg
+    author: Marko Randjic
+    license: CC BY-SA 4.0
+    shows: Below Jankov Kamen (1,833 m), the summit of Golija (control point 9)
+sources:
+  distance_km: https://pss.rs/terenipp/golijska-transverzala/
+  total_ascent_m: https://pss.rs/terenipp/golijska-transverzala/
+  typical_days: https://pss.rs/terenipp/golijska-transverzala/
+  difficulty: https://pss.rs/terenipp/golijska-transverzala/
+  permit: https://mfa.gov.rs/en/citizens/travel-serbia/registration-stay
+  waymarked: https://pss.rs/terenipp/golijska-transverzala/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/13236066
+last_verified: 2026-11-27

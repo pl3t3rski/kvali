@@ -1,0 +1,88 @@
+id: szlak-karpacki
+status: draft
+name: Carpathian Trail (Szlak Karpacki, blue trail Rzeszów-Grybów)
+countries:
+  - PL
+region: Carpathian foothills, Bieszczady, Low Beskids
+one_liner: "Poland's remote blue border trail from Rzeszów through the foothills, Bieszczady and Low Beskids to Grybów: shelters, camping and few people."
+route:
+  type: point-to-point
+  start: Rzeszów
+  end: Grybów
+  osm_relation_id: 1730439
+distance_km: 445
+typical_days:
+  min: 22
+  max: 22
+when:
+  best_months:
+    - May
+    - June
+    - July
+    - August
+    - September
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: Not enough indoor beds for hut-to-hut; tent camping is the main option, plus basic huts/shelters and some village B&Bs and hotels. No camping in national parks. Book in July-August, especially in Ustrzyki Górne.
+difficulty:
+  level: 3
+  reason: "Remote and rugged: steep climbs, mud and overgrown sections, long stretches with little resupply."
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: "No permit, but carry a passport: Border Guard checks are common on the stages near the Ukrainian border."
+  waymarked: yes
+establishment_signals:
+  - official status (PTTK trail with its own PTTK badge)
+  - waymarked along the whole route (blue)
+  - published guidebook (Compass 'Szlak Karpacki - Rzeszów-Grybów', 2026)
+  - regularly covered in trip reports
+trip_reports:
+  - url: https://acrossthewilderness.blogspot.com/2022/06/szlak-karpacki-czesc-2-ustrzyki-gorne.html
+    title: "Szlak Karpacki, część 2: Ustrzyki Górne"
+    year_hiked: 2022
+    summary: Westbound from Ustrzyki Górne in spring 2022 with snow near Wielka Rawka; nights in Slovak and Polish shelters.
+  - url: https://kronikapodroznika.pl/niebieskie-wyzwanie-2016-odc-11-koncoweczka-i-podsumowanie/
+    title: "Niebieskie wyzwanie 2016, odc. 11: końcóweczka i podsumowanie"
+    year_hiked: 2016
+    summary: Self-supported fast traverse of the whole trail in 164.5 hours (summary episode of a series).
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:02020_0617_Kalwaria_Pacławska_in_2020.jpg
+    author: Silar
+    license: CC BY-SA 4.0
+    shows: Kalwaria Pacławska, a stage end on the trail
+sources:
+  distance_km: https://hiking.waymarkedtrails.org/api/v1/details/relation/1730439
+  typical_days: https://thru-hiking.com/?p=10694
+  best_months: https://thru-hiking.com/?p=10694
+  sleeping: https://thru-hiking.com/?p=10694
+  difficulty: https://thru-hiking.com/?p=10694
+  permit: https://thru-hiking.com/?p=10694
+  waymarked: https://fastestknowntime.com/route/szlak-karpacki-rzeszow-grybow
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/1730439
+conflicts:
+  - field: distance_km
+    values:
+      - value: 445
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/1730439
+      - value: 428
+        source: https://www.national-geographic.pl/traveler/porady/poznaj-szlaki-dlugodystansowe-w-polsce-220805020633/
+      - value: 430
+        source: https://fastestknowntime.com/route/szlak-karpacki-rzeszow-grybow
+      - value: 440
+        source: https://thru-hiking.com/?p=10694
+  - field: route.end
+    values:
+      - value: Grybów
+        source: https://fastestknowntime.com/route/szlak-karpacki-rzeszow-grybow
+      - value: Wołosate
+        source: https://thru-hiking.com/?p=10694
+  - field: waymarked
+    values:
+      - value: yes (blue)
+        source: https://fastestknowntime.com/route/szlak-karpacki-rzeszow-grybow
+      - value: "contradictory: 'well marked' and 'limited waymarking'"
+        source: https://thru-hiking.com/?p=10694
+last_verified: 2026-11-27

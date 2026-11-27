@@ -1,0 +1,96 @@
+[
+  {
+    "source": "unsplash",
+    "title": "Unsplash DOhXyRS3_n0",
+    "page_url": "https://unsplash.com/photos/DOhXyRS3_n0",
+    "author": "Tomas Malik",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "shows": "Ushguli below the Shkhara wall, where the trek ends",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/mestia-ushguli/605fb9c646-480.webp",
+      "960": "/photos/mestia-ushguli/605fb9c646-960.webp",
+      "1600": "/photos/mestia-ushguli/605fb9c646-1600.webp"
+    }
+  },
+  {
+    "source": "unsplash",
+    "title": "Unsplash Vy0KuvkCR0s",
+    "page_url": "https://unsplash.com/photos/Vy0KuvkCR0s",
+    "author": "Nick Night",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "shows": "Ushguli at dusk, with Shkhara in cloud behind it",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/mestia-ushguli/22205e617f-480.webp",
+      "960": "/photos/mestia-ushguli/22205e617f-960.webp",
+      "1600": "/photos/mestia-ushguli/22205e617f-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Adishi Glacier.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Adishi_Glacier.jpg",
+    "author": "Martin Lopatka",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "shows": "Adishi Glacier, seen on the Adishi – Iprali stage",
+    "width": 1600,
+    "height": 1071,
+    "sizes": {
+      "480": "/photos/mestia-ushguli/763da40286-480.webp",
+      "960": "/photos/mestia-ushguli/763da40286-960.webp",
+      "1600": "/photos/mestia-ushguli/763da40286-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Shkhara.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Shkhara.jpg",
+    "author": "Paweł Pieńkowski",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "South face of Shkhara (5,193 m) from the Georgian side, above Ushguli",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/mestia-ushguli/230a703926-480.webp",
+      "960": "/photos/mestia-ushguli/230a703926-960.webp",
+      "1600": "/photos/mestia-ushguli/230a703926-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Tamara's tower, Ushguli.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Tamara%27s_tower,_Ushguli.jpg",
+    "author": "I kynitsky",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Tamar's tower (Lenkveri), Ushguli",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/mestia-ushguli/c914a6b62b-480.webp",
+      "960": "/photos/mestia-ushguli/c914a6b62b-960.webp",
+      "1600": "/photos/mestia-ushguli/c914a6b62b-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Ushguli, Svaneti.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Ushguli,_Svaneti.jpg",
+    "author": "Paata Vardanashvili from Tbilisi, Georgia",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "shows": "Svan defensive towers in Ushguli, the trek's end",
+    "width": 480,
+    "height": 320,
+    "sizes": {
+      "480": "/photos/mestia-ushguli/a091dce062-480.webp"
+    }
+  }
+]

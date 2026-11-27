@@ -1,0 +1,32 @@
+id: trdina-trail
+status: draft
+name: Trdina Trail (Trdinova pot)
+countries:
+  - SI
+region: Dolenjska (Gorjanci, Novo mesto area)
+one_liner: The longest trail in Dolenjska, a loop from Novo mesto through the region's hills.
+route:
+  type: loop
+  start: Novo mesto
+  end: Novo mesto
+distance_km: 150
+when:
+  best_months: []
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+establishment_signals: []
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-and-mountaineering
+  route_type: https://svet24.si/lokalno/dolenjska/posavje/novice/trdinova-pot-162-km-du-dolenjske-toplice-1861431
+conflicts:
+  - field: distance_km
+    values:
+      - value: 150
+        source: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-and-mountaineering
+      - value: 162
+        source: https://svet24.si/lokalno/dolenjska/posavje/novice/trdinova-pot-162-km-du-dolenjske-toplice-1861431
+last_verified: 2026-11-27

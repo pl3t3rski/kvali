@@ -1,0 +1,87 @@
+id: e7-serbia
+status: draft
+name: European long-distance path E7 – Serbia (Evropski pešački put E7)
+countries:
+  - RS
+region: Vojvodina, western and south-western Serbia, Kopaonik–Toplica and south-east Serbia
+one_liner: "Serbia's longest walk: from the Hungarian border across Vojvodina, Tara, Zlatibor, Golija and Kopaonik to the North Macedonian border, with patchy waymarking."
+route:
+  type: point-to-point
+  start: Bački Vinogradi (Hungarian border)
+  end: Prohor Pčinjski monastery (North Macedonian border)
+  osm_relation_id: 10325739
+distance_km: 2113.3
+sleeping:
+  type: mixed
+  notes: Mountain huts, private apartments and cabins, hostels and hotels; campsites mostly at popular sights.
+difficulty:
+  level: 3
+  reason: "Very long, with mountain sections the PSS rates 'demanding' (e.g. Gradac–Kriva Reka: 123.5 km, +5,100 m) and stretches without waymarks."
+logistics:
+  getting_to_start: Trains serve Subotica, Novi Sad, Valjevo, Zlatibor and Niš; buses are the most reliable transport but there is no central bus operator.
+  nearest_airports:
+    - Belgrade Nikola Tesla (BEG)
+flags:
+  permit: free-registration
+  permit_notes: No trail permit. Foreigners must register their stay with the police within 24 h; hotels and hostels do this, but when camping or staying privately you must do it yourself.
+  waymarked: partial
+links:
+  official_site: https://era-ewv-ferp.org/e-paths/e7/e7-in-serbia
+establishment_signals:
+  - "Official status: European long-distance path (ERA E-path), managed by the Mountaineering Association of Serbia (PSS), split into numbered PSS sections E7-1 to E7-20"
+  - "Official website: ERA country page and the PSS register of European paths"
+  - "Guidebooks: 'Kroz Srbiju peške lakim korakom' (PSS, 2011) and 'Srbijom – korak po korak' (PSS, 2024)"
+  - Waymarked only in parts (339 km re-marked in the Zlatibor district by the 2023–2025 E-CrossPass project; OSM notes it is mostly unmarked elsewhere)
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Tara_National_Park_01.jpg
+    author: Viktorija Jovanonvic
+    license: CC BY-SA 4.0
+    shows: Viewpoint in Tara National Park, crossed by the E7
+  - file_url: https://commons.wikimedia.org/wiki/File:Uvac_River,_Zlatar_01.jpg
+    author: Viktorija Jovanonvic
+    license: CC BY-SA 4.0
+    shows: Uvac river below Zlatar; E7 follows the upper Uvac canyon near Sjenica
+  - file_url: https://commons.wikimedia.org/wiki/File:Nacionalni_park_Kopaonik_23.jpg
+    author: Kristina Vuck
+    license: CC BY-SA 4.0
+    shows: Kopaonik National Park
+  - file_url: https://commons.wikimedia.org/wiki/File:%C4%90avolja_Varo%C5%A1.jpg
+    author: Dimo Dimov
+    license: CC BY-SA 2.0
+    shows: Đavolja Varoš rock pillars on the E7 deviation via Prolom and Lebane
+  - file_url: https://commons.wikimedia.org/wiki/File:Manastir_Sv._Prohor_P%C4%8Dinjski.JPG
+    author: Suncocvet
+    license: CC BY-SA 3.0
+    shows: Prohor Pčinjski monastery, the end point
+sources:
+  distance_km: https://era-ewv-ferp.org/e-paths/e7/e7-in-serbia
+  sleeping: https://era-ewv-ferp.org/e-paths/e7/e7-in-serbia
+  difficulty: https://pss.rs/planinarski-objekti-i-tereni/tereni/?tip=evropski-pesacki-putevi-u-srbiji
+  logistics: https://era-ewv-ferp.org/e-paths/e7/e7-in-serbia
+  nearest_airports: https://sultanstrail.com/hiking-map-sultans-trail/hiking-serbia/
+  permit: https://mfa.gov.rs/en/citizens/travel-serbia/registration-stay
+  waymarked: https://hiking.waymarkedtrails.org/api/v1/details/relation/10325739
+  waymarked_crosspass: https://srb-bih.org/en/?p=8687
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/10325739
+  guidebooks: https://era-ewv-ferp.org/e-paths/e7/e7-in-serbia
+conflicts:
+  - field: distance_km
+    values:
+      - value: 2113.3 (main route 1913.9 + deviation 199.4)
+        source: https://era-ewv-ferp.org/e-paths/e7/e7-in-serbia
+      - value: 1994
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/10325739
+  - field: route.start
+    values:
+      - value: Bački Vinogradi
+        source: https://era-ewv-ferp.org/e-paths/e7/e7-in-serbia
+      - value: Horgoš
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/10325739
+  - field: waymarked
+    values:
+      - value: marked red and yellow
+        source: https://novisad.travel/en/evropski-pesacki-put-e7
+      - value: mostly not waymarked in the landscape
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/10325739
+last_verified: 2026-11-27

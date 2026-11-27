@@ -1,0 +1,87 @@
+id: via-degli-dei
+status: draft
+name: Via degli Dei (Path of the Gods, Bologna–Florence)
+countries:
+  - IT
+region: Tuscan-Emilian Apennines (Emilia-Romagna / Tuscany)
+one_liner: City-to-city walk from Bologna's Piazza Maggiore to Florence over Apennine ridges and Roman road remains, with village guesthouses every night.
+route:
+  type: point-to-point
+  start: Bologna (Piazza Maggiore)
+  end: Florence (Piazza della Signoria)
+  osm_relation_id: 222322
+distance_km: 130
+typical_days:
+  min: 5
+  max: 7
+sleeping:
+  type: guesthouses
+  booking_ahead: recommended
+  notes: Official site says booking accommodation is essential in summer and on holiday weekends; an optional credential (pilgrim-style passport) is collected along the way.
+difficulty:
+  level: 2
+  reason: Daily stages of 20–28 km, one day with ~1,460 m of ascent; no technical terrain, can be muddy in bad weather
+logistics:
+  getting_to_start: Bologna Centrale station or Bologna G. Marconi airport, then walk/bus to Piazza Maggiore
+  leaving_from_end: Firenze Santa Maria Novella station or Florence A. Vespucci airport; frequent trains back to Bologna
+  nearest_airports:
+    - Bologna Guglielmo Marconi (BLQ)
+    - Florence Amerigo Vespucci (FLR)
+flags:
+  permit: none
+  permit_notes: Optional credential only
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.viadeglidei.it
+establishment_signals:
+  - waymarked (CAI red-white plus "VD" signs)
+  - official website
+  - tourism-board pages (Bologna Welcome
+  - Visit Tuscany
+  - italia.it)
+  - regularly covered in trip reports and travel articles
+trip_reports:
+  - url: https://ecobnb.com/blog/2023/11/via-degli-dei-trekking-bologna-florence/
+    title: "Via degli Dei: A Trekking Adventure from Bologna to Florence"
+    year_hiked: 2023
+    summary: Walked in 5 days, collecting credentials at the start; foggy climb over Monte Adone on day 1
+  - url: https://italymagazine.com/featured-story/bologna-florence-foot-along-path-gods
+    title: From Bologna to Florence on Foot Along the 'Path of Gods'
+    year_hiked: 2019
+    summary: Six-day walk with notes on the VD waymarks and the route's history
+  - url: https://www.caminodesantiago.me/community/threads/via-degli-dei-path-of-gods-italy.95415/latest
+    title: Via degli Dei (Path of Gods), Italy
+    summary: Couple's forum account praising the food, locals and Apennine walking
+  - url: https://monkeysandmountains.com/hike-bologna-to-florence-path-of-gods-italy/
+    title: How to Hike From Bologna to Florence on the Path of Gods Italy
+    summary: Six-day walk starting with buses out to Casalecchio di Reno
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Via_degli_Dei,_cippo_di_confine_fra_Emilia-Romagna_e_Toscana_01.jpg
+    author: Mongolo1984
+    license: CC BY-SA 4.0
+    shows: Boundary stone between Emilia-Romagna and Tuscany on the route
+  - file_url: https://commons.wikimedia.org/wiki/File:Futa_pass_1.jpg
+    author: Zebra48bo
+    license: CC BY-SA 4.0
+    shows: Passo della Futa
+  - file_url: https://commons.wikimedia.org/wiki/File:Florence_vue_depuis_Fiesole.JPG
+    author: Olevy
+    license: CC BY-SA 4.0
+    shows: Florence seen from Fiesole, the final descent
+sources:
+  distance_km: https://www.bolognawelcome.com/en/blog/via-degli-dei-le-chemin-des-dieux
+  typical_days: https://www.bolognawelcome.com/en/home/discover/itineraries/green/path-of-gods
+  sleeping: https://en.viadeglidei.it/copia-di-viaggiare-consapevoli
+  difficulty: https://static.bolognawelcome.com/immagini/9c/a0/5b/e3/20250710164804.pdf
+  logistics: https://static.bolognawelcome.com/immagini/9c/a0/5b/e3/20250710164804.pdf
+  permit: https://en.viadeglidei.it/copia-di-viaggiare-consapevoli
+conflicts:
+  - field: distance_km
+    values:
+      - value: 130
+        source: https://www.bolognawelcome.com/en/blog/via-degli-dei-le-chemin-des-dieux
+      - value: 125
+        source: https://static.bolognawelcome.com/immagini/9c/a0/5b/e3/20250710164804.pdf
+last_verified: 2026-11-27

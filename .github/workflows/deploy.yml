@@ -17,6 +17,8 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      HAS_CLOUDFLARE: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -34,7 +36,9 @@ jobs:
         env:
           SITE_URL: ${{ vars.SITE_URL }}
 
+      # Skipped until the Cloudflare secrets are set; until then the GitHub Pages preview is the live copy.
       - name: Deploy to Cloudflare Pages
+        if: env.HAS_CLOUDFLARE == 'true'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}

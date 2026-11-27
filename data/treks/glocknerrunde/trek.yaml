@@ -1,0 +1,105 @@
+id: glocknerrunde
+status: draft
+name: Glocknerrunde (Glockner Trail)
+countries:
+  - AT
+region: Hohe Tauern National Park (Salzburg, East Tyrol, Carinthia)
+one_liner: Seven-day hut circuit around the Großglockner, Austria's highest peak; glacier-free but with cable-secured passages.
+route:
+  type: loop
+  start: Kaprun (Mooserboden reservoir)
+  end: Kaprun (Gletscherbahn valley station)
+distance_km: 95.06
+total_ascent_m: 7100
+typical_days:
+  min: 7
+  max: 7
+when:
+  best_months: []
+  open_season: Only during the summer hut-operating season (e.g. Salmhütte open June–September)
+sleeping:
+  type: mixed
+  notes: Mountain huts, plus valley guesthouses in Kals, Heiligenblut and Fusch; you can leave or join after any stage.
+difficulty:
+  level: 3
+  reason: Demanding stages with cable-secured passages but no glacier or via ferrata; up to ~1,500 m ascent per day, high point ~2,820 m.
+logistics:
+  getting_to_start: Kaprun is chosen as start for its easy access; reservoir buses go up to the Mooserboden.
+  leaving_from_end: Last stage ends at the Kaprun glacier-railway car park; bus to Kaprun.
+  nearest_airports:
+    - Munich
+    - Innsbruck
+    - Salzburg
+flags:
+  permit: none
+  permit_notes: No permit mentioned.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.nationalpark.at/en/holiday/summer/hiking/glockner-trail
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - guidebook
+  - trip_reports
+trip_reports:
+  - url: https://www.hikingfex.com/en/post/glockner-circuit
+    title: "Glockner circuit: Long-distance hike in Austria (+Guide and GPX)"
+    summary: Seven days hut to hut around the Großglockner with GPX.
+  - url: https://jasperzuallaert.com/trekkings/trek:Glocknerrunde/
+    title: Glocknerrunde
+    summary: Personal trek log of the loop.
+  - url: https://www.alpenverein.at/villach/berichte/berichte_2007/2007_08_03_51666476_glocknerrunde.php
+    title: Glocknerrunde (ÖAV Sektion Villach report)
+    year_hiked: 2007
+    summary: Alpine Club section's tour report; lucky with weather, glaciated scenery.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Sudetendeutsche_H%C3%BCtte_2015.jpg
+    author: Whgler
+    license: CC BY-SA 3.0
+    shows: Sudetendeutsche Hütte, overnight stop on stage 2
+  - file_url: https://commons.wikimedia.org/wiki/File:Glorerh%C3%BCtte.jpg
+    author: Maddl79
+    license: CC BY-SA 4.0
+    shows: Glorer Hütte, passed on stage 4 (Kals – Salmhütte)
+  - file_url: https://commons.wikimedia.org/wiki/File:Heiligenblut_-_Salmh%C3%BCtte_(1).JPG
+    author: C.Stadler/Bwag
+    license: CC BY-SA 4.0
+    shows: Salmhütte, end of stage 4
+  - file_url: https://commons.wikimedia.org/wiki/File:Gleiwitzer_H%C3%BCtte_20080806a.jpg
+    author: Tigerente
+    license: CC BY 4.0
+    shows: Gleiwitzer Hütte on the last stage (Fusch – Kaprun)
+sources:
+  distance_km: https://www.zellamsee-kaprun.com/en/tour/around-the-grossglockner-in-7-days~10455
+  total_ascent_m: https://www.zellamsee-kaprun.com/en/tour/around-the-grossglockner-in-7-days~10455
+  typical_days: https://www.nationalpark.at/en/holiday/summer/hiking/glockner-trail
+  open_season: https://www.nationalpark.at/en/holiday/summer/hiking/glockner-trail
+  sleeping: https://www.nationalpark.at/en/holiday/summer/hiking/glockner-trail
+  difficulty: https://www.bergwelten.com/a/glocknerrunde
+  logistics: https://magazin.alpenverein.de/files/1805-grossglocknerrunde-broschuere-en_ol.pdf
+  nearest_airports: https://www.cicerone.co.uk/products/trekking-in-austrias-hohe-tauern
+  permit: https://www.nationalpark.at/en/holiday/summer/hiking/glockner-trail
+  waymarked: https://www.cicerone.co.uk/products/trekking-in-austrias-hohe-tauern
+  official_status: https://www.nationalpark.at/en/holiday/summer/hiking/glockner-trail
+  guidebook: https://www.cicerone.co.uk/products/trekking-in-austrias-hohe-tauern
+conflicts:
+  - field: distance_km
+    values:
+      - value: 95.06
+        source: https://www.zellamsee-kaprun.com/en/tour/around-the-grossglockner-in-7-days~10455
+      - value: 86.09
+        source: https://www.osttirol.com/aktiv-outdoor/wandern/detail/glocknerrunde-1/pdf
+      - value: 99
+        source: https://www.cicerone.co.uk/products/trekking-in-austrias-hohe-tauern (Glockner Rucksack Route)
+      - value: 135
+        source: https://www.hikingfex.com/post/glocknerrunde
+  - field: total_ascent_m
+    values:
+      - value: 7100
+        source: https://www.zellamsee-kaprun.com/en/tour/around-the-grossglockner-in-7-days~10455
+      - value: 7209
+        source: https://www.osttirol.com/aktiv-outdoor/wandern/detail/glocknerrunde-1/pdf
+last_verified: 2026-11-27

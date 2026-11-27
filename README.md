@@ -2,24 +2,24 @@
 
 A static, map-first website for finding multi-day treks in Europe and the Caucasus.
 The full plan is in [Kvali — Technical Specification v1.md](<Kvali — Technical Specification v1.md>).
+The look comes from the Kvali design system (a Claude Design System artifact); its values are
+copied into `src/styles/kvali.css` and its pen drawing into `src/design/`.
 
 ## What is built so far
 
-The data side is complete and the main view works, but nothing is styled yet.
-
 | Part | State |
 | --- | --- |
-| Trek schema and validation rules | Done (`src/schema/trek.ts`, `scripts/lib/rules.ts`) |
-| Route, stats and photo scripts | Done (`scripts/`) |
+| Trek schema and publishing rules | Done (`src/schema/trek.ts`, `scripts/lib/rules.ts`) |
+| Research import, route, stats and photo scripts | Done (`scripts/`) |
 | Index build, link check, monthly re-verification | Done (`scripts/`) |
-| Filter, sorting and URL-state logic for the map view | Done (`src/lib/`) |
-| Main view: map, synced list, five filters, trek card, shareable URL, keyboard use | Working, unstyled, with placeholder route colours (`src/components/`) |
-| Trek pages, list page, About page | Plain unstyled HTML with all content and SEO tags (`src/pages/`) |
-| CI workflows | Written, not yet run on GitHub (`.github/workflows/`) |
-| Mobile bottom sheet and all styling | Not started; waits for the design |
-| Photo on the trek card in the map view | Not started; `index.json` needs the photo credit first |
-| Static map image on trek pages | Not started |
-| Research prompt | Not in the repo yet (`research/README.md`) |
+| Main view: map, synced list, five filters, trek card, shareable URL, keyboard use | Done, in the Kvali design (`src/components/`) |
+| Trek pages, country page, About page | Done, in the Kvali design (`src/pages/`) |
+| Georgia | 12 draft treks imported, 9 with a route line. None published yet |
+| CI workflows | Written, not yet run green on GitHub (`.github/workflows/`) |
+| Night theme | Done: follows the device on a first visit, and the header has a switch |
+| Phone layout | Done: the list is a sheet under the map with three heights. No swipe gesture; a button moves it |
+| Route picture on trek pages | Done as a drawn trace of the route (`src/design/RouteTrace.astro`), not a map image with a base map |
+| The other research files (9 countries) | Not imported yet |
 
 ## Setup
 
@@ -33,8 +33,9 @@ npm install
 
 | Command | What it does |
 | --- | --- |
+| `npm run import:research -- <file.yaml>` | Turns a research file into draft trek folders |
 | `npm run enrich` | Fetches routes, computes stats and fetches photos for treks that lack them |
-| `npm run validate` | Checks every trek against the schema and the rules. Makes no network requests |
+| `npm run validate` | Checks every trek, and lists what still blocks each draft from publishing |
 | `npm run check:links` | Checks that source, trip-report and official links still answer |
 | `npm test` | Runs the unit tests |
 | `npm run typecheck` | Type-checks the scripts and the Svelte components |
@@ -46,48 +47,81 @@ npm install
 limit the run and `--force` to redo work that is already done:
 
 ```bash
-npm run fetch:route -- tour-du-mont-blanc --force
+npm run fetch:route -- mestia-ushguli --force
 ```
 
-## Adding a trek
+## From research to a published trek
 
-1. Create `data/treks/<id>/trek.yaml` with `status: draft`. The folder name is the id and becomes the URL.
-2. Run `npm run enrich`. This writes `route.geojson`, `stats.json` and `photos.json` next to it, and the
-   resized photos into `public/photos/<id>/`. These generated files are committed.
-3. Run `npm run validate` and fix what it reports.
-4. Check the risky fields against their sources, clear `conflicts`, then set `status: published`.
+1. **Import.** `npm run import:research -- <file.yaml>` writes one `data/treks/<id>/trek.yaml` per trek,
+   with `status: draft`, and copies the research file to `research/raw/`. Empty values are dropped.
+   A `trek.yaml` that already exists is kept unless you add `--overwrite`.
+2. **Enrich.** `npm run enrich` writes `route.geojson`, `stats.json` and `photos.json` next to each
+   `trek.yaml`, and the resized photos into `public/photos/<id>/`. These generated files are committed.
+3. **Review.** `npm run validate` lists what blocks each draft. Check the risky facts against their
+   sources, settle the entries under `conflicts` and empty that list.
+4. **Publish.** Set `status: published`. From then on every rule below is an error that fails the build.
 
-Only published treks reach the site. The two treks in `data/treks/` now are sample drafts written
-to test the pipeline; their facts are not verified.
+Only published treks reach the site. `npm run dev` shows drafts too, marked as drafts.
 
-## How a trek is checked
+## What a published trek needs
 
-`trek.yaml` must match the schema in `src/schema/trek.ts`. On top of that, the build fails when:
-
-- `typical_days.min` is below 3
-- best months, sleeping, permit or logistics is filled in with no entry in `sources`
-- a published trek has open `conflicts`, fewer than 2 photos or fewer than 2 trip reports
-- a photo licence is not CC0, CC BY, CC BY-SA or public domain
-- there is no route source, or a GPX route has no `route.gpx_license`
-- a published trek lacks its generated files, or `stats.json` is older than `route.geojson`
+- every field of the data model, and a one-liner of 140 characters or fewer
+- at least 3 days of walking (`typical_days.min`)
+- a source for best months, sleeping, permit and logistics
+- no open `conflicts`, at least 2 photos and at least 2 trip reports
+- photo licences that are CC0, CC BY, CC BY-SA, public domain or the Unsplash licence
+- a route: an OpenStreetMap relation, several stage relations, or a GPX file with `route.gpx_license`
+- its generated files, with `stats.json` matching `route.geojson`
 
 These only warn: a route gap over 200 m, computed distance or ascent more than 20% away from the
 researched value, and `last_verified` older than 24 months.
 
-## Choices the specification left open
+A draft may lack any of these. It still has to use the right field names and allowed values.
 
-- **Sort order.** Treks sort by the number of `establishment_signals` (`src/lib/sort.ts`).
-- **`route.gpx_license`.** An added field. A GPX route needs it, so the licence check is on record.
-- **`photos.json`.** An added generated file with the author and licence as Commons reports them.
+## Photos
+
+A photo is a Wikimedia Commons file page or an Unsplash photo page, listed in `trek.yaml` or in
+`data/countries/<code>/country.yaml`.
+
+- **Commons:** author and licence are read from Commons when the photo is fetched.
+- **Unsplash:** put the downloaded original into `photo-originals/` (not committed). It is matched
+  by the photo id in the file name. Author comes from the YAML file.
+
+Every photo is shown with what it shows and who took it. A country photo says where it was taken
+and must not suggest a trek it does not show.
+
+## Design
+
+- `src/styles/kvali.css`: the design tokens and component styles. Nothing uses a CSS border, radius
+  or shadow on content.
+- `src/design/pen.ts`: the hand-drawn geometry, ported from the design system's React bundle.
+- `src/design/sketch.ts`: draws a frame, highlight or underline behind an element. In Svelte use the
+  `pen` action; in an Astro page add `data-pen="frame"` (or `card`, `button`, `chip`, `mark`).
+- `src/components/map-config.ts` and `trek-map.ts`: the map reads its colours from the tokens.
+
+## Choices made where the specification or the design was open
+
+- **Drafts may have gaps.** The specification fails the build on any rule. Real research has
+  unknown facts, so rules are errors only on a published trek.
+- **Sort order.** Treks sort by the number of `establishment_signals`, as the research ranks them.
+- **Several route ids.** `route.osm_relation_id` may be a list of stage relations, joined in order.
+- **Added fields.** `route.gpx_license`, `sleeping.notes`, `flags.permit_notes`; added generated file `photos.json`.
 - **Side routes.** Besides `alternative`, `excursion` and `approach`, members with the role
-  `connection` are left out of the route line too.
-- **Route joining.** Done by `scripts/lib/stitch.ts` instead of the osmtogeojson library, because it
-  has to keep route order, drop side routes and report gaps.
-- **Filters.** "No permit" matches only `permit: none`; "Waymarked" matches only `waymarked: yes`.
-- **Map position in the URL.** Besides the filters and the trek, the query holds the map position
-  (`map=zoom/lat/lon`) once the map has been moved. A link with a trek and no position opens zoomed to the trek.
-- **Trek card in the map view.** It replaces the list while open and shows no photo yet.
-- **Placeholder colours.** Route colours by sleeping type are placeholders in `src/components/map-config.ts`.
+  `connection` are left out of the route line.
+- **Filters.** Trip length is three chips, not a slider, because the design system draws filters as
+  chips. "No permit" matches only `permit: none`; "Waymarked" matches only `waymarked: yes`. A fact
+  that is not known never matches a filter that asks for it.
+- **Mixed sleeping.** The design names colours for huts, guesthouses and camping. Mixed is drawn in
+  the plain pen colour.
+- **Contour lines instead of hillshade,** as the design system asks, from the `maplibre-contour`
+  library pinned to 0.1.1.
+- **Map position in the URL** (`map=zoom/lat/lon`) once the map has been moved.
+- **Country pages** (`/countries/<code>/`) are an addition: a home for photos of a country.
+- **Route trace instead of a static map image.** The specification asks for a pre-rendered map image
+  on each trek page. The page shows the route as a dotted trace, north up, with no base map, and
+  links to the live map. The ends are not named, because the line's direction in OpenStreetMap
+  need not match the direction the trek is walked.
+- **Phone sheet.** An opened trek takes the full sheet, as the specification says; a button brings the map back.
 
 ## Deployment
 

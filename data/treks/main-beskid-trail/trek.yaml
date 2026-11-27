@@ -1,0 +1,121 @@
+id: main-beskid-trail
+status: draft
+name: Main Beskid Trail (Główny Szlak Beskidzki im. Kazimierza Sosnowskiego, GSB)
+countries:
+  - PL
+region: Polish Beskids (Silesian, Żywiec, Gorce, Sądecki, Low Beskids, Bieszczady)
+one_liner: Poland's longest mountain trail, 500 km along the southern border from Ustroń to Wołosate; hut-to-hut in the west, quieter and wilder in the Low Beskids and Bieszczady.
+route:
+  type: point-to-point
+  start: Ustroń
+  end: Wołosate
+  osm_relation_id: 545421
+distance_km: 500
+total_ascent_m: 21545
+typical_days:
+  min: 16
+  max: 21
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Main season roughly May to October; winter thru-hikes are possible but need winter gear and experience
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: PTTK mountain huts most nights in the west, villages and guesthouses in the east (fewer beds in the Low Beskids). Camping only at huts, designated campsites or State Forests 'camping-allowed' areas; not in national parks. Book July-August.
+difficulty:
+  level: 3
+  reason: No scrambling, but about 21,500 m of ascent; at a regular 16-day pace that is ~30 km and ~1,300 m of climbing a day, with steep descents and wind-exposed ridges (Babia Góra, Bieszczady połoniny).
+logistics:
+  getting_to_start: "Ustroń: buses from Bielsko-Biała and Cieszyn; the trail starts in the centre near the railway station."
+  leaving_from_end: From Wołosate walk ~5 km of road to Ustrzyki Górne, then single buses to Sanok or Ustrzyki Dolne; expect changes and waiting.
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: Entrance tickets for Bieszczady and Babia Góra national parks (and online tickets for Magura and Gorce). Carry an ID document; parts of the trail run along the Slovak and Ukrainian borders. Dogs not allowed in the national parks.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://visitmalopolska.pl/en/-/glowny-szlak-beskidzki
+establishment_signals:
+  - official status (PTTK national trail; PTTK GSB badge; east of Chyrowa it carries the E8 European path)
+  - waymarked along the whole route (red)
+  - official trail authority (PTTK) and regional tourism-board pages
+  - published guidebooks (Compass, L. Piekło 2026; Bezdroża 'MountainBook', K. Bzowski)
+  - regularly covered in trip reports and travel articles
+trip_reports:
+  - url: https://lukaszsupergan.com/main-beskidy-trail-longest-mountain-trail-in-poland/
+    title: Main Beskidy Trail - longest mountain trail in Poland
+    year_hiked: 2016
+    summary: Thru-hike Wołosate to Ustroń in mid-September 2016 in 10 days 18 hours, ultralight with no tent or stove; full planning guide.
+  - url: https://www.national-geographic.pl/traveler/kierunki/beskidy-ze-znizka-pttk-na-gorze-burze/
+    title: "Beskidy ze zniżką PTTK: Na górze burze"
+    summary: Ustroń to Wołosate in 17 days through heat and storms, sleeping in PTTK huts and the Głuchaczki student tent camp.
+  - url: https://travelfeed.io/@olusiu/main-beskid-trail-stage-no-2-shelter-in-soszow-wielki-mraznica
+    title: "Main Beskid Trail stage no. 2: shelter in Soszów Wielki - Mraźnica"
+    summary: Stage-by-stage blog of a section hike in the Silesian Beskids, with daily statistics.
+  - url: https://www.youtube.com/playlist?list=PLmjN9f8lchrh2L4LDGHr1GbW-pqDwniGt
+    title: Thru-hiking Poland's 500km mountain trail (Główny Szlak Beskidzki)
+    summary: Video series of a west-to-east thru-hike from Ustroń to Wołosate.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Chryszczata_-_Główny_Szlak_Beskidzki_01.jpg
+    author: Yarl
+    license: CC BY-SA 3.0
+    shows: The trail to Chryszczata (Bieszczady foothills)
+  - file_url: https://commons.wikimedia.org/wiki/File:Główny_Szlak_Beskidzki_-_Path_to_Smerek_02.jpg
+    author: Yarl
+    license: CC BY-SA 3.0
+    shows: The trail from Kalnica up to Smerek (Bieszczady)
+  - file_url: https://commons.wikimedia.org/wiki/File:Maciejowa,_Gorce,_trail.jpg
+    author: MOs810
+    license: CC BY-SA 4.0
+    shows: The trail at Maciejowa in the Gorce
+  - file_url: https://commons.wikimedia.org/wiki/File:Czerwony_szlak_pieszy_na_Przehybę_w_Beskidzie_Sądeckim,_20240921_1234_5912.jpg
+    author: Jakub Hałun
+    license: CC BY 4.0
+    shows: The red-marked trail near Przehyba (Beskid Sądecki)
+sources:
+  distance_km: https://visitmalopolska.pl/en/-/glowny-szlak-beskidzki
+  total_ascent_m: https://lukaszsupergan.com/main-beskidy-trail-longest-mountain-trail-in-poland/
+  typical_days: https://lukaszsupergan.com/main-beskidy-trail-longest-mountain-trail-in-poland/
+  best_months: https://thru-hiking.com/trail/main-beskid-trail/
+  open_season: https://lukaszsupergan.com/main-beskidy-trail-longest-mountain-trail-in-poland/
+  sleeping: https://thru-hiking.com/the-main-beskid-trail-everything-you-need-to-know/
+  difficulty: https://lukaszsupergan.com/main-beskidy-trail-longest-mountain-trail-in-poland/
+  logistics: https://lukaszsupergan.com/main-beskidy-trail-longest-mountain-trail-in-poland/
+  permit: https://podkarpackie.travel/en/articles/the-main-beskid-trail-in-podkarpackie--a-step-by-step-guide
+  water_scarce: https://lukaszsupergan.com/main-beskidy-trail-longest-mountain-trail-in-poland/
+  exposed_or_via_ferrata: https://lukaszsupergan.com/main-beskidy-trail-longest-mountain-trail-in-poland/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/545421
+conflicts:
+  - field: distance_km
+    values:
+      - value: 500
+        source: https://visitmalopolska.pl/en/-/glowny-szlak-beskidzki
+      - value: 495.8
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/545421
+      - value: 496
+        source: https://en.wikipedia.org/wiki/Main_Beskid_Trail
+      - value: 495-518 (GPS ~500)
+        source: https://lukaszsupergan.com/main-beskidy-trail-longest-mountain-trail-in-poland/
+  - field: total_ascent_m
+    values:
+      - value: 21545
+        source: https://lukaszsupergan.com/main-beskidy-trail-longest-mountain-trail-in-poland/
+      - value: 21969
+        source: https://mapa-turystyczna.pl/route/3wtqo
+      - value: 22000
+        source: https://thru-hiking.com/trail/main-beskid-trail/
+  - field: typical_days
+    values:
+      - value: 16-21
+        source: https://www.national-geographic.pl/traveler/kierunki/wakacje-na-szlaku-15-najpiekniejszych-tras-pieszych-w-polsce/
+      - value: 14-20 (16 at regular pace)
+        source: https://lukaszsupergan.com/main-beskidy-trail-longest-mountain-trail-in-poland/
+      - value: 21-28 (3-4 weeks)
+        source: https://podkarpackie.travel/en/articles/the-main-beskid-trail-in-podkarpackie--a-step-by-step-guide
+last_verified: 2026-11-27

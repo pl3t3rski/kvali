@@ -1,0 +1,105 @@
+id: main-sudetes-trail
+status: draft
+name: Main Sudetes Trail (Główny Szlak Sudecki im. Mieczysława Orłowicza, GSS)
+countries:
+  - PL
+region: Sudetes (Jizera, Karkonosze, Owl, Table, Śnieżnik and Opawskie mountains)
+one_liner: "The Sudetes end to end on red waymarks: Karkonosze ridge, the Table Mountains' rock labyrinths and gentle forest ranges, mostly hut and guesthouse nights."
+route:
+  type: point-to-point
+  start: Świeradów-Zdrój
+  end: Prudnik
+  osm_relation_id: 951694
+distance_km: 443
+total_ascent_m: 14000
+typical_days:
+  min: 18
+  max: 20
+when:
+  best_months: []
+sleeping:
+  type: mixed
+  notes: A 20-stage plan uses 12 nights in mountain hostels (mostly PTTK) and the rest in valley guesthouses and agritourism farms.
+difficulty:
+  level: 2
+  reason: Mountain paths through 12 ranges with no technical sections; many flat and asphalt stretches. About 14,000 m of ascent over ~20 days.
+logistics:
+  getting_to_start: "Świeradów-Zdrój: the railway line is closed, so arrive by bus."
+  nearest_airports:
+    - Wrocław
+flags:
+  permit: none
+  permit_notes: No permit; entrance fees in Karkonosze National Park (and Table Mountains National Park).
+  waymarked: yes
+links:
+  official_site: https://dolnoslaskie.szlaki.pttk.pl/en
+establishment_signals:
+  - official status (PTTK national trail, est. 1947; PTTK end point officially Paczków, extension to Prudnik)
+  - waymarked along the whole route (red)
+  - official trail authority (PTTK Lower Silesia trails portal)
+  - published guidebook (Compass, 2026)
+  - regularly covered in trip reports and travel articles
+trip_reports:
+  - url: https://www.ptt.org.pl/coslychac/cs381.pdf
+    title: Co Słychać? nr 9 (381), September 2022 - GSS report (Polish Tatra Society newsletter)
+    year_hiked: 2022
+    summary: Świeradów-Zdrój to Prudnik, 16-27 August 2022, in 11 days 4 h 40 min including rests; charity walk.
+  - url: https://8a.pl/8academy/?p=20612
+    title: Jak przejść Główny Szlak Sudecki?
+    summary: Author's own photos and range-by-range account, west to east; notes ~440 km and ~14 km of total ascent.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Główny_Szlak_Sudecki_-_panoramio.jpg
+    author: Sławek Zawadzki
+    license: CC BY-SA 3.0
+    shows: A section of the trail (location not given in the file description)
+  - file_url: https://commons.wikimedia.org/wiki/File:Główny_Szlak_Sudecki_-_panoramio_(1).jpg
+    author: Sławek Zawadzki
+    license: CC BY-SA 3.0
+    shows: A section of the trail (location not given in the file description)
+  - file_url: https://commons.wikimedia.org/wiki/File:Główny_Szlak_Sudecki_-_panoramio_(19).jpg
+    author: Jarosław Szczepaniak
+    license: CC BY-SA 3.0
+    shows: A section of the trail (location not given in the file description)
+sources:
+  distance_km: https://en.wikipedia.org/wiki/Main_Sudetes_Trail
+  total_ascent_m: https://8a.pl/8academy/?p=20612
+  typical_days: https://www.c-and-a.com/pl/pl/shop/glowny-szlak-sudecki-etapy-i-schroniska
+  sleeping: https://www.c-and-a.com/pl/pl/shop/glowny-szlak-sudecki-etapy-i-schroniska
+  difficulty: https://www.national-geographic.pl/traveler/porady/poznaj-szlaki-dlugodystansowe-w-polsce-220805020633/
+  logistics: https://de.wikivoyage.org/wiki/Sudeten-Hauptwanderweg
+  nearest_airports: https://hiiker.app/hikes/poland/swieradow-zdroj/main-sudety-trail
+  permit: https://www.komoot.com/smarttour/e2066019124
+  route_end: https://dolnyslask.travel/en/atrakcje/przejdz-glowny-szlak-sudecki
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/951694
+conflicts:
+  - field: distance_km
+    values:
+      - value: 443
+        source: https://en.wikipedia.org/wiki/Main_Sudetes_Trail
+      - value: 440
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/951694
+      - value: 445
+        source: https://fastestknowntime.com/route/glowny-szlak-sudecki-poland
+      - value: 430
+        source: https://www.c-and-a.com/pl/pl/shop/glowny-szlak-sudecki-etapy-i-schroniska
+  - field: total_ascent_m
+    values:
+      - value: 14000
+        source: https://8a.pl/8academy/?p=20612
+      - value: 14169
+        source: https://fastestknowntime.com/route/glowny-szlak-sudecki-poland
+      - value: 10625
+        source: https://hiiker.app/hikes/poland/swieradow-zdroj/main-sudety-trail
+  - field: typical_days
+    values:
+      - value: 18-20 (20 stages)
+        source: https://www.c-and-a.com/pl/pl/shop/glowny-szlak-sudecki-etapy-i-schroniska
+      - value: 14 (about 120 hours)
+        source: https://www.koronakarkonoszy.pl/blog-atrakcje/en/?p=5013
+  - field: route.end
+    values:
+      - value: Prudnik
+        source: https://en.wikipedia.org/wiki/Main_Sudetes_Trail
+      - value: Paczków (end point under PTTK resolution)
+        source: https://dolnyslask.travel/en/atrakcje/przejdz-glowny-szlak-sudecki
+last_verified: 2026-11-27

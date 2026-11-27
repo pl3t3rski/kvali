@@ -1,0 +1,82 @@
+id: fruskogorska-transverzala
+status: draft
+name: Fruška Gora Transversal (Fruškogorska transverzala, T-1-9)
+countries:
+  - RS
+region: Fruška Gora National Park, Vojvodina
+one_liner: A 165 km loop of Fruška Gora's forested ridge and its monasteries, with eight mountain huts and springs along the way, an hour from Novi Sad.
+route:
+  type: loop
+  start: Stražilovo (PD Stražilovo hut)
+  end: Stražilovo (PD Stražilovo hut)
+  osm_relation_id: 11510161
+  gpx_source: https://pss.rs/wp-content/uploads/2020/12/T-1-9-FG_Transverzala.gpx
+distance_km: 164.7
+total_ascent_m: 5562
+typical_days:
+  min: 10
+  max: 10
+sleeping:
+  type: mixed
+  notes: Eight mountain huts (Stražilovo, Zanatlija, Orlovo gnezdo, Železničar, Dr Radivoj Simonović, Osovlje, Zmajevac, Vojvodina) plus hotels and private rooms in Vrdnik and Hotel Norcev at Iriški Venac.
+difficulty:
+  level: 1
+  reason: Low wooded hills (highest point 539 m, Crveni čot); about 16 km and 550 m of climbing a day over 10 days.
+logistics:
+  getting_to_start: "It is a loop: control point 3 (PD Železničar at Popovica) is at the penultimate stop of Novi Sad city bus 74."
+flags:
+  permit: free-registration
+  permit_notes: No trail permit; 32 control points with stamps. Foreigners must register their stay with the police within 24 h.
+  waymarked: partial
+  water_scarce: false
+links:
+  official_site: https://pss.rs/terenipp/fruskogorska-transverzala/
+establishment_signals:
+  - "Official status: PSS-registered transversal T-1-9, opened 1956, run by the Mountaineering Association of Vojvodina"
+  - "Official website: PSS register page and Planinarski savez Vojvodine"
+  - "Waymarked only in parts: red triangle marks, but 'several sections are not yet marked' (PSS)"
+trip_reports:
+  - url: https://www.wikiloc.com/hiking-trails/fruskogorska-transverzala-kt1-kt3-bukovac-plan-dom-strazilovo-masna-cupa-plan-dom-zanatlija-orlovo-124589510
+    title: Fruškogorska transverzala KT1-KT3 Bukovac - Plan.dom Stražilovo - Masna ćupa - Plan.dom Zanatlija - Orlovo bojište - Popovica
+    summary: Recorded GPS track of the first day (control points 1–3), 18.5 km and +644 m.
+  - url: https://www.wikiloc.com/hiking-trails/fruskogorska-transverzala-jabuka-besenevo-mala-remeta-jazak-vrdnik-166498959
+    title: "Fruškogorska transverzala: Jabuka - Bešenovo - Mala Remeta - Jazak - Vrdnik"
+    summary: Recorded GPS track of a 16 km monastery stage by the same hiker, ending in Vrdnik.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Stra%C5%BEilovo.JPG
+    author: Micki
+    license: CC BY-SA 3.0
+    shows: Stražilovo, start and finish of the loop
+  - file_url: https://commons.wikimedia.org/wiki/File:Petkovica_Monastery_(Fru%C5%A1ka_gora).JPG
+    author: Ant83 at Serbian Wikipedia
+    license: CC BY-SA 3.0
+    shows: Petkovica monastery (control point 15)
+  - file_url: https://commons.wikimedia.org/wiki/File:The_Be%C5%A1enovo_Monastery_on_the_Fru%C5%A1ka_Gora._Serbia.jpg
+    author: Lukder
+    license: CC0
+    shows: Bešenovo monastery (control point 19)
+  - file_url: https://commons.wikimedia.org/wiki/File:Fru%C5%A1ka_gora_-_Manastir_Jazak.jpg
+    author: Goonie Bagheera
+    license: CC BY-SA 4.0
+    shows: Jazak monastery (control point 21)
+sources:
+  distance_km: https://pss.rs/terenipp/fruskogorska-transverzala/
+  total_ascent_m: https://pss.rs/terenipp/fruskogorska-transverzala/
+  typical_days: https://pss.rs/terenipp/fruskogorska-transverzala/
+  sleeping: https://pss.rs/terenipp/fruskogorska-transverzala/
+  difficulty: https://pss.rs/terenipp/fruskogorska-transverzala/
+  logistics: https://novisad.travel/en/planinarski-domovi-i-drustva-fruske-gore
+  permit: https://mfa.gov.rs/en/citizens/travel-serbia/registration-stay
+  waymarked: https://pss.rs/terenipp/fruskogorska-transverzala/
+  water_scarce: https://pss.rs/terenipp/fruskogorska-transverzala/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/11510161
+conflicts:
+  - field: distance_km
+    values:
+      - value: 164.7
+        source: https://pss.rs/terenipp/fruskogorska-transverzala/
+      - value: 167
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/11510161
+      - value: over 160
+        source: https://www.fruskac.net/en/node/296
+last_verified: 2026-11-27

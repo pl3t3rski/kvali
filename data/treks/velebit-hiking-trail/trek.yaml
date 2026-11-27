@@ -1,0 +1,95 @@
+id: velebit-hiking-trail
+status: draft
+name: Velebit Hiking Trail (Velebitski planinarski put, VPP)
+countries:
+  - HR
+region: Velebit
+one_liner: The classic north–south traverse of Velebit on shelters and huts, with all food carried and water from cisterns.
+route:
+  type: point-to-point
+  start: Zavižan (Planinarski dom Zavižan)
+  end: Starigrad-Paklenica
+distance_km: 132
+total_ascent_m: 5200
+typical_days:
+  min: 9
+  max: 10
+when:
+  best_months:
+    - June
+    - July
+    - August
+sleeping:
+  type: huts
+  booking_ahead: recommended
+  notes: Mostly unstaffed shelters and huts; bring a sleeping bag and pad and carry all food (no resupply). Groups are limited to about 8 people. Wild camping is not allowed on Velebit.
+difficulty:
+  level: 3
+  reason: 9–10 days of rough karst with no resupply and 2–3 L of water to carry each day; avoid fog, bura and snow.
+logistics:
+  getting_to_start: Zavižan is 3–4 hours' walk from Oltari or Krasno.
+  leaving_from_end: Ends on the Adriatic coast road (jadranska magistrala) at Starigrad-Paklenica.
+flags:
+  permit: none
+  permit_notes: No permit. Northern Velebit and Paklenica national parks charge entry fees. Warning signs for landmines line some sections; stay on the path.
+  waymarked: yes
+  water_scarce: true
+links:
+  official_site: https://www.hps.hr/info/vpp/
+establishment_signals:
+  - "Official status: official HPS (Croatian Mountaineering Association) trail since 1969, 23 control points"
+  - Waymarked along the whole route (standard markings plus a 'V')
+  - Official website (HPS)
+  - "Guidebook: the HPS VPP guide, plus Alan Čaplar's 'Planinarski vodič po Hrvatskoj'"
+  - Regularly covered in trip reports and travel articles (Cicerone, Lonely Planet)
+trip_reports:
+  - url: https://cicerone.co.uk/along-the-croatian-spine-walking-the-velebit-trail
+    title: "Along the Croatian spine: Walking the Velebit Trail"
+    summary: Alex Kendall walked about 100 km in 6 days in spring, using huts, winter rooms and one derelict shelter.
+  - url: https://www.loc.wiki/hiking-trails/alan-paklenica-7190648
+    title: Alan - Paklenica
+    summary: Recorded track and notes for the southern half, walked from Alan hut to Paklenica in five days.
+  - url: https://viadinarica.com/en/blog-2/393-baske-ostarije-gracac-21-06-2017-27-06-2017
+    title: Baške Oštarije – Gračac (21.06.2017–27.06.2017)
+    year_hiked: 2017
+    summary: Shares the southern VPP via Šugarska Duliba and Struge; camped near the well and followed temporary trail-run marks.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Paklenica_-_canyon_Velika_Paklenica.JPG
+    author: Pudelek (Marcin Szala)
+    license: CC BY-SA 3.0
+    shows: Velika Paklenica canyon, near where the trail ends
+  - file_url: https://commons.wikimedia.org/wiki/File:NP_Paklenica.jpg
+    author: ZovkoM
+    license: CC BY-SA 4.0
+    shows: Paklenica National Park
+  - file_url: https://commons.wikimedia.org/wiki/File:Rossijeva_koliba,_Premuziceva_staza.JPG
+    author: Rootmaker
+    license: CC BY-SA 3.0 (also GFDL)
+    shows: Rossi's shelter, a VPP control point
+sources:
+  distance_km: https://www.hps.hr/info/vpp/
+  total_ascent_m: https://fatmap.com/discover/route/croatia/zadarska/hiking/velebitski-planinarski-put-vpp/3416072
+  typical_days: https://www.hps.hr/info/vpp/
+  best_months: https://www.hps.hr/info/vpp/
+  sleeping: https://www.hps.hr/info/vpp/
+  booking_ahead: https://www.lonelyplanet.com/articles/best-hikes-in-croatia
+  wild_camping: https://www.lonelyplanet.com/articles/best-hikes-in-croatia
+  difficulty: https://www.hps.hr/info/vpp/
+  logistics: https://www.hps.hr/info/vpp/
+  permit: https://cicerone.co.uk/along-the-croatian-spine-walking-the-velebit-trail
+conflicts:
+  - field: distance_km
+    values:
+      - value: 132
+        source: https://www.hps.hr/info/vpp/
+      - value: 139
+        source: https://fatmap.com/discover/route/croatia/zadarska/hiking/velebitski-planinarski-put-vpp/3416072
+      - value: 100
+        source: https://cicerone.co.uk/along-the-croatian-spine-walking-the-velebit-trail
+  - field: typical_days
+    values:
+      - value: 9–10
+        source: https://www.hps.hr/info/vpp/
+      - value: 6 (one hiker)
+        source: https://cicerone.co.uk/along-the-croatian-spine-walking-the-velebit-trail
+last_verified: 2026-11-27

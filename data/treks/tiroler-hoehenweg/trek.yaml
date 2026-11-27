@@ -1,0 +1,47 @@
+id: tiroler-hoehenweg
+status: draft
+name: Tiroler Höhenweg (Alta Via Tiroler Höhenweg)
+countries:
+  - AT
+  - IT
+region: Zillertal Alps / Stubai / Texel group (Tyrol to South Tyrol)
+one_liner: Demanding 11–13-day high route from Mayrhofen across the main Alpine ridge to Merano, staying between 1,600 and 3,000 m.
+route:
+  type: point-to-point
+  start: Mayrhofen (AT)
+  end: Merano (IT)
+distance_km: 158
+total_ascent_m: 8500
+typical_days:
+  min: 11
+  max: 13
+sleeping:
+  type: mixed
+  notes: Alternates high-mountain huts and small valley villages.
+difficulty:
+  level: 4
+  reason: Demanding high route between 1,600 and 3,000 m with big daily ascents
+flags:
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+establishment_signals:
+  - cross-border high route (AT/IT)
+  - tourism-portal route page
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+  total_ascent_m: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+  sleeping: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+conflicts:
+  - field: distance_km
+    values:
+      - value: 158 km / 13 stages
+        source: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+      - value: 130 km / 11 days (same page)
+        source: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+last_verified: 2026-11-27

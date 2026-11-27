@@ -12,3 +12,6 @@ reverify-report.md
 
 # Third-party reference images; kept out of the repository
 design references/
+
+# Downloaded photo originals; only the resized files in public/photos are committed
+photo-originals/

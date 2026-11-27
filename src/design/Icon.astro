@@ -1,0 +1,13 @@
+---
+/** One of the nine hand-drawn trek icons. Pair it with a word; `Flag` does that. */
+import icons from './icons.json';
+import type { IconName } from './icon-names';
+
+interface Props {
+  name: IconName;
+  size?: number;
+}
+const { name, size = 24 } = Astro.props;
+---
+
+<svg class="kv-icon" width={size} height={size} viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d={icons[name]}></path></svg>

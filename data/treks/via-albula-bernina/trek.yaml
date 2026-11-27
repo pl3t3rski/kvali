@@ -1,0 +1,71 @@
+id: via-albula-bernina
+status: draft
+name: Via Albula/Bernina – regional route 33
+countries:
+  - CH
+  - IT
+region: Graubünden – Albula valley, Upper Engadin, Bernina Pass, Val Poschiavo – to Valtellina
+one_liner: Ten stages alongside the UNESCO-listed Albula and Bernina railway, from Thusis over the Bernina Pass to Tirano in Italy; trains everywhere for shortcuts.
+route:
+  type: point-to-point
+  start: Thusis
+  end: Tirano (IT)
+  osm_relation_id: 912415
+distance_km: 130
+total_ascent_m: 5100
+typical_days:
+  min: 7
+  max: 10
+when:
+  best_months:
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+  open_season: May to October (stage season).
+sleeping:
+  type: guesthouses
+  notes: Stage ends in villages along the railway (Tiefencastel, Filisur, Bergün, Preda, St. Moritz, Ospizio Bernina, Cavaglia, Le Prese); 4- and 7-day hotel packages exist.
+difficulty:
+  level: 2
+  reason: Grade medium, fitness medium; ~13 km and ~500 m ascent per stage on average, high point ~2,470 m near the Bernina Pass.
+logistics:
+  getting_to_start: Thusis, on the Rhaetian Railway.
+  leaving_from_end: Tirano (Italy), southern end of the Bernina railway.
+  nearest_airports:
+    - Zurich
+    - Milan Bergamo
+    - Milan Malpensa
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.graubuenden.ch/de/touren/via-albulabernina
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en-in/experiences/route/via-albulabernina/
+  total_ascent_m: https://www.myswitzerland.com/en-in/experiences/route/via-albulabernina/
+  typical_days: https://www.myswitzerland.com/en-in/experiences/route/via-albulabernina/
+  best_months: https://www.myswitzerland.com/en-us/experiences/route/via-albulabernina-33_01/
+  open_season: https://www.myswitzerland.com/en-us/experiences/route/via-albulabernina-33_01/
+  sleeping: https://myswitzerland.com/en/experiences/route/via-albulabernina-33_03
+  difficulty: https://search.ch/leisure/attraction/e408b2bfb5694711a40fa6d56989d4e0/via-albula-bernina
+  logistics: https://search.ch/libero/attraction/e408b2bfb5694711a40fa6d56989d4e0/via-albula-bernina.en.html
+  permit: https://www.myswitzerland.com/en-in/experiences/route/via-albulabernina/
+conflicts:
+  - field: typical_days
+    values:
+      - value: 10 official stages
+        source: https://www.myswitzerland.com/en-in/experiences/route/via-albulabernina/
+      - value: 7-day hotel package
+        source: https://myswitzerland.com/en/experiences/route/via-albulabernina-33_03
+last_verified: 2026-11-27

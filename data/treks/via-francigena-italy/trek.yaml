@@ -1,0 +1,70 @@
+id: via-francigena-italy
+status: draft
+name: Via Francigena – Italian section (Great St Bernard Pass to Rome)
+countries:
+  - IT
+  - CH
+region: Aosta Valley, Po plain, Apennines, Tuscany, Lazio
+one_liner: "The Italian half of the Canterbury–Rome pilgrimage: from the Great St Bernard hospice down the Aosta Valley, across the Apennines and Tuscany to St Peter's."
+route:
+  type: point-to-point
+  start: Great St Bernard Pass (CH/IT border)
+  end: Rome (St Peter's)
+  osm_relation_id: 11860709
+distance_km: 1004
+typical_days:
+  min: 45
+  max: 45
+sleeping:
+  type: guesthouses
+  notes: Pilgrim hostels, B&Bs and hotels; a stamped credential (from viefrancigene.org) is needed only to claim the Testimonium for the last 100 km.
+difficulty:
+  level: 2
+  reason: Steep 1,900 m descent from the pass (max altitude ~2,400 m), then long mostly lowland and hill stages
+flags:
+  permit: none
+  permit_notes: Optional pilgrim credential; Testimonium certificate for walking at least the final 100 km
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.viefrancigene.org
+establishment_signals:
+  - Council of Europe Cultural Route (1994)
+  - international route (OSM iwn)
+  - official website (European Association of the Vie Francigene)
+  - guidebooks (Terre di mezzo
+  - Cicerone)
+  - heavily covered in trip reports
+trip_reports:
+  - url: https://solitary-walker.blogspot.com/2015/09/walking-through-italy-on-via-francigena.html?m=1
+    title: Walking Through Italy On The Via Francigena
+    year_hiked: 2015
+    summary: Second half of a Canterbury–Rome walk, starting at the Great St Bernard hospice on 17 August 2015
+  - url: https://www.caminodesantiago.me/community/threads/thoughts-on-my-via-francigena-pilgrimage.94341/post-1412737
+    title: Thoughts on my Via Francigena pilgrimage
+    year_hiked: 2025
+    summary: Lausanne to Rome, 7 Sep–16 Oct 2025, skipping flat Po-plain and urban stages by train
+  - url: https://nicolethbridge.substack.com/p/chapter-110-hiking-without-a-hitch
+    title: "Chapter 110: Hiking without a hitch"
+    summary: A week in the Aosta Valley joining a brother walking from the Great St Bernard Pass to Rome
+  - url: https://thomasozbuntravels.blogspot.com/2017/02
+    title: Via Francigena (Thomas Oz Bun Travels)
+    summary: Day-by-day blog of a Tuscan section, meeting pilgrims who had walked ~700 km from the pass
+photos: []
+sources:
+  distance_km: https://www.terre.it/en/walks-and-paths/paths-files/the-via-francigena-everything-you-need-to-know/
+  typical_days: https://camminiditalia.org/en/cammini/via-francigena/
+  sleeping: https://www.terre.it/en/walks-and-paths/paths-files/the-via-francigena-everything-you-need-to-know/
+  difficulty: https://www.terre.it/en/walks-and-paths/paths-files/the-via-francigena-everything-you-need-to-know/
+  permit: https://caminoways.com/what-is-the-testimonium
+conflicts:
+  - field: distance_km
+    values:
+      - value: 1004
+        source: https://www.terre.it/en/walks-and-paths/paths-files/the-via-francigena-everything-you-need-to-know/
+      - value: 945
+        source: https://www.italia.it/en/italy/things-to-do/via-francigena-slow-tourism
+      - value: 1006
+        source: https://fastestknowntime.com/route/francigena-italiana-itinerario-di-sigerico-dal-colle-del-gran-san-bernardo-roma-italy
+last_verified: 2026-11-27

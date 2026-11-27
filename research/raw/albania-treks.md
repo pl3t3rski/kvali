@@ -1,0 +1,571 @@
+# Multi-day treks in Albania: research report
+
+Last verified: 2026-11-27. Every non-null field has a source URL in `sources`. Fields I could not source are `null`. OSM relation IDs were checked against the Waymarked Trails API. Photo licences were read from the Wikimedia Commons file pages as shown in search results (Commons could not be opened directly from this session).
+
+Treks that only cross Albania (Via Dinarica, High Scardus, Via Egnatia) are included as whole routes, the same way Via Dinarica is handled in the Croatia file, so the `via-dinarica-white-trail` id matches across countries.
+
+## 1. Included treks, ranked by establishment
+
+| Rank | Trek | Countries | Signals (of 5) |
+|---|---|---|---|
+| 1 | Peaks of the Balkans Trail | AL, XK, ME | 5 |
+| 2 | High Scardus Trail | MK, XK, AL | 5 (waymarking only partial) |
+| 3 | Via Dinarica White Trail (cross-border) | SI, HR, BA, ME, AL | 4 (partly waymarked; no guidebook covering Albania found) |
+| 4 | Southern Coastal Trail (Albanian Coastal Trail) | AL | 3–4 (official AKT/GIZ trail; waymarks patchy; no guidebook) |
+| 5 | Via Egnatia, Part 1 (Durrës–Thessaloniki) | AL, MK, GR | 3 (foundation website, guidebook, some coverage; not waymarked) |
+
+### 1. Peaks of the Balkans Trail
+
+```yaml
+id: peaks-of-the-balkans
+name: Peaks of the Balkans Trail
+countries: [AL, XK, ME]
+region: Prokletije / Accursed Mountains (Bjeshkët e Nemuna)
+one_liner: "A 10-day guesthouse loop through the Accursed Mountains of Albania, Kosovo and Montenegro, with a cross-border permit and classic passes like Valbona."
+route:
+  type: loop
+  start: Theth (Albania)
+  end: Theth (Albania)
+  osm_relation_id: 4726204
+  gpx_source: https://peaksofthebalkans.com
+distance_km: 192
+total_ascent_m: 9675
+typical_days: { min: 10, max: 14 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Main season June to September. The first snow, usually in October, ends the season; in winter the passes are snowbound and accommodation is very limited."
+sleeping:
+  type: guesthouses
+  booking_ahead: recommended
+  notes: "Village guesthouses and homestays with bedding provided; Dobërdol is a summer-only shepherd settlement with mattresses. Camping is possible, but not in national parks, which covers almost all of the Montenegrin section."
+difficulty:
+  level: 3
+  reason: "Ten stages of 11–27.5 km with up to about 1,450 m of ascent; no technical sections, but sudden weather changes and exit points can be days apart."
+logistics:
+  getting_to_start: "Daily summer bus from Shkodër to Theth. Alternative starts: Plav (fly to Podgorica) or Rekë e Allagës (bus from Pristina)."
+  leaving_from_end: "Loop: back to Shkodër from Theth by the same summer bus."
+  nearest_airports: [Tirana (TIA), Podgorica (TGD), Pristina (PRN)]
+flags:
+  permit: paid-permit
+  permit_notes: "Cross-border permit required for the green-border crossings; apply at least 15 days ahead through the police of the departure country or an agency (e.g. Zbulo). Albania and Kosovo issue theirs free; Montenegro charges about €10 plus €3 per extra person (2024). No quota or lottery."
+  waymarked: "yes"
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://peaksofthebalkans.com
+establishment_signals:
+  - "Official status: international trail (OSM network iwn), set up in 2012 as a German-backed cross-border project"
+  - "Waymarked along the whole route (white-red-white, with POB signs)"
+  - "Official website (peaksofthebalkans.com)"
+  - "Guidebook: Rudolf Abraham, 'The Peaks of the Balkans Trail' (Cicerone)"
+  - "Regularly covered in trip reports and travel articles (Wanderlust, Cicerone, many blogs)"
+trip_reports:
+  - url: https://www.22places.com/peaks-of-the-balkans/
+    title: "Peaks of the Balkans: Our Experience on the Long-Distance Hiking Trail"
+    year_hiked: 2025
+    summary: "Independent duo, 8 days from Theth to Plav in mid-June; skipped two stages, guesthouses at about €35 a night with meals, snow still on the Valbona–Çerem pass."
+  - url: https://adventuresoflilnicki.com/peaks-of-the-balkans-hike/
+    title: "Hiking the Peaks of the Balkans Trail Through the Accursed Mountains"
+    year_hiked: null
+    summary: "Independent pair in mid-October starting from Valbonë; permit via Zbulo, bused around two Montenegrin stages, hail and snow on the ridges."
+  - url: https://thehikinglife.com/?p=85281
+    title: "A Quick & Dirty Guide to the Peaks of the Balkans Trail"
+    year_hiked: 2023
+    summary: "Cam Honan in autumn 2023; wild-camped most nights and used guesthouses only in Theth and Dobërdol."
+  - url: https://uncorneredmarket.com/peaks-of-the-balkans-trekking-highlights-day-by-day/
+    title: "Peaks of the Balkans Trail: Day by Day on the Hike"
+    year_hiked: 2015
+    summary: "Guided, modified loop from Shkodër in late June–early July: 12 days on trail with homestays in Çerem, Dobërdol and Drelaj."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:2013-10-05_Valbona,_Albania_8806.jpg
+    author: Tobias Klenze
+    license: CC BY-SA 4.0
+    shows: "Climbing to the Valbona Pass from the Valbona side, October"
+  - file_url: https://commons.wikimedia.org/wiki/File:2024-10-14_Valbona_Valley_5.jpg
+    author: Alexkom000
+    license: CC BY 4.0
+    shows: "Valbona Valley, an overnight stop on the loop"
+  - file_url: https://commons.wikimedia.org/wiki/File:Maja_e_Gjeravic%C3%ABs,_De%C3%A7an.jpg
+    author: YllkaFetahaj
+    license: CC BY-SA 4.0
+    shows: "Gjeravica, Kosovo's highest peak, from its lake (a common side trip)"
+sources:
+  distance_km: https://www.cicerone.co.uk/peaks-of-the-balkans
+  total_ascent_m: https://www.outdooractive.com/en/route/long-distance-hiking/western-balkans/peaks-of-the-balkans-long-distance-hiking-trail-through-albania-/801321903/
+  typical_days: https://www.cicerone.co.uk/peaks-of-the-balkans
+  best_months: https://bookatrekking.com/en/blog/peaks-of-the-balkans/
+  open_season: https://www.cicerone.co.uk/peaks-of-the-balkans
+  sleeping: https://www.cicerone.co.uk/peaks-of-the-balkans
+  booking_ahead: https://bookatrekking.com/en/blog/peaks-of-the-balkans/
+  difficulty: https://www.cicerone.co.uk/peaks-of-the-balkans
+  logistics: https://www.outdooractive.com/en/route/long-distance-hiking/western-balkans/peaks-of-the-balkans-long-distance-hiking-trail-through-albania-/801321903/
+  nearest_airports: https://bookatrekking.com/en/blog/peaks-of-the-balkans/
+  permit: https://www.cicerone.co.uk/peaks-of-the-balkans
+  permit_lead_time: https://peaksofthebalkans.com/Cross-Border-Procedures
+  waymarked: https://issuu.com/zbulo/docs/peaks_of_the_balkans_complete_trail
+  water_scarce: https://bookatrekking.com/en/blog/peaks-of-the-balkans/
+  gpx_source: https://www.albania-spirit.com/guides/peaks-of-balkans-trail/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/4726204
+  establishment_year: https://adventuresoflilnicki.com/peaks-of-the-balkans-hike/
+  permit_free_al_xk: https://www.gonomad.com/?p=212687
+conflicts:
+  - field: distance_km
+    values:
+      - { value: 192, source: "https://www.cicerone.co.uk/peaks-of-the-balkans" }
+      - { value: 182.8, source: "https://www.cicerone.co.uk/peaks-of-the-balkans (sum of the stage table)" }
+      - { value: 180.2, source: "https://www.outdooractive.com/en/route/long-distance-hiking/western-balkans/peaks-of-the-balkans-long-distance-hiking-trail-through-albania-/801321903/" }
+      - { value: 179, source: "https://hiking.waymarkedtrails.org/api/v1/details/relation/4726204 (OSM distance tag; mapped geometry 194.6 km)" }
+  - field: total_ascent_m
+    values:
+      - { value: 9675, source: "https://www.outdooractive.com/en/route/long-distance-hiking/western-balkans/peaks-of-the-balkans-long-distance-hiking-trail-through-albania-/801321903/" }
+      - { value: 12020, source: "https://thehikinglife.com/?p=85281" }
+  - field: permit cost (Montenegro)
+    values:
+      - { value: "€10 + €3 per extra person (2024)", source: "https://www.cicerone.co.uk/peaks-of-the-balkans" }
+      - { value: "€11", source: "https://www.gonomad.com/?p=212687" }
+  - field: exposed_or_via_ferrata
+    values:
+      - { value: "some exposed, steep sections, especially on descents such as into Theth", source: "https://www.outdooractive.com/en/route/long-distance-hiking/western-balkans/peaks-of-the-balkans-long-distance-hiking-trail-through-albania-/801321903/" }
+      - { value: "no scrambling or via ferrata", source: "https://bookatrekking.com/en/blog/peaks-of-the-balkans/" }
+last_verified: 2026-11-27
+```
+
+### 2. High Scardus Trail
+
+```yaml
+id: high-scardus-trail
+name: High Scardus Trail (HST)
+countries: [MK, XK, AL]
+region: Šar, Korab, Deshat, Jablanica and Galičica mountains (Albania–Kosovo–North Macedonia borderlands)
+one_liner: "A three-week, little-walked border-ridge trek over Mt Korab, Albania's highest peak, with village guesthouses, eight permit crossings and patchy waymarks."
+route:
+  type: point-to-point
+  start: Staro Selo (North Macedonia)
+  end: Sveti Naum Monastery, Lake Ohrid (North Macedonia)
+  osm_relation_id: 16214640
+  gpx_source: null
+distance_km: 314
+total_ascent_m: 18385
+typical_days: { min: 20, max: 22 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Late June to end of September; snow can arrive from early October, when accommodation closes for winter. Late snow can linger on Šar planina into early July."
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: "Mostly village guesthouses (about €25 B&B plus €10 for dinner and packed lunch), a few mountain huts and summer chalets. Gornje Ljubinje and Strezimir have very limited beds. Wild camping is neither formally banned nor permitted on most of the route."
+difficulty:
+  level: 4
+  reason: "Remote border ridges and high passes up to 2,764 m (Korab), days up to 25.9 km, sparse resupply and route-finding across pathless pasture; no scrambling."
+logistics:
+  getting_to_start: "Fly to Skopje, bus to Tetovo (about 40 min), then taxi to Staro Selo (about 20 km). Staro Selo has no beds; stay in nearby Vratnica."
+  leaving_from_end: "Bus or seasonal ferry from Sveti Naum to Ohrid; buses from Ohrid to Skopje or Tirana (about 3 h each)."
+  nearest_airports: [Skopje (SKP), Pristina (PRN)]
+flags:
+  permit: paid-permit
+  permit_notes: "Eight green-border crossings, each needing a permit: about €5 per hiker per crossing (capped at €50 for up to 20). Apply 2–8 weeks ahead through each country's foreign ministry or an agency (Zbulo, Shar Outdoors, SuperXplorers). Permits are for fixed dates and direction. No quota."
+  waymarked: partial
+  water_scarce: null
+  exposed_or_via_ferrata: null
+links:
+  official_site: https://www.high-scardus-trail.com
+establishment_signals:
+  - "Official status: international trail (OSM network iwn), developed by GIZ with the three countries; named Best European Project 2022 by the British Guild of Travel Writers"
+  - "Official website (high-scardus-trail.com)"
+  - "Guidebook: Rudolf Abraham, 'Hiking the High Scardus Trail' (Cicerone, 1st edition 2026)"
+  - "Regularly covered in travel articles (National Geographic, Lonely Planet, Atlas & Boots)"
+  - "Partly waymarked: red-white rectangles and HST signs in Albania, but marking ranges from clear to non-existent"
+trip_reports:
+  - url: https://www.atlasandboots.com/?p=103151
+    title: "High Scardus Trail in Albania: everything you need to know"
+    year_hiked: null
+    summary: "Peter Watson walked the Albanian section self-guided (Zbulo): 6 trekking days Kukës–Çajë–Radomirë–Korab–Grama–Rabdisht–Bellovë, 92 km."
+  - url: https://www.cicerone.co.uk/in-conversation-with-rudolf-abraham-hiking-the-high-scardus-trail
+    title: "In conversation with Rudolf Abraham: Hiking the High Scardus Trail"
+    year_hiked: null
+    summary: "The guidebook author on walking the whole trail: thin paths in places, simple but welcoming guesthouses, and permits best arranged through an agency."
+  - url: https://www.outdoor-magazin.com/wanderwege/fernwanderung-high-scardus-trail-durch-albanien-kosovo-und-mazedonien
+    title: "Abenteuer Balkan: High Scardus Trail (German)"
+    year_hiked: null
+    summary: "First-person report from Vejce to the Kobilica hut and on toward Šar and Korab; warns the signage is incomplete and GPS is needed."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Panair_Korab.jpg
+    author: Albinfo
+    license: CC BY-SA 3.0 (also GFDL)
+    shows: "The Korab range from the Panair plain on the Albanian side"
+  - file_url: https://commons.wikimedia.org/wiki/File:Fshati_Radomire.jpg
+    author: Jonuz Kola
+    license: CC BY-SA 4.0
+    shows: "Radomirë village, the base for Mt Korab"
+  - file_url: https://commons.wikimedia.org/wiki/File:Mali_Korabit.jpg
+    author: Fation Plaku
+    license: CC BY-SA 4.0
+    shows: "Korab mountain in Korab-Koritnik Nature Park"
+sources:
+  distance_km: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  total_ascent_m: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  typical_days: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  best_months: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  open_season: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  sleeping: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  difficulty: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  logistics: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  nearest_airports: https://www.outdoor-magazin.com/wanderwege/high-scardus-trail-albanische-alpen-v1/
+  permit: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  waymarked: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  official_site: https://hiking.waymarkedtrails.org/api/v1/details/relation/16214640
+  award: https://butterflyoutdoor.com/high-scardus-trail-11-days/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/16214640
+conflicts:
+  - field: distance_km
+    values:
+      - { value: 314, source: "https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide" }
+      - { value: 296, source: "https://www.ebook.de/de/product/52686113/.html (earlier blurb for the same guidebook)" }
+      - { value: 362, source: "https://muchbetteradventures.com/magazine/high-scardus-trail" }
+      - { value: "495 (2018 launch route, ending at Prespa in Albania)", source: "https://www.tiranatimes.com/new-long-distance-hiking-trail-links-albania-kosovo-macedonia/" }
+  - field: total_ascent_m
+    values:
+      - { value: "18385 (sum of the 20 walking stages in the Cicerone stage table)", source: "https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide" }
+      - { value: "22490 (362 km version)", source: "https://www.wildwesternbalkans.com/en/long-distance-hikes/western-balkans/long-distance-hikes-in-the-western-balkans/251944100/" }
+  - field: best_months
+    values:
+      - { value: "late June to September", source: "https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide" }
+      - { value: "mid-June to mid-October", source: "https://muchbetteradventures.com/magazine/high-scardus-trail" }
+last_verified: 2026-11-27
+```
+
+### 3. Via Dinarica White Trail
+
+```yaml
+id: via-dinarica-white-trail
+name: Via Dinarica White Trail
+countries: [SI, HR, BA, ME, AL]
+region: Dinaric Alps (Albanian section in the Prokletije / Albanian Alps around Theth and Valbona)
+one_liner: "A trans-Balkan thru-hike along the Dinaric spine that ends in Albania's Accursed Mountains; the Albanian part is short, high and partly unmarked."
+route:
+  type: point-to-point
+  start: Postojna (Slovenia)
+  end: Valbona (Albania)
+  osm_relation_id: 7388026
+  gpx_source: https://trail.viadinarica.com/route/17291189/
+distance_km: 1261.2
+total_ascent_m: 49579
+typical_days: { min: 45, max: 60 }
+when:
+  best_months: [May, June, July, August, September, October]
+  open_season: null
+sleeping:
+  type: mixed
+  booking_ahead: null
+  notes: "Mountain huts (many free in Croatia), village guesthouses and wild camping. In Albania the trail passes the guesthouse villages of Theth and Valbona. Camping is banned in some national parks."
+difficulty:
+  level: 4
+  reason: "Remote stretches, unreliable GPX and signage outside Croatia, high point 2,694 m (Maja Jezercë in Albania); landmine and UXO areas in HR/BA."
+logistics:
+  getting_to_start: "Bus from Ljubljana to Razdrto (alternative start)."
+  leaving_from_end: null
+  nearest_airports: [Ljubljana (LJU), Zagreb (ZAG)]
+flags:
+  permit: free-registration
+  permit_notes: "No unified permit. The Montenegro–Albania crossing is on the 'green border' away from official checkpoints; use legal checkpoints or arrange border-crossing permission in advance. Some national parks charge entry fees. Cost and process not verified."
+  waymarked: partial
+  water_scarce: true
+  exposed_or_via_ferrata: null
+links:
+  official_site: https://www.viadinarica.com/en/about/trails
+establishment_signals:
+  - "Official status: international long-distance trail (OSM network iwn)"
+  - "Official website and trail portal (trail.viadinarica.com)"
+  - "Regularly covered in trip reports and travel articles (National Geographic, Outside, Lonely Planet, Treeline Review)"
+  - "Partly waymarked: the Croatian section is well marked; parts of the Albanian section are not"
+trip_reports:
+  - url: https://thetrek.co/via-dinarica-the-best-thru-hike-youve-never-heard-of/
+    title: "Via Dinarica: The BEST Thru-Hike You've Never Heard Of"
+    year_hiked: 2021
+    summary: "Couple's 60-day southbound thru-hike from Razdrto to Valbona; crossed into Albania on the green border and cowboy-camped below Maja Jezercë."
+  - url: https://viadinarica.com/en/blog-2/153-stage-45-theth-to-valbona
+    title: "Stage 45: Theth to Valbona"
+    year_hiked: 2016
+    summary: "Claire Leenen's final stage over the Valbona Pass to the trail's end near a Valbona campsite; slept at a guesthouse during storms."
+  - url: https://viadinarica.com/en/blog-2/151-albania-alternate-vermosh-lepushe-maja-e-jezerce-theth
+    title: "Albania alternate: Vermosh – Lepushë – Maja e Jezercë – Theth"
+    year_hiked: 2016
+    summary: "Three-day Albanian alternative via Lepushë; marked trails gave way to unmarked, cairn-strewn ground near Maja Jezercë."
+  - url: https://chasingthedonkey.com/hiking-the-via-dinarica-reverse-solo-balkans
+    title: "Hiking The Via Dinarica White Trail In Reverse & Solo"
+    year_hiked: null
+    summary: "Solo, east to west from Albania to Slovenia, finishing in October."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Jezerca_Peak.jpg
+    author: DriniTeta
+    license: CC BY-SA 4.0
+    shows: "Summit of Maja Jezercë (2,694 m), the trail's high point"
+  - file_url: https://commons.wikimedia.org/wiki/File:Jezerca_Massive.jpg
+    author: Albinfo
+    license: CC BY-SA 3.0 (multi-licensed)
+    shows: "The Jezerca massif in the Albanian Alps"
+  - file_url: https://commons.wikimedia.org/wiki/File:Zhapik_ne_Theth.jpg
+    author: Irma Tollmi
+    license: CC BY-SA 4.0
+    shows: "Theth, the last village before the final stage to Valbona"
+sources:
+  distance_km: https://trail.viadinarica.com/route/17291189/
+  total_ascent_m: https://trail.viadinarica.com/route/17291189/
+  typical_days: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+  best_months: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+  open_season: null
+  sleeping: https://thetrek.co/via-dinarica-the-best-thru-hike-youve-never-heard-of/
+  difficulty: https://trail.viadinarica.com/route/17291189/
+  logistics: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+  permit: https://thetrek.co/via-dinarica-the-best-thru-hike-youve-never-heard-of/
+  waymarked: https://viadinarica.com/en/blog-2/151-albania-alternate-vermosh-lepushe-maja-e-jezerce-theth
+  water_scarce: https://thetrek.co/via-dinarica-the-best-thru-hike-youve-never-heard-of/
+  albania_route: https://www.tiranatimes.com/?p=135422
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/7388026
+conflicts:
+  - field: route.start
+    values:
+      - { value: "Postojna", source: "https://trail.viadinarica.com/route/17291189/" }
+      - { value: "Razdrto", source: "https://en.wikipedia.org/wiki/Via_Dinarica" }
+  - field: distance_km
+    values:
+      - { value: 1261.2, source: "https://trail.viadinarica.com/route/17291189/" }
+      - { value: 1260.8, source: "https://en.wikipedia.org/wiki/Via_Dinarica" }
+      - { value: 1200, source: "https://www.treelinereview.com/where-to-go/via-dinarica-white-trail" }
+  - field: typical_days
+    values:
+      - { value: "about 5 weeks (to the Montenegro–Albania border)", source: "https://www.treelinereview.com/where-to-go/via-dinarica-white-trail" }
+      - { value: "60 days (Razdrto–Valbona, 2021)", source: "https://thetrek.co/via-dinarica-the-best-thru-hike-youve-never-heard-of/" }
+last_verified: 2026-11-27
+```
+
+### 4. Southern Coastal Trail
+
+```yaml
+id: southern-coastal-trail-albania
+name: Southern Coastal Trail (Albanian Coastal Trail)
+countries: [AL]
+region: Albanian Riviera (Himarë)
+one_liner: "Six short village-to-village days along the Albanian Riviera, linking beaches, olive terraces and stone villages; best in spring or autumn."
+route:
+  type: point-to-point
+  start: Dhërmi
+  end: Nivicë
+  osm_relation_id: null
+  gpx_source: https://www.walking4fun.com/trails/albanian-southern-coastal-trail
+distance_km: 74
+total_ascent_m: 2407
+typical_days: { min: 6, max: 6 }
+when:
+  best_months: [March, April, May, June, September, October, November]
+  open_season: "July–August is too hot for hiking. Many bars, restaurants and minimarkets open only from mid-June to mid-September."
+sleeping:
+  type: guesthouses
+  booking_ahead: recommended
+  notes: "Pre-book each night, especially in Pilur, Kudhës and Nivicë, where there are only a few rooms. Dhërmi, Livadh, Himarë, Borsh and Lukovë have more choice."
+difficulty:
+  level: 2
+  reason: "Daily ascents up to about 850 m on loose, rocky paths; no technical sections, but little water, some overgrown stretches and a few steep cliff-side bits."
+logistics:
+  getting_to_start: "Buses to Dhërmi from Tirana (about 6–7 h) and Saranda (2–3 h); about 3.5 h by road from Tirana or 1.5 h from Vlorë."
+  leaving_from_end: null
+  nearest_airports: [Tirana (TIA), Corfu (CFU, then ferry to Saranda)]
+flags:
+  permit: none
+  permit_notes: null
+  waymarked: partial
+  water_scarce: true
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://akt.gov.al/wp-content/uploads/2022/09/HIKING-TRAILS.pdf
+establishment_signals:
+  - "Official status: developed for GIZ Albania and published by the National Tourism Agency (AKT)"
+  - "Trail authority: AKT trail brochure with stage descriptions"
+  - "Regularly covered in trip reports and travel articles (Outdooractive, Much Better Adventures, blogs)"
+  - "Partly waymarked: officially red-white-red with signposts at each stage, but walkers report patchy or faded marks"
+trip_reports:
+  - url: https://www.anotherlongwalk.com/2025/06/day-1-i-went-to-albania.html
+    title: "Day 1: I went to Albania?!"
+    year_hiked: 2025
+    summary: "Started 4 May 2025 from Dhërmi with a tent; white-red-white marks only some of the time, camped at Gjipe; whole trail done in 6 days (4–9 May)."
+  - url: https://thewrongbus.com/adventure/southern-coastal-trail
+    title: "Southern Coastal Trail, Albania's Wild Riviera"
+    year_hiked: null
+    summary: "Merged stages because no rooms were available in Pilur or Kudhës; the Pilur–Kudhës path was overgrown, so they finished on the road."
+  - url: https://www.utracks.com/Blog/traveller-tale-walking-albanias-coast
+    title: "Traveller Tale: Walking Albania's Coast"
+    year_hiked: null
+    summary: "Guided week in April based in Himarë, walking trail sections such as Kudhës–Qeparo and Lukovë–Borsh; markings basic and often faded."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Gjipe_Beach,_Albania.JPG
+    author: Pudelek (Marcin Szala)
+    license: CC BY-SA 3.0
+    shows: "Gjipe beach, on stage 1"
+  - file_url: https://commons.wikimedia.org/wiki/File:Qeparo_beach.jpg
+    author: Leeturtle
+    license: CC BY-SA 4.0
+    shows: "Qeparo beach, below Old Qeparo on stage 4"
+  - file_url: https://commons.wikimedia.org/wiki/File:Borsh_Albania_waterfall.jpg
+    author: Michael Sujka
+    license: CC BY 2.0
+    shows: "Waterfall at Borsh, the end of stage 4"
+sources:
+  distance_km: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  total_ascent_m: https://www.outdooractive.com/en/route/long-distance-hiking/albanian-riviera/albanian-coastal-trail/801637926/
+  typical_days: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  best_months: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  open_season: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  sleeping: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  difficulty: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  logistics: https://www.outdooractive.com/en/route/long-distance-hiking/albanian-riviera/albanian-coastal-trail/801637926/
+  logistics_by_road: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  permit: null
+  waymarked: https://www.anotherlongwalk.com/2025/06/day-1-i-went-to-albania.html
+  water_scarce: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  gpx_source: https://www.walking4fun.com/trails/albanian-southern-coastal-trail
+conflicts:
+  - field: distance_km
+    values:
+      - { value: 74, source: "https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf (introduction)" }
+      - { value: "78.3 (sum of AKT stage figures; stage 6 repeats stage 5's numbers)", source: "https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf" }
+      - { value: 72, source: "https://www.walking4fun.com/trails/albanian-southern-coastal-trail" }
+      - { value: 64.9, source: "https://www.outdooractive.com/en/route/long-distance-hiking/albanian-riviera/albanian-coastal-trail/801637926/" }
+  - field: total_ascent_m
+    values:
+      - { value: 2407, source: "https://www.outdooractive.com/en/route/long-distance-hiking/albanian-riviera/albanian-coastal-trail/801637926/" }
+      - { value: "about 2900 (sum of AKT stage figures)", source: "https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf" }
+  - field: waymarked
+    values:
+      - { value: "yes: red-white-red marks and signposts at each stage", source: "https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf" }
+      - { value: "partial: marked only some of the time", source: "https://www.anotherlongwalk.com/2025/06/day-1-i-went-to-albania.html" }
+last_verified: 2026-11-27
+```
+
+### 5. Via Egnatia, Part 1
+
+```yaml
+id: via-egnatia-durres-thessaloniki
+name: Via Egnatia Hiking Trail, Part 1 (Durrës – Thessaloniki)
+countries: [AL, MK, GR]
+region: Shkumbin valley, Lake Ohrid and Macedonia (Albania–North Macedonia–Greece)
+one_liner: "A month-long, unmarked town-to-town walk on the line of the Roman road from the Adriatic to Thessaloniki, with real Roman paving in the Albanian hills."
+route:
+  type: point-to-point
+  start: Durrës (Albania)
+  end: Thessaloniki (Greece)
+  osm_relation_id: null
+  gpx_source: https://viaegnatiafoundation.eu/the-trail/
+distance_km: 475
+total_ascent_m: 6951
+typical_days: { min: 28, max: 28 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: guesthouses
+  booking_ahead: null
+  notes: "Town-to-town stages; the Via Egnatia Foundation keeps an accommodation list on its website."
+difficulty:
+  level: 2
+  reason: "Medium walking on lanes, ridges and old road in hill country; navigation needed because the route is not waymarked."
+logistics:
+  getting_to_start: "Fly to Tirana and take a bus to Durrës, or take a ferry from Bari to Durrës."
+  leaving_from_end: null
+  nearest_airports: [Tirana (TIA)]
+flags:
+  permit: none
+  permit_notes: "No permits. The route crosses into North Macedonia at the Qafë Thanë road pass."
+  waymarked: "no"
+  water_scarce: null
+  exposed_or_via_ferrata: null
+links:
+  official_site: https://viaegnatiafoundation.eu/the-trail/
+establishment_signals:
+  - "Official website / trail organisation (Via Egnatia Foundation)"
+  - "Guidebook: Marietta van Attekum & Holger de Bruin, 'Via Egnatia on Foot, Part 1' (Via Egnatia Foundation, 2014; 2021 printing listed), with GPS tracks"
+  - "Covered in travel articles and route listings (AramcoWorld, Wikivoyage, FKT)"
+trip_reports:
+  - url: https://www.aussiebushwalking.com/overseas/albania/via-egnatia
+    title: "Via Egnatia"
+    year_hiked: null
+    summary: "Walked sections in Albania and North Macedonia; best days on the surviving Roman road past Elbasan and over the hills from Ohrid to Resen; not waymarked."
+  - url: https://www.caminodesantiago.me/community/threads/via-egnatia-towards-jerusalem.61758/post-737971
+    title: "LIVE from the Camino – Via Egnatia (towards Jerusalem)"
+    year_hiked: 2019
+    summary: "Day-by-day forum diary of a pilgrim walking from Durrës in spring 2019, continuing from his Via Francigena."
+  - url: https://fastestknowntime.com/fkt/bodil-oudshoorn-lisa-watson-egnatia-part-1-durres-thessaloniki-2019-12-31
+    title: "FKT: Bodil Oudshoorn, Lisa Watson – Via Egnatia Part 1"
+    year_hiked: 2019
+    summary: "Ran Durrës to Thessaloniki self-supported over Christmas 2019 in 11 days 4 hours; muddy Albanian countryside."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Via_Egnatia_Librazhd.jpg
+    author: Albinfo
+    license: CC BY-SA 4.0
+    shows: "Original Roman paving of the Via Egnatia in the Polis mountains, Librazhd"
+  - file_url: https://commons.wikimedia.org/wiki/File:Ura_e_Kamares_(Kamare_Bridge),_Elbasan_(4).jpg
+    author: Liridon
+    license: CC BY-SA 4.0
+    shows: "Ura e Kamarës, the old stone bridge over the Shkumbin near Mirakë"
+sources:
+  distance_km: https://www.denoorderzon.nl/the-via-egnatia-hiking-trail-9789082197303
+  total_ascent_m: https://fastestknowntime.com/route/egnatia-part-1-durres-thessaloniki
+  typical_days: https://aussiebushwalking.com/overseas/albania
+  best_months: null
+  open_season: null
+  sleeping: https://viaegnatiafoundation.eu/the-trail/
+  difficulty: https://www.aussiebushwalking.com/overseas/albania/via-egnatia
+  logistics: https://www.aussiebushwalking.com/overseas/albania/via-egnatia
+  nearest_airports: https://en.wikivoyage.org/wiki/Via_Egnatia
+  permit: https://www.aussiebushwalking.com/overseas/albania/via-egnatia
+  border_crossing: https://alaturka.info/en/albania/elbasan/3596-via-egnatia-through-albania-from-durres-to-quafe-thane
+  waymarked: https://www.aussiebushwalking.com/overseas/albania/via-egnatia
+  guidebook: https://www.freytagberndt.com/en/via-egnatia-on-foot-teil-1.html
+conflicts:
+  - field: distance_km
+    values:
+      - { value: 475, source: "https://www.denoorderzon.nl/the-via-egnatia-hiking-trail-9789082197303" }
+      - { value: 480, source: "https://www.aussiebushwalking.com/overseas/albania/via-egnatia" }
+      - { value: 460, source: "https://www.landschapreisboekwinkel.nl/detail/gids/0/wandelgidsen/9789082197303/wandelgids-via-egnatia-on-foot-deel-1-via-egnatia-foundation" }
+      - { value: "427.61 (GPS track)", source: "https://fastestknowntime.com/route/egnatia-part-1-durres-thessaloniki" }
+last_verified: 2026-11-27
+```
+
+
+## 2. Excluded candidates
+
+| Candidate | Rule failed | Note |
+|---|---|---|
+| Theth–Valbona Pass | Rule 1 | 1 day (about 14–19 km). It is stage 1 of the Peaks of the Balkans. |
+| Ceraunian Mountains Grand Traverse (Maja e Çikës) | Rule 1 | 26.4 km, about 10.5 h; a long day hike. |
+| Zagoria Valley trek / "Hidden Valley Trek" (Peshtan–Përmet) | Rule 2 (borderline) | 3–4 walking days, but the route is an operator itinerary (Zbulo and resellers). I found no trail authority, waymarking or guidebook, and no independent first-hand report. Worth a human check. |
+| Balkania Route / Balkan Green Belt – Albania (Vermosh–Prespa, about 419 km) | Rule 2 (borderline) | GPS-only route published by the NGO PPNEA in November 2024. I found no waymarking, guidebook or trip reports, so it is not yet a route people recognise. |
+| Kelmend border-area trek (Selcë–Vermosh–Lëpushë–Nikç) | Rule 2 | Itinerary from a regional hiking brochure, not a named trail. |
+| Albanian Alps Explorer (Zbulo, 5 days) | Rule 2 | Commercial tour itinerary. |
+| Prespa National Park trails | Rule 1 | Network of day trails (up to about 24 km). |
+| EU cross-border trail Albania–North Macedonia (40 km) | Rule 1 | 40 km, signed for hikers and bikers. |
+| "Walking with the Vlachs" trails (Upper Vjosa, INCULTUM project) | Rule 1 / Rule 2 | Short trails; the longer "border itineraries" from Saranda to Gramoz are not defined as one route. |
+| Via Dinarica Green and Blue trails (Albanian parts) | Rule 2 | Still under development (Wikipedia, as of 2020). |
+| High Scardus original 2018 route ending at Prespa (495 km) | Duplicate | Replaced by the current 314 km route to Sveti Naum; recorded as a conflict on the HST entry. |
+| Trans Dinarica / UNESCO cycling routes | Not hiking | Bike routes. |
+
+## 3. Open questions for a human check
+
+**Missing or weak data**
+- No OSM route relation found for the Southern Coastal Trail or the Via Egnatia. The High Scardus relation 16214640 has no distance tag and maps only about 215 km of 314 km.
+- Via Egnatia: best months, sleeping booking, water, exposure and "leaving from end" are empty. Typical days (28) comes from one listing only, and only 2 Commons photos could be licence-checked.
+- High Scardus: no GPX source found except the paid Cicerone download; water and exposure are unknown. The official site (high-scardus-trail.com) showed a bot check and could not be read.
+- Southern Coastal Trail: no transport info for leaving Nivicë, and no guidebook found. The AKT PDF lists stage 6 with the same numbers as stage 5, so its totals are unreliable.
+- Via Dinarica: most fields are reused from the Croatia research (same sources). Albania-specific marking and the green-border crossing from Montenegro need checking. The "free-registration" permit flag is an interpretation, not a confirmed process.
+- Peaks of the Balkans: the GPX source (peaksofthebalkans.com) is named by a guide site; I did not open a download link.
+- Trip report years are unknown for several reports (Adventures of Nicole, Atlas & Boots, The Wrong Bus, uTracks, Aussie Bushwalking).
+
+**Conflicts to settle**
+- Peaks of the Balkans: distance 192 / 182.8 / 180.2 / 179 km; ascent 9,675 vs 12,020 m; Montenegro permit fee; whether any sections count as exposed.
+- High Scardus: distance 314 / 296 / 362 / 495 km; ascent 18,385 m (my sum of Cicerone stages) vs 22,490 m (362 km version); best months.
+- Southern Coastal Trail: distance 74 / 78.3 / 72 / 64.9 km; ascent 2,407 vs about 2,900 m; whether it is fully waymarked (official) or patchy (walkers).
+- Via Egnatia: distance 475 / 480 / 460 / 427.6 km.
+- Via Dinarica: start (Postojna vs Razdrto), distance, and days (about 5 weeks vs 60 days).
+
+**Borderline decisions**
+- Zagoria Valley trek and the Balkania Route were excluded on Rule 2. Either could be added if you count well-known operator itineraries or new NGO GPS routes as "named, defined routes".
+- Via Egnatia passes Rule 2 on the strength of the foundation guidebook and GPS tracks, even though it has no waymarks. Drop it if waymarking should be required.

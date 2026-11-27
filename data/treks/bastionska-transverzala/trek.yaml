@@ -1,0 +1,68 @@
+id: bastionska-transverzala
+status: draft
+name: Bastion Transversal (Bastionska transverzala, T-4-41)
+countries:
+  - RS
+region: Zaječar and Gamzigrad (Felix Romuliana), eastern Serbia
+one_liner: A gentle three-day loop around Zaječar linking eight 19th-century hilltop bastions with the UNESCO Roman palace of Felix Romuliana.
+route:
+  type: loop
+  start: Zaječar (sports hall, info board)
+  end: Zaječar (sports hall, info board)
+  osm_relation_id: 13239147
+distance_km: 68.75
+total_ascent_m: 1606
+typical_days:
+  min: 3
+  max: 3
+sleeping:
+  type: guesthouses
+  notes: Rehabilitation hospital at Gamzigradska Banja and village homestays in Gamzigrad, Nikoličevo and Gamzigradska Banja.
+difficulty:
+  level: 1
+  reason: About 23 km and 535 m of climbing a day on low hills (116–432 m).
+flags:
+  permit: free-registration
+  permit_notes: No trail permit; booklet (250 RSD) from OPSD Dragan Radosavljević; bring an ink pad for most stamps. Foreigners must register their stay with the police within 24 h.
+  waymarked: yes
+  water_scarce: false
+links:
+  official_site: http://www.opsddraganradosavljevic.rs/bastionska-transverzala/
+establishment_signals:
+  - "Official status: PSS-registered transversal T-4-41 (opened 2018)"
+  - Waymarked in both directions, with marked alternatives (verified 2018)
+  - "Official website: club page and PSS register page"
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Gamzigrad_-_Felix_Romuliana_(by_Pudelek)_2.JPG
+    author: Pudelek (Marcin Szala)
+    license: CC BY-SA 3.0 rs
+    shows: Felix Romuliana (control point 4)
+  - file_url: https://commons.wikimedia.org/wiki/File:Gamzigrad_-_Felix_Romuliana_(by_Pudelek)_5_-_East_Gate.JPG
+    author: Pudelek (Marcin Szala)
+    license: CC BY-SA 3.0 rs
+    shows: East gate of Felix Romuliana
+  - file_url: https://commons.wikimedia.org/wiki/File:Bridge_over_Crni_Timok_in_Gamzigradska_Banja.jpg
+    author: Stadtigel
+    license: CC BY-SA 4.0
+    shows: Bridge over the Crni Timok at Gamzigradska Banja
+sources:
+  distance_km: https://pss.rs/terenipp/bastionska-transverzala/
+  total_ascent_m: https://pss.rs/terenipp/bastionska-transverzala/
+  typical_days: https://pss.rs/terenipp/bastionska-transverzala/
+  sleeping: https://pss.rs/terenipp/bastionska-transverzala/
+  difficulty: https://pss.rs/terenipp/bastionska-transverzala/
+  difficulty_altitudes: https://www.iso-maps.com/en/randonnee/serbie/karpaten-karpati-karpatok-karpaty-muntii-carpati-karpati/bastionska-transverzala-135315
+  logistics: https://pss.rs/terenipp/bastionska-transverzala/
+  permit: https://mfa.gov.rs/en/citizens/travel-serbia/registration-stay
+  waymarked: https://pss.rs/terenipp/bastionska-transverzala/
+  water_scarce: https://pss.rs/terenipp/bastionska-transverzala/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/13239147
+conflicts:
+  - field: distance_km
+    values:
+      - value: 68.75
+        source: https://pss.rs/terenipp/bastionska-transverzala/
+      - value: 63.2 (computed from the OSM route)
+        source: https://www.iso-maps.com/en/randonnee/serbie/karpaten-karpati-karpatok-karpaty-muntii-carpati-karpati/bastionska-transverzala-135315
+last_verified: 2026-11-27

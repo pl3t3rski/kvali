@@ -1,0 +1,987 @@
+# Multi-day treks in Croatia: research report
+
+Last verified: 2026-11-27. Every non-null field has a source URL in `sources`. Fields I could not source are `null`. OSM relation IDs were checked against the Waymarked Trails API. Photo licences were read from the Wikimedia Commons file pages as shown in search results.
+
+## 1. Included treks, ranked by establishment
+
+| Rank | Trek | Signals (of 5) |
+|---|---|---|
+| 1 | Velebit Hiking Trail (VPP) | 5 |
+| 2 | Premužić Trail | 5 |
+| 3 | Via Dinarica White Trail (cross-border) | 4 (partly waymarked) |
+| 4 | Istrian Hiking Trail (IPP) | 4 |
+| 5 | Gorski Kotar Hiking Trail (GPP) | 4 (waymarking not confirmed) |
+| 6 | Camino Krk | 3 |
+| 7 | Via Apsyrtides | 3 |
+| 8 | Slavonian Hiking Trail (SPP) | 3 |
+| 9 | Rijeka Hiking Circuit (RPO) | 2 |
+| 10 | Via Adriatica | 2 |
+| 11 | Croatian Long Distance Trail (CLDT) | 1 |
+
+### 1. Velebit Hiking Trail
+
+```yaml
+id: velebit-hiking-trail
+name: Velebit Hiking Trail (Velebitski planinarski put, VPP)
+countries: [HR]
+region: Velebit
+one_liner: "The classic north–south traverse of Velebit on shelters and huts, with all food carried and water from cisterns."
+route:
+  type: point-to-point
+  start: Zavižan (Planinarski dom Zavižan)
+  end: Starigrad-Paklenica
+  osm_relation_id: null
+  gpx_source: null
+distance_km: 132
+total_ascent_m: 5200
+typical_days: { min: 9, max: 10 }
+when:
+  best_months: [June, July, August]
+  open_season: null
+sleeping:
+  type: huts
+  booking_ahead: recommended
+  notes: "Mostly unstaffed shelters and huts; bring a sleeping bag and pad and carry all food (no resupply). Groups are limited to about 8 people. Wild camping is not allowed on Velebit."
+difficulty:
+  level: 3
+  reason: "9–10 days of rough karst with no resupply and 2–3 L of water to carry each day; avoid fog, bura and snow."
+logistics:
+  getting_to_start: "Zavižan is 3–4 hours' walk from Oltari or Krasno."
+  leaving_from_end: "Ends on the Adriatic coast road (jadranska magistrala) at Starigrad-Paklenica."
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: "No permit. Northern Velebit and Paklenica national parks charge entry fees. Warning signs for landmines line some sections; stay on the path."
+  waymarked: "yes"
+  water_scarce: true
+  exposed_or_via_ferrata: null
+links:
+  official_site: https://www.hps.hr/info/vpp/
+establishment_signals:
+  - "Official status: official HPS (Croatian Mountaineering Association) trail since 1969, 23 control points"
+  - "Waymarked along the whole route (standard markings plus a 'V')"
+  - "Official website (HPS)"
+  - "Guidebook: the HPS VPP guide, plus Alan Čaplar's 'Planinarski vodič po Hrvatskoj'"
+  - "Regularly covered in trip reports and travel articles (Cicerone, Lonely Planet)"
+trip_reports:
+  - url: https://cicerone.co.uk/along-the-croatian-spine-walking-the-velebit-trail
+    title: "Along the Croatian spine: Walking the Velebit Trail"
+    year_hiked: null
+    summary: "Alex Kendall walked about 100 km in 6 days in spring, using huts, winter rooms and one derelict shelter."
+  - url: https://www.loc.wiki/hiking-trails/alan-paklenica-7190648
+    title: "Alan - Paklenica"
+    year_hiked: null
+    summary: "Recorded track and notes for the southern half, walked from Alan hut to Paklenica in five days."
+  - url: https://viadinarica.com/en/blog-2/393-baske-ostarije-gracac-21-06-2017-27-06-2017
+    title: "Baške Oštarije – Gračac (21.06.2017–27.06.2017)"
+    year_hiked: 2017
+    summary: "Shares the southern VPP via Šugarska Duliba and Struge; camped near the well and followed temporary trail-run marks."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Paklenica_-_canyon_Velika_Paklenica.JPG
+    author: Pudelek (Marcin Szala)
+    license: CC BY-SA 3.0
+    shows: "Velika Paklenica canyon, near where the trail ends"
+  - file_url: https://commons.wikimedia.org/wiki/File:NP_Paklenica.jpg
+    author: ZovkoM
+    license: CC BY-SA 4.0
+    shows: "Paklenica National Park"
+  - file_url: https://commons.wikimedia.org/wiki/File:Rossijeva_koliba,_Premuziceva_staza.JPG
+    author: Rootmaker
+    license: CC BY-SA 3.0 (also GFDL)
+    shows: "Rossi's shelter, a VPP control point"
+sources:
+  distance_km: https://www.hps.hr/info/vpp/
+  total_ascent_m: https://fatmap.com/discover/route/croatia/zadarska/hiking/velebitski-planinarski-put-vpp/3416072
+  typical_days: https://www.hps.hr/info/vpp/
+  best_months: https://www.hps.hr/info/vpp/
+  open_season: null
+  sleeping: https://www.hps.hr/info/vpp/
+  booking_ahead: https://www.lonelyplanet.com/articles/best-hikes-in-croatia
+  wild_camping: https://www.lonelyplanet.com/articles/best-hikes-in-croatia
+  difficulty: https://www.hps.hr/info/vpp/
+  logistics: https://www.hps.hr/info/vpp/
+  permit: https://cicerone.co.uk/along-the-croatian-spine-walking-the-velebit-trail
+conflicts:
+  - field: distance_km
+    values:
+      - { value: 132, source: "https://www.hps.hr/info/vpp/" }
+      - { value: 139, source: "https://fatmap.com/discover/route/croatia/zadarska/hiking/velebitski-planinarski-put-vpp/3416072" }
+      - { value: 100, source: "https://cicerone.co.uk/along-the-croatian-spine-walking-the-velebit-trail" }
+  - field: typical_days
+    values:
+      - { value: "9–10", source: "https://www.hps.hr/info/vpp/" }
+      - { value: "6 (one hiker)", source: "https://cicerone.co.uk/along-the-croatian-spine-walking-the-velebit-trail" }
+last_verified: 2026-11-27
+```
+
+### 2. Premužić Trail
+
+```yaml
+id: premuzic-trail
+name: Premužić Trail (Premužićeva staza)
+countries: [HR]
+region: Northern and Central Velebit
+one_liner: "A 1930s dry-stone path along the Velebit ridge with gentle gradients, big karst scenery and basic shelters."
+route:
+  type: point-to-point
+  start: Zavižan
+  end: Baške Oštarije
+  osm_relation_id: 3059569
+  gpx_source: null
+distance_km: 42
+total_ascent_m: null
+typical_days: { min: 3, max: 4 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: huts
+  booking_ahead: recommended
+  notes: "Huts and shelters along the way: Zavižan, Rossi's shelter, Alan, Ograđenica, Skorpovac, Ravni Dabar, Kugina kuća. Wild camping is not allowed on Velebit."
+difficulty:
+  level: 2
+  reason: "Well-built path, about 10% average gradient (20% at steepest) and no big climbs, but remote with little water."
+logistics:
+  getting_to_start: "Zavižan has a free car park below the hut; walking approaches from Oltari or Krasno take 3–4 h."
+  leaving_from_end: "A bus runs from Baške Oštarije down to Karlobag."
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: "No permit. Northern Velebit National Park entry ticket, valid 3 days, sold in Krasno or at the park entrance."
+  waymarked: "yes"
+  water_scarce: true
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://pp-velebit.hr/en/plan-your-visit/premuzic-trail/
+establishment_signals:
+  - "Official status: protected cultural heritage of national importance (2009); crosses Northern Velebit National Park and Velebit Nature Park"
+  - "Waymarked along the whole route"
+  - "Official website (Velebit Nature Park, Northern Velebit National Park)"
+  - "Guidebook: 'Premužićeva staza – planinarski vodič' by Alan Čaplar (HPS, 2023)"
+  - "Regularly covered in trip reports and travel articles"
+trip_reports:
+  - url: https://the.putokoza.com/?p=5982
+    title: "Slow Hiking the Velebit Spine: A Story Along the Premužić Trail"
+    year_hiked: null
+    summary: "Walked Zavižan to Baške Oštarije in 3 days without hurrying."
+  - url: https://www.outdoor-magazin.com/outdoor-szene/kroatien-3-tage-auf-dem-premu-ic-mountain-trail/
+    title: "Kroatien - Velebit: 3 Tage auf dem Premuzic Mountain Trail"
+    year_hiked: null
+    summary: "Reader's report of a 3-day traverse, published 2017."
+  - url: https://www.viadinarica.com/en/blog-2/394-vratnik-to-baske-ostarije-15-6-2017-18-6-2017
+    title: "Vratnik to Baške Oštarije (15.6.2017–18.6.2017)"
+    year_hiked: 2017
+    summary: "Walked the trail as part of Via Dinarica; strong bura forced them off a ridge variant."
+  - url: https://viadinarica.com/en/blog-2/135-stage-10-14-vratnik-velebit-karlobag
+    title: "Stage 10-14: Vratnik – Velebit – Karlobag"
+    year_hiked: null
+    summary: "Solo through-hiker followed the trail from Zavižan and took the bus from Baške Oštarije to Karlobag."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Premu%C5%BEi%C4%87eva_staza.jpg
+    author: Davor Šulavjak
+    license: CC BY-SA 4.0
+    shows: "The trail in Northern Velebit National Park"
+  - file_url: https://commons.wikimedia.org/wiki/File:Karstformationen_Nationalpark-Nord-Velebit.JPG
+    author: Rootmaker
+    license: CC BY-SA 3.0 (also GFDL)
+    shows: "Limestone grooves (karren) beside the trail"
+  - file_url: https://commons.wikimedia.org/wiki/File:Rossijeva_koliba,_Premuziceva_staza.JPG
+    author: Rootmaker
+    license: CC BY-SA 3.0 (also GFDL)
+    shows: "Rossi's shelter on the trail"
+sources:
+  distance_km: https://pp-velebit.hr/en/plan-your-visit/premuzic-trail/
+  total_ascent_m: null
+  typical_days: https://www.lonelyplanet.com/articles/best-hikes-in-croatia
+  best_months: null
+  open_season: null
+  sleeping: https://pp-velebit.hr/en/plan-your-visit/activities/hiking-walking/
+  booking_ahead: https://www.lonelyplanet.com/articles/best-hikes-in-croatia
+  difficulty: https://np-sjeverni-velebit.hr/www/en/park-en/premuzic-trail
+  water: https://pp-velebit.hr/en/plan-your-visit/activities/hiking-walking/
+  logistics: https://viadinarica.com/en/blog-2/135-stage-10-14-vratnik-velebit-karlobag
+  logistics_start_parking: https://no.wikiloc.com/hiking-trails/p-d-zavizan-gromovaca-rossijeva-koliba-mali-rajinac-p-d-zavizan-06-2022-104368974
+  logistics_start_approach: https://www.hps.hr/info/vpp/
+  permit: https://no.wikiloc.com/hiking-trails/p-d-zavizan-gromovaca-rossijeva-koliba-mali-rajinac-p-d-zavizan-06-2022-104368974
+  heritage_status: https://www.novilist.hr/?p=445242
+  guidebook: https://www.novilist.hr/?p=953374
+conflicts:
+  - field: distance_km
+    values:
+      - { value: 42, source: "https://pp-velebit.hr/en/plan-your-visit/premuzic-trail/" }
+      - { value: 46, source: "https://np-sjeverni-velebit.hr/www/en/park-en/premuzic-trail" }
+      - { value: 57, source: "https://pp-velebit.hr/en/about-park/cultural-heritage/historical-roads-of-velebit/premuzic-trail-velebit/" }
+      - { value: 57, source: "https://www.lonelyplanet.com/articles/best-hikes-in-croatia" }
+last_verified: 2026-11-27
+```
+
+### 3. Via Dinarica White Trail
+
+```yaml
+id: via-dinarica-white-trail
+name: Via Dinarica White Trail
+countries: [SI, HR, BA, ME, AL]
+region: Dinaric Alps (Croatian section via Velika Kapela, Velebit and Dinara)
+one_liner: "A trans-Balkan thru-hike along the Dinaric spine; Croatia's section is the best marked, but expect heat, scarce water and landmine warnings."
+route:
+  type: point-to-point
+  start: Postojna (Slovenia)
+  end: Valbona (Albania)
+  osm_relation_id: 7388026
+  gpx_source: https://trail.viadinarica.com/route/17291189/
+distance_km: 1261.2
+total_ascent_m: 49579
+typical_days: { min: 45, max: 60 }
+when:
+  best_months: [May, June, July, August, September, October]
+  open_season: null
+sleeping:
+  type: mixed
+  booking_ahead: null
+  notes: "Mountain huts (many free in Croatia), guesthouses and campsites. Serviced huts cost about €10–15 per bunk and fill up at weekends. Camping is banned in national parks."
+difficulty:
+  level: 4
+  reason: "Remote stretches, unreliable GPX and signage outside Croatia, high point 2,694 m (Maja Jezerce); landmine and UXO areas in HR/BA."
+logistics:
+  getting_to_start: "Bus from Ljubljana to Razdrto (alternative start)."
+  leaving_from_end: null
+  nearest_airports: [Ljubljana (LJU), Zagreb (ZAG)]
+flags:
+  permit: free-registration
+  permit_notes: "No unified permit. Some official GPX sections cross borders away from official crossings; use legal checkpoints or arrange border-crossing permission in advance. Some national parks (Paklenica, Durmitor) charge entry fees. Cost and process not verified."
+  waymarked: partial
+  water_scarce: true
+  exposed_or_via_ferrata: null
+links:
+  official_site: https://www.viadinarica.com/en/about/trails
+establishment_signals:
+  - "Official status: international long-distance trail (OSM network iwn); the Croatian section is managed by HPS"
+  - "Official website and trail portal (trail.viadinarica.com)"
+  - "Regularly covered in trip reports and travel articles (National Geographic, Outside, Treeline Review)"
+  - "Partly waymarked: the Croatian section is well marked; parts of BA and AL are not"
+trip_reports:
+  - url: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+    title: "Thru-hiking the Via Dinarica White Trail in the Balkans"
+    year_hiked: null
+    summary: "About five weeks in early summer from Razdrto to the Montenegro–Albania border; filtered all water and found Croatian sections overgrown."
+  - url: https://chasingthedonkey.com/hiking-the-via-dinarica-reverse-solo-balkans
+    title: "Hiking The Via Dinarica White Trail In Reverse & Solo"
+    year_hiked: null
+    summary: "Solo, east to west from Albania to Slovenia, finishing in October."
+  - url: https://www.viadinarica.com/en/blog-2/394-vratnik-to-baske-ostarije-15-6-2017-18-6-2017
+    title: "Vratnik to Baške Oštarije (15.6.2017–18.6.2017)"
+    year_hiked: 2017
+    summary: "Croatian section over Velebit and the Premužić Trail, with rest days in Karlobag."
+  - url: https://viadinarica.com/en/blog-2/393-baske-ostarije-gracac-21-06-2017-27-06-2017
+    title: "Baške Oštarije – Gračac (21.06.2017–27.06.2017)"
+    year_hiked: 2017
+    summary: "Southern Velebit to Gračac in about a week; slept in shelters and a tent."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Sinjal.jpg
+    author: Goran Zec
+    license: CC BY-SA 2.0
+    shows: "Sinjal on Dinara, Croatia's highest peak (1,831 m)"
+  - file_url: https://commons.wikimedia.org/wiki/File:Mountain_Dinara_-Croatia-_near_mountain_lodge_Brezovac.jpg
+    author: Ponor
+    license: CC BY-SA 4.0
+    shows: "Dinara near the Brezovac mountain lodge"
+  - file_url: https://commons.wikimedia.org/wiki/File:Rossijeva_koliba,_Premuziceva_staza.JPG
+    author: Rootmaker
+    license: CC BY-SA 3.0 (also GFDL)
+    shows: "Rossi's shelter on the Premužić Trail section"
+sources:
+  distance_km: https://trail.viadinarica.com/route/17291189/
+  total_ascent_m: https://trail.viadinarica.com/route/17291189/
+  typical_days: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+  best_months: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+  open_season: null
+  sleeping: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+  difficulty: https://trail.viadinarica.com/route/17291189/
+  logistics: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+  permit: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+  waymarked: https://viadinarica.com/en/blog-3/338-note-on-the-via-dinarica-trails
+  croatia_section_marking: https://viadinarica.com/en/countries/croatia
+conflicts:
+  - field: route.start
+    values:
+      - { value: "Postojna", source: "https://trail.viadinarica.com/route/17291189/" }
+      - { value: "Razdrto", source: "https://en.wikipedia.org/wiki/Via_Dinarica" }
+  - field: distance_km
+    values:
+      - { value: 1261.2, source: "https://trail.viadinarica.com/route/17291189/" }
+      - { value: 1260.8, source: "https://en.wikipedia.org/wiki/Via_Dinarica" }
+      - { value: 1200, source: "https://www.treelinereview.com/where-to-go/via-dinarica-white-trail" }
+last_verified: 2026-11-27
+```
+
+### 4. Istrian Hiking Trail
+
+```yaml
+id: istrian-hiking-trail
+name: Istrian Hiking Trail (Istarski planinarski put, IPP)
+countries: [HR]
+region: Istria (Ćićarija, Učka)
+one_liner: "Sea to sea across green Istria: from the Piran Bay coast over Ćićarija and Učka to Crna Punta, through hill villages."
+route:
+  type: point-to-point
+  start: Crveni Vrh / Monte Rosso (Umag area)
+  end: Crna Punta (Labin peninsula)
+  osm_relation_id: 6535783
+  gpx_source: null
+distance_km: 200
+total_ascent_m: null
+typical_days: { min: 8, max: 8 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: mixed
+  booking_ahead: null
+  notes: "Mountain houses at Žbevnica, Korita, Poklon, Babino sklonište and Skitača, plus village accommodation. Skitača opens by arrangement."
+difficulty:
+  level: 2
+  reason: "About 54 walking hours over hill country and the Ćićarija and Učka massifs."
+logistics:
+  getting_to_start: "Information board at the trailhead in Crveni Vrh, off the first Umag motorway exit."
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: null
+  waymarked: "yes"
+  water_scarce: null
+  exposed_or_via_ferrata: null
+links:
+  official_site: https://www.hps.hr/info/planinarske-obilaznice/1215-istarski-planinarski-put/
+establishment_signals:
+  - "Official status: HPS-registered route; European long-distance path E12 runs on it for 59.4 km (Plovanija–Poreč)"
+  - "Waymarked (red-white marks; E12 signs on the shared section)"
+  - "Official website (HPS registry; Buzet tourist board page)"
+  - "Guidebook: 'Istarski planinarski put – vodič i dnevnik' (Istarski planinarski savez)"
+trip_reports:
+  - url: https://virtualmountains.co.uk/Istria/Istria.html
+    title: "Mountains of Croatia – Istria"
+    year_hiked: 2016
+    summary: "Photo tours of Učka and Ćićarija sections, partly on the IPP, walked in 2016 and August 2022. Not a full traverse."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Vojak_-_U%C4%8Dka.jpg
+    author: Davor Šulavjak
+    license: CC BY-SA 4.0
+    shows: "Vojak, highest point of Učka, end of IPP section 2"
+  - file_url: https://commons.wikimedia.org/wiki/File:Planina_%C4%86i%C4%87arija,_Istra,_Hrvatska_-_cesta_Mune-Vodice_(003).jpg
+    author: Ante Perkovic
+    license: CC BY-SA 3.0
+    shows: "Ćićarija plateau between Mune and Vodice"
+sources:
+  distance_km: https://tz-buzet.hr/en/outdoor-sports/hiking-trails
+  total_ascent_m: null
+  typical_days: https://www.alltrails.com/da-dk/rute/croatia/istra/istarski-planinarski-put-etapa-8-labin-crna-punta
+  walking_hours: https://www.hps.hr/info/planinarske-obilaznice/1215-istarski-planinarski-put/
+  best_months: null
+  open_season: null
+  sleeping: https://www.hps.hr/info/planinarske-obilaznice/1215-istarski-planinarski-put/
+  difficulty: https://www.hps.hr/info/planinarske-obilaznice/1215-istarski-planinarski-put/
+  logistics: https://www.hike.uno/hiking_tour/crveni_vrh_markovac_po_ipp/33/4195/10436
+  permit: null
+  waymarked: https://era-ewv-ferp.org/e-paths/e12/e12-in-croatia
+  guidebook: https://era-ewv-ferp.org/e-paths/e12/e12-in-croatia
+conflicts:
+  - field: distance_km
+    values:
+      - { value: 200, source: "https://tz-buzet.hr/en/outdoor-sports/hiking-trails" }
+      - { value: 153, source: "https://www.alltrails.com/da-dk/rute/croatia/istra/istarski-planinarski-put-etapa-8-labin-crna-punta" }
+  - field: route.start
+    values:
+      - { value: "Crveni Vrh (Monte Rosso)", source: "https://www.hps.hr/info/planinarske-obilaznice/1215-istarski-planinarski-put/" }
+      - { value: "Juricani (Umag)", source: "https://mail.tz-buzet.hr/en/component/tags/tag/pjesacke-staze" }
+last_verified: 2026-11-27
+```
+
+### 5. Gorski Kotar Hiking Trail
+
+```yaml
+id: goranski-planinarski-put
+name: Gorski Kotar Hiking Trail (Goranski planinarski put, GPP)
+countries: [HR]
+region: Gorski kotar
+one_liner: "A long, forested loop through Gorski kotar over Risnjak, Bjelolasica, Klek and the Samarske and Bijele stijene, often called Croatia's toughest official route."
+route:
+  type: loop
+  start: "Loop in 3 sections; section 1 starts at Severin na Kupi"
+  end: "Loop (section 3 ends at Lovnik)"
+  osm_relation_id: 3153946
+  gpx_source: https://fastestknowntime.com/fkt/vedran-gracan-goranski-planinarski-put-croatia-2018-06-19
+distance_km: 280
+total_ascent_m: 17000
+typical_days: { min: null, max: null }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: null
+  booking_ahead: null
+  notes: null
+difficulty:
+  level: 3
+  reason: "About 109 walking hours (27 + 33 + 49) and around 17,000 m of ascent over the main Gorski kotar summits."
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: "Passes Risnjak National Park; entry rules not checked."
+  waymarked: null
+  water_scarce: null
+  exposed_or_via_ferrata: null
+links:
+  official_site: https://www.hps.hr/info/planinarske-obilaznice/1130-goranski-planinarski-put-1-dionica/
+establishment_signals:
+  - "Official status: HPS-registered route (organiser HPD Zagreb-Matica), described as the longest official HPS route"
+  - "Official website (HPS registry, 3 section pages)"
+  - "Guide/diary booklet 'Goranski planinarski put' (PD Matica, 2001)"
+  - "Trip reports: FKT reports and regional press"
+trip_reports:
+  - url: https://fastestknowntime.com/fkt/dane-opara-goranski-planinarski-put-croatia-2020-10-06
+    title: "FKT: Dane Opara – Goranski Planinarski Put (2020-10-06)"
+    year_hiked: 2020
+    summary: "Supported run of the full loop in 4 days 13 hours; describes it as 360 km with 17,000 m of gain."
+  - url: https://fastestknowntime.com/fkt/vedran-gracan-goranski-planinarski-put-croatia-2018-06-19
+    title: "FKT: Vedran Gračan – Goranski Planinarski Put (2018-06-19)"
+    year_hiked: 2018
+    summary: "Self-supported in 6 days 11 hours; estimates the real route at 340–350 km."
+  - url: https://www.novilist.hr/?p=1321084
+    title: "Pokorili GPP"
+    year_hiked: null
+    summary: "Novi list profile of the Šnajdar family from Delnice, who completed every GPP control point."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Bijele_i_samarske_stijene3.JPG
+    author: Croq
+    license: CC BY-SA 3.0
+    shows: "Bijele and Samarske stijene, control points on section 3"
+sources:
+  distance_km: https://www.novilist.hr/?p=1321084
+  total_ascent_m: https://fastestknowntime.com/fkt/dane-opara-goranski-planinarski-put-croatia-2020-10-06
+  typical_days: null
+  walking_hours: https://www.hps.hr/info/planinarske-obilaznice/1150-goranski-planinarski-put-3-dionica/
+  best_months: null
+  open_season: null
+  sleeping: null
+  difficulty: https://www.hps.hr/info/planinarske-obilaznice/1140-goranski-planinarski-put-2-dionica/
+  logistics: null
+  permit: null
+  route_shape: https://fastestknowntime.com/route/goranski-planinarski-put-croatia
+conflicts:
+  - field: distance_km
+    values:
+      - { value: 280, source: "https://www.novilist.hr/?p=1321084" }
+      - { value: 360, source: "https://fastestknowntime.com/fkt/dane-opara-goranski-planinarski-put-croatia-2020-10-06" }
+      - { value: "340–350 (estimate)", source: "https://fastestknowntime.com/route/goranski-planinarski-put-croatia" }
+last_verified: 2026-11-27
+```
+
+### 6. Camino Krk
+
+```yaml
+id: camino-krk
+name: Camino Krk
+countries: [HR]
+region: Krk island, Kvarner
+one_liner: "A clockwise Camino around Krk on shell-marked paths through olive groves and stone villages, best in spring or autumn."
+route:
+  type: point-to-point
+  start: Krk town (cathedral)
+  end: Kornić (St James parish church)
+  osm_relation_id: 13635257
+  gpx_source: https://caminocroatia.com/camino-krk/map-stages/
+distance_km: 151.9
+total_ascent_m: 3862
+typical_days: { min: 6, max: 7 }
+when:
+  best_months: [April, May, June, September, October]
+  open_season: null
+sleeping:
+  type: guesthouses
+  booking_ahead: required
+  notes: "No pilgrim hostels: apartments, guesthouses, hotels and campsites. Many walkers stay in one base and use taxis. Croatian credencial costs €2."
+difficulty:
+  level: 2
+  reason: "Seven stages of about 19–24 km with 320–1,010 m of daily ascent on rocky karst; heat and little water."
+logistics:
+  getting_to_start: "Bus from Rijeka to Krk town, about 1.5 h."
+  leaving_from_end: "Walk or taxi back to Krk town (5–8 km)."
+  nearest_airports: [Rijeka Airport (on Krk, near Omišalj)]
+flags:
+  permit: none
+  permit_notes: "Optional pilgrim credencial (€2) for the free Compostela certificate."
+  waymarked: "yes"
+  water_scarce: true
+  exposed_or_via_ferrata: null
+links:
+  official_site: https://caminocroatia.com/camino-krk/map-stages/
+establishment_signals:
+  - "Official website (Camino Croatia / Croatian Confraternity of St James)"
+  - "Waymarked along the whole route (blue signs with a yellow shell, about 350 signposts)"
+  - "Regularly covered in trip reports and travel articles"
+trip_reports:
+  - url: https://findpenguins.com/markolicina/trip/camino-krk
+    title: "Camino Krk"
+    year_hiked: 2024
+    summary: "Seven stages on 15–21 April; well marked except the last two days, which were the hardest."
+  - url: https://www.news.at/ausflugsziele/camino-krk-so-geht-pilgern-auf-kroatisch
+    title: "Camino Krk: So geht Pilgern auf Kroatisch"
+    year_hiked: null
+    summary: "Magazine walk-through; quiet outside high summer, needs good fitness, ends 8 km from Krk town."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Vrbnik_Krk_02.JPG
+    author: Wolfgang Glock
+    license: CC BY 3.0
+    shows: "Vrbnik harbour and old town (end of stage 5)"
+  - file_url: https://commons.wikimedia.org/wiki/File:Ba%C5%A1ka.JPG
+    author: Laslovarga
+    license: CC BY-SA 3.0
+    shows: "Baška (end of stage 6)"
+  - file_url: https://commons.wikimedia.org/wiki/File:Batomalj,_Panorama_Blick_Insel_Krk_nach_Ba%C5%A1ka,_Kroatien.jpg
+    author: Naturpuur
+    license: CC BY 4.0
+    shows: "Panorama from Batomalj towards Baška"
+sources:
+  distance_km: https://caminocroatia.com/camino-krk/map-stages/
+  total_ascent_m: https://www.caminoninja.com/caminos/camino-krk
+  typical_days: https://jadran-holiday.com/en/information/latest-news/camino-krk-pilgrimage-route-on-the-island-of-krk
+  best_months: https://www.caminoninja.com/caminos/camino-krk
+  open_season: null
+  sleeping: https://caminocroatia.com/camino-krk/map-stages/day-7-baska-kornic/
+  difficulty: https://www.caminoninja.com/caminos/camino-krk
+  logistics: https://www.caminoninja.com/caminos/camino-krk
+  permit: https://www.caminoninja.com/caminos/camino-krk
+  waymarked: https://www.caminoninja.com/caminos/camino-krk
+conflicts:
+  - field: total_ascent_m
+    values:
+      - { value: 3862, source: "https://www.caminoninja.com/caminos/camino-krk" }
+      - { value: 4443, source: "https://www.caminoninja.com/caminos/camino-krk" }
+      - { value: 3136, source: "https://fastestknowntime.com/route/camino-krk" }
+  - field: logistics.leaving_from_end
+    values:
+      - { value: "5.1 km back to Krk", source: "https://www.caminoninja.com/caminos/camino-krk" }
+      - { value: "8 km back to Krk", source: "https://www.news.at/ausflugsziele/camino-krk-so-geht-pilgern-auf-kroatisch" }
+last_verified: 2026-11-27
+```
+
+### 7. Via Apsyrtides
+
+```yaml
+id: via-apsyrtides
+name: Via Apsyrtides
+countries: [HR]
+region: Cres–Lošinj archipelago, Kvarner
+one_liner: "Island-hopping on foot from the northern tip of Cres to Ilovik: shepherds' paths, Venetian towns and sea views on every stage, best outside summer."
+route:
+  type: point-to-point
+  start: Cape Jablanac (Cres)
+  end: Cape Radovan (Ilovik)
+  osm_relation_id: 14368967
+  gpx_source: https://viaapsyrtides.hr/
+distance_km: 149
+total_ascent_m: 4000
+typical_days: { min: 11, max: 11 }
+when:
+  best_months: null
+  open_season: "Promoted as a year-round trail aimed at the pre- and post-season"
+sleeping:
+  type: guesthouses
+  booking_ahead: null
+  notes: "Private rooms, small hotels and campsite mobile homes between stages."
+difficulty:
+  level: 2
+  reason: "11 stages of 9–19 km with up to about 900 m of ascent a day; some stony sections are slow."
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: "Optional stamp diary from the Cres and Lošinj tourist offices; all 11 stamps earn a gift package."
+  waymarked: "yes"
+  water_scarce: null
+  exposed_or_via_ferrata: null
+links:
+  official_site: https://viaapsyrtides.hr/
+establishment_signals:
+  - "Official website (Mali Lošinj and Cres tourist boards)"
+  - "Waymarked along the whole route ('VA' mark, HPS marking standards)"
+  - "Covered in travel articles (Die Presse, Bonner General-Anzeiger, Total Croatia News)"
+trip_reports:
+  - url: https://visitlosinj.hr/EasyEdit/UserFiles/press-strani/2024via-apsyrtides.pdf
+    title: "In elf Tagen über zwei Inseln (Die Presse)"
+    year_hiked: null
+    summary: "Brigitte Bonder's 2024 newspaper feature on walking the route across Cres and Lošinj in eleven days."
+  - url: https://visitlosinj.hr/EasyEdit/UserFiles/press-strani/20240803bonner-generalanzeiger-via-apsyrtides.pdf
+    title: "Via Apsyrtides (Bonner General-Anzeiger)"
+    year_hiked: null
+    summary: "2024 feature on the quiet trail, with tips on staying in private rooms and campsite mobile homes."
+  - url: https://en.hrturizam.hr/prva-osoba-koja-je-sluzbeno-prosla-trasu-via-apsyrtides-je-bolto-gabersek
+    title: "The first person to officially complete the Via Apsyrtides route was Bolto Gaberšek"
+    year_hiked: 2011
+    summary: "Profile of the hiker who first walked the line unmarked in 2011 and received the first completed stamp diary in 2025."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Beli-Cres.jpg
+    author: Alexander Leisser
+    license: CC BY-SA 4.0
+    shows: "Beli on Cres (end of stage 1)"
+  - file_url: https://commons.wikimedia.org/wiki/File:Beli,_Cres,_Croatia.JPG
+    author: Croq
+    license: CC BY-SA 3.0
+    shows: "Beli village on its hilltop"
+  - file_url: https://commons.wikimedia.org/wiki/File:Valun,_Cres,_Croatia_-_panoramio.jpg
+    author: nschuwi
+    license: CC BY 3.0
+    shows: "Valun (end of stage 4)"
+sources:
+  distance_km: https://viaapsyrtides.hr/
+  total_ascent_m: https://viaapsyrtides.hr/
+  typical_days: https://visitlosinj.hr/EasyEdit/UserFiles/press-strani/2024via-apsyrtides.pdf
+  best_months: null
+  open_season: https://en.hrturizam.hr/prva-osoba-koja-je-sluzbeno-prosla-trasu-via-apsyrtides-je-bolto-gabersek
+  sleeping: https://visitlosinj.hr/EasyEdit/UserFiles/press-strani/20240803bonner-generalanzeiger-via-apsyrtides.pdf
+  difficulty: https://viaapsyrtides.hr/
+  difficulty_stony_sections: https://www.komoot.com/highlight/3448975
+  logistics: null
+  permit: https://viaapsyrtides.hr/
+  waymarked: https://total-croatia-news.com/?p=115955
+conflicts:
+  - field: distance_km
+    values:
+      - { value: 149, source: "https://viaapsyrtides.hr/" }
+      - { value: "144.5 (sum of the official stage lengths)", source: "https://viaapsyrtides.hr/" }
+  - field: total_ascent_m
+    values:
+      - { value: 4000, source: "https://viaapsyrtides.hr/" }
+      - { value: "4585 (sum of the official stage figures)", source: "https://viaapsyrtides.hr/" }
+last_verified: 2026-11-27
+```
+
+### 8. Slavonian Hiking Trail
+
+```yaml
+id: slavonski-planinarski-put
+name: Slavonian Hiking Trail (Slavonski planinarski put, SPP)
+countries: [HR]
+region: Slavonia (Papuk, Psunj, Krndija, Požeška gora, Dilj gora)
+one_liner: "A long forest loop linking the five Slavonian mountains around the Požega valley, hut to hut and well off the tourist radar."
+route:
+  type: loop
+  start: Planinarski dom Petrov vrh
+  end: Planinarski dom Petrov vrh
+  osm_relation_id: 12337841
+  gpx_source: https://fastestknowntime.com/fkt/robert-bernat-slavonski-planinarski-put-spp-2022-05-01
+distance_km: 300
+total_ascent_m: null
+typical_days: { min: 9, max: 10 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: huts
+  booking_ahead: null
+  notes: "Lodges at Petrov vrh, Omanovac, Strmac, Pljuskara, Đuro Pilar, Borovik, Lapjak and Jankovac. Often walked as five 2-day sections."
+difficulty:
+  level: 2
+  reason: "Low wooded mountains (high points under 1,000 m) but about 85 walking hours."
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: null
+  waymarked: null
+  water_scarce: null
+  exposed_or_via_ferrata: null
+links:
+  official_site: https://www.slavonski-planinari.hr/spp
+establishment_signals:
+  - "Official status: HPS-registered route (organiser Slavonski planinari, Osijek), 35 control points"
+  - "Official website (operator page linked from OSM; HPS registry)"
+  - "Covered by Total Croatia News and an FKT report"
+trip_reports:
+  - url: https://fastestknowntime.com/fkt/robert-bernat-slavonski-planinarski-put-spp-2022-05-01
+    title: "FKT: Robert Bernat – Slavonski Planinarski Put (2022-05-01)"
+    year_hiked: 2022
+    summary: "Self-supported in 6 days 17 hours, with a GPX track."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Jankovac,_Papuk.jpg
+    author: Tanalama1
+    license: CC BY-SA 4.0
+    shows: "Jankovac forest on Papuk (lodge is control point 28)"
+  - file_url: https://commons.wikimedia.org/wiki/File:Jankovac_2,_PP_Papuk.jpg
+    author: Maja Rukav
+    license: CC BY-SA 4.0
+    shows: "Lake at Jankovac, Papuk Nature Park"
+  - file_url: https://commons.wikimedia.org/wiki/File:Slap_Skakavac_kod_Jankovca_na_Papuku.jpg
+    author: Luka Badurina
+    license: CC BY-SA 4.0
+    shows: "Skakavac waterfall below Jankovac lodge"
+sources:
+  distance_km: https://total-croatia-news.com/news/travel/slavonia-hiking-trail/
+  total_ascent_m: null
+  typical_days: https://total-croatia-news.com/news/travel/slavonia-hiking-trail/
+  walking_hours: https://www.hps.hr/info/planinarske-obilaznice/1620-slavonski-planinarski-put/
+  best_months: null
+  open_season: null
+  sleeping: https://www.hps.hr/info/planinarske-obilaznice/1620-slavonski-planinarski-put/
+  difficulty: https://www.hps.hr/info/planinarske-obilaznice/1620-slavonski-planinarski-put/
+  logistics: null
+  permit: null
+conflicts:
+  - field: distance_km
+    values:
+      - { value: 300, source: "https://total-croatia-news.com/news/travel/slavonia-hiking-trail/" }
+      - { value: 280, source: "https://hiking.waymarkedtrails.org/api/v1/details/relation/12337841" }
+last_verified: 2026-11-27
+```
+
+### 9. Rijeka Hiking Circuit
+
+```yaml
+id: rijecka-planinarska-obilaznica
+name: Rijeka Hiking Circuit (Riječka planinarska obilaznica, RPO)
+countries: [HR]
+region: Učka and the Rijeka hinterland, Kvarner
+one_liner: "From the sea at Lovran up over Učka and the hills behind Rijeka, back down to the sea at Crikvenica."
+route:
+  type: point-to-point
+  start: Lovran
+  end: Crikvenica
+  osm_relation_id: 3176765
+  gpx_source: null
+distance_km: 166
+total_ascent_m: null
+typical_days: { min: null, max: null }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: null
+  booking_ahead: null
+  notes: "Control points include the Poklon, Hahlić and Vagabundina koliba mountain lodges."
+difficulty:
+  level: null
+  reason: "About 58 walking hours and 36 control points; terrain not verified."
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: null
+  waymarked: null
+  water_scarce: null
+  exposed_or_via_ferrata: null
+links:
+  official_site: https://www.hps.hr/info/planinarske-obilaznice/1570-rijecka-planinarska-obilaznica-rijecka-planinarska-transverzala/
+establishment_signals:
+  - "Official status: HPS-registered route (Riječki planinarski savez); revived 2012 and reopened 19 Sept 2021"
+  - "Official website (HPS registry)"
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://virtualmountains.co.uk/Istria/Istria.html
+  total_ascent_m: null
+  typical_days: null
+  walking_hours: https://www.hps.hr/info/planinarske-obilaznice/1570-rijecka-planinarska-obilaznica-rijecka-planinarska-transverzala/
+  best_months: null
+  open_season: null
+  sleeping: https://www.hps.hr/info/planinarske-obilaznice/1570-rijecka-planinarska-obilaznica-rijecka-planinarska-transverzala/
+  difficulty: https://www.hps.hr/info/planinarske-obilaznice/1570-rijecka-planinarska-obilaznica-rijecka-planinarska-transverzala/
+  logistics: null
+  permit: null
+  history: https://routes.tracestrack.com/route/3176765
+conflicts: []
+last_verified: 2026-11-27
+```
+
+### 10. Via Adriatica
+
+```yaml
+id: via-adriatica
+name: Via Adriatica
+countries: [HR]
+region: Croatian coastal mountains (Istria to Prevlaka)
+one_liner: "A thru-hike linking every Croatian coastal mountain range from Istria to Prevlaka: wild, shelter-based and partly through demined areas."
+route:
+  type: point-to-point
+  start: Cape Kamenjak (Istria)
+  end: Prevlaka
+  osm_relation_id: 12205135
+  gpx_source: https://viaadriatica.org/
+distance_km: 1100
+total_ascent_m: 41000
+typical_days: { min: null, max: null }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: mixed
+  booking_ahead: null
+  notes: "Mostly mountain shelters and huts (Dinara, Velebit) on the one documented thru-hike."
+difficulty:
+  level: 4
+  reason: "Very long and remote over Velebit, Biokovo and Dinara; minefield warning signs; severe bura and snow in winter."
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: null
+  waymarked: null
+  water_scarce: null
+  exposed_or_via_ferrata: null
+links:
+  official_site: https://viaadriatica.org/
+establishment_signals:
+  - "Official website (Mountaineering Club AktivNatura, Zagreb)"
+  - "Covered in travel articles (Total Croatia News, HRTurizam)"
+trip_reports:
+  - url: https://total-croatia-news.com/news/travel/croatian-couple-completed-via-adriatica/
+    title: "Croatian Couple Completed Via Adriatica Trail in 54 Days, Liked Dinara Most"
+    year_hiked: 2021
+    summary: "Winter thru-hike from Prevlaka to Kamenjak in 54 days, mostly sleeping in shelters; bura on Velebit, snow on Dinara."
+  - url: https://total-croatia-news.com/news/travel/croatian-couple/
+    title: "Croatian Couple Set Off on 1,100 km Via Adriatica Trail"
+    year_hiked: 2021
+    summary: "Mid-hike interview from section 6 of 13, with notes on thorny overgrowth and winter conditions."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Sinjal.jpg
+    author: Goran Zec
+    license: CC BY-SA 2.0
+    shows: "Sinjal on Dinara, a highlight of the route"
+sources:
+  distance_km: https://viaadriatica.org/
+  total_ascent_m: https://total-croatia-news.com/?p=92613
+  typical_days: null
+  best_months: null
+  open_season: null
+  sleeping: https://total-croatia-news.com/news/travel/croatian-couple-completed-via-adriatica/
+  difficulty: https://total-croatia-news.com/news/travel/croatian-couple-completed-via-adriatica/
+  logistics: null
+  permit: null
+  waymarked: null
+conflicts: []
+last_verified: 2026-11-27
+```
+
+### 11. Croatian Long Distance Trail
+
+```yaml
+id: croatian-long-distance-trail
+name: Croatian Long Distance Trail (CLDT)
+countries: [HR]
+region: Whole of Croatia (Slavonia, Zagorje, Istria, Gorski kotar, Dalmatia)
+one_liner: "A thru-hike from the eastern tip to the western tip of Croatia, then south to Prevlaka, mostly off asphalt with self-navigation."
+route:
+  type: point-to-point
+  start: Near Ilok (easternmost Croatia)
+  end: Prevlaka (southernmost Croatia)
+  osm_relation_id: null
+  gpx_source: https://fastestknowntime.com/route/croatian-long-distance-trail
+distance_km: 2200
+total_ascent_m: 65600
+typical_days: { min: null, max: null }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: mixed
+  booking_ahead: null
+  notes: "Tent camping, campsites and hotels were all used on one section hike."
+difficulty:
+  level: 3
+  reason: "Very long, with route-finding on linked trails and roads and summer heat (25–38 °C reported)."
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: null
+  waymarked: null
+  water_scarce: null
+  exposed_or_via_ferrata: null
+links:
+  official_site: null
+establishment_signals:
+  - "Regularly covered in trip reports and articles (The Trek, Total Croatia News, FKT); official association app on FarOut"
+trip_reports:
+  - url: https://thetrek.co/croatian-long-distance-trail/
+    title: "Croatian Long Distance Trail"
+    year_hiked: 2021
+    summary: "Summer section hike from Samobor to Buzet plus a 50 km loop from Buje; frequent backtracking because the route is not clearly marked."
+photos: []
+sources:
+  distance_km: https://fastestknowntime.com/route/croatian-long-distance-trail
+  total_ascent_m: https://fastestknowntime.com/route/croatian-long-distance-trail
+  typical_days: null
+  best_months: null
+  open_season: null
+  sleeping: https://thetrek.co/croatian-long-distance-trail/
+  difficulty: https://thetrek.co/croatian-long-distance-trail/
+  logistics: null
+  permit: null
+  route_endpoints: https://faroutguides.com/?p=80312
+conflicts:
+  - field: distance_km
+    values:
+      - { value: 2200, source: "https://fastestknowntime.com/route/croatian-long-distance-trail" }
+      - { value: 2140, source: "https://faroutguides.com/?p=80312" }
+      - { value: "2500 (2018 plan)", source: "https://total-croatia-news.com/news/travel/croatian-long-distance-trail/" }
+last_verified: 2026-11-27
+```
+
+## 2. Excluded candidates
+
+| Candidate | Rule failed | Note |
+|---|---|---|
+| Highlander Velebit | Rule 3 | Paid group event with fixed dates (€219 for 5 days). The route itself is covered by the VPP. |
+| Croatian Mountaineering Circuit (HPO) | Rule 2 | Badge collection of 158 summits, not a route. |
+| Zagorje Hiking Trail (ZPP) | Rule 2 | HPS lists it as point-based ("točkasta"), with no set line. |
+| Po vrhovima Učke i Ćićarije | Rule 2 | Point-based badge circuit with no set route. |
+| Via Dinarica Blue Trail (HR) | Rule 2 | The operator says it is "not completely defined". |
+| Via Dinarica Green Trail (HR) | Rule 2 | The operator says it is "still being defined". |
+| Sultans Trail (Croatian stages Osijek–Ilok) | Rule 2 | Croatian stages are marked as drafts and the route is under development. |
+| E12 in Croatia (Plovanija–Poreč) | Rule 1 / duplicate | 59.4 km, and part of the IPP. It is listed as a signal on the IPP entry. |
+| Opatija Hiking Circuit (OPO) | Rule 1 | About 38 km loop (OSM). |
+| Labin Hiking Trail (LPP) | Rule 1 | About 42 km. |
+| Jastrebarsko Hiking Trail (JPP) | Rule 1 | About 39 km (OSM). |
+| Mljet hiking trail | Rule 1 | 43 km, split into four day routes. |
+
+## 3. Open questions for a human check
+
+**Missing or weak data**
+- VPP and CLDT have no OSM route relation. The VPP may exist under another name. GPP relation 3153946 maps only about 86 km of a 280+ km loop, and the Via Adriatica superroute is missing sections 7–13.
+- Typical days are missing for GPP, RPO, Via Adriatica and CLDT. IPP's 8 days comes only from AllTrails; HPS gives 54 walking hours.
+- Waymarking is unconfirmed for GPP, SPP and RPO. These are HPS-registered routes and are probably marked, but I found no source that says so.
+- Best months are missing for most treks. The VPP value (summer) is HPS's general advice.
+- RPO has no difficulty, trip reports or photos. RPO, CLDT and GPP have few or no photos.
+- Several treks have fewer than 3 trip reports (IPP, SPP, RPO, CLDT, Camino Krk). For GPP and SPP the only first-hand reports are FKT runs.
+- The SPP operator site (slavonski-planinari.hr/spp) did not load, so its own data is not verified.
+- Via Apsyrtides ends on Ilovik, a separate island. The ferry or boat logistics for stage 11 need checking.
+- Via Dinarica: the permit flag (free-registration) is my reading of the Treeline Review's border advice. The real process and cost of cross-border permission need checking.
+
+**Conflicts to settle**
+- Premužić length: 42, 46 or 57 km. 42 km is Velebit Nature Park's figure for the current Zavižan–Baške Oštarije trail; 57 km is the original Oltari–Baške Oštarije build.
+- VPP length (132 / 139 / 100 km) and days (9–10 per HPS vs 6 for one hiker).
+- IPP length (200 vs 153 km) and start (Crveni Vrh vs Juricani).
+- GPP length (280 vs 340–360 km).
+- SPP length (300 vs 280 km).
+- Camino Krk ascent (3,136–4,443 m).
+- CLDT length (2,140 / 2,200 / 2,500 km).
+- Via Dinarica start (Postojna vs Razdrto).
+
+**Candidates not yet screened**
+- Kapelski planinarski put (19 walking hours) and Planinarski put Žumberkom (18–20 h) are borderline on Rule 1.
+- Other HPS routes: Lošinjski planinarski put, Brač–Hvar–Vis, Mosorski, Psunjski, Međimurski, Varaždinski, Velebitska obilaznica, Paklenički planinarski put, Biokovska planinarska staza, Cetinska transverzala, Koranski planinarski put, Planinarska obilaznica Dinara.
+- Other Camino Croatia routes (e.g. Crikvenica–Vinodol from Senj to Jadranovo, Brač, Korčula, Imota, Zagorje).
+- Cross-border routes: Camino Slovenia Dolenjska branch (Zagreb–Ljubljana, 181.6 km, about 28 km in Croatia), Bratska planinska pot Ljubljana–Zagreb, and the Parenzana (Trieste–Poreč rail trail, mainly cycling).

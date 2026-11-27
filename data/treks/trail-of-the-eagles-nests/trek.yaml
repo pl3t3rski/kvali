@@ -1,0 +1,88 @@
+id: trail-of-the-eagles-nests
+status: draft
+name: Trail of the Eagles' Nests (Szlak Orlich Gniazd)
+countries:
+  - PL
+region: Kraków-Częstochowa Upland (Polish Jura)
+one_liner: "Castle-to-castle across the limestone Jura from Kraków to Częstochowa: ruined 'eagles' nests', Ojców's rock gates and easy village-to-village days."
+route:
+  type: point-to-point
+  start: Kraków
+  end: Częstochowa
+  osm_relation_id: 1697841
+  gpx_source: https://mapa-turystyczna.pl/trail/szlak-orlich-gniazd-t0
+distance_km: 163.91
+total_ascent_m: 2569
+typical_days:
+  min: 4
+  max: 6
+when:
+  best_months: []
+sleeping:
+  type: guesthouses
+  booking_ahead: recommended
+  notes: Agritourism and guesthouses; in summer book ahead around busy spots like Ogrodzieniec and Ojców.
+difficulty:
+  level: 1
+  reason: Daily climbing stays under ~400 m; mostly easy forest and field paths. Limestone gets slippery after rain.
+logistics:
+  getting_to_start: Kraków (either end works; walkable in both directions). Most castles along the way are reachable by bus.
+  leaving_from_end: Częstochowa city buses connect the trail to the centre.
+  nearest_airports: []
+flags:
+  permit: none
+  waymarked: yes
+links:
+  official_site: https://orlegniazda.pl/en-US/Trasy/Pokaz/10801
+establishment_signals:
+  - official status (PTTK red trail; regional tourism boards of Silesia and Lesser Poland)
+  - waymarked along the whole route (red)
+  - official website (orlegniazda.pl / slaskie.travel route page)
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Eagles_Nests_Trail_01.jpg
+    author: Scotch Mist
+    license: CC BY-SA 4.0
+    shows: Scenery on the Trail of the Eagles' Nests
+  - file_url: https://commons.wikimedia.org/wiki/File:Eagles_Nests_Trail_03.jpg
+    author: Scotch Mist
+    license: CC BY-SA 4.0
+    shows: Scenery on the Trail of the Eagles' Nests
+  - file_url: https://commons.wikimedia.org/wiki/File:Eagles_Nests_Trail_32.jpg
+    author: Scotch Mist
+    license: CC BY-SA 4.0
+    shows: Bobolice Castle on the trail
+sources:
+  distance_km: https://slaskie.travel/en-US/Trasy/Pokaz/10801
+  total_ascent_m: https://mapa-turystyczna.pl/trail/szlak-orlich-gniazd-t0
+  typical_days: https://www.national-geographic.pl/traveler/artykul/wakacje-na-szlaku-15-najpiekniejszych-tras-pieszych-w-polsce
+  sleeping: https://www.national-geographic.pl/traveler/artykul/wakacje-na-szlaku-15-najpiekniejszych-tras-pieszych-w-polsce?page=6
+  difficulty: https://www.komoot.com/ko-kr/collection/3806336
+  logistics: https://www.wikiwand.com/en/Eagle_Nests_Trail
+  leaving_from_end: https://www.komoot.com/ko-kr/collection/3806336
+  permit: https://slaskie.travel/en-US/Trasy/Pokaz/10801
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/list/search?query=Orlich%20Gniazd&limit=10
+conflicts:
+  - field: distance_km
+    values:
+      - value: 163.91
+        source: https://slaskie.travel/en-US/Trasy/Pokaz/10801
+      - value: 164
+        source: https://orlegniazda.pl/en-US/Trasy/Pokaz/10801
+      - value: 164.2
+        source: https://mapa-turystyczna.pl/trail/szlak-orlich-gniazd-t0
+  - field: total_ascent_m
+    values:
+      - value: 2569
+        source: https://mapa-turystyczna.pl/trail/szlak-orlich-gniazd-t0
+      - value: 2120
+        source: https://www.komoot.com/ko-kr/collection/3806336
+  - field: typical_days
+    values:
+      - value: 4-6
+        source: https://www.national-geographic.pl/traveler/artykul/wakacje-na-szlaku-15-najpiekniejszych-tras-pieszych-w-polsce
+      - value: "7"
+        source: https://www.komoot.com/ko-kr/collection/3806336
+      - value: 6-8 without a tent
+        source: https://mapa-turystyczna.pl/photo/110867/trail/10
+last_verified: 2026-11-27

@@ -1,0 +1,129 @@
+id: mestia-ushguli
+status: draft
+name: Mestia – Ushguli
+countries:
+  - GE
+region: Upper Svaneti, Greater Caucasus
+one_liner: Georgia's classic village-to-village trek under the glaciers of Tetnuldi and Shkhara, guesthouses every night, busiest in July–August.
+route:
+  type: point-to-point
+  start: Mestia
+  end: Ushguli
+  osm_relation_id:
+    - 13703284
+    - 13703285
+  gpx_source: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+distance_km: 56.9
+total_ascent_m: 3106
+typical_days:
+  min: 3
+  max: 4
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+    - October
+  open_season: Early June to late October; July–August busiest, mid-September recommended
+sleeping:
+  type: guesthouses
+  booking_ahead: recommended
+  notes: Guesthouses in every overnight village; most do dinner, breakfast and packed lunch. Book for July–August.
+difficulty:
+  level: 2
+  reason: First and last days easy; two middle days with big climbs (max 2,737 m); a river crossing; no technical sections
+logistics:
+  getting_to_start: Marshrutka from Zugdidi (≈4 h) or a direct minibus from Kutaisi; day train Tbilisi–Zugdidi; small flights to Mestia.
+  leaving_from_end: Shared taxi from Ushguli back to Mestia (≈40 GEL pp) or catch a day-trip minivan; private car to Lentekhi.
+  nearest_airports:
+    - Mestia (Queen Tamar)
+    - Kutaisi
+    - Tbilisi
+flags:
+  permit: none
+  permit_notes: "No permit. Note: foreign visitors to Georgia need medical insurance from 1 Jan 2026 (per caucasus-trekking)."
+  waymarked: true
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - guidebook
+  - trip_reports
+trip_reports:
+  - url: https://wander-lush.org/mestia-ushguli-trek-tips/
+    title: "An Honest Guide to the Mestia-Ushguli Trek: Everything I Learned Hiking in Svaneti"
+    summary: Four days, guesthouses; candid about the road-walking sections and the river crossing.
+  - url: https://monkeystale.ca/2025/10/24/mestia-to-ushguli-trekking-guide/
+    title: Mestia to Ushguli Trekking Guide
+    summary: Planned three days and stretched it to four to linger in the villages.
+  - url: https://imperfectidealist.com/mestia-to-ushguli-trek/
+    title: "Mestia to Ushguli 4-Day Hike: Route, Homestays, Packing List"
+    summary: Four days via the Tsvirmi variant (68 km, 3,540 m gain), homestays, no special gear needed.
+  - url: https://travelfeed.com/@geekontheroad/mestia-to-ushguli-hike
+    title: Mestia to Ushguli hike
+    summary: Four days, 57 km, day-by-day account from Zhabeshi onwards.
+photos:
+  - file_url: https://unsplash.com/photos/DOhXyRS3_n0
+    author: Tomas Malik
+    license: Unsplash License
+    shows: Ushguli below the Shkhara wall, where the trek ends
+  - file_url: https://unsplash.com/photos/Vy0KuvkCR0s
+    author: Nick Night
+    license: Unsplash License
+    shows: Ushguli at dusk, with Shkhara in cloud behind it
+  - file_url: https://commons.wikimedia.org/wiki/File:Adishi_Glacier.jpg
+    author: Martin Lopatka
+    license: CC BY-SA 2.0
+    shows: Adishi Glacier, seen on the Adishi – Iprali stage
+  - file_url: https://commons.wikimedia.org/wiki/File:Shkhara.jpg
+    author: Paweł Pieńkowski
+    license: CC BY-SA 3.0
+    shows: South face of Shkhara (5,193 m) from the Georgian side, above Ushguli
+  - file_url: https://commons.wikimedia.org/wiki/File:Tamara%27s_tower,_Ushguli.jpg
+    author: I kynitsky
+    license: CC BY-SA 4.0
+    shows: Tamar's tower (Lenkveri), Ushguli
+  - file_url: https://commons.wikimedia.org/wiki/File:Ushguli,_Svaneti.jpg
+    author: Paata Vardanashvili
+    license: CC BY 2.0
+    shows: Svan defensive towers in Ushguli, the trek's end
+sources:
+  distance_km: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+  total_ascent_m: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+  typical_days: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+  best_months: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+  open_season: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+  sleeping: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+  difficulty: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+  logistics: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+  permit: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+  waymarked: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+  official_status: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia
+  guidebook: https://www.lehmanns.ch/media/683729/1
+conflicts:
+  - field: distance_km
+    values:
+      - value: 56.9
+        source: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+      - value: 58
+        source: https://georgia.travel/trekking-in-georgia
+      - value: 55
+        source: https://muchbetteradventures.com/magazine/hiking-georgia-5-best-treks-caucasus-mountains
+  - field: typical_days
+    values:
+      - value: 3-4
+        source: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+      - value: 4-5
+        source: https://georgia.travel/trekking-in-georgia
+  - field: best_months
+    values:
+      - value: early June – late October
+        source: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+      - value: July – September (sometimes mid-October)
+        source: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia/practical-information
+last_verified: 2026-11-27

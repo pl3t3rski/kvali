@@ -1,0 +1,76 @@
+id: kat-walk-alpin
+status: draft
+name: KAT Walk Alpin (Kitzbüheler Alpen Trail)
+countries:
+  - AT
+region: Kitzbühel Alps, Tyrol
+one_liner: Six days over the soft grassy Kitzbühel Alps from Hopfgarten via Kitzbühel and the Kitzbüheler Horn to St. Ulrich am Pillersee; inn-to-inn, bookable without luggage.
+route:
+  type: point-to-point
+  start: Hopfgarten im Brixental
+  end: St. Ulrich am Pillersee
+distance_km: 113
+total_ascent_m: 6300
+typical_days:
+  min: 6
+  max: 6
+when:
+  best_months: []
+sleeping:
+  type: guesthouses
+  notes: Valley accommodation, packages with luggage transport.
+difficulty:
+  level: 2
+  reason: Red (intermediate) mountain paths, ~1,000 m per day; no climbing, one short rope-secured passage on the Kitzbüheler Horn.
+logistics:
+  getting_to_start: Hopfgarten im Brixental Berglift station, 5 min walk to start; guest card gives free local transport.
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.kitzbueheler-alpen.com/de/kat-walk/alpin/ueberblick.html
+establishment_signals:
+  - waymarked
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://www.couchflucht.de/kat-walk-alpin-kitzbueheler-alpen/
+    title: KAT Walk Alpin – Mehrtagestour inmitten der Grasberge
+    summary: Three days on the Alpin variant.
+  - url: https://outside-stories.de/unterwegs/kat-walk-kitzb%C3%BCheler-alpen-wandern
+    title: 6 exklusive Etappen auf dem KAT Walk
+    summary: All six stages (106 km).
+  - url: https://www.trail-pfoten.de/kat-walk-kitzbuheler-alpen/
+    title: KAT Walk Alpin – Wandern durch die Kitzbüheler Alpen
+    summary: Hiked with a dog.
+  - url: https://www.diekuechebrennt.de/urlaubsbericht-kat-walk-weitwandern-durch-die-kitzbueheler-alpen/
+    title: Urlaubsbericht KAT Walk
+    summary: Holiday report after three summers in the region.
+photos: []
+sources:
+  distance_km: https://www.kitzbueheler-alpen.com/de/kat-walk/kat-walk-uebersicht.html
+  total_ascent_m: https://www.kitzbueheler-alpen.com/de/kat-walk/kat-walk-uebersicht.html
+  typical_days: https://www.kitzbueheler-alpen.com/de/kat-walk/kat-walk-uebersicht.html
+  sleeping: https://www.kitzbueheler-alpen.com/de/kat-walk/weitwandern.html
+  difficulty: https://kitzbueheler-alpen.com/en/kat-walk/variations.html
+  logistics: https://www.kitzbuehel.com/en/tours/pdf/kat-walk-alpine
+  permit: https://kitzbueheler-alpen.com/en/kat-walk/variations.html
+  waymarked: https://asi-reisen.de/fw/kat-walk
+conflicts:
+  - field: distance_km
+    values:
+      - value: 113
+        source: https://www.kitzbueheler-alpen.com/de/kat-walk/kat-walk-uebersicht.html
+      - value: 106
+        source: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/kat-walk-alpin-1
+  - field: total_ascent_m
+    values:
+      - value: 6300
+        source: https://www.kitzbueheler-alpen.com/de/kat-walk/kat-walk-uebersicht.html
+      - value: 6350
+        source: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/kat-walk-alpin-1
+last_verified: 2026-11-27

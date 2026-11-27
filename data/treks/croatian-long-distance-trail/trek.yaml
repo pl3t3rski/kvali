@@ -1,0 +1,46 @@
+id: croatian-long-distance-trail
+status: draft
+name: Croatian Long Distance Trail (CLDT)
+countries:
+  - HR
+region: Whole of Croatia (Slavonia, Zagorje, Istria, Gorski kotar, Dalmatia)
+one_liner: A thru-hike from the eastern tip to the western tip of Croatia, then south to Prevlaka, mostly off asphalt with self-navigation.
+route:
+  type: point-to-point
+  start: Near Ilok (easternmost Croatia)
+  end: Prevlaka (southernmost Croatia)
+  gpx_source: https://fastestknowntime.com/route/croatian-long-distance-trail
+distance_km: 2200
+total_ascent_m: 65600
+sleeping:
+  type: mixed
+  notes: Tent camping, campsites and hotels were all used on one section hike.
+difficulty:
+  level: 3
+  reason: Very long, with route-finding on linked trails and roads and summer heat (25–38 °C reported).
+flags:
+  permit: none
+establishment_signals:
+  - Regularly covered in trip reports and articles (The Trek, Total Croatia News, FKT); official association app on FarOut
+trip_reports:
+  - url: https://thetrek.co/croatian-long-distance-trail/
+    title: Croatian Long Distance Trail
+    year_hiked: 2021
+    summary: Summer section hike from Samobor to Buzet plus a 50 km loop from Buje; frequent backtracking because the route is not clearly marked.
+photos: []
+sources:
+  distance_km: https://fastestknowntime.com/route/croatian-long-distance-trail
+  total_ascent_m: https://fastestknowntime.com/route/croatian-long-distance-trail
+  sleeping: https://thetrek.co/croatian-long-distance-trail/
+  difficulty: https://thetrek.co/croatian-long-distance-trail/
+  route_endpoints: https://faroutguides.com/?p=80312
+conflicts:
+  - field: distance_km
+    values:
+      - value: 2200
+        source: https://fastestknowntime.com/route/croatian-long-distance-trail
+      - value: 2140
+        source: https://faroutguides.com/?p=80312
+      - value: 2500 (2018 plan)
+        source: https://total-croatia-news.com/news/travel/croatian-long-distance-trail/
+last_verified: 2026-11-27

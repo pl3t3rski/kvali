@@ -1,0 +1,28 @@
+# The Georgia page. Photos here show the country, not one listed trek; each says where it was taken.
+# Photographer names are read from the Unsplash file names, so an accent may be missing.
+code: GE
+photos:
+  - file_url: https://unsplash.com/photos/1bbIv-Tu5gA
+    author: Andrew Rusinas
+    license: Unsplash License
+    shows: Above Juta
+  - file_url: https://unsplash.com/photos/DOhXyRS3_n0
+    author: Tomas Malik
+    license: Unsplash License
+    shows: Ushguli, Svaneti
+  - file_url: https://unsplash.com/photos/5iQWgow3_S0
+    author: Iman Gozal
+    license: Unsplash License
+    shows: Gergeti Trinity Church, Kazbegi
+  - file_url: https://unsplash.com/photos/GdNttKqLcSs
+    author: Ivan Stepanov
+    license: Unsplash License
+    shows: A valley in Mtskheta-Mtianeti
+  - file_url: https://unsplash.com/photos/PBD8Gd_IpJw
+    author: Ivan Stepanov
+    license: Unsplash License
+    shows: Summer flowers in Mtskheta-Mtianeti
+  - file_url: https://unsplash.com/photos/u87aznWyoPc
+    author: Ivan Stepanov
+    license: Unsplash License
+    shows: Mtskheta-Mtianeti

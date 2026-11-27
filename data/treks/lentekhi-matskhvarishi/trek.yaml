@@ -1,0 +1,49 @@
+id: lentekhi-matskhvarishi
+status: draft
+name: Lentekhi – Matskhvarishi
+countries:
+  - GE
+region: Lower and Upper Svaneti, Svaneti range
+one_liner: Little-documented crossing of the Svaneti range over snow and ice near Mt Chkeeru, between Lower and Upper Svaneti.
+route:
+  type: point-to-point
+  start: Matskhvarishi
+  end: Lentekhi
+  osm_relation_id: 15351593
+  gpx_source: https://www.loc.wiki/hiking-trails/matskhvarishi-lentekhi-macxvarishi-lentexi-24628422
+distance_km: 44
+typical_days:
+  min: 3
+  max: 3
+sleeping:
+  type: camping
+  booking_ahead: not-needed
+  notes: Two camps, each with a shepherd hut.
+difficulty:
+  level: 4
+  reason: Snow and ice section near Mt Chkeeru (highest point ~3,587 m per GPS track); track author advises ropes, crampons and poles
+logistics:
+  nearest_airports:
+    - Mestia (Queen Tamar)
+    - Kutaisi
+flags:
+  permit: none
+  permit_notes: No permit mentioned in sources found.
+  water_scarce: false
+  exposed_or_via_ferrata: false
+establishment_signals: []
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.loc.wiki/hiking-trails/matskhvarishi-lentekhi-macxvarishi-lentexi-24628422
+  typical_days: https://muchbetteradventures.com/magazine/hiking-georgia-5-best-treks-caucasus-mountains
+  sleeping: https://www.loc.wiki/hiking-trails/matskhvarishi-lentekhi-macxvarishi-lentexi-24628422
+  difficulty: https://www.loc.wiki/hiking-trails/matskhvarishi-lentekhi-macxvarishi-lentexi-24628422
+  listing: https://georgia.travel/cities-towns/lentekhi
+conflicts:
+  - field: total_ascent_m
+    values:
+      - value: 4672 (app listing, low-confidence)
+        source: https://www.iso-maps.com/en/randonnee/georgie/racha-lechkhumi-da-qvemo-svaneti/lentekhi-matskhvarishi-159940
+      - source: https://www.loc.wiki/hiking-trails/matskhvarishi-lentekhi-macxvarishi-lentexi-24628422
+last_verified: 2026-11-27

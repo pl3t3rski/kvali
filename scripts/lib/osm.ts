@@ -34,6 +34,9 @@ export const SIDE_ROLES = new Set(['alternative', 'alternate', 'variant', 'excur
 const OSM_API = process.env.OSM_API_URL ?? 'https://api.openstreetmap.org/api/0.6';
 const OVERPASS_API = process.env.OVERPASS_URL ?? 'https://overpass-api.de/api/interpreter';
 
+/** Above this many relations, the route is fetched from Overpass in one request instead. */
+const MAX_API_RELATIONS = 90;
+
 function emptyData(): OsmData {
   return { nodes: new Map(), ways: new Map(), relations: new Map() };
 }
@@ -66,8 +69,16 @@ async function fetchFromOsmApi(relationId: number): Promise<OsmData> {
     fetched.add(id);
     const body = await fetchJson<{ elements: OsmElement[] }>(`${OSM_API}/relation/${id}/full.json`);
     addElements(data, body.elements);
-    for (const member of data.relations.get(id) ?? []) {
-      if (member.type === 'relation' && !isSide(member) && !fetched.has(member.ref)) queue.push(member.ref);
+    const stages = (data.relations.get(id) ?? []).filter((member) => member.type === 'relation' && !isSide(member));
+    // The longest trails have hundreds of stage relations. That is too many calls to make of
+    // the OSM API, so such a route is handed to Overpass, which answers in one request.
+    if (fetched.size + queue.length + stages.length > MAX_API_RELATIONS) {
+      throw new Error(`more than ${MAX_API_RELATIONS} stage relations`);
+    }
+    // A short pause between calls, to go easy on the API.
+    await new Promise((done) => setTimeout(done, 250));
+    for (const member of stages) {
+      if (!fetched.has(member.ref)) queue.push(member.ref);
     }
   }
   return data;
@@ -75,12 +86,14 @@ async function fetchFromOsmApi(relationId: number): Promise<OsmData> {
 
 /** Overpass returns the relation with everything below it in one call. */
 async function fetchFromOverpass(relationId: number): Promise<OsmData> {
-  const query = `[out:json][timeout:180];relation(${relationId});(._;>>;);out body;`;
+  const query = `[out:json][timeout:120][maxsize:1073741824];relation(${relationId});(._;>>;);out body;`;
   const response = await fetchRetry(OVERPASS_API, {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded', Accept: 'application/json' },
     body: `data=${encodeURIComponent(query)}`,
-    timeoutMs: 200_000,
+    timeoutMs: 140_000,
+    // Overpass is asked once: a long trail that it cannot answer stays without a route for now.
+    retries: 0,
   });
   const body = (await response.json()) as { elements: OsmElement[] };
   const data = emptyData();

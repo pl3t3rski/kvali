@@ -1,72 +1,76 @@
 <script lang="ts">
-  /** The full card of the selected trek, from index.json, with a link to its own page. */
+  /** The opened card of the selected trek: its photo, the plain facts, and the way to its own page. */
   import { onMount } from 'svelte';
   import type { TrekIndexEntry } from '../data/types';
-  import {
-    PERMIT_LABELS,
-    ROUTE_TYPE_LABELS,
-    WAYMARKED_LABELS,
-    formatCountries,
-    formatDays,
-    formatKm,
-    formatMetres,
-    formatMonths,
-  } from '../lib/format';
-  import SleepingLabel from './SleepingLabel.svelte';
+  import Button from '../design/Button.svelte';
+  import Flags from '../design/Flags.svelte';
+  import { pen } from '../design/sketch';
+  import { trekFlags } from '../lib/flags';
+  import { ROUTE_TYPE_LABELS, formatCountries, formatMetres, formatMonths, statsLine } from '../lib/format';
+  import { PHOTO_SOURCE_NAMES } from '../lib/photo-source';
+  import { url } from '../lib/paths';
 
   let { trek, onclose }: { trek: TrekIndexEntry; onclose: () => void } = $props();
 
   let heading: HTMLHeadingElement;
   // Move the keyboard focus to the card when it opens.
-  onMount(() => heading.focus());
+  onMount(() => heading.focus({ preventScroll: true }));
+
+  const route = $derived(
+    trek.route_type === 'loop' || !trek.end ? `From and back to ${trek.start}` : `${trek.start} to ${trek.end}`,
+  );
 </script>
 
 <article class="trek-card" aria-labelledby="trek-card-name">
-  <button type="button" onclick={onclose}>Back to the list</button>
+  <div><Button variant="quiet" onclick={onclose}>Back to the list</Button></div>
 
-  <h2 id="trek-card-name" tabindex="-1" bind:this={heading}>{trek.name}</h2>
-  {#if trek.status === 'draft'}<p><strong>Draft: not reviewed yet.</strong></p>{/if}
-  <p>{trek.region}, {formatCountries(trek.countries)}</p>
-  <p>{trek.one_liner}</p>
+  {#if trek.photo}
+    <figure class="kv-photo">
+      <span class="kv-grain kv-photo-print">
+        <img src={url(trek.photo.src)} width={trek.photo.width} height={trek.photo.height} alt={trek.photo.alt} />
+      </span>
+      <figcaption class="t-caption">
+        {trek.photo.alt}. Photo: <a href={trek.photo.page_url} rel="noopener">{trek.photo.author}</a>, {PHOTO_SOURCE_NAMES[trek.photo.source]}
+      </figcaption>
+    </figure>
+  {/if}
 
-  <dl>
-    <dt>Length</dt>
-    <dd>{formatDays(trek.days[0], trek.days[1])}</dd>
-    <dt>Distance</dt>
-    <dd>{formatKm(trek.distance_km)}</dd>
-    <dt>Total ascent</dt>
-    <dd>{formatMetres(trek.ascent_m)}</dd>
-    <dt>Route</dt>
-    <dd>
-      {ROUTE_TYPE_LABELS[trek.route_type]}:
-      {trek.route_type === 'loop' ? `from and back to ${trek.start}` : `${trek.start} to ${trek.end}`}
-    </dd>
-    <dt>Best months</dt>
-    <dd>{formatMonths(trek.best_months)}</dd>
-    <dt>Sleeping</dt>
-    <dd><SleepingLabel type={trek.sleeping} /></dd>
-    <dt>Difficulty</dt>
-    <dd>{trek.difficulty} of 4</dd>
-  </dl>
+  <div class="words">
+    <p class="t-caption">{trek.region} · {formatCountries(trek.countries)}{trek.status === 'draft' ? ' · draft, not reviewed yet' : ''}</p>
+    <h2 class="t-heading kv-hand" id="trek-card-name" tabindex="-1" bind:this={heading}>
+      <span class="kv-mark kv-mark-highlight" use:pen={{ kind: 'mark' }}>{trek.name}</span>
+    </h2>
+    <p class="t-body">{trek.one_liner}</p>
+    <p class="t-stat">{statsLine(trek)} · {formatMetres(trek.ascent_m)} up</p>
+    <p class="t-small">
+      {trek.route_type ? `${ROUTE_TYPE_LABELS[trek.route_type]}. ` : ''}{route}.
+      {#if trek.best_months.length > 0}Best in {formatMonths(trek.best_months)}.{/if}
+      {#if trek.difficulty}Difficulty {trek.difficulty} of 4.{/if}
+    </p>
+    <Flags flags={trekFlags(trek)} />
+  </div>
 
-  <ul>
-    <li>{PERMIT_LABELS[trek.permit]}</li>
-    <li>{WAYMARKED_LABELS[trek.waymarked]}</li>
-    {#if trek.water_scarce}<li>Water is scarce on parts of the route</li>{/if}
-    {#if trek.exposed_or_via_ferrata}<li>Has exposed or via ferrata sections</li>{/if}
-  </ul>
-
-  <p><a href={`/treks/${trek.id}/`}>Photos, trip reports and sources</a></p>
-  <p>Last verified: <time datetime={trek.last_verified}>{trek.last_verified}</time></p>
+  <div><Button variant="primary" href={url(`/treks/${trek.id}/`)}>See the whole trek</Button></div>
+  <p class="t-caption">Last verified <time datetime={trek.last_verified}>{trek.last_verified}</time></p>
 </article>
 
 <style>
-  dl {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 0.25rem 0.75rem;
+  .trek-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-5);
   }
-  dd {
-    margin: 0;
+  .words {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+  h2:focus {
+    outline: none;
+  }
+  h2:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 4px;
+    border-radius: var(--radius-sm);
   }
 </style>

@@ -1,0 +1,52 @@
+id: senda-sursilvana
+status: draft
+name: Senda Sursilvana – regional route 85
+countries:
+  - CH
+region: Graubünden – Surselva (Vorderrhein valley), Oberalp to Chur
+one_liner: Five gentle-to-steady days down the Romansh-speaking Surselva from the Rhine's source area at Oberalp to Chur, village to village.
+route:
+  type: point-to-point
+  start: Oberalppass
+  end: Chur
+  osm_relation_id: 1305494
+distance_km: 105
+total_ascent_m: 3400
+typical_days:
+  min: 5
+  max: 5
+when:
+  best_months: []
+sleeping:
+  type: guesthouses
+  notes: "Stage ends in villages: Sedrun, Sumvitg, Breil/Brigels, Laax."
+difficulty:
+  level: 2
+  reason: Technically medium, physically difficult; ~21 km stages with more descent (4,800 m) than ascent (3,400 m).
+logistics:
+  getting_to_start: Oberalppass.
+  leaving_from_end: Chur.
+  nearest_airports:
+    - Zurich
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.myswitzerland.com/en/experiences/route/senda-sursilvana/
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en/experiences/route/senda-sursilvana/
+  total_ascent_m: https://www.myswitzerland.com/en/experiences/route/senda-sursilvana/
+  typical_days: https://www.myswitzerland.com/en/experiences/route/senda-sursilvana/
+  sleeping: https://www.myswitzerland.com/en/experiences/route/senda-sursilvana/
+  difficulty: https://www.myswitzerland.com/en/experiences/route/senda-sursilvana/
+  logistics: https://www.myswitzerland.com/en/experiences/route/senda-sursilvana/
+  permit: https://www.myswitzerland.com/en/experiences/route/senda-sursilvana/
+last_verified: 2026-11-27

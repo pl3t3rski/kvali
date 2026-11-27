@@ -1,0 +1,114 @@
+id: omalo-shatili-atsunta
+status: draft
+name: Omalo – Shatili via Atsunta Pass (Tusheti PA trail "Daquekhi")
+countries:
+  - GE
+region: Tusheti and Khevsureti, Greater Caucasus
+one_liner: Tower villages of Tusheti, three wild days over the 3,431 m Atsunta Pass, and a finish at Shatili's stone fortress.
+route:
+  type: point-to-point
+  start: Omalo
+  end: Shatili
+  osm_relation_id: 12211099
+  gpx_source: https://www.caucasus-trekking.com/treks/omaloshatili
+distance_km: 75.13
+total_ascent_m: 2948
+typical_days:
+  min: 4
+  max: 5
+when:
+  best_months:
+    - July
+    - August
+  open_season: Atsunta Pass usually passable from about late June; shepherds leave in the first half of October; in 2026 the pass was not expected open before 10 July. Border guards can turn hikers back.
+sleeping:
+  type: mixed
+  notes: Guesthouses in Omalo, Dartlo, Chesho, Parsma, Girevi, Shatili; shelters at Kvakhidi and Khidotani (built 2024, sometimes locked); a paid campsite near Khidotani border post. Bring a tent.
+difficulty:
+  level: 3
+  reason: 3,431 m pass, river fords and snowfields early season; 2–3 days with no villages
+logistics:
+  getting_to_start: Marshrutka Tbilisi (Ortachala) – Kvemo Alvani, then shared 4WD jeep over the Abano Pass road to Omalo (4+ h). No public transport into Tusheti.
+  leaving_from_end: Marshrutka Shatili – Tbilisi only Thursdays and Sundays at 12:00 (buy the day before); taxi otherwise.
+  nearest_airports:
+    - Tbilisi
+flags:
+  permit: free-registration
+  permit_notes: "Border-zone registration: fill in forms at the border-guard post in Girevi (~15–20 min); further checkpoints en route. No cost mentioned in sources."
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://dmo.ge/en/region/National-Reserve-Of-Tusheti
+establishment_signals:
+  - official_status
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://www.travelblog.org/Asia/Georgia/Eastern-Georgia/Tusheti/blog-1063236.html
+    title: TravelBlog entry, Tusheti (published 2 Feb 2022)
+    summary: Hiked in reverse (Shatili to Omalo), camped at the foot of Atsunta Pass; ranks it among their top three treks.
+  - url: https://indiahikes.com/blog/managing-trek-europe-atsunta-pass-georgia
+    title: How We Managed Our First European Trek In Georgia
+    summary: Organiser's account of running a group camping trek over Atsunta Pass; detail on gear and food weight limits.
+  - url: https://no.wikiloc.com/hiking-trails/omalo-shatili-14189229
+    title: Omalo - Shatili
+    year_hiked: 2016
+    summary: GPS log started 13 July 2016 from Upper Omalo; warns to refill water at the last source after the pass on day 4.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Acunta,_03,_sestup,_20240707_144044.jpg
+    author: Draceane
+    license: CC BY-SA 4.0
+    shows: Descending from Atsunta Pass (July 2024)
+  - file_url: https://commons.wikimedia.org/wiki/File:Dartlo_(2).jpg
+    author: Lidia Ilona
+    license: CC BY 2.0
+    shows: Dartlo, Tusheti, on day 1–2
+  - file_url: https://commons.wikimedia.org/wiki/File:Georgia,_Summer_2009_-_Shatili_11-07-2097.JPG
+    author: Davide Cassenti
+    license: CC BY-SA 3.0
+    shows: Mutso village, passed on the last day
+  - file_url: https://commons.wikimedia.org/wiki/File:Shatili_medieval_houses,_Georgia.jpg
+    author: Vyacheslav Argenberg
+    license: CC BY 4.0
+    shows: Shatili's medieval houses, the trek's end
+sources:
+  distance_km: https://www.caucasus-trekking.com/treks/omaloshatili
+  total_ascent_m: https://www.caucasus-trekking.com/treks/omaloshatili
+  typical_days: https://www.caucasus-trekking.com/treks/omaloshatili
+  best_months: https://www.caucasus-trekking.com/treks/omaloshatili
+  open_season: https://www.caucasus-trekking.com/treks/omaloshatili
+  sleeping: https://www.caucasus-trekking.com/treks/omaloshatili
+  difficulty: https://www.caucasus-trekking.com/treks/omaloshatili
+  logistics: https://www.caucasus-trekking.com/treks/omaloshatili
+  permit: https://www.caucasus-trekking.com/treks/omaloshatili
+  official_status: https://dmo.ge/en/region/National-Reserve-Of-Tusheti
+conflicts:
+  - field: distance_km
+    values:
+      - value: 75.13
+        source: https://www.caucasus-trekking.com/treks/omaloshatili
+      - value: 73
+        source: https://dmo.ge/en/region/National-Reserve-Of-Tusheti
+      - value: 70
+        source: https://georgia.travel/trekking-in-georgia
+  - field: typical_days
+    values:
+      - value: 4-5
+        source: https://www.caucasus-trekking.com/treks/omaloshatili
+      - value: "6"
+        source: https://dmo.ge/en/region/National-Reserve-Of-Tusheti
+      - value: 4-6
+        source: https://georgia.travel/trekking-in-georgia
+  - field: difficulty
+    values:
+      - value: Moderate
+        source: https://www.caucasus-trekking.com/treks/omaloshatili
+      - value: Difficult
+        source: https://dmo.ge/en/region/National-Reserve-Of-Tusheti
+  - field: guide
+    values:
+      - value: done independently; tent recommended
+        source: https://www.caucasus-trekking.com/treks/omaloshatili
+      - value: "'should never be attempted without an experienced guide' (advice, not a rule)"
+        source: https://georgia.travel/trekking-in-georgia
+last_verified: 2026-11-27

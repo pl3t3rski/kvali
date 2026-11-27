@@ -1,0 +1,78 @@
+id: julius-kugy-alpine-trail
+status: draft
+name: Julius Kugy Alpine Trail (Julius-Kugy-Dreiländerweg / Pot Juliusa Kugya)
+countries:
+  - AT
+  - SI
+  - IT
+region: Karavanke, Kamnik-Savinja Alps, Julian Alps, Carnic Alps
+one_liner: 720 km alpine-club loop around the Southern Alps through Carinthia, Slovenia and Friuli, with big climbs and short exposed scrambles.
+route:
+  type: loop
+  start: Bertahütte (Carinthia, Austria)
+  end: Bertahütte (Carinthia, Austria)
+  osm_relation_id: 10909145
+distance_km: 720
+total_ascent_m: 45000
+typical_days:
+  min: 30
+  max: 30
+when:
+  best_months: []
+sleeping:
+  type: mixed
+  notes: Stage ends alternate between mountain huts (e.g. Kredarica, Wolayersee Hütte) and guesthouses in villages.
+difficulty:
+  level: 4
+  reason: "For experienced hikers: exposed sections with easy climbing, 3 km of secured path, high point 2,401 m, about 1,500 m ascent per day on average."
+logistics:
+  getting_to_start: Public transport to Feistritz im Rosental for stage 1 (Bertahütte).
+  leaving_from_end: Loop back to Bertahütte.
+  nearest_airports: []
+flags:
+  permit: none
+  waymarked: yes
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.julius-kugy-alpine-trail.com
+establishment_signals:
+  - official status (created by the alpine clubs of Carinthia + Slovenia + Friuli-Venezia Giulia)
+  - waymarked along the whole route
+  - official website
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Julius-Kugy-Dreiländerweg_in_30_Etappen.jpg
+    author: Vwulz
+    license: CC BY-SA 4.0
+    shows: Overview map of the 30-stage main route
+  - file_url: https://commons.wikimedia.org/wiki/File:Villach_Warmbad,_Julius_Kugy_Alpine_Trail,_Etappe_in_Kärnten.jpg
+    author: Naturpuur
+    license: CC BY-SA 4.0
+    shows: Trail stage at Villach Warmbad, Carinthia
+  - file_url: https://commons.wikimedia.org/wiki/File:Julius_Kugy_Alpine_Trail,_Kärnten_-_Slovenija_-_Friuli_Venezia_Giulia.jpg
+    author: Naturpuur
+    license: CC BY-SA 4.0
+    shows: Trail information board in Judendorf (Villach)
+sources:
+  distance_km: https://www.julius-kugy-alpine-trail.com
+  total_ascent_m: https://www.julius-kugy-alpine-trail.com
+  typical_days: https://www.julius-kugy-alpine-trail.com
+  sleeping: https://www.nassfeld.at/en/Summer-World/Hike-World/Berge-erleben/Weitwanderungen/Julius-Kugy-Dreilaenderweg
+  difficulty: https://www.julius-kugy-alpine-trail.com
+  logistics: https://www.bergwelten.com/t/w/42140
+  route_type: https://www.bergwelten.com/t/w/42173
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/list/search?query=Julius%20Kugy
+conflicts:
+  - field: total_ascent_m
+    values:
+      - value: 45000
+        source: https://www.julius-kugy-alpine-trail.com
+      - value: 44000
+        source: https://www.visitvillach.at/en/julius-kugy-alpine-trail.html
+  - field: route.type
+    values:
+      - value: loop
+        source: https://www.julius-kugy-alpine-trail.com
+      - value: point-to-point (Berta Hut / Kamniška koča to Wolayersee Hut / Dobratsch)
+        source: https://www.nassfeld.at/en/Summer-World/Hike-World/Berge-erleben/Weitwanderungen/Julius-Kugy-Dreilaenderweg
+last_verified: 2026-11-27

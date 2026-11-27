@@ -1,0 +1,79 @@
+id: viajacobi
+status: draft
+name: ViaJacobi (Swiss Way of St James) – Swiss national route 4
+countries:
+  - CH
+  - DE
+region: Northern foot of the Swiss Alps – Lake Constance, Einsiedeln, Brünig, Fribourg, Lausanne, Geneva
+one_liner: The Swiss leg of the Camino from Lake Constance to Geneva past abbeys, lakes and the Brünig Pass; easy walking, pilgrim and village lodgings.
+route:
+  type: point-to-point
+  start: Rorschach or Konstanz (DE)
+  end: Geneva / French border at Charrot
+  osm_relation_id: 2927471
+distance_km: 450
+total_ascent_m: 11900
+typical_days:
+  min: 20
+  max: 24
+when:
+  best_months:
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+  open_season: April to October.
+sleeping:
+  type: guesthouses
+  notes: Guesthouses, small hotels and B&Bs; pilgrims also report farm 'sleeping in the straw' stays.
+difficulty:
+  level: 1
+  reason: Officially technically easy (physically difficult only because of length); average ~360 m ascent per stage.
+logistics:
+  getting_to_start: Rorschach (rail) or Konstanz/Kreuzlingen on Lake Constance.
+  leaving_from_end: Last stage starts at Geneva railway station and runs to the French border, where the Via Gebennensis continues.
+  nearest_airports:
+    - Zurich
+    - Geneva
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://schweizmobil.ch/en/hiking-in-switzerland/route-4
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://caminodesantiago.me/community/threads/via-jacobi-2013.20744
+    title: Via Jacobi 2013
+    year_hiked: 2013
+    summary: Walked Rorschach–Geneva from 26 August 2013 plus the Konstanz branch; candid that it disappointed compared with other Caminos.
+  - url: https://caminodesantiago.me/community/posts/1296924
+    title: Jakobsweg / Via Jacobi Switzerland from Rorschach to Geneva
+    summary: "Forum thread: planned 30 days, found it takes 20–24; walkers recommend extra nights in Einsiedeln and Rapperswil."
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en/experiences/route/viajacobi/
+  total_ascent_m: https://www.myswitzerland.com/en/experiences/route/viajacobi/
+  typical_days: https://caminodesantiago.me/community/posts/1296924
+  best_months: https://www.myswitzerland.com/en/experiences/route/viajacobi/
+  open_season: https://www.myswitzerland.com/en/experiences/route/viajacobi/
+  sleeping: https://www.walkersbritain.co.uk/self-guided-walking/switzerland/via-jacobi-switzerland-hike
+  difficulty: https://www.myswitzerland.com/en/experiences/route/viajacobi/
+  logistics: https://www.myswitzerland.com/en-my/experiences/route/viajacobi-4_20/
+  permit: https://schweizmobil.ch/en/hiking-in-switzerland/route-4
+conflicts:
+  - field: typical_days
+    values:
+      - value: 33 official stages (includes both Lake Constance branches and variants)
+        source: https://www.myswitzerland.com/en/experiences/route/viajacobi/
+      - value: 20–24 days Rorschach–Geneva
+        source: https://caminodesantiago.me/community/posts/1296924
+last_verified: 2026-11-27

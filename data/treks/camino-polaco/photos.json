@@ -1,0 +1,34 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Ilawa-Camino-pielgrzymi.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Ilawa-Camino-pielgrzymi.jpg",
+    "author": "Fionaelisa",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Pilgrims on the Camino Polaco in Iława",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/camino-polaco/97248ab32f-480.webp",
+      "960": "/photos/camino-polaco/97248ab32f-960.webp",
+      "1600": "/photos/camino-polaco/97248ab32f-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Jakobsweg Heiligelinde.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Jakobsweg_Heiligelinde.jpg",
+    "author": "Beatclub",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Granite marker at Święta Lipka (Heiligelinde) on the Camino Polaco",
+    "width": 1600,
+    "height": 1063,
+    "sizes": {
+      "480": "/photos/camino-polaco/d442231927-480.webp",
+      "960": "/photos/camino-polaco/d442231927-960.webp",
+      "1600": "/photos/camino-polaco/d442231927-1600.webp"
+    }
+  }
+]

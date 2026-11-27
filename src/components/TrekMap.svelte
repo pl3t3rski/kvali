@@ -49,4 +49,19 @@
     position: absolute;
     inset: 0;
   }
+  /* The credits in the caption style, on the map's own ground. */
+  .trek-map :global(.maplibregl-ctrl-attrib) {
+    background: color-mix(in srgb, var(--paper-deep) 86%, transparent);
+    font-family: var(--font-reading);
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--ink-quiet);
+  }
+  .trek-map :global(.maplibregl-ctrl-attrib a) {
+    color: var(--ink-quiet);
+  }
+  .trek-map :global(.maplibregl-canvas:focus-visible) {
+    outline: 2px solid var(--focus);
+    outline-offset: -4px;
+  }
 </style>

@@ -1,0 +1,79 @@
+id: zentralalpenweg-02
+status: draft
+name: Zentralalpenweg 02 (Austrian Long-Distance Trail 02)
+countries:
+  - AT
+region: "Across Austria: Leitha hills, Niedere and Hohe Tauern, Zillertal/Ötztal Alps to Vorarlberg"
+one_liner: Austria's longest national trail, Hainburg to Feldkirch along the Central Alps; the alpine main route needs glacier experience, route 02A avoids ice.
+route:
+  type: point-to-point
+  start: Hainburg an der Donau
+  end: Feldkirch
+  osm_relation_id: 193073
+distance_km: 1200
+when:
+  best_months: []
+sleeping:
+  type: mixed
+difficulty:
+  level: 4
+  reason: Main alpine route 02 crosses glaciers and reaches ~3,400 m (Venediger group); needs glacier experience, sure-footedness, head for heights. 02A is glacier-free.
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit; glacier sections are on the main alpine route only.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.alpenverein.at/weitwanderer/weitwanderwege/zentralalpenweg.php
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - guidebook
+  - trip_reports
+trip_reports:
+  - url: https://zentralalpenweg02.blogspot.com/
+    title: Zentralalpenweg 02 (blog)
+    summary: Multi-season blog of the whole route, ending at the Feldkircher Hütte.
+  - url: https://weitzuwandern.blogspot.com/2026/08/www02a-zentralalpenweg.html
+    title: "Weitwandern: WWW02A Zentralalpenweg"
+    year_hiked: 2026
+    summary: Day-by-day log of the glacier-free 02A in August 2026 (Zell am Ziller onwards).
+  - url: https://transperpedes.blogspot.com/2009/11/zentralalpenweg-02-der-beginn-hainburg.html
+    title: Zentralalpenweg 02 – Der Beginn Hainburg bis …
+    summary: Start of a section-by-section walk from Hainburg.
+  - url: https://www.outdoorseiten.net/forum/viewtopic.php?t=49951
+    title: Zentralalpenweg 02 Glockner & Venediger
+    summary: Couple walking the high-alpine 02 over three summers, so far to the Ankogel.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Hainburg-Hauptplatz_2792.JPG
+    author: Karl Gruber
+    license: CC BY-SA 4.0
+    shows: Zentralalpenweg 02 marker stone on the main square of Hainburg (start)
+  - file_url: https://commons.wikimedia.org/wiki/File:Klafferkessel-2.JPG
+    author: Gergi084
+    license: CC BY-SA 3.0
+    shows: Klafferkessel on the Schladminger Tauern section of the 02
+  - file_url: https://commons.wikimedia.org/wiki/File:Nenzing-Nenzinger_hiking_sign_Zentralalpenweg_102-01ASD.jpg
+    author: Asurnipal
+    license: CC BY-SA 4.0
+    shows: 02/102 signpost at Nenzinger Himmel, Vorarlberg
+sources:
+  distance_km: https://www.alpenverein.at/weitwanderer/weitwanderwege/zentralalpenweg.php
+  difficulty: https://www.alpenverein.at/weitwanderer/weitwanderwege/zentralalpenweg.php
+  permit: https://www.alpenverein.at/weitwanderer/weitwanderwege/zentralalpenweg.php
+  waymarked: https://www.austria.info/de-de/aktivitaeten/weitwandern/
+  official_status: https://www.alpenverein.at/weitwanderer/weitwanderwege/index.php?navid=159071997350
+  guidebook: https://www.alpenverein.at/weitwanderer/weitwanderwege/zentralalpenweg.php
+  osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=193073
+conflicts:
+  - field: distance_km
+    values:
+      - value: 1200
+        source: https://www.alpenverein.at/weitwanderer/weitwanderwege/zentralalpenweg.php
+      - value: 1270
+        source: https://www.alpenverein.at/weitwanderer/weitwanderwege/zentralalpenweg.php (page heading)
+last_verified: 2026-11-27

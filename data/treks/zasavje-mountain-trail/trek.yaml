@@ -1,0 +1,43 @@
+id: zasavje-mountain-trail
+status: draft
+name: Zasavje Mountain Trail (Zasavska planinska pot)
+countries:
+  - SI
+region: Posavje Hills (Zasavje)
+one_liner: From the Bizeljsko wine hills across the Posavje Hills to Mt Kum, a medium regional stamp trail.
+route:
+  type: point-to-point
+  start: Šekoranja restaurant, Bizeljsko
+  end: Kum hut (Trbovlje)
+  osm_relation_id: 15850899
+  gpx_source: https://slovenia-outdoor.com/en/map-detail-2/?id=34079219
+distance_km: 200
+typical_days:
+  min: 12
+  max: 12
+when:
+  best_months: []
+difficulty:
+  level: 2
+  reason: Rated medium.
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+establishment_signals:
+  - official status (regional trail of the Alpine Association of Slovenia)
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+  typical_days: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+  difficulty: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/15850899
+conflicts:
+  - field: distance_km
+    values:
+      - value: 200
+        source: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+      - value: 198
+        source: https://wiki.openstreetmap.org/wiki/Sl:Slovenian_Hiking_Routes
+last_verified: 2026-11-27

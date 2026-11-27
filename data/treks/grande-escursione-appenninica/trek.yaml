@@ -1,0 +1,64 @@
+id: grande-escursione-appenninica
+status: draft
+name: Grande Escursione Appenninica (GEA)
+countries:
+  - IT
+region: Northern & central Apennines (Tuscany, Emilia-Romagna, Umbria border, Liguria edge)
+one_liner: Three weeks along the Apennine ridge from Bocca Trabaria to Passo Due Santi, beech forests and grassy crests, hotels and rifugi.
+route:
+  type: point-to-point
+  start: Bocca Trabaria (Tuscany–Umbria border)
+  end: Passo dei Due Santi (Liguria edge)
+  osm_relation_id: 358901
+distance_km: 402.6
+typical_days:
+  min: 23
+  max: 23
+when:
+  best_months:
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+  open_season: April–October; northern stages 14–23 effectively midsummer only; July–August most reliable for high rifugi
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: About two-thirds of stages end at hotels, one-third at rifugi; two unmanned bivouac huts; phone ahead, mid-August and Saturdays fill up. One-night camping tolerated in park areas.
+difficulty:
+  level: 2
+  reason: Mostly grade 2 days of 8–25 km; stages 14–22 harder with some exposed crests (mostly avoidable); fog and strong winds on ridges
+logistics:
+  getting_to_start: Baschetti bus between Sansepolcro and Pesaro stops at Bocca Trabaria
+  leaving_from_end: Walk 5 km to Patigno, ATN bus to Pontremoli railway station
+  nearest_airports:
+    - Pisa (PSA)
+    - Bologna (BLQ)
+    - Genoa (GOA)
+    - Ancona (AOI)
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+establishment_signals:
+  - national-network trail (OSM nwn)
+  - waymarked CAI red-white with GEA logo
+  - guidebook (Cicerone "Trekking in the Apennines")
+  - crosses two national parks
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  typical_days: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  best_months: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  open_season: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  sleeping: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  difficulty: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  logistics: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  permit: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+conflicts: []
+last_verified: 2026-11-27

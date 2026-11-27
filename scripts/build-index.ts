@@ -58,6 +58,7 @@ mkdirSync(join(PUBLIC_DIR, 'routes'), { recursive: true });
 for (const { trek, stats, photos, folder } of readSiteTreks()) {
   const route = readRoute(folder)!;
 
+  const first = photos[0];
   const entry: TrekIndexEntry = {
     id: trek.id,
     name: trek.name,
@@ -69,24 +70,37 @@ for (const { trek, stats, photos, folder } of readSiteTreks()) {
     end: trek.route.end,
     distance_km: stats.distance_km,
     ascent_m: stats.ascent_m,
-    days: [trek.typical_days.min, trek.typical_days.max],
-    best_months: [...trek.when.best_months].sort((a, b) => a - b),
-    sleeping: trek.sleeping.type,
-    difficulty: trek.difficulty.level,
-    permit: trek.flags.permit,
-    waymarked: trek.flags.waymarked,
-    water_scarce: trek.flags.water_scarce,
-    exposed_or_via_ferrata: trek.flags.exposed_or_via_ferrata,
+    days: trek.typical_days ? [trek.typical_days.min, trek.typical_days.max] : undefined,
+    best_months: [...(trek.when?.best_months ?? [])].sort((a, b) => a - b),
+    sleeping: trek.sleeping?.type,
+    difficulty: trek.difficulty?.level,
+    permit: trek.flags?.permit,
+    waymarked: trek.flags?.waymarked,
+    water_scarce: trek.flags?.water_scarce,
+    exposed_or_via_ferrata: trek.flags?.exposed_or_via_ferrata,
     establishment: establishmentScore(trek.establishment_signals),
     bbox: stats.bbox,
     midpoint: stats.midpoint,
-    ...(photos[0] ? { thumb: Object.values(photos[0].sizes)[0] } : {}),
+    // The card photo carries its credit, so it can be shown wherever the card is.
+    ...(first
+      ? {
+          photo: {
+            src: Object.values(first.sizes)[0],
+            width: first.width,
+            height: first.height,
+            alt: first.shows,
+            author: first.author,
+            source: first.source,
+            page_url: first.page_url,
+          },
+        }
+      : {}),
     last_verified: trek.last_verified,
     status: trek.status,
   };
   index.treks.push(entry);
 
-  const properties: RouteLiteProperties = { id: trek.id, sleeping: trek.sleeping.type };
+  const properties: RouteLiteProperties = { id: trek.id, sleeping: trek.sleeping?.type ?? 'unknown' };
   lite.features.push({ type: 'Feature', properties, geometry: simplified(route.geometry, LITE_TOLERANCE, 4) });
 
   const detail: Feature<LineString | MultiLineString, RouteLiteProperties> = {

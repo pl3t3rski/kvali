@@ -1,0 +1,61 @@
+id: goranski-planinarski-put
+status: draft
+name: Gorski Kotar Hiking Trail (Goranski planinarski put, GPP)
+countries:
+  - HR
+region: Gorski kotar
+one_liner: A long, forested loop through Gorski kotar over Risnjak, Bjelolasica, Klek and the Samarske and Bijele stijene, often called Croatia's toughest official route.
+route:
+  type: loop
+  start: Loop in 3 sections; section 1 starts at Severin na Kupi
+  end: Loop (section 3 ends at Lovnik)
+  osm_relation_id: 3153946
+  gpx_source: https://fastestknowntime.com/fkt/vedran-gracan-goranski-planinarski-put-croatia-2018-06-19
+distance_km: 280
+total_ascent_m: 17000
+difficulty:
+  level: 3
+  reason: About 109 walking hours (27 + 33 + 49) and around 17,000 m of ascent over the main Gorski kotar summits.
+flags:
+  permit: none
+  permit_notes: Passes Risnjak National Park; entry rules not checked.
+links:
+  official_site: https://www.hps.hr/info/planinarske-obilaznice/1130-goranski-planinarski-put-1-dionica/
+establishment_signals:
+  - "Official status: HPS-registered route (organiser HPD Zagreb-Matica), described as the longest official HPS route"
+  - Official website (HPS registry, 3 section pages)
+  - Guide/diary booklet 'Goranski planinarski put' (PD Matica, 2001)
+  - "Trip reports: FKT reports and regional press"
+trip_reports:
+  - url: https://fastestknowntime.com/fkt/dane-opara-goranski-planinarski-put-croatia-2020-10-06
+    title: "FKT: Dane Opara – Goranski Planinarski Put (2020-10-06)"
+    year_hiked: 2020
+    summary: Supported run of the full loop in 4 days 13 hours; describes it as 360 km with 17,000 m of gain.
+  - url: https://fastestknowntime.com/fkt/vedran-gracan-goranski-planinarski-put-croatia-2018-06-19
+    title: "FKT: Vedran Gračan – Goranski Planinarski Put (2018-06-19)"
+    year_hiked: 2018
+    summary: Self-supported in 6 days 11 hours; estimates the real route at 340–350 km.
+  - url: https://www.novilist.hr/?p=1321084
+    title: Pokorili GPP
+    summary: Novi list profile of the Šnajdar family from Delnice, who completed every GPP control point.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Bijele_i_samarske_stijene3.JPG
+    author: Croq
+    license: CC BY-SA 3.0
+    shows: Bijele and Samarske stijene, control points on section 3
+sources:
+  distance_km: https://www.novilist.hr/?p=1321084
+  total_ascent_m: https://fastestknowntime.com/fkt/dane-opara-goranski-planinarski-put-croatia-2020-10-06
+  walking_hours: https://www.hps.hr/info/planinarske-obilaznice/1150-goranski-planinarski-put-3-dionica/
+  difficulty: https://www.hps.hr/info/planinarske-obilaznice/1140-goranski-planinarski-put-2-dionica/
+  route_shape: https://fastestknowntime.com/route/goranski-planinarski-put-croatia
+conflicts:
+  - field: distance_km
+    values:
+      - value: 280
+        source: https://www.novilist.hr/?p=1321084
+      - value: 360
+        source: https://fastestknowntime.com/fkt/dane-opara-goranski-planinarski-put-croatia-2020-10-06
+      - value: 340–350 (estimate)
+        source: https://fastestknowntime.com/route/goranski-planinarski-put-croatia
+last_verified: 2026-11-27

@@ -1,0 +1,60 @@
+id: sentiero-del-viandante
+status: draft
+name: Sentiero del Viandante (Wayfarer's Path)
+countries:
+  - IT
+region: Eastern shore of Lake Como (Lecco / Sondrio)
+one_liner: Old mule track along Lake Como's eastern shore through Varenna and Bellano, with a railway station in nearly every village.
+route:
+  type: point-to-point
+  start: Abbadia Lariana (or Lecco)
+  end: Colico/Piantedo (extensions to Sorico or Morbegno)
+  osm_relation_id: 2178755
+distance_km: 45
+typical_days:
+  min: 4
+  max: 4
+sleeping:
+  type: guesthouses
+  notes: Lakeside village accommodation; campsites at Abbadia Lariana, Mandello del Lario, Dervio and Colico.
+difficulty:
+  level: 2
+  reason: Mule tracks and cobbled stairways; ~2,460 m of ascent spread over 8 legs (Sorico–Lecco), no exposure
+logistics:
+  getting_to_start: All villages have a railway station on the Lecco–Colico line
+  leaving_from_end: Train back along the lake from Colico
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.in-lombardia.it/en/tours/le-vie-del-viandante
+establishment_signals:
+  - regional tourism-board route (inLombardia
+  - italia.it)
+  - waymarked (orange metal signs)
+  - covered in travel articles
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.airbnb.com/things-to-do/places/3181293
+  typical_days: https://www.italia.it/de/lombardei/erlebnisse-und-sehenswertes/sentiero-del-viandante
+  sleeping: https://www.komoot.com/de-de/collection/1432066/auf-alten-saumpfaden-entlang-des-comer-sees-sentiero-del-viandante
+  difficulty: https://www.in-lombardia.it/sites/default/files/itinerari/attachments/178542/viandante_mappa_4.pdf
+  logistics: https://www.komoot.com/de-de/collection/1432066/auf-alten-saumpfaden-entlang-des-comer-sees-sentiero-del-viandante
+conflicts:
+  - field: distance_km
+    values:
+      - value: 45 (Abbadia–Colico)
+        source: https://www.airbnb.com/things-to-do/places/3181293
+      - value: 60.5 (Sorico–Lecco, 8 legs)
+        source: https://www.in-lombardia.it/sites/default/files/itinerari/attachments/178542/viandante_mappa_4.pdf
+      - value: 68.8 (Abbadia–Morbegno)
+        source: https://comoanditslake.com/sentierodelviandante.htm
+  - field: difficulty
+    values:
+      - value: level 2 (~2,460 m ascent over 8 legs)
+        source: https://www.in-lombardia.it/sites/default/files/itinerari/attachments/178542/viandante_mappa_4.pdf
+      - value: rated difficult (schwierig), 4 stages
+        source: https://www.italia.it/de/lombardei/erlebnisse-und-sehenswertes/sentiero-del-viandante
+last_verified: 2026-11-27

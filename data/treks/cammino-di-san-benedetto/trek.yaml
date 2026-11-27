@@ -1,0 +1,43 @@
+id: cammino-di-san-benedetto
+status: draft
+name: Cammino di San Benedetto
+countries:
+  - IT
+region: Umbria / Lazio (Valnerina, Valle Santa, Subiaco, Ciociaria)
+one_liner: 300 km pilgrim walk linking St Benedict's birthplace Norcia, his hermitage at Subiaco and the abbey of Montecassino.
+route:
+  type: point-to-point
+  start: Norcia
+  end: Montecassino
+  osm_relation_id: 11109163
+distance_km: 300
+typical_days:
+  min: 16
+  max: 16
+sleeping:
+  type: guesthouses
+  notes: Credential available from the 'Amici del Cammino di San Benedetto' association for a small fee.
+difficulty:
+  level: 2
+  reason: Rated medium; hilly Apennine stages
+flags:
+  permit: none
+  permit_notes: Optional credential
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+establishment_signals:
+  - national-network route (OSM nwn)
+  - waymarked
+  - italia.it itinerary page
+  - covered in national press (ENIT clippings)
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.italia.it/it/italia/cosa-fare/cammino-di-san-benedetto
+  typical_days: https://www.italia.it/it/italia/cosa-fare/cammino-di-san-benedetto
+  sleeping: https://www.italia.it/it/italia/cosa-fare/cammino-di-san-benedetto
+  difficulty: https://www.italia.it/it/italia/cosa-fare/cammino-di-san-benedetto
+  permit: https://www.italia.it/it/italia/cosa-fare/cammino-di-san-benedetto
+conflicts: []
+last_verified: 2026-11-27

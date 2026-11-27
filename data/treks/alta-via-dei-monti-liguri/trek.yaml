@@ -1,0 +1,35 @@
+id: alta-via-dei-monti-liguri
+status: draft
+name: Alta Via dei Monti Liguri (AVML)
+countries:
+  - IT
+region: Ligurian Alps and Apennines (Liguria)
+one_liner: Ridge-line traverse of the whole of Liguria, 440 km between the sea and the mountains from Ventimiglia to Ceparana.
+route:
+  type: point-to-point
+  start: Ventimiglia
+  end: Ceparana (La Spezia)
+  osm_relation_id: 3006903
+distance_km: 440
+sleeping:
+  notes: 43 official stages; an association of accommodation owners along the route exists (Associazione Ospitalità AVML).
+difficulty:
+  level: 2
+  reason: Most of the 43 stages are graded E (hiking); only some are demanding; highest point Monte Saccarello 2,201 m
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+establishment_signals:
+  - defined by Liguria regional law (LR 5/1993)
+  - waymarked red-white-red with "AV"
+  - part of the Sentiero Italia network
+  - regularly covered in travel articles
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.ge.camcom.gov.it/it/promuovi/turismo/eventi-e-notizie-turismo/dp_liguria_alta-via-dei-monti-liguri.pdf
+  sleeping: https://mtb-mag.com/en/alta-via-dei-monti-liguri-the-completely-ridable-track/amp
+  difficulty: https://travel.thewom.it/italia/liguria/alta-via-dei-monti.html
+conflicts: []
+last_verified: 2026-11-27

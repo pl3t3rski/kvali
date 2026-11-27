@@ -1,0 +1,34 @@
+id: rijecka-planinarska-obilaznica
+status: draft
+name: Rijeka Hiking Circuit (Riječka planinarska obilaznica, RPO)
+countries:
+  - HR
+region: Učka and the Rijeka hinterland, Kvarner
+one_liner: From the sea at Lovran up over Učka and the hills behind Rijeka, back down to the sea at Crikvenica.
+route:
+  type: point-to-point
+  start: Lovran
+  end: Crikvenica
+  osm_relation_id: 3176765
+distance_km: 166
+sleeping:
+  notes: Control points include the Poklon, Hahlić and Vagabundina koliba mountain lodges.
+difficulty:
+  reason: About 58 walking hours and 36 control points; terrain not verified.
+flags:
+  permit: none
+links:
+  official_site: https://www.hps.hr/info/planinarske-obilaznice/1570-rijecka-planinarska-obilaznica-rijecka-planinarska-transverzala/
+establishment_signals:
+  - "Official status: HPS-registered route (Riječki planinarski savez); revived 2012 and reopened 19 Sept 2021"
+  - Official website (HPS registry)
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://virtualmountains.co.uk/Istria/Istria.html
+  walking_hours: https://www.hps.hr/info/planinarske-obilaznice/1570-rijecka-planinarska-obilaznica-rijecka-planinarska-transverzala/
+  sleeping: https://www.hps.hr/info/planinarske-obilaznice/1570-rijecka-planinarska-obilaznica-rijecka-planinarska-transverzala/
+  difficulty: https://www.hps.hr/info/planinarske-obilaznice/1570-rijecka-planinarska-obilaznica-rijecka-planinarska-transverzala/
+  history: https://routes.tracestrack.com/route/3176765
+conflicts: []
+last_verified: 2026-11-27

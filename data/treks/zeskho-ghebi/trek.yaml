@@ -1,0 +1,84 @@
+id: zeskho-ghebi
+status: draft
+name: Zeskho – Ghebi (Svaneti to Racha)
+countries:
+  - GE
+region: Lower Svaneti and Upper Racha, Greater Caucasus
+one_liner: Two high passes and the Sasvano lakes on an old, half-vanished route between Lower Svaneti and Racha. Tent and navigation essential.
+route:
+  type: point-to-point
+  start: Zeskho (alpine camp)
+  end: Ghebi
+  gpx_source: https://www.caucasus-trekking.com/treks/svanetiracha
+distance_km: 43.2
+total_ascent_m: 2062
+typical_days:
+  min: 3
+  max: 4
+when:
+  best_months:
+    - July
+    - August
+  open_season: Late June to early September; best July to early September once snow clears Lapuri Pass
+sleeping:
+  type: camping
+  booking_ahead: not-needed
+  notes: Camping at Lapuri camp and Sasvano lakes; family hotel in Ghebi at the end.
+difficulty:
+  level: 4
+  reason: Lapuri (~2,526 m) and Vatsistsveri (~2,900 m) passes; overgrown, trail-less valley sections; very remote
+logistics:
+  getting_to_start: Zeskho is 62 km by road from Lentekhi; hire a car from Mestia/Ushguli or Lentekhi.
+  leaving_from_end: Ghebi – Oni bus only on Thursdays (~9:00); otherwise taxi (~60–70 GEL) or hitchhike.
+  nearest_airports:
+    - Kutaisi
+    - Tbilisi
+flags:
+  permit: free-registration
+  permit_notes: Border-zone permit needed between Zeskho and Ghebi (from the border-guard station in Oni; passports checked at the Zeskho checkpoint). Cost not stated in sources.
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://georgia.travel/zeskho-ghebi
+establishment_signals:
+  - official_site
+  - trip_reports
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Rioni_river_gorge_in_Upper_Racha.jpg
+    author: Jelger Groeneveld
+    license: CC BY 2.0
+    shows: Rioni gorge between Utsera and Chiora/Ghebi, the approach to the trek's end
+sources:
+  distance_km: https://www.caucasus-trekking.com/treks/svanetiracha
+  total_ascent_m: https://www.caucasus-trekking.com/treks/svanetiracha
+  typical_days: https://www.caucasus-trekking.com/treks/svanetiracha
+  best_months: https://lentekhi.odoo.com/zeskho-ghebi
+  open_season: https://lentekhi.odoo.com/zeskho-ghebi
+  sleeping: https://georgia.travel/zeskho-ghebi
+  difficulty: https://www.caucasus-trekking.com/treks/svanetiracha
+  logistics: https://www.caucasus-trekking.com/treks/svanetiracha
+  permit: https://transcaucasiantrail.org/en/thru-hike-the-tct
+  permit_detail: https://transcaucasiantrail.org/en/2024/08/24/day-12-oni-to-tsana
+conflicts:
+  - field: distance_km
+    values:
+      - value: 43.2
+        source: https://www.caucasus-trekking.com/treks/svanetiracha
+      - value: 43
+        source: https://lentekhi.odoo.com/zeskho-ghebi
+      - value: 39
+        source: https://www.walkopedia.net/best-world-walks/Georgia/Svaneti-Region
+      - value: 37
+        source: https://www.caucasus-trekking.com/best-treks
+  - field: typical_days
+    values:
+      - value: 3-4
+        source: https://www.caucasus-trekking.com/treks/svanetiracha
+      - value: "3"
+        source: https://georgia.travel/zeskho-ghebi
+  - field: freshness
+    values:
+      - value: caucasus-trekking trek page last updated Feb 2019; TCT has been rebuilding parts of this corridor since
+        source: https://transcaucasiantrail.org/en/2024/08/24/day-12-oni-to-tsana
+last_verified: 2026-11-27

@@ -1,0 +1,17 @@
+---
+/** The Kvali logo: a drawing, never retyped in a font. It takes the theme's pen colour. */
+import logo from './logo.json';
+
+interface Props {
+  variant?: 'wordmark' | 'k';
+  /** Height in px. Under 96 px wide, use the k. */
+  height?: number;
+}
+const { variant = 'wordmark', height = variant === 'k' ? 40 : 56 } = Astro.props;
+const k = variant === 'k';
+const width = Math.round(height * (k ? 1 : 660 / 250));
+---
+
+<svg class="kv-logo" role="img" aria-label="Kvali" width={width} height={height} viewBox={k ? '-10 20 170 170' : '0 0 660 250'}>
+  <path d={k ? logo.k : logo.wordmark}></path>
+</svg>

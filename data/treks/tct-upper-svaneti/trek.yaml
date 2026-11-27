@@ -1,0 +1,94 @@
+id: tct-upper-svaneti
+status: draft
+name: Transcaucasian Trail – Upper Svaneti
+countries:
+  - GE
+region: Upper Svaneti, Greater Caucasus
+one_liner: "Five passes from the quiet Nenskra valley to Ushguli: empty first half, then the busy Mestia–Ushguli finale."
+route:
+  type: point-to-point
+  start: Chuberi (Kvemo Marghi)
+  end: Ushguli
+  osm_relation_id: 16118590
+  gpx_source: https://caltopo.com/m/27711
+distance_km: 140
+total_ascent_m: 8917
+typical_days:
+  min: 7
+  max: 9
+when:
+  best_months:
+    - July
+    - August
+    - September
+  open_season: July to September, sometimes mid-October; mid-June possible but snow likely on higher passes
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: Guesthouses frequent, especially Mestia–Ushguli; plenty of wild camping on the quieter western half. Booking advice applies to the Mestia–Ushguli part in July–August.
+difficulty:
+  level: 3
+  reason: Five major passes (Guli Pass 2,974 m); stage 1 alone gains 2,296 m; washed-out bridges and high-water fords possible
+logistics:
+  getting_to_start: Marshrutka from Zugdidi towards Mestia; get off at the nearest point to the trailhead and walk a few km from the main road.
+  leaving_from_end: Shared taxi from Ushguli to Mestia, then marshrutka or flight onward.
+  nearest_airports:
+    - Mestia (Queen Tamar)
+    - Kutaisi
+    - Tbilisi
+flags:
+  permit: none
+  permit_notes: No permit mentioned by the trail association.
+  waymarked: true
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://littleadventurertravels.com/destinations/europe/hiking-georgias-transcaucasian-trail-chuberi-to-mestia/
+    title: "Hiking Georgia's Transcaucasian Trail: Chuberi to Mestia"
+    summary: Western half only (83 km, 3–4 days), Chuberi/Nakra to Mestia, following red-white and yellow-white blazes.
+  - url: https://www.thenationalnews.com/lifestyle/travel/hiking-georgia-s-transcaucasian-trail-1.712852
+    title: Hiking Georgia's Transcaucasian Trail
+    summary: Guided 10-day TCT supporters' trek through Svaneti with village homestays (Nakra valley).
+photos:
+  - file_url: https://unsplash.com/photos/Vy0KuvkCR0s
+    author: Nick Night
+    license: Unsplash License
+    shows: Ushguli at dusk, with Shkhara in cloud behind it
+  - file_url: https://commons.wikimedia.org/wiki/File:Mt_Ushba,_Georgia.jpg
+    author: Paata Vardanashvili
+    license: CC BY 2.0
+    shows: Mt Ushba, which dominates the Becho valley stages
+  - file_url: https://commons.wikimedia.org/wiki/File:Mestia_with_Svan_towers.jpg
+    author: Jelger Groeneveld
+    license: CC BY 2.0
+    shows: Mestia with Svan towers, the trail's halfway town
+  - file_url: https://commons.wikimedia.org/wiki/File:Ushguli_Svaneti_Georgia.JPG
+    author: Florian Pinel
+    license: CC BY-SA 3.0
+    shows: Ushguli community, the eastern end of the section
+sources:
+  distance_km: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia
+  total_ascent_m: https://fastestknowntime.com/route/transcaucasian-trail-upper-svaneti
+  typical_days: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia
+  best_months: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia/practical-information
+  open_season: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia/practical-information
+  sleeping: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia/practical-information
+  difficulty: https://transcaucasiantrail.org/wp-content/uploads/2024/02/Chuberi-Village-Kvemo-Marghi-to-Nakra.pdf
+  logistics: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia/practical-information
+  permit: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia/practical-information
+  waymarked: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia
+conflicts:
+  - field: typical_days
+    values:
+      - value: 7-9
+        source: https://transcaucasiantrail.org/en/hike/upper-svaneti-georgia
+      - value: 7-10
+        source: https://www.islands.com/1808314/underrated-country-georgia-eastern-europe-introducing-world-longest-continuous-transcaucasian-trail
+last_verified: 2026-11-27

@@ -1,0 +1,81 @@
+id: alta-via-2-valle-daosta
+status: draft
+name: Alta Via 2 della Valle d'Aosta (Alta Via Naturalistica)
+countries:
+  - IT
+region: Aosta Valley, Graian Alps (Gran Paradiso National Park, Mont Avic Park)
+one_liner: High passes and ibex country through Gran Paradiso National Park, crossing Col Loson at almost 3,300 m.
+route:
+  type: point-to-point
+  start: Courmayeur
+  end: Donnas
+  osm_relation_id: 9898948
+distance_km: 180
+total_ascent_m: 11890
+typical_days:
+  min: 12
+  max: 14
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Best period late June to mid-September
+sleeping:
+  type: mixed
+  notes: Rifugi, hotels, hostels and campsites; wild camping prohibited in Gran Paradiso National Park except designated areas.
+difficulty:
+  level: 3
+  reason: Mostly average mountain paths, but a handful of stages have unstable, exposed ground and passes up to ~3,300 m
+logistics:
+  getting_to_start: Train from Turin or Milan to Aosta, then bus to Courmayeur
+  leaving_from_end: Donnas is on the Aosta–Turin railway
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_2
+establishment_signals:
+  - regional official high route
+  - waymarked and entirely signposted
+  - official website
+  - 'guidebook (Cicerone "Trekking Gran Paradiso: Alta Via 2")'
+  - national park route
+trip_reports:
+  - url: https://www.avventurosamente.it/xf/threads/alta-via-n-2-da-courmayeur-a-donnas.63716/
+    title: Alta Via n.2 da Courmayeur a Donnas
+    year_hiked: 2024
+    summary: Solo, 11–23 August 2024, 13 days Courmayeur to Donnas; high point Col Loson 3,299 m (Italian)
+  - url: https://www.randonner-leger.org/forum/viewtopic.php?pid=538193
+    title: Alta Via 2 de Courmayeur à Donnas (forum report)
+    summary: Walked Courmayeur to Donnas; warns Tor des Géants markings diverge from AV2 on the first section (French)
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Rifugio_Vittorio_Sella.jpg
+    author: Torsolo
+    license: CC BY-SA 3.0 (also offered under CC BY-SA 2.5)
+    shows: Rifugio Vittorio Sella, Gran Paradiso
+sources:
+  distance_km: https://www.komoot.com/collection/2390339/running-in-paradise-alta-via-2-of-valle-d-aosta
+  total_ascent_m: https://www.komoot.com/collection/2390339/running-in-paradise-alta-via-2-of-valle-d-aosta
+  typical_days: https://lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_2
+  best_months: https://www.cicerone.co.uk/trekking-gran-paradiso-alta-via-2
+  open_season: https://www.komoot.com/fr-fr/collection/1805679/entre-hauts-sommets-et-vallees-authentiques-lalta-via-2-de-la-vallee-d-aoste
+  sleeping: https://lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_2
+  difficulty: https://www.cicerone.co.uk/trekking-gran-paradiso-alta-via-2
+  logistics: https://www.komoot.com/fr-fr/collection/1805679/entre-hauts-sommets-et-vallees-authentiques-lalta-via-2-de-la-vallee-d-aoste
+conflicts:
+  - field: route
+    values:
+      - value: Courmayeur–Donnas, 14 stages
+        source: https://lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_2
+      - value: Chardonney–Courmayeur, ~148 km, 12 stages
+        source: https://www.cicerone.co.uk/trekking-gran-paradiso-alta-via-2
+  - field: distance_km
+    values:
+      - value: 180
+        source: https://www.komoot.com/collection/2390339/running-in-paradise-alta-via-2-of-valle-d-aosta
+      - value: 148
+        source: https://www.cicerone.co.uk/trekking-gran-paradiso-alta-via-2
+last_verified: 2026-11-27

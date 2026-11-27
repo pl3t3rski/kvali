@@ -1,0 +1,88 @@
+id: tour-des-dents-du-midi
+status: draft
+name: Tour des Dents du Midi
+countries:
+  - CH
+region: Chablais Alps – Val d'Illiez and Salanfe (Valais)
+one_liner: A compact loop around the seven summits of the Dents du Midi with lakes, a chained passage and small auberges; huts must be booked.
+route:
+  type: loop
+  start: Champéry
+  end: Champéry
+  osm_relation_id: 302402
+distance_km: 56.5
+total_ascent_m: 3182
+typical_days:
+  min: 2
+  max: 4
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+    - October
+  open_season: June to October, depending on snow.
+sleeping:
+  type: huts
+  booking_ahead: required
+  notes: "Booking essential via dentsdumidi.ch: Auberge de Chindonne, Auberge de Salanfe, Refuge de Bonavau, Cabane d'Anthème, Cabane de Susanfe (Susanfe closed for full renovation – check status)."
+difficulty:
+  level: 3
+  reason: Officially 'hard'; Col du Jorat climb (~1,400 m) and the steep, vertiginous Pas d'Encel equipped with chains.
+logistics:
+  getting_to_start: Champéry, terminus of the AOMC train from Aigle/Monthey.
+  leaving_from_end: Loop – train from Champéry; other access points include Mex and Vérossaz.
+  nearest_airports:
+    - Geneva
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://regiondentsdumidi.ch/en/the-dents-du-midi-trail-fp485
+establishment_signals:
+  - official_site
+  - waymarked
+  - trip_reports
+trip_reports:
+  - url: https://www.novo-monde.com/en/dents-du-midi-swiss-alps/
+    title: "The Dents du Midi Tour: A stunning hike in the swiss Alps"
+    summary: Five easy-paced days Barmes–Susanfe–Salanfe–Mex–Anthème–Champéry, with notes on doing it in 2–4 days.
+  - url: https://swisshiking.ch/fr/file/8b46537adb6cb1757d38346f5750631c247f6dc348502f5d96220b910cdc9360/download
+    title: Tour des Dents du Midi (swisshiking.ch route sheet)
+    summary: Four-day itinerary Champéry–Susanfe–Salanfe–Les Jeurs/Chindonne–Champéry, 46 km and ~18 h of walking.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Lac_de_salanfe_et_la_tour_saliere.jpg
+    author: Superpoor
+    license: CC BY-SA 4.0
+    shows: Lac de Salanfe, the Tour Sallière and the Salanfe dam, an overnight stop on the tour
+sources:
+  distance_km: https://regiondentsdumidi.ch/en/the-dents-du-midi-trail-fp485
+  total_ascent_m: https://regiondentsdumidi.ch/en/the-dents-du-midi-trail-fp485
+  typical_days: https://regiondentsdumidi.ch/en/the-dents-du-midi-trail-fp485
+  best_months: https://regiondentsdumidi.ch/en/the-dents-du-midi-trail-fp485
+  open_season: https://regiondentsdumidi.ch/en/the-dents-du-midi-trail-fp485
+  sleeping: https://regiondentsdumidi.ch/en/the-dents-du-midi-trail-fp485
+  difficulty: https://www.valais.ch/fr/explorer/activites/randonnees/tours/tour-des-dents-du-midi
+  logistics: https://regiondentsdumidi.ch/en/the-dents-du-midi-trail-fp485
+  permit: https://regiondentsdumidi.ch/en/the-dents-du-midi-trail-fp485
+conflicts:
+  - field: distance_km
+    values:
+      - value: 56.5
+        source: https://regiondentsdumidi.ch/en/the-dents-du-midi-trail-fp485
+      - value: 47
+        source: https://en.portesdusoleil.com/offers/the-tour-des-dents-du-midi-champery-en-3864108/
+      - value: 45
+        source: https://issuu.com/agaune/docs/tdm_prospectus_2019
+      - value: 42
+        source: https://www.novo-monde.com/en/dents-du-midi-swiss-alps/
+  - field: total_ascent_m
+    values:
+      - value: 3182
+        source: https://regiondentsdumidi.ch/en/the-dents-du-midi-trail-fp485
+      - value: 6,700 m ascent+descent combined (~3,350 up)
+        source: https://swisshiking.ch/fr/file/8b46537adb6cb1757d38346f5750631c247f6dc348502f5d96220b910cdc9360/download
+last_verified: 2026-11-27

@@ -1,0 +1,96 @@
+id: camino-krk
+status: draft
+name: Camino Krk
+countries:
+  - HR
+region: Krk island, Kvarner
+one_liner: A clockwise Camino around Krk on shell-marked paths through olive groves and stone villages, best in spring or autumn.
+route:
+  type: point-to-point
+  start: Krk town (cathedral)
+  end: Kornić (St James parish church)
+  osm_relation_id: 13635257
+  gpx_source: https://caminocroatia.com/camino-krk/map-stages/
+distance_km: 151.9
+total_ascent_m: 3862
+typical_days:
+  min: 6
+  max: 7
+when:
+  best_months:
+    - April
+    - May
+    - June
+    - September
+    - October
+sleeping:
+  type: guesthouses
+  booking_ahead: required
+  notes: "No pilgrim hostels: apartments, guesthouses, hotels and campsites. Many walkers stay in one base and use taxis. Croatian credencial costs €2."
+difficulty:
+  level: 2
+  reason: Seven stages of about 19–24 km with 320–1,010 m of daily ascent on rocky karst; heat and little water.
+logistics:
+  getting_to_start: Bus from Rijeka to Krk town, about 1.5 h.
+  leaving_from_end: Walk or taxi back to Krk town (5–8 km).
+  nearest_airports:
+    - Rijeka Airport (on Krk
+    - near Omišalj)
+flags:
+  permit: none
+  permit_notes: Optional pilgrim credencial (€2) for the free Compostela certificate.
+  waymarked: yes
+  water_scarce: true
+links:
+  official_site: https://caminocroatia.com/camino-krk/map-stages/
+establishment_signals:
+  - Official website (Camino Croatia / Croatian Confraternity of St James)
+  - Waymarked along the whole route (blue signs with a yellow shell, about 350 signposts)
+  - Regularly covered in trip reports and travel articles
+trip_reports:
+  - url: https://findpenguins.com/markolicina/trip/camino-krk
+    title: Camino Krk
+    year_hiked: 2024
+    summary: Seven stages on 15–21 April; well marked except the last two days, which were the hardest.
+  - url: https://www.news.at/ausflugsziele/camino-krk-so-geht-pilgern-auf-kroatisch
+    title: "Camino Krk: So geht Pilgern auf Kroatisch"
+    summary: Magazine walk-through; quiet outside high summer, needs good fitness, ends 8 km from Krk town.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Vrbnik_Krk_02.JPG
+    author: Wolfgang Glock
+    license: CC BY 3.0
+    shows: Vrbnik harbour and old town (end of stage 5)
+  - file_url: https://commons.wikimedia.org/wiki/File:Ba%C5%A1ka.JPG
+    author: Laslovarga
+    license: CC BY-SA 3.0
+    shows: Baška (end of stage 6)
+  - file_url: https://commons.wikimedia.org/wiki/File:Batomalj,_Panorama_Blick_Insel_Krk_nach_Ba%C5%A1ka,_Kroatien.jpg
+    author: Naturpuur
+    license: CC BY 4.0
+    shows: Panorama from Batomalj towards Baška
+sources:
+  distance_km: https://caminocroatia.com/camino-krk/map-stages/
+  total_ascent_m: https://www.caminoninja.com/caminos/camino-krk
+  typical_days: https://jadran-holiday.com/en/information/latest-news/camino-krk-pilgrimage-route-on-the-island-of-krk
+  best_months: https://www.caminoninja.com/caminos/camino-krk
+  sleeping: https://caminocroatia.com/camino-krk/map-stages/day-7-baska-kornic/
+  difficulty: https://www.caminoninja.com/caminos/camino-krk
+  logistics: https://www.caminoninja.com/caminos/camino-krk
+  permit: https://www.caminoninja.com/caminos/camino-krk
+  waymarked: https://www.caminoninja.com/caminos/camino-krk
+conflicts:
+  - field: total_ascent_m
+    values:
+      - value: 3862
+        source: https://www.caminoninja.com/caminos/camino-krk
+      - value: 4443
+        source: https://www.caminoninja.com/caminos/camino-krk
+      - value: 3136
+        source: https://fastestknowntime.com/route/camino-krk
+  - field: logistics.leaving_from_end
+    values:
+      - value: 5.1 km back to Krk
+        source: https://www.caminoninja.com/caminos/camino-krk
+      - value: 8 km back to Krk
+        source: https://www.news.at/ausflugsziele/camino-krk-so-geht-pilgern-auf-kroatisch
+last_verified: 2026-11-27

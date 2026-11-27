@@ -1,0 +1,53 @@
+id: alta-via-6-dolomites
+status: draft
+name: Alta Via 6 delle Dolomiti ("Alta Via dei Silenzi")
+countries:
+  - IT
+region: Friulian & Belluno Dolomites / Prealps
+one_liner: "The 'Way of Silence': long, lonely Sappada to Vittorio Veneto traverse with few huts and bivouac nights."
+route:
+  type: point-to-point
+  start: Sappada
+  end: Vittorio Veneto
+  osm_relation_id: 3865163
+distance_km: 180
+total_ascent_m: 9000
+typical_days:
+  min: 11
+  max: 11
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Huts open June to September; recommended late June to late September
+sleeping:
+  type: huts
+  notes: Only 7 rifugi, 2 bivouacs and a shelter at Col Nudo on the main route.
+difficulty:
+  level: 4
+  reason: E–EE with some EEA (equipped, exposed) sections; long solitary stages up to 8 hours
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+establishment_signals:
+  - one of the numbered Dolomites high routes
+  - waymarked
+  - tourism-portal route page (dolomiti.it)
+  - outlined in Cicerone "Alta Via 2 - Trekking in the Dolomites (with Alte Vie 3-6 in outline)"
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+  total_ascent_m: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+  best_months: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+  open_season: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+  sleeping: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+conflicts: []
+last_verified: 2026-11-27

@@ -1,0 +1,74 @@
+id: viagottardo
+status: draft
+name: ViaGottardo – Swiss national route 7
+countries:
+  - CH
+region: Basel Jura, Mittelland, Lake Lucerne, Reuss valley, Gotthard, Ticino
+one_liner: "The historic Basel–Milan trade route on foot: Jura hills, Lake Lucerne, the Schöllenen gorge and Gotthard, then down through Ticino to Chiasso."
+route:
+  type: point-to-point
+  start: Basel
+  end: Chiasso
+  osm_relation_id: 2927508
+distance_km: 330
+total_ascent_m: 10400
+typical_days:
+  min: 20
+  max: 20
+when:
+  best_months:
+    - May
+    - June
+    - July
+    - August
+    - September
+  open_season: Route season March to October; the Gotthard stages are rated May/June to September.
+sleeping:
+  type: guesthouses
+  notes: Stages end in towns and villages (Liestal, Olten, Lucerne, Altdorf, Andermatt, Airolo, Bellinzona, Lugano…).
+difficulty:
+  level: 2
+  reason: Technically and physically medium overall; highest point ~2,109 m at the Gotthard; some long stages (e.g. Bellinzona–Tesserete 23 km, +1,250 m).
+logistics:
+  getting_to_start: Starts at Basel railway station.
+  leaving_from_end: Ends at Chiasso railway station on the Italian border.
+  nearest_airports:
+    - Basel-Mulhouse
+    - Zurich
+    - Milan Malpensa
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://schweizmobil.ch/en/hiking-in-switzerland/route-7
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+trip_reports:
+  - url: https://www.newlyswissed.com/viagottardo-trail/
+    title: ViaGottardo Hiking Trail (Newly Swissed)
+    summary: Interview with a Basel couple who walked the whole route in segments by train, from their doorstep to Chiasso; few other hikers outside the Gotthard.
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en/experiences/route/viagottardo/
+  total_ascent_m: https://www.myswitzerland.com/en/experiences/route/viagottardo/
+  typical_days: https://www.myswitzerland.com/en/experiences/route/viagottardo/
+  best_months: https://www.myswitzerland.com/en/experiences/route/viagottardo-7_11/
+  open_season: https://www.myswitzerland.com/en/experiences/route/viagottardo/
+  sleeping: https://search.ch/leisure/attraction/00dd11a57596cde70b0726db616d16ef/viagottardo
+  difficulty: https://search.ch/leisure/attraction/00dd11a57596cde70b0726db616d16ef/viagottardo
+  logistics: https://www.myswitzerland.com/en/experiences/route/viagottardo-7_01/
+  permit: https://schweizmobil.ch/en/hiking-in-switzerland/route-7
+conflicts:
+  - field: distance_km
+    values:
+      - value: 330
+        source: https://www.myswitzerland.com/en/experiences/route/viagottardo/
+      - value: 320
+        source: https://www.myswitzerland.com/en-ch/experiences/route/viagottardo-7_20/
+      - value: 379
+        source: https://www.komoot.com/pt-pt/collection/900473/seguindo-trilhos-historicos-via-gottardo
+last_verified: 2026-11-27

@@ -1,0 +1,66 @@
+id: via-alta-della-verzasca
+status: draft
+name: Via Alta della Verzasca
+countries:
+  - CH
+region: Ticino – ridge between Valle Verzasca, Leventina and Riviera
+one_liner: A wild, exposed white-blue alpine ridge route linking five huts above the Verzasca valley; T5–T6, only for experienced, sure-footed mountaineers.
+route:
+  type: point-to-point
+  start: Tenero / Gordola / Vogorno (Capanna Borgna)
+  end: Sonogno (via Capanna Barone)
+  osm_relation_id: 1775892
+distance_km: 57
+typical_days:
+  min: 4
+  max: 5
+when:
+  best_months: []
+sleeping:
+  type: huts
+  notes: Five huts along the ridge (Borgna, Cornavòsa, Efra, Cognora, Barone); overnight stays must be organised in advance.
+difficulty:
+  level: 4
+  reason: "Officially an alpine route (white-blue-white) rated T5–T6: exposed ridges and rock, 1,500–1,700 m approach climbs, very long first stage."
+logistics:
+  getting_to_start: Train to Tenero (via Bellinzona), then bus 321 to the Verzasca dam (Diga Verzasca) or Vogorno.
+  leaving_from_end: From Sonogno, bus 321 back to Tenero.
+  nearest_airports:
+    - Lugano
+    - Milan Malpensa
+    - Zurich
+flags:
+  permit: none
+  permit_notes: No permit, but tourism boards recommend it only for expert alpine walkers with suitable equipment.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.ascona-locarno.com/en/hike/details/Via-Alta-della-Verzasca/21811797
+establishment_signals:
+  - official_site
+  - waymarked
+  - trip_reports
+trip_reports:
+  - url: https://www.outdoor-magazin.com/wanderwege/mehrtagestour-auf-der-via-alta-della-verzasca-in-tessin/
+    title: Mehrtagestour auf der Via Alta della Verzasca im Tessin
+    summary: "Magazine trip report with stage data from the Verzasca dam: day 1 to Capanna Borgna +1,740 m, day 2 to Cornavòsa up to T6."
+  - url: https://www.bergwelten.com/a/via-alta-della-verzasca-gratwanderung-im-tessin
+    title: Via Alta della Verzasca – Gratwanderung im Tessin
+    summary: "Short first-hand tour tip (2025): lonely paths, exposed ridges, T5–T6."
+photos: []
+sources:
+  distance_km: https://www.illagomaggiore.com/en_US/54066,Itineraries.html
+  typical_days: https://www.illagomaggiore.com/itineraries/via-alta-della-verzasca/
+  sleeping: https://www.illagomaggiore.com/itineraries/via-alta-della-verzasca/
+  difficulty: https://www.ascona-locarno.com/en/hike/details/Via-Alta-della-Verzasca/21811797
+  logistics: https://www.outdoor-magazin.com/wanderwege/mehrtagestour-auf-der-via-alta-della-verzasca-in-tessin/
+  permit: https://www.ascona-locarno.com/en/commons/details/Via-Alta-della-Verzasca/140869
+conflicts:
+  - field: distance_km
+    values:
+      - value: 57
+        source: https://www.illagomaggiore.com/en_US/54066,Itineraries.html
+      - value: 69 (variant starting from Bellinzona, 6,160 m ascent)
+        source: https://www.komoot.com/collection/3756685/-via-alta-della-verzasca-bergtour-entlang-der-gipfel-die-das-verzascatal-von-der-leventina-und-der-riviera-trennen
+last_verified: 2026-11-27

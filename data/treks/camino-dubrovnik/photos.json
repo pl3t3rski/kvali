@@ -1,0 +1,49 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Staro Slano.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Staro_Slano.JPG",
+    "author": "Igor Trklja",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Slano, end of stage 3",
+    "width": 1600,
+    "height": 1054,
+    "sizes": {
+      "480": "/photos/camino-dubrovnik/8efe5b8458-480.webp",
+      "960": "/photos/camino-dubrovnik/8efe5b8458-960.webp",
+      "1600": "/photos/camino-dubrovnik/8efe5b8458-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Popovo polje.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Popovo_polje.JPG",
+    "author": "Teodora Mijanovic",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Popovo polje karst field near Zavala (stages 4–5)",
+    "width": 1600,
+    "height": 1060,
+    "sizes": {
+      "480": "/photos/camino-dubrovnik/96bcb77c22-480.webp",
+      "960": "/photos/camino-dubrovnik/96bcb77c22-960.webp",
+      "1600": "/photos/camino-dubrovnik/96bcb77c22-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Međugorje St.James Church.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Me%C4%91ugorje_St.James_Church.jpg",
+    "author": "Mariusz Musiał",
+    "license": "Public domain",
+    "shows": "St James Church in Međugorje, the finish",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/camino-dubrovnik/1e9d167950-480.webp",
+      "960": "/photos/camino-dubrovnik/1e9d167950-960.webp",
+      "1600": "/photos/camino-dubrovnik/1e9d167950-1600.webp"
+    }
+  }
+]

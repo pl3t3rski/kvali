@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Gamzigrad - Felix Romuliana (by Pudelek) 2.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Gamzigrad_-_Felix_Romuliana_(by_Pudelek)_2.JPG",
+    "author": "Pudelek (Marcin Szala)",
+    "license": "CC BY-SA 3.0 rs",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/rs/deed.en",
+    "shows": "Felix Romuliana (control point 4)",
+    "width": 1600,
+    "height": 1164,
+    "sizes": {
+      "480": "/photos/bastionska-transverzala/ec4abde0e4-480.webp",
+      "960": "/photos/bastionska-transverzala/ec4abde0e4-960.webp",
+      "1600": "/photos/bastionska-transverzala/ec4abde0e4-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Gamzigrad - Felix Romuliana (by Pudelek) 5 - East Gate.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Gamzigrad_-_Felix_Romuliana_(by_Pudelek)_5_-_East_Gate.JPG",
+    "author": "Pudelek (Marcin Szala)",
+    "license": "CC BY-SA 3.0 rs",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/rs/deed.en",
+    "shows": "East gate of Felix Romuliana",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/bastionska-transverzala/b5c3995857-480.webp",
+      "960": "/photos/bastionska-transverzala/b5c3995857-960.webp",
+      "1600": "/photos/bastionska-transverzala/b5c3995857-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Bridge over Crni Timok in Gamzigradska Banja.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Bridge_over_Crni_Timok_in_Gamzigradska_Banja.jpg",
+    "author": "Stadtigel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Bridge over the Crni Timok at Gamzigradska Banja",
+    "width": 1600,
+    "height": 900,
+    "sizes": {
+      "480": "/photos/bastionska-transverzala/8e83b4d201-480.webp",
+      "960": "/photos/bastionska-transverzala/8e83b4d201-960.webp",
+      "1600": "/photos/bastionska-transverzala/8e83b4d201-1600.webp"
+    }
+  }
+]

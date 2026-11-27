@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Sudetendeutsche Hütte 2015.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Sudetendeutsche_H%C3%BCtte_2015.jpg",
+    "author": "Whgler",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Sudetendeutsche Hütte, overnight stop on stage 2",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/glocknerrunde/5ef71d0a2e-480.webp",
+      "960": "/photos/glocknerrunde/5ef71d0a2e-960.webp",
+      "1600": "/photos/glocknerrunde/5ef71d0a2e-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Heiligenblut - Salmhütte (1).JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Heiligenblut_-_Salmh%C3%BCtte_(1).JPG",
+    "author": "C.Stadler/Bwag",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Salmhütte, end of stage 4",
+    "width": 1600,
+    "height": 1221,
+    "sizes": {
+      "480": "/photos/glocknerrunde/ebff8b85ed-480.webp",
+      "960": "/photos/glocknerrunde/ebff8b85ed-960.webp",
+      "1600": "/photos/glocknerrunde/ebff8b85ed-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Gleiwitzer Hütte 20080806a.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Gleiwitzer_H%C3%BCtte_20080806a.jpg",
+    "author": "Tigerente",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "shows": "Gleiwitzer Hütte on the last stage (Fusch – Kaprun)",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/glocknerrunde/4cfade90d0-480.webp",
+      "960": "/photos/glocknerrunde/4cfade90d0-960.webp",
+      "1600": "/photos/glocknerrunde/4cfade90d0-1600.webp"
+    }
+  }
+]

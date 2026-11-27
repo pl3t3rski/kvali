@@ -60,3 +60,8 @@ export const formatCountries = (codes: string[]) => codes.map((code) => countryN
 
 export const formatKm = (km: number) => `${Math.round(km)} km`;
 export const formatMetres = (metres: number) => `${metres.toLocaleString('en-GB')} m`;
+
+/** The plain facts of a trek on one line, as a card shows them: "3–4 days · 47 km". */
+export function statsLine(trek: { days?: [number, number]; distance_km: number }): string {
+  return [trek.days ? formatDays(trek.days[0], trek.days[1]) : undefined, formatKm(trek.distance_km)].filter(Boolean).join(' · ');
+}

@@ -18,19 +18,32 @@ import { orientLines, stitchWays } from './lib/stitch';
 /** Gaps longer than this are reported for review. */
 const GAP_WARNING_M = 200;
 
-async function fromOsm(relationId: number): Promise<{ lines: LonLat[][]; meta: Partial<RouteProperties> }> {
-  const data = await fetchRelation(relationId);
-  const main = collectMainWays(relationId, data);
-  if (main.ways.length === 0) throw new Error(`Relation ${relationId} has no main-route ways`);
-  const lines = stitchWays(main.ways).map((line) => toCoordinates(line, data));
+async function fromOsm(relationIds: number | number[]): Promise<{ lines: LonLat[][]; meta: Partial<RouteProperties> }> {
+  const ids = Array.isArray(relationIds) ? relationIds : [relationIds];
+  // Several stage relations are walked one after the other and joined like one route.
+  const nodes = new Map<number, LonLat>();
+  const ways: number[][] = [];
+  const dropped: Record<string, number> = {};
+  let relations = 0;
+  for (const id of ids) {
+    const data = await fetchRelation(id);
+    const main = collectMainWays(id, data);
+    if (main.ways.length === 0) throw new Error(`Relation ${id} has no main-route ways`);
+    for (const [nodeId, point] of data.nodes) nodes.set(nodeId, point);
+    ways.push(...main.ways);
+    relations += main.relations;
+    for (const [role, count] of Object.entries(main.dropped)) dropped[role] = (dropped[role] ?? 0) + count;
+  }
+  const all = { nodes, ways: new Map<number, number[]>(), relations: new Map() };
+  const lines = stitchWays(ways).map((line) => toCoordinates(line, all));
   return {
     lines,
     meta: {
       source: 'osm',
-      osm_relation_id: relationId,
-      relations: main.relations,
-      ways: main.ways.length,
-      ...(Object.keys(main.dropped).length > 0 ? { dropped: main.dropped } : {}),
+      osm_relation_id: relationIds,
+      relations,
+      ways: ways.length,
+      ...(Object.keys(dropped).length > 0 ? { dropped } : {}),
     },
   };
 }
@@ -45,7 +58,10 @@ function sourceChanged(folder: TrekFolder): boolean {
   if (!existing) return true;
   const { route } = folder.trek!;
   if (route.osm_relation_id !== undefined) {
-    return existing.properties.source !== 'osm' || existing.properties.osm_relation_id !== route.osm_relation_id;
+    return (
+      existing.properties.source !== 'osm' ||
+      JSON.stringify(existing.properties.osm_relation_id) !== JSON.stringify(route.osm_relation_id)
+    );
   }
   return existing.properties.source !== 'gpx' || existing.properties.gpx_source !== route.gpx_source;
 }
@@ -89,12 +105,19 @@ for (const folder of readAllTrekFolders(ids)) {
     warn(folder.yamlPath, 'Skipped: trek.yaml does not pass validation');
     continue;
   }
+  const { route } = folder.trek;
+  if (route.osm_relation_id === undefined && route.gpx_source === undefined) {
+    info(`${folder.id}: no route source yet`);
+    continue;
+  }
   if (!flags.has('force') && !sourceChanged(folder)) continue;
   info(`${folder.id}: fetching route`);
   try {
     await fetchRoute(folder);
   } catch (cause) {
-    error(folder.yamlPath, `Could not fetch the route: ${(cause as Error).message}`);
+    // A draft may still be waiting for a usable route source; a published trek may not.
+    const report = folder.trek.status === 'published' ? error : warn;
+    report(folder.yamlPath, `Could not fetch the route: ${(cause as Error).message}`);
   }
 }
 finish('fetch-route');

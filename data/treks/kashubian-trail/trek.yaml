@@ -1,0 +1,60 @@
+id: kashubian-trail
+status: draft
+name: Kashubian Trail (Szlak Kaszubski)
+countries:
+  - PL
+region: Kashubian Lake District (Kashubian and Wdzydze landscape parks)
+one_liner: Four or five easy days of lakes, moraine hills and Kashubian villages from Sierakowice to the Wdzydze lakes.
+route:
+  type: point-to-point
+  start: Sierakowice
+  end: Gołuń
+  osm_relation_id: 4728457
+distance_km: 138
+typical_days:
+  min: 4
+  max: 5
+when:
+  best_months: []
+difficulty:
+  level: 1
+  reason: Lowland lake-district walking; one awkward stretch along the shore of Jezioro Wieprznickie.
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  waymarked: yes
+links:
+  official_site: https://pomorskie.travel/?p=91044
+establishment_signals:
+  - waymarked along the whole route (red)
+  - official tourism-board page (pomorskie.travel)
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Wdzydzki_PK_szlak_kaszubski_most_na_Wdzie_05.07.10_p.jpg
+    author: Przykuta
+    license: CC BY-SA 3.0
+    shows: Bridge over the Wda on the trail, Wdzydze Landscape Park
+  - file_url: https://commons.wikimedia.org/wiki/File:Kosy,_Szlak_Kaszubski_(Trail_Kashubian)_-_panoramio.jpg
+    author: Sławek Zawadzki
+    license: CC BY-SA 3.0
+    shows: The trail at Kosy
+  - file_url: https://commons.wikimedia.org/wiki/File:Zielona_Góra,_Szlak_Kaszubski_(Trail_Kashubian)_-_panoramio.jpg
+    author: Sławek Zawadzki
+    license: CC BY-SA 3.0
+    shows: The trail at Zielona Góra (Kashubia)
+sources:
+  distance_km: https://www.national-geographic.pl/traveler/artykul/wakacje-na-szlaku-15-najpiekniejszych-tras-pieszych-w-polsce
+  typical_days: https://www.national-geographic.pl/traveler/artykul/wakacje-na-szlaku-15-najpiekniejszych-tras-pieszych-w-polsce
+  difficulty: https://www.national-geographic.pl/traveler/artykul/wakacje-na-szlaku-15-najpiekniejszych-tras-pieszych-w-polsce
+  route_start_end: https://www.national-geographic.pl/traveler/kierunki/wakacje-na-szlaku-15-najpiekniejszych-tras-pieszych-w-polsce?page=1
+  waymarked: https://pomorskie.travel/?p=91044
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/list/search?query=Szlak%20Kaszubski&limit=10
+conflicts:
+  - field: distance_km
+    values:
+      - value: 138
+        source: https://www.national-geographic.pl/traveler/artykul/wakacje-na-szlaku-15-najpiekniejszych-tras-pieszych-w-polsce
+      - value: 131
+        source: https://pomorskie.travel/?p=91044
+last_verified: 2026-11-27

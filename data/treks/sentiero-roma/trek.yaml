@@ -1,0 +1,69 @@
+id: sentiero-roma
+status: draft
+name: Sentiero Roma
+countries:
+  - IT
+region: Val Masino / Val Codera, Rhaetian Alps (Lombardy)
+one_liner: Rugged granite high route at ~2,500 m along the head of Val Masino, chain-protected passes nearly every day.
+route:
+  type: point-to-point
+  start: Novate Mezzola
+  end: Chiesa in Valmalenco
+  osm_relation_id: 19412813
+distance_km: 54
+typical_days:
+  min: 5
+  max: 6
+when:
+  best_months:
+    - July
+    - August
+    - September
+  open_season: Late June to September, when rifugi are open and passes normally accessible; not advisable before July (snow on chained passes)
+sleeping:
+  type: huts
+  booking_ahead: recommended
+  notes: Rifugi Brasca, Omio, Gianetti, Allievi-Bonacossa, Ponti, Bosio plus bivouacs.
+difficulty:
+  level: 4
+  reason: EE route at 2,500–2,950 m with chained passes over granite slabs, long remote stages
+logistics:
+  getting_to_start: Train from Milano Centrale towards Tirano, change at Colico for Chiavenna line to Novate Mezzola
+  leaving_from_end: Bus from Chiesa in Valmalenco to Sondrio (about every 2 h), then train to Milan
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+establishment_signals:
+  - classic CAI high route (1920s)
+  - waymarked
+  - CAI hut booking portal page
+  - overlaps Sentiero Italia
+  - covered in trip reports
+trip_reports:
+  - url: https://www.gulliver.it/itinerari/sentiero-roma-da-novate-mezzola-a-chiesa-in-valmalenco-6-gg/2025/08/19/327370/
+    title: Sentiero Roma da Novate Mezzola a Chiesa in Valmalenco (6 gg)
+    year_hiked: 2025
+    summary: August 2025; author did it in 4 days from Bagni di Masino, chain-protected descent into Val di Zocca (Italian)
+  - url: https://summitpost.org/sentiero-roma/358830
+    title: Sentiero Roma (trip report)
+    summary: Group walk east to west with cars at both ends; highest point Passo Cameraccio 2,950 m
+photos: []
+sources:
+  distance_km: https://www.prenotarifugi.cai.it/en/?p=3763
+  typical_days: https://www.prenotarifugi.cai.it/en/?p=3763
+  best_months: https://summitpost.org/sentiero-roma/160894
+  open_season: https://moveo.telepass.com/sentiero-roma/
+  sleeping: https://www.ilturista.info/?p=21502
+  difficulty: https://summitpost.org/sentiero-roma/160894
+  logistics: https://contra.com/p/U7LPlAoO-a-thrilling-trekking-adventure-at-high-altitude-sentiero-roma
+conflicts:
+  - field: distance_km
+    values:
+      - value: 54
+        source: https://www.prenotarifugi.cai.it/en/?p=3763
+      - value: 40
+        source: https://www.ilturista.info/?p=21502
+      - value: 57.44
+        source: https://www.bormio.eu/en/itinerari/cammino/sentiero-roma-integrale-in-valtellina
+last_verified: 2026-11-27

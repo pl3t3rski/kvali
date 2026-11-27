@@ -1,5 +1,6 @@
 /** Shapes of the generated files and of the built site data. */
 import type { Feature, LineString, MultiLineString } from 'geojson';
+import type { PhotoSource } from '../lib/photo-source';
 import type { Permit, RouteType, SleepingType, Waymarked } from '../schema/values';
 
 /** [west, south, east, north] in degrees. */
@@ -18,7 +19,8 @@ export interface RouteGap {
 export interface RouteProperties {
   id: string;
   source: 'osm' | 'gpx';
-  osm_relation_id?: number;
+  /** One relation, or the stage relations the line was joined from. */
+  osm_relation_id?: number | number[];
   gpx_source?: string;
   /** Date the geometry was fetched, YYYY-MM-DD. */
   fetched: string;
@@ -50,11 +52,12 @@ export interface TrekStats {
 
 /** One entry of `data/treks/<id>/photos.json` */
 export interface PhotoMeta {
-  /** Commons file title, e.g. "File:Name.jpg". */
+  source: PhotoSource;
+  /** Commons file title ("File:Name.jpg") or "Unsplash <id>". Identifies the photo. */
   title: string;
-  /** Commons file page, linked under the photo. */
+  /** The photo's own page, linked under the photo. */
   page_url: string;
-  /** Author and licence as reported by Commons. */
+  /** Author and licence: as reported by Commons, or as written in trek.yaml for Unsplash. */
   author: string;
   license: string;
   license_url?: string;
@@ -67,32 +70,46 @@ export interface PhotoMeta {
   sizes: Record<string, string>;
 }
 
-/** One trek in `public/index.json`: everything the list card and the filters need. */
+/** The photo on a list card, with what is needed to credit it. */
+export interface CardPhoto {
+  src: string;
+  width: number;
+  height: number;
+  alt: string;
+  author: string;
+  source: PhotoSource;
+  page_url: string;
+}
+
+/**
+ * One trek in `public/index.json`: everything the list card and the filters need.
+ * Facts the research did not find are left out; only a draft can lack them.
+ */
 export interface TrekIndexEntry {
   id: string;
   name: string;
   countries: string[];
   region: string;
   one_liner: string;
-  route_type: RouteType;
+  route_type?: RouteType;
   start: string;
-  end: string;
+  end?: string;
   distance_km: number;
   ascent_m: number;
-  days: [number, number];
+  days?: [number, number];
+  /** Empty when not known. */
   best_months: number[];
-  sleeping: SleepingType;
-  difficulty: number;
-  permit: Permit;
-  waymarked: Waymarked;
-  water_scarce: boolean;
-  exposed_or_via_ferrata: boolean;
+  sleeping?: SleepingType;
+  difficulty?: number;
+  permit?: Permit;
+  waymarked?: Waymarked;
+  water_scarce?: boolean;
+  exposed_or_via_ferrata?: boolean;
   /** Sort key within a list: higher is better established. */
   establishment: number;
   bbox: BBox;
   midpoint: LonLat;
-  /** Smallest size of the first photo, for the card. */
-  thumb?: string;
+  photo?: CardPhoto;
   last_verified: string;
   status: 'draft' | 'published';
 }
@@ -104,5 +121,6 @@ export interface TrekIndex {
 /** Properties of each feature in `public/routes-lite.geojson`. */
 export interface RouteLiteProperties {
   id: string;
-  sleeping: SleepingType;
+  /** "unknown" when the research did not find where you sleep. */
+  sleeping: SleepingType | 'unknown';
 }

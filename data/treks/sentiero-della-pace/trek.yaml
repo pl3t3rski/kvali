@@ -1,0 +1,61 @@
+id: sentiero-della-pace
+status: draft
+name: Sentiero della Pace (Path of Peace)
+countries:
+  - IT
+region: Trentino (Adamello, Pasubio, Lagorai, Marmolada)
+one_liner: A month-long walk along Trentino's WWI front line from Passo del Tonale to the Marmolada, waymarked with a dove.
+route:
+  type: point-to-point
+  start: Passo del Tonale
+  end: Marmolada (Passo Fedaia)
+  osm_relation_id: 3477430
+distance_km: 495
+typical_days:
+  min: 30
+  max: 35
+when:
+  open_season: Late spring to the first weeks of autumn
+sleeping:
+  type: mixed
+  notes: Rifugi in high sections; on many stages you can sleep in valley villages.
+difficulty:
+  level: 4
+  reason: Starts with high-altitude glacier crossings (Adamello–Mandrón, crampons may be needed); first sections technically difficult
+logistics:
+  getting_to_start: Passo del Tonale is served by bus
+  leaving_from_end: Passo Fedaia is served by bus
+flags:
+  permit: none
+  permit_notes: No permit; VisitTrentino advises walking the hardest first sections with experts
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.visittrentino.info/it/articoli/trekking-ed-escursioni/sentiero-della-pace-trentino
+establishment_signals:
+  - provincial route built by the Autonomous Province of Trento (1986–1996)
+  - national-network relation in OSM
+  - waymarked (dove symbol)
+  - tourism-board GPX and guide
+  - remapped by Va' Sentiero
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.visittrentino.info/it/articoli/trekking-ed-escursioni/sentiero-della-pace-trentino
+  typical_days: https://www.visittrentino.info/it/articoli/trekking-ed-escursioni/sentiero-della-pace-primo-secondo-tratto
+  open_season: https://www.komoot.com/it-it/collection/2903333
+  sleeping: https://www.montagna.tv/?p=238458
+  difficulty: https://www.trentinograndeguerra.it/UploadDocs/890_Sentiero_della_Pace_2016.pdf
+  logistics: https://www.komoot.com/it-it/collection/2903333
+  permit: https://www.visittrentino.info/it/articoli/trekking-ed-escursioni/sentiero-della-pace-primo-secondo-tratto
+conflicts:
+  - field: distance_km
+    values:
+      - value: 495
+        source: https://www.visittrentino.info/it/articoli/trekking-ed-escursioni/sentiero-della-pace-trentino
+      - value: 520
+        source: https://www.trentinograndeguerra.it/UploadDocs/890_Sentiero_della_Pace_2016.pdf
+      - value: 536
+        source: https://www.komoot.com/it-it/collection/2903333
+last_verified: 2026-11-27

@@ -1,0 +1,23 @@
+---
+/** A row of flags: one fact each, as an icon and a word. Never the icon alone. */
+import type { TrekFlag } from '../lib/flags';
+import Icon from './Icon.astro';
+
+interface Props {
+  flags: TrekFlag[];
+}
+const { flags } = Astro.props;
+---
+
+{
+  flags.length > 0 && (
+    <div class="kv-flags">
+      {flags.map((flag) => (
+        <span class:list={['kv-flag', { 'kv-flag-warning': flag.tone === 'warning' }]}>
+          {flag.icon && <Icon name={flag.icon} />}
+          <span>{flag.label}</span>
+        </span>
+      ))}
+    </div>
+  )
+}

@@ -1,0 +1,45 @@
+id: alta-badia-high-route
+status: draft
+name: Alta Badia High Route (Alta Via dell'Alta Badia)
+countries:
+  - IT
+region: Alta Badia, Puez-Odle and Fanes-Senes-Braies parks (South Tyrol)
+one_liner: Five-to-seven-day hut loop from Corvara through two UNESCO Dolomites nature parks and around the Sella.
+route:
+  type: loop
+  start: Corvara
+  end: Corvara
+distance_km: 76
+total_ascent_m: 5550
+typical_days:
+  min: 5
+  max: 7
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Recommended mid-June to end of September
+difficulty:
+  level: 2
+  reason: Rated easy (harder for climbing variants); includes the steep Forcella del Lago passage
+flags:
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+establishment_signals:
+  - tourism-portal route page
+  - crosses UNESCO Dolomites nature parks
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+  total_ascent_m: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+  best_months: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+  open_season: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+conflicts: []
+last_verified: 2026-11-27

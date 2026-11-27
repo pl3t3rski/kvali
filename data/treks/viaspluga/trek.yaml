@@ -1,0 +1,65 @@
+id: viaspluga
+status: draft
+name: ViaSpluga – regional route 50
+countries:
+  - CH
+  - IT
+region: Graubünden (Domleschg, Schams, Rheinwald) and Valchiavenna (Lombardy)
+one_liner: Four days on the ancient Splügen trade route from Thusis through the Viamala gorge and over the pass to Italian Chiavenna.
+route:
+  type: point-to-point
+  start: Thusis
+  end: Chiavenna (IT)
+  osm_relation_id: 1504263
+distance_km: 68
+total_ascent_m: 2900
+typical_days:
+  min: 4
+  max: 4
+when:
+  best_months: []
+  open_season: Package offers run mid-June to late September.
+sleeping:
+  type: guesthouses
+  notes: "Village stage ends: Andeer, Splügen, Isola; hotel-to-hotel packages with luggage transfer exist."
+difficulty:
+  level: 2
+  reason: Technically medium, physically difficult; Splügen Pass 2,114 m on historic mule tracks, otherwise valley and gorge paths.
+logistics:
+  getting_to_start: Thusis (Rhaetian Railway; see SBB timetable).
+  leaving_from_end: Chiavenna, Italy.
+  nearest_airports:
+    - Zurich
+    - Milan Malpensa
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.graubuenden.ch/index%2ephp/en/tours/viaspluga
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en/experiences/route/viaspluga/
+  total_ascent_m: https://www.myswitzerland.com/en/experiences/route/viaspluga/
+  typical_days: https://www.myswitzerland.com/en/experiences/route/viaspluga/
+  open_season: https://www.myswitzerland.com/en/experiences/route/viaspluga/
+  sleeping: https://www.myswitzerland.com/en/experiences/route/viaspluga/
+  difficulty: https://www.graubuenden.ch/index%2ephp/en/tours/viaspluga
+  logistics: https://www.graubuenden.ch/index%2ephp/en/tours/viaspluga
+  permit: https://www.myswitzerland.com/en/experiences/route/viaspluga/
+conflicts:
+  - field: distance_km
+    values:
+      - value: 68
+        source: https://www.myswitzerland.com/en/experiences/route/viaspluga/
+      - value: 65
+        source: https://www.myswitzerland.com/en-th/experiences/route/viaspluga/
+      - value: 70.4
+        source: https://www.komoot.com/de-de/collection/1120889/auf-der-viaspluga-von-thusis-nach-chiavenna
+last_verified: 2026-11-27

@@ -1,0 +1,70 @@
+id: translagorai
+status: draft
+name: Translagorai (TransLagorai)
+countries:
+  - IT
+region: Lagorai range (Trentino, between Valsugana and Val di Fiemme)
+one_liner: Wild, hutless traverse of the porphyry Lagorai ridge from Panarotta to Passo Rolle, almost always above 2,000 m, bivouacs and tent.
+route:
+  type: point-to-point
+  start: Panarotta (above Levico/Vetriolo Terme)
+  end: Passo Rolle
+  osm_relation_id: 11009657
+distance_km: 80
+total_ascent_m: 5000
+typical_days:
+  min: 4
+  max: 5
+sleeping:
+  type: camping
+  booking_ahead: not-needed
+  notes: Very few rifugi or malghe; unmanned bivouacs and tent; carry food for self-sufficiency.
+difficulty:
+  level: 3
+  reason: "Not technically difficult but committing: solitary, few escape points, >5,000 m ascent in ~40 h walking"
+logistics:
+  leaving_from_end: Bus from Passo Rolle (twice a day) back to Val di Fiemme
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.visitvalsugana.it/en/discover-valsugana/sport/hiking/translagorai_4499_ida/
+establishment_signals:
+  - regional route (OSM rwn)
+  - tourism-board pages (Valsugana
+  - Val di Fiemme)
+  - popular FKT route
+  - covered in outdoor media
+trip_reports:
+  - url: https://www.behance.net/gallery/90340299/Translagorai
+    title: Translagorai (photo reportage)
+    summary: Photo report of the 80+ km traverse from Panarotta to Rolle, mostly above 2,000 m
+photos: []
+sources:
+  distance_km: https://www.behance.net/gallery/90340299/Translagorai
+  total_ascent_m: https://www.visitvalsugana.it/en/discover-valsugana/sport/hiking/translagorai_4499_ida/
+  typical_days: https://komoot.de/de-de/collection/2475546/-translagorai-5-days-80-km-italy
+  sleeping: https://www.magicoveneto.it/lagorai/trek/TransLagorai.htm
+  difficulty: https://www.magicoveneto.it/lagorai/trek/TransLagorai.htm
+  logistics: https://visitfiemme.it/en/activity/translagorai_9855
+conflicts:
+  - field: distance_km
+    values:
+      - value: 80
+        source: https://www.behance.net/gallery/90340299/Translagorai
+      - value: 76.13
+        source: https://fastestknowntime.com/route/translagorai-italy
+  - field: total_ascent_m
+    values:
+      - value: over 5000
+        source: https://www.visitvalsugana.it/en/discover-valsugana/sport/hiking/translagorai_4499_ida/
+      - value: 4700
+        source: https://fastestknowntime.com/route/translagorai-italy
+  - field: water_scarce
+    values:
+      - value: water very abundant
+        source: https://www.magicoveneto.it/lagorai/trek/TransLagorai.htm
+      - value: water points scarce
+        source: https://fastestknowntime.com/route/translagorai-italy
+last_verified: 2026-11-27

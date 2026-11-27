@@ -5,42 +5,30 @@
  * Without JavaScript the page is a plain list of links to the trek pages.
  */
 import MainView from '../components/MainView.svelte';
-import { SITE_TAGLINE } from '../config';
 import { getSiteTreks } from '../data/site';
 import Base from '../layouts/Base.astro';
-import { formatCountries, formatDays, formatKm } from '../lib/format';
+import { formatCountries } from '../lib/format';
+import { url } from '../lib/paths';
 
 const treks = await getSiteTreks();
 ---
 
 <Base fullscreen>
-  <h1 class="visually-hidden">{SITE_TAGLINE}</h1>
   <MainView client:only="svelte" />
   <noscript>
-    <p>{treks.length} {treks.length === 1 ? 'trek' : 'treks'}. The map needs JavaScript; every trek is listed here.</p>
-    <ul>
-      {
-        treks.map(({ trek, stats }) => (
-          <li>
-            <a href={`/treks/${trek.id}/`}>{trek.name}</a>
-            {trek.status === 'draft' && <em> (draft)</em>}
-            <br />
-            {trek.region}, {formatCountries(trek.countries)} · {formatDays(trek.typical_days.min, trek.typical_days.max)} ·{' '}
-            {formatKm(stats.distance_km)}
-          </li>
-        ))
-      }
-    </ul>
+    <div class="page">
+      <h1 class="t-heading kv-hand">Where to walk next</h1>
+      <p class="t-body">The map needs JavaScript. Every trek is listed here.</p>
+      <ul class="stack">
+        {
+          treks.map(({ trek }) => (
+            <li>
+              <a href={url(`/treks/${trek.id}/`)}>{trek.name}</a>
+              <span class="t-caption"> {trek.region} · {formatCountries(trek.countries)}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
   </noscript>
 </Base>
-
-<style>
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip-path: inset(50%);
-    white-space: nowrap;
-  }
-</style>

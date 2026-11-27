@@ -3,34 +3,74 @@ import Base from '../layouts/Base.astro';
 ---
 
 <Base title="About" description="How Kvali chooses treks, where its data comes from, and credits.">
-  <h1>About Kvali</h1>
+  <div class="page">
+    <header class="stack">
+      <h1 class="t-title kv-hand">About Kvali</h1>
+      <p class="lead measure">
+        Kvali is Georgian for <span class="kv-mark kv-mark-highlight" data-pen="mark">trace</span>. It is a place to find your next long walk: treks of three days or more, in Europe and the Caucasus, that you can do on your own.
+      </p>
+    </header>
 
-  <h2>Which treks are listed</h2>
-  <ol>
-    <li>At least 3 days of walking.</li>
-    <li>A named, defined route.</li>
-    <li>Doable on your own: no mandatory guide and no permit lottery. Free registrations are allowed and shown on the trek.</li>
-  </ol>
+    <section class="stack">
+      <h2 class="t-heading kv-hand">Which treks are listed</h2>
+      <ol class="rules t-body measure">
+        <li>At least three days of walking.</li>
+        <li>A named route that is defined on the ground or on the map.</li>
+        <li>Doable on your own: no guide you must hire and no permit lottery. A free registration is fine, and the trek says so.</li>
+      </ol>
+    </section>
 
-  <h2>How the data is made</h2>
-  <p>
-    Each trek is researched from public sources and checked by hand before it is published. Facts that matter most to a
-    walker (best months, where you sleep, permits, getting there) each link to their source on the trek page. Distance and
-    ascent are computed from the route line, not copied from other sites.
-  </p>
+    <section class="stack">
+      <h2 class="t-heading kv-hand">How the facts are made</h2>
+      <p class="t-body measure">
+        Each trek is researched from public sources and checked by hand before it is published. The facts that matter most to you (the best months, where you sleep, permits, getting there) each link to their source on the trek page.
+      </p>
+      <p class="t-body measure">Distance and ascent are measured from the route line. They are not copied from other sites.</p>
+    </section>
 
-  <h2>Credits</h2>
-  <ul>
-    <li>
-      Route lines: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, under the Open
-      Database License. The route files published on this site are offered under the same licence.
-    </li>
-    <li>Base map: <a href="https://openfreemap.org/">OpenFreeMap</a>, © <a href="https://openmaptiles.org/">OpenMapTiles</a>, data from OpenStreetMap.</li>
-    <li>
-      Terrain and elevation: <a href="https://registry.opendata.aws/terrain-tiles/">Terrain Tiles on AWS</a>, built from
-      open elevation data. See their <a href="https://github.com/tilezen/joerd/blob/master/docs/attribution.md">list of sources</a>.
-    </li>
-    <li>Photos: Wikimedia Commons. Author and licence are shown under each photo.</li>
-    <li>Trip reports belong to their authors. Kvali links to them and writes its own one-line summary.</li>
-  </ul>
+    <aside class="kv-frame credits" data-pen="frame" data-pen-weight="fine" aria-labelledby="credits-title">
+      <h2 class="t-subheading kv-hand" id="credits-title">Credits</h2>
+      <ul class="t-body">
+        <li>
+          Route lines: © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap contributors</a>, under the Open Database License. The route files on this site are offered under the same licence.
+        </li>
+        <li>
+          Base map: <a href="https://openfreemap.org/" rel="noopener">OpenFreeMap</a>, © <a href="https://openmaptiles.org/" rel="noopener">OpenMapTiles</a>, data from OpenStreetMap.
+        </li>
+        <li>
+          Contour lines and elevation: <a href="https://registry.opendata.aws/terrain-tiles/" rel="noopener">Terrain Tiles on AWS</a>, built from open elevation data. See their <a href="https://github.com/tilezen/joerd/blob/master/docs/attribution.md" rel="noopener">list of sources</a>.
+        </li>
+        <li>Photos: Wikimedia Commons and Unsplash. The photographer is named under each photo.</li>
+        <li>Trip reports belong to their authors. Kvali links to them and writes its own one-line summary.</li>
+      </ul>
+    </aside>
+  </div>
 </Base>
+
+<style>
+  .lead {
+    margin: 0;
+    font-size: 19px;
+    line-height: 28px;
+  }
+  .rules {
+    margin: 0;
+    padding-left: 1.4em;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+  .credits {
+    max-width: 68ch;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+  .credits ul {
+    margin: 0;
+    padding-left: 1.2em;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+</style>

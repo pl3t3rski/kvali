@@ -1,0 +1,117 @@
+id: via-dinarica-white-trail
+status: draft
+name: Via Dinarica White Trail
+countries:
+  - SI
+  - HR
+  - BA
+  - ME
+  - AL
+region: Dinaric Alps (Albanian section in the Prokletije / Albanian Alps around Theth and Valbona)
+one_liner: A trans-Balkan thru-hike along the Dinaric spine that ends in Albania's Accursed Mountains; the Albanian part is short, high and partly unmarked.
+route:
+  type: point-to-point
+  start: Postojna (Slovenia)
+  end: Valbona (Albania)
+  osm_relation_id: 7388026
+  gpx_source: https://trail.viadinarica.com/route/17291189/
+distance_km: 1261.2
+total_ascent_m: 49579
+typical_days:
+  min: 45
+  max: 60
+when:
+  best_months:
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+sleeping:
+  type: mixed
+  notes: Mountain huts (many free in Croatia), village guesthouses and wild camping. In Albania the trail passes the guesthouse villages of Theth and Valbona. Camping is banned in some national parks.
+difficulty:
+  level: 4
+  reason: Remote stretches, unreliable GPX and signage outside Croatia, high point 2,694 m (Maja Jezercë in Albania); landmine and UXO areas in HR/BA.
+logistics:
+  getting_to_start: Bus from Ljubljana to Razdrto (alternative start).
+  nearest_airports:
+    - Ljubljana (LJU)
+    - Zagreb (ZAG)
+flags:
+  permit: free-registration
+  permit_notes: No unified permit. The Montenegro–Albania crossing is on the 'green border' away from official checkpoints; use legal checkpoints or arrange border-crossing permission in advance. Some national parks charge entry fees. Cost and process not verified.
+  waymarked: partial
+  water_scarce: true
+links:
+  official_site: https://www.viadinarica.com/en/about/trails
+establishment_signals:
+  - "Official status: international long-distance trail (OSM network iwn)"
+  - Official website and trail portal (trail.viadinarica.com)
+  - Regularly covered in trip reports and travel articles (National Geographic, Outside, Lonely Planet, Treeline Review)
+  - "Partly waymarked: the Croatian section is well marked; parts of the Albanian section are not"
+trip_reports:
+  - url: https://thetrek.co/via-dinarica-the-best-thru-hike-youve-never-heard-of/
+    title: "Via Dinarica: The BEST Thru-Hike You've Never Heard Of"
+    year_hiked: 2021
+    summary: Couple's 60-day southbound thru-hike from Razdrto to Valbona; crossed into Albania on the green border and cowboy-camped below Maja Jezercë.
+  - url: https://viadinarica.com/en/blog-2/153-stage-45-theth-to-valbona
+    title: "Stage 45: Theth to Valbona"
+    year_hiked: 2016
+    summary: Claire Leenen's final stage over the Valbona Pass to the trail's end near a Valbona campsite; slept at a guesthouse during storms.
+  - url: https://viadinarica.com/en/blog-2/151-albania-alternate-vermosh-lepushe-maja-e-jezerce-theth
+    title: "Albania alternate: Vermosh – Lepushë – Maja e Jezercë – Theth"
+    year_hiked: 2016
+    summary: Three-day Albanian alternative via Lepushë; marked trails gave way to unmarked, cairn-strewn ground near Maja Jezercë.
+  - url: https://chasingthedonkey.com/hiking-the-via-dinarica-reverse-solo-balkans
+    title: Hiking The Via Dinarica White Trail In Reverse & Solo
+    summary: Solo, east to west from Albania to Slovenia, finishing in October.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Jezerca_Peak.jpg
+    author: DriniTeta
+    license: CC BY-SA 4.0
+    shows: Summit of Maja Jezercë (2,694 m), the trail's high point
+  - file_url: https://commons.wikimedia.org/wiki/File:Jezerca_Massive.jpg
+    author: Albinfo
+    license: CC BY-SA 3.0 (multi-licensed)
+    shows: The Jezerca massif in the Albanian Alps
+  - file_url: https://commons.wikimedia.org/wiki/File:Zhapik_ne_Theth.jpg
+    author: Irma Tollmi
+    license: CC BY-SA 4.0
+    shows: Theth, the last village before the final stage to Valbona
+sources:
+  distance_km: https://trail.viadinarica.com/route/17291189/
+  total_ascent_m: https://trail.viadinarica.com/route/17291189/
+  typical_days: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+  best_months: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+  sleeping: https://thetrek.co/via-dinarica-the-best-thru-hike-youve-never-heard-of/
+  difficulty: https://trail.viadinarica.com/route/17291189/
+  logistics: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+  permit: https://thetrek.co/via-dinarica-the-best-thru-hike-youve-never-heard-of/
+  waymarked: https://viadinarica.com/en/blog-2/151-albania-alternate-vermosh-lepushe-maja-e-jezerce-theth
+  water_scarce: https://thetrek.co/via-dinarica-the-best-thru-hike-youve-never-heard-of/
+  albania_route: https://www.tiranatimes.com/?p=135422
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/7388026
+conflicts:
+  - field: route.start
+    values:
+      - value: Postojna
+        source: https://trail.viadinarica.com/route/17291189/
+      - value: Razdrto
+        source: https://en.wikipedia.org/wiki/Via_Dinarica
+  - field: distance_km
+    values:
+      - value: 1261.2
+        source: https://trail.viadinarica.com/route/17291189/
+      - value: 1260.8
+        source: https://en.wikipedia.org/wiki/Via_Dinarica
+      - value: 1200
+        source: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+  - field: typical_days
+    values:
+      - value: about 5 weeks (to the Montenegro–Albania border)
+        source: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+      - value: 60 days (Razdrto–Valbona, 2021)
+        source: https://thetrek.co/via-dinarica-the-best-thru-hike-youve-never-heard-of/
+last_verified: 2026-11-27

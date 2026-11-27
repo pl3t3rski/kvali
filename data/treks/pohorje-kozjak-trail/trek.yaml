@@ -1,0 +1,43 @@
+id: pohorje-kozjak-trail
+status: draft
+name: Pohorje-Kozjak Trail
+countries:
+  - SI
+region: Pohorje and Kozjak (Štajerska)
+one_liner: Quiet forest loop from Maribor over Pohorje and back along the rougher Kozjak ridge above the Drava, huts and farm stays.
+route:
+  type: loop
+  start: Maribor (Spodnje Radvanje)
+  end: Maribor
+distance_km: 187.5
+when:
+  best_months: []
+sleeping:
+  type: mixed
+  notes: Many huts on Pohorje, fewer on Kozjak; farm stays and other local providers.
+difficulty:
+  level: 2
+  reason: A more demanding multi-day mountain route but not technically difficult; high point Črni vrh 1,543 m.
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.slovenia.info/en/stories/pohorje-kozjak-trail-a-long-distance-hiking-trail
+establishment_signals:
+  - official website (Slovenian Tourist Board / Pohorje tourism)
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.slovenia.info/en/stories/pohorje-kozjak-trail-a-long-distance-hiking-trail
+  sleeping: https://www.slovenia.info/en/stories/pohorje-kozjak-trail-a-long-distance-hiking-trail
+  difficulty: https://www.slovenia.info/en/stories/pohorje-kozjak-trail-a-long-distance-hiking-trail
+conflicts:
+  - field: distance_km
+    values:
+      - value: 187.5
+        source: https://www.slovenia.info/en/stories/pohorje-kozjak-trail-a-long-distance-hiking-trail
+      - value: 180 (intro text on the same page)
+        source: https://www.slovenia.info/en/stories/pohorje-kozjak-trail-a-long-distance-hiking-trail
+last_verified: 2026-11-27

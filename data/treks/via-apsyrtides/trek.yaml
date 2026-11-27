@@ -1,0 +1,84 @@
+id: via-apsyrtides
+status: draft
+name: Via Apsyrtides
+countries:
+  - HR
+region: Cres–Lošinj archipelago, Kvarner
+one_liner: "Island-hopping on foot from the northern tip of Cres to Ilovik: shepherds' paths, Venetian towns and sea views on every stage, best outside summer."
+route:
+  type: point-to-point
+  start: Cape Jablanac (Cres)
+  end: Cape Radovan (Ilovik)
+  osm_relation_id: 14368967
+  gpx_source: https://viaapsyrtides.hr/
+distance_km: 149
+total_ascent_m: 4000
+typical_days:
+  min: 11
+  max: 11
+when:
+  open_season: Promoted as a year-round trail aimed at the pre- and post-season
+sleeping:
+  type: guesthouses
+  notes: Private rooms, small hotels and campsite mobile homes between stages.
+difficulty:
+  level: 2
+  reason: 11 stages of 9–19 km with up to about 900 m of ascent a day; some stony sections are slow.
+flags:
+  permit: none
+  permit_notes: Optional stamp diary from the Cres and Lošinj tourist offices; all 11 stamps earn a gift package.
+  waymarked: yes
+links:
+  official_site: https://viaapsyrtides.hr/
+establishment_signals:
+  - Official website (Mali Lošinj and Cres tourist boards)
+  - Waymarked along the whole route ('VA' mark, HPS marking standards)
+  - Covered in travel articles (Die Presse, Bonner General-Anzeiger, Total Croatia News)
+trip_reports:
+  - url: https://visitlosinj.hr/EasyEdit/UserFiles/press-strani/2024via-apsyrtides.pdf
+    title: In elf Tagen über zwei Inseln (Die Presse)
+    summary: Brigitte Bonder's 2024 newspaper feature on walking the route across Cres and Lošinj in eleven days.
+  - url: https://visitlosinj.hr/EasyEdit/UserFiles/press-strani/20240803bonner-generalanzeiger-via-apsyrtides.pdf
+    title: Via Apsyrtides (Bonner General-Anzeiger)
+    summary: 2024 feature on the quiet trail, with tips on staying in private rooms and campsite mobile homes.
+  - url: https://en.hrturizam.hr/prva-osoba-koja-je-sluzbeno-prosla-trasu-via-apsyrtides-je-bolto-gabersek
+    title: The first person to officially complete the Via Apsyrtides route was Bolto Gaberšek
+    year_hiked: 2011
+    summary: Profile of the hiker who first walked the line unmarked in 2011 and received the first completed stamp diary in 2025.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Beli-Cres.jpg
+    author: Alexander Leisser
+    license: CC BY-SA 4.0
+    shows: Beli on Cres (end of stage 1)
+  - file_url: https://commons.wikimedia.org/wiki/File:Beli,_Cres,_Croatia.JPG
+    author: Croq
+    license: CC BY-SA 3.0
+    shows: Beli village on its hilltop
+  - file_url: https://commons.wikimedia.org/wiki/File:Valun,_Cres,_Croatia_-_panoramio.jpg
+    author: nschuwi
+    license: CC BY 3.0
+    shows: Valun (end of stage 4)
+sources:
+  distance_km: https://viaapsyrtides.hr/
+  total_ascent_m: https://viaapsyrtides.hr/
+  typical_days: https://visitlosinj.hr/EasyEdit/UserFiles/press-strani/2024via-apsyrtides.pdf
+  open_season: https://en.hrturizam.hr/prva-osoba-koja-je-sluzbeno-prosla-trasu-via-apsyrtides-je-bolto-gabersek
+  sleeping: https://visitlosinj.hr/EasyEdit/UserFiles/press-strani/20240803bonner-generalanzeiger-via-apsyrtides.pdf
+  difficulty: https://viaapsyrtides.hr/
+  difficulty_stony_sections: https://www.komoot.com/highlight/3448975
+  permit: https://viaapsyrtides.hr/
+  waymarked: https://total-croatia-news.com/?p=115955
+conflicts:
+  - field: distance_km
+    values:
+      - value: 149
+        source: https://viaapsyrtides.hr/
+      - value: 144.5 (sum of the official stage lengths)
+        source: https://viaapsyrtides.hr/
+  - field: total_ascent_m
+    values:
+      - value: 4000
+        source: https://viaapsyrtides.hr/
+      - value: 4585 (sum of the official stage figures)
+        source: https://viaapsyrtides.hr/
+last_verified: 2026-11-27

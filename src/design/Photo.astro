@@ -1,0 +1,38 @@
+---
+/**
+ * A photo as the design system shows it: muted, slightly cool and grainy, laid down a
+ * little turned like a print on a table, with what it shows and who took it underneath.
+ */
+import type { PhotoMeta } from '../data/types';
+import { url } from '../lib/paths';
+import { PHOTO_SOURCE_NAMES } from '../lib/photo-source';
+
+interface Props {
+  photo: PhotoMeta;
+  /** Which way the print is turned. */
+  tilt?: 'left' | 'right';
+  /** The first photo on a page loads at once; the rest wait until they are near the screen. */
+  eager?: boolean;
+  /** How wide the photo is shown, for the browser to pick a file size. */
+  sizes?: string;
+}
+const { photo, tilt = 'left', eager = false, sizes = '(min-width: 900px) 520px, 100vw' } = Astro.props;
+const files = Object.entries(photo.sizes);
+const srcset = files.map(([width, path]) => `${url(path)} ${width}w`).join(', ');
+const largest = url(files[files.length - 1][1]);
+---
+
+<figure class="kv-photo">
+  <span class:list={['kv-grain', 'kv-photo-print', { 'kv-tilt-right': tilt === 'right' }]}>
+    <img src={largest} srcset={srcset} sizes={sizes} width={photo.width} height={photo.height} alt={photo.shows} loading={eager ? 'eager' : 'lazy'} />
+  </span>
+  <figcaption class="t-caption">
+    {photo.shows}. Photo: <a href={photo.page_url} rel="noopener">{photo.author}</a>{
+      photo.source === 'commons' ? (
+        <Fragment>, {photo.license_url ? <a href={photo.license_url} rel="noopener">{photo.license}</a> : photo.license}, via {PHOTO_SOURCE_NAMES.commons}</Fragment>
+      ) : (
+        <Fragment>, {PHOTO_SOURCE_NAMES[photo.source]}</Fragment>
+      )
+    }
+  </figcaption>
+</figure>

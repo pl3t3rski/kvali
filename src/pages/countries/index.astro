@@ -1,0 +1,50 @@
+---
+/** Every country that has a trek, with how many. The way in for going country by country. */
+import { getSiteTreks } from '../../data/site';
+import Base from '../../layouts/Base.astro';
+import { url } from '../../lib/paths';
+import { countryName } from '../../schema/values';
+
+const treks = await getSiteTreks();
+const counts = new Map<string, number>();
+for (const { trek } of treks) {
+  for (const code of trek.countries) counts.set(code, (counts.get(code) ?? 0) + 1);
+}
+const countries = [...counts]
+  .map(([code, count]) => ({ code, count, name: countryName(code) ?? code }))
+  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+---
+
+<Base title="Countries" description="Multi-day treks by country, in Europe and the Caucasus.">
+  <div class="page">
+    <header class="stack">
+      <h1 class="t-title kv-hand">Countries</h1>
+      <p class="t-body measure">A trek that crosses a border is listed under every country it passes through.</p>
+    </header>
+    <ul class="cards">
+      {
+        countries.map((country) => (
+          <li>
+            <a class="kv-card" data-pen="card" href={url(`/countries/${country.code.toLowerCase()}/`)}>
+              <span class="kv-card-body">
+                <span class="kv-card-name">{country.name}</span>
+                <span class="kv-stats">{country.count} {country.count === 1 ? 'trek' : 'treks'}</span>
+              </span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Base>
+
+<style>
+  .cards {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: var(--space-4);
+  }
+</style>

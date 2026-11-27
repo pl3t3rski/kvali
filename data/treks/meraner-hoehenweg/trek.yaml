@@ -1,0 +1,59 @@
+id: meraner-hoehenweg
+status: draft
+name: Meraner Höhenweg (Alta Via di Merano, trail no. 24)
+countries:
+  - IT
+region: Texelgruppe Nature Park, South Tyrol
+one_liner: 100 km balcony loop around the Texel group above Merano, mixing high huts and farmstead inns; easier south side, alpine north side.
+route:
+  type: loop
+  start: Any access point (e.g. Hochmuth/Dorf Tirol, Katharinaberg, Pfossental)
+  end: Same as start
+  osm_relation_id: 1161619
+distance_km: 100
+total_ascent_m: 5100
+typical_days:
+  min: 5
+  max: 8
+when:
+  best_months:
+    - July
+    - August
+    - September
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: Mountain huts and farm inns; book all hut nights in high season.
+difficulty:
+  level: 3
+  reason: For experienced mountain hikers; north section (Schnalstal–Passeier) is high alpine up to 2,895 m, south section longer but easier
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.merano-suedtirol.it/en/tirolo/mountain-holidays/hiking-mountain-tours/merano-high-mountain-trail.html
+establishment_signals:
+  - numbered regional trail (no. 24)
+  - waymarked
+  - tourism-board route pages (Merano
+  - South Tyrol)
+  - nature park route
+  - covered by trek operators and travel articles
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.merano-suedtirol.it/en/tirolo/mountain-holidays/hiking-mountain-tours/merano-high-mountain-trail.html
+  total_ascent_m: https://www.merano-suedtirol.it/nl/merano-en-omgeving/meraner-hoehenweg/121154250-rundwanderung-am-meraner-hoehenweg.html?amp=true
+  typical_days: https://www.merano-suedtirol.it/en/tirolo/mountain-holidays/hiking-mountain-tours/merano-high-mountain-trail.html
+  best_months: https://www.merano-suedtirol.it/nl/merano-en-omgeving/meraner-hoehenweg/121154250-rundwanderung-am-meraner-hoehenweg.html?amp=true
+  sleeping: https://www.suedtirol.info/fr/decouvertes/circuit-sur-le-sentier-d-altitude-de-merano/meran_activity_11591
+  difficulty: https://www.suedtirol.info/pl/pl/atrakcje-i-wydarzenia/przyroda/specjalne-wedrowki/wysokogorski-szlak-meraner-hoehenweg
+conflicts:
+  - field: total_ascent_m
+    values:
+      - value: 5100
+        source: https://www.merano-suedtirol.it/nl/merano-en-omgeving/meraner-hoehenweg/121154250-rundwanderung-am-meraner-hoehenweg.html?amp=true
+      - value: 5000
+        source: https://www.merano-suedtirol.it/en/tirolo/mountain-holidays/hiking-mountain-tours/merano-high-mountain-trail.html
+last_verified: 2026-11-27

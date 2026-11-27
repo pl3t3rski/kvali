@@ -36,6 +36,16 @@ const tileKey = (x: number, y: number) => `${Math.floor(x / TILE_SIZE)}/${Math.f
 export class Dem {
   private tiles = new Map<string, Float32Array>();
 
+  /** Number of tiles held in memory. */
+  get size(): number {
+    return this.tiles.size;
+  }
+
+  /** Forget the tiles in memory. They stay in the disk cache. */
+  clear(): void {
+    this.tiles.clear();
+  }
+
   /** Download (or read from cache) every tile needed for these points. */
   async load(points: LonLat[]): Promise<void> {
     const needed = new Set<string>();

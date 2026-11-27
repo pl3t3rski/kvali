@@ -1,0 +1,100 @@
+id: camino-dubrovnik
+status: draft
+name: Camino Dubrovnik (Camino Dubrovnik – Međugorje)
+countries:
+  - HR
+  - BA
+region: Dubrovnik coast and Herzegovina (Popovo polje, Hutovo blato, Neretva)
+one_liner: A brand-new seven-day Camino from Dubrovnik's St James church over coastal karst and Popovo polje to Međugorje; easy grades, hot and shadeless in summer.
+route:
+  type: point-to-point
+  start: Dubrovnik (Church of St James)
+  end: Međugorje (Church of St James)
+  osm_relation_id: 18103779
+  gpx_source: https://www.caminocroatia.com/camino-dubrovnik.kml
+distance_km: 145
+total_ascent_m: 3090
+typical_days:
+  min: 7
+  max: 7
+sleeping:
+  type: guesthouses
+  booking_ahead: required
+  notes: Apartments, guesthouses and small hotels in most stage towns; beds are limited and must be booked. Many pilgrims stay at one base and use local taxis to and from the stage ends.
+difficulty:
+  level: 1
+  reason: Daily ascent 180–610 m on paths and quiet roads, but stage 6 is 30 km and there is little shade on Popovo polje.
+logistics:
+  getting_to_start: Starts at the Church of St James, east of Dubrovnik's old town.
+  nearest_airports:
+    - Dubrovnik (DBV)
+    - Mostar (OMO)
+flags:
+  permit: none
+  permit_notes: "No permit. Stage 4 (Slano–Ravno) crosses the Croatia–BiH border: carry a valid ID or passport and check the current border regime; mobile signal may drop for about 8 km after the border. A pilgrim credential is optional."
+  waymarked: yes
+  water_scarce: true
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://caminocroatia.com/camino-dubrovnik/
+establishment_signals:
+  - "Official status: part of the Camino Croatia / Way of St James network, opened 7 March 2026 with the Dubrovnik tourist board; mapped in OSM as an international (iwn) pilgrimage route"
+  - Waymarked along the whole route with Camino signs
+  - Official website (Camino Croatia) and tourist-board page with app
+  - Covered in travel articles (BBC Travel, Great Walks, The Dubrovnik Times)
+trip_reports:
+  - url: https://rtv-hb.com/vijesti-bosna-i-hercegovina/od-dubrovnika-do-medugorja-150-kilometara-izazova-molitve-i-ustrajnosti
+    title: "Od Dubrovnika do Međugorja: 150 kilometara izazova, molitve i ustrajnosti"
+    year_hiked: 2026
+    summary: Interview with Tugomir and Marijo, among the first to walk the whole route, finishing at the end of May 2026.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Staro_Slano.JPG
+    author: Igor Trklja
+    license: CC BY-SA 3.0
+    shows: Slano, end of stage 3
+  - file_url: https://commons.wikimedia.org/wiki/File:Popovo_polje.JPG
+    author: Teodora Mijanovic
+    license: CC BY-SA 3.0
+    shows: Popovo polje karst field near Zavala (stages 4–5)
+  - file_url: https://commons.wikimedia.org/wiki/File:Me%C4%91ugorje_St.James_Church.jpg
+    author: Mariusz Musiał
+    license: Public domain
+    shows: St James Church in Međugorje, the finish
+sources:
+  distance_km: https://caminocroatia.com/camino-dubrovnik/map-stages/
+  total_ascent_m: https://caminocroatia.com/camino-dubrovnik/map-stages/
+  typical_days: https://tzdubrovnik.hr/lang/en/get/vijesti/87927/mediji.html
+  sleeping: https://caminocroatia.com/camino-dubrovnik/accommodation/
+  booking_ahead: https://caminocroatia.com/camino-dubrovnik/useful-info/
+  difficulty: https://caminocroatia.com/camino-dubrovnik/map-stages/
+  logistics: https://caminocroatia.com/camino-dubrovnik/map-stages/
+  nearest_airports: https://www.bradtguides.com/destinations/europe/via-dinarica/
+  permit: https://caminocroatia.com/camino-dubrovnik/map-stages/
+  waymarked: https://caminocroatia.com/camino-dubrovnik/map-stages/
+  water_scarce: https://caminocroatia.com/camino-dubrovnik/map-stages/
+  opening_date: https://www.travelandtourworld.com/news/article/7njsrp6cxvp2/
+  osm_relation: https://hiking.waymarkedtrails.org/api/v1/details/relation/18103779
+conflicts:
+  - field: distance_km
+    values:
+      - value: 145
+        source: https://caminocroatia.com/camino-dubrovnik/map-stages/
+      - value: 142.7 (mapped length in OSM)
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/18103779
+      - value: 147
+        source: https://www.post.ba/philately/post-stamps/details/medugorje-2025
+      - value: 140
+        source: https://neum-touristguide.com/camino-dubrovnik-a-step-closer-to-nature-and-history/
+  - field: total_ascent_m
+    values:
+      - value: 3090 (sum of official stage figures)
+        source: https://caminocroatia.com/camino-dubrovnik/map-stages/
+      - value: 2800
+        source: https://www.mightytravels.com/2026/07/walk-dubrovniks-new-camino-trail-to-escape-the-crowds/
+  - field: typical_days
+    values:
+      - value: 7 stages
+        source: https://caminocroatia.com/camino-dubrovnik/map-stages/
+      - value: 6 stages (earlier route plan)
+        source: https://neum-touristguide.com/camino-dubrovnik-a-step-closer-to-nature-and-history/
+last_verified: 2026-11-27

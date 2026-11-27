@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Rifugio e lago Pisciadu.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Rifugio_e_lago_Pisciadu.JPG",
+    "author": "Llorenzi",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Rifugio Pisciadù and its lake in the Sella group",
+    "width": 1600,
+    "height": 1139,
+    "sizes": {
+      "480": "/photos/alta-via-2-dolomites/d661845383-480.webp",
+      "960": "/photos/alta-via-2-dolomites/d661845383-960.webp",
+      "1600": "/photos/alta-via-2-dolomites/d661845383-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Pala di San Martino N.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Pala_di_San_Martino_N.JPG",
+    "author": "Svíčková",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Pala di San Martino from the north-west",
+    "width": 1600,
+    "height": 1070,
+    "sizes": {
+      "480": "/photos/alta-via-2-dolomites/109963610b-480.webp",
+      "960": "/photos/alta-via-2-dolomites/109963610b-960.webp",
+      "1600": "/photos/alta-via-2-dolomites/109963610b-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Le Pale di San Martino.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Le_Pale_di_San_Martino.jpg",
+    "author": "Stefano Carati",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Pale di San Martino, Paneveggio nature park",
+    "width": 1600,
+    "height": 1063,
+    "sizes": {
+      "480": "/photos/alta-via-2-dolomites/1ae88ac89d-480.webp",
+      "960": "/photos/alta-via-2-dolomites/1ae88ac89d-960.webp",
+      "1600": "/photos/alta-via-2-dolomites/1ae88ac89d-1600.webp"
+    }
+  }
+]

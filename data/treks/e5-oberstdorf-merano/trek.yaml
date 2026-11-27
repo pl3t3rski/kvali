@@ -1,0 +1,59 @@
+id: e5-oberstdorf-merano
+status: draft
+name: E5 Alpine Crossing Oberstdorf–Merano (Alpenüberquerung E5)
+countries:
+  - DE
+  - AT
+  - IT
+region: Allgäu, Lechtal and Ötztal Alps to South Tyrol
+one_liner: Europe's classic six-day Alpine crossing from Bavaria via Tyrol to Merano; busy huts and some bus/cable-car links.
+route:
+  type: point-to-point
+  start: Oberstdorf (DE)
+  end: Merano (IT)
+distance_km: 104
+typical_days:
+  min: 6
+  max: 6
+when:
+  best_months:
+    - July
+    - August
+    - September
+  open_season: End of June to end of September
+sleeping:
+  type: mixed
+  notes: Alpine huts (e.g. Memminger Hütte, Braunschweiger Hütte) and valley hotels.
+difficulty:
+  level: 3
+  reason: High passes up to the Pitztaler Jöchl (2,996 m), days with ~1,000–1,400 m ascent; no climbing experience needed
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+establishment_signals:
+  - European long-distance path E5 (waymarked whole length)
+  - also Via Alpina yellow route
+  - heavily covered in trip reports and outdoor media
+trip_reports:
+  - url: https://www.bergzeit.de/magazin/alpenueberquerung-oberstdorf-meran-fernwanderweg-e5/
+    title: Alpenüberquerung auf dem Fernwanderweg E5
+    summary: Two hiking guides walked Oberstdorf to Vernagt in six days, with the option to continue to Merano (German)
+photos: []
+sources:
+  distance_km: https://www.asi-reisen.de/fw/alpenüberquerung-oberstdorf-meran
+  typical_days: https://www.asi-reisen.de/fw/alpenüberquerung-oberstdorf-meran
+  best_months: https://www.komoot.com/fr-fr/collection/182/auf-zwei-fuessen-auf-dem-e5-ueber-die-alpen
+  open_season: https://www.asi-reisen.de/fw/alpenuberquerung-oberstdorf-meran
+  sleeping: https://www.asi-reisen.de/en/r/2DEFDH01
+  difficulty: https://www.eurohike.at/en/hiking-paths/e5
+conflicts:
+  - field: distance_km
+    values:
+      - value: 104
+        source: https://www.asi-reisen.de/fw/alpenüberquerung-oberstdorf-meran
+      - value: 80
+        source: https://www.eurohike.at/en/hiking-paths/e5
+      - value: 94.6
+        source: https://www.komoot.com/fr-fr/collection/182/auf-zwei-fuessen-auf-dem-e5-ueber-die-alpen
+last_verified: 2026-11-27

@@ -1,0 +1,60 @@
+id: e7-slovenia-naprudnik-trail
+status: draft
+name: European long-distance path E7 – Slovenia (Naprudnikova pot)
+countries:
+  - SI
+region: Soča Valley, Cerkno Hills, Dolenjska, Kozjansko, Pomurje
+one_liner: West-to-east crossing of Slovenia on the Atlantic-Black Sea E-path, from the Soča at Robič to the Hungarian border at Hodoš.
+route:
+  type: point-to-point
+  start: Robič (Italian border)
+  end: Hodoš (Hungarian border)
+  osm_relation_id: 11232818
+distance_km: 600
+typical_days:
+  min: 30
+  max: 30
+when:
+  best_months: []
+difficulty:
+  level: 2
+  reason: Rated easy and medium; highest point Mt Porezen.
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: Optional stamps (42 checkpoints) for a memorial badge.
+  waymarked: yes
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://era-ewv-ferp.org/?p=14188
+establishment_signals:
+  - official status (European long-distance path E7)
+  - waymarked along the whole route
+  - official website (ERA / KEUPS)
+  - published guidebook (Cortese - Evropska pešpot E7)
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Porezen.jpg
+    author: Mhladnik
+    license: CC BY-SA 4.0
+    shows: Mt Porezen, the highest point of the Slovenian E7
+  - file_url: https://commons.wikimedia.org/wiki/File:Porezen_-_panoramio.jpg
+    author: dominkod
+    license: CC BY 3.0
+    shows: Mt Porezen
+sources:
+  distance_km: https://rtvslo.si/news-in-english/from-italy-to-croatia-another-european-walking-trail-will-cross-slovenia/409521
+  typical_days: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+  difficulty: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+  permit: https://rtvslo.si/news-in-english/from-italy-to-croatia-another-european-walking-trail-will-cross-slovenia/409521
+  waymarked: https://www.kozjanski-park.si/eng/wp-content/uploads/2025/03/ERP-RK.pdf
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/11232818
+conflicts:
+  - field: distance_km
+    values:
+      - value: 600
+        source: https://rtvslo.si/news-in-english/from-italy-to-croatia-another-european-walking-trail-will-cross-slovenia/409521
+      - value: 634 (OSM mapped length)
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/11232818
+last_verified: 2026-11-27

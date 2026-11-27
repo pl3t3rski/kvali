@@ -1,0 +1,45 @@
+id: koroska-mountain-trail
+status: draft
+name: Koroška Mountain Trail (Koroška planinska pot)
+countries:
+  - SI
+region: Koroška (Karavanke, Pohorje, Kozjak, Savinja Alps edges)
+one_liner: Circular stamp trail around the Mežica, Drava and Mislinja valleys with 31 checkpoints.
+route:
+  type: loop
+  start: Ravne na Koroškem
+  end: Ravne na Koroškem
+  osm_relation_id: 121642
+  gpx_source: https://slovenia-outdoor.com/en/map-detail-2/?id=37634061
+distance_km: 230
+typical_days:
+  min: 10
+  max: 12
+when:
+  best_months: []
+difficulty:
+  level: 3
+  reason: Rated difficult, with easier sections.
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: 31 stamp checkpoints.
+establishment_signals:
+  - official status (regional trail of the Alpine Association of Slovenia)
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+  typical_days: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+  difficulty: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-backpacking/long-distance-trails
+  permit: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/121642
+conflicts:
+  - field: distance_km
+    values:
+      - value: 230
+        source: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+      - value: 234
+        source: https://wiki.openstreetmap.org/wiki/Sl:Slovenian_Hiking_Routes
+last_verified: 2026-11-27

@@ -1,0 +1,83 @@
+id: jura-crest-trail
+status: draft
+name: Jura Crest Trail (Jura-Höhenweg / Chemin des Crêtes du Jura) – Swiss national route 5
+countries:
+  - CH
+region: Swiss Jura – Lägern to La Dôle, cantons Zurich, Aargau, Solothurn, Bern, Neuchâtel, Vaud
+one_liner: "Switzerland's oldest long-distance trail (signed since 1905): sixteen days of limestone ridges, wooded pastures and Alpine views from Zurich's edge to Lake Geneva."
+route:
+  type: point-to-point
+  start: Dielsdorf
+  end: Nyon
+  osm_relation_id: 120118
+distance_km: 320
+total_ascent_m: 13800
+typical_days:
+  min: 16
+  max: 18
+when:
+  best_months:
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+  open_season: Official season March to October.
+sleeping:
+  type: guesthouses
+  notes: Stage ends at villages, passes and summit inns (e.g. Weissenstein, Chasseral, Vue des Alpes, Col du Marchairuz).
+difficulty:
+  level: 2
+  reason: "Technically easy, physically difficult: 13–25 km stages averaging ~860 m ascent, max altitude ~1,680 m."
+logistics:
+  getting_to_start: First signpost is at Dielsdorf railway station .
+  leaving_from_end: Nyon is on the Lausanne–Geneva rail line.
+  nearest_airports:
+    - Zurich
+    - Geneva
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://schweizmobil.ch/en/hiking-in-switzerland/route-5
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+trip_reports:
+  - url: http://activityworkshop.net/hiking/jura/
+    title: Jura ridgeway (activityworkshop.net)
+    summary: Personal stage-by-stage account of walking the Jura ridgeway, linked from Wikipedia.
+  - url: https://www.komoot.com/collection/1051181/rocks-distant-views-and-fondue-16-stages-on-the-jura-crest-trail
+    title: Rocks, distant views and fondue – 16 stages on the Jura Crest Trail
+    summary: Komoot editor collection of all 16 stages (317 km, 10,780 m) with notes per stage.
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en/experiences/route/jura-crest-trail/
+  total_ascent_m: https://www.myswitzerland.com/en/experiences/route/jura-crest-trail/
+  typical_days: https://en.wikipedia.org/wiki/Jura_ridgeway
+  best_months: https://www.myswitzerland.com/en/experiences/route/jura-crest-trail/
+  open_season: https://www.myswitzerland.com/en/experiences/route/jura-crest-trail/
+  sleeping: https://search.ch/leisure/attraction/60ce32bf7e8ec8461168ae8c6ec330fa/jura-hoehenweg
+  difficulty: https://www.j3l.ch/en/Z10914
+  logistics: https://www.myswitzerland.com/en/experiences/route/jura-crest-trail-5_01/
+  permit: https://schweizmobil.ch/en/hiking-in-switzerland/route-5
+conflicts:
+  - field: distance_km
+    values:
+      - value: 320
+        source: https://www.myswitzerland.com/en/experiences/route/jura-crest-trail/
+      - value: 310
+        source: https://en.wikipedia.org/wiki/Jura_ridgeway
+  - field: total_ascent_m
+    values:
+      - value: 13800
+        source: https://www.myswitzerland.com/en/experiences/route/jura-crest-trail/
+      - value: 13900
+        source: https://search.ch/leisure/attraction/60ce32bf7e8ec8461168ae8c6ec330fa/jura-crest-trail
+last_verified: 2026-11-27

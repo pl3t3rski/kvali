@@ -1,0 +1,83 @@
+id: st-andrew-trail-borjomi
+status: draft
+name: St. Andrew Trail (Borjomi-Kharagauli National Park, trail 2)
+countries:
+  - GE
+region: Borjomi-Kharagauli National Park, Lesser Caucasus
+one_liner: The park's longest and hardest marked route, over Sametskhvario (2,642 m) from pine forest to Colchic rainforest.
+route:
+  type: point-to-point
+  start: Atskuri guard station
+  end: Marelisi guard station
+  osm_relation_id: 3740333
+  gpx_source: https://no.wikiloc.com/hiking-trails/st-andrew-trail-atskuri-marelisi-12593459
+distance_km: 54
+typical_days:
+  min: 4
+  max: 5
+when:
+  best_months:
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+  open_season: Summer and autumn (park)
+sleeping:
+  type: huts
+  booking_ahead: recommended
+  notes: Amarati and Sakhvlari tourist shelters, Sametskhvario guard shelter (two beds), optional Kvazvinevi ranger shelter; tents allowed at these sites. Book shelters through the visitor centre.
+difficulty:
+  level: 3
+  reason: Park rates it hard; long forest climbs to 2,642 m Sametskhvario; days up to 19 km
+logistics:
+  getting_to_start: Atskuri guard station is 27 km from the Borjomi visitor centre; register in Borjomi first.
+  leaving_from_end: Marelisi is hard to leave by marshrutka; the train may be an option.
+  nearest_airports:
+    - Tbilisi
+    - Kutaisi
+flags:
+  permit: free-registration
+  permit_notes: Mandatory registration at the visitor centre before starting; fee structure not verified.
+  waymarked: true
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://www.georgianholidays.com/blog/hike-st-andrews-trail-georgia/
+    title: "Hiking the Hidden Gem: St. Andrew's Trail Adventure in Borjomi-Kharagauli"
+    summary: First-hand account of the ~55 km route, highlight a night at Sametskhvario shelter (~2,500 m). Written by a tour company.
+  - url: https://teletype.in/@dvality/standrew
+    title: Тропа святого Андрея (St. Andrew's Trail)
+    summary: Russian-language account of four days on the trail in autumn (posted November 2022).
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Borjomi_Kharaguli_National_Park_-_Georgia_(5).jpg
+    author: Tiniko Dzadzamia
+    license: CC BY-SA 2.0
+    shows: Borjomi-Kharagauli National Park landscape (exact spot not stated on Commons)
+sources:
+  distance_km: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
+  typical_days: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
+  best_months: https://georgiantravelguide.com/en/routes/st-andrew-trail
+  open_season: https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/25
+  sleeping: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
+  difficulty: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
+  logistics: https://caucasus-trekking.com/treks/crossing-of-meskheti-range
+  permit: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
+  waymarked: https://nationalparks.ge/en/site/borjomi-kharagaulinp/adventuresInner/9
+  travel_articles: https://georgia.travel/trekking-in-georgia
+conflicts:
+  - field: distance_km
+    values:
+      - value: 54
+        source: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
+      - value: 51.2
+        source: https://alltrails.com/parks/georgia/samtskhe-javakheti/borjomi-kharagauli-national-park
+last_verified: 2026-11-27

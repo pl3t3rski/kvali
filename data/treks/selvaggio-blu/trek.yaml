@@ -1,0 +1,64 @@
+id: selvaggio-blu
+status: draft
+name: Selvaggio Blu
+countries:
+  - IT
+region: Golfo di Orosei, Supramonte di Baunei (Sardinia)
+one_liner: "Italy's toughest coastal trek: 40 km of limestone cliffs above the Gulf of Orosei with abseils, scrambling, no water and hard route-finding."
+route:
+  type: point-to-point
+  start: Pedra Longa (Santa Maria Navarrese)
+  end: Cala Sisine
+  osm_relation_id: 9791036
+distance_km: 40
+total_ascent_m: 4410
+typical_days:
+  min: 4
+  max: 7
+when:
+  best_months:
+    - March
+    - April
+    - May
+    - September
+    - October
+    - November
+sleeping:
+  type: camping
+  booking_ahead: not-needed
+  notes: Bivouac/wild camping along the coast; no huts. Water must be cached in advance or brought by boat.
+difficulty:
+  level: 4
+  reason: Abseils, graded climbing moves and short via ferratas, very difficult route-finding, no water, exposed cliff terrain
+flags:
+  permit: none
+  permit_notes: No permit, but a local guide is strongly recommended by most sources (not mandatory)
+  waymarked: partial
+  water_scarce: true
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.turismobaunei.eu/services/selvaggio-blu
+establishment_signals:
+  - municipal tourism website (Baunei)
+  - regularly covered in outdoor media and trip reports
+trip_reports:
+  - url: https://www.ukclimbing.com/forums/destinations/selvaggio_blu_sardinia_-_anyone_done_it-711037
+    title: Selvaggio Blu Sardinia - anyone done it?
+    summary: Attempted unsupported over 4 days in April with cached water; bailed after day 2
+photos: []
+sources:
+  distance_km: https://en.wikipedia.org/wiki/Selvaggio_Blu_(Sardinia)
+  total_ascent_m: https://en.wikipedia.org/wiki/Selvaggio_Blu_(Sardinia)
+  typical_days: https://en.wikipedia.org/wiki/Selvaggio_Blu_(Sardinia)
+  best_months: https://explore-share.com/trip/guided-selvaggio-blu-hike
+  sleeping: https://www.ukclimbing.com/forums/destinations/selvaggio_blu_sardinia_-_anyone_done_it-711037
+  difficulty: https://www.muchbetteradventures.com/magazine/selvaggio-blu-trek-sardinia-guide/
+  permit: https://explore-share.com/trip/guided-selvaggio-blu-hike
+conflicts:
+  - field: distance_km
+    values:
+      - value: 40
+        source: https://en.wikipedia.org/wiki/Selvaggio_Blu_(Sardinia)
+      - value: 42.7
+        source: https://fastestknowntime.com/route/selvaggio-blu-sardinia-italy
+last_verified: 2026-11-27

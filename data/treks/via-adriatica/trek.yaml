@@ -1,0 +1,49 @@
+id: via-adriatica
+status: draft
+name: Via Adriatica
+countries:
+  - HR
+region: Croatian coastal mountains (Istria to Prevlaka)
+one_liner: "A thru-hike linking every Croatian coastal mountain range from Istria to Prevlaka: wild, shelter-based and partly through demined areas."
+route:
+  type: point-to-point
+  start: Cape Kamenjak (Istria)
+  end: Prevlaka
+  osm_relation_id: 12205135
+  gpx_source: https://viaadriatica.org/
+distance_km: 1100
+total_ascent_m: 41000
+sleeping:
+  type: mixed
+  notes: Mostly mountain shelters and huts (Dinara, Velebit) on the one documented thru-hike.
+difficulty:
+  level: 4
+  reason: Very long and remote over Velebit, Biokovo and Dinara; minefield warning signs; severe bura and snow in winter.
+flags:
+  permit: none
+links:
+  official_site: https://viaadriatica.org/
+establishment_signals:
+  - Official website (Mountaineering Club AktivNatura, Zagreb)
+  - Covered in travel articles (Total Croatia News, HRTurizam)
+trip_reports:
+  - url: https://total-croatia-news.com/news/travel/croatian-couple-completed-via-adriatica/
+    title: Croatian Couple Completed Via Adriatica Trail in 54 Days, Liked Dinara Most
+    year_hiked: 2021
+    summary: Winter thru-hike from Prevlaka to Kamenjak in 54 days, mostly sleeping in shelters; bura on Velebit, snow on Dinara.
+  - url: https://total-croatia-news.com/news/travel/croatian-couple/
+    title: Croatian Couple Set Off on 1,100 km Via Adriatica Trail
+    year_hiked: 2021
+    summary: Mid-hike interview from section 6 of 13, with notes on thorny overgrowth and winter conditions.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Sinjal.jpg
+    author: Goran Zec
+    license: CC BY-SA 2.0
+    shows: Sinjal on Dinara, a highlight of the route
+sources:
+  distance_km: https://viaadriatica.org/
+  total_ascent_m: https://total-croatia-news.com/?p=92613
+  sleeping: https://total-croatia-news.com/news/travel/croatian-couple-completed-via-adriatica/
+  difficulty: https://total-croatia-news.com/news/travel/croatian-couple-completed-via-adriatica/
+conflicts: []
+last_verified: 2026-11-27

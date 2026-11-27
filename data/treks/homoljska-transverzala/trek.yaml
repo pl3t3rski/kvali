@@ -1,0 +1,78 @@
+id: homoljska-transverzala
+status: draft
+name: Homolje Transversal (Homoljska transverzala, T-4-12)
+countries:
+  - RS
+region: Homolje mountains and Beljanica, eastern Serbia
+one_liner: "Serbia's classic mountain transversal: caves, karst springs and the Beljanica ridge from Kučevo to the Mlava spring, sleeping in villages and bungalows."
+route:
+  type: point-to-point
+  start: Kučevo (town centre)
+  end: Vrelo Mlave, Žagubica
+  osm_relation_id: 13239017
+  gpx_source: https://pss.rs/wp-content/uploads/2018/10/T-4-12-Homoljska-transferzala.gpx
+distance_km: 119
+total_ascent_m: 7700
+typical_days:
+  min: 6
+  max: 10
+sleeping:
+  type: mixed
+  notes: Hotel in Kučevo, bungalows at Ravništarka cave, private rooms and a scout home in Ždrelo, private lodging at Krupajsko vrelo; woodcutters' huts on Rečke and Trest for emergencies.
+difficulty:
+  level: 2
+  reason: About 12–20 km and up to roughly 1,300 m of climbing a day over forested karst ridges; the club advises caution on the route.
+logistics:
+  leaving_from_end: Žagubica has bus connections.
+flags:
+  permit: free-registration
+  permit_notes: No trail permit; a stamp booklet (dnevnik) is being reprinted and stamps are kept at the club. Foreigners must register their stay with the police within 24 h.
+  waymarked: yes
+  water_scarce: false
+links:
+  official_site: https://pss.rs/terenipp/homoljska-transverzala/
+establishment_signals:
+  - "Official status: PSS-registered mountaineering transversal T-4-12 (OSM national network), first traced in 1961"
+  - Waymarked along the whole route (standard PSS marks; last re-marked 2013–2015)
+  - "Official website: PSS register page and club Vukan PK (pkvukan.rs)"
+trip_reports:
+  - url: https://www.loc.wiki/hiking-trails/serbia-e4-long-distance-european-trail-from-veliko-gradiste-to-monsa-24579006
+    title: "Serbia: E4 Long Distance European Trail from Veliko Gradiste to Monsa"
+    year_hiked: 2018
+    summary: March 2018 E4 walk through Homolje; the author notes it closely matches the Homoljska transverzala.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Beljanica_mountain_07.jpg
+    author: Geograf208
+    license: CC BY-SA 4.0
+    shows: Karst hollows on the slopes of Beljanica
+  - file_url: https://commons.wikimedia.org/wiki/File:Manastir_Gornjak_01.jpg
+    author: Dragica Basarić
+    license: CC BY-SA 4.0
+    shows: Gornjak monastery, a point on the route
+  - file_url: https://commons.wikimedia.org/wiki/File:Krupajsko_vrelo,_Srbija.jpg
+    author: Miss83
+    license: CC BY-SA 4.0
+    shows: Krupajsko vrelo karst spring
+  - file_url: https://commons.wikimedia.org/wiki/File:Vrelo_Mlave,_Isto%C4%8Dna_Srbija.jpg
+    author: Miss83
+    license: CC BY-SA 4.0
+    shows: Vrelo Mlave (Mlava spring) at Žagubica, the finish
+sources:
+  distance_km: https://pss.rs/terenipp/homoljska-transverzala/
+  total_ascent_m: https://pss.rs/terenipp/homoljska-transverzala/
+  typical_days: https://pss.rs/terenipp/homoljska-transverzala/
+  sleeping: https://pss.rs/terenipp/homoljska-transverzala/
+  difficulty: https://pss.rs/terenipp/homoljska-transverzala/
+  logistics: https://www.takeyourbackpack.com/backpacking-in-serbia/hike-homolje-mountains/
+  permit: https://mfa.gov.rs/en/citizens/travel-serbia/registration-stay
+  waymarked: https://pss.rs/terenipp/homoljska-transverzala/
+  water_scarce: https://pss.rs/terenipp/homoljska-transverzala/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/13239017
+conflicts:
+  - field: waymarked
+    values:
+      - value: well maintained and marked
+        source: https://pss.rs/terenipp/homoljska-transverzala/
+      - value: waymarking can be patchy (Homolje traverse in general)
+        source: https://www.takeyourbackpack.com/backpacking-in-serbia/hike-homolje-mountains/
+last_verified: 2026-11-27

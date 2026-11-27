@@ -1,0 +1,67 @@
+id: arnoweg
+status: draft
+name: Arnoweg
+countries:
+  - AT
+region: Whole province of Salzburg (Flachgau, Pinzgau, Pongau, Lungau, Tennengau)
+one_liner: A 1,200 km, 63-stage pilgrimage-style circuit of Salzburg province from the Hohensalzburg fortress, from lakeland lowlands to the 3,106 m Sonnblick.
+route:
+  type: loop
+  start: Festung Hohensalzburg, Salzburg
+  end: Festung Hohensalzburg, Salzburg
+  osm_relation_id: 301659
+distance_km: 1200
+typical_days:
+  min: 63
+  max: 63
+when:
+  best_months: []
+sleeping:
+  type: mixed
+difficulty:
+  level: 4
+  reason: Includes high-alpine terrain up to the Sonnblick (3,106 m) in the 'Keesberge' section; long remote stretches.
+logistics:
+  getting_to_start: Salzburg city; further official entry points at Hallein, Werfen, Rauris (Bodenhaus) and Mauterndorf.
+  leaving_from_end: Loop back to Salzburg.
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  water_scarce: false
+links:
+  official_site: https://www.arnoweg.com/
+establishment_signals:
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://www.meinarnoweg.at/
+    title: Mein Arnoweg – Salzburger Weitwanderweg Blog
+    summary: Fabian Bergner's stage-by-stage blog of the whole route, begun in 2021.
+  - url: https://www.vergissmi.net/?p=14901
+    title: Arnoweg – Drei Tage durch die Lungauer Nockberge
+    summary: Section through the Lungau Nockberge; author began the Arnoweg in summer 2021.
+  - url: https://smekiwandert.wordpress.com/2017/10/08/arnoweg-tage-8-bis-10-hirschbichlpechtl-leogang/
+    title: "Arnoweg Tage 8 bis 10: Hirschbichl/Pechtl – Leogang"
+    summary: Days 8–10 of a section hike.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Arnoweg_Wegschild.jpg
+    author: Fabian Bergner
+    license: CC BY-SA 4.0
+    shows: Arnoweg signpost on stage 8 from the Hirschbichl
+sources:
+  distance_km: https://www.salzburgerland.com/en/?p=79454
+  typical_days: https://www.salzburgerland.com/en/?p=79454
+  difficulty: https://en.abtenau-info.at/Betrieb/Arnoweg/
+  logistics: https://www.salzburgerland.com/en/?p=79454
+  permit: https://www.salzburgerland.com/en/?p=79454
+  route_type: https://austria-forum.org/af/AustriaWiki/Arnoweg
+  osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=301659
+conflicts:
+  - field: total_ascent_m
+    values:
+      - value: ~80,000
+        source: https://www.gps-tour.info/92062
+      - value: 57,000+
+        source: https://en.wikipedia-on-ipfs.org/wiki/Arno_Trail
+last_verified: 2026-11-27

@@ -1,0 +1,76 @@
+id: koasa-trail
+status: draft
+name: Koasa Trail
+countries:
+  - AT
+region: Wilder Kaiser / Region St. Johann in Tirol
+one_liner: Five days circling the Wilder Kaiser ('Koasa') from St. Johann in Tirol, a new view of the massif each day; moderate, inns and alms, luggage transfer.
+route:
+  type: loop
+  start: St. Johann in Tirol
+  end: St. Johann in Tirol area (Oberndorf)
+distance_km: 83
+total_ascent_m: 4700
+typical_days:
+  min: 5
+  max: 6
+when:
+  best_months: []
+sleeping:
+  type: mixed
+  notes: Valley lodging plus alms (e.g. Fischbachalm); 6-night packages and optional luggage transfer.
+difficulty:
+  level: 2
+  reason: Medium; stage 1 rated fitness 3/6, technique 2/6; about 900–1,100 m ascent per day, high point ~1,600 m.
+logistics:
+  getting_to_start: St. Johann in Tirol (Infobüro); Okto hiking bus in the region.
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.kitzbueheler-alpen.com/de/stjo/so/wandern/koasa-trail.html
+establishment_signals:
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://ausgelatschte-schuhe.de/koasa-trail-wandern/
+    title: "Koasa Trail wandern: 5 Etappen um den Wilden Kaiser"
+    summary: 86 km in 5 stages with GPX, lodging and luggage transfer notes.
+  - url: https://www.trekkinglife.de/koasa-trail/
+    title: Koasa Trail – Wandern am Wilden Kaiser
+    summary: Stage-by-stage report.
+  - url: https://www.couchflucht.de/koasa-trail-wandern-am-wilden-kaiser/
+    title: Koasa Trail – Wandern am Wilden Kaiser
+    summary: Author's first long-distance hike.
+  - url: https://barbaralicious.com/der-koasa-trail/
+    title: Der Koasa Trail – Wandern in Tirol
+    summary: Walked in June on the tourist board's invitation.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:StripsenjochhausJPG.jpg
+    author: Stefan.straub
+    license: CC BY-SA 4.0
+    shows: Stripsenjochhaus, passed on stage 2
+  - file_url: https://commons.wikimedia.org/wiki/File:Austria_2015-07-23_(20783108439).jpg
+    author: Guillaume Baviere
+    license: CC BY-SA 2.0
+    shows: Griesenau, at the Stripsenjochhaus
+sources:
+  distance_km: https://www.kitzbueheler-alpen.com/de/stjo/so/wandern/koasa-trail.html
+  total_ascent_m: https://www.kitzbueheler-alpen.com/de/stjo/so/wandern/koasa-trail.html
+  typical_days: https://www.kitzbueheler-alpen.com/de/stjo/so/wandern/koasa-trail.html
+  sleeping: https://www.kitzbueheler-alpen.com/de/stjo/so/wandern/koasa-trail.html
+  difficulty: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/koasa-trail-etappe-1
+  logistics: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/koasa-trail-etappe-1
+  permit: https://www.kitzbueheler-alpen.com/de/stjo/so/wandern/koasa-trail.html
+  stage2_huts: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/koasa-trail-etappe-2
+conflicts:
+  - field: typical_days
+    values:
+      - value: 5 days
+        source: https://www.kitzbueheler-alpen.com/de/stjo/so/wandern/koasa-trail.html
+      - value: 6 Tage (tour-info field)
+        source: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/koasa-trail
+last_verified: 2026-11-27

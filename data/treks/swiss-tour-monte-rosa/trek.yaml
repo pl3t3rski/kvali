@@ -1,0 +1,64 @@
+id: swiss-tour-monte-rosa
+status: draft
+name: Swiss Tour Monte Rosa (Balfrin high path + Europaweg) – regional route 27
+countries:
+  - CH
+region: Valais – Saastal and Mattertal
+one_liner: Three big balcony days from Saas-Fee to Zermatt along the Balfrin high path and the Europaweg, facing the Valais 4,000 m peaks.
+route:
+  type: point-to-point
+  start: Saas-Fee
+  end: Zermatt
+  osm_relation_id: 1610155
+distance_km: 56
+total_ascent_m: 4000
+typical_days:
+  min: 3
+  max: 3
+when:
+  best_months:
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+  open_season: Official season May to October.
+sleeping:
+  type: mixed
+  notes: Village nights in Grächen and Zermatt, hut night at the Europahütte.
+difficulty:
+  level: 3
+  reason: Technically medium, physically difficult (~1,300 m ascent per day); rope-secured sections, waterfalls and bridges; rockfall risk on the Europaweg.
+logistics:
+  getting_to_start: Saas-Fee.
+  leaving_from_end: Zermatt (railway down the Mattertal).
+  nearest_airports:
+    - Geneva
+    - Zurich
+    - Milan Malpensa
+flags:
+  permit: none
+  permit_notes: "Check closures: Cicerone reports the Europaweg section Spriegelboden–Täschalp marked closed since 2024 (some walkers pass; ask the Europahütte)."
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.myswitzerland.com/en/experiences/route/swiss-tour-monte-rosa/
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en/experiences/route/swiss-tour-monte-rosa/
+  total_ascent_m: https://www.myswitzerland.com/en/experiences/route/swiss-tour-monte-rosa/
+  typical_days: https://www.myswitzerland.com/en/experiences/route/swiss-tour-monte-rosa/
+  best_months: https://www.myswitzerland.com/en/experiences/route/swiss-tour-monte-rosa/
+  open_season: https://www.myswitzerland.com/en/experiences/route/swiss-tour-monte-rosa/
+  sleeping: https://www.myswitzerland.com/en/experiences/route/swiss-tour-monte-rosa/
+  difficulty: https://www.myswitzerland.com/en/experiences/route/swiss-tour-monte-rosa/
+  logistics: https://www.myswitzerland.com/en/experiences/route/swiss-tour-monte-rosa/
+  permit: https://www.cicerone.co.uk/9781786312662
+last_verified: 2026-11-27

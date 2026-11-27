@@ -1,0 +1,57 @@
+id: alta-via-5-dolomites
+status: draft
+name: Alta Via 5 delle Dolomiti ("Alta Via di Tiziano")
+countries:
+  - IT
+region: Eastern Dolomites (Croda dei Toni, Marmarole, Antelao)
+one_liner: Wild, foggy Marmarole crossing dedicated to Titian, from Sesto to his birthplace Pieve di Cadore.
+route:
+  type: point-to-point
+  start: Sesto/Sexten
+  end: Pieve di Cadore
+  osm_relation_id: 15882641
+distance_km: 90
+typical_days:
+  min: 7
+  max: 7
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Huts open June to September; recommended late June to late September
+sleeping:
+  type: huts
+  notes: 7 rifugi and 3 bivouacs on the main route; Marmarole section isolated.
+difficulty:
+  level: 4
+  reason: Equipped trekking with exposed protected stretches (Croda dei Toni, Antelao); isolated Marmarole section with big ascents and frequent fog
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+establishment_signals:
+  - one of the numbered Dolomites high routes
+  - waymarked
+  - tourism-portal route page (dolomiti.it)
+  - outlined in Cicerone "Alta Via 2 - Trekking in the Dolomites (with Alte Vie 3-6 in outline)"
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+  best_months: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+  open_season: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+  sleeping: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+conflicts:
+  - field: distance_km
+    values:
+      - value: 90
+        source: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+      - value: 100
+        source: https://www.dolomiti.it/en/alpine-paths-of-the-dolomites/alpine-paths-of-the-dolomites
+last_verified: 2026-11-27

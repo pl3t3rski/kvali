@@ -1,0 +1,34 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Fshati Radomire.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Fshati_Radomire.jpg",
+    "author": "Jonuz Kola",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Radomirë village, the base for Mt Korab",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/high-scardus-trail/5291b23cd4-480.webp",
+      "960": "/photos/high-scardus-trail/5291b23cd4-960.webp",
+      "1600": "/photos/high-scardus-trail/5291b23cd4-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Mali Korabit.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Mali_Korabit.jpg",
+    "author": "Fation Plaku",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Korab mountain in Korab-Koritnik Nature Park",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/high-scardus-trail/fd3efae141-480.webp",
+      "960": "/photos/high-scardus-trail/fd3efae141-960.webp",
+      "1600": "/photos/high-scardus-trail/fd3efae141-1600.webp"
+    }
+  }
+]

@@ -1,0 +1,2583 @@
+# Multi-day treks in Italy – research report
+
+Last verified: 2026-11-27 · 37 treks included · every value has a source URL or is `null`.
+
+## 1. Included treks, ranked
+
+Ranking uses only the five Step 2 signals (O = official status, W = waymarked whole route, S = official site/trail authority, G = published guidebook, R = regular trip reports/articles). Treks with the same number of signals share a tier (Tier 1 = 5/5 … Tier 5 = 1/5); inside a tier the order is by number of trip reports found, then name, which is not a ranking signal.
+
+| # | Tier | Trek | Countries | km | Days | Diff. | Signals |
+|---|---|---|---|---|---|---|---|
+| 1 | 1 | Alta Via 1 delle Dolomiti (Dolomiten-Höhenweg Nr. 1) | IT | 125 | 7–9 | 2 | OWSGR (5/5) |
+| 2 | 1 | Alta Via 2 delle Dolomiti (Dolomiten-Höhenweg Nr. 2, "Alta Via delle Leggende") | IT | 180 | 11–14 | 4 | OWSGR (5/5) |
+| 3 | 1 | Grande Traversata delle Alpi (GTA) | IT | 809 | 41–55 | 3 | OWSGR (5/5) |
+| 4 | 1 | Tour Monte Rosa (Tour du Mont Rose / Giro del Monte Rosa) | CH, IT | 164 | 9–11 | 4 | OWSGR (5/5) |
+| 5 | 1 | Tour du Mont Blanc (TMB) | FR, IT, CH | 170 | 7–12 | 3 | OWSGR (5/5) |
+| 6 | 1 | Via Francigena – Italian section (Great St Bernard Pass to Rome) | IT, CH | 1004 | 45 | 2 | OWSGR (5/5) |
+| 7 | 1 | Alpe-Adria-Trail | AT, SI, IT | 750 | 30–40 | 2 | OWSGR (5/5) |
+| 8 | 1 | Alta Via 1 della Valle d'Aosta (Alta Via dei Giganti / Giants' Trail) | IT | 180 | 14–17 | 3 | OWSGR (5/5) |
+| 9 | 1 | Alta Via 2 della Valle d'Aosta (Alta Via Naturalistica) | IT | 180 | 12–14 | 3 | OWSGR (5/5) |
+| 10 | 1 | Grande Traversata Elbana (GTE) | IT | 58 | 3–4 | 2 | OWSGR (5/5) |
+| 11 | 2 | Tour of the Matterhorn (Tour du Cervin / Giro del Cervino / Tour Matterhorn) | CH, IT | 147.3 | 9–11 | 4 | OSGR (4/5) |
+| 12 | 2 | Tour des Combins | CH, IT | 101.57 | 6–7 | 3 | OWSR (4/5) |
+| 13 | 2 | Alta Via 3 delle Dolomiti (Dolomiten-Höhenweg Nr. 3) | IT | 100 | 8 | 3 | OWSG (4/5) |
+| 14 | 2 | Alta Via 4 delle Dolomiti (Dolomiten-Höhenweg Nr. 4, "Alta Via Grohmann") | IT | 85 | 6 | 3 | OWSG (4/5) |
+| 15 | 2 | Alta Via 5 delle Dolomiti ("Alta Via di Tiziano") | IT | 90 | 7 | 4 | OWSG (4/5) |
+| 16 | 2 | Alta Via 6 delle Dolomiti ("Alta Via dei Silenzi") | IT | 180 | 11 | 4 | OWSG (4/5) |
+| 17 | 2 | Alta Via dell'Adamello (Sentiero 601, ex Sentiero n. 1) | IT | 85 | 5–8 | 4 | OWSR (4/5) |
+| 18 | 3 | Via degli Dei (Path of the Gods, Bologna–Florence) | IT | 130 | 5–7 | 2 | WSR (3/5) |
+| 19 | 3 | E5 Alpine Crossing Oberstdorf–Merano (Alpenüberquerung E5) | DE, AT, IT | 104 | 6 | 3 | OWR (3/5) |
+| 20 | 3 | Translagorai (TransLagorai) | IT | 80 | 4–5 | 3 | WSR (3/5) |
+| 21 | 3 | Alta Via dei Monti Liguri (AVML) | IT | 440 | – | 2 | OWR (3/5) |
+| 22 | 3 | Cammino di San Benedetto | IT | 300 | 16 | 2 | OWR (3/5) |
+| 23 | 3 | Grande Escursione Appenninica (GEA) | IT | 402.6 | 23 | 2 | OWG (3/5) |
+| 24 | 3 | Meraner Höhenweg (Alta Via di Merano, trail no. 24) | IT | 100 | 5–8 | 3 | OWS (3/5) |
+| 25 | 3 | Sentiero del Viandante (Wayfarer's Path) | IT | 45 | 4 | 2 | WSR (3/5) |
+| 26 | 3 | Sentiero della Pace (Path of Peace) | IT | 495 | 30–35 | 4 | OWS (3/5) |
+| 27 | 3 | Via Spluga (ViaSpluga) | CH, IT | 65 | 4–5 | 2 | OWS (3/5) |
+| 28 | 3 | Via di Francesco – Via del Nord (La Verna to Assisi) | IT | 200 | 8–10 | 2 | WSR (3/5) |
+| 29 | 3 | Vinschger Höhenweg (Alta Via Val Venosta) | IT | 108 | 5 | 3 | OWS (3/5) |
+| 30 | 4 | Sentiero Roma | IT | 54 | 5–6 | 4 | WR (2/5) |
+| 31 | 4 | Selvaggio Blu | IT | 40 | 4–7 | 4 | SR (2/5) |
+| 32 | 4 | Alta Via della Valmalenco | IT | 110 | 8 | 4 | WS (2/5) |
+| 33 | 4 | Dolomiti di Brenta Trek (DBT) | IT | 96 | 11 | 4 | WS (2/5) |
+| 34 | 4 | Sentiero Italia CAI (SICAI) | IT | 7949 | – | 3 | OS (2/5) |
+| 35 | 5 | Alta Badia High Route (Alta Via dell'Alta Badia) | IT | 76 | 5–7 | 2 | S (1/5) |
+| 36 | 5 | Tiroler Höhenweg (Alta Via Tiroler Höhenweg) | AT, IT | 158 | 11–13 | 4 | S (1/5) |
+| 37 | 6 | Giro del Monviso (Tour du Viso) | IT, FR | 35 | 3 | 3 | none (0/5) |
+
+### YAML blocks
+
+#### 1. Alta Via 1 delle Dolomiti (Dolomiten-Höhenweg Nr. 1) (Tier 1)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook, Regular trip reports / articles
+
+```yaml
+id: alta-via-1-dolomites
+name: Alta Via 1 delle Dolomiti (Dolomiten-Höhenweg Nr. 1)
+countries: [IT]
+region: Eastern Dolomites (South Tyrol / Belluno)
+one_liner: "The Dolomites' classic north–south hut traverse from Lago di Braies to Belluno, mostly non-technical, huts book out months ahead."
+route:
+  type: point-to-point
+  start: Lago di Braies (Pragser Wildsee)
+  end: Belluno (trail ends at La Pissa bus stop)
+  osm_relation_id: 177743
+  gpx_source: null
+distance_km: 125
+total_ascent_m: 7300
+typical_days: { min: 7, max: 9 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Most huts open from the third week of June to the third week of September"
+sleeping:
+  type: huts
+  booking_ahead: recommended
+  notes: "Rifugi with half board; popular huts fill months ahead, many people book the previous autumn."
+difficulty:
+  level: 2
+  reason: "Mountain paths at 1,500–2,750 m; rougher passages are protected with cables, via ferratas only on optional variants"
+logistics:
+  getting_to_start: "Train to Dobbiaco/Toblach or Villabassa, then bus 442 to Lago di Braies; private car access to the lake is restricted 9:00–16:00 from 1 July to 15 September"
+  leaving_from_end: "Bus from La Pissa to Belluno (about 20 min), then trains/buses onward"
+  nearest_airports: [Venice Marco Polo (VCE), Innsbruck (INN)]
+flags:
+  permit: none
+  permit_notes: "No hiking permit; check whether the Lago di Braies bus/parking needs a reservation in peak summer"
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1
+establishment_signals: [regional CAI high route (rwn), waymarked (blue triangle "1"), tourism-board route pages, guidebook (Cicerone "Trekking the Alta Via 1"), heavily covered in trip reports]
+trip_reports:
+  - url: https://www.backcountrypost.com/threads/alta-via-1-2023.10924/
+    title: "Alta Via 1 2023"
+    year_hiked: 2023
+    summary: "North to south in 7 days, 26 Aug–1 Sep, with notes on booking the rifugios"
+  - url: https://www.mountaineers.org/activities/trip-reports/trek-hut-to-hut-on-the-alta-via-1-in-italys-dolomites
+    title: "Trek Hut to Hut on the Alta Via 1 in Italy's Dolomites"
+    year_hiked: 2021
+    summary: "Club group trek 9–17 September with mild weather; recommends early September"
+  - url: https://medium.com/@ruinadd/5-days-in-alta-via-1-with-a-tent-d39752aa940
+    title: "5 Days in Alta Via 1 with a tent"
+    year_hiked: 2023
+    summary: "Covered 60 km from Lago di Braies to Selva di Cadore in 5 days with a tent in July"
+  - url: https://alpineexploratory.blogspot.com/2014/01/a-day-in-life-of-alta-via-1.html
+    title: "A day in the life of the Alta Via 1"
+    year_hiked: 2013
+    summary: "Recce walker's impressions after 10 days on the route in July 2013"
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Wegmarkierung_Alta_Via_1.jpg
+    author: Susanne Tomkovic Suto
+    license: CC BY-SA 3.0
+    shows: "AV1 waymark in front of the Civetta"
+  - file_url: https://commons.wikimedia.org/wiki/File:Rifugio_Nuvolau_Dolomiti.JPG
+    author: gogolander
+    license: CC BY-SA 3.0
+    shows: "Rifugio Nuvolau"
+  - file_url: https://commons.wikimedia.org/wiki/File:Lagazuoi_03.jpg
+    author: Clemens Stockner
+    license: CC BY-SA 4.0
+    shows: "Lagazuoi from the south-east"
+  - file_url: https://commons.wikimedia.org/wiki/File:Lago_di_Braies_South_Tyrol_6.jpg
+    author: kallerna
+    license: CC BY-SA 4.0
+    shows: "Lago di Braies, the northern start"
+sources:
+  distance_km: https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1
+  total_ascent_m: https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1
+  typical_days: https://www.lonelyplanet.com/articles/best-hikes-in-the-dolomites-italy
+  best_months: https://www.thehikinglife.com/2020/01/a-quick-dirty-guide-to-italys-alta-via-1/
+  open_season: https://inafarawayland.com/alta-via-one-guide-part-one/
+  sleeping: https://www.decathlon-outdoor.com/en/inspire/italy/randonnee-alta-via-un
+  difficulty: https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1
+  logistics: https://57hours.com/review/alta-via-1/
+  permit: https://www.moonhoneytravel.com/europe/italy/dolomites/alta-via-1-hike/
+conflicts:
+  - field: distance_km
+    values: [{ value: 125, source: "https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1" }, { value: 105.9, source: "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi9b3213ca6939e59151da9c37615b14a9.dolomites-alpine-ridgeway-no--1.braies-di-fuori-ausserprags" }]
+  - field: total_ascent_m
+    values: [{ value: 7300, source: "https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1" }, { value: 6820, source: "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi9b3213ca6939e59151da9c37615b14a9.dolomites-alpine-ridgeway-no--1.braies-di-fuori-ausserprags" }]
+  - field: typical_days
+    values: [{ value: "7-9", source: "https://www.lonelyplanet.com/articles/best-hikes-in-the-dolomites-italy" }, { value: "12 stages", source: "https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1" }]
+last_verified: 2026-11-27
+```
+
+#### 2. Alta Via 2 delle Dolomiti (Dolomiten-Höhenweg Nr. 2, "Alta Via delle Leggende") (Tier 1)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook, Regular trip reports / articles
+
+```yaml
+id: alta-via-2-dolomites
+name: Alta Via 2 delle Dolomiti (Dolomiten-Höhenweg Nr. 2, "Alta Via delle Leggende")
+countries: [IT]
+region: Western Dolomites (South Tyrol / Trentino / Belluno)
+one_liner: "Longer, rougher sister of the AV1: Bressanone to Feltre over Puez, Sella, Marmolada and Pale di San Martino with many cable-protected passages."
+route:
+  type: point-to-point
+  start: Bressanone (Brixen)
+  end: Feltre (many finish at Croce d'Aune)
+  osm_relation_id: 404914
+  gpx_source: null
+distance_km: 180
+total_ascent_m: 11650
+typical_days: { min: 11, max: 14 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Rifugi open mid-June to late September; some South Tyrol huts into October, southern huts close late September"
+sleeping:
+  type: huts
+  booking_ahead: recommended
+  notes: "Advance booking strongly recommended, especially midsummer weekends; two unstaffed bivouac huts (stages 9 and 11) cannot be booked. Wild camping not permitted in the three nature parks crossed."
+difficulty:
+  level: 4
+  reason: "Long, steep days (stage 1 alone ~1,900 m ascent), many cable-aided sections needing a head for heights; snow can linger on the Sella and Pale plateau"
+logistics:
+  getting_to_start: "Bressanone is on the Brenner railway; direct trains from Verona/Venice (from Venice airport bus to Mestre then train)"
+  leaving_from_end: "Feltre railway station has trains to Treviso and Venice; Trentino Trasporti buses to Trento"
+  nearest_airports: [Venice Marco Polo (VCE), Treviso (TSF), Verona (VRN)]
+flags:
+  permit: none
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-2
+establishment_signals: [one of the 10 "official" Dolomites high routes, waymarked (red-white-red with "2" in triangle), tourism-board route pages, guidebook (Cicerone "Alta Via 2 - Trekking in the Dolomites"), regularly covered in trip reports]
+trip_reports:
+  - url: https://www.trailhiking.com.au/planning-guides/guide-to-the-alta-via-2/
+    title: "Complete Guide to the Alta Via 2 (Italy)"
+    year_hiked: 2026
+    summary: "Couple hiked it in June 2026 in 12 days including via ferrata side-trips; stresses exposure and scree"
+  - url: https://paxtonsc.github.io/adventures/2025/09/alta-via-2
+    title: "Alta Via 2"
+    year_hiked: 2025
+    summary: "Personal day-by-day account from a September 2025 hut-to-hut trip"
+  - url: https://www.thehikinglife.com/2019/11/a-quick-and-dirty-guide-to-the-alta-via-2/
+    title: "A Quick and Dirty Guide to the Alta Via 2"
+    year_hiked: 2019
+    summary: "Independent thru-hiker in late September 2019; logistics notes for going without a tour operator"
+  - url: https://sites.google.com/site/tuesdayvigoroushikers/trips-and-treks/september-2014-dolomitesalta-via-2
+    title: "September 2014 Dolomites/Alta Via 2"
+    year_hiked: 2014
+    summary: "Group of seven started in September; four finished the full route over 13 days"
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Rifugio_e_lago_Pisciadu.JPG
+    author: Luca Lorenzi (Llorenzi)
+    license: CC BY-SA 3.0
+    shows: "Rifugio Pisciadù and its lake in the Sella group"
+  - file_url: https://commons.wikimedia.org/wiki/File:Pala_di_San_Martino_N.JPG
+    author: Svíčková
+    license: CC BY-SA 3.0
+    shows: "Pala di San Martino from the north-west"
+  - file_url: https://commons.wikimedia.org/wiki/File:Le_Pale_di_San_Martino.jpg
+    author: Stefano Carati
+    license: CC BY-SA 4.0
+    shows: "Pale di San Martino, Paneveggio nature park"
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-2
+  total_ascent_m: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+  typical_days: https://thehikinglife.com/?p=72696
+  best_months: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+  open_season: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+  sleeping: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+  difficulty: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+  logistics: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+  permit: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+conflicts:
+  - field: distance_km
+    values: [{ value: 180, source: "https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-2" }, { value: 174, source: "https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide" }, { value: 141, source: "https://suedtirol.live/it/escursione/alta-via-delle-dolomiti-n-2-t20012" }, { value: 160, source: "https://thehikinglife.com/?p=72696" }]
+  - field: total_ascent_m
+    values: [{ value: 11650, source: "https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide" }, { value: 11700, source: "https://suedtirol.live/it/escursione/alta-via-delle-dolomiti-n-2-t20012" }, { value: 11884, source: "https://thehikinglife.com/?p=72696" }]
+last_verified: 2026-11-27
+```
+
+#### 3. Grande Traversata delle Alpi (GTA) (Tier 1)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook, Regular trip reports / articles
+
+```yaml
+id: grande-traversata-delle-alpi
+name: Grande Traversata delle Alpi (GTA)
+countries: [IT]
+region: Western Italian Alps (Piedmont, Liguria)
+one_liner: "Italy's wild answer to the GR5: about 800 km from the Swiss border to the Mediterranean, valley-hopping between family-run posti tappa."
+route:
+  type: point-to-point
+  start: Nufenen Pass (Passo San Giacomo, Swiss border)
+  end: Ventimiglia
+  osm_relation_id: 3159979
+  gpx_source: null
+distance_km: 809
+total_ascent_m: 57000
+typical_days: { min: 41, max: 55 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Many small accommodations open only in summer; snow can remain on high passes into mid-June and autumn storms start late September"
+sleeping:
+  type: guesthouses
+  booking_ahead: not-needed
+  notes: "Posti tappa, agriturismi, small hotels and CAI rifugi; phone the day before (for dinner); book ahead only for the peak two weeks of August. Wild camping technically prohibited."
+difficulty:
+  level: 3
+  reason: "Daily climbs up to ~1,000 m over passes above 2,500 m; some steep sections protected by chains or cables"
+logistics:
+  getting_to_start: "Train from Zurich or Milan to Airolo, then Postbus to the Nufenen Pass"
+  leaving_from_end: "Train from Ventimiglia to Nice (~1 h) or Genoa (~2 h)"
+  nearest_airports: [Milan Malpensa (MXP), Turin (TRN), Nice (NCE), Genoa (GOA)]
+flags:
+  permit: none
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.visitpiemonte.com/en/itineraries/great-crossing-of-the-alps-south-piedmont
+establishment_signals: [national-network trail (OSM nwn), waymarked red-white with "GTA", regional tourism pages, guidebooks (Cicerone; Werner Bätzing/Rotpunktverlag), covered in trip reports]
+trip_reports:
+  - url: http://doingmiles.com/2017-07-italy-gta/
+    title: "Italy: Grande Traversata delle Alpi (Doing Miles)"
+    year_hiked: 2017
+    summary: "Couple's illustrated report of a 41-day thru-hike"
+  - url: https://www.cicerone.co.uk/the-gta-a-trip-report
+    title: "The Grande Traversata delle Alpi: A Trip Report"
+    year_hiked: null
+    summary: "Long-distance walker's account of the full traverse, called the wilder Italian twin of the GR5"
+  - url: https://alancyane.blogspot.com/2011/07
+    title: "GTA Hike in the Italian Alps"
+    year_hiked: 2011
+    summary: "Walked mostly on the GTA south to north, posted day by day"
+  - url: https://www.ildolomiti.it/altra-montagna/attualita/2026/non-sono-riuscito-a-trovare-una-guida-in-italiano-quando-ho-organizzato-il-trekking-risultavano-tutte-fuori-commercio-o-non-disponibili-tra-suggestioni-e-difficolta-della-gta
+    title: "Reader's reflection on a week on the GTA (Valle Varaita–Valle Gesso)"
+    year_hiked: 2026
+    summary: "One-week section in 2026; notes the beauty and fragility of the GTA's accommodation network (Italian)"
+photos: []
+sources:
+  distance_km: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  total_ascent_m: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  typical_days: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  best_months: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  open_season: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  sleeping: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  difficulty: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  logistics: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  permit: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+conflicts:
+  - field: distance_km
+    values: [{ value: 809, source: "https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide" }, { value: "~1000", source: "https://moveo.telepass.com/grande-traversata-delle-alpi/" }, { value: 633, source: "https://travesiapirenaica.com/en/gta-grande-traversata-delle-alpi" }]
+  - field: typical_days
+    values: [{ value: "55 stages", source: "https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide" }, { value: "41-day thru-hike", source: "https://backpackinglight.com/forums/topic/italy-grande-traversata-delle-alpi" }, { value: "47 days", source: "https://travesiapirenaica.com/en/gta-grande-traversata-delle-alpi" }]
+last_verified: 2026-11-27
+```
+
+#### 4. Tour Monte Rosa (Tour du Mont Rose / Giro del Monte Rosa) (Tier 1)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook, Regular trip reports / articles
+
+```yaml
+id: tour-monte-rosa
+name: Tour Monte Rosa (Tour du Mont Rose / Giro del Monte Rosa)
+countries: [CH, IT]
+region: Pennine Alps (Valais / Aosta Valley / Piedmont)
+one_liner: "Demanding loop around Europe's second-highest massif via Zermatt, Saas-Fee and the Walser valleys, with a glaciated crossing of the Theodul Pass."
+route:
+  type: loop
+  start: Zermatt (CH); common Italian entry points Gressoney, Alagna Valsesia, Macugnaga
+  end: Zermatt (CH)
+  osm_relation_id: 10353523
+  gpx_source: null
+distance_km: 164
+total_ascent_m: 10654
+typical_days: { min: 9, max: 11 }
+when:
+  best_months: [July, August, September]
+  open_season: "Route opening depends on snow: official site announced opening on 24 June 2022 and 14 July 2023; closures posted from October"
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: "Mountain huts and village hotels; Zermatt tourism advises booking huts and accommodation in advance."
+difficulty:
+  level: 4
+  reason: "T4 'demanding' grade, highest point 3,316 m, glacier crossing at the Theodul Pass and exposed balcony paths (Europaweg)"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: "No permit, but Zermatt Tourism advises not entering glaciers without a mountain guide; lifts can bypass the Theodul glacier"
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://tmr-matterhorn.ch/en/home.html
+establishment_signals: [international trail (CH/IT), waymarked, official website, guidebooks (Cicerone "Hiking the Tour of Monte Rosa"; Hilary Sharp), regularly covered in trip reports]
+trip_reports:
+  - url: https://summitpost.org/three-winter-days-early-september-under-matterhorn/1050852
+    title: "Three winter days in early September under Matterhorn"
+    year_hiked: 2019
+    summary: "Days 4–6 of a 9-day tour in September 2019 by a group of three; snowy Theodul Pass crossing"
+  - url: https://www.alexroddie.com/2015/09/tour-of-monte-rosa-day-4/
+    title: "Tour of Monte Rosa day 4"
+    year_hiked: 2015
+    summary: "Part of a live day-by-day backpacking series from Zermatt via the Europaweg and Balfrin Höhenweg"
+  - url: https://cicerone.co.uk/our-tour-of-monte-rosa
+    title: "Our tour of Monte Rosa"
+    year_hiked: null
+    summary: "Couple who had done the TMB and Haute Route describe their full Monte Rosa circuit"
+  - url: https://summitpost.org/monte-rosa-tour/1048362
+    title: "Monte Rosa Tour (route page)"
+    year_hiked: null
+    summary: "First-hand 'maximum hiking version' starting from Macugnaga, normally 9 days"
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Rif-theodulo.jpg
+    author: Jan Liska
+    license: CC BY-SA 3.0 DE
+    shows: "Theodulhütte and Testa Grigia at the Theodul Pass"
+  - file_url: https://commons.wikimedia.org/wiki/File:Macugnaga_(4882926389).jpg
+    author: Grzegorz Jereczek
+    license: CC BY-SA 2.0
+    shows: "Macugnaga under the east face of Monte Rosa"
+  - file_url: https://commons.wikimedia.org/wiki/File:Panorama_from_Theodulpass_at_Breuil-Cervinia_-_panoramio.jpg
+    author: qwesy qwesy
+    license: CC BY 3.0
+    shows: "Panorama from the Theodul Pass above Breuil-Cervinia"
+sources:
+  distance_km: https://zermatt.swiss/en/p/tour-monte-rosa-matterhorn-01tVj000005EwXZIA0
+  total_ascent_m: https://zermatt.swiss/en/p/tour-monte-rosa-matterhorn-01tVj000005EwXZIA0
+  typical_days: https://zermatt.swiss/en/p/tour-monte-rosa-matterhorn-01tVj000005EwXZIA0
+  best_months: https://tmr-matterhorn.ch/en/home.html
+  open_season: https://tmr-matterhorn.ch/en/home.html
+  sleeping: https://zermatt.swiss/en/p/tour-monte-rosa-matterhorn-01tVj000005EwXZIA0
+  difficulty: https://zermatt.swiss/en/p/tour-monte-rosa-matterhorn-01tVj000005EwXZIA0
+  logistics: null
+  permit: https://zermatt.swiss/en/p/tour-monte-rosa-matterhorn-01tVj000005EwXZIA0
+conflicts:
+  - field: distance_km
+    values: [{ value: 164, source: "https://zermatt.swiss/en/p/tour-monte-rosa-matterhorn-01tVj000005EwXZIA0" }, { value: 167, source: "https://muchbetteradventures.com/magazine/tour-of-monte-rosa-guide" }]
+last_verified: 2026-11-27
+```
+
+#### 5. Tour du Mont Blanc (TMB) (Tier 1)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook, Regular trip reports / articles
+
+```yaml
+id: tour-du-mont-blanc
+name: Tour du Mont Blanc (TMB)
+countries: [FR, IT, CH]
+region: Mont Blanc massif (Haute-Savoie / Aosta Valley / Valais)
+one_liner: "Classic 170 km loop around Mont Blanc through three countries, hut-to-hut and village-to-village, very busy in July–August."
+route:
+  type: loop
+  start: Les Houches (FR); Courmayeur is the usual Italian entry point
+  end: Les Houches (FR)
+  osm_relation_id: 124456
+  gpx_source: null
+distance_km: 170
+total_ascent_m: 10000
+typical_days: { min: 7, max: 12 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Huts generally open mid-June to the first or second week of September"
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: "Refuges, gîtes and village hotels; official site advises booking several months ahead for July–August (bookings for summer 2027 opened 15 Oct 2026). Bivouacking is regulated."
+difficulty:
+  level: 3
+  reason: "Several days with 1,300 m+ of ascent; non-technical on the main route, ladders only on optional variants"
+logistics:
+  getting_to_start: "Fly to Geneva; bus to Saint-Gervais-Le Fayet then train to Les Houches, or airport bus to Chamonix then local bus/train to Les Houches"
+  leaving_from_end: "Loop: same as start. From Courmayeur, buses run through the Mont Blanc tunnel to Chamonix/Geneva"
+  nearest_airports: [Geneva (GVA)]
+flags:
+  permit: none
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://montourdumontblanc.com/en/
+establishment_signals: [international trail (3 countries), waymarked, official website, guidebooks (Cicerone; Knife Edge), heavily covered in trip reports]
+trip_reports:
+  - url: https://patricklam.ca/post/20250824-tmb
+    title: "Trip report: Tour du Mont Blanc, July 21 to August 1, 2025"
+    year_hiked: 2025
+    summary: "Full loop over 12 days in late July, staying in refuges rather than camping"
+  - url: https://otheiner.github.io/blog/TMB
+    title: "Tour du Mont Blanc with a Twist - Umbrellas, Thunderstorms, and Wolves"
+    year_hiked: 2025
+    summary: "Started 2 September 2025; thunderstorms and a wolf sighting on an early-autumn loop"
+  - url: https://www.mountaineers.org/activities/trip-reports/global-adventures-trek-hut-to-hut-on-the-tour-du-mont-blanc
+    title: "Global Adventures - Trek Hut to Hut on the Tour du Mont Blanc"
+    year_hiked: null
+    summary: "Club group of 8 completed the loop in 12 days; notes a boulder field past Fenêtre d'Arpette and many ladders"
+  - url: https://semi-rad.com/2025/11/trip-report-attempting-the-express-tour-du-mont-blanc/
+    title: "Trip Report: Attempting the Express Tour du Mont Blanc"
+    year_hiked: 2025
+    summary: "Fast, ultra-length-day attempt of the 105-mile loop starting from Chamonix"
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Val_Veni_by_MTB.JPG
+    author: Nick Moyes
+    license: CC BY-SA 4.0
+    shows: "TMB route in Val Veny near Col de la Seigne"
+  - file_url: "https://commons.wikimedia.org/wiki/File:At_Col_de_la_Seigne_there_is_a_wide_overview_in_the_Aosta_valley_with_Mont_Blanc_4810_m_(10_km)_left_and_Matterhorn_(white_top_in_the_middle)_4478_m_at_70,5_km_distance%5E_clearly_visible_-_panoramio.jpg"
+    author: Henk Monster
+    license: CC BY 3.0
+    shows: "View from Col de la Seigne (FR/IT border) into the Aosta Valley"
+  - file_url: https://commons.wikimedia.org/wiki/File:Rifugio_Walter_Bonatti_Refuge.jpg
+    author: Cboon
+    license: CC BY-SA 3.0
+    shows: "Rifugio Walter Bonatti above Val Ferret (shared with Alta Via 1 Valle d'Aosta)"
+sources:
+  distance_km: https://montourdumontblanc.com/en/
+  total_ascent_m: https://montourdumontblanc.com/en/
+  typical_days: https://montourdumontblanc.com/en/
+  best_months: https://montourdumontblanc.com/en/
+  open_season: https://www.chamonix.net/english/summer-activities/trekking/tour-of-mont-blanc
+  sleeping: https://montourdumontblanc.com/en/actualites/booking-a-refuge-the-complete-guide
+  difficulty: https://bookatrekking.com/en/blog/tour-du-mont-blanc-trekking/
+  logistics: https://www.rome2rio.com/s/Gen%C3%A8ve-Airport/Les-Houches
+  permit: https://www.cleverhiker.com/backpacking/tour-du-mont-blanc-hiking-guide/
+conflicts: []
+last_verified: 2026-11-27
+```
+
+#### 6. Via Francigena – Italian section (Great St Bernard Pass to Rome) (Tier 1)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook, Regular trip reports / articles
+
+```yaml
+id: via-francigena-italy
+name: Via Francigena – Italian section (Great St Bernard Pass to Rome)
+countries: [IT, CH]
+region: Aosta Valley, Po plain, Apennines, Tuscany, Lazio
+one_liner: "The Italian half of the Canterbury–Rome pilgrimage: from the Great St Bernard hospice down the Aosta Valley, across the Apennines and Tuscany to St Peter's."
+route:
+  type: point-to-point
+  start: Great St Bernard Pass (CH/IT border)
+  end: Rome (St Peter's)
+  osm_relation_id: 11860709
+  gpx_source: null
+distance_km: 1004
+total_ascent_m: null
+typical_days: { min: 45, max: 45 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: guesthouses
+  booking_ahead: null
+  notes: "Pilgrim hostels, B&Bs and hotels; a stamped credential (from viefrancigene.org) is needed only to claim the Testimonium for the last 100 km."
+difficulty:
+  level: 2
+  reason: "Steep 1,900 m descent from the pass (max altitude ~2,400 m), then long mostly lowland and hill stages"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: "Optional pilgrim credential; Testimonium certificate for walking at least the final 100 km"
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.viefrancigene.org
+establishment_signals: [Council of Europe Cultural Route (1994), international route (OSM iwn), official website (European Association of the Vie Francigene), guidebooks (Terre di mezzo, Cicerone), heavily covered in trip reports]
+trip_reports:
+  - url: https://solitary-walker.blogspot.com/2015/09/walking-through-italy-on-via-francigena.html?m=1
+    title: "Walking Through Italy On The Via Francigena"
+    year_hiked: 2015
+    summary: "Second half of a Canterbury–Rome walk, starting at the Great St Bernard hospice on 17 August 2015"
+  - url: https://www.caminodesantiago.me/community/threads/thoughts-on-my-via-francigena-pilgrimage.94341/post-1412737
+    title: "Thoughts on my Via Francigena pilgrimage"
+    year_hiked: 2025
+    summary: "Lausanne to Rome, 7 Sep–16 Oct 2025, skipping flat Po-plain and urban stages by train"
+  - url: https://nicolethbridge.substack.com/p/chapter-110-hiking-without-a-hitch
+    title: "Chapter 110: Hiking without a hitch"
+    year_hiked: null
+    summary: "A week in the Aosta Valley joining a brother walking from the Great St Bernard Pass to Rome"
+  - url: https://thomasozbuntravels.blogspot.com/2017/02
+    title: "Via Francigena (Thomas Oz Bun Travels)"
+    year_hiked: null
+    summary: "Day-by-day blog of a Tuscan section, meeting pilgrims who had walked ~700 km from the pass"
+photos: []
+sources:
+  distance_km: https://www.terre.it/en/walks-and-paths/paths-files/the-via-francigena-everything-you-need-to-know/
+  total_ascent_m: null
+  typical_days: https://camminiditalia.org/en/cammini/via-francigena/
+  best_months: null
+  open_season: null
+  sleeping: https://www.terre.it/en/walks-and-paths/paths-files/the-via-francigena-everything-you-need-to-know/
+  difficulty: https://www.terre.it/en/walks-and-paths/paths-files/the-via-francigena-everything-you-need-to-know/
+  logistics: null
+  permit: https://caminoways.com/what-is-the-testimonium
+conflicts:
+  - field: distance_km
+    values: [{ value: 1004, source: "https://www.terre.it/en/walks-and-paths/paths-files/the-via-francigena-everything-you-need-to-know/" }, { value: 945, source: "https://www.italia.it/en/italy/things-to-do/via-francigena-slow-tourism" }, { value: 1006, source: "https://fastestknowntime.com/route/francigena-italiana-itinerario-di-sigerico-dal-colle-del-gran-san-bernardo-roma-italy" }]
+last_verified: 2026-11-27
+```
+
+#### 7. Alpe-Adria-Trail (Tier 1)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook, Regular trip reports / articles
+
+```yaml
+id: alpe-adria-trail
+name: Alpe-Adria-Trail
+countries: [AT, SI, IT]
+region: Carinthia / Julian Alps / Friuli-Venezia Giulia
+one_liner: "Glacier to sea in 43 easy-to-moderate stages, from the foot of the Grossglockner through Slovenia to Muggia on the Adriatic."
+route:
+  type: point-to-point
+  start: Kaiser-Franz-Josefs-Höhe (Grossglockner, AT)
+  end: Muggia (IT)
+  osm_relation_id: 3176522
+  gpx_source: null
+distance_km: 750
+total_ascent_m: 24183
+typical_days: { min: 30, max: 40 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Season runs from the end of May to the end of September"
+sleeping:
+  type: guesthouses
+  booking_ahead: null
+  notes: "Village guesthouses and some mountain huts; an official booking centre can arrange accommodation and luggage transport."
+difficulty:
+  level: 2
+  reason: "Technically uncomplicated, mostly moderate stages of ~20 km; highest point 2,370 m"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: [Salzburg (SZG), Innsbruck (INN)]
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.alpe-adria-trail.com/en/the-trail/
+establishment_signals: [international trail (AT/SI/IT, OSM iwn), waymarked start to finish, official website and booking centre, guidebooks (Bradt, Rother), covered in trip reports]
+trip_reports:
+  - url: https://backpackinglight.com/forums/topic/92896/
+    title: "Italy, Slovenia, and Austria: a Thru-hike of the Alpe-Adria Trail"
+    year_hiked: 2014
+    summary: "Northbound thru-hike in May 2014 incl. the Circular Trail, 505 miles in under 28 days"
+  - url: https://www.alpe-adria-trail.com/en/service/hiking-tips/out-and-about-on-the-aat-with-martin-marktl/
+    title: "Out and about on the AAT … with Martin Marktl"
+    year_hiked: null
+    summary: "First people to walk the whole trail before its 2013 opening: ~800 km in 44 days incl. 3 rest days"
+  - url: https://www.active-traveller.com/travel/is-the-alpe-adria-trail-a-future-hiking-classic
+    title: "Is the Alpe Adria Trail a future hiking classic?"
+    year_hiked: null
+    summary: "Journalist's first-hand account of selected stages from the Alps to the Karst coast"
+photos: []
+sources:
+  distance_km: https://www.austria.info/us/austriantime/alpe-adria-trail
+  total_ascent_m: https://trekhunt.com/en/article/alpe-adria-trail/
+  typical_days: https://trekhunt.com/en/article/alpe-adria-trail/
+  best_months: https://www.austria.info/us/austriantime/alpe-adria-trail
+  open_season: https://www.austria.info/us/austriantime/alpe-adria-trail
+  sleeping: https://press.austria.info/fileadmin/user_upload/Imported/uk/Sommer_2023/Carinthia/Alpe_Adria_Trail.pdf
+  difficulty: https://www.kaernten.at/berglust/weitwanderwege/alpe-adria-trail
+  logistics: https://www.austria.info/us/austriantime/alpe-adria-trail
+  permit: null
+conflicts:
+  - field: distance_km
+    values: [{ value: 750, source: "https://www.austria.info/us/austriantime/alpe-adria-trail" }, { value: 720, source: "https://trekhunt.com/en/article/alpe-adria-trail/" }, { value: 690, source: "https://www.irishtimes.com/life-and-style/travel/trail-blazers-1.1723965" }]
+last_verified: 2026-11-27
+```
+
+#### 8. Alta Via 1 della Valle d'Aosta (Alta Via dei Giganti / Giants' Trail) (Tier 1)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook, Regular trip reports / articles
+
+```yaml
+id: alta-via-1-valle-daosta
+name: Alta Via 1 della Valle d'Aosta (Alta Via dei Giganti / Giants' Trail)
+countries: [IT]
+region: Aosta Valley, Pennine Alps
+one_liner: "Two weeks along the north side of the Aosta Valley beneath Monte Rosa, the Matterhorn and Mont Blanc, dropping to a valley village most nights."
+route:
+  type: point-to-point
+  start: Donnas
+  end: Courmayeur
+  osm_relation_id: 1706143
+  gpx_source: null
+distance_km: 180
+total_ascent_m: null
+typical_days: { min: 14, max: 17 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Huts open late June to early September"
+sleeping:
+  type: mixed
+  booking_ahead: null
+  notes: "Rifugi, inns, small hotels and campsites; most stages descend to a village with services."
+difficulty:
+  level: 3
+  reason: "Substantial ascent every day and cols near 3,000 m (Col Malatrà 2,925 m), but no technical difficulty"
+logistics:
+  getting_to_start: "Train from Turin towards Aosta stops at Donnas"
+  leaving_from_end: "Bus from Courmayeur to Aosta, then train to Turin"
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_1
+establishment_signals: [regional official high route (Aosta Valley tourism board), waymarked and fully signposted, official website, guidebook (Cicerone "Trekking the Giants' Trail"), covered in trip reports]
+trip_reports:
+  - url: https://backpackinglight.com/forums/topic/high-route-of-the-giants-four-legged-adventures-among-mountains-and-refuges
+    title: "High Route of the Giants: Four-Legged Adventures Among Mountains and Refuges"
+    year_hiked: null
+    summary: "Hiker walked the full Alta Via 1 with two dogs, staying in refuges"
+  - url: https://www.alpenverein.de/artikel/huettentour-aostatal-alta-via-1_728bd681-c0c0-4942-89f2-a1315d76c977
+    title: "Hüttentour Aostatal: Alta Via 1 (Im Schatten der Giganten)"
+    year_hiked: null
+    summary: "German Alpine Club magazine feature by two authors who walked the route to the Mont Blanc finish"
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Rifugio_Walter_Bonatti_Refuge.jpg
+    author: Cboon
+    license: CC BY-SA 3.0
+    shows: "Rifugio Walter Bonatti on the Alta Via 1, Val Ferret"
+sources:
+  distance_km: https://www.cicerone.co.uk/trekking-the-giants-trail-alta-via-1-through-the-italian-pennine-alps
+  total_ascent_m: null
+  typical_days: https://www.lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_1
+  best_months: https://www.cicerone.co.uk/trekking-the-giants-trail-alta-via-1-through-the-italian-pennine-alps
+  open_season: https://www.cicerone.co.uk/trekking-the-giants-trail-alta-via-1-through-the-italian-pennine-alps
+  sleeping: https://www.lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_1
+  difficulty: https://www.cicerone.co.uk/trekking-the-giants-trail-alta-via-1-through-the-italian-pennine-alps
+  logistics: https://www.komoot.com/collection/2394898/running-with-the-giants-alta-via-1-in-the-aosta-valley
+  permit: null
+conflicts:
+  - field: distance_km
+    values: [{ value: 180, source: "https://www.cicerone.co.uk/trekking-the-giants-trail-alta-via-1-through-the-italian-pennine-alps" }, { value: 193, source: "https://www.komoot.com/collection/1650569" }]
+  - field: typical_days
+    values: [{ value: "17 stages", source: "https://www.lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_1" }, { value: "16 stages, about 2 weeks", source: "https://www.cicerone.co.uk/trekking-the-giants-trail-alta-via-1-through-the-italian-pennine-alps" }]
+last_verified: 2026-11-27
+```
+
+#### 9. Alta Via 2 della Valle d'Aosta (Alta Via Naturalistica) (Tier 1)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook, Regular trip reports / articles
+
+```yaml
+id: alta-via-2-valle-daosta
+name: Alta Via 2 della Valle d'Aosta (Alta Via Naturalistica)
+countries: [IT]
+region: Aosta Valley, Graian Alps (Gran Paradiso National Park, Mont Avic Park)
+one_liner: "High passes and ibex country through Gran Paradiso National Park, crossing Col Loson at almost 3,300 m."
+route:
+  type: point-to-point
+  start: Courmayeur
+  end: Donnas
+  osm_relation_id: 9898948
+  gpx_source: null
+distance_km: 180
+total_ascent_m: 11890
+typical_days: { min: 12, max: 14 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Best period late June to mid-September"
+sleeping:
+  type: mixed
+  booking_ahead: null
+  notes: "Rifugi, hotels, hostels and campsites; wild camping prohibited in Gran Paradiso National Park except designated areas."
+difficulty:
+  level: 3
+  reason: "Mostly average mountain paths, but a handful of stages have unstable, exposed ground and passes up to ~3,300 m"
+logistics:
+  getting_to_start: "Train from Turin or Milan to Aosta, then bus to Courmayeur"
+  leaving_from_end: "Donnas is on the Aosta–Turin railway"
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_2
+establishment_signals: [regional official high route, waymarked and entirely signposted, official website, guidebook (Cicerone "Trekking Gran Paradiso: Alta Via 2"), national park route]
+trip_reports:
+  - url: https://www.avventurosamente.it/xf/threads/alta-via-n-2-da-courmayeur-a-donnas.63716/
+    title: "Alta Via n.2 da Courmayeur a Donnas"
+    year_hiked: 2024
+    summary: "Solo, 11–23 August 2024, 13 days Courmayeur to Donnas; high point Col Loson 3,299 m (Italian)"
+  - url: https://www.randonner-leger.org/forum/viewtopic.php?pid=538193
+    title: "Alta Via 2 de Courmayeur à Donnas (forum report)"
+    year_hiked: null
+    summary: "Walked Courmayeur to Donnas; warns Tor des Géants markings diverge from AV2 on the first section (French)"
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Rifugio_Vittorio_Sella.jpg
+    author: Torsolo
+    license: CC BY-SA 3.0 (also offered under CC BY-SA 2.5)
+    shows: "Rifugio Vittorio Sella, Gran Paradiso"
+sources:
+  distance_km: https://www.komoot.com/collection/2390339/running-in-paradise-alta-via-2-of-valle-d-aosta
+  total_ascent_m: https://www.komoot.com/collection/2390339/running-in-paradise-alta-via-2-of-valle-d-aosta
+  typical_days: https://lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_2
+  best_months: https://www.cicerone.co.uk/trekking-gran-paradiso-alta-via-2
+  open_season: https://www.komoot.com/fr-fr/collection/1805679/entre-hauts-sommets-et-vallees-authentiques-lalta-via-2-de-la-vallee-d-aoste
+  sleeping: https://lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_2
+  difficulty: https://www.cicerone.co.uk/trekking-gran-paradiso-alta-via-2
+  logistics: https://www.komoot.com/fr-fr/collection/1805679/entre-hauts-sommets-et-vallees-authentiques-lalta-via-2-de-la-vallee-d-aoste
+  permit: null
+conflicts:
+  - field: route
+    values: [{ value: "Courmayeur–Donnas, 14 stages", source: "https://lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_2" }, { value: "Chardonney–Courmayeur, ~148 km, 12 stages", source: "https://www.cicerone.co.uk/trekking-gran-paradiso-alta-via-2" }]
+  - field: distance_km
+    values: [{ value: 180, source: "https://www.komoot.com/collection/2390339/running-in-paradise-alta-via-2-of-valle-d-aosta" }, { value: 148, source: "https://www.cicerone.co.uk/trekking-gran-paradiso-alta-via-2" }]
+last_verified: 2026-11-27
+```
+
+#### 10. Grande Traversata Elbana (GTE) (Tier 1)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook, Regular trip reports / articles
+
+```yaml
+id: grande-traversata-elbana
+name: Grande Traversata Elbana (GTE)
+countries: [IT]
+region: Isle of Elba, Tuscan Archipelago National Park
+one_liner: "East-to-west ridge traverse of Elba from Cavo to Pomonte or Patresi, sea views all the way; best in spring and autumn."
+route:
+  type: point-to-point
+  start: Cavo
+  end: Pomonte (GTE Sud) or Patresi (GTE Nord)
+  osm_relation_id: null
+  gpx_source: null
+distance_km: 58
+total_ascent_m: null
+typical_days: { min: 3, max: 4 }
+when:
+  best_months: [March, April, May, June, September, October, November]
+  open_season: null
+sleeping:
+  type: guesthouses
+  booking_ahead: null
+  notes: "Overnight in villages off the ridge (Porto Azzurro, Procchio, Poggio, Marina di Campo); stages often require descending to town."
+difficulty:
+  level: 2
+  reason: "Ridge paths with daily ascents up to ~950–1,200 m, rocky granite around Monte Capanne, summer heat"
+logistics:
+  getting_to_start: "Hydrofoil or ferry from Piombino to Cavo"
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.islepark.it/rete-sentieristica/gte
+establishment_signals: [national park trail (Tuscan Archipelago NP), waymarked CAI red-white plus GTE flags, guidebook (Terre di mezzo 2024), Cammini d'Italia listing, covered in outdoor media]
+trip_reports:
+  - url: https://www.tcs.ch/de/testberichte-ratgeber/broschueren-publikationen/touring-magazin/artikel/elba.php
+    title: "Elba: Grande Traversata Elbana (TCS Touring magazine)"
+    year_hiked: null
+    summary: "Journalist walked the GTE in 3 stages from Cavo to Pomonte in about 25 hours of walking"
+photos: []
+sources:
+  distance_km: https://www.muchbetteradventures.com/magazine/grand-traverse-of-elba-tuscany/
+  total_ascent_m: null
+  typical_days: https://fastestknowntime.com/route/gte-sud-grande-traversata-elbana-da-cavo-pomonte-italy
+  best_months: https://www.komoot.com/it-it/collection/1596434/grande-traversata-elbana-due-passi-in-montagna-e-un-tuffo-in-mare
+  open_season: null
+  sleeping: https://fastestknowntime.com/route/gte-sud-grande-traversata-elbana-da-cavo-pomonte-italy
+  difficulty: https://camminiditalia.org/en/cammini/grande-traversata-elbana/
+  logistics: https://camminiditalia.org/en/?p=67634
+  permit: null
+conflicts:
+  - field: distance_km
+    values: [{ value: 58, source: "https://www.muchbetteradventures.com/magazine/grand-traverse-of-elba-tuscany/" }, { value: "46 (Sud) / 56 (Nord)", source: "https://issuu.com/auroraciardelli/docs/web-eng_sentieri_2020_ogg24" }, { value: 62, source: "https://www.montagna.tv/229758/e-il-momento-giusto-per-la-grande-traversata-elbana/amp/" }]
+last_verified: 2026-11-27
+```
+
+#### 11. Tour of the Matterhorn (Tour du Cervin / Giro del Cervino / Tour Matterhorn) (Tier 2)
+
+Signals: Official status, Official site / trail authority, Guidebook, Regular trip reports / articles
+
+```yaml
+id: tour-of-the-matterhorn
+name: Tour of the Matterhorn (Tour du Cervin / Giro del Cervino / Tour Matterhorn)
+countries: [CH, IT]
+region: Pennine Alps (Valais / Aosta Valley)
+one_liner: "Ten-day circuit of the Matterhorn through six valleys and three cultures, with two glacier crossings (Col Collon and Theodul)."
+route:
+  type: point-to-point
+  start: Randa (CH)
+  end: Zermatt (CH)
+  osm_relation_id: 1176308
+  gpx_source: null
+distance_km: 147.3
+total_ascent_m: 10353
+typical_days: { min: 9, max: 11 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: "Huts, mountain inns and village hotels; trip reports note hut bookings can be made online."
+difficulty:
+  level: 4
+  reason: "High passes above 3,000 m and two glacier crossings (Haut Glacier d'Arolla, Theodul) where crampons are advised"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: "No permit; glacier sections may warrant a guide or crampons"
+  waymarked: partial
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://zermatt.swiss/en/p/tour-matterhorn-01tVj000005EvgHIAS
+establishment_signals: [international trail (CH/IT), tourism-board route page (Zermatt, Valais), guidebook (Hilary Sharp "Tour of the Matterhorn", Cicerone), covered in trip reports]
+trip_reports:
+  - url: https://www.walkhighlands.co.uk/Forum/viewtopic.php?p=356998
+    title: "Tour of the Matterhorn"
+    year_hiked: 2017
+    summary: "Started 11 July 2017; 10 days, 148 km and 12,177 m ascent; first Matterhorn view on day 7"
+  - url: https://www.haroldstreet.org.uk/other/tour-du-matterhorn-june-2007/
+    title: "Tour du Matterhorn – June 2007"
+    year_hiked: 2007
+    summary: "Two-week hut-to-hut trip from Randa including the Arolla glacier crossing over Col du Collon"
+  - url: https://annevankesteren.nl/2010/07/matterhorn-tour
+    title: "Matterhorn tour"
+    year_hiked: 2010
+    summary: "Couple's self-planned tour using Hilary Sharp's guidebook"
+  - url: https://www.novo-monde.com/en/matterhorn-tour-arolla-zermatt
+    title: "The Matterhorn tour: our 4 day trek from Arolla to Zermatt"
+    year_hiked: null
+    summary: "Partial: the alpine Arolla–Zermatt half via the Italian side, 15–20 km days with 1,300 m+ climbs"
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Panorama_from_Theodulpass_at_Breuil-Cervinia_-_panoramio.jpg
+    author: qwesy qwesy
+    license: CC BY 3.0
+    shows: "Panorama from the Theodul Pass above Breuil-Cervinia"
+sources:
+  distance_km: https://zermatt.swiss/en/p/tour-matterhorn-01tVj000005EvgHIAS
+  total_ascent_m: https://zermatt.swiss/en/p/tour-matterhorn-01tVj000005EvgHIAS
+  typical_days: https://www.muchbetteradventures.com/magazine/tour-of-matterhorn-circuit/
+  best_months: null
+  open_season: null
+  sleeping: https://www.walkhighlands.co.uk/Forum/viewtopic.php?p=356998
+  difficulty: https://www.visorando.com/en/walk-the-matterhorn-tour/
+  logistics: null
+  permit: null
+conflicts:
+  - field: distance_km
+    values: [{ value: 147.3, source: "https://zermatt.swiss/en/p/tour-matterhorn-01tVj000005EvgHIAS" }, { value: 149.2, source: "https://www.zermatt.ch/en/Media/Planning-hikes-tours/Matterhorn-Tour" }, { value: 145, source: "https://travesiapirenaica.com/en/cervin-tour/" }, { value: 157.19, source: "https://www.visorando.com/en/walk-the-matterhorn-tour/" }]
+  - field: total_ascent_m
+    values: [{ value: 10353, source: "https://zermatt.swiss/en/p/tour-matterhorn-01tVj000005EvgHIAS" }, { value: 10898, source: "https://www.zermatt.ch/en/Media/Planning-hikes-tours/Matterhorn-Tour" }]
+last_verified: 2026-11-27
+```
+
+#### 12. Tour des Combins (Tier 2)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Regular trip reports / articles
+
+```yaml
+id: tour-des-combins
+name: Tour des Combins
+countries: [CH, IT]
+region: Pennine Alps (Valais / Aosta Valley – Valpelline, Great St Bernard)
+one_liner: "Quieter TMB alternative circling the Grand Combin through Val de Bagnes and Italy's Ollomont valley via the Fenêtre de Durand (2,797 m)."
+route:
+  type: loop
+  start: Bourg-Saint-Pierre (CH) or Great St Bernard Pass
+  end: Same as start
+  osm_relation_id: 49181
+  gpx_source: null
+distance_km: 101.57
+total_ascent_m: 6173
+typical_days: { min: 6, max: 7 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: huts
+  booking_ahead: null
+  notes: "Swiss cabanes and Italian rifugi (e.g. Rifugio Letey on the Italian side)."
+difficulty:
+  level: 3
+  reason: "High passes up to the Fenêtre de Durand (2,797 m), glacial moraine terrain, days of ~800–950 m ascent"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.lovevda.it/en/sport/trekking/international-tours/tour-des-combins
+establishment_signals: [international trail (CH/IT), waymarked, tourism-board page (Aosta Valley "international tours"), covered in trip reports and trek operators]
+trip_reports:
+  - url: https://novo-monde.com/?p=30791
+    title: "Tour des Combins (Novo-monde)"
+    year_hiked: null
+    summary: "Couple's day-by-day account from Bourg-Saint-Pierre via Cabane de Mille, Panossière and Chanrion, with video"
+  - url: https://summitpost.org/tour-des-combins/162426
+    title: "Tour des Combins"
+    year_hiked: null
+    summary: "First-hand stage notes incl. Chanrion – Fenêtre de Durand – By/Ollomont"
+photos: []
+sources:
+  distance_km: https://fastestknowntime.com/route/tour-des-combins-switzerland-italy
+  total_ascent_m: https://fastestknowntime.com/route/tour-des-combins-switzerland-italy
+  typical_days: https://fastestknowntime.com/route/tour-des-combins-switzerland-italy
+  best_months: null
+  open_season: null
+  sleeping: https://bookatrekking.com/en/trek/compact-tour-des-combins-6-days/
+  difficulty: https://bookatrekking.com/en/trek/compact-tour-des-combins-6-days/
+  logistics: null
+  permit: null
+conflicts:
+  - field: total_ascent_m
+    values: [{ value: 6173, source: "https://fastestknowntime.com/route/tour-des-combins-switzerland-italy" }, { value: 5570, source: "https://bookatrekking.com/en/trek/compact-tour-des-combins-6-days/" }]
+last_verified: 2026-11-27
+```
+
+#### 13. Alta Via 3 delle Dolomiti (Dolomiten-Höhenweg Nr. 3) (Tier 2)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook
+
+```yaml
+id: alta-via-3-dolomites
+name: Alta Via 3 delle Dolomiti (Dolomiten-Höhenweg Nr. 3)
+countries: [IT]
+region: Eastern Dolomites (Tre Cime, Cristallo, Pelmo)
+one_liner: "Quieter eastern traverse from Villabassa to Longarone past the Cristallo and Pelmo, with cable-protected passages."
+route:
+  type: point-to-point
+  start: Villabassa/Niederdorf
+  end: Longarone
+  osm_relation_id: 1657836
+  gpx_source: null
+distance_km: 100
+total_ascent_m: null
+typical_days: { min: 8, max: 8 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Huts open June to September; recommended late June to late September"
+sleeping:
+  type: huts
+  booking_ahead: null
+  notes: "8 rifugi and 1 bivouac on the main route."
+difficulty:
+  level: 3
+  reason: "Graded EE (experienced hikers) with equipped stretches at the most dangerous points"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+establishment_signals: [one of the numbered Dolomites high routes, waymarked, tourism-portal route page (dolomiti.it), outlined in Cicerone "Alta Via 2 - Trekking in the Dolomites (with Alte Vie 3-6 in outline)"]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+  total_ascent_m: null
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+  best_months: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+  open_season: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+  sleeping: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+  logistics: null
+  permit: null
+conflicts: []
+last_verified: 2026-11-27
+```
+
+#### 14. Alta Via 4 delle Dolomiti (Dolomiten-Höhenweg Nr. 4, "Alta Via Grohmann") (Tier 2)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook
+
+```yaml
+id: alta-via-4-dolomites
+name: Alta Via 4 delle Dolomiti (Dolomiten-Höhenweg Nr. 4, "Alta Via Grohmann")
+countries: [IT]
+region: Eastern Dolomites (Tre Cime, Cadini, Sorapiss, Antelao)
+one_liner: "Short, spectacular Tre Cime–Sorapiss–Antelao traverse from San Candido to Pieve di Cadore in six days."
+route:
+  type: point-to-point
+  start: San Candido/Innichen
+  end: Pieve di Cadore
+  osm_relation_id: 1658415
+  gpx_source: null
+distance_km: 85
+total_ascent_m: 4500
+typical_days: { min: 6, max: 6 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Huts open June to September; recommended late June to late September"
+sleeping:
+  type: huts
+  booking_ahead: null
+  notes: "11 rifugi and 1 bivouac (Comici) on the main route."
+difficulty:
+  level: 3
+  reason: "Graded EE; paths mostly not tiring but the ascent to Rifugio Vandelli–Bivacco Comici needs some mountaineering experience"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+establishment_signals: [one of the numbered Dolomites high routes, waymarked, tourism-portal route page (dolomiti.it), outlined in Cicerone "Alta Via 2 - Trekking in the Dolomites (with Alte Vie 3-6 in outline)"]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+  total_ascent_m: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+  best_months: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+  open_season: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+  sleeping: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-4
+  logistics: null
+  permit: null
+conflicts: []
+last_verified: 2026-11-27
+```
+
+#### 15. Alta Via 5 delle Dolomiti ("Alta Via di Tiziano") (Tier 2)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook
+
+```yaml
+id: alta-via-5-dolomites
+name: Alta Via 5 delle Dolomiti ("Alta Via di Tiziano")
+countries: [IT]
+region: Eastern Dolomites (Croda dei Toni, Marmarole, Antelao)
+one_liner: "Wild, foggy Marmarole crossing dedicated to Titian, from Sesto to his birthplace Pieve di Cadore."
+route:
+  type: point-to-point
+  start: Sesto/Sexten
+  end: Pieve di Cadore
+  osm_relation_id: 15882641
+  gpx_source: null
+distance_km: 90
+total_ascent_m: null
+typical_days: { min: 7, max: 7 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Huts open June to September; recommended late June to late September"
+sleeping:
+  type: huts
+  booking_ahead: null
+  notes: "7 rifugi and 3 bivouacs on the main route; Marmarole section isolated."
+difficulty:
+  level: 4
+  reason: "Equipped trekking with exposed protected stretches (Croda dei Toni, Antelao); isolated Marmarole section with big ascents and frequent fog"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+establishment_signals: [one of the numbered Dolomites high routes, waymarked, tourism-portal route page (dolomiti.it), outlined in Cicerone "Alta Via 2 - Trekking in the Dolomites (with Alte Vie 3-6 in outline)"]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+  total_ascent_m: null
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+  best_months: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+  open_season: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+  sleeping: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5
+  logistics: null
+  permit: null
+conflicts: 
+  - field: distance_km
+    values: [{ value: 90, source: "https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-5" }, { value: 100, source: "https://www.dolomiti.it/en/alpine-paths-of-the-dolomites/alpine-paths-of-the-dolomites" }]
+last_verified: 2026-11-27
+```
+
+#### 16. Alta Via 6 delle Dolomiti ("Alta Via dei Silenzi") (Tier 2)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Guidebook
+
+```yaml
+id: alta-via-6-dolomites
+name: Alta Via 6 delle Dolomiti ("Alta Via dei Silenzi")
+countries: [IT]
+region: Friulian & Belluno Dolomites / Prealps
+one_liner: "The 'Way of Silence': long, lonely Sappada to Vittorio Veneto traverse with few huts and bivouac nights."
+route:
+  type: point-to-point
+  start: Sappada
+  end: Vittorio Veneto
+  osm_relation_id: 3865163
+  gpx_source: null
+distance_km: 180
+total_ascent_m: 9000
+typical_days: { min: 11, max: 11 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Huts open June to September; recommended late June to late September"
+sleeping:
+  type: huts
+  booking_ahead: null
+  notes: "Only 7 rifugi, 2 bivouacs and a shelter at Col Nudo on the main route."
+difficulty:
+  level: 4
+  reason: "E–EE with some EEA (equipped, exposed) sections; long solitary stages up to 8 hours"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+establishment_signals: [one of the numbered Dolomites high routes, waymarked, tourism-portal route page (dolomiti.it), outlined in Cicerone "Alta Via 2 - Trekking in the Dolomites (with Alte Vie 3-6 in outline)"]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+  total_ascent_m: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+  best_months: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+  open_season: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+  sleeping: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-6
+  logistics: null
+  permit: null
+conflicts: []
+last_verified: 2026-11-27
+```
+
+#### 17. Alta Via dell'Adamello (Sentiero 601, ex Sentiero n. 1) (Tier 2)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority, Regular trip reports / articles
+
+```yaml
+id: alta-via-dell-adamello
+name: Alta Via dell'Adamello (Sentiero 601, ex Sentiero n. 1)
+countries: [IT]
+region: Adamello Regional Park, Val Camonica (Lombardy)
+one_liner: "High, lonely traverse of the Adamello group between 2,000 and 3,000 m through the 'White War' front line, from Breno to Edolo."
+route:
+  type: point-to-point
+  start: Breno (classic start Conca di Bazena / Passo Crocedomini)
+  end: Edolo
+  osm_relation_id: 16014046
+  gpx_source: null
+distance_km: 85
+total_ascent_m: null
+typical_days: { min: 5, max: 8 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: huts
+  booking_ahead: null
+  notes: "Chain of rifugi in the Adamello park (e.g. Rifugio Gnutti)."
+difficulty:
+  level: 4
+  reason: "EE route always between 2,000 and 3,000 m, several passes above 2,700 m often snow-covered, off-trail sections in isolated parts"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.parcoadamello.it/images/PRINT_DEF_Pieghevole%20Trekking%20Adamello_Sentiero%201%20601_2025.pdf
+establishment_signals: [regional park route (Parco dell'Adamello leaflet 2025), waymarked 601, covered in outdoor media (PlanetMountain)]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.parcoadamello.it/images/PRINT_DEF_Pieghevole%20Trekking%20Adamello_Sentiero%201%20601_2025.pdf
+  total_ascent_m: null
+  typical_days: https://www.planetmountain.com/it/itinerari/alta-via-dell-adamello-n-1.html
+  best_months: null
+  open_season: null
+  sleeping: https://www.rifugi.lombardia.it/wp-content/uploads/2016/01/Trekking_Adamello_numero_uno.pdf
+  difficulty: https://www.planetmountain.com/it/itinerari/alta-via-dell-adamello-n-1.html
+  logistics: null
+  permit: null
+conflicts:
+  - field: distance_km
+    values: [{ value: 85, source: "https://www.parcoadamello.it/images/PRINT_DEF_Pieghevole%20Trekking%20Adamello_Sentiero%201%20601_2025.pdf" }, { value: 70, source: "https://www.planetmountain.com/it/itinerari/alta-via-dell-adamello-n-1.html" }, { value: 91, source: "https://www.komoot.com/collection/2235961/along-path-no-1-alta-via-dell-adamello" }]
+last_verified: 2026-11-27
+```
+
+#### 18. Via degli Dei (Path of the Gods, Bologna–Florence) (Tier 3)
+
+Signals: Waymarked whole route, Official site / trail authority, Regular trip reports / articles
+
+```yaml
+id: via-degli-dei
+name: Via degli Dei (Path of the Gods, Bologna–Florence)
+countries: [IT]
+region: Tuscan-Emilian Apennines (Emilia-Romagna / Tuscany)
+one_liner: "City-to-city walk from Bologna's Piazza Maggiore to Florence over Apennine ridges and Roman road remains, with village guesthouses every night."
+route:
+  type: point-to-point
+  start: Bologna (Piazza Maggiore)
+  end: Florence (Piazza della Signoria)
+  osm_relation_id: 222322
+  gpx_source: null
+distance_km: 130
+total_ascent_m: null
+typical_days: { min: 5, max: 7 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: guesthouses
+  booking_ahead: recommended
+  notes: "Official site says booking accommodation is essential in summer and on holiday weekends; an optional credential (pilgrim-style passport) is collected along the way."
+difficulty:
+  level: 2
+  reason: "Daily stages of 20–28 km, one day with ~1,460 m of ascent; no technical terrain, can be muddy in bad weather"
+logistics:
+  getting_to_start: "Bologna Centrale station or Bologna G. Marconi airport, then walk/bus to Piazza Maggiore"
+  leaving_from_end: "Firenze Santa Maria Novella station or Florence A. Vespucci airport; frequent trains back to Bologna"
+  nearest_airports: [Bologna Guglielmo Marconi (BLQ), Florence Amerigo Vespucci (FLR)]
+flags:
+  permit: none
+  permit_notes: "Optional credential only"
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.viadeglidei.it
+establishment_signals: [waymarked (CAI red-white plus "VD" signs), official website, tourism-board pages (Bologna Welcome, Visit Tuscany, italia.it), regularly covered in trip reports and travel articles]
+trip_reports:
+  - url: https://ecobnb.com/blog/2023/11/via-degli-dei-trekking-bologna-florence/
+    title: "Via degli Dei: A Trekking Adventure from Bologna to Florence"
+    year_hiked: 2023
+    summary: "Walked in 5 days, collecting credentials at the start; foggy climb over Monte Adone on day 1"
+  - url: https://italymagazine.com/featured-story/bologna-florence-foot-along-path-gods
+    title: "From Bologna to Florence on Foot Along the 'Path of Gods'"
+    year_hiked: 2019
+    summary: "Six-day walk with notes on the VD waymarks and the route's history"
+  - url: https://www.caminodesantiago.me/community/threads/via-degli-dei-path-of-gods-italy.95415/latest
+    title: "Via degli Dei (Path of Gods), Italy"
+    year_hiked: null
+    summary: "Couple's forum account praising the food, locals and Apennine walking"
+  - url: https://monkeysandmountains.com/hike-bologna-to-florence-path-of-gods-italy/
+    title: "How to Hike From Bologna to Florence on the Path of Gods Italy"
+    year_hiked: null
+    summary: "Six-day walk starting with buses out to Casalecchio di Reno"
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Via_degli_Dei,_cippo_di_confine_fra_Emilia-Romagna_e_Toscana_01.jpg
+    author: Mongolo1984
+    license: CC BY-SA 4.0
+    shows: "Boundary stone between Emilia-Romagna and Tuscany on the route"
+  - file_url: https://commons.wikimedia.org/wiki/File:Futa_pass_1.jpg
+    author: Zebra48bo
+    license: CC BY-SA 4.0
+    shows: "Passo della Futa"
+  - file_url: https://commons.wikimedia.org/wiki/File:Florence_vue_depuis_Fiesole.JPG
+    author: Olevy
+    license: CC BY-SA 4.0
+    shows: "Florence seen from Fiesole, the final descent"
+sources:
+  distance_km: https://www.bolognawelcome.com/en/blog/via-degli-dei-le-chemin-des-dieux
+  total_ascent_m: null
+  typical_days: https://www.bolognawelcome.com/en/home/discover/itineraries/green/path-of-gods
+  best_months: null
+  open_season: null
+  sleeping: https://en.viadeglidei.it/copia-di-viaggiare-consapevoli
+  difficulty: https://static.bolognawelcome.com/immagini/9c/a0/5b/e3/20250710164804.pdf
+  logistics: https://static.bolognawelcome.com/immagini/9c/a0/5b/e3/20250710164804.pdf
+  permit: https://en.viadeglidei.it/copia-di-viaggiare-consapevoli
+conflicts:
+  - field: distance_km
+    values: [{ value: 130, source: "https://www.bolognawelcome.com/en/blog/via-degli-dei-le-chemin-des-dieux" }, { value: 125, source: "https://static.bolognawelcome.com/immagini/9c/a0/5b/e3/20250710164804.pdf" }]
+last_verified: 2026-11-27
+```
+
+#### 19. E5 Alpine Crossing Oberstdorf–Merano (Alpenüberquerung E5) (Tier 3)
+
+Signals: Official status, Waymarked whole route, Regular trip reports / articles
+
+```yaml
+id: e5-oberstdorf-merano
+name: E5 Alpine Crossing Oberstdorf–Merano (Alpenüberquerung E5)
+countries: [DE, AT, IT]
+region: Allgäu, Lechtal and Ötztal Alps to South Tyrol
+one_liner: "Europe's classic six-day Alpine crossing from Bavaria via Tyrol to Merano; busy huts and some bus/cable-car links."
+route:
+  type: point-to-point
+  start: Oberstdorf (DE)
+  end: Merano (IT)
+  osm_relation_id: null
+  gpx_source: null
+distance_km: 104
+total_ascent_m: null
+typical_days: { min: 6, max: 6 }
+when:
+  best_months: [July, August, September]
+  open_season: "End of June to end of September"
+sleeping:
+  type: mixed
+  booking_ahead: null
+  notes: "Alpine huts (e.g. Memminger Hütte, Braunschweiger Hütte) and valley hotels."
+difficulty:
+  level: 3
+  reason: "High passes up to the Pitztaler Jöchl (2,996 m), days with ~1,000–1,400 m ascent; no climbing experience needed"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: null
+establishment_signals: [European long-distance path E5 (waymarked whole length), also Via Alpina yellow route, heavily covered in trip reports and outdoor media]
+trip_reports:
+  - url: https://www.bergzeit.de/magazin/alpenueberquerung-oberstdorf-meran-fernwanderweg-e5/
+    title: "Alpenüberquerung auf dem Fernwanderweg E5"
+    year_hiked: null
+    summary: "Two hiking guides walked Oberstdorf to Vernagt in six days, with the option to continue to Merano (German)"
+photos: []
+sources:
+  distance_km: https://www.asi-reisen.de/fw/alpenüberquerung-oberstdorf-meran
+  total_ascent_m: null
+  typical_days: https://www.asi-reisen.de/fw/alpenüberquerung-oberstdorf-meran
+  best_months: https://www.komoot.com/fr-fr/collection/182/auf-zwei-fuessen-auf-dem-e5-ueber-die-alpen
+  open_season: https://www.asi-reisen.de/fw/alpenuberquerung-oberstdorf-meran
+  sleeping: https://www.asi-reisen.de/en/r/2DEFDH01
+  difficulty: https://www.eurohike.at/en/hiking-paths/e5
+  logistics: null
+  permit: null
+conflicts:
+  - field: distance_km
+    values: [{ value: 104, source: "https://www.asi-reisen.de/fw/alpenüberquerung-oberstdorf-meran" }, { value: 80, source: "https://www.eurohike.at/en/hiking-paths/e5" }, { value: 94.6, source: "https://www.komoot.com/fr-fr/collection/182/auf-zwei-fuessen-auf-dem-e5-ueber-die-alpen" }]
+last_verified: 2026-11-27
+```
+
+#### 20. Translagorai (TransLagorai) (Tier 3)
+
+Signals: Waymarked whole route, Official site / trail authority, Regular trip reports / articles
+
+```yaml
+id: translagorai
+name: Translagorai (TransLagorai)
+countries: [IT]
+region: Lagorai range (Trentino, between Valsugana and Val di Fiemme)
+one_liner: "Wild, hutless traverse of the porphyry Lagorai ridge from Panarotta to Passo Rolle, almost always above 2,000 m, bivouacs and tent."
+route:
+  type: point-to-point
+  start: Panarotta (above Levico/Vetriolo Terme)
+  end: Passo Rolle
+  osm_relation_id: 11009657
+  gpx_source: null
+distance_km: 80
+total_ascent_m: 5000
+typical_days: { min: 4, max: 5 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: camping
+  booking_ahead: not-needed
+  notes: "Very few rifugi or malghe; unmanned bivouacs and tent; carry food for self-sufficiency."
+difficulty:
+  level: 3
+  reason: "Not technically difficult but committing: solitary, few escape points, >5,000 m ascent in ~40 h walking"
+logistics:
+  getting_to_start: null
+  leaving_from_end: "Bus from Passo Rolle (twice a day) back to Val di Fiemme"
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.visitvalsugana.it/en/discover-valsugana/sport/hiking/translagorai_4499_ida/
+establishment_signals: [regional route (OSM rwn), tourism-board pages (Valsugana, Val di Fiemme), popular FKT route, covered in outdoor media]
+trip_reports:
+  - url: https://www.behance.net/gallery/90340299/Translagorai
+    title: "Translagorai (photo reportage)"
+    year_hiked: null
+    summary: "Photo report of the 80+ km traverse from Panarotta to Rolle, mostly above 2,000 m"
+photos: []
+sources:
+  distance_km: https://www.behance.net/gallery/90340299/Translagorai
+  total_ascent_m: https://www.visitvalsugana.it/en/discover-valsugana/sport/hiking/translagorai_4499_ida/
+  typical_days: https://komoot.de/de-de/collection/2475546/-translagorai-5-days-80-km-italy
+  best_months: null
+  open_season: null
+  sleeping: https://www.magicoveneto.it/lagorai/trek/TransLagorai.htm
+  difficulty: https://www.magicoveneto.it/lagorai/trek/TransLagorai.htm
+  logistics: https://visitfiemme.it/en/activity/translagorai_9855
+  permit: null
+conflicts:
+  - field: distance_km
+    values: [{ value: 80, source: "https://www.behance.net/gallery/90340299/Translagorai" }, { value: 76.13, source: "https://fastestknowntime.com/route/translagorai-italy" }]
+  - field: total_ascent_m
+    values: [{ value: "over 5000", source: "https://www.visitvalsugana.it/en/discover-valsugana/sport/hiking/translagorai_4499_ida/" }, { value: 4700, source: "https://fastestknowntime.com/route/translagorai-italy" }]
+  - field: water_scarce
+    values: [{ value: "water very abundant", source: "https://www.magicoveneto.it/lagorai/trek/TransLagorai.htm" }, { value: "water points scarce", source: "https://fastestknowntime.com/route/translagorai-italy" }]
+last_verified: 2026-11-27
+```
+
+#### 21. Alta Via dei Monti Liguri (AVML) (Tier 3)
+
+Signals: Official status, Waymarked whole route, Regular trip reports / articles
+
+```yaml
+id: alta-via-dei-monti-liguri
+name: Alta Via dei Monti Liguri (AVML)
+countries: [IT]
+region: Ligurian Alps and Apennines (Liguria)
+one_liner: "Ridge-line traverse of the whole of Liguria, 440 km between the sea and the mountains from Ventimiglia to Ceparana."
+route:
+  type: point-to-point
+  start: Ventimiglia
+  end: Ceparana (La Spezia)
+  osm_relation_id: 3006903
+  gpx_source: null
+distance_km: 440
+total_ascent_m: null
+typical_days: null
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: null
+  booking_ahead: null
+  notes: "43 official stages; an association of accommodation owners along the route exists (Associazione Ospitalità AVML)."
+difficulty:
+  level: 2
+  reason: "Most of the 43 stages are graded E (hiking); only some are demanding; highest point Monte Saccarello 2,201 m"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: null
+establishment_signals: [defined by Liguria regional law (LR 5/1993), waymarked red-white-red with "AV", part of the Sentiero Italia network, regularly covered in travel articles]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.ge.camcom.gov.it/it/promuovi/turismo/eventi-e-notizie-turismo/dp_liguria_alta-via-dei-monti-liguri.pdf
+  total_ascent_m: null
+  typical_days: null
+  best_months: null
+  open_season: null
+  sleeping: https://mtb-mag.com/en/alta-via-dei-monti-liguri-the-completely-ridable-track/amp
+  difficulty: https://travel.thewom.it/italia/liguria/alta-via-dei-monti.html
+  logistics: null
+  permit: null
+conflicts: []
+last_verified: 2026-11-27
+```
+
+#### 22. Cammino di San Benedetto (Tier 3)
+
+Signals: Official status, Waymarked whole route, Regular trip reports / articles
+
+```yaml
+id: cammino-di-san-benedetto
+name: Cammino di San Benedetto
+countries: [IT]
+region: Umbria / Lazio (Valnerina, Valle Santa, Subiaco, Ciociaria)
+one_liner: "300 km pilgrim walk linking St Benedict's birthplace Norcia, his hermitage at Subiaco and the abbey of Montecassino."
+route:
+  type: point-to-point
+  start: Norcia
+  end: Montecassino
+  osm_relation_id: 11109163
+  gpx_source: null
+distance_km: 300
+total_ascent_m: null
+typical_days: { min: 16, max: 16 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: guesthouses
+  booking_ahead: null
+  notes: "Credential available from the 'Amici del Cammino di San Benedetto' association for a small fee."
+difficulty:
+  level: 2
+  reason: "Rated medium; hilly Apennine stages"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: "Optional credential"
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: null
+establishment_signals: [national-network route (OSM nwn), waymarked, italia.it itinerary page, covered in national press (ENIT clippings)]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.italia.it/it/italia/cosa-fare/cammino-di-san-benedetto
+  total_ascent_m: null
+  typical_days: https://www.italia.it/it/italia/cosa-fare/cammino-di-san-benedetto
+  best_months: null
+  open_season: null
+  sleeping: https://www.italia.it/it/italia/cosa-fare/cammino-di-san-benedetto
+  difficulty: https://www.italia.it/it/italia/cosa-fare/cammino-di-san-benedetto
+  logistics: null
+  permit: https://www.italia.it/it/italia/cosa-fare/cammino-di-san-benedetto
+conflicts: []
+last_verified: 2026-11-27
+```
+
+#### 23. Grande Escursione Appenninica (GEA) (Tier 3)
+
+Signals: Official status, Waymarked whole route, Guidebook
+
+```yaml
+id: grande-escursione-appenninica
+name: Grande Escursione Appenninica (GEA)
+countries: [IT]
+region: Northern & central Apennines (Tuscany, Emilia-Romagna, Umbria border, Liguria edge)
+one_liner: "Three weeks along the Apennine ridge from Bocca Trabaria to Passo Due Santi, beech forests and grassy crests, hotels and rifugi."
+route:
+  type: point-to-point
+  start: Bocca Trabaria (Tuscany–Umbria border)
+  end: Passo dei Due Santi (Liguria edge)
+  osm_relation_id: 358901
+  gpx_source: null
+distance_km: 402.6
+total_ascent_m: null
+typical_days: { min: 23, max: 23 }
+when:
+  best_months: [April, May, June, July, August, September, October]
+  open_season: "April–October; northern stages 14–23 effectively midsummer only; July–August most reliable for high rifugi"
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: "About two-thirds of stages end at hotels, one-third at rifugi; two unmanned bivouac huts; phone ahead, mid-August and Saturdays fill up. One-night camping tolerated in park areas."
+difficulty:
+  level: 2
+  reason: "Mostly grade 2 days of 8–25 km; stages 14–22 harder with some exposed crests (mostly avoidable); fog and strong winds on ridges"
+logistics:
+  getting_to_start: "Baschetti bus between Sansepolcro and Pesaro stops at Bocca Trabaria"
+  leaving_from_end: "Walk 5 km to Patigno, ATN bus to Pontremoli railway station"
+  nearest_airports: [Pisa (PSA), Bologna (BLQ), Genoa (GOA), Ancona (AOI)]
+flags:
+  permit: none
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: null
+establishment_signals: [national-network trail (OSM nwn), waymarked CAI red-white with GEA logo, guidebook (Cicerone "Trekking in the Apennines"), crosses two national parks]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  total_ascent_m: null
+  typical_days: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  best_months: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  open_season: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  sleeping: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  difficulty: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  logistics: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+  permit: https://www.cicerone.co.uk/trekking-in-the-apennines-a-complete-planning-guide
+conflicts: []
+last_verified: 2026-11-27
+```
+
+#### 24. Meraner Höhenweg (Alta Via di Merano, trail no. 24) (Tier 3)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority
+
+```yaml
+id: meraner-hoehenweg
+name: Meraner Höhenweg (Alta Via di Merano, trail no. 24)
+countries: [IT]
+region: Texelgruppe Nature Park, South Tyrol
+one_liner: "100 km balcony loop around the Texel group above Merano, mixing high huts and farmstead inns; easier south side, alpine north side."
+route:
+  type: loop
+  start: Any access point (e.g. Hochmuth/Dorf Tirol, Katharinaberg, Pfossental)
+  end: Same as start
+  osm_relation_id: 1161619
+  gpx_source: null
+distance_km: 100
+total_ascent_m: 5100
+typical_days: { min: 5, max: 8 }
+when:
+  best_months: [July, August, September]
+  open_season: null
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: "Mountain huts and farm inns; book all hut nights in high season."
+difficulty:
+  level: 3
+  reason: "For experienced mountain hikers; north section (Schnalstal–Passeier) is high alpine up to 2,895 m, south section longer but easier"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.merano-suedtirol.it/en/tirolo/mountain-holidays/hiking-mountain-tours/merano-high-mountain-trail.html
+establishment_signals: [numbered regional trail (no. 24), waymarked, tourism-board route pages (Merano, South Tyrol), nature park route, covered by trek operators and travel articles]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.merano-suedtirol.it/en/tirolo/mountain-holidays/hiking-mountain-tours/merano-high-mountain-trail.html
+  total_ascent_m: https://www.merano-suedtirol.it/nl/merano-en-omgeving/meraner-hoehenweg/121154250-rundwanderung-am-meraner-hoehenweg.html?amp=true
+  typical_days: https://www.merano-suedtirol.it/en/tirolo/mountain-holidays/hiking-mountain-tours/merano-high-mountain-trail.html
+  best_months: https://www.merano-suedtirol.it/nl/merano-en-omgeving/meraner-hoehenweg/121154250-rundwanderung-am-meraner-hoehenweg.html?amp=true
+  open_season: null
+  sleeping: https://www.suedtirol.info/fr/decouvertes/circuit-sur-le-sentier-d-altitude-de-merano/meran_activity_11591
+  difficulty: https://www.suedtirol.info/pl/pl/atrakcje-i-wydarzenia/przyroda/specjalne-wedrowki/wysokogorski-szlak-meraner-hoehenweg
+  logistics: null
+  permit: null
+conflicts:
+  - field: total_ascent_m
+    values: [{ value: 5100, source: "https://www.merano-suedtirol.it/nl/merano-en-omgeving/meraner-hoehenweg/121154250-rundwanderung-am-meraner-hoehenweg.html?amp=true" }, { value: 5000, source: "https://www.merano-suedtirol.it/en/tirolo/mountain-holidays/hiking-mountain-tours/merano-high-mountain-trail.html" }]
+last_verified: 2026-11-27
+```
+
+#### 25. Sentiero del Viandante (Wayfarer's Path) (Tier 3)
+
+Signals: Waymarked whole route, Official site / trail authority, Regular trip reports / articles
+
+```yaml
+id: sentiero-del-viandante
+name: Sentiero del Viandante (Wayfarer's Path)
+countries: [IT]
+region: Eastern shore of Lake Como (Lecco / Sondrio)
+one_liner: "Old mule track along Lake Como's eastern shore through Varenna and Bellano, with a railway station in nearly every village."
+route:
+  type: point-to-point
+  start: Abbadia Lariana (or Lecco)
+  end: Colico/Piantedo (extensions to Sorico or Morbegno)
+  osm_relation_id: 2178755
+  gpx_source: null
+distance_km: 45
+total_ascent_m: null
+typical_days: { min: 4, max: 4 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: guesthouses
+  booking_ahead: null
+  notes: "Lakeside village accommodation; campsites at Abbadia Lariana, Mandello del Lario, Dervio and Colico."
+difficulty:
+  level: 2
+  reason: "Mule tracks and cobbled stairways; ~2,460 m of ascent spread over 8 legs (Sorico–Lecco), no exposure"
+logistics:
+  getting_to_start: "All villages have a railway station on the Lecco–Colico line"
+  leaving_from_end: "Train back along the lake from Colico"
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.in-lombardia.it/en/tours/le-vie-del-viandante
+establishment_signals: [regional tourism-board route (inLombardia, italia.it), waymarked (orange metal signs), covered in travel articles]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.airbnb.com/things-to-do/places/3181293
+  total_ascent_m: null
+  typical_days: https://www.italia.it/de/lombardei/erlebnisse-und-sehenswertes/sentiero-del-viandante
+  best_months: null
+  open_season: null
+  sleeping: https://www.komoot.com/de-de/collection/1432066/auf-alten-saumpfaden-entlang-des-comer-sees-sentiero-del-viandante
+  difficulty: https://www.in-lombardia.it/sites/default/files/itinerari/attachments/178542/viandante_mappa_4.pdf
+  logistics: https://www.komoot.com/de-de/collection/1432066/auf-alten-saumpfaden-entlang-des-comer-sees-sentiero-del-viandante
+  permit: null
+conflicts:
+  - field: distance_km
+    values: [{ value: "45 (Abbadia–Colico)", source: "https://www.airbnb.com/things-to-do/places/3181293" }, { value: "60.5 (Sorico–Lecco, 8 legs)", source: "https://www.in-lombardia.it/sites/default/files/itinerari/attachments/178542/viandante_mappa_4.pdf" }, { value: "68.8 (Abbadia–Morbegno)", source: "https://comoanditslake.com/sentierodelviandante.htm" }]
+  - field: difficulty
+    values: [{ value: "level 2 (~2,460 m ascent over 8 legs)", source: "https://www.in-lombardia.it/sites/default/files/itinerari/attachments/178542/viandante_mappa_4.pdf" }, { value: "rated difficult (schwierig), 4 stages", source: "https://www.italia.it/de/lombardei/erlebnisse-und-sehenswertes/sentiero-del-viandante" }]
+last_verified: 2026-11-27
+```
+
+#### 26. Sentiero della Pace (Path of Peace) (Tier 3)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority
+
+```yaml
+id: sentiero-della-pace
+name: Sentiero della Pace (Path of Peace)
+countries: [IT]
+region: Trentino (Adamello, Pasubio, Lagorai, Marmolada)
+one_liner: "A month-long walk along Trentino's WWI front line from Passo del Tonale to the Marmolada, waymarked with a dove."
+route:
+  type: point-to-point
+  start: Passo del Tonale
+  end: Marmolada (Passo Fedaia)
+  osm_relation_id: 3477430
+  gpx_source: null
+distance_km: 495
+total_ascent_m: null
+typical_days: { min: 30, max: 35 }
+when:
+  best_months: null
+  open_season: "Late spring to the first weeks of autumn"
+sleeping:
+  type: mixed
+  booking_ahead: null
+  notes: "Rifugi in high sections; on many stages you can sleep in valley villages."
+difficulty:
+  level: 4
+  reason: "Starts with high-altitude glacier crossings (Adamello–Mandrón, crampons may be needed); first sections technically difficult"
+logistics:
+  getting_to_start: "Passo del Tonale is served by bus"
+  leaving_from_end: "Passo Fedaia is served by bus"
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: "No permit; VisitTrentino advises walking the hardest first sections with experts"
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.visittrentino.info/it/articoli/trekking-ed-escursioni/sentiero-della-pace-trentino
+establishment_signals: [provincial route built by the Autonomous Province of Trento (1986–1996), national-network relation in OSM, waymarked (dove symbol), tourism-board GPX and guide, remapped by Va' Sentiero]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.visittrentino.info/it/articoli/trekking-ed-escursioni/sentiero-della-pace-trentino
+  total_ascent_m: null
+  typical_days: https://www.visittrentino.info/it/articoli/trekking-ed-escursioni/sentiero-della-pace-primo-secondo-tratto
+  best_months: null
+  open_season: https://www.komoot.com/it-it/collection/2903333
+  sleeping: https://www.montagna.tv/?p=238458
+  difficulty: https://www.trentinograndeguerra.it/UploadDocs/890_Sentiero_della_Pace_2016.pdf
+  logistics: https://www.komoot.com/it-it/collection/2903333
+  permit: https://www.visittrentino.info/it/articoli/trekking-ed-escursioni/sentiero-della-pace-primo-secondo-tratto
+conflicts:
+  - field: distance_km
+    values: [{ value: 495, source: "https://www.visittrentino.info/it/articoli/trekking-ed-escursioni/sentiero-della-pace-trentino" }, { value: 520, source: "https://www.trentinograndeguerra.it/UploadDocs/890_Sentiero_della_Pace_2016.pdf" }, { value: 536, source: "https://www.komoot.com/it-it/collection/2903333" }]
+last_verified: 2026-11-27
+```
+
+#### 27. Via Spluga (ViaSpluga) (Tier 3)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority
+
+```yaml
+id: via-spluga
+name: Via Spluga (ViaSpluga)
+countries: [CH, IT]
+region: Graubünden (Viamala, Rheinwald) / Valchiavenna (Lombardy)
+one_liner: "Historic Alpine trade route from Thusis through the Viamala gorge and over the Splügen Pass down to Chiavenna."
+route:
+  type: point-to-point
+  start: Thusis (CH)
+  end: Chiavenna (IT)
+  osm_relation_id: 1504263
+  gpx_source: null
+distance_km: 65
+total_ascent_m: 2900
+typical_days: { min: 4, max: 5 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: guesthouses
+  booking_ahead: null
+  notes: "Village hotels; Swiss operators offer luggage-transfer packages (mid-June to late September)."
+difficulty:
+  level: 2
+  reason: "Mule tracks with big height differences (720 m → 1,905 m Montespluga → 330 m Chiavenna)"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.myswitzerland.com/en-in/experiences/route/viaspluga/
+establishment_signals: [Swiss national cultural route (SwitzerlandMobility no. 50), waymarked, italia.it itinerary page, sold by walking-holiday operators]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.italia.it/en/lombardy/things-to-do/cammino-via-spluga
+  total_ascent_m: https://www.myswitzerland.com/en-in/experiences/route/viaspluga/
+  typical_days: https://www.italia.it/en/lombardy/things-to-do/cammino-via-spluga
+  best_months: null
+  open_season: null
+  sleeping: https://www.myswitzerland.com/en-in/experiences/route/viaspluga/
+  difficulty: https://www.italia.it/en/lombardy/things-to-do/cammino-via-spluga
+  logistics: null
+  permit: null
+conflicts:
+  - field: distance_km
+    values: [{ value: 65, source: "https://www.italia.it/en/lombardy/things-to-do/cammino-via-spluga" }, { value: 68, source: "https://www.myswitzerland.com/en-in/experiences/route/viaspluga/" }]
+last_verified: 2026-11-27
+```
+
+#### 28. Via di Francesco – Via del Nord (La Verna to Assisi) (Tier 3)
+
+Signals: Waymarked whole route, Official site / trail authority, Regular trip reports / articles
+
+```yaml
+id: via-di-francesco-via-del-nord
+name: Via di Francesco – Via del Nord (La Verna to Assisi)
+countries: [IT]
+region: Tuscany / Umbria (Casentino, Upper Tiber Valley, Gubbio)
+one_liner: "Franciscan pilgrim walk from the La Verna sanctuary to Assisi's basilica through Sansepolcro and Gubbio; can continue south to Rome (~500 km total)."
+route:
+  type: point-to-point
+  start: Chiusi della Verna (La Verna sanctuary)
+  end: Assisi (Basilica di San Francesco)
+  osm_relation_id: null
+  gpx_source: null
+distance_km: 200
+total_ascent_m: null
+typical_days: { min: 8, max: 10 }
+when:
+  best_months: null
+  open_season: "Walkable in every season"
+sleeping:
+  type: guesthouses
+  booking_ahead: null
+  notes: "Pilgrim and tourist accommodation listed on the official site; free credential (request ~3 weeks ahead), Testimonium issued in Assisi."
+difficulty:
+  level: 2
+  reason: "Hilly Apennine stages up to ~35 km; long days can be split"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: "Optional free credential for the Testimonium"
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.viadifrancesco.it
+establishment_signals: [official website with GPX, waymarked yellow-blue, Touring Club Italiano and italia.it coverage, pilgrim credential/Testimonium system]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.touringclub.it/cosa-facciamo/cammini-percorsi/la-via-di-francesco-via-del-nord
+  total_ascent_m: null
+  typical_days: https://www.touringclub.it/cosa-facciamo/cammini-percorsi/la-via-di-francesco-via-del-nord
+  best_months: null
+  open_season: https://www.touringclub.it/cosa-facciamo/cammini-percorsi/la-via-di-francesco-via-del-nord
+  sleeping: https://travel.thewom.it/italia/via-di-francesco.html
+  difficulty: https://www.sportoutdoor24.it/?p=52521
+  logistics: null
+  permit: https://www.touringclub.it/cosa-facciamo/cammini-percorsi/la-via-di-francesco-via-del-nord
+conflicts:
+  - field: distance_km
+    values: [{ value: 200, source: "https://www.touringclub.it/cosa-facciamo/cammini-percorsi/la-via-di-francesco-via-del-nord" }, { value: 189, source: "https://www.touringclub.it/notizie-di-viaggio/la-via-del-nord-della-via-di-francesco-tra-umbria-e-toscana-e-un-cammino" }]
+last_verified: 2026-11-27
+```
+
+#### 29. Vinschger Höhenweg (Alta Via Val Venosta) (Tier 3)
+
+Signals: Official status, Waymarked whole route, Official site / trail authority
+
+```yaml
+id: vinschger-hoehenweg
+name: Vinschger Höhenweg (Alta Via Val Venosta)
+countries: [IT]
+region: Val Venosta / Vinschgau, Sonnenberg (South Tyrol)
+one_liner: "Five-day sunny-slope traverse of the Vinschgau from Naturno to the Adige source at Resia, mixing mountain paths and historic irrigation-channel trails."
+route:
+  type: point-to-point
+  start: Stava (Naturno)
+  end: Resia (source of the Adige)
+  osm_relation_id: 2520522
+  gpx_source: null
+distance_km: 108
+total_ascent_m: 5600
+typical_days: { min: 5, max: 5 }
+when:
+  best_months: [April, May, June, July, August, September, October]
+  open_season: null
+sleeping:
+  type: null
+  booking_ahead: null
+  notes: null
+difficulty:
+  level: 3
+  reason: "Graded EE; long stages up to ~25 km with ~1,400 m of ascent"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/venosta-valley-high-mountain-trail
+establishment_signals: [regional route (OSM rwn), waymarked, tourism-portal route page]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/venosta-valley-high-mountain-trail
+  total_ascent_m: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/venosta-valley-high-mountain-trail
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/venosta-valley-high-mountain-trail
+  best_months: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/venosta-valley-high-mountain-trail
+  open_season: null
+  sleeping: null
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/venosta-valley-high-mountain-trail
+  logistics: null
+  permit: null
+conflicts: []
+last_verified: 2026-11-27
+```
+
+#### 30. Sentiero Roma (Tier 4)
+
+Signals: Waymarked whole route, Regular trip reports / articles
+
+```yaml
+id: sentiero-roma
+name: Sentiero Roma
+countries: [IT]
+region: Val Masino / Val Codera, Rhaetian Alps (Lombardy)
+one_liner: "Rugged granite high route at ~2,500 m along the head of Val Masino, chain-protected passes nearly every day."
+route:
+  type: point-to-point
+  start: Novate Mezzola
+  end: Chiesa in Valmalenco
+  osm_relation_id: 19412813
+  gpx_source: null
+distance_km: 54
+total_ascent_m: null
+typical_days: { min: 5, max: 6 }
+when:
+  best_months: [July, August, September]
+  open_season: "Late June to September, when rifugi are open and passes normally accessible; not advisable before July (snow on chained passes)"
+sleeping:
+  type: huts
+  booking_ahead: recommended
+  notes: "Rifugi Brasca, Omio, Gianetti, Allievi-Bonacossa, Ponti, Bosio plus bivouacs."
+difficulty:
+  level: 4
+  reason: "EE route at 2,500–2,950 m with chained passes over granite slabs, long remote stages"
+logistics:
+  getting_to_start: "Train from Milano Centrale towards Tirano, change at Colico for Chiavenna line to Novate Mezzola"
+  leaving_from_end: "Bus from Chiesa in Valmalenco to Sondrio (about every 2 h), then train to Milan"
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: null
+establishment_signals: [classic CAI high route (1920s), waymarked, CAI hut booking portal page, overlaps Sentiero Italia, covered in trip reports]
+trip_reports:
+  - url: https://www.gulliver.it/itinerari/sentiero-roma-da-novate-mezzola-a-chiesa-in-valmalenco-6-gg/2025/08/19/327370/
+    title: "Sentiero Roma da Novate Mezzola a Chiesa in Valmalenco (6 gg)"
+    year_hiked: 2025
+    summary: "August 2025; author did it in 4 days from Bagni di Masino, chain-protected descent into Val di Zocca (Italian)"
+  - url: https://summitpost.org/sentiero-roma/358830
+    title: "Sentiero Roma (trip report)"
+    year_hiked: null
+    summary: "Group walk east to west with cars at both ends; highest point Passo Cameraccio 2,950 m"
+photos: []
+sources:
+  distance_km: https://www.prenotarifugi.cai.it/en/?p=3763
+  total_ascent_m: null
+  typical_days: https://www.prenotarifugi.cai.it/en/?p=3763
+  best_months: https://summitpost.org/sentiero-roma/160894
+  open_season: https://moveo.telepass.com/sentiero-roma/
+  sleeping: https://www.ilturista.info/?p=21502
+  difficulty: https://summitpost.org/sentiero-roma/160894
+  logistics: https://contra.com/p/U7LPlAoO-a-thrilling-trekking-adventure-at-high-altitude-sentiero-roma
+  permit: null
+conflicts:
+  - field: distance_km
+    values: [{ value: 54, source: "https://www.prenotarifugi.cai.it/en/?p=3763" }, { value: 40, source: "https://www.ilturista.info/?p=21502" }, { value: 57.44, source: "https://www.bormio.eu/en/itinerari/cammino/sentiero-roma-integrale-in-valtellina" }]
+last_verified: 2026-11-27
+```
+
+#### 31. Selvaggio Blu (Tier 4)
+
+Signals: Official site / trail authority, Regular trip reports / articles
+
+```yaml
+id: selvaggio-blu
+name: Selvaggio Blu
+countries: [IT]
+region: Golfo di Orosei, Supramonte di Baunei (Sardinia)
+one_liner: "Italy's toughest coastal trek: 40 km of limestone cliffs above the Gulf of Orosei with abseils, scrambling, no water and hard route-finding."
+route:
+  type: point-to-point
+  start: Pedra Longa (Santa Maria Navarrese)
+  end: Cala Sisine
+  osm_relation_id: 9791036
+  gpx_source: null
+distance_km: 40
+total_ascent_m: 4410
+typical_days: { min: 4, max: 7 }
+when:
+  best_months: [March, April, May, September, October, November]
+  open_season: null
+sleeping:
+  type: camping
+  booking_ahead: not-needed
+  notes: "Bivouac/wild camping along the coast; no huts. Water must be cached in advance or brought by boat."
+difficulty:
+  level: 4
+  reason: "Abseils, graded climbing moves and short via ferratas, very difficult route-finding, no water, exposed cliff terrain"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: none
+  permit_notes: "No permit, but a local guide is strongly recommended by most sources (not mandatory)"
+  waymarked: partial
+  water_scarce: true
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.turismobaunei.eu/services/selvaggio-blu
+establishment_signals: [municipal tourism website (Baunei), regularly covered in outdoor media and trip reports]
+trip_reports:
+  - url: https://www.ukclimbing.com/forums/destinations/selvaggio_blu_sardinia_-_anyone_done_it-711037
+    title: "Selvaggio Blu Sardinia - anyone done it?"
+    year_hiked: null
+    summary: "Attempted unsupported over 4 days in April with cached water; bailed after day 2"
+photos: []
+sources:
+  distance_km: https://en.wikipedia.org/wiki/Selvaggio_Blu_(Sardinia)
+  total_ascent_m: https://en.wikipedia.org/wiki/Selvaggio_Blu_(Sardinia)
+  typical_days: https://en.wikipedia.org/wiki/Selvaggio_Blu_(Sardinia)
+  best_months: https://explore-share.com/trip/guided-selvaggio-blu-hike
+  open_season: null
+  sleeping: https://www.ukclimbing.com/forums/destinations/selvaggio_blu_sardinia_-_anyone_done_it-711037
+  difficulty: https://www.muchbetteradventures.com/magazine/selvaggio-blu-trek-sardinia-guide/
+  logistics: null
+  permit: https://explore-share.com/trip/guided-selvaggio-blu-hike
+conflicts:
+  - field: distance_km
+    values: [{ value: 40, source: "https://en.wikipedia.org/wiki/Selvaggio_Blu_(Sardinia)" }, { value: 42.7, source: "https://fastestknowntime.com/route/selvaggio-blu-sardinia-italy" }]
+last_verified: 2026-11-27
+```
+
+#### 32. Alta Via della Valmalenco (Tier 4)
+
+Signals: Waymarked whole route, Official site / trail authority
+
+```yaml
+id: alta-via-della-valmalenco
+name: Alta Via della Valmalenco
+countries: [IT]
+region: Valmalenco, Bernina/Disgrazia group (Lombardy)
+one_liner: "Eight-stage hut circuit of Valmalenco under the Bernina glaciers, with a glacier crossing at the Vedretta di Caspoggio (~3,000 m)."
+route:
+  type: loop
+  start: Torre di Santa Maria
+  end: Caspoggio (back in the valley)
+  osm_relation_id: 6474351
+  gpx_source: null
+distance_km: 110
+total_ascent_m: 7951
+typical_days: { min: 8, max: 8 }
+when:
+  best_months: [July, August, September]
+  open_season: "Summer months only (route reaches ~3,000 m)"
+sleeping:
+  type: huts
+  booking_ahead: null
+  notes: "Main Valmalenco rifugi (e.g. Marinelli, Bignami); can be split into 2–3-day mini routes."
+difficulty:
+  level: 4
+  reason: "Highest pass Bocchetta di Caspoggio ~3,000 m with crossing of the Vedretta di Caspoggio between Marinelli and Bignami huts"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://sondrioevalmalenco.it/en/tours/alta-della-valmalenco
+establishment_signals: [regional route (OSM rwn), waymarked, tourism-board pages (Sondrio e Valmalenco, inLombardia, Bormio)]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://bormio.eu/en/alta-via-della-valmalenco
+  total_ascent_m: https://www.bormio.eu/en/itinerari/cammino/alta-via-della-valmalenco
+  typical_days: https://sondrioevalmalenco.it/en/tours/alta-della-valmalenco
+  best_months: https://bormio.eu/en/alta-via-della-valmalenco
+  open_season: https://www.bormio.eu/it/itinerari/cammino/document-en-alta-via-della-valmalenco-it-alta-via-della-valmalenco-de-alta-via-della-valmalenco
+  sleeping: https://www.gps-tour.info/it/viaggio/detail.46838.html
+  difficulty: https://www.gps-tour.info/it/viaggio/detail.46838.html
+  logistics: null
+  permit: null
+conflicts:
+  - field: distance_km
+    values: [{ value: 110, source: "https://bormio.eu/en/alta-via-della-valmalenco" }, { value: 101.5, source: "https://www.bormio.eu/en/itinerari/cammino/alta-via-della-valmalenco" }]
+last_verified: 2026-11-27
+```
+
+#### 33. Dolomiti di Brenta Trek (DBT) (Tier 4)
+
+Signals: Waymarked whole route, Official site / trail authority
+
+```yaml
+id: dolomiti-di-brenta-trek
+name: Dolomiti di Brenta Trek (DBT)
+countries: [IT]
+region: Brenta Dolomites, Adamello Brenta Nature Park (Trentino)
+one_liner: "Official 11-stage hut loop around the Brenta Dolomites at ~2,000 m on SAT trails, with via ferrata stages or walking variants."
+route:
+  type: loop
+  start: Madonna di Campiglio (common start)
+  end: Madonna di Campiglio
+  osm_relation_id: null
+  gpx_source: null
+distance_km: 96
+total_ascent_m: null
+typical_days: { min: 11, max: 11 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: huts
+  booking_ahead: null
+  notes: "Rifugi of the SAT/CAI network; 7 variants allow shortening or avoiding via ferratas."
+difficulty:
+  level: 4
+  reason: "Full 'expert' version uses equipped paths and via ferratas; walking variants exist"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.campigliodolomiti.it/en/routes-trails/dolomiti-di-brenta-trek-high-altitude-circular-trekking-of-11-stages
+establishment_signals: [official tourism-board trek (Madonna di Campiglio / Adamello Brenta park), waymarked SAT trails, UNESCO Dolomites area, offered by trek operators]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.campigliodolomiti.it/en/routes-trails/dolomiti-di-brenta-trek-high-altitude-circular-trekking-of-11-stages
+  total_ascent_m: null
+  typical_days: https://www.campigliodolomiti.it/en/routes-trails/dolomiti-di-brenta-trek-high-altitude-circular-trekking-of-11-stages
+  best_months: null
+  open_season: null
+  sleeping: https://www.campigliodolomiti.it/en/routes-trails/dolomiti-di-brenta-trek-high-altitude-circular-trekking-of-11-stages
+  difficulty: https://www.campigliodolomiti.it/en/routes-trails/dolomiti-di-brenta-trek-high-altitude-circular-trekking-of-11-stages
+  logistics: null
+  permit: null
+conflicts: []
+last_verified: 2026-11-27
+```
+
+#### 34. Sentiero Italia CAI (SICAI) (Tier 4)
+
+Signals: Official status, Official site / trail authority
+
+```yaml
+id: sentiero-italia-cai
+name: Sentiero Italia CAI (SICAI)
+countries: [IT]
+region: All Italian regions (Sardinia, Sicily, Apennines, Alps)
+one_liner: "Italy's 8,000 km national trail along every mountain range from Sardinia and Sicily up the Apennines and across the Alps to Trieste."
+route:
+  type: point-to-point
+  start: Santa Teresa Gallura (Sardinia)
+  end: Muggia (Trieste)
+  osm_relation_id: 1021025
+  gpx_source: null
+distance_km: 7949
+total_ascent_m: null
+typical_days: null
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: null
+  booking_ahead: null
+  notes: null
+difficulty:
+  level: 3
+  reason: "Varies by section: mostly CAI grade E with some EE (expert hiker) mountain stages; some stages not yet walkable"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: partial
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://sentieroitalia.cai.it/en/
+establishment_signals: [national trail of the Italian Alpine Club (OSM nwn), official website and digital map, partly waymarked red-white "SI", covered in travel articles]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.italia.it/en/italy/things-to-do/sentiero-italia-cai-along-italian-mountains
+  total_ascent_m: null
+  typical_days: null
+  best_months: null
+  open_season: null
+  sleeping: null
+  difficulty: https://www.garmin.com/it-IT/blog/outdoor/sentiero-italia/
+  logistics: null
+  permit: null
+conflicts:
+  - field: distance_km
+    values: [{ value: 7949, source: "https://www.italia.it/en/italy/things-to-do/sentiero-italia-cai-along-italian-mountains" }, { value: 8000, source: "https://sentieroitalia.cai.it/en/" }]
+last_verified: 2026-11-27
+```
+
+#### 35. Alta Badia High Route (Alta Via dell'Alta Badia) (Tier 5)
+
+Signals: Official site / trail authority
+
+```yaml
+id: alta-badia-high-route
+name: Alta Badia High Route (Alta Via dell'Alta Badia)
+countries: [IT]
+region: Alta Badia, Puez-Odle and Fanes-Senes-Braies parks (South Tyrol)
+one_liner: "Five-to-seven-day hut loop from Corvara through two UNESCO Dolomites nature parks and around the Sella."
+route:
+  type: loop
+  start: Corvara
+  end: Corvara
+  osm_relation_id: null
+  gpx_source: null
+distance_km: 76
+total_ascent_m: 5550
+typical_days: { min: 5, max: 7 }
+when:
+  best_months: [June, July, August, September]
+  open_season: "Recommended mid-June to end of September"
+sleeping:
+  type: null
+  booking_ahead: null
+  notes: null
+difficulty:
+  level: 2
+  reason: "Rated easy (harder for climbing variants); includes the steep Forcella del Lago passage"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: null
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+establishment_signals: [tourism-portal route page, crosses UNESCO Dolomites nature parks]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+  total_ascent_m: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+  best_months: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+  open_season: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+  sleeping: null
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alta-badia-high-route
+  logistics: null
+  permit: null
+conflicts: []
+last_verified: 2026-11-27
+```
+
+#### 36. Tiroler Höhenweg (Alta Via Tiroler Höhenweg) (Tier 5)
+
+Signals: Official site / trail authority
+
+```yaml
+id: tiroler-hoehenweg
+name: Tiroler Höhenweg (Alta Via Tiroler Höhenweg)
+countries: [AT, IT]
+region: Zillertal Alps / Stubai / Texel group (Tyrol to South Tyrol)
+one_liner: "Demanding 11–13-day high route from Mayrhofen across the main Alpine ridge to Merano, staying between 1,600 and 3,000 m."
+route:
+  type: point-to-point
+  start: Mayrhofen (AT)
+  end: Merano (IT)
+  osm_relation_id: null
+  gpx_source: null
+distance_km: 158
+total_ascent_m: 8500
+typical_days: { min: 11, max: 13 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: mixed
+  booking_ahead: null
+  notes: "Alternates high-mountain huts and small valley villages."
+difficulty:
+  level: 4
+  reason: "Demanding high route between 1,600 and 3,000 m with big daily ascents"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: null
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+establishment_signals: [cross-border high route (AT/IT), tourism-portal route page]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+  total_ascent_m: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+  best_months: null
+  open_season: null
+  sleeping: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+  logistics: null
+  permit: null
+conflicts:
+  - field: distance_km
+    values: [{ value: "158 km / 13 stages", source: "https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people" }, { value: "130 km / 11 days (same page)", source: "https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people" }]
+last_verified: 2026-11-27
+```
+
+#### 37. Giro del Monviso (Tour du Viso) (Tier 6)
+
+Signals: none of the five could be sourced
+
+```yaml
+id: giro-del-monviso
+name: Giro del Monviso (Tour du Viso)
+countries: [IT, FR]
+region: Cottian Alps, Monviso Regional Park (Piedmont / Queyras)
+one_liner: "Short, high circuit of the 'King of Stone' via the Vallanta and Traversette passes and the 15th-century Buco di Viso tunnel."
+route:
+  type: loop
+  start: Pian del Re (Crissolo) or Castello (Pontechianale)
+  end: Same as start
+  osm_relation_id: 18285817
+  gpx_source: null
+distance_km: 35
+total_ascent_m: 2300
+typical_days: { min: 3, max: 3 }
+when:
+  best_months: null
+  open_season: null
+sleeping:
+  type: huts
+  booking_ahead: null
+  notes: "Rifugi Quintino Sella, Vallanta, Viso (FR) and others around the mountain."
+difficulty:
+  level: 3
+  reason: "Passes near 2,900 m (Traversette, Vallanta), rough scree, long ascents"
+logistics:
+  getting_to_start: null
+  leaving_from_end: null
+  nearest_airports: null
+flags:
+  permit: null
+  permit_notes: null
+  waymarked: null
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: null
+establishment_signals: [regional route relation in OSM (rwn), crosses Monviso regional park, overlaps Via Alpina and Sentiero Italia, offered by trek operators]
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://fastestknowntime.com/route/giro-di-viso-italy-france
+  total_ascent_m: https://fastestknowntime.com/route/giro-di-viso-italy-france
+  typical_days: https://www.komoot.com/ko-kr/user/girodiviso
+  best_months: null
+  open_season: null
+  sleeping: https://www.komoot.com/tour/386769766
+  difficulty: https://blog.komoot.de/smarttour/e1390443795/tour-of-monviso-stage-4
+  logistics: null
+  permit: null
+conflicts: []
+last_verified: 2026-11-27
+```
+
+## 2. Excluded candidates
+
+| Candidate | Rule failed | Note / source |
+|---|---|---|
+| Sentiero degli Dei (Path of the Gods, Amalfi Coast) | Rule 1: day walk | ~7 km, 1.5–2 h ([Wild Junket](https://wildjunket.com/path-of-the-gods/)) |
+| Sentiero Azzurro / Cinque Terre coastal path | Rule 1: half-day to 1 day | "You can complete this route in half a day" ([10Adventures](https://www.10adventures.com/10-best-treks-italy/)) |
+| Tre Cime di Lavaredo circuit | Rule 1: day hike | Not source-checked in this pass |
+| "Tour at the foot of Monviso" (Crissolo/Pontechianale) | Rule 1: 2 days | Two-day outing, explicitly *not* the Giro del Monviso ([Visit Cuneese](https://www.visitcuneese.it/en/dettaglio-itinerario/-/d/tour-ai-piedi-del-monviso)) |
+| Tor des Géants / "Giro dei Giganti" | Rule 2: race course, not a separate trek | 330 km ultra-trail joining AV1 + AV2 Valle d'Aosta, both included separately ([lovevda PDF](https://gestwww.lovevda.it/Media/Default/PdfPreviewWidget/PdfPreviewWidget_23058/AltaVia_1_Ing_Ted_2014.pdf)) |
+| Alta Via del Sale (Limone–Monesi) | Rule 2: it's an unpaved road for bikes, motorbikes and 4x4, not a hiking trek | ([thewom.it](https://travel.thewom.it/italia/strada-sterrata-piu-panoramica-deuropa.html)) |
+| Operator itineraries ("Monviso South Express", "Best of Alta Via 1", "Dolomiti Highlights", Explore-Share/57hours packages) | Rule 2: commercial cuts of other routes | e.g. [bookatrekking](https://bookatrekking.com/en/trek/monviso-south-express-trek-3-days/) |
+| Via Alpina | Not assessed as a single trek: network of 5 routes, ~5,000 km, 342 stages | Its Italian legs overlap GTA, TMB and Dolomites routes ([sentieriliguria](https://sites.google.com/view/sentieriliguria/percorsi/interregionali)) |
+
+Not excluded on Rule 3 (independence), but flagged: Selvaggio Blu (guide strongly recommended), Tour Monte Rosa and Tour of the Matterhorn (glacier crossings; Zermatt Tourism recommends a guide), Sentiero della Pace (first sections "with experts"), Alta Via della Valmalenco (glacier crossing). No candidate needed a permit lottery or quota.
+
+## 3. Open questions for a human check
+
+### Systemic
+1. **Wikimedia Commons photos.** Commons and the Wikipedia API couldn't be fetched directly from my research environment. Authors and licences were read from search-result copies of the Commons file pages. Re-check each before publishing (e.g. with the Commons `imageinfo`/`extmetadata` API). 32 treks have fewer than 3 photos, and 29 have none.
+2. **Trip reports.** Only 9 treks reached 3–5 first-hand reports. Many smaller routes have 0–2.
+3. **`permit` = null** on 25 treks. No permit is likely needed on any of them, but I found no source that says so explicitly. Where I set `permit: none`, a source stated it or described the logistics without one.
+4. **OSM relations to confirm:**
+   - GTA superroute 3159979 maps only ~296 km of the ~809 km route.
+   - Tour du Cervin 1176308 runs St. Niklaus→Zermatt, not from Randa.
+   - Sentiero della Pace 3477430 ends at San Martino di Castrozza, not the Marmolada.
+   - Via Francigena 11860709 is the whole Canterbury–Rome superroute (no Italy-only relation).
+   - AV6: two relations exist (I used the superroute 3865163; route 22040172 is a partial one).
+   - GTE has two "Grande Traversata Elbana" relations (4847712, 15395946), so I left it `null`.
+   - No relation found for: Dolomiti di Brenta Trek, Alta Badia High Route, Tiroler Höhenweg, E5 Oberstdorf–Merano, Via di Francesco (Via del Nord).
+5. **gpx_source** is `null` everywhere. Official GPX files exist on several official sites (Cicerone, viadifrancesco.it, VisitTrentino, Sentiero Italia map) but I didn't verify direct links.
+
+### Trek-specific conflicts and gaps
+- **Alta Via 2 Valle d'Aosta:** official route is Courmayeur→Donnas (14 stages). Cicerone's guide describes Chardonney→Courmayeur (~148 km). Decide which you'll map.
+- **Via degli Dei:** the official site quotes "around 5,000 m total altitude difference", which is ambiguous (up+down?), so `total_ascent_m` is null. Distance is 125 or 130 km.
+- **Translagorai:** sources disagree on water (magicoveneto says abundant, the FKT page says scarce). Distance is 76–80 km.
+- **Tour of the Matterhorn, Tour des Combins, Tiroler Höhenweg, Via Spluga, Giro del Monviso:** best months and season are unsourced.
+- **Lago di Braies (AV1 start):** private car access is restricted 1 July–15 September. Check whether the 442 bus also needs a reservation.
+- **Giro del Monviso:** borderline on Rule 1 (35 km, often done in 2–3 days), and none of the five ranking signals could be sourced. Keep or drop?
+- **Sentiero del Viandante:** I rated difficulty 2 from the ascent data, but italia.it rates it "difficult". The route length varies a lot depending on which start and end you pick.
+- **AVML, Sentiero Italia CAI:** mostly empty. These are mega-routes where per-section data would serve the site better than whole-route fields.
+- **Alpe-Adria-Trail:** distance is 750 km officially, with 690–720 km in other sources.
+
+### Candidates identified but not yet researched
+I didn't screen these, so they're neither included nor excluded:
+- Cammino dei Briganti, Cammino Materano, Sentiero delle Orobie, Alta Via dei Parchi (Emilia-Romagna), Via dei Monti Lariani
+- Cammino di Oropa, Tratturo Magno, Romea Strata, Via Romea Germanica, Cammino di Assisi, Via Postumia, Sentiero Liguria, Cammino dei Santuari del Mare
+- Dolomites Alta Via 7, 8 and 10 (Garda–Brenta; all have OSM relations), Alta Via del Porfido, Dolomiti Palaronda
+- Grande Traversata delle Alpi Apuane, Sentiero Frassati network, Via Francigena del Sud, Magna Via Francigena (Sicily), Cammino Minerario di Santa Barbara (Sardinia)
+- Further entries in the Italian "Atlante dei Cammini"
+
+Italy has more than 100 named cammini, so this list is not complete.

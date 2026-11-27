@@ -1,0 +1,113 @@
+id: high-scardus-trail
+status: draft
+name: High Scardus Trail (HST)
+countries:
+  - MK
+  - XK
+  - AL
+region: Šar, Korab, Deshat, Jablanica and Galičica mountains (Albania–Kosovo–North Macedonia borderlands)
+one_liner: A three-week, little-walked border-ridge trek over Mt Korab, Albania's highest peak, with village guesthouses, eight permit crossings and patchy waymarks.
+route:
+  type: point-to-point
+  start: Staro Selo (North Macedonia)
+  end: Sveti Naum Monastery, Lake Ohrid (North Macedonia)
+  osm_relation_id: 16214640
+distance_km: 314
+total_ascent_m: 18385
+typical_days:
+  min: 20
+  max: 22
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Late June to end of September; snow can arrive from early October, when accommodation closes for winter. Late snow can linger on Šar planina into early July.
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: Mostly village guesthouses (about €25 B&B plus €10 for dinner and packed lunch), a few mountain huts and summer chalets. Gornje Ljubinje and Strezimir have very limited beds. Wild camping is neither formally banned nor permitted on most of the route.
+difficulty:
+  level: 4
+  reason: Remote border ridges and high passes up to 2,764 m (Korab), days up to 25.9 km, sparse resupply and route-finding across pathless pasture; no scrambling.
+logistics:
+  getting_to_start: Fly to Skopje, bus to Tetovo (about 40 min), then taxi to Staro Selo (about 20 km). Staro Selo has no beds; stay in nearby Vratnica.
+  leaving_from_end: Bus or seasonal ferry from Sveti Naum to Ohrid; buses from Ohrid to Skopje or Tirana (about 3 h each).
+  nearest_airports:
+    - Skopje (SKP)
+    - Pristina (PRN)
+flags:
+  permit: paid-permit
+  permit_notes: "Eight green-border crossings, each needing a permit: about €5 per hiker per crossing (capped at €50 for up to 20). Apply 2–8 weeks ahead through each country's foreign ministry or an agency (Zbulo, Shar Outdoors, SuperXplorers). Permits are for fixed dates and direction. No quota."
+  waymarked: partial
+links:
+  official_site: https://www.high-scardus-trail.com
+establishment_signals:
+  - "Official status: international trail (OSM network iwn), developed by GIZ with the three countries; named Best European Project 2022 by the British Guild of Travel Writers"
+  - Official website (high-scardus-trail.com)
+  - "Guidebook: Rudolf Abraham, 'Hiking the High Scardus Trail' (Cicerone, 1st edition 2026)"
+  - Regularly covered in travel articles (National Geographic, Lonely Planet, Atlas & Boots)
+  - "Partly waymarked: red-white rectangles and HST signs in Albania, but marking ranges from clear to non-existent"
+trip_reports:
+  - url: https://www.atlasandboots.com/?p=103151
+    title: "High Scardus Trail in Albania: everything you need to know"
+    summary: "Peter Watson walked the Albanian section self-guided (Zbulo): 6 trekking days Kukës–Çajë–Radomirë–Korab–Grama–Rabdisht–Bellovë, 92 km."
+  - url: https://www.cicerone.co.uk/in-conversation-with-rudolf-abraham-hiking-the-high-scardus-trail
+    title: "In conversation with Rudolf Abraham: Hiking the High Scardus Trail"
+    summary: "The guidebook author on walking the whole trail: thin paths in places, simple but welcoming guesthouses, and permits best arranged through an agency."
+  - url: https://www.outdoor-magazin.com/wanderwege/fernwanderung-high-scardus-trail-durch-albanien-kosovo-und-mazedonien
+    title: "Abenteuer Balkan: High Scardus Trail (German)"
+    summary: First-person report from Vejce to the Kobilica hut and on toward Šar and Korab; warns the signage is incomplete and GPS is needed.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Panair_Korab.jpg
+    author: Albinfo
+    license: CC BY-SA 3.0 (also GFDL)
+    shows: The Korab range from the Panair plain on the Albanian side
+  - file_url: https://commons.wikimedia.org/wiki/File:Fshati_Radomire.jpg
+    author: Jonuz Kola
+    license: CC BY-SA 4.0
+    shows: Radomirë village, the base for Mt Korab
+  - file_url: https://commons.wikimedia.org/wiki/File:Mali_Korabit.jpg
+    author: Fation Plaku
+    license: CC BY-SA 4.0
+    shows: Korab mountain in Korab-Koritnik Nature Park
+sources:
+  distance_km: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  total_ascent_m: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  typical_days: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  best_months: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  open_season: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  sleeping: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  difficulty: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  logistics: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  nearest_airports: https://www.outdoor-magazin.com/wanderwege/high-scardus-trail-albanische-alpen-v1/
+  permit: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  waymarked: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+  official_site: https://hiking.waymarkedtrails.org/api/v1/details/relation/16214640
+  award: https://butterflyoutdoor.com/high-scardus-trail-11-days/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/16214640
+conflicts:
+  - field: distance_km
+    values:
+      - value: 314
+        source: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+      - value: 296
+        source: https://www.ebook.de/de/product/52686113/.html (earlier blurb for the same guidebook)
+      - value: 362
+        source: https://muchbetteradventures.com/magazine/high-scardus-trail
+      - value: 495 (2018 launch route, ending at Prespa in Albania)
+        source: https://www.tiranatimes.com/new-long-distance-hiking-trail-links-albania-kosovo-macedonia/
+  - field: total_ascent_m
+    values:
+      - value: 18385 (sum of the 20 walking stages in the Cicerone stage table)
+        source: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+      - value: 22490 (362 km version)
+        source: https://www.wildwesternbalkans.com/en/long-distance-hikes/western-balkans/long-distance-hikes-in-the-western-balkans/251944100/
+  - field: best_months
+    values:
+      - value: late June to September
+        source: https://www.cicerone.co.uk/hiking-the-high-scardus-trail-a-complete-planning-guide
+      - value: mid-June to mid-October
+        source: https://muchbetteradventures.com/magazine/high-scardus-trail
+last_verified: 2026-11-27

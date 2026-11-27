@@ -1,0 +1,55 @@
+id: vier-quellen-weg
+status: draft
+name: Vier-Quellen-Weg (Four Springs Trail) – regional route 49
+countries:
+  - CH
+region: Gotthard massif – Uri, Graubünden, Ticino, Valais
+one_liner: Five hut-and-pass days around the Gotthard linking the sources of the Rhine, Reuss, Ticino and Rhône over six passes.
+route:
+  type: point-to-point
+  start: Oberalppass (Andermatt)
+  end: Furkapass (Belvédère)
+  osm_relation_id: 3094421
+distance_km: 82
+total_ascent_m: 4700
+typical_days:
+  min: 5
+  max: 5
+when:
+  best_months: []
+  open_season: Package offers run late June to mid-September.
+sleeping:
+  type: mixed
+  notes: Stage ends include Vermigelhütte, Gotthard Pass, Capanna Piansecco CAS and the village of Obergesteln.
+difficulty:
+  level: 3
+  reason: Technically medium, physically difficult; ~940 m ascent per day over Maighels, Sella, Gotthard, Lucendro, Nufenen and Furka passes.
+logistics:
+  getting_to_start: Oberalppass above Andermatt.
+  leaving_from_end: Furka Pass (Belvédère).
+  nearest_airports:
+    - Zurich
+    - Milan Malpensa
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.myswitzerland.com/en/experiences/route/vier-quellen-weg/
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en/experiences/route/vier-quellen-weg/
+  total_ascent_m: https://www.myswitzerland.com/en/experiences/route/vier-quellen-weg/
+  typical_days: https://www.myswitzerland.com/en/experiences/route/vier-quellen-weg/
+  open_season: https://www.myswitzerland.com/en/experiences/route/vier-quellen-weg/
+  sleeping: https://www.myswitzerland.com/en/experiences/route/vier-quellen-weg/
+  difficulty: https://www.myswitzerland.com/en/experiences/route/vier-quellen-weg/
+  logistics: https://www.myswitzerland.com/en/experiences/route/vier-quellen-weg/
+  permit: https://www.myswitzerland.com/en/experiences/route/vier-quellen-weg/
+last_verified: 2026-11-27

@@ -1,0 +1,63 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Alpe Adria Trail Markierung.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Alpe_Adria_Trail_Markierung.jpg",
+    "author": "Naturpuur",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "shows": "Alpe-Adria-Trail waymark",
+    "width": 960,
+    "height": 781,
+    "sizes": {
+      "480": "/photos/alpe-adria-trail/7806ae4e10-480.webp",
+      "960": "/photos/alpe-adria-trail/7806ae4e10-960.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Innerfragant Wasserfall am Alpe Adria Trail, Mölltal, Kärnten.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Innerfragant_Wasserfall_am_Alpe_Adria_Trail,_M%C3%B6lltal,_K%C3%A4rnten.jpg",
+    "author": "Naturpuur",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "shows": "Innerfragant waterfall on the trail, Mölltal",
+    "width": 960,
+    "height": 640,
+    "sizes": {
+      "480": "/photos/alpe-adria-trail/6b6258198d-480.webp",
+      "960": "/photos/alpe-adria-trail/6b6258198d-960.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Alpe Adria Trail Etappe 27 über den Kolovrat (1169 m) nach Castelmonte.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Alpe_Adria_Trail_Etappe_27_%C3%BCber_den_Kolovrat_(1169_m)_nach_Castelmonte.jpg",
+    "author": "Naturpuur",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "shows": "Stage 27 over the Kolovrat ridge towards Castelmonte",
+    "width": 960,
+    "height": 1073,
+    "sizes": {
+      "480": "/photos/alpe-adria-trail/ddf6530f10-480.webp",
+      "960": "/photos/alpe-adria-trail/ddf6530f10-960.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Muggia, Monument Alpe-Adria-Trail, final destination stage 37 from the glacier (AT) to sea (IT).jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Muggia,_Monument_Alpe-Adria-Trail,_final_destination_stage_37_from_the_glacier_(AT)_to_sea_(IT).jpg",
+    "author": "Naturpuur",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Finish monument in Muggia",
+    "width": 1600,
+    "height": 2012,
+    "sizes": {
+      "480": "/photos/alpe-adria-trail/16e26d6f61-480.webp",
+      "960": "/photos/alpe-adria-trail/16e26d6f61-960.webp",
+      "1600": "/photos/alpe-adria-trail/16e26d6f61-1600.webp"
+    }
+  }
+]

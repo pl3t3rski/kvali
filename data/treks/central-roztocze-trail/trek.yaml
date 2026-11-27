@@ -1,0 +1,49 @@
+id: central-roztocze-trail
+status: draft
+name: Central Roztocze Trail (Centralny Szlak Roztocza)
+countries:
+  - PL
+region: Roztocze
+one_liner: Five to seven days through Roztocze's beech forests, loess gullies and border villages, from Szastarka to the spa of Horyniec-Zdrój.
+route:
+  type: point-to-point
+  start: Szastarka
+  end: Horyniec-Zdrój
+  osm_relation_id: 2204530
+distance_km: 190
+typical_days:
+  min: 5
+  max: 7
+when:
+  best_months: []
+difficulty:
+  level: 1
+  reason: Gentle upland; loess roads get very heavy after rain.
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  waymarked: yes
+establishment_signals:
+  - waymarked along the whole route (PTTK national-network trail)
+  - covered in travel articles (National Geographic Traveler list of Poland's 15 best walks)
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Horyniec-Zdrój,_deptak_(HB8).jpg
+    author: Henryk Bielamowicz
+    license: CC BY-SA 4.0
+    shows: Promenade in Horyniec-Zdrój, the end of the trail
+sources:
+  distance_km: https://hiking.waymarkedtrails.org/api/v1/details/relation/2204530
+  typical_days: https://radio.lublin.pl/2024/05/szlak-pieszy-przez-lubelszczyzne-jednym-z-najpiekniejszych-w-polsce-zdjecia
+  difficulty: https://radio.lublin.pl/2024/05/szlak-pieszy-przez-lubelszczyzne-jednym-z-najpiekniejszych-w-polsce-zdjecia
+  route_start_end: https://hiking.waymarkedtrails.org/api/v1/details/relation/2204530
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/2204530
+conflicts:
+  - field: distance_km
+    values:
+      - value: 190
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/2204530
+      - value: 195
+        source: https://radio.lublin.pl/2024/05/szlak-pieszy-przez-lubelszczyzne-jednym-z-najpiekniejszych-w-polsce-zdjecia
+last_verified: 2026-11-27

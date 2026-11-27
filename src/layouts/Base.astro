@@ -1,8 +1,13 @@
 ---
 /**
- * Bare page shell: head tags only, no styling yet. The design goes in here later.
+ * The page shell: head tags, the two type families, the design stylesheet, and the
+ * header with the logo. Every page uses it.
  */
+import '../styles/kvali.css';
 import { SITE_NAME, SITE_TAGLINE } from '../config';
+import Logo from '../design/Logo.astro';
+import { includeDrafts } from '../data/treks';
+import { sitePath, url } from '../lib/paths';
 
 interface Props {
   title?: string;
@@ -18,18 +23,22 @@ interface Props {
 const { title, description = SITE_TAGLINE, image, jsonLd, fullscreen = false } = Astro.props;
 const pageTitle = title ? `${title} · ${SITE_NAME}` : `${SITE_NAME} · ${SITE_TAGLINE}`;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
-const imageUrl = image ? new URL(image, Astro.site).href : undefined;
+const imageUrl = image ? new URL(url(image), Astro.site).href : undefined;
+const path = sitePath(Astro.url.pathname);
+// A build that shows drafts is a preview: search engines are asked to leave it alone.
+const preview = includeDrafts();
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="paper">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="sitemap" href={url('/sitemap-index.xml')} />
+    {preview && <meta name="robots" content="noindex" />}
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:title" content={pageTitle} />
@@ -37,29 +46,116 @@ const imageUrl = image ? new URL(image, Astro.site).href : undefined;
     <meta property="og:url" content={canonical} />
     {imageUrl && <meta property="og:image" content={imageUrl} />}
     <meta name="twitter:card" content={imageUrl ? 'summary_large_image' : 'summary'} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Karla is the reading voice. Shantell Sans is the hand voice: the second link loads it with its informality and bounce, the first is the plain fallback. -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400..700;1,400..700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght,BNCE,INFM@300..800,25,100&display=swap" />
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    <script is:inline>
+      // Pick the theme before the page is painted: the one chosen here before, else night when the device is set to dark.
+      (function () {
+        try {
+          var theme = localStorage.getItem('kvali-theme');
+          if (theme !== 'paper' && theme !== 'night') theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'night' : 'paper';
+          document.documentElement.dataset.theme = theme;
+        } catch (error) {}
+      })();
+    </script>
   </head>
   <body class:list={{ fullscreen }}>
-    <header>
-      <a href="/">{SITE_NAME}</a>
-      <nav><a href="/about/">About</a></nav>
+    <header class="site-header">
+      <a href={url('/')} class="home" aria-label="Kvali, to the map"><Logo height={44} /></a>
+      <nav aria-label="Site">
+        <a href={url('/')} class="kv-btn kv-btn-quiet" data-pen="button" data-pen-variant="quiet" aria-current={path === '/' ? 'page' : undefined}>Map</a>
+        <a href={url('/countries/')} class="kv-btn kv-btn-quiet" data-pen="button" data-pen-variant="quiet" aria-current={path.startsWith('/countries') ? 'page' : undefined}>Countries</a>
+        <a href={url('/about/')} class="kv-btn kv-btn-quiet" data-pen="button" data-pen-variant="quiet" aria-current={path.startsWith('/about') ? 'page' : undefined}>About</a>
+        <button type="button" class="kv-btn kv-btn-quiet" data-pen="button" data-pen-variant="quiet" id="theme-toggle" hidden><span>Night</span></button>
+      </nav>
     </header>
     <main>
       <slot />
     </main>
+    <script>
+      // Draw every frame, underline and highlight the page asks for.
+      import { enhance } from '../design/sketch';
+      enhance();
+
+      // The theme switch: paper by day, night on request. The choice is remembered on this device.
+      const toggle = document.getElementById('theme-toggle');
+      if (toggle) {
+        const root = document.documentElement;
+        const label = () => {
+          const night = root.dataset.theme === 'night';
+          toggle.querySelector('span')!.textContent = night ? 'Day' : 'Night';
+          toggle.setAttribute('aria-label', night ? 'Switch to the paper theme' : 'Switch to the night theme');
+        };
+        label();
+        toggle.hidden = false;
+        toggle.addEventListener('click', () => {
+          root.dataset.theme = root.dataset.theme === 'night' ? 'paper' : 'night';
+          try {
+            localStorage.setItem('kvali-theme', root.dataset.theme);
+          } catch {
+            // Without storage the choice lasts for this page only.
+          }
+          label();
+          // The map draws with the theme's colours, so it is told to redraw.
+          window.dispatchEvent(new CustomEvent('kvali:theme'));
+        });
+      }
+    </script>
   </body>
 </html>
 
 <style is:global>
-  /* Layout only: lets the map view fill the window below the header. */
+  .site-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3) var(--space-5);
+    padding: var(--space-3) var(--space-6);
+  }
+  .site-header .home {
+    display: inline-flex;
+  }
+  .site-header nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+  /* A page of text: one column, set off to the left. */
+  .page {
+    box-sizing: border-box;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: var(--space-5) var(--space-6) var(--space-7);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-7);
+  }
+  .stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+  /* Lets the map view fill the window below the header. */
   body.fullscreen {
     display: flex;
     flex-direction: column;
     height: 100dvh;
-    margin: 0;
   }
   body.fullscreen > main {
     flex: 1;
     min-height: 0;
+  }
+  @media (max-width: 767px) {
+    .site-header {
+      padding: var(--space-3) var(--space-4);
+    }
+    .page {
+      padding: var(--space-4) var(--space-4) var(--space-7);
+    }
   }
 </style>

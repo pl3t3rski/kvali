@@ -1,0 +1,49 @@
+id: karavanke-trail
+status: draft
+name: Karavanke Trail
+countries:
+  - SI
+region: Karavanke (Slovenian side)
+one_liner: Seven stages along the Slovenian slopes and valleys of the Karavanke, from Jezersko to Kranjska Gora, with views of the whole range.
+route:
+  type: point-to-point
+  start: Zgornje Jezersko
+  end: Kranjska Gora
+distance_km: 143
+total_ascent_m: 4703
+typical_days:
+  min: 7
+  max: 7
+when:
+  best_months: []
+difficulty:
+  level: 2
+  reason: Stages of 14-28 km; stage 1 is a demanding mountain path with no exposed sections.
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://slovenia-outdoor.com/en/karavanke-long-distance-hiking-trail/
+establishment_signals:
+  - official website (Slovenian Tourist Board / local tourism)
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Narcise-Golica1.jpg
+    author: Sl-Ziga
+    license: CC BY-SA 3.0
+    shows: Daffodil meadows at Golica (Planina pod Golico, mentioned on the route)
+sources:
+  distance_km: https://slovenia-outdoor.com/en/karavanke-long-distance-hiking-trail/
+  total_ascent_m: https://www.visit.jesenice.si/en/adventures/hiking-and-climbing/long-distance-and-mountain-trails/
+  typical_days: https://slovenia-outdoor.com/en/karavanke-long-distance-hiking-trail/
+  difficulty: https://www.bergfex.com/sommer/gorenjska/touren/fernwanderweg/2021295,der-karawanken-fernwanderweg--etappe-1-zg-jezersko--preddvor/
+conflicts:
+  - field: distance_km
+    values:
+      - value: 143
+        source: https://slovenia-outdoor.com/en/karavanke-long-distance-hiking-trail/
+      - value: 144
+        source: https://www.bergfex.com/sommer/gorenjska/touren/fernwanderweg/2021303,karawanken-fernwanderweg-karawanken-trail--gesamtverlauf/
+last_verified: 2026-11-27

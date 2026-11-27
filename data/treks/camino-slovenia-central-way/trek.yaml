@@ -1,0 +1,37 @@
+id: camino-slovenia-central-way
+status: draft
+name: Camino Slovenia – Central Way (Jakobova pot, Dolenjska and Primorska branches)
+countries:
+  - SI
+  - IT
+region: Dolenjska, Ljubljana, Notranjska, Karst
+one_liner: The main Slovenian Way of St James, pilgrim stamps from the Croatian border through Ljubljana to Trieste.
+route:
+  type: point-to-point
+  start: Obrežje (Croatian border)
+  end: Trieste (Italy)
+when:
+  best_months: []
+sleeping:
+  type: mixed
+  notes: Hostels, monasteries, parishes and private hosts for pilgrims; pilgrim passport from the Society of Friends of the Way of St James in Slovenia.
+logistics:
+  nearest_airports: []
+flags:
+  permit: free-registration
+  permit_notes: Optional pilgrim passport (credencial), needed for pilgrim lodging and the Slovenian 'Compostela' certificate.
+  waymarked: yes
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.jakobova-pot.si/jakobs-way-slovenia/
+establishment_signals:
+  - waymarked along the whole route
+  - official website (Society of Friends of the Way of St James in Slovenia)
+trip_reports: []
+photos: []
+sources:
+  sleeping: https://www.jakobova-pot.si/jakobs-way-slovenia/
+  permit: https://www.jakobova-pot.si/jakobs-way-slovenia/
+  waymarked: https://www.visitljubljana.com/fr/visiteurs/decouvrez/vacances-actives/le-chemin-de-saint-jacques/informations-pour-les-voyageurs
+conflicts: []
+last_verified: 2026-11-27

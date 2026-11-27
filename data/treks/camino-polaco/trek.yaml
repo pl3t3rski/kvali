@@ -1,0 +1,97 @@
+id: camino-polaco
+status: draft
+name: Camino Polaco (Droga św. Jakuba "Droga Polska")
+countries:
+  - PL
+region: Suwałki region, Masuria, Warmia, Chełmno Land, Kuyavia
+one_liner: The Polish Way of St James from the Lithuanian border through the Masurian lakes, Olsztyn and Toruń; four weeks of flat, quiet pilgrim walking with shell waymarks.
+route:
+  type: point-to-point
+  start: Ogrodniki (Polish-Lithuanian border)
+  end: Trzemeszno
+  gpx_source: https://www.caminoninja.com/caminos/camino-polaco
+distance_km: 650
+total_ascent_m: 2859
+typical_days:
+  min: 23
+  max: 28
+when:
+  best_months:
+    - May
+    - June
+    - July
+    - August
+    - September
+sleeping:
+  type: guesthouses
+  booking_ahead: recommended
+  notes: No dedicated pilgrim hostels listed; guesthouses, agritourism farms, rectories and parish halls. Book ahead in midsummer in the lake district.
+difficulty:
+  level: 1
+  reason: Flat lowland walking (highest point 196 m), about 25 km a day.
+logistics:
+  getting_to_start: Train Warsaw-Suwałki (~4.5 h), then bus via Sejny to the Ogrodniki border crossing; or fly to Kaunas/Vilnius and bus via Lazdijai.
+  leaving_from_end: "Mogilno station (Poznań-Toruń line): about 1.5 h to Poznań, 1 h to Toruń."
+  nearest_airports:
+    - Warsaw Chopin
+    - Warsaw Modlin
+    - Kaunas
+    - Vilnius
+    - Poznań-Ławica
+    - Bydgoszcz
+flags:
+  permit: none
+  permit_notes: Optional pilgrim passport (Paszport Pielgrzyma) from Stowarzyszenie Przyjaciele Dróg św. Jakuba w Polsce.
+  waymarked: partial
+  exposed_or_via_ferrata: false
+establishment_signals:
+  - official status (part of the Ways of St James network; promoted by regional tourism boards)
+  - published guidebook (Kuyavian-Pomeranian section, Wydawnictwo UMK)
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Pokrzydowo_Camino.jpg
+    author: Fionaelisa
+    license: CC BY-SA 4.0
+    shows: Camino Polaco waymark in Pokrzydowo
+  - file_url: https://commons.wikimedia.org/wiki/File:Ilawa-Camino-pielgrzymi.jpg
+    author: Fionaelisa
+    license: CC BY-SA 4.0
+    shows: Pilgrims on the Camino Polaco in Iława
+  - file_url: https://commons.wikimedia.org/wiki/File:Jakobsweg_Heiligelinde.jpg
+    author: Beatclub
+    license: CC BY-SA 4.0
+    shows: Granite marker at Święta Lipka (Heiligelinde) on the Camino Polaco
+sources:
+  distance_km: https://pomorskie.travel/en/articles/camino-in-pomorskie/
+  total_ascent_m: https://www.caminoninja.com/caminos/camino-polaco
+  typical_days: https://www.caminoninja.com/caminos/camino-polaco
+  best_months: https://www.caminoninja.com/caminos/camino-polaco
+  sleeping: https://www.caminoninja.com/caminos/camino-polaco
+  difficulty: https://www.caminoninja.com/caminos/camino-polaco
+  logistics: https://www.caminoninja.com/caminos/camino-polaco
+  permit: https://www.caminoninja.com/caminos/camino-polaco
+  waymarked: https://www.caminoninja.com/caminos/camino-polaco
+  guidebook: https://torun.pl/pl/print/pdf/node/49627
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/list/search?query=Camino%20Polaco&limit=10
+conflicts:
+  - field: distance_km
+    values:
+      - value: 650
+        source: https://pomorskie.travel/en/articles/camino-in-pomorskie/
+      - value: 638.8
+        source: https://www.caminoninja.com/caminos/camino-polaco
+      - value: 782.7
+        source: https://mapa-turystyczna.pl/trail/droga-sw-jakuba-camino-polaco-cf4
+  - field: route.end
+    values:
+      - value: Trzemeszno
+        source: https://pomorskie.travel/en/articles/camino-in-pomorskie/
+      - value: Mogilno
+        source: https://www.caminoninja.com/caminos/camino-polaco
+  - field: total_ascent_m
+    values:
+      - value: 2859
+        source: https://www.caminoninja.com/caminos/camino-polaco
+      - value: 3451
+        source: https://mapa-turystyczna.pl/trail/droga-sw-jakuba-camino-polaco-cf4
+last_verified: 2026-11-27

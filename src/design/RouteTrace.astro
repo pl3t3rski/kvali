@@ -1,0 +1,91 @@
+---
+/**
+ * The trace of a trek: its real route as a dotted line, north up, drawn at build time.
+ * In the design system a dotted line always means a route or footsteps, and this is one.
+ * The shape is not wobbled: every dot sits on the route. Only the two end rings are drawn by hand.
+ *
+ * The ends are not named, because the direction of the line in OpenStreetMap need not
+ * match the direction the trek is walked.
+ */
+import { readFileSync } from 'node:fs';
+import type { RouteFeature } from '../data/types';
+import { linesOf } from '../lib/geo';
+import { PEN, loopD, rngFrom } from './pen';
+
+interface Props {
+  /** Path of the trek's route.geojson. */
+  routePath: string;
+  /** Seeds the hand-drawn rings, so a trek always gets the same drawing. */
+  seed: string;
+  /** Read aloud in place of the drawing. */
+  label: string;
+}
+const { routePath, seed, label } = Astro.props;
+
+const route = JSON.parse(readFileSync(routePath, 'utf8')) as RouteFeature;
+const lines = linesOf(route.geometry);
+const all = lines.flat();
+
+// A small area, so longitude only needs squeezing by the cosine of the latitude.
+const midLat = (Math.min(...all.map((p) => p[1])) + Math.max(...all.map((p) => p[1]))) / 2;
+const squeeze = Math.cos((midLat * Math.PI) / 180);
+const flat = lines.map((line) => line.map(([lon, lat]) => [lon * squeeze, -lat] as [number, number]));
+const xs = flat.flat().map((p) => p[0]);
+const ys = flat.flat().map((p) => p[1]);
+const minX = Math.min(...xs);
+const minY = Math.min(...ys);
+const spanX = Math.max(...xs) - minX || 1e-6;
+const spanY = Math.max(...ys) - minY || 1e-6;
+
+const WIDTH = 640;
+const MARGIN = 36;
+const MAX_HEIGHT = 520;
+const scale = Math.min((WIDTH - 2 * MARGIN) / spanX, (MAX_HEIGHT - 2 * MARGIN) / spanY);
+const height = Math.round(spanY * scale + 2 * MARGIN);
+const offsetX = (WIDTH - spanX * scale) / 2;
+const onPaper = flat.map((line) => line.map(([x, y]) => [offsetX + (x - minX) * scale, MARGIN + (y - minY) * scale] as [number, number]));
+
+// One dot every 11 px along the route.
+const PITCH = 11;
+const dots: [number, number][] = [];
+for (const line of onPaper) {
+  let untilNext = 0;
+  for (let i = 1; i < line.length; i++) {
+    const [ax, ay] = line[i - 1];
+    const [bx, by] = line[i];
+    const length = Math.hypot(bx - ax, by - ay);
+    let walked = 0;
+    while (length - walked >= untilNext) {
+      walked += untilNext;
+      const t = length === 0 ? 0 : walked / length;
+      dots.push([ax + (bx - ax) * t, ay + (by - ay) * t]);
+      untilNext = PITCH;
+    }
+    untilNext -= length - walked;
+  }
+}
+
+const first = onPaper[0][0];
+const lastLine = onPaper[onPaper.length - 1];
+const last = lastLine[lastLine.length - 1];
+const closed = Math.hypot(first[0] - last[0], first[1] - last[1]) < 14;
+const rng = rngFrom(seed);
+const rings = (closed ? [first] : [first, last]).map((point) => loopD(point[0], point[1], 11, 10, PEN.fine, rng));
+const round = (value: number) => Math.round(value * 10) / 10;
+---
+
+<svg class="route-trace" viewBox={`0 0 ${WIDTH} ${height}`} role="img" aria-label={label}>
+  {dots.map(([x, y]) => <circle cx={round(x)} cy={round(y)} r="2.6" />)}
+  {rings.map((d) => <path d={d} />)}
+</svg>
+
+<style>
+  .route-trace {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    fill: var(--pen);
+    transform: rotate(var(--tilt-right));
+  }
+</style>

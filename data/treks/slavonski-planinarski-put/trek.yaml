@@ -1,0 +1,63 @@
+id: slavonski-planinarski-put
+status: draft
+name: Slavonian Hiking Trail (Slavonski planinarski put, SPP)
+countries:
+  - HR
+region: Slavonia (Papuk, Psunj, Krndija, Požeška gora, Dilj gora)
+one_liner: A long forest loop linking the five Slavonian mountains around the Požega valley, hut to hut and well off the tourist radar.
+route:
+  type: loop
+  start: Planinarski dom Petrov vrh
+  end: Planinarski dom Petrov vrh
+  osm_relation_id: 12337841
+  gpx_source: https://fastestknowntime.com/fkt/robert-bernat-slavonski-planinarski-put-spp-2022-05-01
+distance_km: 300
+typical_days:
+  min: 9
+  max: 10
+sleeping:
+  type: huts
+  notes: Lodges at Petrov vrh, Omanovac, Strmac, Pljuskara, Đuro Pilar, Borovik, Lapjak and Jankovac. Often walked as five 2-day sections.
+difficulty:
+  level: 2
+  reason: Low wooded mountains (high points under 1,000 m) but about 85 walking hours.
+flags:
+  permit: none
+links:
+  official_site: https://www.slavonski-planinari.hr/spp
+establishment_signals:
+  - "Official status: HPS-registered route (organiser Slavonski planinari, Osijek), 35 control points"
+  - Official website (operator page linked from OSM; HPS registry)
+  - Covered by Total Croatia News and an FKT report
+trip_reports:
+  - url: https://fastestknowntime.com/fkt/robert-bernat-slavonski-planinarski-put-spp-2022-05-01
+    title: "FKT: Robert Bernat – Slavonski Planinarski Put (2022-05-01)"
+    year_hiked: 2022
+    summary: Self-supported in 6 days 17 hours, with a GPX track.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Jankovac,_Papuk.jpg
+    author: Tanalama1
+    license: CC BY-SA 4.0
+    shows: Jankovac forest on Papuk (lodge is control point 28)
+  - file_url: https://commons.wikimedia.org/wiki/File:Jankovac_2,_PP_Papuk.jpg
+    author: Maja Rukav
+    license: CC BY-SA 4.0
+    shows: Lake at Jankovac, Papuk Nature Park
+  - file_url: https://commons.wikimedia.org/wiki/File:Slap_Skakavac_kod_Jankovca_na_Papuku.jpg
+    author: Luka Badurina
+    license: CC BY-SA 4.0
+    shows: Skakavac waterfall below Jankovac lodge
+sources:
+  distance_km: https://total-croatia-news.com/news/travel/slavonia-hiking-trail/
+  typical_days: https://total-croatia-news.com/news/travel/slavonia-hiking-trail/
+  walking_hours: https://www.hps.hr/info/planinarske-obilaznice/1620-slavonski-planinarski-put/
+  sleeping: https://www.hps.hr/info/planinarske-obilaznice/1620-slavonski-planinarski-put/
+  difficulty: https://www.hps.hr/info/planinarske-obilaznice/1620-slavonski-planinarski-put/
+conflicts:
+  - field: distance_km
+    values:
+      - value: 300
+        source: https://total-croatia-news.com/news/travel/slavonia-hiking-trail/
+      - value: 280
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/12337841
+last_verified: 2026-11-27

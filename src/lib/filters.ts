@@ -1,5 +1,6 @@
 /**
  * Filter logic for the map and the list. No dependencies; runs in the browser.
+ * A fact that is not known never matches a filter that asks for it.
  * Map and list both call `visibleTreks`, which is what keeps them in sync.
  */
 import type { BBox, TrekIndexEntry } from '../data/types';
@@ -45,15 +46,17 @@ export function matchesFilters(trek: TrekIndexEntry, filters: Filters): boolean 
   if (filters.days) {
     const [from, to] = filters.days;
     const upper = to >= DAYS_MAX ? Infinity : to;
-    if (trek.days[0] > upper || trek.days[1] < from) return false;
+    if (!trek.days || trek.days[0] > upper || trek.days[1] < from) return false;
   }
 
   // A trek with mixed sleeping matches every sleeping choice.
-  if (filters.sleeping.length > 0 && trek.sleeping !== 'mixed' && !filters.sleeping.includes(trek.sleeping)) {
+  if (filters.sleeping.length > 0 && trek.sleeping !== 'mixed' && !(trek.sleeping && filters.sleeping.includes(trek.sleeping))) {
     return false;
   }
 
-  if (filters.difficulty.length > 0 && !filters.difficulty.includes(trek.difficulty)) return false;
+  if (filters.difficulty.length > 0 && !(trek.difficulty !== undefined && filters.difficulty.includes(trek.difficulty))) {
+    return false;
+  }
   if (filters.noPermit && trek.permit !== 'none') return false;
   if (filters.waymarked && trek.waymarked !== 'yes') return false;
   return true;

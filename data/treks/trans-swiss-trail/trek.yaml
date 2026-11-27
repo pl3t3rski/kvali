@@ -1,0 +1,85 @@
+id: trans-swiss-trail
+status: draft
+name: Trans Swiss Trail – Swiss national route 2
+countries:
+  - CH
+region: Jura, Seeland, Emmental, Central Switzerland, Gotthard, Ticino
+one_liner: Switzerland top to bottom from the Jura to Ticino through four language regions and over the Gotthard, sleeping in towns every night.
+route:
+  type: point-to-point
+  start: Porrentruy
+  end: Mendrisio
+  osm_relation_id: 1107386
+distance_km: 510
+total_ascent_m: 17700
+typical_days:
+  min: 32
+  max: 32
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+    - October
+  open_season: June to October for the whole route (Gotthard section); lowland stages are walkable much longer.
+sleeping:
+  type: guesthouses
+  notes: Every stage ends in a town or village with hotels/guesthouses; public transport allows shortening any stage.
+difficulty:
+  level: 2
+  reason: Officially technically easy, physically medium; 2–6 h walking days, highest point the Gotthard Pass.
+logistics:
+  getting_to_start: Porrentruy has a railway station (Jura).
+  leaving_from_end: Mendrisio has a railway station on the Lugano–Chiasso line.
+  nearest_airports:
+    - Basel-Mulhouse
+    - Zurich
+    - Milan Malpensa
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://schweizmobil.ch/en/hiking-in-switzerland/route-2
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+trip_reports:
+  - url: https://fastestknowntime.com/fkt/brian-stark-trans-swiss-trail-switzerland-2021-07-23
+    title: "FKT: Brian Stark – Trans Swiss Trail (Switzerland)"
+    year_hiked: 2021
+    summary: Ran the whole trail solo and self-supported in 10 d 11 h in July 2021; notes the green '2' signs from Mendrisio station.
+  - url: https://statesrunner.blogspot.com/2021
+    title: "New FKT: Trans Swiss Trail! 10d 11h 3m"
+    year_hiked: 2021
+    summary: Blog version of the same 2021 run, extended border to border (Chiasso–Boncourt).
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en/experiences/route/trans-swiss-trail/
+  total_ascent_m: https://www.myswitzerland.com/en/experiences/route/trans-swiss-trail/
+  typical_days: https://www.myswitzerland.com/en/experiences/route/trans-swiss-trail/
+  best_months: https://www.myswitzerland.com/en/experiences/route/trans-swiss-trail/
+  open_season: https://www.myswitzerland.com/en/experiences/route/trans-swiss-trail/
+  sleeping: https://www.myswitzerland.com/en/experiences/route/trans-swiss-trail/
+  difficulty: https://www.komoot.com/collection/905071
+  logistics: https://www.komoot.com/collection/905071
+  permit: https://schweizmobil.ch/en/hiking-in-switzerland/route-2
+conflicts:
+  - field: distance_km
+    values:
+      - value: 510
+        source: https://www.myswitzerland.com/en/experiences/route/trans-swiss-trail/
+      - value: 488
+        source: https://www.myswitzerland.com/en-ae/experiences/route/trans-swiss-trail/
+      - value: 523
+        source: https://www.komoot.com/collection/905071
+  - field: total_ascent_m
+    values:
+      - value: 17700
+        source: https://www.myswitzerland.com/en/experiences/route/trans-swiss-trail/
+      - value: 17800
+        source: https://www.myswitzerland.com/en-ch/experiences/route/trans-swiss-trail/
+last_verified: 2026-11-27

@@ -1,0 +1,109 @@
+id: e5-oberstdorf-meran
+status: draft
+name: E5 Alpenüberquerung Oberstdorf – Meran
+countries:
+  - DE
+  - AT
+  - IT
+region: Allgäu Alps, Lechtal Alps, Ötztal Alps, South Tyrol
+one_liner: "The classic north–south Alpine crossing on the E5: Oberstdorf to Merano in about a week, busy huts, a few bus/taxi links between stages."
+route:
+  type: point-to-point
+  start: Oberstdorf (DE)
+  end: Meran/Merano (IT)
+typical_days:
+  min: 6
+  max: 7
+when:
+  best_months:
+    - July
+    - August
+    - September
+  open_season: Late June to end of September (tour-operator guidance)
+sleeping:
+  type: mixed
+  booking_ahead: required
+  notes: Huts plus one valley night in Zams; huts very busy in summer.
+difficulty:
+  level: 3
+  reason: Up to 9 h days; tirol.at rates fitness and technique 6/6; crosses ~3,000 m at the Niederjoch/Similaunhütte.
+logistics:
+  getting_to_start: Oberstdorf; bus to Spielmannsau trailhead.
+  leaving_from_end: Vernagt (Schnalstal) then onward to Meran by bus, or two further walking stages.
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.era-ewv-ferp.org/e-paths/e5/
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://ready-steady-travel.com/alpenueberquerung-auf-dem-e5-von-oberstdorf-nach-meran-erfahrungsbericht-2022/
+    title: Alpenüberquerung auf dem E5 von Oberstdorf nach Meran – Erfahrungsbericht 2022
+    year_hiked: 2022
+    summary: Classic crossing in August 2022.
+  - url: https://todaywetravel.de/alpenueberquerung-erfahrungen/
+    title: "Alpenüberquerung E5: alle Erfahrungen, Tipps & Ausrüstung"
+    summary: Solo crossing in six stages.
+  - url: https://www.outdoor-renner.de/blog/e5-alpenueberquerung-alle-etappen-von-oberstdorf-bis-meran.html
+    title: "E5 Alpenüberquerung: Alle Etappen von Oberstdorf bis Meran"
+    year_hiked: 2014
+    summary: Walked in 2014 as a gear tester; ~115 km, 7 stages.
+  - url: https://susannewandert.de/portfolio-item/oberstdorf-meran/
+    title: "E5 Oberstdorf-Meran: 5 Etappen, GPX & Erfahrungen"
+    summary: Five-stage version with GPX.
+  - url: https://gluecksberg.de/bergabenteuer/wandern/alpenueberquerung-e5/
+    title: "Alpenüberquerung E5: Mein Erfahrungsbericht"
+    summary: Six-stage crossing.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Similaunh%C3%BCtte_2024a.jpg
+    author: Whgler
+    license: CC BY 4.0
+    shows: E5 hikers climbing from the Niedertal to the Similaunhütte
+  - file_url: https://commons.wikimedia.org/wiki/File:Kemptner_Huette_2022.jpg
+    author: Lutz Lange
+    license: CC0
+    shows: Kemptner Hütte, first hut on the E5
+  - file_url: https://commons.wikimedia.org/wiki/File:Memminger_H%C3%BCtte.JPG
+    author: Vince51
+    license: CC BY-SA 3.0
+    shows: Memminger Hütte (Lechtal Alps), an E5 overnight stop
+  - file_url: https://commons.wikimedia.org/wiki/File:Panorama_Kemptner_H%C3%BCtte.jpg
+    author: Whgler
+    license: CC BY-SA 4.0
+    shows: Panorama from the Kemptner Hütte
+sources:
+  typical_days: https://www.bergzeit.de/magazin/alpenueberquerung-oberstdorf-meran-fernwanderweg-e5/
+  best_months: https://www.asi-reisen.de/fw/alpenuberquerung-oberstdorf-meran
+  open_season: https://www.asi-reisen.de/fw/alpenuberquerung-oberstdorf-meran
+  sleeping: https://www.bergwelten.com/t/w/26622
+  difficulty: https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-weitwanderweg-e5
+  logistics: https://www.bergzeit.de/magazin/alpenueberquerung-oberstdorf-meran-fernwanderweg-e5/
+  permit: https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-weitwanderweg-e5
+  waymarked: https://www.bergwelten.com/lp/die-alpenueberquerung-von-oberstdorf-nach-meran
+  official_status: https://www.era-ewv-ferp.org/?p=1049
+conflicts:
+  - field: distance_km
+    values:
+      - value: 176.7
+        source: https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-weitwanderweg-e5
+      - value: ~115
+        source: https://www.outdoor-renner.de/blog/e5-alpenueberquerung-alle-etappen-von-oberstdorf-bis-meran.html
+      - value: 104
+        source: https://www.asi-reisen.de/fw/alpenueberquerung-oberstdorf-meran
+  - field: total_ascent_m
+    values:
+      - value: 8659
+        source: https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-weitwanderweg-e5
+      - value: 7,000+
+        source: https://www.outdoor-renner.de/blog/e5-alpenueberquerung-alle-etappen-von-oberstdorf-bis-meran.html
+      - value: 4950
+        source: https://www.asi-reisen.de/fw/alpenueberquerung-oberstdorf-meran
+last_verified: 2026-11-27

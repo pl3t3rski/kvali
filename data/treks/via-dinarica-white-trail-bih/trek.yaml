@@ -1,0 +1,148 @@
+id: via-dinarica-white-trail-bih
+status: draft
+name: Via Dinarica White Trail – Bosnia and Herzegovina section (Via Dinarica Bijela staza)
+countries:
+  - BA
+  - ME
+region: Central Dinaric Alps (Čvrsnica, Prenj, Bjelašnica, Visočica, Treskavica, Zelengora, Maglić)
+one_liner: "The heart of the Via Dinarica: twelve mountain stages from the Croatian border to Maglić, hut and village-house hopping, with real remoteness and landmine-era caution."
+route:
+  type: point-to-point
+  start: Kamensko border crossing (Croatia–BiH), near Tomislavgrad
+  end: Trnovačko Lake under Maglić (just inside Montenegro)
+  gpx_source: https://trail.viadinarica.com/en/route/long-distance-hiking-trail/via-dinarica-white-trail-in-bosnia-and-herzegovina/18530620/
+distance_km: 334.5
+total_ascent_m: 18723
+typical_days:
+  min: 15
+  max: 20
+when:
+  best_months:
+    - July
+    - August
+    - September
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: Mountain huts and shelters roughly every 6–8 hours of walking; where there are none, rural households take hikers. Check in advance that huts are open; the new Međuprenje hut on Prenj is locked and the door code comes from the local mountain club. Camping is generally unrestricted outside national parks.
+difficulty:
+  level: 4
+  reason: About 18,700 m of ascent over 334 km, highest point 2,118 m, remote stretches, short via-ferrata-assisted sections on Visočica, and storms and late snow possible.
+logistics:
+  getting_to_start: The trail enters BiH at the Kamensko border crossing, the official crossing it was designed around. The official trail page lists buses to Split.
+  leaving_from_end: Walk back from Trnovačko Lake to Prijevor in Sutjeska National Park. The official road crossing into Montenegro is at Šćepan Polje. Mid-route, the Sarajevo–Mostar train stops at Konjic and Jablanica, both on the trail.
+  nearest_airports:
+    - Sarajevo (SJJ)
+    - Mostar (OMO)
+    - Tuzla (TZL)
+    - Split (SPU)
+    - Dubrovnik (DBV)
+flags:
+  permit: paid-permit
+  permit_notes: No trail permit inside BiH. Stage BH-W-12 ends at Trnovačko Lake in Montenegro across an unmarked 'green' border. Bradt says crossing for Maglić is tolerated if you return to Sutjeska; continuing into Montenegro needs a green-border permit from the Montenegrin police (an older application form gave a €5 fee). The current process and fee are unverified. Sutjeska and other parks may charge entry.
+  waymarked: partial
+  water_scarce: true
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://viadinarica.com/en/countries/bosnia-and-herzehovina
+establishment_signals:
+  - "Official status: Via Dinarica-branded long-distance trail developed by Terra Dinarica with UNDP BiH; each stage is an OSM relation inside the international (iwn) Via Dinarica White Trail superroute"
+  - Official website and trail portal with stage GPX files (trail.viadinarica.com)
+  - "Guidebook: Tim Clancy, 'Via Dinarica: Hiking the White Trail in Bosnia & Herzegovina' (Bradt, 2018, ISBN 9781784773830)"
+  - Regularly covered in trip reports and travel articles (Much Better Adventures, Lonely Planet, National Geographic)
+  - "Partly waymarked: Via Dinarica says most stages carry Knafelc red-and-white blazes and VD signposts, but the first BiH stage is unmarked and thru-hikers report weak marking in places"
+trip_reports:
+  - url: https://viadinarica.com/en/blog-2/341-beautifully-wild-bosnia-and-herzegovina
+    title: Beautifully wild Bosnia and Herzegovina
+    summary: Eva Smeele walked the whole BiH section from the Montenegro border to Croatia (published Aug 2016); good marking in Sutjeska, patchy on Zelengora, a bad-weather wait at Donje Bare and a near-miss off-trail in Rakitnica Canyon.
+  - url: https://www.outdooractive.com/en/route/mountain-hike/bosnia-and-herzegovina/via-dinarica-bh-w-04-vran-mountain-and-blidinje-lake/17302916/
+    title: Via Dinarica BH-W-04 Vran Mountain and Blidinje Lake (community reviews)
+    year_hiked: 2025
+    summary: "Mark van Leeuwen walked stage 29 in early June 2025: well-marked but dry, steep in places, and the ridge took longer than expected. Another reviewer did it in July 2024."
+  - url: https://www.outdooractive.com/en/mountain-hikes/bosnia-herzegovina/mountain-hikes-in-bosnia-and-herzegovina/14746700/
+    title: Mountain hikes in Bosnia and Herzegovina – review of Via Dinarica BH-W-06 Prenj
+    year_hiked: 2026
+    summary: "July 2026 review of the Prenj stage: recommends the new route up to Međuprenje via Glogošnica; the new hut is locked, so call the local club for the code. Water and power inside."
+  - url: https://57hours.com/review/via-dinarica/
+    title: Hiking the Untouched Nature of the via Dinarica
+    year_hiked: 2018
+    summary: Ante Romac's 59-day thru-hike; his six-day highlight runs from Zelengora and Donje Bare over Maglić into Montenegro, mostly in huts and B&Bs.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Hajdu%C4%8Dka_Vrata.JPG
+    author: Dino Džino
+    license: CC BY-SA 3.0
+    shows: Hajdučka Vrata rock arch on Čvrsnica (stage BH-W-05)
+  - file_url: https://commons.wikimedia.org/wiki/File:Prenj1.jpg
+    author: Frfincon
+    license: CC0 1.0
+    shows: Otis and Zelena Glava on Prenj in early spring (stage BH-W-06)
+  - file_url: https://commons.wikimedia.org/wiki/File:Lukomir_Village_(3886707753).jpg
+    author: NH53
+    license: CC BY 2.0
+    shows: Lukomir, Bosnia's highest village (stages BH-W-08/09)
+  - file_url: https://commons.wikimedia.org/wiki/File:Stirinsko_jezero.jpg
+    author: Martin Brož
+    license: CC BY 3.0
+    shows: Štirinsko Lake in the Zelengora mountains (stage BH-W-11 area)
+  - file_url: https://commons.wikimedia.org/wiki/File:Trnova%C4%8Dko_jezero,_Magli%C4%87.jpg
+    author: Dingoa
+    license: CC BY-SA 3.0 (also 2.5, 2.0, 1.0)
+    shows: Maglić massif from Trnovačko Lake, the end of the BiH section
+sources:
+  distance_km: https://trail.viadinarica.com/en/route/long-distance-hiking-trail/via-dinarica-white-trail-in-bosnia-and-herzegovina/18530620/
+  total_ascent_m: https://trail.viadinarica.com/en/route/long-distance-hiking-trail/via-dinarica-white-trail-in-bosnia-and-herzegovina/18530620/
+  typical_days: https://www.takeyourbackpack.com/backpacking-in-bosnia-and-herzegovina/hike-via-dinarica/
+  best_months: https://www.bradtguides.com/destinations/europe/via-dinarica/
+  sleeping: https://trail.viadinarica.com/en/route/long-distance-hiking-trail/via-dinarica-white-trail-in-bosnia-and-herzegovina/18530620/
+  booking_ahead: https://www.muchbetteradventures.com/magazine/hike-the-best-sections-of-the-via-dinarica
+  camping: https://viadinarica.com/index.php/en/donate/faq
+  difficulty: https://trail.viadinarica.com/en/route/long-distance-hiking-trail/via-dinarica-white-trail-in-bosnia-and-herzegovina/18530620/
+  via_ferrata: https://www.muchbetteradventures.com/magazine/hike-the-best-sections-of-the-via-dinarica
+  logistics: https://www.bradtguides.com/destinations/europe/via-dinarica/
+  permit: https://www.bradtguides.com/destinations/europe/via-dinarica/
+  permit_montenegro_green_border: https://form.jotform.com/221276473804356
+  waymarked: https://viadinarica.com/index.php/en/donate/faq
+  waymarked_gaps: https://viadinarica.com/en/blog-3/338-note-on-the-via-dinarica-trails
+  water_scarce: https://www.outdooractive.com/en/route/mountain-hike/opstina-pluzine/bosnia-herzegovina-my-via-dinarica-white-trail/21280882/
+  stage_list: https://www.bradtguides.com/?p=55002
+  osm_stage_relation: https://hiking.waymarkedtrails.org/api/v1/details/relation/7391340
+conflicts:
+  - field: distance_km
+    values:
+      - value: 334.5
+        source: https://trail.viadinarica.com/en/route/long-distance-hiking-trail/via-dinarica-white-trail-in-bosnia-and-herzegovina/18530620/
+      - value: 350
+        source: https://www.bradtguides.com/?p=55002
+      - value: 333
+        source: https://bradtguides.com/?p=7585
+      - value: 324.4 (one hiker's recorded track)
+        source: https://www.outdooractive.com/en/route/mountain-hike/opstina-pluzine/bosnia-herzegovina-my-via-dinarica-white-trail/21280882/
+      - value: 1000 (clearly wrong)
+        source: https://www.takeyourbackpack.com/backpacking-in-bosnia-and-herzegovina/hike-via-dinarica/
+  - field: total_ascent_m
+    values:
+      - value: 18723
+        source: https://trail.viadinarica.com/en/route/long-distance-hiking-trail/via-dinarica-white-trail-in-bosnia-and-herzegovina/18530620/
+      - value: 9531 (one hiker's recorded track)
+        source: https://www.outdooractive.com/en/route/mountain-hike/opstina-pluzine/bosnia-herzegovina-my-via-dinarica-white-trail/21280882/
+      - value: 12000
+        source: https://www.takeyourbackpack.com/backpacking-in-bosnia-and-herzegovina/hike-via-dinarica/
+  - field: stages
+    values:
+      - value: 12 stages
+        source: https://trail.viadinarica.com/en/route/long-distance-hiking-trail/via-dinarica-white-trail-in-bosnia-and-herzegovina/18530620/
+      - value: 13 stages (adds BH/CG-W-01 Maglić to Pivska planina)
+        source: https://www.bradtguides.com/?p=55002
+  - field: walking_time
+    values:
+      - value: 120:38 h
+        source: https://trail.viadinarica.com/en/route/long-distance-hiking-trail/via-dinarica-white-trail-in-bosnia-and-herzegovina/18530620/
+      - value: about 125 h
+        source: https://www.bradtguides.com/?p=55002
+  - field: waymarked
+    values:
+      - value: most stages marked with Knafelc blazes
+        source: https://viadinarica.com/index.php/en/donate/faq
+      - value: weak marking; long jeep-track stretches where 'the trail simply doesn't exist'
+        source: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+last_verified: 2026-11-27

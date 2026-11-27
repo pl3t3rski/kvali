@@ -1,0 +1,113 @@
+id: southern-coastal-trail-albania
+status: draft
+name: Southern Coastal Trail (Albanian Coastal Trail)
+countries:
+  - AL
+region: Albanian Riviera (Himarë)
+one_liner: Six short village-to-village days along the Albanian Riviera, linking beaches, olive terraces and stone villages; best in spring or autumn.
+route:
+  type: point-to-point
+  start: Dhërmi
+  end: Nivicë
+  gpx_source: https://www.walking4fun.com/trails/albanian-southern-coastal-trail
+distance_km: 74
+total_ascent_m: 2407
+typical_days:
+  min: 6
+  max: 6
+when:
+  best_months:
+    - March
+    - April
+    - May
+    - June
+    - September
+    - October
+    - November
+  open_season: July–August is too hot for hiking. Many bars, restaurants and minimarkets open only from mid-June to mid-September.
+sleeping:
+  type: guesthouses
+  booking_ahead: recommended
+  notes: Pre-book each night, especially in Pilur, Kudhës and Nivicë, where there are only a few rooms. Dhërmi, Livadh, Himarë, Borsh and Lukovë have more choice.
+difficulty:
+  level: 2
+  reason: Daily ascents up to about 850 m on loose, rocky paths; no technical sections, but little water, some overgrown stretches and a few steep cliff-side bits.
+logistics:
+  getting_to_start: Buses to Dhërmi from Tirana (about 6–7 h) and Saranda (2–3 h); about 3.5 h by road from Tirana or 1.5 h from Vlorë.
+  nearest_airports:
+    - Tirana (TIA)
+    - Corfu (CFU
+    - then ferry to Saranda)
+flags:
+  permit: none
+  waymarked: partial
+  water_scarce: true
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://akt.gov.al/wp-content/uploads/2022/09/HIKING-TRAILS.pdf
+establishment_signals:
+  - "Official status: developed for GIZ Albania and published by the National Tourism Agency (AKT)"
+  - "Trail authority: AKT trail brochure with stage descriptions"
+  - Regularly covered in trip reports and travel articles (Outdooractive, Much Better Adventures, blogs)
+  - "Partly waymarked: officially red-white-red with signposts at each stage, but walkers report patchy or faded marks"
+trip_reports:
+  - url: https://www.anotherlongwalk.com/2025/06/day-1-i-went-to-albania.html
+    title: "Day 1: I went to Albania?!"
+    year_hiked: 2025
+    summary: Started 4 May 2025 from Dhërmi with a tent; white-red-white marks only some of the time, camped at Gjipe; whole trail done in 6 days (4–9 May).
+  - url: https://thewrongbus.com/adventure/southern-coastal-trail
+    title: Southern Coastal Trail, Albania's Wild Riviera
+    summary: Merged stages because no rooms were available in Pilur or Kudhës; the Pilur–Kudhës path was overgrown, so they finished on the road.
+  - url: https://www.utracks.com/Blog/traveller-tale-walking-albanias-coast
+    title: "Traveller Tale: Walking Albania's Coast"
+    summary: Guided week in April based in Himarë, walking trail sections such as Kudhës–Qeparo and Lukovë–Borsh; markings basic and often faded.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Gjipe_Beach,_Albania.JPG
+    author: Pudelek (Marcin Szala)
+    license: CC BY-SA 3.0
+    shows: Gjipe beach, on stage 1
+  - file_url: https://commons.wikimedia.org/wiki/File:Qeparo_beach.jpg
+    author: Leeturtle
+    license: CC BY-SA 4.0
+    shows: Qeparo beach, below Old Qeparo on stage 4
+  - file_url: https://commons.wikimedia.org/wiki/File:Borsh_Albania_waterfall.jpg
+    author: Michael Sujka
+    license: CC BY 2.0
+    shows: Waterfall at Borsh, the end of stage 4
+sources:
+  distance_km: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  total_ascent_m: https://www.outdooractive.com/en/route/long-distance-hiking/albanian-riviera/albanian-coastal-trail/801637926/
+  typical_days: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  best_months: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  open_season: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  sleeping: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  difficulty: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  logistics: https://www.outdooractive.com/en/route/long-distance-hiking/albanian-riviera/albanian-coastal-trail/801637926/
+  logistics_by_road: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  waymarked: https://www.anotherlongwalk.com/2025/06/day-1-i-went-to-albania.html
+  water_scarce: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  gpx_source: https://www.walking4fun.com/trails/albanian-southern-coastal-trail
+conflicts:
+  - field: distance_km
+    values:
+      - value: 74
+        source: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf (introduction)
+      - value: 78.3 (sum of AKT stage figures; stage 6 repeats stage 5's numbers)
+        source: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+      - value: 72
+        source: https://www.walking4fun.com/trails/albanian-southern-coastal-trail
+      - value: 64.9
+        source: https://www.outdooractive.com/en/route/long-distance-hiking/albanian-riviera/albanian-coastal-trail/801637926/
+  - field: total_ascent_m
+    values:
+      - value: 2407
+        source: https://www.outdooractive.com/en/route/long-distance-hiking/albanian-riviera/albanian-coastal-trail/801637926/
+      - value: about 2900 (sum of AKT stage figures)
+        source: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+  - field: waymarked
+    values:
+      - value: "yes: red-white-red marks and signposts at each stage"
+        source: https://akt.gov.al/wp-content/uploads/2022/06/Southern-Coastal-Trail-Descriptions-Final-Version.pdf
+      - value: "partial: marked only some of the time"
+        source: https://www.anotherlongwalk.com/2025/06/day-1-i-went-to-albania.html
+last_verified: 2026-11-27

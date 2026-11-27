@@ -5,12 +5,18 @@
  * the Astro content collection (so `astro build` fails on bad data), by
  * `scripts/validate.ts` and by every pipeline script.
  *
- * Rules that only need trek.yaml live here. Rules that need the generated files
- * (route.geojson, stats.json, photos.json) live in `scripts/lib/rules.ts`.
+ * Two layers:
+ *   1. Shape. Field names, types, allowed values and URLs. Always enforced, drafts included.
+ *   2. Publishing rules (`publishBlockers`). Everything a trek needs before it may go on
+ *      the site. Enforced as errors on a published trek and listed as "blocks publishing"
+ *      on a draft, so research output with gaps can be imported and reviewed.
+ *
+ * Checks that need the generated files (route.geojson, stats.json, photos.json) live in
+ * `scripts/lib/rules.ts`.
  */
 import { z } from 'astro/zod';
-import { commonsFileTitle } from '../lib/commons';
 import { isAllowedLicense } from '../lib/license';
+import { photoSource } from '../lib/photo-source';
 import { BOOKING_AHEAD, PERMITS, ROUTE_TYPES, SLEEPING_TYPES, STATUSES, WAYMARKED, countryName } from './values';
 
 export * from './values';
@@ -20,6 +26,8 @@ export const MIN_DAYS = 3;
 /** A published trek needs at least this many photos and trip reports. */
 export const MIN_PHOTOS = 2;
 export const MIN_TRIP_REPORTS = 2;
+/** Longest one-liner that fits a card. */
+export const ONE_LINER_MAX = 140;
 
 const text = z.string().trim().min(1);
 const httpUrl = z.url({ protocol: /^https?$/, error: 'Must be an http(s) URL' });
@@ -56,21 +64,21 @@ const isoDate = z.preprocess(
     .refine((value) => !Number.isNaN(Date.parse(`${value}T00:00:00Z`)), { error: 'Not a real date' }),
 );
 
+const relationId = z.number().int().positive();
+
 const tripReport = z.strictObject({
   url: httpUrl,
   title: text,
-  year_hiked: z.number().int().min(1950).max(new Date().getFullYear()),
+  year_hiked: z.number().int().min(1950).max(new Date().getFullYear()).optional(),
   summary: text,
 });
 
 const photo = z.strictObject({
-  file_url: httpUrl.refine((url) => commonsFileTitle(url) !== undefined, {
-    error: 'Must be a Wikimedia Commons file, e.g. https://commons.wikimedia.org/wiki/File:Name.jpg',
+  file_url: httpUrl.refine((url) => photoSource(url) !== undefined, {
+    error: 'Must be a Wikimedia Commons file page or an Unsplash photo page',
   }),
   author: text,
-  license: text.refine(isAllowedLicense, {
-    error: 'Licence must be CC0, CC BY, CC BY-SA or public domain',
-  }),
+  license: text,
   shows: text,
 });
 
@@ -97,13 +105,15 @@ const trekObject = z.strictObject({
   name: text,
   countries: z.array(countryCode).min(1),
   region: text,
-  one_liner: text.max(140),
+  one_liner: text,
 
   route: z.strictObject({
-    type: z.enum(ROUTE_TYPES),
+    type: z.enum(ROUTE_TYPES).optional(),
     start: text,
-    end: text,
-    osm_relation_id: z.number().int().positive().optional(),
+    end: text.optional(),
+    /** One relation, or several stage relations in walking order when no single relation covers the trek. */
+    osm_relation_id: z.union([relationId, z.array(relationId).min(1)]).optional(),
+    /** A GPX file to use when OpenStreetMap has no relation. A web page that only links to one does not work. */
     gpx_source: httpUrl.optional(),
     /** Licence of the GPX file and the credit it asks for. Needed when `gpx_source` is the geometry source. */
     gpx_license: text.optional(),
@@ -112,25 +122,15 @@ const trekObject = z.strictObject({
   distance_km: z.number().positive().optional(),
   total_ascent_m: z.number().nonnegative().optional(),
 
-  typical_days: z.strictObject({
-    min: z.number().int().positive(),
-    max: z.number().int().positive(),
-  }),
+  typical_days: z.strictObject({ min: z.number().int().positive(), max: z.number().int().positive() }).optional(),
 
-  when: z.strictObject({
-    best_months: z.array(month).min(1),
-    open_season: text.optional(),
-  }),
+  when: z.strictObject({ best_months: z.array(month).optional(), open_season: text.optional() }).optional(),
 
-  sleeping: z.strictObject({
-    type: z.enum(SLEEPING_TYPES),
-    booking_ahead: z.enum(BOOKING_AHEAD).optional(),
-  }),
+  sleeping: z
+    .strictObject({ type: z.enum(SLEEPING_TYPES).optional(), booking_ahead: z.enum(BOOKING_AHEAD).optional(), notes: text.optional() })
+    .optional(),
 
-  difficulty: z.strictObject({
-    level: z.number().int().min(1).max(4),
-    reason: text,
-  }),
+  difficulty: z.strictObject({ level: z.number().int().min(1).max(4).optional(), reason: text.optional() }).optional(),
 
   logistics: z
     .strictObject({
@@ -140,72 +140,105 @@ const trekObject = z.strictObject({
     })
     .optional(),
 
-  flags: z.strictObject({
-    permit: z.enum(PERMITS),
-    waymarked,
-    water_scarce: z.boolean(),
-    exposed_or_via_ferrata: z.boolean(),
-  }),
+  flags: z
+    .strictObject({
+      permit: z.enum(PERMITS).optional(),
+      permit_notes: text.optional(),
+      waymarked: waymarked.optional(),
+      water_scarce: z.boolean().optional(),
+      exposed_or_via_ferrata: z.boolean().optional(),
+    })
+    .optional(),
 
   links: z.strictObject({ official_site: httpUrl.optional() }).optional(),
 
-  establishment_signals: z.array(text),
-  trip_reports: z.array(tripReport),
-  photos: z.array(photo),
-  sources: z.record(z.string(), z.union([httpUrl, z.array(httpUrl).min(1)])),
+  establishment_signals: z.array(text).default([]),
+  trip_reports: z.array(tripReport).default([]),
+  photos: z.array(photo).default([]),
+  sources: z.record(z.string(), z.union([httpUrl, z.array(httpUrl).min(1)])).default({}),
   conflicts: z.array(z.union([text, z.record(z.string(), z.unknown())])).optional(),
   last_verified: isoDate,
 });
 
-export const trekSchema = trekObject.superRefine((trek, ctx) => {
-  const fail = (path: (string | number)[], message: string) =>
-    ctx.addIssue({ code: 'custom', path, message });
+type TrekShape = z.infer<typeof trekObject>;
 
-  if (trek.typical_days.min < MIN_DAYS) {
-    fail(['typical_days', 'min'], `A trek needs at least ${MIN_DAYS} days of walking (inclusion rule 1)`);
-  }
-  if (trek.typical_days.max < trek.typical_days.min) {
-    fail(['typical_days', 'max'], 'max must not be smaller than min');
+export interface Blocker {
+  /** Where in the file, e.g. "typical_days.min". */
+  path: string;
+  message: string;
+}
+
+/** Everything that stops a trek from being published. An empty list means it may go on the site. */
+export function publishBlockers(trek: TrekShape): Blocker[] {
+  const blockers: Blocker[] = [];
+  const block = (path: string, message: string) => blockers.push({ path, message });
+  const missing = (path: string) => block(path, 'Missing: every published trek needs this');
+
+  if (trek.one_liner.length > ONE_LINER_MAX) {
+    block('one_liner', `Longer than ${ONE_LINER_MAX} characters (${trek.one_liner.length})`);
   }
 
+  if (!trek.route.type) missing('route.type');
+  if (!trek.route.end) missing('route.end');
   if (trek.route.osm_relation_id === undefined && trek.route.gpx_source === undefined) {
-    fail(['route'], 'No geometry: give either route.osm_relation_id or route.gpx_source');
+    block('route', 'No geometry: give either route.osm_relation_id or route.gpx_source');
   }
   if (trek.route.osm_relation_id === undefined && trek.route.gpx_source && !trek.route.gpx_license) {
-    fail(
-      ['route', 'gpx_license'],
-      'A GPX route needs route.gpx_license: the licence that allows reuse and the credit it asks for',
-    );
+    block('route.gpx_license', 'A GPX route needs route.gpx_license: the licence that allows reuse and the credit it asks for');
   }
+
+  if (!trek.typical_days) {
+    missing('typical_days');
+  } else {
+    if (trek.typical_days.min < MIN_DAYS) {
+      block('typical_days.min', `A trek needs at least ${MIN_DAYS} days of walking (inclusion rule 1)`);
+    }
+    if (trek.typical_days.max < trek.typical_days.min) block('typical_days.max', 'max must not be smaller than min');
+  }
+
+  if (!trek.when?.best_months?.length) missing('when.best_months');
+  if (!trek.sleeping?.type) missing('sleeping.type');
+  if (trek.difficulty?.level === undefined) missing('difficulty.level');
+  if (!trek.difficulty?.reason) missing('difficulty.reason');
+  if (!trek.flags?.permit) missing('flags.permit');
+  if (!trek.flags?.waymarked) missing('flags.waymarked');
+  if (trek.flags?.water_scarce === undefined) missing('flags.water_scarce');
+  if (trek.flags?.exposed_or_via_ferrata === undefined) missing('flags.exposed_or_via_ferrata');
 
   const sourceKeys = Object.keys(trek.sources);
-  const logisticsFilled =
-    trek.logistics !== undefined &&
-    Boolean(
-      trek.logistics.getting_to_start ||
-        trek.logistics.leaving_from_end ||
-        trek.logistics.nearest_airports?.length,
-    );
+  const filled: Record<(typeof RISKY_FIELDS)[number], boolean> = {
+    'when.best_months': Boolean(trek.when?.best_months?.length),
+    sleeping: Boolean(trek.sleeping?.type),
+    'flags.permit': Boolean(trek.flags?.permit),
+    logistics: Boolean(
+      trek.logistics?.getting_to_start || trek.logistics?.leaving_from_end || trek.logistics?.nearest_airports?.length,
+    ),
+  };
   for (const field of RISKY_FIELDS) {
-    if (field === 'logistics' && !logisticsFilled) continue;
-    if (!sourceKeys.some((key) => sourceCovers(key, field))) {
-      fail(['sources'], `"${field}" is filled in but has no entry in sources`);
+    if (filled[field] && !sourceKeys.some((key) => sourceCovers(key, field))) {
+      block('sources', `"${field}" is filled in but has no entry in sources`);
     }
   }
 
-  if (trek.status === 'published') {
-    if (trek.conflicts && trek.conflicts.length > 0) {
-      fail(['conflicts'], `A published trek must have no open conflicts (found ${trek.conflicts.length})`);
+  trek.photos.forEach((item, index) => {
+    if (!isAllowedLicense(item.license)) {
+      block(`photos.${index}.license`, `Licence "${item.license}" is not allowed (CC0, CC BY, CC BY-SA, public domain, Unsplash)`);
     }
-    if (trek.photos.length < MIN_PHOTOS) {
-      fail(['photos'], `A published trek needs at least ${MIN_PHOTOS} photos (found ${trek.photos.length})`);
-    }
-    if (trek.trip_reports.length < MIN_TRIP_REPORTS) {
-      fail(
-        ['trip_reports'],
-        `A published trek needs at least ${MIN_TRIP_REPORTS} trip reports (found ${trek.trip_reports.length})`,
-      );
-    }
+  });
+  if (trek.photos.length < MIN_PHOTOS) block('photos', `Needs at least ${MIN_PHOTOS} photos (found ${trek.photos.length})`);
+  if (trek.trip_reports.length < MIN_TRIP_REPORTS) {
+    block('trip_reports', `Needs at least ${MIN_TRIP_REPORTS} trip reports (found ${trek.trip_reports.length})`);
+  }
+  if (trek.conflicts && trek.conflicts.length > 0) {
+    block('conflicts', `Has ${trek.conflicts.length} open conflict(s); resolve them and empty the list`);
+  }
+  return blockers;
+}
+
+export const trekSchema = trekObject.superRefine((trek, ctx) => {
+  if (trek.status !== 'published') return;
+  for (const blocker of publishBlockers(trek)) {
+    ctx.addIssue({ code: 'custom', path: blocker.path.split('.'), message: blocker.message });
   }
 });
 

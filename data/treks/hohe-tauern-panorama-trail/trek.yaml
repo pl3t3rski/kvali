@@ -1,0 +1,82 @@
+id: hohe-tauern-panorama-trail
+status: draft
+name: Hohe Tauern Panorama Trail
+countries:
+  - AT
+region: Hohe Tauern National Park holiday region (Pinzgau and Pongau, Salzburg)
+one_liner: 17 stages on the sunny side opposite Austria's highest peaks, Krimml Waterfalls to the Großarltal; no cable sections, valley and mountain beds, shuttles and luggage transfer.
+route:
+  type: point-to-point
+  start: Krimml (Krimml Waterfalls)
+  end: Hüttschlag (Großarltal)
+distance_km: 275
+total_ascent_m: 13812
+typical_days:
+  min: 17
+  max: 17
+when:
+  best_months: []
+sleeping:
+  type: mixed
+  notes: Nights alternate between valley villages and mountain huts; official booking centre and luggage transfer.
+difficulty:
+  level: 2
+  reason: Rated intermediate; 4–8 h days between 1,500 and 2,400 m with no cable-secured sections; ~800 m ascent per day on average.
+logistics:
+  getting_to_start: Krimml from Zell am See by Postbus 670/673 or the Pinzgauer Lokalbahn.
+  leaving_from_end: Public transport recommended to shorten parts of stages 12, 15 and 16.
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.hohetauerntrail.at/de
+establishment_signals:
+  - official_status
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://passenger-x.de/hohe-tauern-panorama-trail-et8-12/
+    title: Unterwegs auf dem Hohe Tauern Panorama Trail
+    summary: Walked five of the 17 stages (8–12) with views and lodging tips.
+  - url: https://www.99erstemale.at/blog/resume-hohe-tauern-panorama-trail
+    title: Resumé Hohe Tauern Panorama Trail
+    summary: Summary after the trail, compared with the Luchs Trail she coordinated in 2021.
+  - url: https://homeoftravel.de/hohe-tauern-panorama-trail-lohnt-es-sich/
+    title: "Hohe Tauern Panorama Trail: Die schönste Etappe (5)"
+    summary: Report on stage 5.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Krimmler_wasserfaelle_20040823.jpg
+    author: Manuel Heinrich Emha
+    license: CC BY-SA 2.5
+    shows: Krimml Waterfalls at the start of stage 1
+  - file_url: https://commons.wikimedia.org/wiki/File:1444_-_Nationalpark_Hohe_Tauern_-_Krimmler_Wasserf%C3%A4lle.JPG
+    author: Andrew Bossi
+    license: CC BY-SA 2.5
+    shows: Krimml Waterfalls, Hohe Tauern National Park
+sources:
+  distance_km: https://www.nationalpark.at/pdf/Drucksorten/HoheTauernPanoramaTrail_Folder.pdf
+  total_ascent_m: https://www.zellamsee-kaprun.com/en/tour/hohe-tauern-panorama-trail-entire-trail~10398
+  typical_days: https://www.nationalpark.at/pdf/Drucksorten/HoheTauernPanoramaTrail_Folder.pdf
+  sleeping: https://aviation.direct/hohe-tauern-275-kilometer-wanderung-in-17-etappen
+  difficulty: https://www.zellamsee-kaprun.com/en/tour/hohe-tauern-panorama-trail-entire-trail~10398
+  logistics: https://www.komoot.com/de-de/collection/2010543/hohe-tauern-panorama-trail-vis-a-vis-mit-dreitausendern
+  permit: https://www.nationalpark.at/en/panorama-trail/
+  official_status: https://www.nationalpark.at/en/service/partner/best-trails-of-austria
+  end_point: https://www.nationalpark.at/en/panorama-trail/
+conflicts:
+  - field: distance_km
+    values:
+      - value: 275
+        source: https://www.nationalpark.at/pdf/Drucksorten/HoheTauernPanoramaTrail_Folder.pdf
+      - value: 269.81
+        source: https://www.zellamsee-kaprun.com/en/tour/hohe-tauern-panorama-trail-entire-trail~10398
+  - field: best_months
+    values:
+      - value: June – end of September (komoot collection by COUCHFLUCHT, not official)
+        source: https://www.komoot.com/de-de/collection/2010543/hohe-tauern-panorama-trail-vis-a-vis-mit-dreitausendern
+      - value: not stated on official pages checked
+        source: https://www.nationalpark.at/en/panorama-trail/
+last_verified: 2026-11-27

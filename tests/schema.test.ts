@@ -48,13 +48,13 @@ describe('trek schema', () => {
   it('accepts month names and stores them as numbers', () => {
     const trek = validTrek();
     trek.when.best_months = ['June', 'jul', 8];
-    expect(trekSchema.parse(trek).when.best_months).toEqual([6, 7, 8]);
+    expect(trekSchema.parse(trek).when?.best_months).toEqual([6, 7, 8]);
   });
 
   it('accepts yes / no for waymarked when YAML turned them into booleans', () => {
     const trek = validTrek();
     trek.flags.waymarked = true;
-    expect(trekSchema.parse(trek).flags.waymarked).toBe('yes');
+    expect(trekSchema.parse(trek).flags?.waymarked).toBe('yes');
   });
 
   it('accepts a date object for last_verified and stores a YYYY-MM-DD string', () => {
@@ -121,7 +121,7 @@ describe('sources for risky fields', () => {
 describe('publishing rules', () => {
   it('blocks publishing with an open conflict, but allows it on a draft', () => {
     const trek = { ...validTrek(), conflicts: ['Two sources disagree on the season'] };
-    expect(issues(trek).join()).toContain('no open conflicts');
+    expect(issues(trek).join()).toContain('open conflict');
     expect(issues({ ...trek, status: 'draft' })).toEqual([]);
   });
 
@@ -135,15 +135,15 @@ describe('publishing rules', () => {
     expect(issues({ ...trek, status: 'draft' })).toEqual([]);
   });
 
-  it('rejects a photo licence that is not allowed, even on a draft', () => {
-    const trek: Record<string, any> = { ...validTrek(), status: 'draft' };
+  it('blocks publishing with a photo licence that is not allowed', () => {
+    const trek = validTrek();
     trek.photos[0].license = 'CC BY-NC 4.0';
-    expect(issues(trek).join()).toContain('Licence must be');
+    expect(issues(trek).join()).toContain('is not allowed');
   });
 
   it('rejects a photo that is not on Wikimedia Commons', () => {
     const trek = validTrek();
     trek.photos[0].file_url = 'https://example.org/photo.jpg';
-    expect(issues(trek).join()).toContain('Wikimedia Commons');
+    expect(issues(trek).join()).toContain('Wikimedia Commons file page or an Unsplash photo page');
   });
 });

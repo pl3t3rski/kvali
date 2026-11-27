@@ -22,12 +22,15 @@ const SMOOTH_WINDOW = 5;
 /** Climbs and drops smaller than 5 m are treated as noise. */
 const CLIMB_THRESHOLD_M = 5;
 
+/** Samples read per stretch (about 100 km), and how many elevation tiles to keep in memory. */
+const BATCH = 3300;
+const MAX_TILES_IN_MEMORY = 250;
+
 const round = (value: number, decimals: number) => Math.round(value * 10 ** decimals) / 10 ** decimals;
 
 async function computeStats(route: RouteFeature, dem: Dem): Promise<TrekStats> {
   const lines = linesOf(route.geometry);
   const sampled = lines.map((line) => resample(line, SAMPLE_STEP_M));
-  await dem.load(sampled.flat());
 
   let ascent = 0;
   let descent = 0;
@@ -35,7 +38,15 @@ async function computeStats(route: RouteFeature, dem: Dem): Promise<TrekStats> {
   let highest = -Infinity;
   // Each line is measured on its own, so the height difference across a gap is not counted.
   for (const points of sampled) {
-    const profile = smooth(points.map((point) => dem.elevation(point)), SMOOTH_WINDOW);
+    // A very long trail crosses thousands of elevation tiles, so they are read a stretch at a time.
+    const elevations: number[] = [];
+    for (let from = 0; from < points.length; from += BATCH) {
+      const batch = points.slice(from, from + BATCH);
+      if (dem.size > MAX_TILES_IN_MEMORY) dem.clear();
+      await dem.load(batch);
+      for (const point of batch) elevations.push(dem.elevation(point));
+    }
+    const profile = smooth(elevations, SMOOTH_WINDOW);
     const totals = gainLoss(profile, CLIMB_THRESHOLD_M);
     ascent += totals.ascent;
     descent += totals.descent;

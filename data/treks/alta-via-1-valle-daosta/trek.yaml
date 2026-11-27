@@ -1,0 +1,78 @@
+id: alta-via-1-valle-daosta
+status: draft
+name: Alta Via 1 della Valle d'Aosta (Alta Via dei Giganti / Giants' Trail)
+countries:
+  - IT
+region: Aosta Valley, Pennine Alps
+one_liner: Two weeks along the north side of the Aosta Valley beneath Monte Rosa, the Matterhorn and Mont Blanc, dropping to a valley village most nights.
+route:
+  type: point-to-point
+  start: Donnas
+  end: Courmayeur
+  osm_relation_id: 1706143
+distance_km: 180
+typical_days:
+  min: 14
+  max: 17
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Huts open late June to early September
+sleeping:
+  type: mixed
+  notes: Rifugi, inns, small hotels and campsites; most stages descend to a village with services.
+difficulty:
+  level: 3
+  reason: Substantial ascent every day and cols near 3,000 m (Col Malatrà 2,925 m), but no technical difficulty
+logistics:
+  getting_to_start: Train from Turin towards Aosta stops at Donnas
+  leaving_from_end: Bus from Courmayeur to Aosta, then train to Turin
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_1
+establishment_signals:
+  - regional official high route (Aosta Valley tourism board)
+  - waymarked and fully signposted
+  - official website
+  - guidebook (Cicerone "Trekking the Giants' Trail")
+  - covered in trip reports
+trip_reports:
+  - url: https://backpackinglight.com/forums/topic/high-route-of-the-giants-four-legged-adventures-among-mountains-and-refuges
+    title: "High Route of the Giants: Four-Legged Adventures Among Mountains and Refuges"
+    summary: Hiker walked the full Alta Via 1 with two dogs, staying in refuges
+  - url: https://www.alpenverein.de/artikel/huettentour-aostatal-alta-via-1_728bd681-c0c0-4942-89f2-a1315d76c977
+    title: "Hüttentour Aostatal: Alta Via 1 (Im Schatten der Giganten)"
+    summary: German Alpine Club magazine feature by two authors who walked the route to the Mont Blanc finish
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Rifugio_Walter_Bonatti_Refuge.jpg
+    author: Cboon
+    license: CC BY-SA 3.0
+    shows: Rifugio Walter Bonatti on the Alta Via 1, Val Ferret
+sources:
+  distance_km: https://www.cicerone.co.uk/trekking-the-giants-trail-alta-via-1-through-the-italian-pennine-alps
+  typical_days: https://www.lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_1
+  best_months: https://www.cicerone.co.uk/trekking-the-giants-trail-alta-via-1-through-the-italian-pennine-alps
+  open_season: https://www.cicerone.co.uk/trekking-the-giants-trail-alta-via-1-through-the-italian-pennine-alps
+  sleeping: https://www.lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_1
+  difficulty: https://www.cicerone.co.uk/trekking-the-giants-trail-alta-via-1-through-the-italian-pennine-alps
+  logistics: https://www.komoot.com/collection/2394898/running-with-the-giants-alta-via-1-in-the-aosta-valley
+conflicts:
+  - field: distance_km
+    values:
+      - value: 180
+        source: https://www.cicerone.co.uk/trekking-the-giants-trail-alta-via-1-through-the-italian-pennine-alps
+      - value: 193
+        source: https://www.komoot.com/collection/1650569
+  - field: typical_days
+    values:
+      - value: 17 stages
+        source: https://www.lovevda.it/en/sport/trekking/alte-vie-trails/alta_via_1
+      - value: 16 stages, about 2 weeks
+        source: https://www.cicerone.co.uk/trekking-the-giants-trail-alta-via-1-through-the-italian-pennine-alps
+last_verified: 2026-11-27

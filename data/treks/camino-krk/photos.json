@@ -1,0 +1,49 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Vrbnik Krk 02.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Vrbnik_Krk_02.JPG",
+    "author": "Wolfgang Glock",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "shows": "Vrbnik harbour and old town (end of stage 5)",
+    "width": 1600,
+    "height": 1061,
+    "sizes": {
+      "480": "/photos/camino-krk/b871f69df8-480.webp",
+      "960": "/photos/camino-krk/b871f69df8-960.webp",
+      "1600": "/photos/camino-krk/b871f69df8-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Baška.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Ba%C5%A1ka.JPG",
+    "author": "Laslovarga",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Baška (end of stage 6)",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/camino-krk/5742740477-480.webp",
+      "960": "/photos/camino-krk/5742740477-960.webp",
+      "1600": "/photos/camino-krk/5742740477-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Batomalj, Panorama Blick Insel Krk nach Baška, Kroatien.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Batomalj,_Panorama_Blick_Insel_Krk_nach_Ba%C5%A1ka,_Kroatien.jpg",
+    "author": "Naturpuur",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "shows": "Panorama from Batomalj towards Baška",
+    "width": 960,
+    "height": 541,
+    "sizes": {
+      "480": "/photos/camino-krk/d29251e94b-480.webp",
+      "960": "/photos/camino-krk/d29251e94b-960.webp"
+    }
+  }
+]

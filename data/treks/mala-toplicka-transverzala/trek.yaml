@@ -1,0 +1,57 @@
+id: mala-toplicka-transverzala
+status: draft
+name: Little Toplica Transversal (Mala Toplička transverzala, T-6-37)
+countries:
+  - RS
+region: Pasjača, Vidojevica and Radan, Toplica (southern Serbia)
+one_liner: Fourteen summits, two medieval forts, an observatory and the Đavolja Varoš rock pillars on four long days from Prokuplje to Prolom Banja spa.
+route:
+  type: point-to-point
+  start: Prokuplje (Church of St. Prokopije)
+  end: Prolom Banja
+distance_km: 122
+total_ascent_m: 4023
+typical_days:
+  min: 4
+  max: 4
+sleeping:
+  type: mixed
+  notes: Hotel, hostel and private rooms in Prokuplje, farm stays at Jovine Livade and Široke Njive, PD Beli Kamen mountain hut and an ethno house, hotel and villa at Prolom Banja.
+difficulty:
+  level: 3
+  reason: Long days of about 30 km and 1,000 m of climbing each to keep to the official 4 days.
+flags:
+  permit: free-registration
+  permit_notes: No trail permit; stamps on summits and in restaurants, booklet from Toplica PSK. Foreigners must register their stay with the police within 24 h.
+  waymarked: yes
+  water_scarce: false
+links:
+  official_site: https://pss.rs/terenipp/mala-toplicka-transverzala/
+establishment_signals:
+  - "Official status: PSS-registered transversal T-6-37 (traced 2013, verified 2015)"
+  - Waymarked with standard PSS marks (last re-marked 2017)
+  - "Official website: PSS register page; club map 1:50,000 (2015) and booklet (2017)"
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Vidojevica_mountain_01.jpg
+    author: Geograf208
+    license: CC BY-SA 4.0
+    shows: Vidojevica mountain (control point 5, observatory)
+  - file_url: https://commons.wikimedia.org/wiki/File:%C4%90avolja_varo%C5%A1_02.jpg
+    author: Mickey Mystique
+    license: CC BY-SA 4.0
+    shows: Đavolja Varoš earth pyramids (control point 12)
+  - file_url: https://commons.wikimedia.org/wiki/File:Prolom_Banja,_panorama.jpg
+    author: Katarina Z
+    license: CC BY 3.0
+    shows: Prolom Banja, the finish
+sources:
+  distance_km: https://pss.rs/terenipp/mala-toplicka-transverzala/
+  total_ascent_m: https://pss.rs/terenipp/mala-toplicka-transverzala/
+  typical_days: https://pss.rs/terenipp/mala-toplicka-transverzala/
+  sleeping: https://pss.rs/terenipp/mala-toplicka-transverzala/
+  difficulty: https://pss.rs/terenipp/mala-toplicka-transverzala/
+  permit: https://mfa.gov.rs/en/citizens/travel-serbia/registration-stay
+  waymarked: https://pss.rs/terenipp/mala-toplicka-transverzala/
+  water_scarce: https://pss.rs/terenipp/mala-toplicka-transverzala/
+last_verified: 2026-11-27

@@ -1,0 +1,42 @@
+id: giro-del-monviso
+status: draft
+name: Giro del Monviso (Tour du Viso)
+countries:
+  - IT
+  - FR
+region: Cottian Alps, Monviso Regional Park (Piedmont / Queyras)
+one_liner: Short, high circuit of the 'King of Stone' via the Vallanta and Traversette passes and the 15th-century Buco di Viso tunnel.
+route:
+  type: loop
+  start: Pian del Re (Crissolo) or Castello (Pontechianale)
+  end: Same as start
+  osm_relation_id: 18285817
+distance_km: 35
+total_ascent_m: 2300
+typical_days:
+  min: 3
+  max: 3
+sleeping:
+  type: huts
+  notes: Rifugi Quintino Sella, Vallanta, Viso (FR) and others around the mountain.
+difficulty:
+  level: 3
+  reason: Passes near 2,900 m (Traversette, Vallanta), rough scree, long ascents
+flags:
+  water_scarce: false
+  exposed_or_via_ferrata: false
+establishment_signals:
+  - regional route relation in OSM (rwn)
+  - crosses Monviso regional park
+  - overlaps Via Alpina and Sentiero Italia
+  - offered by trek operators
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://fastestknowntime.com/route/giro-di-viso-italy-france
+  total_ascent_m: https://fastestknowntime.com/route/giro-di-viso-italy-france
+  typical_days: https://www.komoot.com/ko-kr/user/girodiviso
+  sleeping: https://www.komoot.com/tour/386769766
+  difficulty: https://blog.komoot.de/smarttour/e1390443795/tour-of-monviso-stage-4
+conflicts: []
+last_verified: 2026-11-27

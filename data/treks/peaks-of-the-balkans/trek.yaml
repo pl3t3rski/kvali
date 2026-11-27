@@ -1,0 +1,133 @@
+id: peaks-of-the-balkans
+status: draft
+name: Peaks of the Balkans Trail
+countries:
+  - AL
+  - XK
+  - ME
+region: Prokletije / Accursed Mountains (Bjeshkët e Nemuna)
+one_liner: A 10-day guesthouse loop through the Accursed Mountains of Albania, Kosovo and Montenegro, with a cross-border permit and classic passes like Valbona.
+route:
+  type: loop
+  start: Theth (Albania)
+  end: Theth (Albania)
+  osm_relation_id: 4726204
+  gpx_source: https://peaksofthebalkans.com
+distance_km: 192
+total_ascent_m: 9675
+typical_days:
+  min: 10
+  max: 14
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Main season June to September. The first snow, usually in October, ends the season; in winter the passes are snowbound and accommodation is very limited.
+sleeping:
+  type: guesthouses
+  booking_ahead: recommended
+  notes: Village guesthouses and homestays with bedding provided; Dobërdol is a summer-only shepherd settlement with mattresses. Camping is possible, but not in national parks, which covers almost all of the Montenegrin section.
+difficulty:
+  level: 3
+  reason: Ten stages of 11–27.5 km with up to about 1,450 m of ascent; no technical sections, but sudden weather changes and exit points can be days apart.
+logistics:
+  getting_to_start: "Daily summer bus from Shkodër to Theth. Alternative starts: Plav (fly to Podgorica) or Rekë e Allagës (bus from Pristina)."
+  leaving_from_end: "Loop: back to Shkodër from Theth by the same summer bus."
+  nearest_airports:
+    - Tirana (TIA)
+    - Podgorica (TGD)
+    - Pristina (PRN)
+flags:
+  permit: paid-permit
+  permit_notes: Cross-border permit required for the green-border crossings; apply at least 15 days ahead through the police of the departure country or an agency (e.g. Zbulo). Albania and Kosovo issue theirs free; Montenegro charges about €10 plus €3 per extra person (2024). No quota or lottery.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://peaksofthebalkans.com
+establishment_signals:
+  - "Official status: international trail (OSM network iwn), set up in 2012 as a German-backed cross-border project"
+  - Waymarked along the whole route (white-red-white, with POB signs)
+  - Official website (peaksofthebalkans.com)
+  - "Guidebook: Rudolf Abraham, 'The Peaks of the Balkans Trail' (Cicerone)"
+  - Regularly covered in trip reports and travel articles (Wanderlust, Cicerone, many blogs)
+trip_reports:
+  - url: https://www.22places.com/peaks-of-the-balkans/
+    title: "Peaks of the Balkans: Our Experience on the Long-Distance Hiking Trail"
+    year_hiked: 2025
+    summary: Independent duo, 8 days from Theth to Plav in mid-June; skipped two stages, guesthouses at about €35 a night with meals, snow still on the Valbona–Çerem pass.
+  - url: https://adventuresoflilnicki.com/peaks-of-the-balkans-hike/
+    title: Hiking the Peaks of the Balkans Trail Through the Accursed Mountains
+    summary: Independent pair in mid-October starting from Valbonë; permit via Zbulo, bused around two Montenegrin stages, hail and snow on the ridges.
+  - url: https://thehikinglife.com/?p=85281
+    title: A Quick & Dirty Guide to the Peaks of the Balkans Trail
+    year_hiked: 2023
+    summary: Cam Honan in autumn 2023; wild-camped most nights and used guesthouses only in Theth and Dobërdol.
+  - url: https://uncorneredmarket.com/peaks-of-the-balkans-trekking-highlights-day-by-day/
+    title: "Peaks of the Balkans Trail: Day by Day on the Hike"
+    year_hiked: 2015
+    summary: "Guided, modified loop from Shkodër in late June–early July: 12 days on trail with homestays in Çerem, Dobërdol and Drelaj."
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:2013-10-05_Valbona,_Albania_8806.jpg
+    author: Tobias Klenze
+    license: CC BY-SA 4.0
+    shows: Climbing to the Valbona Pass from the Valbona side, October
+  - file_url: https://commons.wikimedia.org/wiki/File:2024-10-14_Valbona_Valley_5.jpg
+    author: Alexkom000
+    license: CC BY 4.0
+    shows: Valbona Valley, an overnight stop on the loop
+  - file_url: https://commons.wikimedia.org/wiki/File:Maja_e_Gjeravic%C3%ABs,_De%C3%A7an.jpg
+    author: YllkaFetahaj
+    license: CC BY-SA 4.0
+    shows: Gjeravica, Kosovo's highest peak, from its lake (a common side trip)
+sources:
+  distance_km: https://www.cicerone.co.uk/peaks-of-the-balkans
+  total_ascent_m: https://www.outdooractive.com/en/route/long-distance-hiking/western-balkans/peaks-of-the-balkans-long-distance-hiking-trail-through-albania-/801321903/
+  typical_days: https://www.cicerone.co.uk/peaks-of-the-balkans
+  best_months: https://bookatrekking.com/en/blog/peaks-of-the-balkans/
+  open_season: https://www.cicerone.co.uk/peaks-of-the-balkans
+  sleeping: https://www.cicerone.co.uk/peaks-of-the-balkans
+  booking_ahead: https://bookatrekking.com/en/blog/peaks-of-the-balkans/
+  difficulty: https://www.cicerone.co.uk/peaks-of-the-balkans
+  logistics: https://www.outdooractive.com/en/route/long-distance-hiking/western-balkans/peaks-of-the-balkans-long-distance-hiking-trail-through-albania-/801321903/
+  nearest_airports: https://bookatrekking.com/en/blog/peaks-of-the-balkans/
+  permit: https://www.cicerone.co.uk/peaks-of-the-balkans
+  permit_lead_time: https://peaksofthebalkans.com/Cross-Border-Procedures
+  waymarked: https://issuu.com/zbulo/docs/peaks_of_the_balkans_complete_trail
+  water_scarce: https://bookatrekking.com/en/blog/peaks-of-the-balkans/
+  gpx_source: https://www.albania-spirit.com/guides/peaks-of-balkans-trail/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/4726204
+  establishment_year: https://adventuresoflilnicki.com/peaks-of-the-balkans-hike/
+  permit_free_al_xk: https://www.gonomad.com/?p=212687
+conflicts:
+  - field: distance_km
+    values:
+      - value: 192
+        source: https://www.cicerone.co.uk/peaks-of-the-balkans
+      - value: 182.8
+        source: https://www.cicerone.co.uk/peaks-of-the-balkans (sum of the stage table)
+      - value: 180.2
+        source: https://www.outdooractive.com/en/route/long-distance-hiking/western-balkans/peaks-of-the-balkans-long-distance-hiking-trail-through-albania-/801321903/
+      - value: 179
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/4726204 (OSM distance tag; mapped geometry 194.6 km)
+  - field: total_ascent_m
+    values:
+      - value: 9675
+        source: https://www.outdooractive.com/en/route/long-distance-hiking/western-balkans/peaks-of-the-balkans-long-distance-hiking-trail-through-albania-/801321903/
+      - value: 12020
+        source: https://thehikinglife.com/?p=85281
+  - field: permit cost (Montenegro)
+    values:
+      - value: €10 + €3 per extra person (2024)
+        source: https://www.cicerone.co.uk/peaks-of-the-balkans
+      - value: €11
+        source: https://www.gonomad.com/?p=212687
+  - field: exposed_or_via_ferrata
+    values:
+      - value: some exposed, steep sections, especially on descents such as into Theth
+        source: https://www.outdooractive.com/en/route/long-distance-hiking/western-balkans/peaks-of-the-balkans-long-distance-hiking-trail-through-albania-/801321903/
+      - value: no scrambling or via ferrata
+        source: https://bookatrekking.com/en/blog/peaks-of-the-balkans/
+last_verified: 2026-11-27

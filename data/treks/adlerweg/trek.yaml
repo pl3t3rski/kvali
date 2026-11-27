@@ -1,0 +1,103 @@
+id: adlerweg
+status: draft
+name: Adlerweg (Eagle Walk)
+countries:
+  - AT
+region: Tyrol and East Tyrol (Kaisergebirge to Arlberg; Glockner and Venediger groups)
+one_liner: Tyrol's flagship long-distance trail, 33 stages from St. Johann to the Arlberg plus an East Tyrol loop; huts and inns, many stages need a head for heights.
+route:
+  type: point-to-point
+  start: St. Johann in Tirol
+  end: Arlbergpass (St. Christoph am Arlberg)
+  osm_relation_id: 3305327
+distance_km: 426
+total_ascent_m: 30000
+typical_days:
+  min: 16
+  max: 33
+when:
+  best_months: []
+sleeping:
+  type: mixed
+  notes: Stages end at Alpine Club huts and valley inns (e.g. Gaudeamushütte, Gasthof Buchacker, Lucknerhaus).
+difficulty:
+  level: 3
+  reason: Long alpine stages; tirol.at rates it 'schwierig' and says many (black) stages need alpine experience, sure-footedness and a head for heights; Cicerone gives easier alternatives.
+logistics:
+  getting_to_start: St. Johann in Tirol is the official start (stage 1 to the Gaudeamushütte).
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit mentioned by the official site.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - guidebook
+  - trip_reports
+trip_reports:
+  - url: https://www.moonhoneytravel.com/europe/austria/eagle-walk-lechtal-alps/
+    title: "Eagle Walk Lechtal Alps: Our Complete Hiking Guide"
+    summary: Hiked stages 19–24 across the Lechtal Alps; found it far harder than expected but the most spectacular trail they had hiked in Austria.
+  - url: https://www.tirol.at/blog/b-sport/zu-fuss-vom-kaisergebirge-zum-arlberg-fabians-weitwander-abenteuer-am-tiroler-adlerweg
+    title: Zu Fuß vom Kaisergebirge zum Arlberg – Fabians Weitwander-Abenteuer am Tiroler Adlerweg
+    summary: First-person account of walking the North Tyrol Adlerweg end to end (published on the Tirol tourism blog).
+  - url: https://fastestknowntime.com/fkt/philipp-ausserhofer-adlerweg-eagle-walk-2026-10-01
+    title: "FKT: Philipp Ausserhofer – Adlerweg"
+    year_hiked: 2026
+    summary: Supported speed attempt starting 27 Sept 2026 in St. Johann; finished in 4 d 1 h 50 min – a running report, not a typical hike.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Las%C3%B6rling_-_Vom_Adlerweg_zur_Sajath%C3%BCtte_mit_Bergerseekogel_I.JPG
+    author: Michael Kranewitter
+    license: CC BY-SA 3.0 at
+    shows: Path from the Adlerweg (East Tyrol section) towards the Sajathütte, Bergerseekogel behind
+  - file_url: https://commons.wikimedia.org/wiki/File:Las%C3%B6rling_-_Vom_Adlerweg_zur_Sajath%C3%BCtte_mit_Bergerseekogel_II.JPG
+    author: Michael Kranewitter
+    license: CC BY-SA 3.0 at
+    shows: Same East Tyrol section, second view
+  - file_url: https://commons.wikimedia.org/wiki/File:Memminger_Huette_vom_Vorderen_Seekopf.jpg
+    author: Karl Haarmann
+    license: CC BY-SA 3.0
+    shows: Memminger Hütte, end of Adlerweg stage 21 in the Lechtal Alps
+sources:
+  distance_km: https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg
+  total_ascent_m: https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg
+  typical_days: https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg
+  typical_days_min: https://www.cicerone.co.uk/trekking-austrias-adlerweg
+  sleeping: https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg
+  difficulty: https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg
+  logistics: https://www.kitzbueheler-alpen.com/en/stjo/so/hiking/eagle-walk.html
+  permit: https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg
+  waymarked: https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg
+  official_status: https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg
+  guidebook: https://www.cicerone.co.uk/products/trekking-austrias-adlerweg
+  osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=3305327
+conflicts:
+  - field: distance_km
+    values:
+      - value: 426
+        source: https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg
+      - value: 413
+        source: https://www.austria.info/uk/austriantime/the-eagle-walk
+      - value: 326
+        source: https://www.cicerone.co.uk/trekking-austrias-adlerweg
+  - field: total_ascent_m
+    values:
+      - value: 30000
+        source: https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg
+      - value: 28463
+        source: https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg (tour-info box)
+      - value: 23000
+        source: https://www.cicerone.co.uk/trekking-austrias-adlerweg
+  - field: typical_days
+    values:
+      - value: 33 stages (24 North Tyrol + 9 East Tyrol)
+        source: https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg
+      - value: 24 stages, 16–21 days, North Tyrol only, ends St. Anton
+        source: https://www.cicerone.co.uk/trekking-austrias-adlerweg
+last_verified: 2026-11-27

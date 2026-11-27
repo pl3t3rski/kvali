@@ -1,0 +1,81 @@
+id: salzburger-almenweg
+status: draft
+name: Salzburger Almenweg
+countries:
+  - AT
+region: Pongau, Salzburg
+one_liner: Gentle alm-to-alm circuit linking all 25 Pongau villages past 120+ working mountain pastures, marked by a blue gentian; easy to split into sections.
+route:
+  type: loop
+  start: Werfen (stage 1; can start anywhere)
+  end: Werfen
+  osm_relation_id: 167878
+distance_km: 350
+typical_days:
+  min: 25
+  max: 31
+when:
+  best_months: []
+sleeping:
+  type: mixed
+  notes: Alm huts and valley lodgings; cable cars can shorten some stages.
+difficulty:
+  level: 2
+  reason: Mostly easy/moderate; >90 % above 1,000 m; longest stage ~21 km / 9 h.
+logistics:
+  getting_to_start: Every stage has access paths from a valley village.
+  leaving_from_end: Loop; leave at any valley village.
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.salzburger-almenweg.at/
+establishment_signals:
+  - waymarked
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://www.doghammer.de/magazin/wanderroute-planen-salzburger-almenweg-in-11-tagen/
+    title: Der Salzburger Almenweg in 11 Tagen
+    summary: Linda walked ~150 km in 11 days.
+  - url: https://www.bergeaktiv.de/salzburger-almenweg-gastein-grossarltal/
+    title: "6 Tage auf dem Salzburger Almenweg: von Gastein ins Großarltal"
+    summary: Six-day section, Gastein to Großarltal.
+  - url: https://weltreiseforum.com/blog/salzburger-almenweg/
+    title: "Salzburger Almenweg: Das solltest du wissen"
+    summary: Personal take on why it is one of Europe's finest long trails.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Salzburger_Almenweg_Angertal_01.jpg
+    author: Funke
+    license: CC BY-SA 4.0
+    shows: Trail in the Angertal, Bad Hofgastein
+  - file_url: https://commons.wikimedia.org/wiki/File:Salzburger_Almenweg_Angertal_02.jpg
+    author: Funke
+    license: CC BY-SA 4.0
+    shows: Trail in the Angertal, Bad Hofgastein
+  - file_url: https://commons.wikimedia.org/wiki/File:Salzburger_Almenweg_Angertal_03.jpg
+    author: Funke
+    license: CC BY-SA 4.0
+    shows: Trail in the Angertal, Bad Hofgastein
+sources:
+  distance_km: https://www.salzburgerland.com/en/?p=79341
+  typical_days: https://www.salzburgerland.com/de/salzburger-almenweg/
+  sleeping: https://www.salzburgerland.com/de/salzburger-almenweg-3/
+  difficulty: https://www.salzburgerland.com/da/vandreture-pa-sommerens-alpesaetere/
+  logistics: https://www.salzburgerland.com/de/salzburger-almenweg-3/
+  permit: https://www.salzburgerland.com/en/?p=79341
+  waymarked: https://www.salzburgerland.com/en/?p=79341
+  route_type: https://www.bergwelten.com/a/der-salzburger-almenweg
+  osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=167878
+conflicts:
+  - field: typical_days
+    values:
+      - value: 31 stages
+        source: https://www.salzburgerland.com/en/?p=79341
+      - value: 25 stages (current, restructured)
+        source: https://www.salzburgerland.com/de/salzburger-almenweg/
+last_verified: 2026-11-27

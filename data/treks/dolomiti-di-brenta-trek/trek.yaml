@@ -1,0 +1,41 @@
+id: dolomiti-di-brenta-trek
+status: draft
+name: Dolomiti di Brenta Trek (DBT)
+countries:
+  - IT
+region: Brenta Dolomites, Adamello Brenta Nature Park (Trentino)
+one_liner: Official 11-stage hut loop around the Brenta Dolomites at ~2,000 m on SAT trails, with via ferrata stages or walking variants.
+route:
+  type: loop
+  start: Madonna di Campiglio (common start)
+  end: Madonna di Campiglio
+distance_km: 96
+typical_days:
+  min: 11
+  max: 11
+sleeping:
+  type: huts
+  notes: Rifugi of the SAT/CAI network; 7 variants allow shortening or avoiding via ferratas.
+difficulty:
+  level: 4
+  reason: Full 'expert' version uses equipped paths and via ferratas; walking variants exist
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.campigliodolomiti.it/en/routes-trails/dolomiti-di-brenta-trek-high-altitude-circular-trekking-of-11-stages
+establishment_signals:
+  - official tourism-board trek (Madonna di Campiglio / Adamello Brenta park)
+  - waymarked SAT trails
+  - UNESCO Dolomites area
+  - offered by trek operators
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.campigliodolomiti.it/en/routes-trails/dolomiti-di-brenta-trek-high-altitude-circular-trekking-of-11-stages
+  typical_days: https://www.campigliodolomiti.it/en/routes-trails/dolomiti-di-brenta-trek-high-altitude-circular-trekking-of-11-stages
+  sleeping: https://www.campigliodolomiti.it/en/routes-trails/dolomiti-di-brenta-trek-high-altitude-circular-trekking-of-11-stages
+  difficulty: https://www.campigliodolomiti.it/en/routes-trails/dolomiti-di-brenta-trek-high-altitude-circular-trekking-of-11-stages
+conflicts: []
+last_verified: 2026-11-27

@@ -1,0 +1,80 @@
+id: small-beskid-trail
+status: draft
+name: Small Beskid Trail (Mały Szlak Beskidzki, MSB)
+countries:
+  - PL
+region: Beskid Mały, Beskid Makowski (Średni), Beskid Wyspowy
+one_liner: "The GSB's little sibling: a red-marked week-ish crossing of three quiet Beskid ranges from Bielsko-Biała to Luboń Wielki, with a surprising amount of climbing."
+route:
+  type: point-to-point
+  start: Bielsko-Biała (Straconka)
+  end: Luboń Wielki
+  osm_relation_id: 961607
+distance_km: 137
+total_ascent_m: 6500
+typical_days:
+  min: 5
+  max: 6
+when:
+  best_months: []
+sleeping:
+  type: mixed
+  notes: Village accommodation (e.g. Kasina Wielka, Myślenice) plus huts such as Chatka pod Potrójną. Luboń Wielki is a summit; the nearest town is Rabka-Zdrój, about 8 km away on the blue trail.
+difficulty:
+  level: 3
+  reason: Long 26-36 km days; one stage alone climbs about 1,600 m.
+logistics:
+  leaving_from_end: From Luboń Wielki descend about 8 km on the blue trail to Rabka-Zdrój.
+  nearest_airports: []
+flags:
+  permit: none
+  waymarked: yes
+establishment_signals:
+  - official status (national-level PTTK trail in the Polish OSM hiking register)
+  - waymarked along the whole route (red)
+  - covered in trip reports
+trip_reports:
+  - url: https://www.livingthedreamrtw.com/hiking-the-small-beskid-trail-poland
+    title: Long-Distance Hiking in Poland - The Small Beskid Trail
+    summary: Luboń Wielki to Bielsko-Biała in 5 walking days plus a rest day, 26-36 km a day, rain at the start (published 2022).
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Łysina_891_m_2023.jpg
+    author: Adrian Tync
+    license: CC BY-SA 4.0
+    shows: Łysina summit on the trail
+  - file_url: https://commons.wikimedia.org/wiki/File:Babica_Zachodnia_2023.jpg
+    author: Adrian Tync
+    license: CC BY-SA 4.0
+    shows: Babica Zachodnia summit (650 m) on the trail
+  - file_url: https://commons.wikimedia.org/wiki/File:Mały_Szlak_Beskidzki_wzgórza_12.08.2024_p.jpg
+    author: Przykuta
+    license: CC BY-SA 3.0
+    shows: Hills on the trail near Jasienica, Myślenice in the background
+sources:
+  distance_km: https://www.livingthedreamrtw.com/hiking-the-small-beskid-trail-poland
+  total_ascent_m: https://www.livingthedreamrtw.com/hiking-the-small-beskid-trail-poland
+  typical_days: https://www.livingthedreamrtw.com/hiking-the-small-beskid-trail-poland
+  sleeping: https://www.livingthedreamrtw.com/hiking-the-small-beskid-trail-poland
+  difficulty: https://www.livingthedreamrtw.com/hiking-the-small-beskid-trail-poland
+  logistics: https://www.livingthedreamrtw.com/hiking-the-small-beskid-trail-poland
+  route_start_end: https://fastestknowntime.com/route/maly-szlak-beskidzki-poland
+  official_status: https://wiki.openstreetmap.org/wiki/Poland/Turystyka/G%C3%B3rska/Krajowa
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/list/search?query=Beskidzki&limit=20
+conflicts:
+  - field: distance_km
+    values:
+      - value: 137
+        source: https://www.livingthedreamrtw.com/hiking-the-small-beskid-trail-poland
+      - value: 134
+        source: https://www.national-geographic.pl/traveler/porady/poznaj-szlaki-dlugodystansowe-w-polsce-220805020633/
+      - value: 134.2
+        source: https://fastestknowntime.com/route/maly-szlak-beskidzki-poland
+  - field: total_ascent_m
+    values:
+      - value: 6500
+        source: https://www.livingthedreamrtw.com/hiking-the-small-beskid-trail-poland
+      - value: 6000
+        source: https://www.national-geographic.pl/traveler/porady/poznaj-szlaki-dlugodystansowe-w-polsce-220805020633/
+      - value: 5423
+        source: https://fastestknowntime.com/route/maly-szlak-beskidzki-poland
+last_verified: 2026-11-27

@@ -1,0 +1,33 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Međugorje St.James Church.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Me%C4%91ugorje_St.James_Church.jpg",
+    "author": "Mariusz Musiał",
+    "license": "Public domain",
+    "shows": "St James Church in Međugorje, the start",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/camino-medjugorje/1e9d167950-480.webp",
+      "960": "/photos/camino-medjugorje/1e9d167950-960.webp",
+      "1600": "/photos/camino-medjugorje/1e9d167950-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Kravica Waterfalls,Bosnia & Herzegovina.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Kravica_Waterfalls,Bosnia_%26_Herzegovina.jpg",
+    "author": "john mcsporran from Trossachs, Scotland",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "shows": "Kravica waterfalls, passed on day 1",
+    "width": 1600,
+    "height": 679,
+    "sizes": {
+      "480": "/photos/camino-medjugorje/6491c12387-480.webp",
+      "960": "/photos/camino-medjugorje/6491c12387-960.webp",
+      "1600": "/photos/camino-medjugorje/6491c12387-1600.webp"
+    }
+  }
+]

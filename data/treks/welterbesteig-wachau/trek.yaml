@@ -1,0 +1,100 @@
+id: welterbesteig-wachau
+status: draft
+name: Welterbesteig Wachau (Wachau World Heritage Trail)
+countries:
+  - AT
+region: Wachau, Lower Austria (Danube valley)
+one_liner: A 14-stage loop on both banks of the Danube through UNESCO-listed vineyards, abbeys and castle ruins; low-level, March to November.
+route:
+  type: loop
+  start: Krems an der Donau
+  end: Krems an der Donau
+  osm_relation_id: 1309244
+distance_km: 180
+typical_days:
+  min: 14
+  max: 14
+when:
+  best_months:
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+  open_season: Hiking season March to November
+sleeping:
+  type: guesthouses
+  notes: Every stage starts/ends in a village or town; luggage transport bookable.
+difficulty:
+  level: 1
+  reason: Low-level vineyard and forest paths, ~10–17 km stages; highest point Jauerling area.
+logistics:
+  getting_to_start: Krems station; Wachau railway on the north bank and buses on the south bank; three Danube ferries link the banks.
+  leaving_from_end: Loop returns to Krems.
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.welterbesteig.at
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://nadinswelt.de/welterbesteig-wachau-unsere-erfahrungen-tipps/
+    title: "Welterbesteig Wachau: Unsere Erfahrungen, Etappen & Tipps"
+    summary: Six stages with luggage transport, costs and lodging tips.
+  - url: https://gepacktundlos.com/welterbesteig-wachau/
+    title: "Wandern am Welterbesteig Wachau: 4 Etappen"
+    summary: Four-stage section report.
+  - url: https://wachauinside.at/welterbesteig-wachau/
+    title: Welterbesteig Wachau – Wachau Inside
+    year_hiked: 2017
+    summary: Local blogger walked it in 2017 and again from 2019.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Welterbesteig_2.jpg
+    author: Qualcuno
+    license: CC BY-SA 3.0 de
+    shows: Trail near Spitz
+  - file_url: https://commons.wikimedia.org/wiki/File:Welterbesteig_1.jpg
+    author: Qualcuno
+    license: CC BY-SA 3.0 de
+    shows: Trail near Göttweig
+  - file_url: https://commons.wikimedia.org/wiki/File:Welterbesteig_Markierung.jpg
+    author: Qualcuno
+    license: CC BY-SA 3.0 de
+    shows: Welterbesteig waymark
+  - file_url: https://commons.wikimedia.org/wiki/File:WeltErbeSteig_Richtung_Emmersdorf,_blick_zur_donaubr%C3%BCcke_und_zum_windpark_inning_-_panoramio.jpg
+    author: josef lahmer
+    license: CC BY-SA 3.0
+    shows: Towards Emmersdorf with the Danube bridge
+sources:
+  distance_km: https://www.donau.com/en/the-danube-in-lower-austria/information-service/media-b2b/media/wachau-world-heritage-trail
+  typical_days: https://www.donau.com/en/the-danube-in-lower-austria/information-service/media-b2b/media/wachau-world-heritage-trail
+  best_months: https://www.bergwelten.com/a/wanderfruehling-5-tipps-fuer-die-wachau
+  open_season: https://www.bergwelten.com/a/wanderfruehling-5-tipps-fuer-die-wachau
+  sleeping: https://issuu.com/donaunoe/docs/wachau_hiking_map_2025
+  difficulty: https://www.donau.com/en/hiking-stages
+  logistics: https://www.donau.com/en/the-danube-in-lower-austria/information-service/media-b2b/media/wachau-world-heritage-trail
+  permit: https://www.donau.com/en/the-danube-in-lower-austria/information-service/media-b2b/media/wachau-world-heritage-trail
+  waymarked: https://www.bergwelten.com/a/wanderfruehling-5-tipps-fuer-die-wachau
+  official_status: https://www.nationalpark.at/en/service/partner/best-trails-of-austria
+  route_type: https://fastestknowntime.com/comment/11483
+  osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=1309244
+conflicts:
+  - field: total_ascent_m
+    values:
+      - value: 770
+        source: https://www.ich-geh-wandern.de/welterbesteig-wachau
+      - value: 12016
+        source: https://www.asi-reisen.de/fw/welterbesteigwachau
+last_verified: 2026-11-27

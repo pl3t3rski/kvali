@@ -1,0 +1,97 @@
+id: grande-traversata-delle-alpi
+status: draft
+name: Grande Traversata delle Alpi (GTA)
+countries:
+  - IT
+region: Western Italian Alps (Piedmont, Liguria)
+one_liner: "Italy's wild answer to the GR5: about 800 km from the Swiss border to the Mediterranean, valley-hopping between family-run posti tappa."
+route:
+  type: point-to-point
+  start: Nufenen Pass (Passo San Giacomo, Swiss border)
+  end: Ventimiglia
+  osm_relation_id: 3159979
+distance_km: 809
+total_ascent_m: 57000
+typical_days:
+  min: 41
+  max: 55
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Many small accommodations open only in summer; snow can remain on high passes into mid-June and autumn storms start late September
+sleeping:
+  type: guesthouses
+  booking_ahead: not-needed
+  notes: Posti tappa, agriturismi, small hotels and CAI rifugi; phone the day before (for dinner); book ahead only for the peak two weeks of August. Wild camping technically prohibited.
+difficulty:
+  level: 3
+  reason: Daily climbs up to ~1,000 m over passes above 2,500 m; some steep sections protected by chains or cables
+logistics:
+  getting_to_start: Train from Zurich or Milan to Airolo, then Postbus to the Nufenen Pass
+  leaving_from_end: Train from Ventimiglia to Nice (~1 h) or Genoa (~2 h)
+  nearest_airports:
+    - Milan Malpensa (MXP)
+    - Turin (TRN)
+    - Nice (NCE)
+    - Genoa (GOA)
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.visitpiemonte.com/en/itineraries/great-crossing-of-the-alps-south-piedmont
+establishment_signals:
+  - national-network trail (OSM nwn)
+  - waymarked red-white with "GTA"
+  - regional tourism pages
+  - guidebooks (Cicerone; Werner Bätzing/Rotpunktverlag)
+  - covered in trip reports
+trip_reports:
+  - url: http://doingmiles.com/2017-07-italy-gta/
+    title: "Italy: Grande Traversata delle Alpi (Doing Miles)"
+    year_hiked: 2017
+    summary: Couple's illustrated report of a 41-day thru-hike
+  - url: https://www.cicerone.co.uk/the-gta-a-trip-report
+    title: "The Grande Traversata delle Alpi: A Trip Report"
+    summary: Long-distance walker's account of the full traverse, called the wilder Italian twin of the GR5
+  - url: https://alancyane.blogspot.com/2011/07
+    title: GTA Hike in the Italian Alps
+    year_hiked: 2011
+    summary: Walked mostly on the GTA south to north, posted day by day
+  - url: https://www.ildolomiti.it/altra-montagna/attualita/2026/non-sono-riuscito-a-trovare-una-guida-in-italiano-quando-ho-organizzato-il-trekking-risultavano-tutte-fuori-commercio-o-non-disponibili-tra-suggestioni-e-difficolta-della-gta
+    title: Reader's reflection on a week on the GTA (Valle Varaita–Valle Gesso)
+    year_hiked: 2026
+    summary: One-week section in 2026; notes the beauty and fragility of the GTA's accommodation network (Italian)
+photos: []
+sources:
+  distance_km: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  total_ascent_m: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  typical_days: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  best_months: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  open_season: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  sleeping: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  difficulty: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  logistics: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+  permit: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+conflicts:
+  - field: distance_km
+    values:
+      - value: 809
+        source: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+      - value: ~1000
+        source: https://moveo.telepass.com/grande-traversata-delle-alpi/
+      - value: 633
+        source: https://travesiapirenaica.com/en/gta-grande-traversata-delle-alpi
+  - field: typical_days
+    values:
+      - value: 55 stages
+        source: https://www.cicerone.co.uk/italys-grande-traversata-delle-alpi-a-complete-planning-guide
+      - value: 41-day thru-hike
+        source: https://backpackinglight.com/forums/topic/italy-grande-traversata-delle-alpi
+      - value: 47 days
+        source: https://travesiapirenaica.com/en/gta-grande-traversata-delle-alpi
+last_verified: 2026-11-27

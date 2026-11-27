@@ -1,0 +1,91 @@
+id: alpine-passes-trail
+status: draft
+name: Alpine Passes Trail (Alpenpässe-Weg / Chemin des cols alpins) – Swiss national route 6
+countries:
+  - CH
+region: Southern Swiss Alps – Engadin, Graubünden (Greina), Ticino, Upper Valais, Pennine Alps, Chablais
+one_liner: "The longest and wildest Swiss national trail: ~40 passes in 43 stages from St. Moritz to Lake Geneva, huts and mountain villages, for very fit, experienced walkers."
+route:
+  type: point-to-point
+  start: St. Moritz (Corviglia)
+  end: St-Gingolph
+  osm_relation_id: 18021781
+distance_km: 695
+total_ascent_m: 47100
+typical_days:
+  min: 39
+  max: 43
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: June to September; watch for lingering snow in June and early snowfall in September.
+sleeping:
+  type: mixed
+  notes: Mountain huts, village guesthouses and some campsites (e.g. a campground at the Great St Bernard is listed as a highlight).
+difficulty:
+  level: 4
+  reason: "Technically medium, physically difficult: 47,100 m ascent, highest point ~2,987 m (Col de Prafleuri), scree and short rope-assisted exposed sections."
+logistics:
+  getting_to_start: Corviglia above St. Moritz (funicular from St. Moritz, Engadin rail).
+  leaving_from_end: St-Gingolph on Lake Geneva at the French border.
+  nearest_airports:
+    - Zurich
+    - Geneva
+    - Milan Malpensa
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://schweizmobil.ch/en/hiking-in-switzerland/route-6
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://www.komoot.com/adventure-hub/notes-from-outside/13/two-peas-in-a-plod-hiking-the-alpine-passes-trail-as-a-couple
+    title: "Two peas in a plod: hiking the Alpine Passes Trail as a couple"
+    summary: Month-long through-hike as a couple, ~700 km and ~38,000 m of ascent.
+  - url: https://www.thegreatoutdoorsmag.com/long-reads/alpenpasse-weg/
+    title: "Alpenpässe-Weg: walking the Swiss Alps' wildest trail"
+    summary: David Myers' end-to-end walk from Lake Geneva eastwards, over Col de Prafleuri, the trail's high point.
+  - url: https://www.imperial.ac.uk/media/imperial-college/be-inspired/exploration-board/public/Paper-N---Alpine-Passes-Report-compressed.pdf
+    title: The Alpine Passes Trail – Expedition Report 2025 (Imperial College London)
+    year_hiked: 2025
+    summary: Nine-day section in the Valais (Col de Louvie, Grand Désert, Col de Riedmatten); exposed rope-assisted sections and scree.
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en/experiences/route/alpine-passes-trail/
+  total_ascent_m: https://www.myswitzerland.com/en/experiences/route/alpine-passes-trail/
+  typical_days: https://www.myswitzerland.com/en/experiences/route/alpine-passes-trail/
+  best_months: https://besthike.com/?p=69296
+  open_season: https://besthike.com/?p=69296
+  sleeping: https://www.myswitzerland.com/en/experiences/summer-autumn/hiking/alpine-passes-trail/the-jura-crest-trail-tailormade
+  difficulty: https://search.ch/leisure/attraction/98b2fb38b19f823e50d5633659cc6515/alpine-passes-trail
+  logistics: https://www.myswitzerland.com/en/experiences/route/alpine-passes-trail/
+  permit: https://schweizmobil.ch/en/hiking-in-switzerland/route-6
+conflicts:
+  - field: distance_km
+    values:
+      - value: 695
+        source: https://www.myswitzerland.com/en/experiences/route/alpine-passes-trail/
+      - value: 669
+        source: https://www.graubuenden.ch/en/tours/006-alpenpasse-weg-gesamttour-43-etappen
+  - field: total_ascent_m
+    values:
+      - value: 47100
+        source: https://www.myswitzerland.com/en/experiences/route/alpine-passes-trail/
+      - value: 39455
+        source: https://www.graubuenden.ch/en/tours/006-alpenpasse-weg-gesamttour-43-etappen
+  - field: typical_days
+    values:
+      - value: 43 stages / 39 days
+        source: https://www.myswitzerland.com/en/experiences/route/alpine-passes-trail/
+      - value: 34 one-day stages (older Chur start)
+        source: https://www.myswitzerland.com/en/experiences/summer-autumn/hiking/alpine-passes-trail/the-jura-crest-trail-tailormade
+last_verified: 2026-11-27

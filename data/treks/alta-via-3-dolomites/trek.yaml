@@ -1,0 +1,51 @@
+id: alta-via-3-dolomites
+status: draft
+name: Alta Via 3 delle Dolomiti (Dolomiten-Höhenweg Nr. 3)
+countries:
+  - IT
+region: Eastern Dolomites (Tre Cime, Cristallo, Pelmo)
+one_liner: Quieter eastern traverse from Villabassa to Longarone past the Cristallo and Pelmo, with cable-protected passages.
+route:
+  type: point-to-point
+  start: Villabassa/Niederdorf
+  end: Longarone
+  osm_relation_id: 1657836
+distance_km: 100
+typical_days:
+  min: 8
+  max: 8
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Huts open June to September; recommended late June to late September
+sleeping:
+  type: huts
+  notes: 8 rifugi and 1 bivouac on the main route.
+difficulty:
+  level: 3
+  reason: Graded EE (experienced hikers) with equipped stretches at the most dangerous points
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+establishment_signals:
+  - one of the numbered Dolomites high routes
+  - waymarked
+  - tourism-portal route page (dolomiti.it)
+  - outlined in Cicerone "Alta Via 2 - Trekking in the Dolomites (with Alte Vie 3-6 in outline)"
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+  best_months: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+  open_season: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+  sleeping: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/alpine-path-of-the-dolomites-no-3
+conflicts: []
+last_verified: 2026-11-27

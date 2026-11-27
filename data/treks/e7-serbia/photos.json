@@ -1,0 +1,65 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Tara National Park 01.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Tara_National_Park_01.jpg",
+    "author": "Viktorija Jovanonvic",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Viewpoint in Tara National Park, crossed by the E7",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/e7-serbia/3612841520-480.webp",
+      "960": "/photos/e7-serbia/3612841520-960.webp",
+      "1600": "/photos/e7-serbia/3612841520-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Nacionalni park Kopaonik 23.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Nacionalni_park_Kopaonik_23.jpg",
+    "author": "Kristina Vuck",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Kopaonik National Park",
+    "width": 1600,
+    "height": 2133,
+    "sizes": {
+      "480": "/photos/e7-serbia/078615cb5e-480.webp",
+      "960": "/photos/e7-serbia/078615cb5e-960.webp",
+      "1600": "/photos/e7-serbia/078615cb5e-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Đavolja Varoš.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:%C4%90avolja_Varo%C5%A1.jpg",
+    "author": "Dimo Dimov",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "shows": "Đavolja Varoš rock pillars on the E7 deviation via Prolom and Lebane",
+    "width": 960,
+    "height": 640,
+    "sizes": {
+      "480": "/photos/e7-serbia/dd1d8bfc09-480.webp",
+      "960": "/photos/e7-serbia/dd1d8bfc09-960.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Manastir Sv. Prohor Pčinjski.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Manastir_Sv._Prohor_P%C4%8Dinjski.JPG",
+    "author": "Suncocvet",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Prohor Pčinjski monastery, the end point",
+    "width": 1600,
+    "height": 2133,
+    "sizes": {
+      "480": "/photos/e7-serbia/70ae5e3189-480.webp",
+      "960": "/photos/e7-serbia/70ae5e3189-960.webp",
+      "1600": "/photos/e7-serbia/70ae5e3189-1600.webp"
+    }
+  }
+]

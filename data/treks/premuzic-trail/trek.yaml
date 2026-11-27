@@ -1,0 +1,92 @@
+id: premuzic-trail
+status: draft
+name: Premužić Trail (Premužićeva staza)
+countries:
+  - HR
+region: Northern and Central Velebit
+one_liner: A 1930s dry-stone path along the Velebit ridge with gentle gradients, big karst scenery and basic shelters.
+route:
+  type: point-to-point
+  start: Zavižan
+  end: Baške Oštarije
+  osm_relation_id: 3059569
+distance_km: 42
+typical_days:
+  min: 3
+  max: 4
+sleeping:
+  type: huts
+  booking_ahead: recommended
+  notes: "Huts and shelters along the way: Zavižan, Rossi's shelter, Alan, Ograđenica, Skorpovac, Ravni Dabar, Kugina kuća. Wild camping is not allowed on Velebit."
+difficulty:
+  level: 2
+  reason: Well-built path, about 10% average gradient (20% at steepest) and no big climbs, but remote with little water.
+logistics:
+  getting_to_start: Zavižan has a free car park below the hut; walking approaches from Oltari or Krasno take 3–4 h.
+  leaving_from_end: A bus runs from Baške Oštarije down to Karlobag.
+flags:
+  permit: none
+  permit_notes: No permit. Northern Velebit National Park entry ticket, valid 3 days, sold in Krasno or at the park entrance.
+  waymarked: yes
+  water_scarce: true
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://pp-velebit.hr/en/plan-your-visit/premuzic-trail/
+establishment_signals:
+  - "Official status: protected cultural heritage of national importance (2009); crosses Northern Velebit National Park and Velebit Nature Park"
+  - Waymarked along the whole route
+  - Official website (Velebit Nature Park, Northern Velebit National Park)
+  - "Guidebook: 'Premužićeva staza – planinarski vodič' by Alan Čaplar (HPS, 2023)"
+  - Regularly covered in trip reports and travel articles
+trip_reports:
+  - url: https://the.putokoza.com/?p=5982
+    title: "Slow Hiking the Velebit Spine: A Story Along the Premužić Trail"
+    summary: Walked Zavižan to Baške Oštarije in 3 days without hurrying.
+  - url: https://www.outdoor-magazin.com/outdoor-szene/kroatien-3-tage-auf-dem-premu-ic-mountain-trail/
+    title: "Kroatien - Velebit: 3 Tage auf dem Premuzic Mountain Trail"
+    summary: Reader's report of a 3-day traverse, published 2017.
+  - url: https://www.viadinarica.com/en/blog-2/394-vratnik-to-baske-ostarije-15-6-2017-18-6-2017
+    title: Vratnik to Baške Oštarije (15.6.2017–18.6.2017)
+    year_hiked: 2017
+    summary: Walked the trail as part of Via Dinarica; strong bura forced them off a ridge variant.
+  - url: https://viadinarica.com/en/blog-2/135-stage-10-14-vratnik-velebit-karlobag
+    title: "Stage 10-14: Vratnik – Velebit – Karlobag"
+    summary: Solo through-hiker followed the trail from Zavižan and took the bus from Baške Oštarije to Karlobag.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Premu%C5%BEi%C4%87eva_staza.jpg
+    author: Davor Šulavjak
+    license: CC BY-SA 4.0
+    shows: The trail in Northern Velebit National Park
+  - file_url: https://commons.wikimedia.org/wiki/File:Karstformationen_Nationalpark-Nord-Velebit.JPG
+    author: Rootmaker
+    license: CC BY-SA 3.0 (also GFDL)
+    shows: Limestone grooves (karren) beside the trail
+  - file_url: https://commons.wikimedia.org/wiki/File:Rossijeva_koliba,_Premuziceva_staza.JPG
+    author: Rootmaker
+    license: CC BY-SA 3.0 (also GFDL)
+    shows: Rossi's shelter on the trail
+sources:
+  distance_km: https://pp-velebit.hr/en/plan-your-visit/premuzic-trail/
+  typical_days: https://www.lonelyplanet.com/articles/best-hikes-in-croatia
+  sleeping: https://pp-velebit.hr/en/plan-your-visit/activities/hiking-walking/
+  booking_ahead: https://www.lonelyplanet.com/articles/best-hikes-in-croatia
+  difficulty: https://np-sjeverni-velebit.hr/www/en/park-en/premuzic-trail
+  water: https://pp-velebit.hr/en/plan-your-visit/activities/hiking-walking/
+  logistics: https://viadinarica.com/en/blog-2/135-stage-10-14-vratnik-velebit-karlobag
+  logistics_start_parking: https://no.wikiloc.com/hiking-trails/p-d-zavizan-gromovaca-rossijeva-koliba-mali-rajinac-p-d-zavizan-06-2022-104368974
+  logistics_start_approach: https://www.hps.hr/info/vpp/
+  permit: https://no.wikiloc.com/hiking-trails/p-d-zavizan-gromovaca-rossijeva-koliba-mali-rajinac-p-d-zavizan-06-2022-104368974
+  heritage_status: https://www.novilist.hr/?p=445242
+  guidebook: https://www.novilist.hr/?p=953374
+conflicts:
+  - field: distance_km
+    values:
+      - value: 42
+        source: https://pp-velebit.hr/en/plan-your-visit/premuzic-trail/
+      - value: 46
+        source: https://np-sjeverni-velebit.hr/www/en/park-en/premuzic-trail
+      - value: 57
+        source: https://pp-velebit.hr/en/about-park/cultural-heritage/historical-roads-of-velebit/premuzic-trail-velebit/
+      - value: 57
+        source: https://www.lonelyplanet.com/articles/best-hikes-in-croatia
+last_verified: 2026-11-27

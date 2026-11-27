@@ -1,0 +1,111 @@
+id: alta-via-2-dolomites
+status: draft
+name: Alta Via 2 delle Dolomiti (Dolomiten-Höhenweg Nr. 2, "Alta Via delle Leggende")
+countries:
+  - IT
+region: Western Dolomites (South Tyrol / Trentino / Belluno)
+one_liner: "Longer, rougher sister of the AV1: Bressanone to Feltre over Puez, Sella, Marmolada and Pale di San Martino with many cable-protected passages."
+route:
+  type: point-to-point
+  start: Bressanone (Brixen)
+  end: Feltre (many finish at Croce d'Aune)
+  osm_relation_id: 404914
+distance_km: 180
+total_ascent_m: 11650
+typical_days:
+  min: 11
+  max: 14
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Rifugi open mid-June to late September; some South Tyrol huts into October, southern huts close late September
+sleeping:
+  type: huts
+  booking_ahead: recommended
+  notes: Advance booking strongly recommended, especially midsummer weekends; two unstaffed bivouac huts (stages 9 and 11) cannot be booked. Wild camping not permitted in the three nature parks crossed.
+difficulty:
+  level: 4
+  reason: Long, steep days (stage 1 alone ~1,900 m ascent), many cable-aided sections needing a head for heights; snow can linger on the Sella and Pale plateau
+logistics:
+  getting_to_start: Bressanone is on the Brenner railway; direct trains from Verona/Venice (from Venice airport bus to Mestre then train)
+  leaving_from_end: Feltre railway station has trains to Treviso and Venice; Trentino Trasporti buses to Trento
+  nearest_airports:
+    - Venice Marco Polo (VCE)
+    - Treviso (TSF)
+    - Verona (VRN)
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-2
+establishment_signals:
+  - one of the 10 "official" Dolomites high routes
+  - waymarked (red-white-red with "2" in triangle)
+  - tourism-board route pages
+  - guidebook (Cicerone "Alta Via 2 - Trekking in the Dolomites")
+  - regularly covered in trip reports
+trip_reports:
+  - url: https://www.trailhiking.com.au/planning-guides/guide-to-the-alta-via-2/
+    title: Complete Guide to the Alta Via 2 (Italy)
+    year_hiked: 2026
+    summary: Couple hiked it in June 2026 in 12 days including via ferrata side-trips; stresses exposure and scree
+  - url: https://paxtonsc.github.io/adventures/2025/09/alta-via-2
+    title: Alta Via 2
+    year_hiked: 2025
+    summary: Personal day-by-day account from a September 2025 hut-to-hut trip
+  - url: https://www.thehikinglife.com/2019/11/a-quick-and-dirty-guide-to-the-alta-via-2/
+    title: A Quick and Dirty Guide to the Alta Via 2
+    year_hiked: 2019
+    summary: Independent thru-hiker in late September 2019; logistics notes for going without a tour operator
+  - url: https://sites.google.com/site/tuesdayvigoroushikers/trips-and-treks/september-2014-dolomitesalta-via-2
+    title: September 2014 Dolomites/Alta Via 2
+    year_hiked: 2014
+    summary: Group of seven started in September; four finished the full route over 13 days
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Rifugio_e_lago_Pisciadu.JPG
+    author: Luca Lorenzi (Llorenzi)
+    license: CC BY-SA 3.0
+    shows: Rifugio Pisciadù and its lake in the Sella group
+  - file_url: https://commons.wikimedia.org/wiki/File:Pala_di_San_Martino_N.JPG
+    author: Svíčková
+    license: CC BY-SA 3.0
+    shows: Pala di San Martino from the north-west
+  - file_url: https://commons.wikimedia.org/wiki/File:Le_Pale_di_San_Martino.jpg
+    author: Stefano Carati
+    license: CC BY-SA 4.0
+    shows: Pale di San Martino, Paneveggio nature park
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-2
+  total_ascent_m: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+  typical_days: https://thehikinglife.com/?p=72696
+  best_months: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+  open_season: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+  sleeping: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+  difficulty: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+  logistics: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+  permit: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+conflicts:
+  - field: distance_km
+    values:
+      - value: 180
+        source: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-2
+      - value: 174
+        source: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+      - value: 141
+        source: https://suedtirol.live/it/escursione/alta-via-delle-dolomiti-n-2-t20012
+      - value: 160
+        source: https://thehikinglife.com/?p=72696
+  - field: total_ascent_m
+    values:
+      - value: 11650
+        source: https://www.cicerone.co.uk/alta-via-2-dolomites-a-complete-planning-guide
+      - value: 11700
+        source: https://suedtirol.live/it/escursione/alta-via-delle-dolomiti-n-2-t20012
+      - value: 11884
+        source: https://thehikinglife.com/?p=72696
+last_verified: 2026-11-27

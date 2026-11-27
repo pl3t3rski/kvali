@@ -1,0 +1,109 @@
+id: salzalpensteig
+status: draft
+name: SalzAlpenSteig
+countries:
+  - DE
+  - AT
+region: Chiemgau, Berchtesgaden Land, Tennengau, Dachstein-Salzkammergut
+one_liner: Certified premium trail following old salt routes from Lake Chiemsee via the Königssee to Hallstatt; mid-mountain, inns in villages, May to October.
+route:
+  type: point-to-point
+  start: Prien am Chiemsee (DE)
+  end: Obertraun am Hallstätter See (AT)
+  osm_relation_id: 4033881
+distance_km: 233
+typical_days:
+  min: 18
+  max: 18
+when:
+  best_months:
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+  open_season: Hiking season May–October
+sleeping:
+  type: guesthouses
+  notes: Partner hotels/inns along the stages; bookable luggage transport.
+difficulty:
+  level: 2
+  reason: Medium difficulty; 456–1,663 m (Hochfelln); some stages near 1,000 m ascent.
+logistics:
+  getting_to_start: Train to Prien am Chiemsee (DB); 39 possible entry points.
+  leaving_from_end: Last stage Bad Goisern – Hallstatt, then boat across the Hallstätter See or shore path to Obertraun.
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.salzalpensteig.com/
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - guidebook
+  - trip_reports
+trip_reports:
+  - url: https://mannis-reiseblog.com/salzalpensteig/
+    title: Salzalpensteig – Zu Fuß vom Chiemsee bis nach Hallstatt
+    summary: Walked the whole route Chiemsee to Hallstatt.
+  - url: https://abenteuermomente.de/salzalpensteig-5/
+    title: "SalzAlpenSteig: Erfahrungen & Tipps zur Mehrtageswanderung"
+    summary: Personal experiences with stages, difficulty and ascent tips.
+  - url: https://www.abenteuerwege.de/wegweiser/2019/08/cindys-lieblingsplaetze-ein-reisebericht-vom-salzalpensteig/
+    title: Cindys Lieblingsplätze – ein Reisebericht vom SalzAlpenSteig
+    summary: Report on favourite spots along the trail (published 2019).
+  - url: https://www.eurohike.at/de/blog/reisebericht-salzalpensteig
+    title: Wandern am Salzalpensteig (Eurohike WanderBlog)
+    summary: Tour-operator staff report of the last three stages, Abtenau to Bad Goisern.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Abstieg_%C3%BCber_den_SalzAlpenSteig_nach_Hallstatt.jpg
+    author: SalzAlpenSteig
+    license: CC BY-SA 4.0
+    shows: Descent to Hallstatt
+  - file_url: https://commons.wikimedia.org/wiki/File:Historische_Soleleitungen_am_SalzAlpenSteig.jpg
+    author: SalzAlpenSteig
+    license: CC BY-SA 4.0
+    shows: Historic brine pipelines along the trail
+  - file_url: https://commons.wikimedia.org/wiki/File:Blick_auf_den_Chiemsee_vom_Gipfel_des_Hochfelln.jpg
+    author: SalzAlpenSteig
+    license: CC BY-SA 4.0
+    shows: Lake Chiemsee from the Hochfelln, the trail's high point
+  - file_url: https://commons.wikimedia.org/wiki/File:Das_Ziel_des_SalzAlpenSteigs_in_Obertraun.jpg
+    author: SalzAlpenSteig
+    license: CC BY-SA 4.0
+    shows: Finish in Obertraun
+sources:
+  distance_km: https://www.berchtesgaden.de/en/activities/hiking-and-mountaineering/salzalpensteig
+  typical_days: https://www.berchtesgaden.de/en/activities/hiking-and-mountaineering/salzalpensteig
+  best_months: https://www.tips.at/freizeit/reisen/1215-salzalpensteig-der-neue-premium-weitwanderweg-zwischen-deutschland-und-oesterreich
+  open_season: https://www.tips.at/freizeit/reisen/1215-salzalpensteig-der-neue-premium-weitwanderweg-zwischen-deutschland-und-oesterreich
+  sleeping: https://dachstein.salzkammergut.at/artikel/detail/1427/weitwanderweg-salzalpensteig.html?type=2026
+  difficulty: https://www.tips.at/freizeit/reisen/1215-salzalpensteig-der-neue-premium-weitwanderweg-zwischen-deutschland-und-oesterreich
+  logistics: https://www.outdoor-magazin.com/wanderwege/salzalpensteig/
+  permit: https://www.berchtesgaden.de/en/activities/hiking-and-mountaineering/salzalpensteig
+  waymarked: https://www.abenteuerwege.de/wegweiser/2021/haeufigste-fragen-und-antworten-salzalpensteig/
+  official_status: https://www.tips.at/freizeit/reisen/1215-salzalpensteig-der-neue-premium-weitwanderweg-zwischen-deutschland-und-oesterreich
+  guidebook: https://netzwerk-weitwandern.de/wanderliteratur/wanderfuehrer/787-salzalpensteig
+  osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=4033881
+conflicts:
+  - field: total_ascent_m
+    values:
+      - value: 14215
+        source: https://www.wildganz.com/fernwanderweg/salzalpensteig
+      - value: 8848
+        source: https://www.tourispo.de/wanderung/salzalpensteig--von-prien-am-chiemsee-nach-obertraun.html
+  - field: distance_km
+    values:
+      - value: 233
+        source: https://www.berchtesgaden.de/en/activities/hiking-and-mountaineering/salzalpensteig
+      - value: 230
+        source: https://www.tips.at/freizeit/reisen/1215-salzalpensteig-der-neue-premium-weitwanderweg-zwischen-deutschland-und-oesterreich
+      - value: 235
+        source: https://dachstein.salzkammergut.at/en/artikel/detail/1427/long-hiking-trail-salzalpensteig.html?type=2026
+last_verified: 2026-11-27

@@ -1,0 +1,115 @@
+id: alta-via-1-dolomites
+status: draft
+name: Alta Via 1 delle Dolomiti (Dolomiten-Höhenweg Nr. 1)
+countries:
+  - IT
+region: Eastern Dolomites (South Tyrol / Belluno)
+one_liner: The Dolomites' classic north–south hut traverse from Lago di Braies to Belluno, mostly non-technical, huts book out months ahead.
+route:
+  type: point-to-point
+  start: Lago di Braies (Pragser Wildsee)
+  end: Belluno (trail ends at La Pissa bus stop)
+  osm_relation_id: 177743
+distance_km: 125
+total_ascent_m: 7300
+typical_days:
+  min: 7
+  max: 9
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Most huts open from the third week of June to the third week of September
+sleeping:
+  type: huts
+  booking_ahead: recommended
+  notes: Rifugi with half board; popular huts fill months ahead, many people book the previous autumn.
+difficulty:
+  level: 2
+  reason: Mountain paths at 1,500–2,750 m; rougher passages are protected with cables, via ferratas only on optional variants
+logistics:
+  getting_to_start: Train to Dobbiaco/Toblach or Villabassa, then bus 442 to Lago di Braies; private car access to the lake is restricted 9:00–16:00 from 1 July to 15 September
+  leaving_from_end: Bus from La Pissa to Belluno (about 20 min), then trains/buses onward
+  nearest_airports:
+    - Venice Marco Polo (VCE)
+    - Innsbruck (INN)
+flags:
+  permit: none
+  permit_notes: No hiking permit; check whether the Lago di Braies bus/parking needs a reservation in peak summer
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1
+establishment_signals:
+  - regional CAI high route (rwn)
+  - waymarked (blue triangle "1")
+  - tourism-board route pages
+  - guidebook (Cicerone "Trekking the Alta Via 1")
+  - heavily covered in trip reports
+trip_reports:
+  - url: https://www.backcountrypost.com/threads/alta-via-1-2023.10924/
+    title: Alta Via 1 2023
+    year_hiked: 2023
+    summary: North to south in 7 days, 26 Aug–1 Sep, with notes on booking the rifugios
+  - url: https://www.mountaineers.org/activities/trip-reports/trek-hut-to-hut-on-the-alta-via-1-in-italys-dolomites
+    title: Trek Hut to Hut on the Alta Via 1 in Italy's Dolomites
+    year_hiked: 2021
+    summary: Club group trek 9–17 September with mild weather; recommends early September
+  - url: https://medium.com/@ruinadd/5-days-in-alta-via-1-with-a-tent-d39752aa940
+    title: 5 Days in Alta Via 1 with a tent
+    year_hiked: 2023
+    summary: Covered 60 km from Lago di Braies to Selva di Cadore in 5 days with a tent in July
+  - url: https://alpineexploratory.blogspot.com/2014/01/a-day-in-life-of-alta-via-1.html
+    title: A day in the life of the Alta Via 1
+    year_hiked: 2013
+    summary: Recce walker's impressions after 10 days on the route in July 2013
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Wegmarkierung_Alta_Via_1.jpg
+    author: Susanne Tomkovic Suto
+    license: CC BY-SA 3.0
+    shows: AV1 waymark in front of the Civetta
+  - file_url: https://commons.wikimedia.org/wiki/File:Rifugio_Nuvolau_Dolomiti.JPG
+    author: gogolander
+    license: CC BY-SA 3.0
+    shows: Rifugio Nuvolau
+  - file_url: https://commons.wikimedia.org/wiki/File:Lagazuoi_03.jpg
+    author: Clemens Stockner
+    license: CC BY-SA 4.0
+    shows: Lagazuoi from the south-east
+  - file_url: https://commons.wikimedia.org/wiki/File:Lago_di_Braies_South_Tyrol_6.jpg
+    author: kallerna
+    license: CC BY-SA 4.0
+    shows: Lago di Braies, the northern start
+sources:
+  distance_km: https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1
+  total_ascent_m: https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1
+  typical_days: https://www.lonelyplanet.com/articles/best-hikes-in-the-dolomites-italy
+  best_months: https://www.thehikinglife.com/2020/01/a-quick-dirty-guide-to-italys-alta-via-1/
+  open_season: https://inafarawayland.com/alta-via-one-guide-part-one/
+  sleeping: https://www.decathlon-outdoor.com/en/inspire/italy/randonnee-alta-via-un
+  difficulty: https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1
+  logistics: https://57hours.com/review/alta-via-1/
+  permit: https://www.moonhoneytravel.com/europe/italy/dolomites/alta-via-1-hike/
+conflicts:
+  - field: distance_km
+    values:
+      - value: 125
+        source: https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1
+      - value: 105.9
+        source: https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi9b3213ca6939e59151da9c37615b14a9.dolomites-alpine-ridgeway-no--1.braies-di-fuori-ausserprags
+  - field: total_ascent_m
+    values:
+      - value: 7300
+        source: https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1
+      - value: 6820
+        source: https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi9b3213ca6939e59151da9c37615b14a9.dolomites-alpine-ridgeway-no--1.braies-di-fuori-ausserprags
+  - field: typical_days
+    values:
+      - value: 7-9
+        source: https://www.lonelyplanet.com/articles/best-hikes-in-the-dolomites-italy
+      - value: 12 stages
+        source: https://www.dolomiti.org/en/cortina/experiences/t/alpine-path-1
+last_verified: 2026-11-27

@@ -1,0 +1,81 @@
+id: donausteig
+status: draft
+name: Donausteig
+countries:
+  - DE
+  - AT
+region: Danube valley, Passau – Upper Austria (Mühlviertel, Linz, Strudengau)
+one_liner: "Non-alpine 'Best Trail of Austria' on both Danube banks from Passau via Linz to Grein: forests, river loops like the Schlögener Schlinge, inns every night."
+route:
+  type: point-to-point
+  start: Passau (DE)
+  end: Grein (AT)
+distance_km: 450
+typical_days:
+  min: 23
+  max: 23
+when:
+  best_months: []
+sleeping:
+  type: guesthouses
+  notes: Hotels and inns in riverside villages; packages with luggage transport.
+difficulty:
+  level: 1
+  reason: Non-alpine long-distance trail along river slopes.
+logistics:
+  getting_to_start: Passau Hauptbahnhof.
+  leaving_from_end: Train from Grein back to Passau.
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://donauregion.at/en/hiking-at-the-donausteig.html
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://gepacktundlos.com/donausteig-passau-linz/
+    title: Donausteig Passau–Linz – Meine Erfahrung
+    summary: South-bank section Passau to Linz.
+  - url: https://netzwerk-weitwandern.de/berichte/donausteig-haelt-nicht-ganz-was-er-verspricht
+    title: Donausteig hält nicht ganz was er verspricht
+    year_hiked: 2016
+    summary: Club's one-week group walk in 2016; mixed verdict.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Donausteig_Rastplatz.jpg
+    author: Pfeifferfranz
+    license: CC BY-SA 3.0
+    shows: Donausteig rest area near Burg Bad Kreuzen
+  - file_url: https://commons.wikimedia.org/wiki/File:Rastplatz_-_Panorama_Blaas_Infotafel.jpg
+    author: High Contrast
+    license: CC BY 3.0 de
+    shows: Panorama rest area and info board at Freinberg
+  - file_url: https://commons.wikimedia.org/wiki/File:Wilhering_Wegweiser_Prinzensteig.jpg
+    author: Isiwal
+    license: CC BY-SA 3.0
+    shows: Signposts in Wilhering where the Donausteig passes
+sources:
+  distance_km: https://en.wikipedia.org/wiki/Donausteig_(Danube_Trail)
+  typical_days: https://www.donauregion.at/en/hiking-at-the-donausteig
+  sleeping: https://www.salzkammergut.at/en/oesterreich-angebot/detail/3356/the-donausteig-trail-route-i-from-passau-to-linz.html
+  difficulty: https://en.wikipedia.org/wiki/Donausteig_(Danube_Trail)
+  logistics: https://www.wanderdoerfer.at/oberoesterreich/wanderweg/am-suedufer-des-donausteigs-wandern/
+  permit: https://donauregion.at/en/hiking-at-the-donausteig.html
+  waymarked: https://donauregion.at/en/hiking-at-the-donausteig.html
+  official_status: https://donauregion.at/en/hiking.html
+conflicts:
+  - field: distance_km
+    values:
+      - value: 450 (both banks)
+        source: https://www.donauregion.at/en/hiking-at-the-donausteig
+      - value: ~280 one line
+        source: https://www.ich-geh-wandern.de/donausteig
+      - value: "279"
+        source: https://mytrails.info/de/trails/199/Donausteig
+last_verified: 2026-11-27

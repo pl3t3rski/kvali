@@ -1,0 +1,63 @@
+id: alpine-panorama-trail
+status: draft
+name: Alpine Panorama Trail (Alpenpanorama-Weg) – Swiss national route 3
+countries:
+  - CH
+region: Swiss Prealps – Appenzell, Toggenburg, Central Switzerland, Emmental, Gruyère, Lake Geneva
+one_liner: A month-long foothills traverse from Lake Constance to Geneva with constant views of the Alps, dairy farms and cheese, villages every night.
+route:
+  type: point-to-point
+  start: Rorschach
+  end: Geneva (Genève)
+  osm_relation_id: 3372194
+distance_km: 510
+total_ascent_m: 17800
+typical_days:
+  min: 29
+  max: 30
+when:
+  best_months:
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+  open_season: April to October.
+sleeping:
+  type: guesthouses
+  notes: Stages end in villages and towns (e.g. Appenzell, Einsiedeln, Zug, Lucerne, Fribourg region).
+difficulty:
+  level: 2
+  reason: Officially technically easy, physically medium; first stage alone climbs ~1,200 m, mostly farm tracks and hill paths.
+logistics:
+  getting_to_start: Rorschach railway station on Lake Constance.
+  leaving_from_end: Geneva, main rail hub.
+  nearest_airports:
+    - Zurich
+    - Geneva
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://schweizmobil.ch/en/hiking-in-switzerland/route-3
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en/experiences/route/alpine-panorama-trail/
+  total_ascent_m: https://www.myswitzerland.com/en/experiences/route/alpine-panorama-trail/
+  typical_days: https://www.myswitzerland.com/en/experiences/route/alpine-panorama-trail/
+  best_months: https://www.myswitzerland.com/en/experiences/route/alpine-panorama-trail/
+  open_season: https://www.myswitzerland.com/en/experiences/route/alpine-panorama-trail/
+  sleeping: https://www.myswitzerland.com/en-us/experiences/route/alpine-panorama-trail/
+  difficulty: https://www.myswitzerland.com/en-my/experiences/route/alpine-panorama-trail-3_01/
+  logistics: https://www.myswitzerland.com/en-my/experiences/route/alpine-panorama-trail-3_01/
+  permit: https://schweizmobil.ch/en/hiking-in-switzerland/route-3
+last_verified: 2026-11-27

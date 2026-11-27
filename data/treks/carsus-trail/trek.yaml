@@ -1,0 +1,53 @@
+id: carsus-trail
+status: draft
+name: Carsus Trail
+countries:
+  - SI
+region: Karst (Kras) above the Vipava Valley and Miren
+one_liner: Six-day Karst loop from Miren over Trstelj, walkable all year and best in spring and autumn.
+route:
+  type: loop
+  start: Miren
+  end: Miren
+distance_km: 103
+typical_days:
+  min: 6
+  max: 6
+when:
+  best_months:
+    - March
+    - April
+    - May
+    - September
+    - October
+    - November
+  open_season: Open all year; spring and autumn best, winter is an alternative when Alpine valleys are snowbound
+difficulty:
+  level: 2
+  reason: Not technically demanding, but longer stages (20+ km) with a fair amount of up and down need good basic fitness.
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://slovenia-outdoor.com/en/carsus-trail/
+establishment_signals:
+  - official website (Slovenian Tourist Board)
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Trstelj_(1).jpg
+    author: Ljuba brank
+    license: CC BY-SA 4.0
+    shows: Summit of Trstelj, the highest point of the Slovenian Karst on the route
+  - file_url: https://commons.wikimedia.org/wiki/File:Lilium_bulbiferum_-_Trstelj_1.JPG
+    author: Benjamin Zwittnig
+    license: CC BY 2.5 si
+    shows: Orange lilies on Trstelj
+sources:
+  distance_km: https://slovenia-outdoor.com/en/carsus-trail/
+  typical_days: https://slovenia-outdoor.com/en/carsus-trail/
+  best_months: https://slovenia-outdoor.com/en/carsus-trail/
+  open_season: https://slovenia-outdoor.com/en/carsus-trail/
+  difficulty: https://slovenia-outdoor.com/en/carsus-trail/
+last_verified: 2026-11-27

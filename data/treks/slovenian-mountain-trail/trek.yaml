@@ -1,0 +1,116 @@
+id: slovenian-mountain-trail
+status: draft
+name: Slovenian Mountain Trail (Slovenska planinska pot / Transverzala)
+countries:
+  - SI
+region: Pohorje, Kamnik-Savinja Alps, Karavanke, Julian Alps, Karst
+one_liner: Slovenia's oldest and hardest long trail, hut-to-hut from Maribor over Triglav to the Adriatic, with protected (via ferrata-style) sections.
+route:
+  type: point-to-point
+  start: Maribor (Spodnje Radvanje)
+  end: Ankaran (Debeli rtič)
+  osm_relation_id: 6443086
+distance_km: 617.5
+total_ascent_m: 37300
+typical_days:
+  min: 28
+  max: 49
+when:
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Main season mid-June to end of September; some higher huts only open from the third weekend in June
+sleeping:
+  type: huts
+  booking_ahead: recommended
+  notes: Official site lists 49 obligatory + 6 optional huts. Book a few days ahead around Triglav and in the Julian and Kamnik-Savinja Alps in July-August; many huts are cash-only.
+difficulty:
+  level: 4
+  reason: Long high-mountain days; grade-3 sections with steel pegs and cables (Kamnik-Savinja Alps, Triglav); helmet and via ferrata kit strongly recommended.
+logistics:
+  getting_to_start: Maribor; every stage start and end is served by public transport, with Ljubljana as the hub.
+  leaving_from_end: Ends at Debeli rtič near Ankaran; like every stage end, it is reachable by public transport.
+  nearest_airports:
+    - Ljubljana Jože Pučnik (Brnik)
+flags:
+  permit: none
+  permit_notes: Optional stamp booklet (Dnevnik SPP) for the completion badge.
+  waymarked: yes
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://www.slovenska-planinska-pot.si/
+establishment_signals:
+  - official status (national trail of the Alpine Association of Slovenia)
+  - waymarked along the whole route
+  - official website
+  - published guidebook (Cicerone; PZS)
+  - regularly covered in trip reports
+trip_reports:
+  - url: https://travelspot06.blogspot.com/2023/01/slovenian-mountain-trail-logistics-gear.html
+    title: "Slovenian Mountain Trail: Logistics, Gear and Planning"
+    year_hiked: 2022
+    summary: 10 hiking days in September 2022 from Maribor toward Bohinj; long descents were slower than expected and popular huts needed reservations.
+  - url: https://sites.google.com/view/edventuretrips-slovenia/venture/slovenian-mountain-trail/section-1
+    title: Slovenian Mountain Trail – Section 1 (Pohorje)
+    year_hiked: 2025
+    summary: Day-by-day log of the Pohorje section from Maribor in August 2025, hut to hut through forest.
+  - url: https://sites.google.com/view/edventuretrips-slovenia/venture/slovenian-mountain-trail/section-3
+    title: Slovenian Mountain Trail – Section 3 (Karawanks)
+    year_hiked: 2025
+    summary: Tržič to Mojstrana over the Karawanks in late August 2025, with hut prices and a whiteout on the ridge.
+  - url: https://sites.google.com/view/edventuretrips-slovenia/venture/slovenian-mountain-trail/section-4
+    title: Slovenian Mountain Trail – Section 4 (Julian Alps)
+    year_hiked: 2025
+    summary: Rudno Polje over Triglav (Kredarica, Dolič) to Bohinj in September 2025 in difficult weather.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Slovenska_planinska_pot_-_Osankarica_(3626122380).jpg
+    author: breki74 from Maribor, Slovenia
+    license: CC BY-SA 2.0
+    shows: The trail at Osankarica on Pohorje
+  - file_url: https://commons.wikimedia.org/wiki/File:Slovenska_planinska_pot_-_proti_Mariboru_-_panoramio.jpg
+    author: dominkod
+    license: CC BY 3.0
+    shows: A section of the trail heading toward Maribor
+  - file_url: https://commons.wikimedia.org/wiki/File:Tinjan._Tocka_SPP.JPG
+    author: Lacen
+    license: CC BY 2.5
+    shows: Trail checkpoint in Tinjan (coastal end)
+sources:
+  distance_km: https://www.slovenska-planinska-pot.si/
+  total_ascent_m: https://www.slovenska-planinska-pot.si/
+  typical_days: https://www.slovenska-planinska-pot.si/
+  best_months: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
+  open_season: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
+  sleeping: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
+  difficulty: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
+  logistics: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
+  permit: https://www.slovenska-planinska-pot.si/
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/6443086
+conflicts:
+  - field: distance_km
+    values:
+      - value: 617.5
+        source: https://www.slovenska-planinska-pot.si/
+      - value: 616.4
+        source: https://www.slovenska-planinska-pot.si/
+      - value: 599
+        source: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-backpacking/long-distance-trails
+      - value: 550
+        source: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
+  - field: typical_days
+    values:
+      - value: 37
+        source: https://www.slovenska-planinska-pot.si/
+      - value: 28
+        source: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-backpacking/long-distance-trails
+      - value: 49
+        source: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
+  - field: total_ascent_m
+    values:
+      - value: 37300
+        source: https://www.slovenska-planinska-pot.si/
+      - value: 45200
+        source: https://en.wikipedia.org/wiki/Slovenian_Mountain_Hiking_Trail
+last_verified: 2026-11-27

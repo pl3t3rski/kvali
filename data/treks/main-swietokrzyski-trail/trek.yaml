@@ -1,0 +1,89 @@
+id: main-swietokrzyski-trail
+status: draft
+name: Main Świętokrzyski Trail (Główny Szlak Świętokrzyski im. Edmunda Massalskiego, GSŚ)
+countries:
+  - PL
+region: Świętokrzyskie (Holy Cross) Mountains
+one_liner: "Poland's 'shortest long trail': three to five days over Łysica and Łysa Góra's stone runs and fir forests, guesthouse to guesthouse, no huts."
+route:
+  type: point-to-point
+  start: Gołoszyce
+  end: Kuźniaki
+  osm_relation_id: 3372500
+  gpx_source: https://swietokrzyskie.szlaki.pttk.pl/en/53-swietokrzyskie-the-main-swietokrzyski-trail-named-after-edmund-massalski-goloszyce-kuzniaki
+distance_km: 92.4
+total_ascent_m: 2643
+typical_days:
+  min: 3
+  max: 5
+when:
+  best_months: []
+sleeping:
+  type: guesthouses
+  booking_ahead: recommended
+  notes: No mountain huts; agritourism guesthouses in Miedziana Góra, Tumlin, Dąbrowa, Masłów, Święta Katarzyna, Huta Szklana and Nowa Słupia. Resupply is limited.
+difficulty:
+  level: 2
+  reason: Low mountains (max ~600 m) but steady climbs and descents; PTTK grades it 'very difficult' for its length and steep sections, travel media call the climbs gentle.
+logistics:
+  getting_to_start: Both ends are reached by a few daily buses from Kielce; Gołoszyce is near the Kielce-Opatów road.
+  leaving_from_end: "Kuźniaki: bus back to Kielce (few connections a day)."
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: Świętokrzyski National Park entrance fee on the Święta Katarzyna-Trzcianka section (18.8 km).
+  waymarked: yes
+links:
+  official_site: https://swietokrzyskie.szlaki.pttk.pl/en/53-swietokrzyskie-the-main-swietokrzyski-trail-named-after-edmund-massalski-goloszyce-kuzniaki
+establishment_signals:
+  - official status (named PTTK main trail, managed by PTTK Kielce)
+  - waymarked along the whole route (red)
+  - official trail page (PTTK Świętokrzyskie trails portal, with GPX)
+  - regularly covered in trip reports and travel articles
+trip_reports:
+  - url: https://podrozebezosci.pl/glowny-szlak-swietokrzyski-gss-porady-praktyczne-mapa-noclegi-wyposazenie-odznaka
+    title: Główny Szlak Świętokrzyski (GSŚ) - porady praktyczne, mapa, noclegi
+    summary: Walked Gołoszyce to Kuźniaki in three stages with agritourism nights; practical notes on buses, shops and marking (published 2019).
+  - url: https://www.komoot.com/pt-pt/collection/3579047/floresta-de-abeto-picos-magnificos-e-historia-polaca-trilha-principal-de-swietokrzyski
+    title: Główny Szlak Świętokrzyski - spruce forest, magnificent peaks and Polish history (komoot collection)
+    summary: Stage-by-stage write-up from Kuźniaki through the national park to Gołoszyce.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Łysica_szlak_IMG_20230716.jpg
+    author: Michał Derela
+    license: CC BY-SA 4.0
+    shows: The path up Łysica
+  - file_url: https://commons.wikimedia.org/wiki/File:Święta_Katarzyna._Szlak_na_Łysicę_1.jpg
+    author: Gorofil
+    license: CC BY-SA 4.0
+    shows: The trail from Święta Katarzyna to Łysica
+  - file_url: https://commons.wikimedia.org/wiki/File:Gołoborze_Łysa_Góra_Góry_Świętokrzyskie_2020-08-15_04.jpg
+    author: Agnieszka Kwiecień, Nova
+    license: CC BY-SA 4.0
+    shows: The quartzite stone run (gołoborze) on Łysa Góra
+sources:
+  distance_km: https://swietokrzyskie.szlaki.pttk.pl/en/53-swietokrzyskie-the-main-swietokrzyski-trail-named-after-edmund-massalski-goloszyce-kuzniaki
+  total_ascent_m: https://swietokrzyskie.szlaki.pttk.pl/en/53-swietokrzyskie-the-main-swietokrzyski-trail-named-after-edmund-massalski-goloszyce-kuzniaki
+  typical_days: https://www.national-geographic.pl/traveler/artykul/wakacje-na-szlaku-15-najpiekniejszych-tras-pieszych-w-polsce
+  sleeping: https://podrozebezosci.pl/glowny-szlak-swietokrzyski-gss-porady-praktyczne-mapa-noclegi-wyposazenie-odznaka
+  difficulty: https://swietokrzyskie.szlaki.pttk.pl/en/53-swietokrzyskie-the-main-swietokrzyski-trail-named-after-edmund-massalski-goloszyce-kuzniaki
+  logistics: https://podrozebezosci.pl/glowny-szlak-swietokrzyski-gss-porady-praktyczne-mapa-noclegi-wyposazenie-odznaka
+  permit: https://www.swietokrzyskipn.org.pl/turystyka/szlaki-piesze/czerwony/?lang=en
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/list/search?query=%C5%9Awi%C4%99tokrzyski&limit=10
+conflicts:
+  - field: distance_km
+    values:
+      - value: 92.4
+        source: https://swietokrzyskie.szlaki.pttk.pl/en/53-swietokrzyskie-the-main-swietokrzyski-trail-named-after-edmund-massalski-goloszyce-kuzniaki
+      - value: 105
+        source: https://www.swietokrzyskipn.org.pl/turystyka/szlaki-piesze/czerwony/?lang=en
+      - value: 93.2
+        source: https://podrozebezosci.pl/glowny-szlak-swietokrzyski-gss-porady-praktyczne-mapa-noclegi-wyposazenie-odznaka
+  - field: total_ascent_m
+    values:
+      - value: 2643
+        source: https://swietokrzyskie.szlaki.pttk.pl/en/53-swietokrzyskie-the-main-swietokrzyski-trail-named-after-edmund-massalski-goloszyce-kuzniaki
+      - value: 2411
+        source: https://mapa-turystyczna.pl/route/whdk
+      - value: 2755
+        source: https://fastestknowntime.com/route/glowny-szlak-swietokrzyski-kuzniaki-goloszyce-poland
+last_verified: 2026-11-27

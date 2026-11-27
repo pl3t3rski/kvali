@@ -1,0 +1,186 @@
+/*
+ * Kvali design system, as CSS. Values come from the design system's tokens.json;
+ * component rules follow its components/bundle.css. Drawn lines come from
+ * src/design/sketch.ts, so nothing here uses a border, a radius or a shadow on content.
+ */
+:root,
+:root[data-theme='paper'] {
+  --paper: #f3efd9;
+  --paper-deep: #e9e5ce;
+  --ink: #1e2629;
+  --ink-quiet: #4a565a;
+  --pen: #1e2629;
+  --butter: #f2e58b;
+  --on-butter: #1e2629;
+  --action: #1e2629;
+  --on-action: #f3efd9;
+  --focus: #2f5d7c;
+  --dusk: #55666e;
+  --moss: #5e7a4a;
+  --larch: #c7772b;
+  --glacier: #9cc3cb;
+  --warning-ink: #8a4b12;
+
+  --font-hand: 'Shantell Sans', 'Chalkboard SE', 'Comic Sans MS', sans-serif;
+  --font-reading: 'Karla', 'Helvetica Neue', Arial, sans-serif;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --radius-0: 0px;
+  --radius-sm: 6px;
+  --radius-tile: 20px;
+
+  --pen-fine: 2.2px;
+  --pen-regular: 3.2px;
+  --pen-bold: 4.6px;
+
+  --tilt-left: -1.2deg;
+  --tilt-right: 0.8deg;
+  color-scheme: light;
+}
+:root[data-theme='night'] {
+  --paper: #1e2629;
+  --paper-deep: #283236;
+  --ink: #f3efd9;
+  --ink-quiet: #bfc6c2;
+  --pen: #f2e58b;
+  --action: #f2e58b;
+  --on-action: #1e2629;
+  --focus: #9cc3cb;
+  --dusk: #9fb0b8;
+  --moss: #8fb07a;
+  --larch: #e09a54;
+  --warning-ink: #f0b37a;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-reading);
+  font-size: 16px;
+  line-height: 24px;
+}
+img {
+  max-width: 100%;
+}
+/* A hidden element stays hidden, whatever layout its class gives it. */
+[hidden] {
+  display: none !important;
+}
+a {
+  color: var(--ink);
+  text-underline-offset: 3px;
+}
+
+/* ---- the two voices ---- */
+.kv-hand,
+.kv-btn,
+.kv-chip,
+.kv-card-name {
+  font-family: var(--font-hand);
+  font-variation-settings: 'INFM' 100, 'BNCE' 25;
+}
+.t-title { margin: 0; font-size: 44px; line-height: 1.05; font-weight: 700; text-wrap: balance; }
+.t-heading { margin: 0; font-size: 28px; line-height: 1.15; font-weight: 600; text-wrap: balance; }
+.t-subheading { margin: 0; font-size: 22px; line-height: 1.15; font-weight: 700; }
+.t-note { margin: 0; font-size: 17px; line-height: 1.25; font-weight: 600; }
+.t-label { margin: 0; font-size: 15px; line-height: 1.25; font-weight: 600; }
+.t-body { margin: 0; font-size: 16px; line-height: 24px; }
+.t-stat { margin: 0; font-size: 15px; line-height: 22px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.t-small { margin: 0; font-size: 14px; line-height: 20px; }
+.t-caption { margin: 0; font-size: 13px; line-height: 18px; color: var(--ink-quiet); }
+.t-caption a { color: var(--ink-quiet); }
+.measure { max-width: 62ch; }
+
+/* ---- the drawn layer ---- */
+.kv-pen { position: relative; isolation: isolate; }
+.kv-sketch { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; z-index: -1; }
+.kv-ink { fill: var(--pen); }
+.kv-ink-on { fill: var(--on-butter); }
+.kv-fill-butter { fill: var(--butter); }
+.kv-fill-action { fill: var(--action); }
+.kv-hover { opacity: 0; }
+
+/* ---- logo and icons ---- */
+.kv-logo { display: inline-block; color: var(--pen); fill: currentColor; }
+.kv-icon { display: inline-block; flex: none; fill: currentColor; vertical-align: middle; }
+
+/* ---- buttons ---- */
+.kv-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2);
+  box-sizing: border-box; min-height: 44px; padding: 0 var(--space-5);
+  border: 0; background: none; color: var(--ink); text-decoration: none;
+  font-size: 17px; font-weight: 600; line-height: 1; cursor: pointer; -webkit-tap-highlight-color: transparent;
+}
+.kv-btn-lg { min-height: 52px; padding: 0 var(--space-6); font-size: 19px; }
+.kv-btn-primary { color: var(--on-action); }
+.kv-btn-primary:hover { transform: rotate(var(--tilt-left)); }
+.kv-btn-secondary:hover { color: var(--on-butter); }
+.kv-btn-secondary:hover .kv-hover { opacity: 1; }
+.kv-btn-secondary:hover .kv-ink { fill: var(--on-butter); }
+.kv-btn-quiet { padding: 0 var(--space-2); }
+.kv-btn:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
+
+/* ---- chips ---- */
+.kv-chip {
+  display: inline-flex; align-items: center; gap: var(--space-2);
+  box-sizing: border-box; min-height: 44px; padding: 0 var(--space-4);
+  border: 0; background: none; color: var(--ink);
+  font-size: 15px; font-weight: 600; line-height: 1; cursor: pointer; -webkit-tap-highlight-color: transparent;
+}
+.kv-chip[aria-pressed='true'] { color: var(--on-butter); }
+.kv-chips { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+
+.kv-btn:focus-visible,
+.kv-chip:focus-visible,
+.kv-card:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 4px;
+  border-radius: var(--radius-sm);
+}
+
+/* ---- flags: an icon and a word ---- */
+.kv-flag { display: inline-flex; align-items: center; gap: var(--space-2); font-size: 14px; line-height: 20px; color: var(--ink); }
+.kv-flag .kv-icon { color: var(--pen); }
+.kv-flag-warning,
+.kv-flag-warning .kv-icon { color: var(--warning-ink); }
+.kv-flags { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); }
+
+/* ---- marks ---- */
+.kv-mark { display: inline-block; }
+.kv-mark-highlight { color: var(--on-butter); margin: 0 0.14em; }
+.kv-mark-circle { margin: 0 0.5em; }
+
+/* ---- frames and cards ---- */
+.kv-frame { box-sizing: border-box; padding: var(--space-5); }
+.kv-frame-butter { color: var(--on-butter); }
+.kv-frame-butter a { color: var(--on-butter); }
+.kv-card {
+  display: block; box-sizing: border-box; width: 100%; padding: var(--space-5);
+  border: 0; background: none; color: var(--ink); text-align: left; text-decoration: none; font: inherit; cursor: pointer;
+}
+.kv-card-body { display: flex; flex-direction: column; gap: var(--space-2); }
+.kv-card-name { margin: 0; font-size: 22px; font-weight: 700; line-height: 1.15; }
+.kv-stats { font-size: 15px; line-height: 22px; font-weight: 500; font-variant-numeric: tabular-nums; }
+
+/* ---- photos: muted, slightly cool, laid on the table a little turned ---- */
+.kv-photo { margin: 0; display: flex; flex-direction: column; gap: var(--space-2); }
+.kv-photo img { display: block; width: 100%; height: auto; filter: saturate(0.72) contrast(0.96) brightness(1.02) hue-rotate(-6deg); }
+.kv-photo-print { transform: rotate(var(--tilt-left)); }
+.kv-photo-print.kv-tilt-right { transform: rotate(var(--tilt-right)); }
+.kv-grain { position: relative; display: block; }
+.kv-grain::after {
+  content: ''; position: absolute; inset: 0; pointer-events: none; opacity: 0.22; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }

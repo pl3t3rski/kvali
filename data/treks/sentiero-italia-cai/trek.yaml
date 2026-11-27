@@ -1,0 +1,40 @@
+id: sentiero-italia-cai
+status: draft
+name: Sentiero Italia CAI (SICAI)
+countries:
+  - IT
+region: All Italian regions (Sardinia, Sicily, Apennines, Alps)
+one_liner: Italy's 8,000 km national trail along every mountain range from Sardinia and Sicily up the Apennines and across the Alps to Trieste.
+route:
+  type: point-to-point
+  start: Santa Teresa Gallura (Sardinia)
+  end: Muggia (Trieste)
+  osm_relation_id: 1021025
+distance_km: 7949
+difficulty:
+  level: 3
+  reason: "Varies by section: mostly CAI grade E with some EE (expert hiker) mountain stages; some stages not yet walkable"
+flags:
+  waymarked: partial
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://sentieroitalia.cai.it/en/
+establishment_signals:
+  - national trail of the Italian Alpine Club (OSM nwn)
+  - official website and digital map
+  - partly waymarked red-white "SI"
+  - covered in travel articles
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.italia.it/en/italy/things-to-do/sentiero-italia-cai-along-italian-mountains
+  difficulty: https://www.garmin.com/it-IT/blog/outdoor/sentiero-italia/
+conflicts:
+  - field: distance_km
+    values:
+      - value: 7949
+        source: https://www.italia.it/en/italy/things-to-do/sentiero-italia-cai-along-italian-mountains
+      - value: 8000
+        source: https://sentieroitalia.cai.it/en/
+last_verified: 2026-11-27

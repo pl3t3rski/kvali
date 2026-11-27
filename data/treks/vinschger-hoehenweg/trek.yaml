@@ -1,0 +1,49 @@
+id: vinschger-hoehenweg
+status: draft
+name: Vinschger Höhenweg (Alta Via Val Venosta)
+countries:
+  - IT
+region: Val Venosta / Vinschgau, Sonnenberg (South Tyrol)
+one_liner: Five-day sunny-slope traverse of the Vinschgau from Naturno to the Adige source at Resia, mixing mountain paths and historic irrigation-channel trails.
+route:
+  type: point-to-point
+  start: Stava (Naturno)
+  end: Resia (source of the Adige)
+  osm_relation_id: 2520522
+distance_km: 108
+total_ascent_m: 5600
+typical_days:
+  min: 5
+  max: 5
+when:
+  best_months:
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+difficulty:
+  level: 3
+  reason: Graded EE; long stages up to ~25 km with ~1,400 m of ascent
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/venosta-valley-high-mountain-trail
+establishment_signals:
+  - regional route (OSM rwn)
+  - waymarked
+  - tourism-portal route page
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/venosta-valley-high-mountain-trail
+  total_ascent_m: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/venosta-valley-high-mountain-trail
+  typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/venosta-valley-high-mountain-trail
+  best_months: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/venosta-valley-high-mountain-trail
+  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/venosta-valley-high-mountain-trail
+conflicts: []
+last_verified: 2026-11-27

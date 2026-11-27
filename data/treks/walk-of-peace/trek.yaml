@@ -1,0 +1,87 @@
+id: walk-of-peace
+status: draft
+name: Walk of Peace from the Alps to the Adriatic (Pot miru)
+countries:
+  - SI
+  - IT
+region: Upper Soča Valley, Brda, Karst, Isonzo Front
+one_liner: Follows the First World War Isonzo Front past some 300 heritage sites from the Julian Alps to Trieste, demanding in the mountains, gentle at the end.
+route:
+  type: point-to-point
+  start: Log pod Mangartom
+  end: Trieste (Italy)
+total_ascent_m: 19130
+typical_days:
+  min: 13
+  max: 19
+when:
+  best_months:
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+difficulty:
+  level: 3
+  reason: Officially a demanding trail; high point Mt Krn (2,244 m) and about 19,000 m of ascent over 13-19 days.
+logistics:
+  getting_to_start: Summer buses Bovec - Log pod Mangartom (hop on-hop off).
+  leaving_from_end: Ends in Trieste.
+  nearest_airports: []
+flags:
+  permit: none
+  waymarked: yes
+links:
+  official_site: https://www.thewalkofpeace.com/
+establishment_signals:
+  - official status (on Slovenia's UNESCO tentative list; cross-border Interreg trail)
+  - waymarked along the whole route
+  - official website
+  - published guidebook (official WoP guidebook 2024)
+  - regularly covered in trip reports
+trip_reports:
+  - url: https://www.hiddeneurope.co.uk/the-magazine/issues/hidden-europe-70/of-mountains-and-memories-slovenias-walk-of-peace/
+    title: "Of mountains and memories: Slovenia's Walk of Peace (hidden europe 70)"
+    summary: Rudolf Abraham's first-person account of walking the trail via Drežnica and the Isonzo Front sites; published July 2023.
+  - url: https://slovenia.si/this-is-slovenia/hiking-in-the-garden-of-eden
+    title: Hiking in the Garden of Eden
+    year_hiked: 2019
+    summary: Four days in 2019 from Kranjska Gora to Tolmin; the last part followed the Walk of Peace.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Pot_Miru_Wegweiser_am_Alpe_Adria_Trail_in_Slowenien.jpg
+    author: Naturpuur
+    license: CC BY 4.0
+    shows: Walk of Peace (Pot miru) signpost in Slovenia
+  - file_url: https://commons.wikimedia.org/wiki/File:Freilichtmuseum_am_Kolovrat_(1114_m)_beim_"Pot_Miru",_Friedensweg_in_Tolmin,_Slowenien,_EU.jpg
+    author: Naturpuur
+    license: CC BY 4.0
+    shows: Kolovrat open-air WWI museum on the trail above Tolmin
+  - file_url: https://commons.wikimedia.org/wiki/File:Memorial_in_Tolmin,_Slovenia,_along_the_Walk_of_Peace_from_the_Alps_to_the_Adriatic_sea_in_Italy,_EU.jpg
+    author: Naturpuur
+    license: CC BY 4.0
+    shows: Memorial near Tolmin along the trail
+sources:
+  distance_km: https://thewalkofpeace.com/?p=13994
+  total_ascent_m: https://www.thewalkofpeace.com/wp-content/uploads/2024/03/Walk-of-Peace-information-for-tourist-providers-ANG-1.pdf
+  typical_days: https://thewalkofpeace.com/?p=13994
+  best_months: https://www.thewalkofpeace.com/?p=4093
+  difficulty: https://thewalkofpeace.com/?p=13994
+  logistics: https://www.thewalkofpeace.com/?p=1773
+  permit: https://thewalkofpeace.com/?p=13994
+conflicts:
+  - field: distance_km
+    values:
+      - value: 500+ (whole network, 30 sections)
+        source: https://thewalkofpeace.com/?p=13994
+      - value: 230
+        source: https://www.hiddeneurope.co.uk/the-magazine/issues/hidden-europe-70/of-mountains-and-memories-slovenias-walk-of-peace/
+      - value: 220
+        source: https://www.lonelyplanet.com/news/best-long-haul-treks-slovenia
+  - field: total_ascent_m
+    values:
+      - value: 19130
+        source: https://www.thewalkofpeace.com/wp-content/uploads/2024/03/Walk-of-Peace-information-for-tourist-providers-ANG-1.pdf
+      - value: 19170
+        source: https://www.go2025.eu/en/imports/poi/vipavskadolina/walk-of-peace-from-the-alps-to-the-adriatic
+last_verified: 2026-11-27

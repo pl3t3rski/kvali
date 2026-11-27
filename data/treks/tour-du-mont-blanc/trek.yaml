@@ -1,70 +1,92 @@
-# SAMPLE DRAFT. Written from memory to test the pipeline, not from the research prompt.
-# Every field needs checking against real sources before this trek is published;
-# the entry under `conflicts` keeps it from being published by accident.
 id: tour-du-mont-blanc
 status: draft
-name: Tour du Mont Blanc
-countries: [FR, IT, CH]
-region: Mont Blanc massif
-one_liner: The classic loop around Mont Blanc through France, Italy and Switzerland, from hut to hut over high passes.
-
+name: Tour du Mont Blanc (TMB)
+countries:
+  - FR
+  - IT
+  - CH
+region: Mont Blanc massif (Haute-Savoie / Aosta Valley / Valais)
+one_liner: Classic 170 km loop around Mont Blanc through three countries, hut-to-hut and village-to-village, very busy in July–August.
 route:
   type: loop
-  start: Les Houches
-  end: Les Houches
+  start: Les Houches (FR); Courmayeur is the usual Italian entry point
+  end: Les Houches (FR)
   osm_relation_id: 124456
-
 distance_km: 170
 total_ascent_m: 10000
-
 typical_days:
   min: 7
-  max: 11
-
+  max: 12
 when:
-  best_months: [7, 8, 9]
-  open_season: Mid-June to mid-September, when the huts are staffed
-
+  best_months:
+    - June
+    - July
+    - August
+    - September
+  open_season: Huts generally open mid-June to the first or second week of September
 sleeping:
-  type: huts
-  booking_ahead: required
-
+  type: mixed
+  booking_ahead: recommended
+  notes: Refuges, gîtes and village hotels; official site advises booking several months ahead for July–August (bookings for summer 2027 opened 15 Oct 2026). Bivouacking is regulated.
 difficulty:
   level: 3
-  reason: Long days with around 1,000 m of climbing each, on good paths without technical ground.
-
+  reason: Several days with 1,300 m+ of ascent; non-technical on the main route, ladders only on optional variants
+logistics:
+  getting_to_start: Fly to Geneva; bus to Saint-Gervais-Le Fayet then train to Les Houches, or airport bus to Chamonix then local bus/train to Les Houches
+  leaving_from_end: "Loop: same as start. From Courmayeur, buses run through the Mont Blanc tunnel to Chamonix/Geneva"
+  nearest_airports:
+    - Geneva (GVA)
 flags:
   permit: none
   waymarked: yes
   water_scarce: false
   exposed_or_via_ferrata: false
-
 links:
-  official_site: https://www.autourdumontblanc.com/en/
-
+  official_site: https://montourdumontblanc.com/en/
 establishment_signals:
-  - Official website with hut booking
-  - Waymarked along the whole route
-  - Several printed guidebooks
-
-trip_reports: []
-
+  - international trail (3 countries)
+  - waymarked
+  - official website
+  - guidebooks (Cicerone; Knife Edge)
+  - heavily covered in trip reports
+trip_reports:
+  - url: https://patricklam.ca/post/20250824-tmb
+    title: "Trip report: Tour du Mont Blanc, July 21 to August 1, 2025"
+    year_hiked: 2025
+    summary: Full loop over 12 days in late July, staying in refuges rather than camping
+  - url: https://otheiner.github.io/blog/TMB
+    title: Tour du Mont Blanc with a Twist - Umbrellas, Thunderstorms, and Wolves
+    year_hiked: 2025
+    summary: Started 2 September 2025; thunderstorms and a wolf sighting on an early-autumn loop
+  - url: https://www.mountaineers.org/activities/trip-reports/global-adventures-trek-hut-to-hut-on-the-tour-du-mont-blanc
+    title: Global Adventures - Trek Hut to Hut on the Tour du Mont Blanc
+    summary: Club group of 8 completed the loop in 12 days; notes a boulder field past Fenêtre d'Arpette and many ladders
+  - url: https://semi-rad.com/2025/11/trip-report-attempting-the-express-tour-du-mont-blanc/
+    title: "Trip Report: Attempting the Express Tour du Mont Blanc"
+    year_hiked: 2025
+    summary: Fast, ultra-length-day attempt of the 105-mile loop starting from Chamonix
 photos:
-  - file_url: https://commons.wikimedia.org/wiki/File:Col_de_la_Seigne_adret.jpg
-    author: Rémih
+  - file_url: https://commons.wikimedia.org/wiki/File:Val_Veni_by_MTB.JPG
+    author: Nick Moyes
     license: CC BY-SA 4.0
-    shows: Col de la Seigne, the pass between France and Italy
-  - file_url: https://commons.wikimedia.org/wiki/File:Grandes_Jorasses_-_Val_Ferret,_Courmayeur,_Aosta,_Italy_-_August_8,_2016.jpg
-    author: Giorgio Galeotti
-    license: CC BY 4.0
-    shows: The Grandes Jorasses seen from the Italian Val Ferret
-
+    shows: TMB route in Val Veny near Col de la Seigne
+  - file_url: https://commons.wikimedia.org/wiki/File:At_Col_de_la_Seigne_there_is_a_wide_overview_in_the_Aosta_valley_with_Mont_Blanc_4810_m_(10_km)_left_and_Matterhorn_(white_top_in_the_middle)_4478_m_at_70,5_km_distance%5E_clearly_visible_-_panoramio.jpg
+    author: Henk Monster
+    license: CC BY 3.0
+    shows: View from Col de la Seigne (FR/IT border) into the Aosta Valley
+  - file_url: https://commons.wikimedia.org/wiki/File:Rifugio_Walter_Bonatti_Refuge.jpg
+    author: Cboon
+    license: CC BY-SA 3.0
+    shows: Rifugio Walter Bonatti above Val Ferret (shared with Alta Via 1 Valle d'Aosta)
 sources:
-  when.best_months: https://www.autourdumontblanc.com/en/
-  sleeping: https://www.autourdumontblanc.com/en/
-  flags.permit: https://www.autourdumontblanc.com/en/
-
-conflicts:
-  - Sample record written to test the pipeline. No field has been checked against a source yet.
-
+  distance_km: https://montourdumontblanc.com/en/
+  total_ascent_m: https://montourdumontblanc.com/en/
+  typical_days: https://montourdumontblanc.com/en/
+  best_months: https://montourdumontblanc.com/en/
+  open_season: https://www.chamonix.net/english/summer-activities/trekking/tour-of-mont-blanc
+  sleeping: https://montourdumontblanc.com/en/actualites/booking-a-refuge-the-complete-guide
+  difficulty: https://bookatrekking.com/en/blog/tour-du-mont-blanc-trekking/
+  logistics: https://www.rome2rio.com/s/Gen%C3%A8ve-Airport/Les-Houches
+  permit: https://www.cleverhiker.com/backpacking/tour-du-mont-blanc-hiking-guide/
+conflicts: []
 last_verified: 2026-11-27

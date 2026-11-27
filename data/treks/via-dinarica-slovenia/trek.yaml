@@ -1,0 +1,72 @@
+id: via-dinarica-slovenia
+status: draft
+name: Via Dinarica Slovenia
+countries:
+  - SI
+region: Notranjska / Green Karst (Nanos to Snežnik area)
+one_liner: First section of the Via Dinarica, crossing Slovenia's karst plateaus and lakes from Mt Nanos to the Croatian border.
+route:
+  type: point-to-point
+  start: Mt Nanos
+  end: Babno polje (Croatian border)
+distance_km: 159
+typical_days:
+  min: 7
+  max: 10
+when:
+  best_months:
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+sleeping:
+  type: guesthouses
+  notes: Inns and guesthouses along the way; packaged tours also sold.
+difficulty:
+  level: 2
+  reason: Easy to medium overall, with two harder climbs (to 1,313 m and 1,796 m).
+logistics:
+  getting_to_start: Postojna is used as the arrival base in the local tourism itinerary.
+  nearest_airports: []
+flags:
+  permit: none
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
+establishment_signals:
+  - official status (Slovenian section of the international Via Dinarica)
+  - official website (Slovenian Tourist Board)
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Nanos_Plateau,_western_edge_02.jpg
+    author: Ajznponar
+    license: CC0
+    shows: Western edge of the Nanos plateau, the starting massif
+  - file_url: https://commons.wikimedia.org/wiki/File:Nanos_Plateau,_western_edge_05.jpg
+    author: Ajznponar
+    license: CC0
+    shows: Western edge of the Nanos plateau
+sources:
+  distance_km: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
+  typical_days: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
+  best_months: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
+  sleeping: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
+  difficulty: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
+  logistics: https://visit-postojna.si/en/what-to-do/activities/hiking/long-distance-trails/via-dinarica
+conflicts:
+  - field: typical_days
+    values:
+      - value: 7 stages
+        source: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
+      - value: 10 days
+        source: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-backpacking/long-distance-trails
+  - field: distance_km
+    values:
+      - value: 159
+        source: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
+      - value: 160
+        source: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-backpacking/long-distance-trails
+last_verified: 2026-11-27

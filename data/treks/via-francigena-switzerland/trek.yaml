@@ -1,0 +1,52 @@
+id: via-francigena-switzerland
+status: draft
+name: Via Francigena – Swiss section (regional route 70)
+countries:
+  - CH
+region: Vaud and Valais – Jura foot, Lake Geneva, Rhône valley, Val d'Entremont
+one_liner: "The Swiss leg of the Canterbury–Rome pilgrim road: vineyards and Lake Geneva, then up the Rhône and Val d'Entremont to the Great St Bernard hospice."
+route:
+  type: point-to-point
+  start: Ballaigues
+  end: Col du Grand-St-Bernard
+  osm_relation_id: 124582
+distance_km: 200
+total_ascent_m: 5600
+typical_days:
+  min: 10
+  max: 12
+when:
+  best_months: []
+sleeping:
+  type: guesthouses
+  notes: Stage ends in towns and villages (Orbe, Cossonay, Lausanne, Vevey, Aigle, St-Maurice, Martigny, Orsières, Bourg-St-Pierre) and the Great St Bernard hospice.
+difficulty:
+  level: 2
+  reason: Technically easy, physically difficult; mostly low-level, but the final stages climb up Val d'Entremont to the Great St Bernard Pass.
+logistics:
+  getting_to_start: Ballaigues (Vaud), where the route enters from France.
+  leaving_from_end: Great St Bernard Pass hospice; the Via Francigena continues into Italy.
+  nearest_airports:
+    - Geneva
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.myswitzerland.com/en/experiences/route/viafrancigena/
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.myswitzerland.com/en/experiences/route/viafrancigena/
+  total_ascent_m: https://www.myswitzerland.com/en/experiences/route/viafrancigena/
+  typical_days: https://www.myswitzerland.com/en/experiences/route/viafrancigena/
+  sleeping: https://www.myswitzerland.com/en/experiences/route/viafrancigena/
+  difficulty: https://www.myswitzerland.com/en/experiences/route/viafrancigena/
+  logistics: https://www.myswitzerland.com/en/experiences/route/viafrancigena/
+  permit: https://www.myswitzerland.com/en/experiences/route/viafrancigena/
+last_verified: 2026-11-27

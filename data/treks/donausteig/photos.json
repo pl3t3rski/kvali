@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Donausteig Rastplatz.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Donausteig_Rastplatz.jpg",
+    "author": "Pfeifferfranz",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Donausteig rest area near Burg Bad Kreuzen",
+    "width": 1600,
+    "height": 901,
+    "sizes": {
+      "480": "/photos/donausteig/f272a3fd1b-480.webp",
+      "960": "/photos/donausteig/f272a3fd1b-960.webp",
+      "1600": "/photos/donausteig/f272a3fd1b-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Rastplatz - Panorama Blaas Infotafel.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Rastplatz_-_Panorama_Blaas_Infotafel.jpg",
+    "author": "High Contrast",
+    "license": "CC BY 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+    "shows": "Panorama rest area and info board at Freinberg",
+    "width": 1600,
+    "height": 1040,
+    "sizes": {
+      "480": "/photos/donausteig/c3ef4b8d66-480.webp",
+      "960": "/photos/donausteig/c3ef4b8d66-960.webp",
+      "1600": "/photos/donausteig/c3ef4b8d66-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Wilhering Wegweiser Prinzensteig.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Wilhering_Wegweiser_Prinzensteig.jpg",
+    "author": "Isiwal",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Signposts in Wilhering where the Donausteig passes",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/donausteig/b707e7cbfa-480.webp",
+      "960": "/photos/donausteig/b707e7cbfa-960.webp",
+      "1600": "/photos/donausteig/b707e7cbfa-1600.webp"
+    }
+  }
+]

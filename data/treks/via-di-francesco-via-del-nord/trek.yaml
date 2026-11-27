@@ -1,0 +1,53 @@
+id: via-di-francesco-via-del-nord
+status: draft
+name: Via di Francesco – Via del Nord (La Verna to Assisi)
+countries:
+  - IT
+region: Tuscany / Umbria (Casentino, Upper Tiber Valley, Gubbio)
+one_liner: Franciscan pilgrim walk from the La Verna sanctuary to Assisi's basilica through Sansepolcro and Gubbio; can continue south to Rome (~500 km total).
+route:
+  type: point-to-point
+  start: Chiusi della Verna (La Verna sanctuary)
+  end: Assisi (Basilica di San Francesco)
+distance_km: 200
+typical_days:
+  min: 8
+  max: 10
+when:
+  open_season: Walkable in every season
+sleeping:
+  type: guesthouses
+  notes: Pilgrim and tourist accommodation listed on the official site; free credential (request ~3 weeks ahead), Testimonium issued in Assisi.
+difficulty:
+  level: 2
+  reason: Hilly Apennine stages up to ~35 km; long days can be split
+flags:
+  permit: none
+  permit_notes: Optional free credential for the Testimonium
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.viadifrancesco.it
+establishment_signals:
+  - official website with GPX
+  - waymarked yellow-blue
+  - Touring Club Italiano and italia.it coverage
+  - pilgrim credential/Testimonium system
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.touringclub.it/cosa-facciamo/cammini-percorsi/la-via-di-francesco-via-del-nord
+  typical_days: https://www.touringclub.it/cosa-facciamo/cammini-percorsi/la-via-di-francesco-via-del-nord
+  open_season: https://www.touringclub.it/cosa-facciamo/cammini-percorsi/la-via-di-francesco-via-del-nord
+  sleeping: https://travel.thewom.it/italia/via-di-francesco.html
+  difficulty: https://www.sportoutdoor24.it/?p=52521
+  permit: https://www.touringclub.it/cosa-facciamo/cammini-percorsi/la-via-di-francesco-via-del-nord
+conflicts:
+  - field: distance_km
+    values:
+      - value: 200
+        source: https://www.touringclub.it/cosa-facciamo/cammini-percorsi/la-via-di-francesco-via-del-nord
+      - value: 189
+        source: https://www.touringclub.it/notizie-di-viaggio/la-via-del-nord-della-via-di-francesco-tra-umbria-e-toscana-e-un-cammino
+last_verified: 2026-11-27

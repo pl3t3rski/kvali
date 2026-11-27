@@ -1,0 +1,80 @@
+id: tct-samtskhe-javakheti
+status: draft
+name: Transcaucasian Trail – Samtskhe-Javakheti (Gandzani – Borjomi)
+countries:
+  - GE
+region: Javakheti plateau and Abul-Samsari range, Lesser Caucasus
+one_liner: Volcanic plateau, crater lakes and shepherd camps on the TCT's newest Georgian stage, then down through forest to Borjomi.
+route:
+  type: point-to-point
+  start: Gandzani
+  end: Borjomi (or Zanavi)
+  gpx_source: https://caltopo.com/m/FEK39NC
+distance_km: 102
+total_ascent_m: 3563
+typical_days:
+  min: 4
+  max: 6
+when:
+  best_months:
+    - July
+    - August
+    - September
+  open_season: Main route over Samsari Pass typically July–September (snow can linger into July); lowland alternate via Lake Paravani roughly June–October; northern forest section May–November
+sleeping:
+  type: mixed
+  notes: Wild camping required from Gandzani to Lake Tabatskuri (about half the route). Guesthouses in Gandzani, Tabatskuri and Borjomi.
+difficulty:
+  level: 3
+  reason: Steep scree at 3,091 m Samsari Pass, boulder fields, open-terrain navigation; guardian dogs are the main hazard
+logistics:
+  getting_to_start: Daily marshrutka Tbilisi (Samgori) – Ninotsminda run by Family Corner Guesthouse in Gandzani, ~20 GEL, ~2.5 h; call ahead.
+  leaving_from_end: Borjomi – Tbilisi marshrutkas roughly hourly (15 GEL, ~2.5 h) or early train; vans to Kutaisi.
+  nearest_airports:
+    - Tbilisi
+    - Kutaisi
+flags:
+  permit: none
+  permit_notes: "No permit mentioned for this stage. If you finish via Zanavi into Borjomi-Kharagauli NP (trail #4), park registration rules apply and wild camping is forbidden in the park."
+  waymarked: partial
+  water_scarce: true
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/
+establishment_signals:
+  - official_status
+  - official_site
+trip_reports: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Tabatskuri_Lake.jpg
+    author: Yasuhiro Kojima
+    license: CC BY-SA 4.0
+    shows: Lake Tabatskuri, the halfway point and first guesthouse
+  - file_url: https://commons.wikimedia.org/wiki/File:Tabatskuri_Lake_and_Abuli-Samsari_Range.jpg
+    author: Sandroshanidze
+    license: CC BY-SA 4.0
+    shows: Abul-Samsari range seen from Lake Tabatskuri
+  - file_url: https://commons.wikimedia.org/wiki/File:Abuli_Fortress_3.jpg
+    author: Kojima Yasuhiro
+    license: CC BY 4.0
+    shows: Abuli Fortress on Mt Patara Abuli; stage 1's jeep track heads towards it
+sources:
+  distance_km: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/
+  total_ascent_m: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/
+  typical_days: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/
+  best_months: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/practical-information/
+  open_season: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/practical-information/
+  sleeping: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/practical-information/
+  difficulty: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/
+  logistics: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/practical-information/
+  permit: https://transcaucasiantrail.org/en/thru-hike-the-tct
+  waymarked: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/
+  water_scarce: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/practical-information/
+conflicts:
+  - field: total_ascent_m
+    values:
+      - value: 3563 (northbound)
+        source: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/
+      - value: 4827 (southbound)
+        source: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/
+last_verified: 2026-11-27

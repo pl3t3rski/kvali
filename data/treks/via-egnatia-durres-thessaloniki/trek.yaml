@@ -1,0 +1,84 @@
+id: via-egnatia-durres-thessaloniki
+status: draft
+name: Via Egnatia Hiking Trail, Part 1 (Durrës – Thessaloniki)
+countries:
+  - AL
+  - MK
+  - GR
+region: Shkumbin valley, Lake Ohrid and Macedonia (Albania–North Macedonia–Greece)
+one_liner: A month-long, unmarked town-to-town walk on the line of the Roman road from the Adriatic to Thessaloniki, with real Roman paving in the Albanian hills.
+route:
+  type: point-to-point
+  start: Durrës (Albania)
+  end: Thessaloniki (Greece)
+  gpx_source: https://viaegnatiafoundation.eu/the-trail/
+distance_km: 475
+total_ascent_m: 6951
+typical_days:
+  min: 28
+  max: 28
+sleeping:
+  type: guesthouses
+  notes: Town-to-town stages; the Via Egnatia Foundation keeps an accommodation list on its website.
+difficulty:
+  level: 2
+  reason: Medium walking on lanes, ridges and old road in hill country; navigation needed because the route is not waymarked.
+logistics:
+  getting_to_start: Fly to Tirana and take a bus to Durrës, or take a ferry from Bari to Durrës.
+  nearest_airports:
+    - Tirana (TIA)
+flags:
+  permit: none
+  permit_notes: No permits. The route crosses into North Macedonia at the Qafë Thanë road pass.
+  waymarked: no
+links:
+  official_site: https://viaegnatiafoundation.eu/the-trail/
+establishment_signals:
+  - Official website / trail organisation (Via Egnatia Foundation)
+  - "Guidebook: Marietta van Attekum & Holger de Bruin, 'Via Egnatia on Foot, Part 1' (Via Egnatia Foundation, 2014; 2021 printing listed), with GPS tracks"
+  - Covered in travel articles and route listings (AramcoWorld, Wikivoyage, FKT)
+trip_reports:
+  - url: https://www.aussiebushwalking.com/overseas/albania/via-egnatia
+    title: Via Egnatia
+    summary: Walked sections in Albania and North Macedonia; best days on the surviving Roman road past Elbasan and over the hills from Ohrid to Resen; not waymarked.
+  - url: https://www.caminodesantiago.me/community/threads/via-egnatia-towards-jerusalem.61758/post-737971
+    title: LIVE from the Camino – Via Egnatia (towards Jerusalem)
+    year_hiked: 2019
+    summary: Day-by-day forum diary of a pilgrim walking from Durrës in spring 2019, continuing from his Via Francigena.
+  - url: https://fastestknowntime.com/fkt/bodil-oudshoorn-lisa-watson-egnatia-part-1-durres-thessaloniki-2019-12-31
+    title: "FKT: Bodil Oudshoorn, Lisa Watson – Via Egnatia Part 1"
+    year_hiked: 2019
+    summary: Ran Durrës to Thessaloniki self-supported over Christmas 2019 in 11 days 4 hours; muddy Albanian countryside.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Via_Egnatia_Librazhd.jpg
+    author: Albinfo
+    license: CC BY-SA 4.0
+    shows: Original Roman paving of the Via Egnatia in the Polis mountains, Librazhd
+  - file_url: https://commons.wikimedia.org/wiki/File:Ura_e_Kamares_(Kamare_Bridge),_Elbasan_(4).jpg
+    author: Liridon
+    license: CC BY-SA 4.0
+    shows: Ura e Kamarës, the old stone bridge over the Shkumbin near Mirakë
+sources:
+  distance_km: https://www.denoorderzon.nl/the-via-egnatia-hiking-trail-9789082197303
+  total_ascent_m: https://fastestknowntime.com/route/egnatia-part-1-durres-thessaloniki
+  typical_days: https://aussiebushwalking.com/overseas/albania
+  sleeping: https://viaegnatiafoundation.eu/the-trail/
+  difficulty: https://www.aussiebushwalking.com/overseas/albania/via-egnatia
+  logistics: https://www.aussiebushwalking.com/overseas/albania/via-egnatia
+  nearest_airports: https://en.wikivoyage.org/wiki/Via_Egnatia
+  permit: https://www.aussiebushwalking.com/overseas/albania/via-egnatia
+  border_crossing: https://alaturka.info/en/albania/elbasan/3596-via-egnatia-through-albania-from-durres-to-quafe-thane
+  waymarked: https://www.aussiebushwalking.com/overseas/albania/via-egnatia
+  guidebook: https://www.freytagberndt.com/en/via-egnatia-on-foot-teil-1.html
+conflicts:
+  - field: distance_km
+    values:
+      - value: 475
+        source: https://www.denoorderzon.nl/the-via-egnatia-hiking-trail-9789082197303
+      - value: 480
+        source: https://www.aussiebushwalking.com/overseas/albania/via-egnatia
+      - value: 460
+        source: https://www.landschapreisboekwinkel.nl/detail/gids/0/wandelgidsen/9789082197303/wandelgids-via-egnatia-on-foot-deel-1-via-egnatia-foundation
+      - value: 427.61 (GPS track)
+        source: https://fastestknowntime.com/route/egnatia-part-1-durres-thessaloniki
+last_verified: 2026-11-27

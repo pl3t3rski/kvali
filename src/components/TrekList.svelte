@@ -1,10 +1,12 @@
 <script lang="ts">
   /**
    * The treks in the map's viewport that pass the filters, best established first.
-   * This list is the accessible way through the data: every trek on the map is a button here.
+   * This list is the accessible way through the data: every trek on the map is a card here.
    */
-  import { formatCountries, formatDays, formatKm } from '../lib/format';
-  import SleepingLabel from './SleepingLabel.svelte';
+  import Flags from '../design/Flags.svelte';
+  import { pen } from '../design/sketch';
+  import { cardFlags } from '../lib/flags';
+  import { formatCountries, statsLine } from '../lib/format';
   import type { ViewState } from './view-state.svelte';
 
   let { view }: { view: ViewState } = $props();
@@ -16,7 +18,7 @@
     const elsewhere = view.matching.length - shown;
     if (view.matching.length === 0) return 'No treks match these filters.';
     if (shown === 0) return `No treks in this part of the map. ${elsewhere} elsewhere.`;
-    return `${shown} ${shown === 1 ? 'trek' : 'treks'} in view${elsewhere > 0 ? `, ${elsewhere} elsewhere` : ''}`;
+    return `${shown} ${shown === 1 ? 'trek' : 'treks'} in view${elsewhere > 0 ? ` · ${elsewhere} elsewhere` : ''}`;
   });
 
   // A route hovered on the map brings its card into view.
@@ -26,26 +28,27 @@
   });
 </script>
 
-<p aria-live="polite">{summary}</p>
+<p class="t-caption" aria-live="polite">{summary}</p>
 
 <ul class="trek-list" bind:this={list}>
   {#each view.visible as trek (trek.id)}
     <li>
       <button
         type="button"
+        class="kv-card"
         data-trek-id={trek.id}
-        class:highlighted={view.hoveredId === trek.id}
         onclick={() => view.select(trek.id)}
         onmouseenter={() => view.hover(trek.id, 'list')}
         onmouseleave={() => view.hover(undefined, 'list')}
         onfocus={() => view.hover(trek.id, 'list')}
         onblur={() => view.hover(undefined, 'list')}
+        use:pen={{ kind: 'card', selected: view.hoveredId === trek.id }}
       >
-        <strong>{trek.name}</strong>
-        {#if trek.status === 'draft'}<em>(draft)</em>{/if}
-        <span>{trek.region}, {formatCountries(trek.countries)}</span>
-        <span>
-          {formatDays(trek.days[0], trek.days[1])} · {formatKm(trek.distance_km)} · <SleepingLabel type={trek.sleeping} />
+        <span class="kv-card-body">
+          <span class="t-caption">{trek.region} · {formatCountries(trek.countries)}{trek.status === 'draft' ? ' · draft' : ''}</span>
+          <span class="kv-card-name">{trek.name}</span>
+          <span class="kv-stats">{statsLine(trek)}</span>
+          <Flags flags={cardFlags(trek)} />
         </span>
       </button>
     </li>
@@ -57,23 +60,8 @@
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  button {
-    display: block;
-    width: 100%;
-    padding: 0.5rem;
-    border: 0;
-    border-top: 1px solid #ccc;
-    background: none;
-    font: inherit;
-    text-align: left;
-    cursor: pointer;
-  }
-  button span {
-    display: block;
-  }
-  /* Placeholder for the hovered state. */
-  .highlighted {
-    background: #eee;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
   }
 </style>

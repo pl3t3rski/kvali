@@ -1,0 +1,51 @@
+id: via-spluga
+status: draft
+name: Via Spluga (ViaSpluga)
+countries:
+  - CH
+  - IT
+region: Graubünden (Viamala, Rheinwald) / Valchiavenna (Lombardy)
+one_liner: Historic Alpine trade route from Thusis through the Viamala gorge and over the Splügen Pass down to Chiavenna.
+route:
+  type: point-to-point
+  start: Thusis (CH)
+  end: Chiavenna (IT)
+  osm_relation_id: 1504263
+distance_km: 65
+total_ascent_m: 2900
+typical_days:
+  min: 4
+  max: 5
+sleeping:
+  type: guesthouses
+  notes: Village hotels; Swiss operators offer luggage-transfer packages (mid-June to late September).
+difficulty:
+  level: 2
+  reason: Mule tracks with big height differences (720 m → 1,905 m Montespluga → 330 m Chiavenna)
+flags:
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://www.myswitzerland.com/en-in/experiences/route/viaspluga/
+establishment_signals:
+  - Swiss national cultural route (SwitzerlandMobility no. 50)
+  - waymarked
+  - italia.it itinerary page
+  - sold by walking-holiday operators
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://www.italia.it/en/lombardy/things-to-do/cammino-via-spluga
+  total_ascent_m: https://www.myswitzerland.com/en-in/experiences/route/viaspluga/
+  typical_days: https://www.italia.it/en/lombardy/things-to-do/cammino-via-spluga
+  sleeping: https://www.myswitzerland.com/en-in/experiences/route/viaspluga/
+  difficulty: https://www.italia.it/en/lombardy/things-to-do/cammino-via-spluga
+conflicts:
+  - field: distance_km
+    values:
+      - value: 65
+        source: https://www.italia.it/en/lombardy/things-to-do/cammino-via-spluga
+      - value: 68
+        source: https://www.myswitzerland.com/en-in/experiences/route/viaspluga/
+last_verified: 2026-11-27

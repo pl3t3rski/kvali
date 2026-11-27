@@ -1,0 +1,100 @@
+id: via-alpina-1
+status: draft
+name: Via Alpina – Swiss national route 1 (Alpine Pass Route)
+countries:
+  - LI
+  - CH
+region: Northern Swiss Alps – St. Gallen, Glarus, Central Switzerland, Bernese Oberland, Vaud Alps
+one_liner: Switzerland's flagship east–west traverse over 14 Alpine passes from Liechtenstein to Lake Geneva, sleeping in villages, inns and huts; Bernese Oberland stages are the busiest.
+route:
+  type: point-to-point
+  start: Vaduz (Gaflei), Liechtenstein
+  end: Montreux
+  osm_relation_id: 12359033
+distance_km: 390
+total_ascent_m: 23500
+typical_days:
+  min: 19
+  max: 20
+when:
+  best_months:
+    - July
+    - August
+    - September
+  open_season: Official route season May–October; Cicerone advises early July to mid-September, when the highest passes are snow-free and mountain accommodation is open.
+sleeping:
+  type: mixed
+  notes: Mountain huts, village inns and farm accommodation (Cicerone). Every stage ends in or near a village; luggage-transfer packages exist.
+difficulty:
+  level: 3
+  reason: Long days with up to ~1,600 m of ascent and high passes up to 2,778 m (Hohtürli); officially rated technically medium, physically difficult.
+logistics:
+  getting_to_start: Stage 1 starts at Gaflei above Vaduz (Liechtenstein); Vaduz is on the SBB timetable (bus). Traditional Alpine Pass Route start is Sargans (rail).
+  leaving_from_end: Montreux is on the main Lake Geneva rail line.
+  nearest_airports:
+    - Zurich
+    - Geneva
+flags:
+  permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
+links:
+  official_site: https://schweizmobil.ch/en/hiking-in-switzerland/route-1
+establishment_signals:
+  - official_status
+  - waymarked
+  - official_site
+  - guidebook
+  - trip_reports
+trip_reports:
+  - url: https://stephaniewang.page/MyViaAlpinaGreenExperience/
+    title: My Via Alpina Green Experience
+    summary: Through-hike of all 20 sections Vaduz–Montreux, staying in village lodgings along the way.
+  - url: https://hikebiketravel.com/via-alpina-in-switzerland
+    title: Via Alpina in Switzerland
+    summary: Six self-guided stages Meiringen–Lenk with luggage transfer, hotel every night.
+  - url: https://www.afar.com/magazine/hike-hut-to-hut-in-the-alps-in-switzerland
+    title: This 240-Mile Trek in the Swiss Alps Is All About Mountain Huts and Cheese Shops in the Clouds
+    summary: Magazine first-person account of a hut-to-hut section of Via Alpina 1; long days, steep passes.
+  - url: https://www.fastestknowntime.com/fkt/liz-derstine-alpina-switzerland-2023-07-01
+    title: Swiss Via Alpina – women's supported FKT report (Liz Derstine)
+    year_hiked: 2023
+    summary: Fastest-known-time attempt Vaduz–Montreux in July 2023 with about 8 days available; notes on following the Via Alpina 1 signs.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:1588-Oeschinensee.jpg
+    author: Friedrich-Karl Mohr (FkMohr)
+    license: CC BY-SA 3.0 DE
+    shows: Oeschinensee and the Blüemlisalp, on the Griesalp–Hohtürli–Kandersteg stage
+  - file_url: https://commons.wikimedia.org/wiki/File:Oeschinensee_at_sunset.jpg
+    author: Jean Schmitt
+    license: CC BY-SA 4.0
+    shows: Oeschinensee at sunset with Fründenhorn and Doldenhorn
+  - file_url: https://commons.wikimedia.org/wiki/File:Oeschinensee_mit_K%C3%BChen.jpg
+    author: Monika.frischknecht
+    license: CC BY-SA 3.0
+    shows: Cows grazing above Oeschinensee
+sources:
+  distance_km: https://www.myswitzerland.com/en/experiences/route/via-alpina/
+  total_ascent_m: https://www.myswitzerland.com/en/experiences/route/via-alpina/
+  typical_days: https://www.cicerone.co.uk/trekking-the-swiss-via-alpina
+  best_months: https://www.cicerone.co.uk/trekking-the-swiss-via-alpina
+  open_season: https://www.myswitzerland.com/en/experiences/route/via-alpina/
+  sleeping: https://www.cicerone.co.uk/9781786311603
+  difficulty: https://www.eurotrek.ch/en/activities/hiking-holidays/switzerland/hiking-via-alpina-vaduz-montreux-21-20
+  logistics: https://www.myswitzerland.com/en-ch/experiences/route/via-alpina-1_01
+  permit: https://schweizmobil.ch/en/hiking-in-switzerland/route-1
+conflicts:
+  - field: best_months
+    values:
+      - value: May–October (route season)
+        source: https://www.myswitzerland.com/en/experiences/route/via-alpina/
+      - value: early July–mid September
+        source: https://www.cicerone.co.uk/trekking-the-swiss-via-alpina
+  - field: distance_km
+    values:
+      - value: 390
+        source: https://www.myswitzerland.com/en/experiences/route/via-alpina/
+      - value: 379.5
+        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/12359033
+last_verified: 2026-11-27

@@ -1,0 +1,84 @@
+id: tour-of-the-matterhorn
+status: draft
+name: Tour of the Matterhorn (Tour du Cervin / Giro del Cervino / Tour Matterhorn)
+countries:
+  - CH
+  - IT
+region: Pennine Alps (Valais / Aosta Valley)
+one_liner: Ten-day circuit of the Matterhorn through six valleys and three cultures, with two glacier crossings (Col Collon and Theodul).
+route:
+  type: point-to-point
+  start: Randa (CH)
+  end: Zermatt (CH)
+  osm_relation_id: 1176308
+distance_km: 147.3
+total_ascent_m: 10353
+typical_days:
+  min: 9
+  max: 11
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: Huts, mountain inns and village hotels; trip reports note hut bookings can be made online.
+difficulty:
+  level: 4
+  reason: High passes above 3,000 m and two glacier crossings (Haut Glacier d'Arolla, Theodul) where crampons are advised
+flags:
+  permit_notes: No permit; glacier sections may warrant a guide or crampons
+  waymarked: partial
+  water_scarce: false
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://zermatt.swiss/en/p/tour-matterhorn-01tVj000005EvgHIAS
+establishment_signals:
+  - international trail (CH/IT)
+  - tourism-board route page (Zermatt
+  - Valais)
+  - guidebook (Hilary Sharp "Tour of the Matterhorn"
+  - Cicerone)
+  - covered in trip reports
+trip_reports:
+  - url: https://www.walkhighlands.co.uk/Forum/viewtopic.php?p=356998
+    title: Tour of the Matterhorn
+    year_hiked: 2017
+    summary: Started 11 July 2017; 10 days, 148 km and 12,177 m ascent; first Matterhorn view on day 7
+  - url: https://www.haroldstreet.org.uk/other/tour-du-matterhorn-june-2007/
+    title: Tour du Matterhorn – June 2007
+    year_hiked: 2007
+    summary: Two-week hut-to-hut trip from Randa including the Arolla glacier crossing over Col du Collon
+  - url: https://annevankesteren.nl/2010/07/matterhorn-tour
+    title: Matterhorn tour
+    year_hiked: 2010
+    summary: Couple's self-planned tour using Hilary Sharp's guidebook
+  - url: https://www.novo-monde.com/en/matterhorn-tour-arolla-zermatt
+    title: "The Matterhorn tour: our 4 day trek from Arolla to Zermatt"
+    summary: "Partial: the alpine Arolla–Zermatt half via the Italian side, 15–20 km days with 1,300 m+ climbs"
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Panorama_from_Theodulpass_at_Breuil-Cervinia_-_panoramio.jpg
+    author: qwesy qwesy
+    license: CC BY 3.0
+    shows: Panorama from the Theodul Pass above Breuil-Cervinia
+sources:
+  distance_km: https://zermatt.swiss/en/p/tour-matterhorn-01tVj000005EvgHIAS
+  total_ascent_m: https://zermatt.swiss/en/p/tour-matterhorn-01tVj000005EvgHIAS
+  typical_days: https://www.muchbetteradventures.com/magazine/tour-of-matterhorn-circuit/
+  sleeping: https://www.walkhighlands.co.uk/Forum/viewtopic.php?p=356998
+  difficulty: https://www.visorando.com/en/walk-the-matterhorn-tour/
+conflicts:
+  - field: distance_km
+    values:
+      - value: 147.3
+        source: https://zermatt.swiss/en/p/tour-matterhorn-01tVj000005EvgHIAS
+      - value: 149.2
+        source: https://www.zermatt.ch/en/Media/Planning-hikes-tours/Matterhorn-Tour
+      - value: 145
+        source: https://travesiapirenaica.com/en/cervin-tour/
+      - value: 157.19
+        source: https://www.visorando.com/en/walk-the-matterhorn-tour/
+  - field: total_ascent_m
+    values:
+      - value: 10353
+        source: https://zermatt.swiss/en/p/tour-matterhorn-01tVj000005EvgHIAS
+      - value: 10898
+        source: https://www.zermatt.ch/en/Media/Planning-hikes-tours/Matterhorn-Tour
+last_verified: 2026-11-27

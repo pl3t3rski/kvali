@@ -1,0 +1,44 @@
+id: loka-mountain-trail
+status: draft
+name: Loka Mountain Trail (Loška planinska pot)
+countries:
+  - SI
+region: Škofja Loka Hills (Poljanska and Selška valleys)
+one_liner: Regional mountain trail around the Škofja Loka hills, 12 stages with stamp checkpoints.
+route:
+  start: Škofja Loka
+  end: Škofja Loka
+  osm_relation_id: 18549841
+distance_km: 188
+typical_days:
+  min: 12
+  max: 12
+when:
+  best_months: []
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: 32 stamp checkpoints.
+  waymarked: yes
+links:
+  official_site: https://www.visitskofjaloka.si/en/experiences/active-breaks/hiking
+establishment_signals:
+  - waymarked along the whole route
+  - published guidebook (Loška planinska pot - Razvojna agencija Sora 2023)
+trip_reports: []
+photos: []
+sources:
+  distance_km: https://plus.cobiss.net/cobiss/si/en/bib/155621891
+  typical_days: https://plus.cobiss.net/cobiss/si/en/bib/155621891
+  permit: https://www.visitskofjaloka.si/en/experiences/active-breaks/hiking
+  waymarked: https://www.visitskofjaloka.si/en/experiences/active-breaks/hiking
+  osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/18549841
+conflicts:
+  - field: distance_km
+    values:
+      - value: 188
+        source: https://plus.cobiss.net/cobiss/si/en/bib/155621891
+      - value: 184
+        source: https://wiki.openstreetmap.org/wiki/Sl:Slovenian_Hiking_Routes
+last_verified: 2026-11-27

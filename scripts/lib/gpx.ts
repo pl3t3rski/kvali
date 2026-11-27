@@ -21,7 +21,7 @@ const toLine = (points: GpxPoint[] = []): LonLat[] =>
 /** One line per track segment; if the file has no tracks, one line per route. */
 export function parseGpx(xml: string): LonLat[][] {
   const gpx = parser.parse(xml)?.gpx;
-  if (!gpx) throw new Error('Not a GPX file');
+  if (!gpx) throw new Error('Not a GPX file. A web page that links to one does not work; give the address of the file itself');
   const lines: LonLat[][] = [];
   for (const track of gpx.trk ?? []) {
     for (const segment of track.trkseg ?? []) lines.push(toLine(segment.trkpt));

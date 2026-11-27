@@ -1,0 +1,78 @@
+id: via-alpina
+status: draft
+name: Via Alpina (main route)
+countries:
+  - IT
+  - SI
+  - AT
+  - DE
+  - LI
+  - CH
+  - FR
+  - MC
+region: "Entire Alpine arc, Trieste to Monaco (Austria: Karawanken/Carnic Alps, Tyrol, Vorarlberg)"
+one_liner: The longest trail across all eight Alpine countries, rebuilt in 2024 as one 116-stage main route; months-long, Austria is a large middle chunk.
+route:
+  type: point-to-point
+  start: Trieste/Muggia (IT)
+  end: Monaco
+  osm_relation_id: 20014200
+distance_km: 2000
+typical_days:
+  min: 116
+  max: 116
+when:
+  best_months: []
+sleeping:
+  type: mixed
+difficulty:
+  level: 3
+  reason: Varies by stage; rises up to ~3,000 m.
+logistics:
+  nearest_airports: []
+flags:
+  permit: none
+  permit_notes: No permit. The former coloured routes (purple, yellow, green, blue) are no longer maintained as of 2024.
+  water_scarce: false
+links:
+  official_site: https://www.via-alpina.org/
+establishment_signals:
+  - official_status
+  - official_site
+  - trip_reports
+trip_reports:
+  - url: https://www.outdooractive.com/en/route/mountain-hike/via-alpina-red-trail-austria/25087077/
+    title: Via Alpina Red Trail | AUSTRIA
+    summary: Austrian Red Trail section walked as part of a hike from Amsterdam to Sarajevo.
+  - url: https://petervangeit.substack.com/p/via-alpina-2026
+    title: Via Alpina 2026
+    year_hiked: 2026
+    summary: Personal account of the Via Alpina in 2026.
+  - url: https://leckomio-outdoor.de/huttentour-karnische-hohenweg/
+    title: "Der Karnische Höhenweg: 10 Tage im Nirgendwo"
+    summary: Mentions walking part of the Via Alpina in 2021 (Carnic section).
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:SegnaviaRossoVia_Alpina.jpg
+    author: Vid395
+    license: CC BY-SA 4.0
+    shows: Via Alpina red-route waymark
+  - file_url: https://commons.wikimedia.org/wiki/File:Via_Alpina_crosses_the_Alps_to_Trieste,_trails_connecting_to_Monaco,_Slovenia,_Austria,_Germany,_Liechtenstein,_Switzerland_and_France.jpg
+    author: Naturpuur
+    license: CC BY-SA 4.0
+    shows: Via Alpina sign
+sources:
+  distance_km: https://www.via-alpina.org/via-alpina/
+  typical_days: https://www.via-alpina.org/via-alpina/
+  difficulty: https://www.via-alpina.org/via-alpina/
+  permit: https://www.via-alpina.org/faq/
+  waymarked: https://www.via-alpina.org/faq/
+  official_status: https://www.cipra.org/en/cipra/about-cipra/networks/via-alpina
+  osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=20014200
+conflicts:
+  - field: distance_km
+    values:
+      - value: ~2,000 (2024 main route, 116 stages)
+        source: https://www.via-alpina.org/via-alpina/
+      - value: ~2,600 (old Red Trail, 161 stages)
+        source: https://www.via-alpina.org/author/laura-haberfellner/
+last_verified: 2026-11-27

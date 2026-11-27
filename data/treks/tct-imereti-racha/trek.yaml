@@ -1,0 +1,89 @@
+id: tct-imereti-racha
+status: draft
+name: Transcaucasian Trail – Imereti to Racha
+countries:
+  - GE
+region: Imereti and Racha
+one_liner: Unmarked, unpeopled climb from Imereti's farm valleys onto the King Tamar cliffs above Oni. Full wild camping.
+route:
+  type: point-to-point
+  start: Tbilisi–Sachkhere road near Sachkhere (via Drbo)
+  end: Oni
+  osm_relation_id: 14995924
+  gpx_source: https://caltopo.com/m/1A5CC
+distance_km: 74
+typical_days:
+  min: 3
+  max: 5
+when:
+  best_months:
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+  open_season: May–October; higher parts usually snow-covered November–April. Springs most reliable May–July, many dry by late July.
+sleeping:
+  type: camping
+  booking_ahead: not-needed
+  notes: No indoor accommodation on the trail; wild camping tolerated. Guesthouses in Sachkhere and Oni.
+difficulty:
+  level: 3
+  reason: ~2,000 m climb onto the Imereti–Racha ridge; unmarked, overgrown in places; long exposed ridge traverse
+logistics:
+  getting_to_start: Marshrutka from Tbilisi Didube towards Chiatura/Sachkhere/Oni (12–15 GEL); ask to stop at the trailhead. Drbo is ~20 min from Sachkhere.
+  leaving_from_end: 1–2 daily vans Oni – Tbilisi (Didube), ~30 GEL, mornings ~8:30 and afternoons 2–3 pm.
+  nearest_airports:
+    - Kutaisi
+    - Tbilisi
+flags:
+  permit: none
+  permit_notes: No permit mentioned by the trail association.
+  waymarked: false
+  water_scarce: true
+  exposed_or_via_ferrata: true
+links:
+  official_site: https://transcaucasiantrail.org/en/hike/imereti-to-racha-georgia
+establishment_signals:
+  - official_status
+  - official_site
+trip_reports:
+  - url: https://no.wikiloc.com/hiking-trails/southbound-transcaucasian-trail-imereti-racha-138418580
+    title: "Southbound Transcaucasian Trail: Imereti-Racha"
+    summary: Southbound GPS log with waypoints for camp spots, seasonal springs and overgrown stretches.
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Shkmeri_Village_and_Mount_Potskhrevi.jpg
+    author: Yasuhiro Kojima
+    license: CC BY-SA 4.0
+    shows: Shkmeri village and Mt Potskhrevi (2,402 m), Oni Municipality, in the cliff area the route crosses (exact trail position not confirmed)
+  - file_url: https://commons.wikimedia.org/wiki/File:2025-06-20_View_of_Oni_2.jpg
+    author: Alexey Komarov
+    license: CC BY 4.0
+    shows: View of Oni, the northern endpoint
+sources:
+  distance_km: https://transcaucasiantrail.org/en/hike/imereti-to-racha-georgia
+  typical_days: https://transcaucasiantrail.org/en/hike/imereti-to-racha-georgia
+  best_months: https://transcaucasiantrail.org/en/hike/imereti-to-racha-georgia/practical-information
+  open_season: https://transcaucasiantrail.org/en/hike/imereti-to-racha-georgia/practical-information
+  sleeping: https://transcaucasiantrail.org/en/hike/imereti-to-racha-georgia/practical-information
+  difficulty: https://transcaucasiantrail.org/?p=7158
+  logistics: https://transcaucasiantrail.org/en/hike/imereti-to-racha-georgia/practical-information
+  permit: https://transcaucasiantrail.org/en/hike/imereti-to-racha-georgia/practical-information
+  waymarked: https://transcaucasiantrail.org/en/hike/imereti-to-racha-georgia
+  water_scarce: https://transcaucasiantrail.org/en/hike/imereti-to-racha-georgia/practical-information
+  exposed: https://transcaucasiantrail.org/?p=7158
+conflicts:
+  - field: distance_km
+    values:
+      - value: 74
+        source: https://transcaucasiantrail.org/en/hike/imereti-to-racha-georgia
+      - value: 50 (Drbo–Oni stand-alone version)
+        source: https://www.caucasus-trekking.com/treks/trek-from-imereti-to-racha
+  - field: typical_days
+    values:
+      - value: 3-5
+        source: https://transcaucasiantrail.org/en/hike/imereti-to-racha-georgia
+      - value: 2-3 (Drbo–Oni)
+        source: https://www.caucasus-trekking.com/treks/trek-from-imereti-to-racha
+last_verified: 2026-11-27
