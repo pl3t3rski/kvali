@@ -1,38 +1,6 @@
 [
   {
     "source": "commons",
-    "title": "File:Lasörling - Vom Adlerweg zur Sajathütte mit Bergerseekogel I.JPG",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Las%C3%B6rling_-_Vom_Adlerweg_zur_Sajath%C3%BCtte_mit_Bergerseekogel_I.JPG",
-    "author": "Michael Kranewitter",
-    "license": "CC BY-SA 3.0 at",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
-    "shows": "Path from the Adlerweg (East Tyrol section) towards the Sajathütte, Bergerseekogel behind",
-    "width": 1600,
-    "height": 1064,
-    "sizes": {
-      "480": "/photos/adlerweg/c1b0545c0b-480.webp",
-      "960": "/photos/adlerweg/c1b0545c0b-960.webp",
-      "1600": "/photos/adlerweg/c1b0545c0b-1600.webp"
-    }
-  },
-  {
-    "source": "commons",
-    "title": "File:Lasörling - Vom Adlerweg zur Sajathütte mit Bergerseekogel II.JPG",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Las%C3%B6rling_-_Vom_Adlerweg_zur_Sajath%C3%BCtte_mit_Bergerseekogel_II.JPG",
-    "author": "Michael Kranewitter",
-    "license": "CC BY-SA 3.0 at",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
-    "shows": "Same East Tyrol section, second view",
-    "width": 1600,
-    "height": 1064,
-    "sizes": {
-      "480": "/photos/adlerweg/324e0f3e7a-480.webp",
-      "960": "/photos/adlerweg/324e0f3e7a-960.webp",
-      "1600": "/photos/adlerweg/324e0f3e7a-1600.webp"
-    }
-  },
-  {
-    "source": "commons",
     "title": "File:Memminger Huette vom Vorderen Seekopf.jpg",
     "page_url": "https://commons.wikimedia.org/wiki/File:Memminger_Huette_vom_Vorderen_Seekopf.jpg",
     "author": "Karl Haarmann at de.wikipedia 14:32, 9. Mär. 2007 (CET",
@@ -44,6 +12,38 @@
     "sizes": {
       "480": "/photos/adlerweg/dc5da5eded-480.webp",
       "960": "/photos/adlerweg/dc5da5eded-960.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Karwendelhaus.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Karwendelhaus.JPG",
+    "author": "werudolf",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "The Karwendelhaus, a stage end in the Karwendel",
+    "width": 1600,
+    "height": 1161,
+    "sizes": {
+      "480": "/photos/adlerweg/5a5d0ae899-480.webp",
+      "960": "/photos/adlerweg/5a5d0ae899-960.webp",
+      "1600": "/photos/adlerweg/5a5d0ae899-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Kaiserjochhaus.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Kaiserjochhaus.JPG",
+    "author": "J. Braukmann Milseburg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "The Kaiserjochhaus in the Lechtal Alps, a stage end",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/adlerweg/711cf8be41-480.webp",
+      "960": "/photos/adlerweg/711cf8be41-960.webp",
+      "1600": "/photos/adlerweg/711cf8be41-1600.webp"
     }
   }
 ]

@@ -1,5 +1,5 @@
 id: berliner-hoehenweg
-status: draft
+status: published
 name: Berliner Höhenweg (Zillertaler Runde)
 countries:
   - AT
@@ -10,29 +10,38 @@ route:
   start: Finkenberg (Gamshütte)
   end: Mayrhofen (Karl-von-Edel-Hütte)
   osm_relation_id: 240736
-distance_km: 80.3
-total_ascent_m: 7644
+  osm_section:
+    from:
+      - 47.1539
+      - 11.8245
+    to:
+      - 47.1697
+      - 11.8629
+distance_km: 71
+total_ascent_m: 6660
 typical_days:
   min: 7
   max: 9
 when:
   best_months:
-    - July
-    - September
-  open_season: Huts open mid-June to late September; snow lingers on north slopes into July
+    - 7
+    - 8
+    - 9
+  open_season: Most huts open in mid June and close around 20 September
 sleeping:
   type: huts
   notes: Eight Alpine Club huts; descent to the valley from every hut.
+  booking_ahead: recommended
 difficulty:
   level: 4
-  reason: High-alpine, close to glaciers, steep and exposed; crosses the Schönbichler Horn (3,133 m); several days above 1,200 m ascent.
+  reason: "Difficult: up to 3,133 m on the Schönbichler Horn, with several cable-secured and scrambling passages"
 logistics:
-  getting_to_start: Mayrhofen by train/bus from Jenbach (also from Munich, Innsbruck, Salzburg); Finkenberg is next door.
+  getting_to_start: Bus 4104 to Teufelsbrücke (Finkenberg); bus 8327 to the Ahornbahn in Mayrhofen. Every hut has a way down to the valley.
   leaving_from_end: Descend from the Karl-von-Edel-Hütte to Mayrhofen; valley villages are linked by public transport.
   nearest_airports: []
 flags:
   permit: none
-  permit_notes: No permit.
+  permit_notes: No permit is mentioned by the trail’s own pages.
   waymarked: yes
   water_scarce: false
   exposed_or_via_ferrata: true
@@ -65,43 +74,29 @@ photos:
     author: Whgler
     license: CC BY-SA 3.0
     shows: Trail above the Greizer Hütte
-  - file_url: https://commons.wikimedia.org/wiki/File:Berliner_H_Weg_2006a.jpg
-    author: Holger.Ellgaard
-    license: Copyrighted free use
-    shows: Berliner Höhenweg in September 2006
+  - file_url: https://commons.wikimedia.org/wiki/File:Furtschaglhaus_Großer_Möseler.jpg
+    author: Whgler
+    license: CC BY-SA 3.0
+    shows: The Furtschaglhaus below the Großer Möseler
 sources:
-  distance_km: https://www.bergwelten.com/t/b/18865
-  total_ascent_m: https://www.bergwelten.com/t/b/18865
-  typical_days: https://www.cicerone.co.uk/products/trekking-in-austrias-zillertal-alps
-  best_months: https://www.cicerone.co.uk/products/trekking-in-austrias-zillertal-alps
-  open_season: https://www.cicerone.co.uk/products/trekking-in-austrias-zillertal-alps
-  sleeping: https://www.alpenverein.de/files/2303-zillertaler-runde-berliner-hoehenweg-broschuere_ol.pdf
-  difficulty: https://www.bergwelten.com/t/b/18865
-  logistics: https://www.cicerone.co.uk/products/trekking-in-austrias-zillertal-alps
-  permit: https://www.alpenverein.de/files/2303-zillertaler-runde-berliner-hoehenweg-broschuere_ol.pdf
-  waymarked: https://www.alpenverein.de/files/broschueren/huettenflyer_berliner-huette_2016_27623.pdf
-  guidebook: https://www.cicerone.co.uk/products/trekking-in-austrias-zillertal-alps
+  distance_km: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/weitwanderung-berliner-hoehenweg
+  total_ascent_m: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/weitwanderung-berliner-hoehenweg
+  typical_days: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/weitwanderung-berliner-hoehenweg
+  best_months:
+    - https://www.bergwelten.com/a/berliner-hoehenweg-in-8-etappen-durch-die-zillertaler-alpen
+    - https://www.alpenverein.de/artikel/oeffnungstermine-der-dav-huetten-im-sommer-2026_eb1fadf9-64a1-4733-89be-d70d47caa33b
+    - https://www.alpenverein.de/artikel/schliesstermine-der-dav-huetten-im-sommer-2026_23162cca-554f-4f6d-9032-e74fa07e181b
+  open_season:
+    - https://www.alpenverein.de/artikel/oeffnungstermine-der-dav-huetten-im-sommer-2026_eb1fadf9-64a1-4733-89be-d70d47caa33b
+    - https://www.alpenverein.de/artikel/schliesstermine-der-dav-huetten-im-sommer-2026_23162cca-554f-4f6d-9032-e74fa07e181b
+  sleeping:
+    - https://naturpark-zillertal.at/en/nature-park-experience/trekking-the-berliner-hoehenweg/booking-mountain-hut-reservations.html
+    - https://www.mayrhofen.at/en/stories/berlin-high-trail
+  difficulty: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/weitwanderung-berliner-hoehenweg
+  logistics: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/weitwanderung-berliner-hoehenweg
+  permit: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/weitwanderung-berliner-hoehenweg
+  waymarked: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/weitwanderung-berliner-hoehenweg
+  guidebook: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/weitwanderung-berliner-hoehenweg
   osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=240736
   high_point: https://www.tyrol.com/activities/sport/hiking/hiking-tours/stage-of-the-berliner-hoehenweg-zillertal-runde-furtschaglhaus-berliner-huette
-conflicts:
-  - field: distance_km
-    values:
-      - value: 80.3
-        source: https://www.bergwelten.com/t/b/18865
-      - value: ">70"
-        source: https://www.alpenverein.de/files/2303-zillertaler-runde-berliner-hoehenweg-broschuere_ol.pdf
-      - value: 71 (tirol.at sidebar listing)
-        source: https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-adlerweg-etappe-16-leutasch-ehrwald
-      - value: 95.4
-        source: https://www.bergwelten.com/a/die-berliner-huette
-      - value: 80
-        source: https://www.cicerone.co.uk/products/trekking-in-austrias-zillertal-alps
-  - field: total_ascent_m
-    values:
-      - value: 7644
-        source: https://www.bergwelten.com/t/b/18865
-      - value: 6700
-        source: https://www.alpenverein.de/files/2303-zillertaler-runde-berliner-hoehenweg-broschuere_ol.pdf
-      - value: 5300 (tirol.at sidebar listing)
-        source: https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-adlerweg-etappe-16-leutasch-ehrwald
-last_verified: 2026-11-27
+last_verified: 2026-11-28

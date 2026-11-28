@@ -4,18 +4,22 @@ name: KAT Walk Alpin (Kitzbüheler Alpen Trail)
 countries:
   - AT
 region: Kitzbühel Alps, Tyrol
-one_liner: Six days over the soft grassy Kitzbühel Alps from Hopfgarten via Kitzbühel and the Kitzbüheler Horn to St. Ulrich am Pillersee; inn-to-inn, bookable without luggage.
+one_liner: Six-day inn-to-inn walk across the grassy Kitzbühel Alps from Hopfgarten via Kitzbühel and the Kitzbüheler Horn to St. Ulrich am Pillersee.
 route:
   type: point-to-point
   start: Hopfgarten im Brixental
   end: St. Ulrich am Pillersee
 distance_km: 113
-total_ascent_m: 6300
+total_ascent_m: 6350
 typical_days:
   min: 6
   max: 6
 when:
-  best_months: []
+  best_months:
+    - 6
+    - 7
+    - 8
+    - 9
 sleeping:
   type: guesthouses
   notes: Valley accommodation, packages with luggage transport.
@@ -27,7 +31,7 @@ logistics:
   nearest_airports: []
 flags:
   permit: none
-  permit_notes: No permit.
+  permit_notes: No permit is mentioned by the trail’s own pages.
   waymarked: yes
   water_scarce: false
   exposed_or_via_ferrata: true
@@ -50,27 +54,28 @@ trip_reports:
   - url: https://www.diekuechebrennt.de/urlaubsbericht-kat-walk-weitwandern-durch-die-kitzbueheler-alpen/
     title: Urlaubsbericht KAT Walk
     summary: Holiday report after three summers in the region.
-photos: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Kitzbüheler_Horn_ab_Alpenhaus.jpg
+    author: Ironbernietyrol
+    license: CC BY-SA 4.0
+    shows: The Kitzbüheler Horn, crossed on stage 5
+  - file_url: https://commons.wikimedia.org/wiki/File:St_Ulrich_am_Pillersee_3261.jpg
+    author: Badener
+    license: CC BY 3.0
+    shows: St. Ulrich am Pillersee, where the walk ends
+  - file_url: https://commons.wikimedia.org/wiki/File:Hopfgarten_Hohe_Salve.jpg
+    author: Felix König
+    license: CC BY-SA 3.0
+    shows: Hopfgarten, where the walk starts
 sources:
-  distance_km: https://www.kitzbueheler-alpen.com/de/kat-walk/kat-walk-uebersicht.html
-  total_ascent_m: https://www.kitzbueheler-alpen.com/de/kat-walk/kat-walk-uebersicht.html
-  typical_days: https://www.kitzbueheler-alpen.com/de/kat-walk/kat-walk-uebersicht.html
-  sleeping: https://www.kitzbueheler-alpen.com/de/kat-walk/weitwandern.html
+  distance_km: https://www.kitzbueheler-alpen.com/de/kat-walk/weitwandern.html
+  total_ascent_m: https://www.kitzbueheler-alpen.com/de/kat-walk/weitwandern.html
+  typical_days: https://www.kitzbueheler-alpen.com/de/kat-walk/weitwandern.html
+  sleeping: https://www.kitzbueheler-alpen.com/de/kat-walk/faq.html
   difficulty: https://kitzbueheler-alpen.com/en/kat-walk/variations.html
-  logistics: https://www.kitzbuehel.com/en/tours/pdf/kat-walk-alpine
-  permit: https://kitzbueheler-alpen.com/en/kat-walk/variations.html
-  waymarked: https://asi-reisen.de/fw/kat-walk
-conflicts:
-  - field: distance_km
-    values:
-      - value: 113
-        source: https://www.kitzbueheler-alpen.com/de/kat-walk/kat-walk-uebersicht.html
-      - value: 106
-        source: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/kat-walk-alpin-1
-  - field: total_ascent_m
-    values:
-      - value: 6300
-        source: https://www.kitzbueheler-alpen.com/de/kat-walk/kat-walk-uebersicht.html
-      - value: 6350
-        source: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/kat-walk-alpin-1
-last_verified: 2026-11-27
+  logistics: https://www.kitzbuehel.com/en/activities/tour/kat-walk-alpine/
+  permit: https://www.kitzbueheler-alpen.com/de/kat-walk/weitwandern.html
+  waymarked: https://www.kitzbueheler-alpen.com/de/kat-walk/weitwandern.html
+  best_months: https://www.kitzbueheler-alpen.com/de/kat-walk/weitwandern.html
+  exposed: https://www.kitzbueheler-alpen.com/de/kat-walk/alpin/ueberblick.html
+last_verified: 2026-11-28

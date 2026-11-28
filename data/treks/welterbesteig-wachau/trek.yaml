@@ -1,5 +1,5 @@
 id: welterbesteig-wachau
-status: draft
+status: published
 name: Welterbesteig Wachau (Wachau World Heritage Trail)
 countries:
   - AT
@@ -10,35 +10,51 @@ route:
   start: Krems an der Donau
   end: Krems an der Donau
   osm_relation_id: 1309244
+  osm_section:
+    from:
+      - 48.4108
+      - 15.6004
+    via:
+      - - 48.366
+        - 15.416
+      - - 48.227
+        - 15.333
+      - - 48.296
+        - 15.404
+    to:
+      - 48.4108
+      - 15.6004
 distance_km: 180
+total_ascent_m: 7000
 typical_days:
   min: 14
   max: 14
 when:
   best_months:
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-  open_season: Hiking season March to November
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+  open_season: Hiking season March to November; ferries run April to October, the Wachau railway March to November
 sleeping:
   type: guesthouses
   notes: Every stage starts/ends in a village or town; luggage transport bookable.
+  booking_ahead: recommended
 difficulty:
-  level: 1
-  reason: Low-level vineyard and forest paths, ~10–17 km stages; highest point Jauerling area.
+  level: 2
+  reason: "Officially rated difficult for fitness: 180 km with about 7,000 m of climbing through vineyards and forest; stage 5 is the hardest"
 logistics:
-  getting_to_start: Krems station; Wachau railway on the north bank and buses on the south bank; three Danube ferries link the banks.
+  getting_to_start: Train to Krems; Melk also has a station. Buses 715 and 720 run along the valley.
   leaving_from_end: Loop returns to Krems.
   nearest_airports: []
 flags:
   permit: none
-  permit_notes: No permit.
+  permit_notes: No permit; the optional hiking pin costs a small fee.
   waymarked: yes
   water_scarce: false
   exposed_or_via_ferrata: false
@@ -56,10 +72,6 @@ trip_reports:
   - url: https://gepacktundlos.com/welterbesteig-wachau/
     title: "Wandern am Welterbesteig Wachau: 4 Etappen"
     summary: Four-stage section report.
-  - url: https://wachauinside.at/welterbesteig-wachau/
-    title: Welterbesteig Wachau – Wachau Inside
-    year_hiked: 2017
-    summary: Local blogger walked it in 2017 and again from 2019.
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:Welterbesteig_2.jpg
     author: Qualcuno
@@ -78,23 +90,21 @@ photos:
     license: CC BY-SA 3.0
     shows: Towards Emmersdorf with the Danube bridge
 sources:
-  distance_km: https://www.donau.com/en/the-danube-in-lower-austria/information-service/media-b2b/media/wachau-world-heritage-trail
-  typical_days: https://www.donau.com/en/the-danube-in-lower-austria/information-service/media-b2b/media/wachau-world-heritage-trail
+  distance_km:
+    - https://www.donau.com/service
+    - https://www.donau.com/en/tour/wachau-world-heritage-trail
+  typical_days: https://www.donau.com/service
   best_months: https://www.bergwelten.com/a/wanderfruehling-5-tipps-fuer-die-wachau
-  open_season: https://www.bergwelten.com/a/wanderfruehling-5-tipps-fuer-die-wachau
+  open_season:
+    - https://www.bergwelten.com/a/wanderfruehling-5-tipps-fuer-die-wachau
+    - https://www.donau.com/service
   sleeping: https://issuu.com/donaunoe/docs/wachau_hiking_map_2025
-  difficulty: https://www.donau.com/en/hiking-stages
-  logistics: https://www.donau.com/en/the-danube-in-lower-austria/information-service/media-b2b/media/wachau-world-heritage-trail
-  permit: https://www.donau.com/en/the-danube-in-lower-austria/information-service/media-b2b/media/wachau-world-heritage-trail
-  waymarked: https://www.bergwelten.com/a/wanderfruehling-5-tipps-fuer-die-wachau
+  difficulty: https://www.donau.com/en/tour/wachau-world-heritage-trail
+  logistics: https://www.donau.com/service
+  permit: https://www.donau.com/service
+  waymarked: https://www.donau.com/service
   official_status: https://www.nationalpark.at/en/service/partner/best-trails-of-austria
   route_type: https://fastestknowntime.com/comment/11483
   osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=1309244
-conflicts:
-  - field: total_ascent_m
-    values:
-      - value: 770
-        source: https://www.ich-geh-wandern.de/welterbesteig-wachau
-      - value: 12016
-        source: https://www.asi-reisen.de/fw/welterbesteigwachau
-last_verified: 2026-11-27
+  total_ascent_m: https://www.donau.com/en/tour/wachau-world-heritage-trail
+last_verified: 2026-11-28

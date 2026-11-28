@@ -14,5 +14,37 @@
       "960": "/photos/arnoweg/55e327f448-960.webp",
       "1600": "/photos/arnoweg/55e327f448-1600.webp"
     }
+  },
+  {
+    "source": "commons",
+    "title": "File:WW-Weißpriach-002.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:WW-Wei%C3%9Fpriach-002.JPG",
+    "author": "Schermy",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "shows": "A trail signpost at Weißpriach in the Lungau",
+    "width": 1600,
+    "height": 2133,
+    "sizes": {
+      "480": "/photos/arnoweg/7b72c8d883-480.webp",
+      "960": "/photos/arnoweg/7b72c8d883-960.webp",
+      "1600": "/photos/arnoweg/7b72c8d883-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Hoher Sonnblick Observatorium Zittelhaus 20090721a.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Hoher_Sonnblick_Observatorium_Zittelhaus_20090721a.jpg",
+    "author": "Tigerente",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "shows": "The observatory and Zittelhaus on the Hoher Sonnblick, the trail’s high point",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/arnoweg/26255a88a2-480.webp",
+      "960": "/photos/arnoweg/26255a88a2-960.webp",
+      "1600": "/photos/arnoweg/26255a88a2-1600.webp"
+    }
   }
 ]

@@ -12,14 +12,15 @@ copied into `src/styles/kvali.css` and its pen drawing into `src/design/`.
 
 ## Where it stands
 
-**14 treks published**, in Georgia and Slovenia. The target for v1 is 40 treks in 8 countries.
+**26 treks published**, from Georgia, Slovenia and Austria. The target for v1 is 40 treks in 8 countries.
 The research for ten countries is imported: 146 treks in all, the rest of them drafts.
 
 | Country | State |
 | --- | --- |
 | Georgia | Reviewed. 9 of 12 published. Shepherds' Trail, Imereti to Racha and Lentekhi to Matskhvarishi stay drafts: nobody has written two first-hand trip reports of them |
 | Slovenia | Reviewed. 5 of 15 published: Slovenian Mountain Trail, Koroška and Zasavje mountain trails, the Camino from Obrežje to Trieste, Via Dinarica Slovenia. The rest stay drafts: no source names their best months (Loka, E6, E7), OpenStreetMap has no complete line and there is no GPX we may reuse (Juliana, Via Dinarica White Trail, Karavanke, Pohorje–Kozjak, Carsus, Walk of Peace), or too few trip reports (Trdina) |
-| Italy, Austria, Switzerland, Croatia, Poland, Serbia, Albania, Bosnia and Herzegovina | Imported as drafts with routes, stats and photos where they exist. Not reviewed yet |
+| Austria | Reviewed. 12 of 24 published: Stubaier, Berliner, Karnischer and Schladminger Tauern Höhenweg, Lechweg, Salzburger Almenweg, Welterbesteig Wachau, the national trails 01, 02 and 03, the Alpe-Adria-Trail and the Sultans Trail (Vienna to Istanbul). The rest stay drafts: OpenStreetMap has no route for them, or only part of one, and the official GPX files give no licence to reuse them (Glocknerrunde, Venediger, Karwendel and Tiroler Höhenweg, Hohe Tauern Panorama Trail, KAT Walk Alpin, Koasa Trail, Karawanken-Karavanke Trail, Arnoweg; the Adlerweg lacks two stages and the Lechtaler Höhenweg is mapped on its old line), or nobody has written a first-hand report (Julius Kugy Alpine Trail) |
+| Italy, Switzerland, Croatia, Poland, Serbia, Albania, Bosnia and Herzegovina | Imported as drafts with routes, stats and photos where they exist. Not reviewed yet |
 | Armenia | A research report only; no trek data to import yet |
 
 | Part | State |

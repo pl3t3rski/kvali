@@ -1,5 +1,5 @@
 id: karnischer-hoehenweg
-status: draft
+status: published
 name: Karnischer Höhenweg (Carnic Peace Trail, KHW 403)
 countries:
   - AT
@@ -11,6 +11,13 @@ route:
   start: Sillian (East Tyrol)
   end: Thörl-Maglern / Arnoldstein (Carinthia)
   osm_relation_id: 1163255
+  osm_section:
+    from:
+      - 46.7163
+      - 12.3618
+    to:
+      - 46.5425
+      - 13.6509
 distance_km: 156
 total_ascent_m: 9499
 typical_days:
@@ -18,23 +25,25 @@ typical_days:
   max: 11
 when:
   best_months:
-    - July
-    - August
-    - September
+    - 6
+    - 7
+    - 8
+    - 9
   open_season: Walkable mid-July to end of September depending on snow
 sleeping:
   type: huts
-  notes: 11 huts and rifugi along the ridge; daily descent to valleys possible.
+  notes: "11 huts and rifugi along the ridge; daily descent to valleys possible. The huts are very often full: booking is binding, at least a day ahead, and some take online bookings only, with a deposit."
+  booking_ahead: required
 difficulty:
   level: 3
-  reason: Exposed ridgelines and cable/ladder sections (no special gear needed) in the higher western half; long days.
+  reason: "Moderate overall: long ridge days on mountain paths with short secured sections and some risk of falling; sure-footedness needed"
 logistics:
   getting_to_start: Train via Lienz to Sillian, then hut taxi or walk up to the Leckfeldalm.
-  leaving_from_end: Bus or train from Arnoldstein back towards Lienz/Sillian; a return taxi service ('Rückholservice Karnischer Kamm') exists.
+  leaving_from_end: Bus back through the Gail and Lesach valleys, or bus to Arnoldstein and train via Lienz.
   nearest_airports: []
 flags:
   permit: none
-  permit_notes: No permit mentioned.
+  permit_notes: No permit is mentioned by the trail’s own pages.
   waymarked: yes
   water_scarce: false
   exposed_or_via_ferrata: true
@@ -54,8 +63,8 @@ trip_reports:
     title: "Der Karnische Höhenweg: 10 Tage im Nirgendwo"
     summary: Ten days on the trail; author first met it while walking part of the Via Alpina in 2021.
   - url: https://www.bergzeit.de/magazin/wandern-karnischer-hoehenweg/
-    title: Wandern am Karnischen Höhenweg
-    summary: Report with a stage table (Leckfeldalm start, 1,100–1,200 m daily ascents in the west).
+    title: Wandern auf dem Karnischen Höhenweg
+    summary: "Five days from Sillian: lost in fog on day two, a detour around snowfields on day three, and a stop at the Winkler Joch on day four because of the weather. In German"
   - url: https://www.hikingfex.com/en/post/carnic-high-trail
     title: "Carnic high trail: The peace trail (+Guide and GPX)"
     summary: Personal guide with GPX files and hut notes.
@@ -72,42 +81,23 @@ photos:
     author: Mikmaq
     license: CC BY 3.0
     shows: An exposed section of the trail
-  - file_url: https://commons.wikimedia.org/wiki/File:Hollbrucker_Seen_Karnische_Alpen_20070706a.jpg
-    author: Tigerente
-    license: CC BY 4.0
-    shows: Hollbrucker Seen lakes, Carnic Alps
   - file_url: https://commons.wikimedia.org/wiki/File:Karnischer_H%C3%B6henweg_Wegweiser_20070707.jpg
     author: Tigerente
     license: CC BY-SA 4.0
     shows: Trail signpost on the Karnischer Höhenweg
 sources:
-  distance_km: https://www.osttirol.com/en/active-outdoor/hiking/long-distance-hiking-trails/the-karnische-hoehenweg-trail
+  distance_km: https://www.osttirol.com/fileadmin/userdaten/pdf/a-z/karnischer-hoehenweg-infos-de.pdf
   total_ascent_m: https://www.osttirol.com/en/active-outdoor/hiking/long-distance-hiking-trails/the-karnische-hoehenweg-trail
-  typical_days: https://www.cicerone.co.uk/products/the-karnischer-hohenweg
-  best_months: https://www.cicerone.co.uk/products/the-karnischer-hohenweg
+  typical_days: https://www.osttirol.com/en/active-outdoor/hiking/detail/karnischer-hoehenweg
+  best_months: https://www.osttirol.com/en/active-outdoor/hiking/detail/karnischer-hoehenweg
   open_season: https://www.cicerone.co.uk/products/the-karnischer-hohenweg
-  sleeping: https://www.cicerone.co.uk/products/the-karnischer-hohenweg
-  difficulty: https://www.cicerone.co.uk/products/the-karnischer-hohenweg
-  logistics: https://osttirol.com/fileadmin/userdaten/pdf/a-z/karnischer-hoehenweg-infos-de.pdf
-  permit: https://osttirol.com/fileadmin/userdaten/pdf/a-z/karnischer-hoehenweg-infos-de.pdf
+  sleeping: https://www.osttirol.com/fileadmin/userdaten/pdf/a-z/karnischer-hoehenweg-infos-de.pdf
+  difficulty: https://www.osttirol.com/en/active-outdoor/hiking/detail/karnischer-hoehenweg
+  logistics: https://www.osttirol.com/fileadmin/userdaten/pdf/a-z/karnischer-hoehenweg-infos-de.pdf
+  permit: https://www.osttirol.com/fileadmin/userdaten/pdf/a-z/karnischer-hoehenweg-infos-de.pdf
   waymarked: https://www.cicerone.co.uk/products/the-karnischer-hohenweg
   official_status: https://www.alpenverein.at/weitwanderer/weitwanderwege/suedalpenweg.php
   guidebook: https://www.cicerone.co.uk/products/the-karnischer-hohenweg
   osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=1163255
   countries: https://www.wanderdoerfer.at/kaernten/wanderweg/karnischer-hoehenweg-etappe-8-dolinza-alm-thoerl-maglern/
-conflicts:
-  - field: distance_km
-    values:
-      - value: 156
-        source: https://www.osttirol.com/en/active-outdoor/hiking/long-distance-hiking-trails/the-karnische-hoehenweg-trail
-      - value: 170
-        source: https://www.cicerone.co.uk/products/the-karnischer-hohenweg
-      - value: 137.77
-        source: https://www.wanderdoerfer.at/kaernten/wanderweg/karnischer-hoehenweg/
-  - field: typical_days
-    values:
-      - value: 8–11 days
-        source: https://www.cicerone.co.uk/products/the-karnischer-hohenweg
-      - value: 4–8 day stages
-        source: https://osttirol.com/fileadmin/userdaten/pdf/a-z/karnischer-hoehenweg-infos-de.pdf
-last_verified: 2026-11-27
+last_verified: 2026-11-28

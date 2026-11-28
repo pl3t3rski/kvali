@@ -1,32 +1,39 @@
 id: alpe-adria-trail
-status: draft
+status: published
 name: Alpe-Adria-Trail
 countries:
   - AT
   - SI
   - IT
 region: Carinthia, Slovenia (Julian Alps, Soča, Brda, Karst), Friuli-Venezia Giulia
-one_liner: "Glacier to sea: 43 waymarked stages from the foot of the Großglockner through Carinthia, Slovenia and Friuli to the Adriatic at Muggia; technically easy, long."
+one_liner: Long but technically easy walk from the Grossglockner glacier through Carinthia, Slovenia and Friuli to the sea at Muggia.
 route:
   type: point-to-point
   start: Kaiser-Franz-Josefs-Höhe (Großglockner)
   end: Muggia (near Trieste)
   osm_relation_id: 3176522
+  osm_section:
+    from:
+      - 47.0752
+      - 12.751
+    to:
+      - 45.6045
+      - 13.7688
 distance_km: 750
-total_ascent_m: 24160
 typical_days:
   min: 30
   max: 43
 when:
   best_months:
-    - June
-    - July
-    - August
-    - September
-  open_season: End of May to end of September
+    - 6
+    - 7
+    - 8
+    - 9
+  open_season: Mid June to early October
 sleeping:
   type: guesthouses
-  notes: Booking centre arranges stage accommodation; 23 stages in Austria, 9 in Slovenia, 11 in Italy.
+  notes: Booking centre arranges stage accommodation; 23 stages in Austria, 9 in Slovenia, 11 in Italy. Beds can run short in July and August.
+  booking_ahead: recommended
 difficulty:
   level: 2
   reason: Technically uncomplicated, designed for 'pleasure hikers'; ~6 h days; high point 2,370 m.
@@ -34,11 +41,14 @@ logistics:
   getting_to_start: Start at Kaiser-Franz-Josefs-Höhe above Heiligenblut.
   leaving_from_end: Muggia, south of Trieste.
   nearest_airports:
+    - Klagenfurt
     - Salzburg
-    - Innsbruck
+    - Ljubljana
+    - Trieste
+    - Venice
 flags:
   permit: none
-  permit_notes: No permit.
+  permit_notes: No permit is mentioned by the trail’s own pages.
   waymarked: yes
   water_scarce: false
   exposed_or_via_ferrata: false
@@ -56,12 +66,14 @@ trip_reports:
   - url: https://www.alpe-adria-trail.com/de/service/wander-tipps/erfahrungsberichte/wie-der-alpe-adria-trail-mich-veraendert-hat/
     title: Wie der Alpe-Adria-Trail mich verändert hat
     summary: 37 stages in 38 days, ~850 km (guest report on the official site).
-  - url: https://stephan-dose.de/alpe-adria-trail-erfahrungen-etappen-kosten-und-tipps
-    title: Alpe-Adria-Trail Erfahrungen – Etappen, Kosten und Tipps
-    summary: First-hand report with stages and costs across three countries.
-  - url: https://www.trail-pfoten.de/wandern-alpe-adria-trail/
-    title: Wandern auf dem Alpe-Adria-Trail
-    summary: Hiked with a dog.
+  - url: https://doingmiles.com/2014-05-alpe-adria-trail/
+    title: "Italy, Slovenia, & Austria: Alpe-Adria Trail"
+    year_hiked: 2014
+    summary: A couple walk the whole trail northbound from Trieste to the glacier in May, circular tour included, camping every night; late snow forces them onto the road to Bruck at the end
+  - url: https://myfootsteps.blog/2021/07/24/the-alpe-adria-trail/
+    title: The Alpe-Adria Trail
+    year_hiked: 2021
+    summary: A couple walk from Heiligenblut to Muggia in 33 days and 784 km; on the last days the Bora blows and they lose the waymarks in the woods before reaching Muggia
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:Alpe_Adria_Trail_Markierung.jpg
     author: Naturpuur
@@ -80,27 +92,20 @@ photos:
     license: CC BY-SA 4.0
     shows: Finish monument in Muggia
 sources:
-  distance_km: https://www.kaernten.at/berglust/weitwanderwege/alpe-adria-trail
-  total_ascent_m: https://www.komoot.com/user/kaerntenwerbung
+  distance_km: https://www.alpe-adria-trail.com/user_upload_AAT/user_upload/downloads/tourenbuch/EN-AAT-Tourenbuch-2022.pdf
   typical_days: https://www.kaernten.at/berglust/weitwanderwege/alpe-adria-trail
-  best_months: https://www.austria.info/us/austriantime/alpe-adria-trail
-  open_season: https://www.austria.info/us/austriantime/alpe-adria-trail
-  sleeping: https://www.kaernten.at/fileadmin/user_upload/Touris/Clippings/Kaernten_Allgemein/Sommer_2023/AT_ER_Kronen_Zeitung_Alpe_Adria_Trail.pdf
+  best_months: https://www.kaernten.at/wandern/weitwandern/alpe-adria-trail/
+  open_season: https://www.kaernten.at/wandern/weitwandern/alpe-adria-trail/
+  sleeping:
+    - https://www.alpe-adria-trail.com/en/the-trail/faqs/
+    - https://www.kaernten.at/fileadmin/user_upload/Touris/Clippings/Kaernten_Allgemein/Sommer_2023/AT_ER_Kronen_Zeitung_Alpe_Adria_Trail.pdf
   difficulty: https://www.kaernten.at/berglust/weitwanderwege/alpe-adria-trail
-  logistics: https://www.austria.info/us/austriantime/alpe-adria-trail
-  nearest_airports: https://www.austria.info/us/austriantime/alpe-adria-trail
-  permit: https://www.alpe-adria-trail.com/en/the-trail/
-  waymarked: https://press.austria.info/fileadmin/user_upload/Imported/uk/Sommer_2023/Carinthia/Alpe_Adria_Trail.pdf
+  logistics: https://www.alpe-adria-trail.com/en/the-trail/faqs/
+  nearest_airports: https://www.alpe-adria-trail.com/en/the-trail/faqs/
+  permit: https://www.alpe-adria-trail.com/en/the-trail/faqs/
+  waymarked: https://www.alpe-adria-trail.com/en/the-trail/signposts/
   official_status: https://hiking.waymarkedtrails.org/#route?id=3176522
   osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=3176522
   typical_days_note: https://trekhunt.com/en/article/alpe-adria-trail/
-conflicts:
-  - field: distance_km
-    values:
-      - value: 750
-        source: https://www.kaernten.at/berglust/weitwanderwege/alpe-adria-trail
-      - value: 720
-        source: https://trekhunt.com/en/article/alpe-adria-trail/
-      - value: 690
-        source: https://www.irishtimes.com/life-and-style/travel/trail-blazers-1.1723965
-last_verified: 2026-11-27
+  exposed: https://www.alpe-adria-trail.com/en/the-trail/faqs/
+last_verified: 2026-11-28

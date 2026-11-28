@@ -15,14 +15,19 @@ typical_days:
   min: 7
   max: 7
 when:
-  best_months: []
+  best_months:
+    - 6
+    - 7
+    - 8
+    - 9
   open_season: Only during the summer hut-operating season (e.g. Salmhütte open June–September)
 sleeping:
   type: mixed
   notes: Mountain huts, plus valley guesthouses in Kals, Heiligenblut and Fusch; you can leave or join after any stage.
+  booking_ahead: recommended
 difficulty:
   level: 3
-  reason: Demanding stages with cable-secured passages but no glacier or via ferrata; up to ~1,500 m ascent per day, high point ~2,820 m.
+  reason: Long alpine days with cable-secured steps and short easy scrambles, and a via ferrata section to the Dürrenfeldscharte
 logistics:
   getting_to_start: Kaprun is chosen as start for its easy access; reservoir buses go up to the Mooserboden.
   leaving_from_end: Last stage ends at the Kaprun glacier-railway car park; bus to Kaprun.
@@ -32,12 +37,12 @@ logistics:
     - Salzburg
 flags:
   permit: none
-  permit_notes: No permit mentioned.
+  permit_notes: No permit; the national park has no entrance fee.
   waymarked: yes
   water_scarce: false
   exposed_or_via_ferrata: true
 links:
-  official_site: https://www.nationalpark.at/en/holiday/summer/hiking/glockner-trail
+  official_site: https://nationalpark-hohetauern.at/en/sommer/weitwandern/
 establishment_signals:
   - official_status
   - waymarked
@@ -75,31 +80,19 @@ photos:
 sources:
   distance_km: https://www.zellamsee-kaprun.com/en/tour/around-the-grossglockner-in-7-days~10455
   total_ascent_m: https://www.zellamsee-kaprun.com/en/tour/around-the-grossglockner-in-7-days~10455
-  typical_days: https://www.nationalpark.at/en/holiday/summer/hiking/glockner-trail
-  open_season: https://www.nationalpark.at/en/holiday/summer/hiking/glockner-trail
-  sleeping: https://www.nationalpark.at/en/holiday/summer/hiking/glockner-trail
+  typical_days: https://www.alpenverein.at/portal/berg-aktiv/wege-touren/trekkingrouten/glocknerrunde/index.php
+  open_season: https://www.alpenverein.de/files/1805-grossglocknerrunde-broschuere-en_ol.pdf
+  sleeping:
+    - https://www.alpenverein.at/portal/berg-aktiv/wege-touren/trekkingrouten/glocknerrunde/index.php
+    - https://www.alpenverein.de/files/1805-grossglocknerrunde-broschuere-en_ol.pdf
   difficulty: https://www.bergwelten.com/a/glocknerrunde
   logistics: https://magazin.alpenverein.de/files/1805-grossglocknerrunde-broschuere-en_ol.pdf
   nearest_airports: https://www.cicerone.co.uk/products/trekking-in-austrias-hohe-tauern
-  permit: https://www.nationalpark.at/en/holiday/summer/hiking/glockner-trail
+  permit: https://en.wikivoyage.org/wiki/Hohe_Tauern_National_Park
   waymarked: https://www.cicerone.co.uk/products/trekking-in-austrias-hohe-tauern
-  official_status: https://www.nationalpark.at/en/holiday/summer/hiking/glockner-trail
+  official_status: https://www.alpenverein.at/portal/berg-aktiv/wege-touren/trekkingrouten/glocknerrunde/index.php
   guidebook: https://www.cicerone.co.uk/products/trekking-in-austrias-hohe-tauern
-conflicts:
-  - field: distance_km
-    values:
-      - value: 95.06
-        source: https://www.zellamsee-kaprun.com/en/tour/around-the-grossglockner-in-7-days~10455
-      - value: 86.09
-        source: https://www.osttirol.com/aktiv-outdoor/wandern/detail/glocknerrunde-1/pdf
-      - value: 99
-        source: https://www.cicerone.co.uk/products/trekking-in-austrias-hohe-tauern (Glockner Rucksack Route)
-      - value: 135
-        source: https://www.hikingfex.com/post/glocknerrunde
-  - field: total_ascent_m
-    values:
-      - value: 7100
-        source: https://www.zellamsee-kaprun.com/en/tour/around-the-grossglockner-in-7-days~10455
-      - value: 7209
-        source: https://www.osttirol.com/aktiv-outdoor/wandern/detail/glocknerrunde-1/pdf
-last_verified: 2026-11-27
+  best_months:
+    - https://nationalpark-hohetauern.at/en/sommer/weitwandern/
+    - https://www.alpenverein.de/files/1805-grossglocknerrunde-broschuere-en_ol.pdf
+last_verified: 2026-11-28

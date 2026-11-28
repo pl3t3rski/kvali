@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "source": "commons",
+    "title": "File:Berliner Höhenweg oberhalb Berliner Hütte.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Berliner_H%C3%B6henweg_oberhalb_Berliner_H%C3%BCtte.jpg",
+    "author": "Whgler",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Trail just above the Berliner Hütte",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/berliner-hoehenweg/c0c63ff4e7-480.webp",
+      "960": "/photos/berliner-hoehenweg/c0c63ff4e7-960.webp",
+      "1600": "/photos/berliner-hoehenweg/c0c63ff4e7-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Berliner Höhenweg Greizer Hütte.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Berliner_H%C3%B6henweg_Greizer_H%C3%BCtte.jpg",
+    "author": "Whgler",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Trail above the Greizer Hütte",
+    "width": 1600,
+    "height": 2133,
+    "sizes": {
+      "480": "/photos/berliner-hoehenweg/0ffd9316a5-480.webp",
+      "960": "/photos/berliner-hoehenweg/0ffd9316a5-960.webp",
+      "1600": "/photos/berliner-hoehenweg/0ffd9316a5-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Furtschaglhaus Großer Möseler.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Furtschaglhaus_Gro%C3%9Fer_M%C3%B6seler.jpg",
+    "author": "Whgler",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "The Furtschaglhaus below the Großer Möseler",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/berliner-hoehenweg/dd795fa380-480.webp",
+      "960": "/photos/berliner-hoehenweg/dd795fa380-960.webp",
+      "1600": "/photos/berliner-hoehenweg/dd795fa380-1600.webp"
+    }
+  }
+]

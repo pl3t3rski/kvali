@@ -1,22 +1,40 @@
 id: schladminger-tauern-hoehenweg
-status: draft
+status: published
 name: Schladminger Tauern Höhenweg
 countries:
   - AT
 region: Schladminger Tauern, Niedere Tauern (Styria)
-one_liner: Classic five- or seven-day hut route among hundreds of mountain lakes south of the Dachstein, through the Klafferkessel; part of the Zentralalpenweg 02.
+one_liner: Hut route among the lakes of the Schladminger Tauern, through the Klafferkessel; five or seven stages, partly on the Zentralalpenweg 02.
 route:
   type: point-to-point
-  start: Hochwurzen (Gipfelbahn top station)
-  end: Seewigtal (5-day) or St. Nikolai im Sölktal (7-day)
-  gpx_source: https://tirol.mapservices.eu/nefos_app/api/gpx/el_oD9BiM7lvDWLMtVl/de/generate/121381092
+  start: Hochwurzen top station (Schladming)
+  end: Seewigtal (Bodensee car park)
+  osm_relation_id:
+    - 1105272
+    - 16219425
+    - 16219426
+    - 1109207
+  osm_section:
+    from:
+      - 47.3604
+      - 13.6393
+    via:
+      - - 47.2918
+        - 13.6499
+    to:
+      - 47.3811
+      - 13.8267
 distance_km: 45
 total_ascent_m: 4115
 typical_days:
   min: 5
   max: 7
 when:
-  best_months: []
+  best_months:
+    - 7
+    - 8
+    - 9
+  open_season: The official package runs from July to mid September
 sleeping:
   type: huts
   booking_ahead: required
@@ -25,14 +43,15 @@ difficulty:
   level: 3
   reason: Alpine experience needed on all stages (fitness 6/6, technique 5/6); high point Greifenberg 2,618 m; cable-protected variant 702A.
 logistics:
-  getting_to_start: Hiking bus to the Hochwurzen Gipfelbahn, then lift up.
-  leaving_from_end: Seewigtal (Bodensee car park) or St. Nikolai im Sölktal.
+  getting_to_start: Train to Schladming, bus to the Hochwurzen gondola, then up by gondola. Multi-day walkers park free at Planai West, not at the gondola.
+  leaving_from_end: Bus 976 from the Seewigtal car park back to Schladming.
   nearest_airports: []
 flags:
   permit: none
-  permit_notes: No permit.
+  permit_notes: No permit is mentioned by the trail’s own pages.
   water_scarce: false
   exposed_or_via_ferrata: true
+  waymarked: yes
 links:
   official_site: https://www.schladming-dachstein.at/de/Sommer/Wandern-und-Bergsport/Weitwanderwege/Schladminger-Tauern-Hoehenweg
 establishment_signals:
@@ -75,20 +94,12 @@ sources:
   typical_days: https://www.schladming-dachstein.at/de/Sommer/Wandern-und-Bergsport/Weitwanderwege/Schladminger-Tauern-Hoehenweg
   sleeping: https://www.bergwelten.com/a/der-schladminger-tauern-hoehenweg
   difficulty: https://www.schladming-dachstein.at/de/aktivitaeten/touren/Schladminger-Tauern-H-C3-B6henweg-7C-5-Tages-Tour_tour_7483.md
-  logistics: https://www.steiermark.com/de/Steiermark/Aktiv-in-der-Natur/Wandern/Wandertouren/Wandertouren-Oeffis/Keinprechthuette-Gollinghuette-Schladminger-Tauern-Hoehenweg-Etappe-03_tour_324883
-  permit: https://www.schladming-dachstein.at/de/Sommer/Wandern-und-Bergsport/Weitwanderwege/Schladminger-Tauern-Hoehenweg
+  logistics: https://www.schladming-dachstein.at/de/aktivitaeten/touren/Schladminger-Tauern-H-C3-B6henweg-7C-5-Tages-Tour_tour_7483.md
+  permit: https://www.schladming-dachstein.at/de/aktivitaeten/touren/Schladminger-Tauern-H-C3-B6henweg-7C-5-Tages-Tour_tour_7483.md
   official_status: https://www.schladming-dachstein.at/de/Sommer/Wandern-und-Bergsport/Weitwanderwege/Schladminger-Tauern-Hoehenweg
   gpx_source: https://www.schladming-dachstein.at/de/aktivitaeten/touren/Schladminger-Tauern-H-C3-B6henweg-7C-5-Tages-Tour_tour_7483.md
   high_point: https://www.wanderdoerfer.at/steiermark/wanderweg/schladminger-tauern-hoehenweg-5-tages-tour/
-conflicts:
-  - field: distance_km
-    values:
-      - value: 45 (5-day)
-        source: https://www.schladming-dachstein.at/de/Sommer/Wandern-und-Bergsport/Weitwanderwege/Schladminger-Tauern-Hoehenweg
-      - value: 75 (7-day)
-        source: https://www.schladming-dachstein.at/de/Sommer/Wandern-und-Bergsport/Weitwanderwege/Schladminger-Tauern-Hoehenweg
-      - value: 80 (7-day)
-        source: https://www.schladming-dachstein.at/de/Sommer/Wandern-und-Bergsport/Weitwanderwege/Schladminger-Tauern-Hoehenweg
-      - value: 70 (7-day)
-        source: https://www.wanderdoerfer.at/steiermark/wanderweg/schladminger-tauern-hoehenweg-5-tages-tour/
-last_verified: 2026-11-27
+  best_months: https://www.schladming-dachstein.at/de/packages/package-schladminger-tauern-hoehenweg
+  waymarked: https://www.bergwelten.com/a/der-schladminger-tauern-hoehenweg
+  exposed: https://www.schladming-dachstein.at/de/aktivitaeten/touren/Schladminger-Tauern-H-C3-B6henweg-7C-5-Tages-Tour_tour_7483.md
+last_verified: 2026-11-28

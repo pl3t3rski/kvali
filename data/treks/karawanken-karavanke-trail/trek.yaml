@@ -10,7 +10,6 @@ route:
   type: loop
   start: Zell-Pfarre / Sele (Austria)
   end: Zell-Pfarre / Sele (Austria)
-  gpx_source: https://www.geopark-karawanken.at/en/seite/view/karawankentrail
 distance_km: 265
 typical_days:
   min: 13
@@ -36,13 +35,25 @@ flags:
   permit_notes: Crosses the Austria-Slovenia border; carry a passport or ID card.
   exposed_or_via_ferrata: true
 links:
-  official_site: https://www.geopark-karawanken.at/en/seite/view/karawankentrail
+  official_site: https://www.geopark-karawanken.at/en/karawankentrail
 establishment_signals:
   - official status (UNESCO Global Geopark trail)
   - official website
   - published guidebook (printed Karawanken Trail Guide from the Geopark)
 trip_reports: []
-photos: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Hochobir_Gipfelkreuz_2011.JPG
+    author: Felix König
+    license: CC BY 3.0
+    shows: The summit cross on Hochobir
+  - file_url: https://commons.wikimedia.org/wiki/File:Dom_na_Peci.jpg
+    author: JakobZ
+    license: CC BY-SA 3.0
+    shows: The hut on Peca, a stage end
+  - file_url: https://commons.wikimedia.org/wiki/File:Uršlja_gora,_cerkev.jpg
+    author: Neža Poberžnik
+    license: CC BY-SA 4.0
+    shows: St Ursula’s church on Uršlja gora, a stage end
 sources:
   distance_km: https://www.geopark-karawanken.at/en/seite/view/karawankentrail
   typical_days: https://www.geopark-karawanken.at/en/seite/view/karawankentrail
@@ -51,4 +62,4 @@ sources:
   sleeping: https://www.kaernten.at/wandern/weitwandern/karawanken-trail/
   difficulty: https://www.kaernten.at/wandern/weitwandern/karawanken-trail/
   permit: https://www.kaernten.at/wandern/weitwandern/karawanken-trail/
-last_verified: 2026-11-27
+last_verified: 2026-11-28

@@ -4,7 +4,7 @@ name: Arnoweg
 countries:
   - AT
 region: Whole province of Salzburg (Flachgau, Pinzgau, Pongau, Lungau, Tennengau)
-one_liner: A 1,200 km, 63-stage pilgrimage-style circuit of Salzburg province from the Hohensalzburg fortress, from lakeland lowlands to the 3,106 m Sonnblick.
+one_liner: A loop of up to 1,200 km in 63 stages around Salzburg province, starting and ending at the Hohensalzburg fortress.
 route:
   type: loop
   start: Festung Hohensalzburg, Salzburg
@@ -15,9 +15,14 @@ typical_days:
   min: 63
   max: 63
 when:
-  best_months: []
+  best_months:
+    - 7
+    - 8
+    - 9
+  open_season: The Zittelhaus on the Sonnblick, the highest stage end, is open from late June to late September
 sleeping:
   type: mixed
+  booking_ahead: recommended
 difficulty:
   level: 4
   reason: Includes high-alpine terrain up to the Sonnblick (3,106 m) in the 'Keesberge' section; long remote stretches.
@@ -29,6 +34,8 @@ flags:
   permit: none
   permit_notes: No permit.
   water_scarce: false
+  waymarked: yes
+  exposed_or_via_ferrata: true
 links:
   official_site: https://www.arnoweg.com/
 establishment_signals:
@@ -37,7 +44,8 @@ establishment_signals:
 trip_reports:
   - url: https://www.meinarnoweg.at/
     title: Mein Arnoweg – Salzburger Weitwanderweg Blog
-    summary: Fabian Bergner's stage-by-stage blog of the whole route, begun in 2021.
+    summary: "Walking the trail in sections since July 2014: 42 of 63 stages and 583 km so far, last to Tamsweg in 2022. In German"
+    year_hiked: 2022
   - url: https://www.vergissmi.net/?p=14901
     title: Arnoweg – Drei Tage durch die Lungauer Nockberge
     summary: Section through the Lungau Nockberge; author began the Arnoweg in summer 2021.
@@ -49,19 +57,26 @@ photos:
     author: Fabian Bergner
     license: CC BY-SA 4.0
     shows: Arnoweg signpost on stage 8 from the Hirschbichl
+  - file_url: https://commons.wikimedia.org/wiki/File:WW-Weißpriach-002.JPG
+    author: Schermy
+    license: CC0
+    shows: A trail signpost at Weißpriach in the Lungau
+  - file_url: https://commons.wikimedia.org/wiki/File:Hoher_Sonnblick_Observatorium_Zittelhaus_20090721a.jpg
+    author: Tigerente
+    license: CC BY 4.0
+    shows: The observatory and Zittelhaus on the Hoher Sonnblick, the trail’s high point
 sources:
   distance_km: https://www.salzburgerland.com/en/?p=79454
   typical_days: https://www.salzburgerland.com/en/?p=79454
-  difficulty: https://en.abtenau-info.at/Betrieb/Arnoweg/
+  difficulty: https://www.arnoweg.com/tourhinweise.html
   logistics: https://www.salzburgerland.com/en/?p=79454
   permit: https://www.salzburgerland.com/en/?p=79454
   route_type: https://austria-forum.org/af/AustriaWiki/Arnoweg
   osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=301659
-conflicts:
-  - field: total_ascent_m
-    values:
-      - value: ~80,000
-        source: https://www.gps-tour.info/92062
-      - value: 57,000+
-        source: https://en.wikipedia-on-ipfs.org/wiki/Arno_Trail
-last_verified: 2026-11-27
+  best_months: https://www.alpenverein.at/zittelhaus/index.php
+  sleeping:
+    - https://www.arnoweg.com/tourhinweise.html
+    - https://en.wikipedia.org/wiki/Arno_Trail
+  waymarked: https://www.arnoweg.com/tourhinweise.html
+  exposed: https://www.arnoweg.com/tourhinweise.html
+last_verified: 2026-11-28

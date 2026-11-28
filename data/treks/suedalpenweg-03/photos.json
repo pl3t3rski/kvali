@@ -14,5 +14,37 @@
       "960": "/photos/suedalpenweg-03/bff38b5549-960.webp",
       "1600": "/photos/suedalpenweg-03/bff38b5549-1600.webp"
     }
+  },
+  {
+    "source": "commons",
+    "title": "File:Eisenkappler Hütte.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Eisenkappler_H%C3%BCtte.jpg",
+    "author": "H. Raab (User:Vesta)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "The Eisenkappler Hütte on the Hochobir, a stage end",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/suedalpenweg-03/f27790641c-480.webp",
+      "960": "/photos/suedalpenweg-03/f27790641c-960.webp",
+      "1600": "/photos/suedalpenweg-03/f27790641c-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Obstansersee-Hütte Roßkopf.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Obstansersee-H%C3%BCtte_Ro%C3%9Fkopf.jpg",
+    "author": "Whgler",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "The Obstansersee and its hut below the Roßkopf",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/suedalpenweg-03/cb8fd8ad48-480.webp",
+      "960": "/photos/suedalpenweg-03/cb8fd8ad48-960.webp",
+      "1600": "/photos/suedalpenweg-03/cb8fd8ad48-1600.webp"
+    }
   }
 ]

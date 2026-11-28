@@ -1,28 +1,42 @@
 id: suedalpenweg-03
-status: draft
+status: published
 name: Südalpenweg 03 (Austrian Long-Distance Trail 03)
 countries:
   - AT
 region: South Styrian wine country, Koralpe, Karawanken, Carnic Alps
-one_liner: Austria's southern national trail from the Styrian vineyards along the Slovenian and Italian borders to East Tyrol; gentle in the east, alpine in the Carnic Alps.
+one_liner: About 500 km along Austria’s southern border, from the Styrian vineyards over the Karawanken and Carnic Alps to Sillian.
 route:
   type: point-to-point
   start: Bad Radkersburg (Styria)
   end: Sillian (East Tyrol)
   osm_relation_id: 186221
+  osm_section:
+    from:
+      - 46.6867
+      - 15.9799
+    to:
+      - 46.744
+      - 12.3935
 distance_km: 500
 typical_days:
   min: 25
   max: 25
 when:
-  best_months: []
+  best_months:
+    - 6
+    - 7
+    - 8
+    - 9
 sleeping:
   type: mixed
+  booking_ahead: required
+  notes: On the Carnic ridge the huts are often full and booking is binding.
 difficulty:
   level: 3
   reason: Ranges from very easy to demanding; up to ~2,700 m; full alpine equipment, sure-footedness and head for heights required on the western sections.
 logistics:
   nearest_airports: []
+  leaving_from_end: From Sillian, trains via Lienz.
 flags:
   permit: none
   permit_notes: No permit.
@@ -41,14 +55,27 @@ trip_reports:
   - url: https://www.ifollowedthewhiteblazes.com/fazit-suedalpenweg-03/
     title: Fazit – Südalpenweg 03
     summary: Thru-hiker's summary of the whole trail.
-  - url: https://gepacktundlos.com/suedalpenweg-03/
-    title: Südalpenweg 03 – Weitwandern von Bad Radkersburg bis nach Sillian
-    summary: Account of walking the border region between Austria, Slovenia and Italy.
+  - url: https://www.vergissmi.net/?p=958
+    title: WWW03 Südalpenweg Teil 1 – Südsteiermark
+    year_hiked: 2010
+    summary: Summer heat around 35 °C has them starting at four to six in the morning through the Styrian hills; parts 2 and 3 continue over the Carnic ridge. In German
+  - url: https://gipfelrast.at/tag/sudalpenweg/
+    title: Südalpenweg
+    year_hiked: 2016
+    summary: Nearly two weeks on the Carnic ridge in late July and August, with rain at the Porzehütte and the bad-weather route along the Strada delle Malghe. In German
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:Wolayerseehuette_Neu_seit_2013.jpg
     author: Wolayerseehütte
     license: CC BY-SA 4.0
     shows: Wolayerseehütte in the Carnic Alps (shared with the Karnischer Höhenweg)
+  - file_url: https://commons.wikimedia.org/wiki/File:Eisenkappler_Hütte.jpg
+    author: H. Raab (User:Vesta)
+    license: CC BY-SA 4.0
+    shows: The Eisenkappler Hütte on the Hochobir, a stage end
+  - file_url: https://commons.wikimedia.org/wiki/File:Obstansersee-Hütte_Roßkopf.jpg
+    author: Whgler
+    license: CC BY-SA 3.0
+    shows: The Obstansersee and its hut below the Roßkopf
 sources:
   distance_km: https://www.alpenverein.at/weitwanderer/weitwanderwege/suedalpenweg.php
   typical_days: https://www.alpenverein.at/weitwanderer/weitwanderwege/suedalpenweg.php
@@ -58,11 +85,11 @@ sources:
   official_status: https://www.alpenverein.at/weitwanderer/weitwanderwege/index.php?navid=159071997350
   guidebook: https://www.alpenverein.at/weitwanderer/weitwanderwege/suedalpenweg.php
   osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=186221
-conflicts:
-  - field: distance_km
-    values:
-      - value: ~500 km main route (660 km incl. Bozen extension)
-        source: https://www.alpenverein.at/weitwanderer/weitwanderwege/suedalpenweg.php
-      - value: 463.2
-        source: https://www.outdooractive.com/de/route/fernwanderweg/weitwanderweg-03-suedalpenweg/14534584/review
-last_verified: 2026-11-27
+  best_months: https://www.alpenvereinaktiv.com/de/tour/weitwanderweg-03-suedalpenweg/14534584/
+  sleeping:
+    - https://osttirol.com/fileadmin/userdaten/pdf/a-z/karnischer-hoehenweg-infos-de.pdf
+    - https://www.alpenvereinaktiv.com/de/tour/weitwanderweg-03-suedalpenweg/14534584/
+  logistics:
+    - https://www.alpenvereinaktiv.com/de/tour/weitwanderweg-03-suedalpenweg/14534584/
+    - https://osttirol.com/fileadmin/userdaten/pdf/a-z/karnischer-hoehenweg-infos-de.pdf
+last_verified: 2026-11-28

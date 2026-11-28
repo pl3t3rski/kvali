@@ -4,7 +4,7 @@ name: Karwendel Höhenweg
 countries:
   - AT
 region: Karwendel Nature Park, Tyrol
-one_liner: Six demanding stages through the limestone Karwendel between Reith bei Seefeld and Scharnitz, five huts, rail-served at both ends.
+one_liner: Six demanding stages through the limestone Karwendel from Reith bei Seefeld to Scharnitz; Nördlinger Hütte closed until 2028.
 route:
   type: point-to-point
   start: Reith bei Seefeld station
@@ -16,24 +16,26 @@ typical_days:
   max: 6
 when:
   best_months:
-    - July
-    - August
-    - September
+    - 7
+    - 8
+    - 9
 sleeping:
   type: huts
-  notes: Five Alpine Club huts (e.g. Nördlinger Hütte, Solsteinhaus, Pfeishütte, Bettelwurfhütte, Hallerangerhaus); descent from every hut.
+  notes: "Five huts. The Nördlinger Hütte is closed from September 2026 to the start of the 2028 season: take the Rosshütte funicular and Härmelekopfbahn to the Kuntersteig, walk stages 1 and 2 in one long day, or start at the Solsteinhaus."
+  booking_ahead: recommended
 difficulty:
   level: 3
   reason: Fitness and technique 6/6 on tirol.at; long, difficult stages; not for alpine beginners; high point 2,699 m.
 logistics:
-  getting_to_start: Reith bei Seefeld is on the Karwendel railway (bus and train).
+  getting_to_start: Starts at Reith bei Seefeld station; Reith, Seefeld and Scharnitz all have trains and buses.
   leaving_from_end: Scharnitz station (bus and train).
   nearest_airports: []
 flags:
   permit: none
-  permit_notes: No permit.
+  permit_notes: No permit is mentioned by the trail’s own pages.
   water_scarce: false
   exposed_or_via_ferrata: true
+  waymarked: yes
 links:
   official_site: https://karwendel-hoehenweg.at/
 establishment_signals:
@@ -46,9 +48,7 @@ trip_reports:
   - url: https://mountainbalance.de/karwendelhoehenweg/
     title: Tourenbericht Karwendelhöhenweg – Wandern mit Hund
     summary: Solo with a dog; notes on dog-friendly huts.
-  - url: https://www.ultraleicht-trekking.com/forum/topic/10917-karwendel-h%C3%B6henweg/
-    title: Karwendel-Höhenweg – Reiseberichte (forum)
-    summary: Forum member combined stages and did it in 4 days.
+    year_hiked: 2019
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:Hallerangerhaus_Karwendel_(1).jpg
     author: Lehtho
@@ -66,17 +66,11 @@ sources:
   distance_km: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
   total_ascent_m: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
   typical_days: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
-  best_months: https://www.seefeld.com/en/a-karwendel-hoehenweg
-  sleeping: https://magazin.alpenverein.de/files/broschueren/2103-karwendel-hoehenweg-broschuere_ol_30979.pdf
+  best_months: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
+  sleeping: https://karwendel-hoehenweg.at/huetten/
   difficulty: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
-  logistics: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg-etappe-1
+  logistics: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
   permit: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
-  huts_names: https://www.seefeld.com/en/karwendel-high-trail.html
-conflicts:
-  - field: total_ascent_m
-    values:
-      - value: 4470
-        source: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
-      - value: 7,000 (60 km)
-        source: https://www.moonhoneytravel.com/de/europa/oesterreich/karwendel-hoehenweg/
-last_verified: 2026-11-27
+  huts_names: https://www.seefeld.com/en/karwendel-hoehenweg-trail.html
+  waymarked: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/karwendel-hoehenweg
+last_verified: 2026-11-28

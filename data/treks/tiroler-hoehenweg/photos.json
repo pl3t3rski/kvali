@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Landshuter Europahütte.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Landshuter_Europah%C3%BCtte.jpg",
+    "author": "Whgler",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "The Landshuter Europahütte on the border ridge",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/tiroler-hoehenweg/3d62eccf5a-480.webp",
+      "960": "/photos/tiroler-hoehenweg/3d62eccf5a-960.webp",
+      "1600": "/photos/tiroler-hoehenweg/3d62eccf5a-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Goldkappl und Sandessee.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Goldkappl_und_Sandessee.jpg",
+    "author": "Jörg Braukmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "The Sandessee cirque with the Italian Tribulaun hut",
+    "width": 1600,
+    "height": 660,
+    "sizes": {
+      "480": "/photos/tiroler-hoehenweg/0e0b4d30ee-480.webp",
+      "960": "/photos/tiroler-hoehenweg/0e0b4d30ee-960.webp",
+      "1600": "/photos/tiroler-hoehenweg/0e0b4d30ee-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Schneeberghütte 2018a.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Schneebergh%C3%BCtte_2018a.jpg",
+    "author": "Whgler",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "The Schneeberghütte at St. Martin am Schneeberg",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/tiroler-hoehenweg/261b29750f-480.webp",
+      "960": "/photos/tiroler-hoehenweg/261b29750f-960.webp",
+      "1600": "/photos/tiroler-hoehenweg/261b29750f-1600.webp"
+    }
+  }
+]

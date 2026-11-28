@@ -1,0 +1,66 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Welterbesteig 2.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Welterbesteig_2.jpg",
+    "author": "--Qualcuno",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "shows": "Trail near Spitz",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/welterbesteig-wachau/dabea2561c-480.webp",
+      "960": "/photos/welterbesteig-wachau/dabea2561c-960.webp",
+      "1600": "/photos/welterbesteig-wachau/dabea2561c-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Welterbesteig 1.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Welterbesteig_1.jpg",
+    "author": "--Qualcuno 21:59, 9. Jun. 2011 (CEST)",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "shows": "Trail near Göttweig",
+    "width": 1600,
+    "height": 2133,
+    "sizes": {
+      "480": "/photos/welterbesteig-wachau/3d7f603c44-480.webp",
+      "960": "/photos/welterbesteig-wachau/3d7f603c44-960.webp",
+      "1600": "/photos/welterbesteig-wachau/3d7f603c44-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Welterbesteig Markierung.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Welterbesteig_Markierung.jpg",
+    "author": "--Qualcuno 21:58, 9. Jun. 2011 (CEST)",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "shows": "Welterbesteig waymark",
+    "width": 1600,
+    "height": 1357,
+    "sizes": {
+      "480": "/photos/welterbesteig-wachau/2eaa6605c2-480.webp",
+      "960": "/photos/welterbesteig-wachau/2eaa6605c2-960.webp",
+      "1600": "/photos/welterbesteig-wachau/2eaa6605c2-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:WeltErbeSteig Richtung Emmersdorf, blick zur donaubrücke und zum windpark inning - panoramio.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:WeltErbeSteig_Richtung_Emmersdorf,_blick_zur_donaubr%C3%BCcke_und_zum_windpark_inning_-_panoramio.jpg",
+    "author": "josef lahmer (josy10…",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Towards Emmersdorf with the Danube bridge",
+    "width": 1600,
+    "height": 1063,
+    "sizes": {
+      "480": "/photos/welterbesteig-wachau/0255cbf88f-480.webp",
+      "960": "/photos/welterbesteig-wachau/0255cbf88f-960.webp",
+      "1600": "/photos/welterbesteig-wachau/0255cbf88f-1600.webp"
+    }
+  }
+]

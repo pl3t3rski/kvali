@@ -1,6 +1,21 @@
 [
   {
     "source": "commons",
+    "title": "File:StripsenjochhausJPG.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:StripsenjochhausJPG.jpg",
+    "author": "Stefan.straub",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Stripsenjochhaus, passed on stage 2",
+    "width": 960,
+    "height": 914,
+    "sizes": {
+      "480": "/photos/koasa-trail/daca7e9e4b-480.webp",
+      "960": "/photos/koasa-trail/daca7e9e4b-960.webp"
+    }
+  },
+  {
+    "source": "commons",
     "title": "File:Austria 2015-07-23 (20783108439).jpg",
     "page_url": "https://commons.wikimedia.org/wiki/File:Austria_2015-07-23_(20783108439).jpg",
     "author": "Guillaume Baviere from Uppsala, Sweden",

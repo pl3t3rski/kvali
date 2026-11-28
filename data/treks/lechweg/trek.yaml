@@ -1,42 +1,49 @@
 id: lechweg
-status: draft
+status: published
 name: Lechweg
 countries:
   - AT
   - DE
 region: Vorarlberg, Tyrolean Lech valley, Allgäu
-one_liner: "Europe's first Leading Quality Trail: follows the wild Lech river from its source lake to the Lechfall in Füssen, mostly in the valley; a good first long trail."
+one_liner: Follows the Lech from the Formarinsee to the Lechfall in Füssen, mostly on valley paths, with nights in village guesthouses.
 route:
   type: point-to-point
   start: Formarinsee (Lech am Arlberg)
   end: Lechfall, Füssen (DE)
   osm_relation_id: 4728034
+  osm_section:
+    from:
+      - 47.1713
+      - 9.9994
+    to:
+      - 47.5619
+      - 10.6953
 distance_km: 125
 total_ascent_m: 3021
 typical_days:
-  min: 6
-  max: 8
+  min: 7
+  max: 10
 when:
   best_months:
-    - June
-    - July
-    - August
-    - September
-    - October
-  open_season: Most of the trail walkable May–October; the first two stages only later (snow); hiking bus to Formarinsee June–October
+    - 6
+    - 7
+    - 8
+    - 9
+  open_season: The whole length is walkable only from mid or late June to early October; earlier, snow lies between the Formarinsee and Warth. From mid May you can start at Steeg
 sleeping:
   type: guesthouses
   notes: Villages along the valley; luggage transport offered.
+  booking_ahead: recommended
 difficulty:
   level: 2
   reason: Mostly valley paths with small daily climbs; red (intermediate) mountain trails on the first stages from 1,871 m.
 logistics:
-  getting_to_start: Hiking bus from Lech post office to the Formarinsee (June–October).
-  leaving_from_end: Füssen; bus 4258/72 back to Reutte and bus 4268 Reutte–Lech.
+  getting_to_start: Hiking bus 707 from the Dorfhus in Lech to the Formarinsee, mid June to early October.
+  leaving_from_end: Bus 100 from Füssen to Reutte, then bus 110 to Lech; the last one leaves Füssen at about 2 pm.
   nearest_airports: []
 flags:
   permit: none
-  permit_notes: No permit.
+  permit_notes: No permit. Wild camping is not allowed.
   waymarked: yes
   water_scarce: false
   exposed_or_via_ferrata: false
@@ -54,9 +61,6 @@ trip_reports:
   - url: https://www.bergwelten.com/a/lechweg-von-der-quelle-bis-zu-den-koenigsschloessern
     title: "Lechweg: von der Quelle bis zu den Königsschlössern"
     summary: Lea Hajner walked it alone in autumn; calls it a good first long-distance trail.
-  - url: https://escape-town.com/lechweg-weitwanderweg-6-etappen/
-    title: "Am Lechweg: Von Lech nach Füssen in 6 Tagen"
-    summary: Six-day walk from Lech to Füssen.
   - url: https://theoutsideworld.de/lechweg-in-5-tagen-rueckblick-auf-eine-grandiose-wanderung/
     title: Lechweg in 5 Tagen – Rückblick
     summary: Compressed into five days.
@@ -78,31 +82,16 @@ photos:
     license: CC BY-SA 4.0
     shows: Lechweg info board at the Lechfall, Füssen (finish)
 sources:
-  distance_km: https://austria-forum.org/af/AustriaWiki/Lechweg
+  distance_km: https://www.lechweg.com/de/service/faq-haeufig-gestellte-fragen/
   total_ascent_m: https://www.tyrol.com/activities/sport/hiking/hiking-tours/lechweg-1
-  typical_days: https://austria-forum.org/af/AustriaWiki/Lechweg
-  best_months: https://austria-forum.org/af/AustriaWiki/Lechweg
-  open_season: https://austria-forum.org/af/AustriaWiki/Lechweg
-  sleeping: https://www.lechzuers.com/en/hiking/the-lechweg-trail
+  typical_days: https://www.lechweg.com/de/weg/etappen-varianten/
+  best_months: https://www.lechweg.com/de/service/faq-haeufig-gestellte-fragen/
+  open_season: https://www.lechweg.com/de/service/faq-haeufig-gestellte-fragen/
+  sleeping: https://www.lechweg.com/de/service/faq-haeufig-gestellte-fragen/
   difficulty: https://tyrol.com/things-to-do/sports/hiking/hiking-tours/a-lech-river-trail
-  logistics: https://www.vorarlberg.travel/en/route/lechweg-2/
-  permit: https://www.vorarlberg.travel/en/route/lechweg-2/
-  waymarked: https://www.era-ewv-ferp.org/?p=13502
-  official_status: https://www.era-ewv-ferp.org/lqt/
+  logistics: https://www.lechweg.com/de/service/busverbindungen/
+  permit: https://www.lechweg.com/de/service/faq-haeufig-gestellte-fragen/
+  waymarked: https://www.lechweg.com/de/service/faq-haeufig-gestellte-fragen/
+  official_status: https://www.lechweg.com/de/service/faq-haeufig-gestellte-fragen/
   osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=4728034
-conflicts:
-  - field: distance_km
-    values:
-      - value: 125
-        source: https://austria-forum.org/af/AustriaWiki/Lechweg
-      - value: 123.7
-        source: https://tyrol.com/things-to-do/sports/hiking/hiking-tours/a-lech-river-trail
-  - field: typical_days
-    values:
-      - value: 6–8 stages
-        source: https://austria-forum.org/af/AustriaWiki/Lechweg
-      - value: 7 days
-        source: https://www.tyrol.com/activities/sport/hiking/hiking-tours/lechweg-1
-      - value: 7, 8 or 10 days (three variants)
-        source: https://www.lechtal.at/en/activities/hiking/lechweg/steps.html
-last_verified: 2026-11-27
+last_verified: 2026-11-28

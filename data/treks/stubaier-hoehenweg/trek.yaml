@@ -1,5 +1,5 @@
 id: stubaier-hoehenweg
-status: draft
+status: published
 name: Stubaier Höhenweg (Stubai High Trail)
 countries:
   - AT
@@ -10,31 +10,41 @@ route:
   start: Neustift im Stubaital (Starkenburger Hütte)
   end: Neustift im Stubaital (Innsbrucker Hütte)
   osm_relation_id: 6560812
-distance_km: 79.4
-total_ascent_m: 5821
+  osm_section:
+    from:
+      - 47.1427
+      - 11.3052
+    via:
+      - - 47.0433
+        - 11.3107
+    to:
+      - 47.095
+      - 11.3195
+distance_km: 80
+total_ascent_m: 6000
 typical_days:
   min: 8
   max: 9
 when:
   best_months:
-    - July
-    - August
-    - September
-  open_season: Huts open mid-June to end of September; snow can linger on north slopes into July
+    - 7
+    - 8
+    - 9
+  open_season: The huts open in early to late June and close in late September
 sleeping:
   type: huts
   booking_ahead: required
   notes: Eight Alpine Club huts; descent to the valley possible from every hut.
 difficulty:
   level: 3
-  reason: Black (difficult) mountain paths with cable-secured passages on most stages; up to 2,879 m; daily ascent mostly under 1,000 m.
+  reason: "A black (difficult) mountain trail: some sections secured with steel cables, and steep old snow early in the season"
 logistics:
-  getting_to_start: Neustift im Stubaital has regular buses from Innsbruck; ascent to the Starkenburger Hütte (or the Kreuzjoch lift).
+  getting_to_start: Bus 590 from Innsbruck main station to Neustift.
   leaving_from_end: Descend from the Innsbrucker Hütte through the Pinnistal to Neustift.
   nearest_airports: []
 flags:
   permit: none
-  permit_notes: No permit mentioned by the official site.
+  permit_notes: No permit is mentioned by the trail’s own pages.
   waymarked: yes
   water_scarce: false
   exposed_or_via_ferrata: true
@@ -54,9 +64,6 @@ trip_reports:
   - url: https://inafarawayland.com/stubai-high-trail-guide/
     title: "Stubai High Trail Guide: 7 Days Hiking Austria's Famous Hut-To-Hut Trail"
     summary: Seven-day hut-to-hut account; stresses steep, sure-footed terrain.
-  - url: https://services.alpenverein.de/chameleon/public/13502/p_unt1_13502.pdf
-    title: Stubaier Höhenweg – Glanzpunkte im Angesicht der Gletscher (DAV Panorama 4/2007)
-    summary: Text and photos by Heinz Zak; long-route version quoted at 120 km / 8,000 m with daily flexibility thanks to many huts.
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:Blick_Richtung_Sulzenau_H%C3%BCtte.jpg
     author: The jackal100
@@ -75,38 +82,22 @@ photos:
     license: CC BY-SA 4.0
     shows: Trail below the Elferhütte above the Pinnistal
 sources:
-  distance_km: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/stubaier-hoehenweg-variante-2-innsbrucker-huette-starkenburger-huette
-  total_ascent_m: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/stubaier-hoehenweg-variante-2-innsbrucker-huette-starkenburger-huette
-  typical_days: https://www.tyrol.com/activities/sport/hiking/hiking-tours/stubaier-hoehenweg-variante-1-starkenburger-huette-innsbrucker-huette
-  best_months: https://www.cicerone.co.uk/products/trekking-in-austrias-stubai-alps
-  open_season: https://www.cicerone.co.uk/products/trekking-in-austrias-stubai-alps
-  sleeping: https://bookatrekking.com/de/blog/stubaier-hoehenweg/
-  difficulty: https://www.almenrausch.at/einkehr-uebernachtung/detail/stubaier-hoehenweg-9-tagesetappen/
-  logistics: https://www.cicerone.co.uk/products/trekking-in-austrias-stubai-alps
+  distance_km: https://www.stubai.at/en/stubai-high-trail/
+  total_ascent_m: https://www.stubai.at/en/stubai-high-trail/
+  typical_days: https://www.stubai.at/en/stubai-high-trail/
+  best_months:
+    - https://www.alpenverein.de/artikel/oeffnungstermine-der-dav-huetten-im-sommer-2026_eb1fadf9-64a1-4733-89be-d70d47caa33b
+    - https://www.alpenverein.de/artikel/schliesstermine-der-dav-huetten-im-sommer-2026_23162cca-554f-4f6d-9032-e74fa07e181b
+    - https://www.stubai.at/en/stubai-high-trail/the-huts/bremer-hut/
+  open_season:
+    - https://www.alpenverein.de/artikel/oeffnungstermine-der-dav-huetten-im-sommer-2026_eb1fadf9-64a1-4733-89be-d70d47caa33b
+    - https://www.alpenverein.de/artikel/schliesstermine-der-dav-huetten-im-sommer-2026_23162cca-554f-4f6d-9032-e74fa07e181b
+  sleeping: https://www.stubai.at/en/stubai-high-trail/the-huts/
+  difficulty: https://www.stubai.at/en/stubai-high-trail/info-service/safety-equipment/
+  logistics: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/stubaier-hoehenweg-variante-2-innsbrucker-huette-starkenburger-huette
   permit: https://www.stubai.at/en/stubai-high-trail/
-  waymarked: https://www.cicerone.co.uk/products/trekking-in-austrias-stubai-alps
+  waymarked: https://thehikinglife.com/2020/09/a-quick-dirty-guide-to-the-stubai-high-trail/
   official_status: https://www.stubai.at/en/stubai-high-trail/
-  guidebook: https://www.cicerone.co.uk/products/trekking-in-austrias-stubai-alps
+  guidebook: https://www.stubai.at/en/stubai-high-trail/
   osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=6560812
-conflicts:
-  - field: distance_km
-    values:
-      - value: 79.4
-        source: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/stubaier-hoehenweg-variante-2-innsbrucker-huette-starkenburger-huette
-      - value: 80
-        source: https://en.wikipedia.org/wiki/Stubai_Hohenweg
-      - value: 120
-        source: https://services.alpenverein.de/chameleon/public/13502/p_unt1_13502.pdf
-  - field: total_ascent_m
-    values:
-      - value: 5821
-        source: https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/stubaier-hoehenweg-variante-2-innsbrucker-huette-starkenburger-huette
-      - value: 8000
-        source: https://services.alpenverein.de/chameleon/public/13502/p_unt1_13502.pdf
-  - field: typical_days
-    values:
-      - value: 8 days
-        source: https://www.tyrol.com/activities/sport/hiking/hiking-tours/stubaier-hoehenweg-variante-1-starkenburger-huette-innsbrucker-huette
-      - value: 9 stages
-        source: https://www.cicerone.co.uk/products/trekking-in-austrias-stubai-alps
-last_verified: 2026-11-27
+last_verified: 2026-11-28

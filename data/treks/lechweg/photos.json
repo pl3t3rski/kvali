@@ -1,6 +1,22 @@
 [
   {
     "source": "commons",
+    "title": "File:Lechweg bei Forchach.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Lechweg_bei_Forchach.jpg",
+    "author": "Gerhard Eisenschink",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "The Lechweg along the river near Forchach",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/lechweg/415ca4ba13-480.webp",
+      "960": "/photos/lechweg/415ca4ba13-960.webp",
+      "1600": "/photos/lechweg/415ca4ba13-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
     "title": "File:Holzgau - Lechweg - Markierung 01.jpg",
     "page_url": "https://commons.wikimedia.org/wiki/File:Holzgau_-_Lechweg_-_Markierung_01.jpg",
     "author": "Basotxerri",

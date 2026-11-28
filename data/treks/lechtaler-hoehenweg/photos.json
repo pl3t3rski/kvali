@@ -29,5 +29,20 @@
       "480": "/photos/lechtaler-hoehenweg/dc5da5eded-480.webp",
       "960": "/photos/lechtaler-hoehenweg/dc5da5eded-960.webp"
     }
+  },
+  {
+    "source": "commons",
+    "title": "File:Stapfetobel.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Stapfetobel.jpg",
+    "author": "Karl Haarmann",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "shows": "Stapfetobel on the link between Leutkircher and Stuttgarter Hütte",
+    "width": 960,
+    "height": 628,
+    "sizes": {
+      "480": "/photos/lechtaler-hoehenweg/c84f171a41-480.webp",
+      "960": "/photos/lechtaler-hoehenweg/c84f171a41-960.webp"
+    }
   }
 ]

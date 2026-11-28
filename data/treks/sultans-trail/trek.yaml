@@ -1,5 +1,5 @@
 id: sultans-trail
-status: draft
+status: published
 name: Sultans Trail
 countries:
   - AT
@@ -10,35 +10,51 @@ countries:
   - BG
   - GR
   - TR
-region: "Danube and Morava valleys to the Nišava gorge (Serbian section: about 780 km in 38 stages)"
-one_liner: A cultural long-distance walk from Vienna to Istanbul; in Serbia it follows the Danube to Belgrade, then the Morava valley and the Nišava gorge to Bulgaria.
+region: From Vienna along the Danube through Hungary and Serbia, over the Bulgarian hills and through Thrace to Istanbul
+one_liner: Cultural walk from Vienna to Istanbul through eight countries, along the Danube and over Balkan hills; only partly waymarked.
 route:
   type: point-to-point
   start: Vienna (St. Stephen's Cathedral)
   end: Istanbul (tomb of Sultan Süleyman)
   osm_relation_id: 16127693
-  gpx_source: https://sultanstrail.com/store/Hiking-Belgrade-Sofia-digital-information-package-p742683014
+  osm_section:
+    from:
+      - 48.2085
+      - 16.3731
+    to:
+      - 41.0127
+      - 28.9844
 distance_km: 2500
 typical_days:
   min: 140
   max: 175
+when:
+  best_months:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 9
+    - 10
+  open_season: July and August are hot, often above 30 °C
 sleeping:
   type: mixed
-  notes: Towns, monasteries and guesthouses along the way; the paid digital information package lists accommodation. One solo hiker wild-camped most of the way.
+  notes: Guesthouses, hotels and private rooms; camping is possible all along the way. Beds take more planning in parts of Bulgaria and Turkey.
 difficulty:
-  level: 1
-  reason: Mostly river valleys and low hills; highest point in Serbia 534 m (Fruška Gora) or 1,170 m on the Suva Planina variant.
+  level: 2
+  reason: Mostly easy walking on tracks and lanes, with long days and steep climbs in the Bulgarian mountains
 logistics:
-  getting_to_start: Vienna has an international airport. The Serbian Section 4 starts at the Stambol Gate of Kalemegdan fortress in Belgrade, reachable by minibus A1 or bus 72 from Belgrade airport.
-  leaving_from_end: Istanbul Airport is about 40 km north-west of the city, with Havaist shuttle buses.
+  getting_to_start: Starts at St. Stephen’s Cathedral in Vienna.
+  leaving_from_end: Ends in Istanbul at Eyüp and the Süleymaniye; fly home from Istanbul.
   nearest_airports:
-    - Vienna (VIE)
-    - Belgrade Nikola Tesla (BEG)
-    - Niš (INI)
-    - Istanbul (IST)
+    - Vienna
+    - Istanbul
 flags:
-  permit: free-registration
-  permit_notes: No trail permit. In Serbia, foreigners must register their stay with the police within 24 h (accommodation does this for you). Serbia is not in the EU or the Schengen area.
+  permit: none
+  permit_notes: No trail permit. In Serbia foreigners must register their stay with the police; hotels do this for you.
+  waymarked: partial
+  water_scarce: false
+  exposed_or_via_ferrata: false
 links:
   official_site: https://sultanstrail.com/
 establishment_signals:
@@ -56,9 +72,10 @@ trip_reports:
   - url: https://sultanstrail.com/paddy/leaving-the-sultanstrail/
     title: Leaving the Sultanstrail
     summary: Paddy Devlin's blog from mid-walk, heading west from Niš across southern Serbia.
-  - url: https://www.loc.wiki/hiking-trails/sultanstrail-nis-niska-b-sicevo-bela-palanka-16898107
-    title: Sultanstrail Niš-Niska b.-Sićevo-Bela Palanka
-    summary: Recorded GPS track of the Niš – Sićevo gorge – Bela Palanka stages.
+  - url: https://sultanstrail.com/hiking/myrthe-sultanstrail-2022/
+    title: Myrthe Sultans Trail 2022
+    year_hiked: 2022
+    summary: From Vienna partly alone and partly with friends, skipping farmland in Hungary and Serbia, then on through Bulgaria after meeting another walker in Sofia
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:Sultans_Trail_-_hiking_sticker.jpg
     author: Sultans Trail Foundation
@@ -79,24 +96,23 @@ photos:
 sources:
   distance_km: https://sultanstrail.com/
   typical_days: https://sultanstrail.com/
-  sleeping: https://sultanstrail.com/hiking-map-sultans-trail/hiking-serbia/
+  sleeping:
+    - https://sultanstrail.com/plan-your-trip/
+    - https://sultanstrail.com/faq/
   difficulty: https://sultanstrail.com/hiking-map-sultans-trail/hiking-serbia/
-  logistics: https://sultanstrail.com/hiking-map-sultans-trail/hiking-serbia/
+  logistics:
+    - https://sultanstrail.com/
+    - https://sultanstrail.com/plan-your-trip/
   logistics_end: https://sultanstrail.com/hiking-map-sultans-trail/hiking-trail-turkey/
   logistics_start: https://sultanstrail.com/hiking-map-sultans-trail/hiking-austria/
   countries: https://followthecamino.com/en/blog/the-sultans-trail/
-  permit: https://mfa.gov.rs/en/citizens/travel-serbia/registration-stay
+  permit:
+    - https://sultanstrail.com/plan-your-trip/
+    - https://sultanstrail.com/faq/
   osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/16127693
   media: https://en.wikipedia.org/wiki/Sultans_Trail
-conflicts:
-  - field: distance_km
-    values:
-      - value: 2500
-        source: https://sultanstrail.com/
-      - value: 2400
-        source: https://en.wikipedia.org/wiki/Sultans_Trail
-      - value: 2200
-        source: https://worldtrailsnetwork.org/the-sultans-trail-a-cultural-adventure/
-      - value: 2100
-        source: https://cultureroutesinturkey.com/sultans-trail/
-last_verified: 2026-11-27
+  best_months: https://sultanstrail.com/plan-your-trip/
+  open_season: https://sultanstrail.com/plan-your-trip/
+  waymarked: https://sultanstrail.com/plan-your-trip/
+  water_scarce: https://sultanstrail.com/faq/
+last_verified: 2026-11-28

@@ -1,25 +1,42 @@
 id: nordalpenweg-01
-status: draft
+status: published
 name: Nordalpenweg 01 (Austrian Long-Distance Trail 01)
 countries:
   - AT
 region: Northern Limestone Alps, Burgenland/Vienna to Lake Constance
-one_liner: Austria's oldest east–west long trail through the Northern Limestone Alps, ~1,000 km and mostly high-alpine, from Lake Neusiedl or Vienna to Bregenz.
+one_liner: Opened in 1975, about 1,000 km through the Northern Limestone Alps from Vienna or Lake Neusiedl to Bregenz on Lake Constance.
 route:
   type: point-to-point
   start: Rust am Neusiedler See (01A) or Perchtoldsdorf near Vienna
   end: Bregenz (Lake Constance)
   osm_relation_id: 177745
+  osm_section:
+    from:
+      - 48.1193
+      - 16.2635
+    to:
+      - 47.5035
+      - 9.7395
 distance_km: 1000
+typical_days:
+  min: 49
+  max: 61
 when:
-  best_months: []
+  best_months:
+    - 7
+    - 8
+    - 9
+  open_season: The hardest stages can be walked without high-alpine gear only from July to September
 sleeping:
   type: mixed
+  booking_ahead: recommended
 difficulty:
   level: 4
   reason: Largely high-alpine up to ~3,000 m (Zugspitze variant); alpine gear, sure-footedness and route-finding needed; one avoidable via ferrata (Zahme Gamseck).
 logistics:
   nearest_airports: []
+  getting_to_start: The trail starts at the long-distance stone in Perchtoldsdorf near Vienna (or in Rust for route 01A); public transport recommended.
+  leaving_from_end: Ends on the lake shore in Bregenz, by the railway station.
 flags:
   permit: none
   permit_notes: No permit.
@@ -37,13 +54,16 @@ establishment_signals:
 trip_reports:
   - url: https://www.weissenboek.com/nordalpenweg/
     title: Nordalpenweg, der österreichische Weitwanderweg 01
-    summary: Walked Vienna to Bregenz in 55 stages, mostly on the original route.
-  - url: https://www.outdoorseiten.net/archiv/tourenberichte-d-a-ch/78215-at-der-sterreichische-weitwanderweg-01-in-sechs-jahren.html
-    title: "[AT] Der Österreichische Weitwanderweg 01 in sechs Jahren"
-    summary: Completed the 01 in sections over six years.
-  - url: https://www.komoot.com/de-de/collection/1140546/nordalpenweg-01-in-49-tagen-quer-durch-oesterreich
-    title: Nordalpenweg 01 – In 49 Tagen quer durch Österreich
-    summary: Komoot collection of a 49-day crossing.
+    summary: Nearly 1,000 km in 55 daily stages. He leaves the 01 at the Memminger Hütte, walks the E5 through the Allgäu and rejoins at Alberschwende. In German
+    year_hiked: 2013
+  - url: https://weitwanderin.de/category/reise-tagebuch/quer-durch-oesterreich-nordalpenweg-2021/
+    title: Quer durch Österreich & Nordalpenweg 2021
+    year_hiked: 2021
+    summary: An 81-day diary from Austria’s easternmost to its westernmost point, finishing on the Nordalpenweg into Bregenz, with storms, closures and detours. In German
+  - url: https://finanzbaumeister.at/atostnachwest/
+    title: Ost nach West
+    year_hiked: 2023
+    summary: "An east–west crossing of more than 1,100 km, sleeping mostly in Alpine Club huts: 1,171 km and 51,935 m of climbing in the end. In German"
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:Eisenerz_-_%C3%96WWW_01_-_Nordalpenweg_Bodensee-Wienerwald.jpg
     author: Haeferl
@@ -62,13 +82,13 @@ sources:
   guidebook: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
   stages: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
   osm_relation_id: https://hiking.waymarkedtrails.org/#route?id=177745
-conflicts:
-  - field: stages
-    values:
-      - value: 61 (2025 guidebook)
-        source: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
-      - value: 49 (guidebooks to 2024)
-        source: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
-      - value: 55 (walked)
-        source: https://www.weissenboek.com/nordalpenweg/der-weg/
-last_verified: 2026-11-27
+  best_months: https://www.alpenvereinaktiv.com/de/tour/weitwanderweg-01-nordalpenweg/14374369/
+  open_season: https://www.alpenvereinaktiv.com/de/tour/weitwanderweg-01-nordalpenweg/14374369/
+  typical_days: https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
+  sleeping:
+    - https://www.alpenvereinaktiv.com/de/tour/weitwanderweg-01-nordalpenweg/14374369/
+    - https://www.alpenverein.de/artikel/zu-gast-auf-alpenvereinshutten_7bf6cdc6-934f-4a00-9ff7-9829cb6180d0
+  logistics:
+    - https://www.alpenvereinaktiv.com/de/tour/weitwanderweg-01-nordalpenweg/14374369/
+    - https://www.alpenverein.at/weitwanderer/weitwanderwege/nordalpenweg.php
+last_verified: 2026-11-28

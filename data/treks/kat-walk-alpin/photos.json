@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Kitzbüheler Horn ab Alpenhaus.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Kitzb%C3%BCheler_Horn_ab_Alpenhaus.jpg",
+    "author": "Ironbernietyrol",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "The Kitzbüheler Horn, crossed on stage 5",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/kat-walk-alpin/718ac04e6a-480.webp",
+      "960": "/photos/kat-walk-alpin/718ac04e6a-960.webp",
+      "1600": "/photos/kat-walk-alpin/718ac04e6a-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:St Ulrich am Pillersee 3261.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:St_Ulrich_am_Pillersee_3261.jpg",
+    "author": "Badener",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "shows": "St. Ulrich am Pillersee, where the walk ends",
+    "width": 1600,
+    "height": 476,
+    "sizes": {
+      "480": "/photos/kat-walk-alpin/c09fb14eab-480.webp",
+      "960": "/photos/kat-walk-alpin/c09fb14eab-960.webp",
+      "1600": "/photos/kat-walk-alpin/c09fb14eab-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Hopfgarten Hohe Salve.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Hopfgarten_Hohe_Salve.jpg",
+    "author": "Felix König",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Hopfgarten, where the walk starts",
+    "width": 1600,
+    "height": 783,
+    "sizes": {
+      "480": "/photos/kat-walk-alpin/916e6cab92-480.webp",
+      "960": "/photos/kat-walk-alpin/916e6cab92-960.webp",
+      "1600": "/photos/kat-walk-alpin/916e6cab92-1600.webp"
+    }
+  }
+]

@@ -1,6 +1,22 @@
 [
   {
     "source": "commons",
+    "title": "File:Sultans Trail - hiking sticker.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Sultans_Trail_-_hiking_sticker.jpg",
+    "author": "Sultans Trail Foundation",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "The Sultans Trail hiking waymark sticker",
+    "width": 1600,
+    "height": 2455,
+    "sizes": {
+      "480": "/photos/sultans-trail/8c53172cf9-480.webp",
+      "960": "/photos/sultans-trail/8c53172cf9-960.webp",
+      "1600": "/photos/sultans-trail/8c53172cf9-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
     "title": "File:Smederevo fortress (Smederevska tvrđava) - by Pudelek 02.JPG",
     "page_url": "https://commons.wikimedia.org/wiki/File:Smederevo_fortress_(Smederevska_tvr%C4%91ava)_-_by_Pudelek_02.JPG",
     "author": "Pudelek (Marcin Szala)",
@@ -13,6 +29,21 @@
       "480": "/photos/sultans-trail/d05cdc67bf-480.webp",
       "960": "/photos/sultans-trail/d05cdc67bf-960.webp",
       "1600": "/photos/sultans-trail/d05cdc67bf-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Sićevo Gorge 2016.6.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Si%C4%87evo_Gorge_2016.6.jpg",
+    "author": "Bratislav Petrović, Bela Palanka, Serbia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Sićevo gorge of the Nišava (stages ST-420a/421a)",
+    "width": 960,
+    "height": 720,
+    "sizes": {
+      "480": "/photos/sultans-trail/f654415adb-480.webp",
+      "960": "/photos/sultans-trail/f654415adb-960.webp"
     }
   },
   {

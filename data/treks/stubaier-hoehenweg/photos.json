@@ -1,6 +1,51 @@
 [
   {
     "source": "commons",
+    "title": "File:Blick Richtung Sulzenau Hütte.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Blick_Richtung_Sulzenau_H%C3%BCtte.jpg",
+    "author": "The jackal100",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Stage Dresdner Hütte – Sulzenauhütte",
+    "width": 960,
+    "height": 576,
+    "sizes": {
+      "480": "/photos/stubaier-hoehenweg/c8b55ef218-480.webp",
+      "960": "/photos/stubaier-hoehenweg/c8b55ef218-960.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Kurz vor der Neuen Regensburger Hütte.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Kurz_vor_der_Neuen_Regensburger_H%C3%BCtte.jpg",
+    "author": "The jackal100",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Approach to the Neue Regensburger Hütte (from Franz-Senn-Hütte)",
+    "width": 960,
+    "height": 576,
+    "sizes": {
+      "480": "/photos/stubaier-hoehenweg/016ffad47a-480.webp",
+      "960": "/photos/stubaier-hoehenweg/016ffad47a-960.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Blick auf die Franz-Senn-Hütte.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Blick_auf_die_Franz-Senn-H%C3%BCtte.jpg",
+    "author": "The jackal100",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Franz-Senn-Hütte seen from the trail",
+    "width": 960,
+    "height": 576,
+    "sizes": {
+      "480": "/photos/stubaier-hoehenweg/cb95fb0cde-480.webp",
+      "960": "/photos/stubaier-hoehenweg/cb95fb0cde-960.webp"
+    }
+  },
+  {
+    "source": "commons",
     "title": "File:Stubai-Elfer-StubaierHöhenweg-n.jpg",
     "page_url": "https://commons.wikimedia.org/wiki/File:Stubai-Elfer-StubaierH%C3%B6henweg-n.jpg",
     "author": "SchiDD",

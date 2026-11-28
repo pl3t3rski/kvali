@@ -1,0 +1,50 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Hochobir Gipfelkreuz 2011.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Hochobir_Gipfelkreuz_2011.JPG",
+    "author": "Felix König",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "shows": "The summit cross on Hochobir",
+    "width": 1600,
+    "height": 2391,
+    "sizes": {
+      "480": "/photos/karawanken-karavanke-trail/d62e09b8ce-480.webp",
+      "960": "/photos/karawanken-karavanke-trail/d62e09b8ce-960.webp",
+      "1600": "/photos/karawanken-karavanke-trail/d62e09b8ce-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Dom na Peci.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Dom_na_Peci.jpg",
+    "author": "JakobZ",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "The hut on Peca, a stage end",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/karawanken-karavanke-trail/c937d0e820-480.webp",
+      "960": "/photos/karawanken-karavanke-trail/c937d0e820-960.webp",
+      "1600": "/photos/karawanken-karavanke-trail/c937d0e820-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Uršlja gora, cerkev.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Ur%C5%A1lja_gora,_cerkev.jpg",
+    "author": "Neža Poberžnik",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "St Ursula’s church on Uršlja gora, a stage end",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/karawanken-karavanke-trail/ecc0680e97-480.webp",
+      "960": "/photos/karawanken-karavanke-trail/ecc0680e97-960.webp",
+      "1600": "/photos/karawanken-karavanke-trail/ecc0680e97-1600.webp"
+    }
+  }
+]

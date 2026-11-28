@@ -1,0 +1,34 @@
+[
+  {
+    "source": "commons",
+    "title": "File:Hainburg-Hauptplatz 2792.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Hainburg-Hauptplatz_2792.JPG",
+    "author": "Karl Gruber",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Zentralalpenweg 02 marker stone on the main square of Hainburg (start)",
+    "width": 1600,
+    "height": 1067,
+    "sizes": {
+      "480": "/photos/zentralalpenweg-02/0d78252f45-480.webp",
+      "960": "/photos/zentralalpenweg-02/0d78252f45-960.webp",
+      "1600": "/photos/zentralalpenweg-02/0d78252f45-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Klafferkessel-2.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Klafferkessel-2.JPG",
+    "author": "Gergi084",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Klafferkessel on the Schladminger Tauern section of the 02",
+    "width": 1600,
+    "height": 1071,
+    "sizes": {
+      "480": "/photos/zentralalpenweg-02/40e7283c70-480.webp",
+      "960": "/photos/zentralalpenweg-02/40e7283c70-960.webp",
+      "1600": "/photos/zentralalpenweg-02/40e7283c70-1600.webp"
+    }
+  }
+]

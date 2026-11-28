@@ -10,38 +10,76 @@ route:
   type: point-to-point
   start: Mayrhofen (AT)
   end: Merano (IT)
-distance_km: 158
-total_ascent_m: 8500
+distance_km: 160
+total_ascent_m: 12000
 typical_days:
   min: 11
-  max: 13
+  max: 14
+when:
+  best_months:
+    - 7
+    - 8
+    - 9
 sleeping:
   type: mixed
-  notes: Alternates high-mountain huts and small valley villages.
+  notes: Huts, alms and village inns, among them the Landshuter Europahütte, Sattelbergalm, the Italian Tribulaun hut, Schneeberghütte, Zwickauer and Stettiner huts.
+  booking_ahead: required
 difficulty:
   level: 4
-  reason: Demanding high route between 1,600 and 3,000 m with big daily ascents
+  reason: Graded T2 to T6, with cable-secured and partly exposed passages; not a first multi-day alpine trek
+logistics:
+  getting_to_start: Bus 4102 from Mayrhofen station to the Schlegeis reservoir, every 30 minutes from early July to mid September.
+  leaving_from_end: Regular buses from Dorf Tirol to Meran, which has a railway station.
+  nearest_airports:
+    - Innsbruck
+    - Bolzano
 flags:
   water_scarce: false
-  exposed_or_via_ferrata: false
+  exposed_or_via_ferrata: true
+  permit: none
+  permit_notes: No permit is mentioned by the trail’s own pages.
+  waymarked: yes
 links:
-  official_site: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+  official_site: https://www.tyrol.com/activities/sport/hiking/hiking-tours/tiroler-hoehenweg-2-bis-4-etappe
 establishment_signals:
   - cross-border high route (AT/IT)
   - tourism-portal route page
-trip_reports: []
-photos: []
+trip_reports:
+  - url: https://lutz.netik.de/tiroler-hoehenweg-juli-aug-2021/
+    title: Tiroler Höhenweg Juli–Aug 2021
+    year_hiked: 2021
+    summary: "Two weeks from Finkenberg to Dorf Tirol: lightning near the Pfitscher Joch, nights in huts from the Landshuter Europahütte to the Schneeberghütte, and forecast snow sends them down to Pfelders. In German"
+  - url: https://www.alpenverein.at/zillertal/berichte/bergsommer/2011_08_tiroler_hoehenweg.php
+    title: Tiroler Höhenweg
+    year_hiked: 2011
+    summary: Six walkers go from the Schlegeis reservoir over the Pfitscher Joch and the Tribulaun huts towards Dorf Tirol; poor marking sends them over the wrong col and costs a day. In German
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Landshuter_Europahütte.jpg
+    author: Whgler
+    license: CC BY-SA 3.0
+    shows: The Landshuter Europahütte on the border ridge
+  - file_url: https://commons.wikimedia.org/wiki/File:Goldkappl_und_Sandessee.jpg
+    author: Jörg Braukmann
+    license: CC BY-SA 4.0
+    shows: The Sandessee cirque with the Italian Tribulaun hut
+  - file_url: https://commons.wikimedia.org/wiki/File:Schneeberghütte_2018a.jpg
+    author: Whgler
+    license: CC BY-SA 4.0
+    shows: The Schneeberghütte at St. Martin am Schneeberg
 sources:
-  distance_km: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
-  total_ascent_m: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
+  distance_km: https://www.tyrol.com/activities/sport/hiking/hiking-tours/tiroler-hoehenweg-2-bis-4-etappe
+  total_ascent_m: https://www.tyrol.com/activities/sport/hiking/hiking-tours/tiroler-hoehenweg-2-bis-4-etappe
   typical_days: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
-  sleeping: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
-  difficulty: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
-conflicts:
-  - field: distance_km
-    values:
-      - value: 158 km / 13 stages
-        source: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
-      - value: 130 km / 11 days (same page)
-        source: https://www.dolomiti.it/en/itineraries/alpine-paths-of-the-dolomites/high-route-tiroler-hoehenweg-the-track-that-connects-people
-last_verified: 2026-11-27
+  sleeping:
+    - https://www.bergwelten.com/a/der-tiroler-hoehenweg
+    - https://www.tyrol.com/activities/sport/hiking/hiking-tours/tiroler-hoehenweg-2-bis-4-etappe
+  difficulty: https://www.bergwelten.com/a/der-tiroler-hoehenweg
+  best_months:
+    - https://www.bergwelten.com/t/w/48236
+    - https://www.bergwelten.com/t/w/48247
+  waymarked: https://austria-forum.org/af/AustriaWiki/Tiroler_H%C3%B6henweg
+  logistics:
+    - https://www.bergwelten.com/t/w/48236
+    - https://www.bergwelten.com/t/w/48247
+  permit: https://www.bergwelten.com/a/der-tiroler-hoehenweg
+last_verified: 2026-11-28
