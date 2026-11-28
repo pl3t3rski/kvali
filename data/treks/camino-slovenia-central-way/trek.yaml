@@ -1,6 +1,6 @@
 id: camino-slovenia-central-way
-status: draft
-name: Camino Slovenia – Central Way (Jakobova pot, Dolenjska and Primorska branches)
+status: published
+name: Camino Slovenia – Šentjakobska pot (Obrežje to Trieste)
 countries:
   - SI
   - IT
@@ -8,30 +8,90 @@ region: Dolenjska, Ljubljana, Notranjska, Karst
 one_liner: The main Slovenian Way of St James, pilgrim stamps from the Croatian border through Ljubljana to Trieste.
 route:
   type: point-to-point
-  start: Obrežje (Croatian border)
+  start: Slovenska vas near Obrežje (Croatian border)
   end: Trieste (Italy)
+  osm_relation_id:
+    - 16145504
+    - 17392204
+  osm_section:
+    from:
+      - 45.8462
+      - 15.6878
+    to:
+      - 45.6431
+      - 13.7785
+distance_km: 278
+typical_days:
+  min: 12
+  max: 15
 when:
-  best_months: []
+  best_months:
+    - 4
+    - 5
+    - 6
+    - 9
+    - 10
+  open_season: Walkable all year. July and August are hot and shadeless on the Karst
 sleeping:
   type: mixed
-  notes: Hostels, monasteries, parishes and private hosts for pilgrims; pilgrim passport from the Society of Friends of the Way of St James in Slovenia.
+  booking_ahead: recommended
+  notes: "No pilgrim hostel network: parish houses, guest rooms, farms and guesthouses. Call ahead. Beds are scarce at Bregana, Hrušica, Straža, Vrhtrebnje and between Predjama and Razdrto."
+difficulty:
+  level: 2
+  reason: Days of 17–30 km on lanes and forest tracks, hilly in Dolenjska; no mountain terrain
 logistics:
-  nearest_airports: []
+  leaving_from_end: Trains and buses from Trieste.
+  nearest_airports:
+    - Ljubljana
+    - Zagreb
+    - Trieste
 flags:
-  permit: free-registration
-  permit_notes: Optional pilgrim passport (credencial), needed for pilgrim lodging and the Slovenian 'Compostela' certificate.
+  permit: none
+  permit_notes: The pilgrim passport (credencial) is optional; you need it for parish lodging and the completion certificate.
   waymarked: yes
+  water_scarce: false
   exposed_or_via_ferrata: false
 links:
   official_site: https://www.jakobova-pot.si/jakobs-way-slovenia/
 establishment_signals:
   - waymarked along the whole route
   - official website (Society of Friends of the Way of St James in Slovenia)
-trip_reports: []
-photos: []
+  - trip_reports
+trip_reports:
+  - url: https://rihibi.de/slowenien
+    title: Jakobova Pot (Slowenien)
+    year_hiked: 2022
+    summary: Two walkers go from Zagreb over Samobor, Novo mesto, Stična and Ljubljana to Trieste in 15 walking days, camping wild some nights and sleeping in a Ljubljana hostel. In German
+  - url: https://si.aleteia.org/2021/10/10/na-poti-dozivis-smesne-storije-pa-tudi-take-trenutke-ki-ti-ganejo-srce/
+    title: Na poti doživiš smešne štorije, pa tudi take trenutke, ki ti ganejo srce
+    year_hiked: 2019
+    summary: "Interview in which Andreja describes walking the Šentjakobska pot alone: Slovenska vas to Ljubljana in August 2018, Ljubljana to Trieste in 2019, including a night walk through a forest. In Slovenian"
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Stična_Abbey_2025_I.jpg
+    author: Miha Peče
+    license: CC BY 4.0
+    shows: Stična Abbey, a stage end on the Dolenjska branch
+  - file_url: https://commons.wikimedia.org/wiki/File:Cerkev_sv._Jakoba_(9491648153).jpg
+    author: Michael R Perry
+    license: CC BY 2.0
+    shows: St James church in Ljubljana, where the two branches meet
 sources:
-  sleeping: https://www.jakobova-pot.si/jakobs-way-slovenia/
-  permit: https://www.jakobova-pot.si/jakobs-way-slovenia/
+  sleeping:
+    - https://www.caminoninja.com/caminos/camino-slovenia-dolenjska-branch
+    - https://www.jakobova-pot.si/jakobs-way-slovenia/
+  permit:
+    - https://www.caminoninja.com/caminos/camino-slovenia-dolenjska-branch
+    - https://www.jakobova-pot.si/jakobs-way-slovenia/
   waymarked: https://www.visitljubljana.com/fr/visiteurs/decouvrez/vacances-actives/le-chemin-de-saint-jacques/informations-pour-les-voyageurs
-conflicts: []
-last_verified: 2026-11-27
+  distance_km:
+    - https://www.caminoninja.com/caminos/camino-slovenia-dolenjska-branch
+    - https://www.caminoninja.com/caminos/camino-slovenia-primorska-branch
+    - https://www.visitljubljana.com/sl/obiskovalci/znamenitosti-in-aktivnosti/aktivne-pocitnice/jakobove-poti/informacije-za-popotnike
+  typical_days:
+    - https://www.caminoninja.com/caminos/camino-slovenia-dolenjska-branch
+    - https://www.caminoninja.com/caminos/camino-slovenia-primorska-branch
+  best_months:
+    - https://www.caminoninja.com/caminos/camino-slovenia-dolenjska-branch
+    - https://www.caminoninja.com/caminos/camino-slovenia-primorska-branch
+  logistics: https://www.caminoninja.com/caminos/camino-slovenia-primorska-branch
+last_verified: 2026-11-28

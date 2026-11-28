@@ -6,39 +6,85 @@ countries:
 region: Škofja Loka Hills (Poljanska and Selška valleys)
 one_liner: Regional mountain trail around the Škofja Loka hills, 12 stages with stamp checkpoints.
 route:
+  type: loop
   start: Škofja Loka
   end: Škofja Loka
   osm_relation_id: 18549841
+  osm_section:
+    from:
+      - 46.1655
+      - 14.3062
+    via:
+      - - 46.2387
+        - 14.0069
+      - - 46.1725
+        - 14.1244
+      - - 46.0142
+        - 14.1732
+    to:
+      - 46.1655
+      - 14.3062
 distance_km: 188
 typical_days:
-  min: 12
+  min: 9
   max: 12
 when:
   best_months: []
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: Mountain huts, inns and farms; the 12 stages are planned to end where you can sleep.
+difficulty:
+  level: 2
+  reason: Easy to moderate stages of 8–26 km over wooded hills up to 1,678 m (Porezen, Blegoš, Ratitovec)
 logistics:
-  nearest_airports: []
+  getting_to_start: Buses from Ljubljana and Kranj; the railway station is 2 km from the old town, with local buses every 15 minutes.
+  nearest_airports:
+    - Ljubljana (17 km)
 flags:
   permit: none
   permit_notes: 32 stamp checkpoints.
   waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
 links:
-  official_site: https://www.visitskofjaloka.si/en/experiences/active-breaks/hiking
+  official_site: https://www.lokatrail.com/
 establishment_signals:
   - waymarked along the whole route
   - published guidebook (Loška planinska pot - Razvojna agencija Sora 2023)
-trip_reports: []
-photos: []
+trip_reports:
+  - url: https://web.archive.org/web/20170330161304/http://www.edusatis.si:80/preprostost/loska-planinska-pot-200-km-polhograjskega-cerkljanskega-in-loskega-sredogorja
+    title: "Loška planinska pot: 200 km polhograjskega, cerkljanskega in loškega sredogorja"
+    year_hiked: 2010
+    summary: A family with three teenagers walks the whole loop in eight days without booking anything, sleeping in farmhouses, haylofts and once under a church eave. In Slovenian
+  - url: https://www.hribi.net/trenutne_razmere/slo/loska_planinska_pot_/21/2948
+    title: Loška planinska pot (forum post, 3 September 2014)
+    year_hiked: 2014
+    summary: A couple set out in May; faded blazes cost them time on day one, and on day two she slips in the rain below Malenski vrh and breaks an ankle. In Slovenian
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Koča_na_Blegošu.jpg
+    author: AndrejS.K
+    license: CC BY-SA 4.0
+    shows: The hut on Blegoš
+  - file_url: https://commons.wikimedia.org/wiki/File:Ratitovec,_view_of_the_Krek_Hut_and_Gladki_vrh_01.jpg
+    author: Ajznponar
+    license: CC0
+    shows: The Krek hut and Gladki vrh on Ratitovec
+  - file_url: https://commons.wikimedia.org/wiki/File:Porezen.jpg
+    author: Mhladnik
+    license: CC BY-SA 4.0
+    shows: Porezen
 sources:
-  distance_km: https://plus.cobiss.net/cobiss/si/en/bib/155621891
-  typical_days: https://plus.cobiss.net/cobiss/si/en/bib/155621891
-  permit: https://www.visitskofjaloka.si/en/experiences/active-breaks/hiking
-  waymarked: https://www.visitskofjaloka.si/en/experiences/active-breaks/hiking
+  distance_km: https://www.lokatrail.com/loka-trail/
+  typical_days:
+    - https://www.lokatrail.com/loka-trail/
+    - https://obhodnice.pzs.si/index.php?pid=14
+  permit: https://www.lokatrail.com/loka-trail/
+  waymarked: https://www.lokatrail.com/loka-trail/
   osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/18549841
-conflicts:
-  - field: distance_km
-    values:
-      - value: 188
-        source: https://plus.cobiss.net/cobiss/si/en/bib/155621891
-      - value: 184
-        source: https://wiki.openstreetmap.org/wiki/Sl:Slovenian_Hiking_Routes
-last_verified: 2026-11-27
+  sleeping: https://www.lokatrail.com/loka-trail/
+  difficulty:
+    - https://www.lokatrail.com/loka-trail/
+    - https://obhodnice.pzs.si/index.php?pid=14
+  logistics: https://www.lokatrail.com/access/
+last_verified: 2026-11-28

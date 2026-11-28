@@ -30,5 +30,20 @@
       "960": "/photos/slovenian-mountain-trail/6312c185e7-960.webp",
       "1600": "/photos/slovenian-mountain-trail/6312c185e7-1600.webp"
     }
+  },
+  {
+    "source": "commons",
+    "title": "File:Tinjan. Tocka SPP.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Tinjan._Tocka_SPP.JPG",
+    "author": "Lacen",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "shows": "Trail checkpoint in Tinjan (coastal end)",
+    "width": 960,
+    "height": 720,
+    "sizes": {
+      "480": "/photos/slovenian-mountain-trail/9dc096c03d-480.webp",
+      "960": "/photos/slovenian-mountain-trail/9dc096c03d-960.webp"
+    }
   }
 ]

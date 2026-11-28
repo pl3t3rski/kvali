@@ -3,6 +3,7 @@ status: draft
 name: Carsus Trail
 countries:
   - SI
+  - IT
 region: Karst (Kras) above the Vipava Valley and Miren
 one_liner: Six-day Karst loop from Miren over Trstelj, walkable all year and best in spring and autumn.
 route:
@@ -11,17 +12,23 @@ route:
   end: Miren
 distance_km: 103
 typical_days:
-  min: 6
+  min: 5
   max: 6
 when:
   best_months:
-    - March
-    - April
-    - May
-    - September
-    - October
-    - November
-  open_season: Open all year; spring and autumn best, winter is an alternative when Alpine valleys are snowbound
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 9
+    - 10
+    - 11
+    - 12
+  open_season: At its best in spring, autumn and winter; not recommended in July and August because of the heat
+sleeping:
+  type: guesthouses
+  booking_ahead: recommended
 difficulty:
   level: 2
   reason: Not technically demanding, but longer stages (20+ km) with a fair amount of up and down need good basic fitness.
@@ -30,6 +37,8 @@ logistics:
 flags:
   permit: none
   exposed_or_via_ferrata: false
+  waymarked: yes
+  water_scarce: false
 links:
   official_site: https://slovenia-outdoor.com/en/carsus-trail/
 establishment_signals:
@@ -44,10 +53,24 @@ photos:
     author: Benjamin Zwittnig
     license: CC BY 2.5 si
     shows: Orange lilies on Trstelj
+  - file_url: https://commons.wikimedia.org/wiki/File:Spomenik_na_Cerju.jpg
+    author: Lan G.
+    license: CC BY-SA 4.0
+    shows: The peace monument on Cerje
+  - file_url: https://commons.wikimedia.org/wiki/File:Rilke_path_and_Duino_Castle.jpg
+    author: Andou
+    license: CC BY-SA 3.0
+    shows: The Rilke path cliffs and Duino Castle
 sources:
   distance_km: https://slovenia-outdoor.com/en/carsus-trail/
-  typical_days: https://slovenia-outdoor.com/en/carsus-trail/
-  best_months: https://slovenia-outdoor.com/en/carsus-trail/
+  typical_days: https://www.cereport.eu/news/travel/91141
+  best_months:
+    - https://slovenia-outdoor.com/en/carsus-trail/
+    - https://www.bergfex.si/sommer/goriska/touren/fernwanderweg/5114518,carsus-trail--ein-fernwanderweg-durch-die-karstregion-in-slowenien-und-italien/
   open_season: https://slovenia-outdoor.com/en/carsus-trail/
   difficulty: https://slovenia-outdoor.com/en/carsus-trail/
-last_verified: 2026-11-27
+  sleeping: https://www.cereport.eu/news/travel/91141
+  waymarked: https://telegraf.si/nova-pohodniska-pot-carsus-trail-103-kilometrov-cezmejnega-cudeza-foto/
+  permit: https://slovenia-outdoor.com/en/carsus-trail/
+  logistics: https://www.bergfex.si/sommer/goriska/touren/fernwanderweg/5114518,carsus-trail--ein-fernwanderweg-durch-die-karstregion-in-slowenien-und-italien/
+last_verified: 2026-11-28

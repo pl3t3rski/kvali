@@ -38,6 +38,7 @@ flags:
   permit: none
   waymarked: yes
   exposed_or_via_ferrata: false
+  water_scarce: false
 links:
   official_site: https://julian-alps.com/en/p/juliana-trail/42271466/
 establishment_signals:
@@ -62,30 +63,24 @@ photos:
     author: Hladnikm
     license: CC BY-SA 4.0
     shows: Juliana Trail (Commons description says only 'Juliana trail')
+  - file_url: https://commons.wikimedia.org/wiki/File:Grahovo_ob_Bači_Slovenia.jpg
+    author: Doremo
+    license: CC BY-SA 4.0
+    shows: Grahovo ob Bači, a stage end in the Bača valley
+  - file_url: https://commons.wikimedia.org/wiki/File:Most_na_Soči.jpg
+    author: Herzi Pinki
+    license: CC BY-SA 4.0
+    shows: Most na Soči, a stage end on the Soča
 sources:
-  distance_km: https://julian-alps.com/en/p/juliana-trail/42271466/
-  total_ascent_m: https://julian-alps.com/en/p/juliana-trail/42271466/
+  distance_km: https://julian-alps.com/en/p/long-distance-hiking-trail-juliana-trail/42271466/
+  total_ascent_m: https://julian-alps.com/en/tour/backpacking/juliana-trail-overall-tour/34541732/
   typical_days: https://cicerone.co.uk/the-juliana-trail-what-you-need-to-know
   best_months: https://julian-alps.com/en/p/juliana-trail-q-a/50160113/
   open_season: https://julian-alps.com/en/p/juliana-trail-q-a/50160113/
   sleeping: https://julian-alps.com/en/p/juliana-trail-q-a/50160113/
-  difficulty: https://julian-alps.com/en/p/juliana-trail/42271466/
+  difficulty: https://julian-alps.com/en/p/long-distance-hiking-trail-juliana-trail/42271466/
   logistics: https://julian-alps.com/en/p/juliana-trail-q-a/50160113/
   permit: https://julian-alps.com/en/p/juliana-trail-q-a/50160113/
   osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/11724854
-conflicts:
-  - field: total_ascent_m
-    values:
-      - value: 7163
-        source: https://www.slovenia.info/en/press-centre/press-releases/10492-the-new-270-km-trail-through-the-julian-alps-is-also-officially-open
-      - value: 7412
-        source: https://julian-alps.com/en/p/juliana-trail/42271466/
-      - value: 10000
-        source: https://www.slovenia.info/en/stories/juliana-trail-a-long-distance-hiking-trail
-  - field: distance_km
-    values:
-      - value: 270 (16-stage core loop)
-        source: https://julian-alps.com/en/p/juliana-trail/42271466/
-      - value: 330 (20 stages incl. 4 Brda stages)
-        source: https://cicerone.co.uk/the-juliana-trail-what-you-need-to-know
-last_verified: 2026-11-27
+total_ascent_m: 7412
+last_verified: 2026-11-28

@@ -1,1 +1,49 @@
-[]
+[
+  {
+    "source": "commons",
+    "title": "File:Porezen.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Porezen.jpg",
+    "author": "Mhladnik",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "Mt Porezen, the highest point of the Slovenian E7",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/e7-slovenia-naprudnik-trail/5a416a197e-480.webp",
+      "960": "/photos/e7-slovenia-naprudnik-trail/5a416a197e-960.webp",
+      "1600": "/photos/e7-slovenia-naprudnik-trail/5a416a197e-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Porezen - panoramio.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Porezen_-_panoramio.jpg",
+    "author": "dominkod",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "shows": "Mt Porezen",
+    "width": 960,
+    "height": 720,
+    "sizes": {
+      "480": "/photos/e7-slovenia-naprudnik-trail/7864cda12a-480.webp",
+      "960": "/photos/e7-slovenia-naprudnik-trail/7864cda12a-960.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Koča na Blegošu.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Ko%C4%8Da_na_Blego%C5%A1u.jpg",
+    "author": "AndrejS.K",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "The hut on Blegoš, a stage end",
+    "width": 1600,
+    "height": 1071,
+    "sizes": {
+      "480": "/photos/e7-slovenia-naprudnik-trail/230dbb6aee-480.webp",
+      "960": "/photos/e7-slovenia-naprudnik-trail/230dbb6aee-960.webp",
+      "1600": "/photos/e7-slovenia-naprudnik-trail/230dbb6aee-1600.webp"
+    }
+  }
+]

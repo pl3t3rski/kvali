@@ -17,18 +17,50 @@
   },
   {
     "source": "commons",
-    "title": "File:Zhapik ne Theth.jpg",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Zhapik_ne_Theth.jpg",
-    "author": "Irma Tollmi",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "shows": "Theth, the last village before the final stage to Valbona",
+    "title": "File:Jezerca Massive.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Jezerca_Massive.jpg",
+    "author": "Albinfo",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "The Jezerca massif in the Albanian Alps",
+    "width": 1600,
+    "height": 857,
+    "sizes": {
+      "480": "/photos/via-dinarica-white-trail/f47e733c33-480.webp",
+      "960": "/photos/via-dinarica-white-trail/f47e733c33-960.webp",
+      "1600": "/photos/via-dinarica-white-trail/f47e733c33-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Valbona Pass.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Valbona_Pass.jpg",
+    "author": "Jirka Dl",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "shows": "Valbona Pass, looking towards Theth",
     "width": 1600,
     "height": 1200,
     "sizes": {
-      "480": "/photos/via-dinarica-white-trail/5ec5571639-480.webp",
-      "960": "/photos/via-dinarica-white-trail/5ec5571639-960.webp",
-      "1600": "/photos/via-dinarica-white-trail/5ec5571639-1600.webp"
+      "480": "/photos/via-dinarica-white-trail/f781576ded-480.webp",
+      "960": "/photos/via-dinarica-white-trail/f781576ded-960.webp",
+      "1600": "/photos/via-dinarica-white-trail/f781576ded-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Church of Theth village.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Church_of_Theth_village.jpg",
+    "author": "Leeturtle",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "shows": "The church in Theth",
+    "width": 1600,
+    "height": 2133,
+    "sizes": {
+      "480": "/photos/via-dinarica-white-trail/af55c267ed-480.webp",
+      "960": "/photos/via-dinarica-white-trail/af55c267ed-960.webp",
+      "1600": "/photos/via-dinarica-white-trail/af55c267ed-1600.webp"
     }
   }
 ]

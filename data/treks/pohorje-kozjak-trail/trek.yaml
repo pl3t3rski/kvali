@@ -9,12 +9,13 @@ route:
   type: loop
   start: Maribor (Spodnje Radvanje)
   end: Maribor
-distance_km: 187.5
+distance_km: 187
 when:
   best_months: []
 sleeping:
   type: mixed
   notes: Many huts on Pohorje, fewer on Kozjak; farm stays and other local providers.
+  booking_ahead: recommended
 difficulty:
   level: 2
   reason: A more demanding multi-day mountain route but not technically difficult; high point Črni vrh 1,543 m.
@@ -23,21 +24,37 @@ logistics:
 flags:
   permit: none
   exposed_or_via_ferrata: false
+  permit_notes: No permit is mentioned by the trail’s own pages. Optional stamp booklet with 27 checkpoints.
+  waymarked: yes
+  water_scarce: false
 links:
-  official_site: https://www.slovenia.info/en/stories/pohorje-kozjak-trail-a-long-distance-hiking-trail
+  official_site: https://www.pohorje-slovenija.si/pohodnistvo/pohorje-kozjak-trail
 establishment_signals:
   - official website (Slovenian Tourist Board / Pohorje tourism)
 trip_reports: []
-photos: []
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Ruška_koča_-_panoramio.jpg
+    author: Miha Kukovec
+    license: CC BY-SA 3.0
+    shows: Ruška koča on Pohorje
+  - file_url: https://commons.wikimedia.org/wiki/File:Ribniška_koča_1.jpg
+    author: Janezdrilc
+    license: CC0
+    shows: Ribniška koča on Pohorje
+  - file_url: https://commons.wikimedia.org/wiki/File:Sv_Duh_na_Ostrem_vrhu_01.JPG
+    author: Wolfgang Glock
+    license: CC BY-SA 3.0
+    shows: The church of Sveti Duh na Ostrem vrhu on Kozjak
 sources:
-  distance_km: https://www.slovenia.info/en/stories/pohorje-kozjak-trail-a-long-distance-hiking-trail
+  distance_km: https://www.pohorje-slovenija.si/pohodnistvo/pohorje-kozjak-trail
   sleeping: https://www.slovenia.info/en/stories/pohorje-kozjak-trail-a-long-distance-hiking-trail
   difficulty: https://www.slovenia.info/en/stories/pohorje-kozjak-trail-a-long-distance-hiking-trail
-conflicts:
-  - field: distance_km
-    values:
-      - value: 187.5
-        source: https://www.slovenia.info/en/stories/pohorje-kozjak-trail-a-long-distance-hiking-trail
-      - value: 180 (intro text on the same page)
-        source: https://www.slovenia.info/en/stories/pohorje-kozjak-trail-a-long-distance-hiking-trail
-last_verified: 2026-11-27
+  typical_days: https://vecer.com/maribor/aktualno/foto-odprli-pohorje-kozjak-trail-187-kilometrov-dolga-pot-povezuje-pohorje-kozjak-in-vec-kot-sto-zgodb-10418046
+  waymarked:
+    - https://www.pohorje-slovenija.si/pohodnistvo/pohorje-kozjak-trail
+    - https://pzs.si/novice/18478-pohorje-kozjak-trail-odprli-eno-najbolj-zazelenih-pohodniskih-poti-na-svetu/
+  permit: https://www.pohorje-slovenija.si/o-pohorju/knjizica-z-zigi-pohorje-kozjak-trail
+typical_days:
+  min: 11
+  max: 15
+last_verified: 2026-11-28

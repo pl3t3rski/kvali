@@ -10,9 +10,16 @@ route:
   start: Robič (Italian border)
   end: Hodoš (Hungarian border)
   osm_relation_id: 11232818
+  osm_section:
+    from:
+      - 46.2175
+      - 13.4973
+    to:
+      - 46.8219
+      - 16.3445
 distance_km: 600
 typical_days:
-  min: 30
+  min: 22
   max: 30
 when:
   best_months: []
@@ -20,20 +27,30 @@ difficulty:
   level: 2
   reason: Rated easy and medium; highest point Mt Porezen.
 logistics:
-  nearest_airports: []
+  getting_to_start: Robič is 4 km from Kobarid; a summer bus runs Kobarid–Robič.
+  leaving_from_end: Hodoš has a railway station; trains via Murska Sobota and Maribor to Ljubljana.
 flags:
   permit: none
-  permit_notes: Optional stamps (42 checkpoints) for a memorial badge.
-  waymarked: yes
+  permit_notes: No permit is mentioned by the trail’s own pages. Optional stamps; the badge is sent by post.
+  waymarked: partial
   exposed_or_via_ferrata: false
+  water_scarce: false
 links:
-  official_site: https://era-ewv-ferp.org/?p=14188
+  official_site: https://eupoti.com/e7.htm
 establishment_signals:
   - official status (European long-distance path E7)
   - waymarked along the whole route
   - official website (ERA / KEUPS)
   - published guidebook (Cortese - Evropska pešpot E7)
-trip_reports: []
+trip_reports:
+  - url: https://e7robic-dolenjsketoplice.blogspot.com/2015/05/2142015-robic-tolmin.html
+    title: 21.4.2015 Robič – Tolmin
+    year_hiked: 2015
+    summary: Two friends walk the trail in three-day sections; the first day from Robič is 42 km. On an earlier section fallen trees and poor waymarks cost them hours. In Slovenian
+  - url: http://e7slovenija.blogspot.com/2007/06/europeen-long-distance-footpaths-e7.html
+    title: Europeen Long Distance Footpaths – E7, Slovenia
+    year_hiked: 2007
+    summary: A five-day walk from Žužemberk over the Gorjanci and Kostanjevica to Podsreda and Olimje, with a night at a farm
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:Porezen.jpg
     author: Mhladnik
@@ -43,18 +60,25 @@ photos:
     author: dominkod
     license: CC BY 3.0
     shows: Mt Porezen
+  - file_url: https://commons.wikimedia.org/wiki/File:Koča_na_Blegošu.jpg
+    author: AndrejS.K
+    license: CC BY-SA 4.0
+    shows: The hut on Blegoš, a stage end
 sources:
   distance_km: https://rtvslo.si/news-in-english/from-italy-to-croatia-another-european-walking-trail-will-cross-slovenia/409521
-  typical_days: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+  typical_days:
+    - https://www.park-goricko.org/vsebina/1736?lang=GB
+    - http://eupoti.com/eupath_e6_e7_slo/basic_data_of_e7.htm
   difficulty: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
-  permit: https://rtvslo.si/news-in-english/from-italy-to-croatia-another-european-walking-trail-will-cross-slovenia/409521
-  waymarked: https://www.kozjanski-park.si/eng/wp-content/uploads/2025/03/ERP-RK.pdf
+  permit: https://obhodnice.pzs.si/index.php?pid=43
+  waymarked: https://obhodnice.pzs.si/index.php?pid=43
   osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/11232818
-conflicts:
-  - field: distance_km
-    values:
-      - value: 600
-        source: https://rtvslo.si/news-in-english/from-italy-to-croatia-another-european-walking-trail-will-cross-slovenia/409521
-      - value: 634 (OSM mapped length)
-        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/11232818
-last_verified: 2026-11-27
+  sleeping: http://eupoti.com/eupath_e6_e7_slo/basic_data_of_e7.htm
+  logistics:
+    - https://www.soca-valley.com/en/soca-valley/sustainable-mobility/
+    - http://eupoti.com/eupath_e6_e7_slo/basic_data_of_e7.htm
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: Hotels, guesthouses, huts, tourist farms and private rooms over 22 stages; some huts want to know you are coming.
+last_verified: 2026-11-28

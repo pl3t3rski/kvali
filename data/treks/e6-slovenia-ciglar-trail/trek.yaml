@@ -10,32 +10,46 @@ route:
   start: Radlje ob Dravi (Radelj border crossing)
   end: Strunjan
   osm_relation_id: 1191538
-  gpx_source: https://slovenia-outdoor.com/en/map-detail-2/?id=37421378
+  osm_section:
+    from:
+      - 46.6451
+      - 15.2065
+    to:
+      - 45.528
+      - 13.604
 distance_km: 350
 typical_days:
-  min: 20
+  min: 14
   max: 20
 when:
-  best_months: []
+  open_season: Walkable all year except on Pohorje and around Snežnik, where snow lies in winter
 difficulty:
   level: 2
   reason: Rated easy to medium; mostly hills and forest.
 logistics:
-  getting_to_start: Trains and buses cover most of Slovenia.
-  nearest_airports: []
+  getting_to_start: The trail starts at the Radelj border crossing above Radlje ob Dravi. Buses reach every larger village, trains the bigger towns.
 flags:
   permit: none
-  permit_notes: Optional stamps (39 checkpoints) for a memorial badge.
+  permit_notes: No permit is mentioned by the trail’s own pages. Optional stamps; the badge is sent by post.
   waymarked: yes
   exposed_or_via_ferrata: false
+  water_scarce: false
 links:
-  official_site: https://era-ewv-ferp.org/?p=8217
+  official_site: https://eupoti.com/e6.htm
 establishment_signals:
   - official status (European long-distance path E6)
   - waymarked along the whole route
   - official website (ERA / KEUPS)
   - published guidebook (Cortese - Evropska pešpot E6)
-trip_reports: []
+trip_reports:
+  - url: https://gipfelrast.at/2022/09/e6slo-marezige-strunjan/
+    title: "Tag 24: Finale #ammeer"
+    year_hiked: 2022
+    summary: Two walkers from Graz cover the Slovenian E6 in July and September, sleeping in huts, inns and a farm; they meet a bear near Snežnik and collect the last stamps at Pomjan and Strunjan. In German
+  - url: https://e6radljestrunjan.wordpress.com/2009/08/02/99-namesto-konca/
+    title: 99 Namesto konca
+    year_hiked: 2009
+    summary: Walking alone and without a tent, he goes from the Radelj crossing to Strunjan in eight days, in a bed every night, and warns about faded and hidden waymarks. In Slovenian
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:Strunjan-cliffs.jpg
     author: Mihael Simonic
@@ -45,25 +59,26 @@ photos:
     author: Yerpo
     license: CC BY-SA 4.0
     shows: Strunjan cliff from Moon Bay
+  - file_url: https://commons.wikimedia.org/wiki/File:Slavnik_01.jpg
+    author: ModriDirkac
+    license: CC0
+    shows: The summit of Slavnik
 sources:
   distance_km: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
-  typical_days: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+  typical_days:
+    - https://obhodnice.pzs.si/index.php?pid=17
+    - https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
   difficulty: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
-  logistics: https://era-ewv-ferp.org/?p=8217
-  permit: https://dirros.openscience.si/Dokument.php?id=13252
-  waymarked: https://www.kozjanski-park.si/eng/wp-content/uploads/2025/03/ERP-RK.pdf
+  logistics: https://www.outdooractive.com/en/route/long-distance-hiking/slovenia/european-long-distance-hiking-trail-e6-slovenia-/37421378/
+  permit: https://obhodnice.pzs.si/index.php?pid=17
+  waymarked: https://obhodnice.pzs.si/index.php?pid=17
   osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/1191538
-conflicts:
-  - field: distance_km
-    values:
-      - value: 350
-        source: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
-      - value: 315
-        source: https://hiking.waymarkedtrails.org/api/v1/details/relation/1191538
-  - field: route.end
-    values:
-      - value: Strunjan
-        source: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
-      - value: continues past Portorož to Sečovlje
-        source: https://rtvslo.si/news-in-english/from-italy-to-croatia-another-european-walking-trail-will-cross-slovenia/409521
-last_verified: 2026-11-27
+  open_season: https://www.alpenverein.at/weitwanderer/e6slo/index.php
+  sleeping:
+    - http://eupoti.com/eupath_e6_e7_slo/basic_data_of_e6_slo.htm
+    - https://www.alpenverein.at/weitwanderer/e6slo/index.php
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: Huts, inns, farms and private rooms, one at each of the 14 stage ends. Several inns have closed since 2023 and some huts open only at weekends. The trail now continues past Strunjan to the Croatian border at Sečovlje.
+last_verified: 2026-11-28

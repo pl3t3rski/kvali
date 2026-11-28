@@ -1,14 +1,22 @@
 id: via-dinarica-slovenia
-status: draft
+status: published
 name: Via Dinarica Slovenia
 countries:
   - SI
-region: Notranjska / Green Karst (Nanos to Snežnik area)
+region: Notranjska and the Green Karst (Nanos to Snežnik)
 one_liner: First section of the Via Dinarica, crossing Slovenia's karst plateaus and lakes from Mt Nanos to the Croatian border.
 route:
   type: point-to-point
-  start: Mt Nanos
+  start: Razdrto, below Nanos
   end: Babno polje (Croatian border)
+  osm_relation_id: 20973970
+  osm_section:
+    from:
+      - 45.7568
+      - 14.0604
+    to:
+      - 45.6459
+      - 14.5609
 distance_km: 159
 typical_days:
   min: 7
@@ -23,50 +31,68 @@ when:
     - September
     - October
 sleeping:
-  type: guesthouses
-  notes: Inns and guesthouses along the way; packaged tours also sold.
+  type: mixed
+  booking_ahead: recommended
+  notes: Mountain huts (Koča Mladika, Sviščaki, the hut on Snežnik), the Proteus youth hostel in Postojna, a hotel at Rakov Škocjan and inns. The first stage of the Via Dinarica White Trail.
 difficulty:
   level: 2
   reason: Easy to medium overall, with two harder climbs (to 1,313 m and 1,796 m).
 logistics:
-  getting_to_start: Postojna is used as the arrival base in the local tourism itinerary.
-  nearest_airports: []
+  getting_to_start: Postojna has frequent buses and trains; buses from Ljubljana stop at Razdrto.
+  nearest_airports:
+    - Ljubljana
 flags:
   permit: none
   exposed_or_via_ferrata: false
+  waymarked: partial
+  water_scarce: false
+  permit_notes: No permit is mentioned by the trail’s own pages.
 links:
   official_site: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
 establishment_signals:
   - official status (Slovenian section of the international Via Dinarica)
   - official website (Slovenian Tourist Board)
-trip_reports: []
+  - trip_reports
+trip_reports:
+  - url: https://thetrek.co/via-dinarica-first-week/
+    title: Via Dinarica!??! First Week!!!
+    year_hiked: 2022
+    summary: A thru-hiker walks from Razdrto via Predjama, Rakov Škocjan and Cerknica to Bloke in seven days, loses his pot in a cistern, misses a turn marked only by rock blazes and camps wild
+  - url: https://viadinarica.com/en/blog-2/126-stage-1-postojna-prezid
+    title: "Stage 1: Postojna – Prezid"
+    year_hiked: 2016
+    summary: Walking Postojna to Mašun, over Snežnik and on to Babno polje and Prezid; the inn at Mašun is full, so she camps in its garden and sees a bear
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:Nanos_Plateau,_western_edge_02.jpg
     author: Ajznponar
     license: CC0
-    shows: Western edge of the Nanos plateau, the starting massif
-  - file_url: https://commons.wikimedia.org/wiki/File:Nanos_Plateau,_western_edge_05.jpg
+    shows: The western edge of the Nanos plateau, where the trail starts
+  - file_url: https://commons.wikimedia.org/wiki/File:Predjama_Castle,_Slovenia,_20240502_0831_7409.jpg
+    author: Jakub Hałun
+    license: CC BY 4.0
+    shows: Predjama Castle, built into the cliff
+  - file_url: https://commons.wikimedia.org/wiki/File:Rakov_Skocjan,_Little_Natural_Arch_01.jpg
     author: Ajznponar
     license: CC0
-    shows: Western edge of the Nanos plateau
+    shows: The Little Natural Bridge in Rakov Škocjan
+  - file_url: https://commons.wikimedia.org/wiki/File:Snežnik_(11567814444).jpg
+    author: Ognjen Antonič
+    license: CC BY 2.0
+    shows: The summit of Snežnik with its hut
 sources:
   distance_km: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
   typical_days: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
   best_months: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
-  sleeping: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
+  sleeping:
+    - https://trail.viadinarica.com/en/route/long-distance-hiking-trail/via-dinarica-slovenia-postojna-via-sneznik-to-prezid/17236133/
+    - https://postojnsko.si/en/routes/via-dinarica-2/
   difficulty: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
-  logistics: https://visit-postojna.si/en/what-to-do/activities/hiking/long-distance-trails/via-dinarica
-conflicts:
-  - field: typical_days
-    values:
-      - value: 7 stages
-        source: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
-      - value: 10 days
-        source: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-backpacking/long-distance-trails
-  - field: distance_km
-    values:
-      - value: 159
-        source: https://slovenia-outdoor.com/en/via-dinarica-slovenia-en/
-      - value: 160
-        source: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-backpacking/long-distance-trails
-last_verified: 2026-11-27
+  logistics:
+    - https://trail.viadinarica.com/en/route/long-distance-hiking-trail/via-dinarica-slovenia-postojna-via-sneznik-to-prezid/17236133/
+    - https://postojnsko.si/en/routes/via-dinarica-2/
+  waymarked:
+    - https://postojnsko.si/en/routes/via-dinarica-2/
+    - https://trail.viadinarica.com/en/route/long-distance-hiking-trail/via-dinarica-slovenia-postojna-via-sneznik-to-prezid/17236133/
+  route_start: https://postojnsko.si/en/routes/via-dinarica-2/
+  permit: https://trail.viadinarica.com/en/route/long-distance-hiking-trail/via-dinarica-slovenia-postojna-via-sneznik-to-prezid/17236133/
+last_verified: 2026-11-28

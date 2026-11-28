@@ -9,24 +9,67 @@ route:
   type: loop
   start: Novo mesto
   end: Novo mesto
-distance_km: 150
+  osm_relation_id: 20278497
+  osm_section:
+    from:
+      - 45.805
+      - 15.1663
+    via:
+      - - 45.789
+        - 15.3798
+      - - 45.6836
+        - 15.0481
+    to:
+      - 45.805
+      - 15.1663
+distance_km: 159
+typical_days:
+  min: 6
+  max: 7
 when:
   best_months: []
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: Huts on Mirna gora, at Gospodična and on Gorjanci, guesthouses in the towns.
+difficulty:
+  level: 2
+  reason: Easy mountain paths and much road walking, but 159 km over Kočevski Rog and the Gorjanci (Trdinov vrh, 1,178 m)
 logistics:
   nearest_airports: []
 flags:
   permit: none
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
 establishment_signals: []
-trip_reports: []
-photos: []
+trip_reports:
+  - url: https://dudolenjsketoplice.si/trdinova-pot/
+    title: Trdinova pot prehojena
+    year_hiked: 2025
+    summary: A walking club from Dolenjske Toplice completes the whole loop from Novo mesto in about 14 day stages between November 2024 and November 2025. In Slovenian
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Trdinov_vrh_01.jpg
+    author: Janezdrilc
+    license: CC0
+    shows: Trdinov vrh on the Gorjanci
+  - file_url: https://commons.wikimedia.org/wiki/File:Planinski_dom_na_Mirni_gori_(51671439930).jpg
+    author: Uroš Novina
+    license: CC BY 2.0
+    shows: The hut on Mirna gora
+  - file_url: https://commons.wikimedia.org/wiki/File:Pleterje_Charterhouse_03.jpg
+    author: Janezdrilc
+    license: CC0
+    shows: The Pleterje charterhouse
 sources:
-  distance_km: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-and-mountaineering
+  distance_km: https://visitnovomesto.si/en/see-and-do/the-trdina-trail/
   route_type: https://svet24.si/lokalno/dolenjska/posavje/novice/trdinova-pot-162-km-du-dolenjske-toplice-1861431
-conflicts:
-  - field: distance_km
-    values:
-      - value: 150
-        source: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-and-mountaineering
-      - value: 162
-        source: https://svet24.si/lokalno/dolenjska/posavje/novice/trdinova-pot-162-km-du-dolenjske-toplice-1861431
-last_verified: 2026-11-27
+  typical_days: https://visitnovomesto.si/en/see-and-do/the-trdina-trail/
+  waymarked:
+    - https://visitnovomesto.si/en/see-and-do/the-trdina-trail/
+    - https://obhodnice.pzs.si/index.php?pid=5
+  difficulty:
+    - https://visitnovomesto.si/en/see-and-do/the-trdina-trail/
+    - https://obhodnice.pzs.si/index.php?pid=5
+  permit: https://obhodnice.pzs.si/index.php?pid=5
+last_verified: 2026-11-28

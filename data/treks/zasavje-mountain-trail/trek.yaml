@@ -1,5 +1,5 @@
 id: zasavje-mountain-trail
-status: draft
+status: published
 name: Zasavje Mountain Trail (Zasavska planinska pot)
 countries:
   - SI
@@ -10,34 +10,88 @@ route:
   start: Šekoranja restaurant, Bizeljsko
   end: Kum hut (Trbovlje)
   osm_relation_id: 15850899
-  gpx_source: https://slovenia-outdoor.com/en/map-detail-2/?id=34079219
+  osm_section:
+    from:
+      - 46.0151
+      - 15.6932
+    via:
+      - - 46.182
+        - 15.0089
+      - - 46.0522
+        - 14.7102
+    to:
+      - 46.0876
+      - 15.0724
 distance_km: 200
 typical_days:
-  min: 12
+  min: 7
   max: 12
 when:
-  best_months: []
+  best_months:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+  open_season: Snow can lie on Bohor and Lisca into late April
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: "Twelve mountain huts and village inns along the way. Huts can be closed: check opening days. Beds in Bizeljsko are few."
 difficulty:
   level: 2
-  reason: Rated medium.
+  reason: Easy paths over low wooded hills (up to 1,220 m on Kum), but 200 km with long days and faded waymarks in places
 logistics:
-  nearest_airports: []
+  getting_to_start: Train from Ljubljana to Sevnica or Brežice, then bus to Bizeljsko. No buses to Bizeljsko at weekends, on public holidays or in school holidays.
+  leaving_from_end: Walk down from Kum to Trbovlje or Hrastnik for trains. The trail also crosses the railway at Zidani Most, Jevnica and Litija.
+  nearest_airports:
+    - Ljubljana
+    - Zagreb
 flags:
   permit: none
+  permit_notes: No permit is mentioned by the trail’s own pages. The optional stamp diary has 19 checkpoints.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
 establishment_signals:
   - official status (regional trail of the Alpine Association of Slovenia)
-trip_reports: []
-photos: []
+trip_reports:
+  - url: https://web.archive.org/web/20201016011537/https://sites.google.com/site/dolgepoti/po-zasavski-planinski-poti
+    title: Po Zasavski planinski poti – 2014
+    year_hiked: 2014
+    summary: "Two walkers go from Kum to Bizeljsko over the May holidays in five days, sleeping at Litija, Zasavska Sveta gora, Šmohor, Lisca and an inn at Bizeljsko. They lose the way where blazes are missing and are soaked by a storm on the last day: 210 km and 8,856 m of climbing. In Slovenian"
+  - url: https://www.hribi.net/trenutne_razmere/slo/zasavska_planinska_pot/25/9744
+    title: Zasavska planinska pot (forum post, 3 May 2024)
+    year_hiked: 2024
+    summary: A solo walker starts at Bizeljsko in late April and sleeps in huts. Fresh snow from Bohor to Lisca and fog hide the faded blazes; she skips Veliko Kozje and changes the last stage to catch public transport. In Slovenian
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Planinski_dom_na_Kumu.jpg
+    author: Viktar Palstsiuk
+    license: CC BY-SA 4.0
+    shows: The mountain hut on Kum, the end of the trail
+  - file_url: https://commons.wikimedia.org/wiki/File:Lisca.JPG
+    author: Mich973
+    license: CC BY-SA 3.0
+    shows: The summit of Lisca
+  - file_url: https://commons.wikimedia.org/wiki/File:Tonček's_Lodge_on_Lisca_01.jpg
+    author: Janezdrilc
+    license: CC0
+    shows: Tončkov dom, the hut on Lisca
 sources:
   distance_km: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
-  typical_days: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+  typical_days:
+    - https://obhodnice.pzs.si/index.php?pid=2
+    - https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
   difficulty: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
   osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/15850899
-conflicts:
-  - field: distance_km
-    values:
-      - value: 200
-        source: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
-      - value: 198
-        source: https://wiki.openstreetmap.org/wiki/Sl:Slovenian_Hiking_Routes
-last_verified: 2026-11-27
+  best_months: https://www.outdooractive.com/en/route/backpacking/stajerska/zasavje-long-distance-trail/34079219/
+  sleeping: https://obhodnice.pzs.si/index.php?pid=2
+  logistics:
+    - https://www.outdooractive.com/en/route/backpacking/stajerska/zasavje-long-distance-trail/34079219/
+    - https://web.archive.org/web/20201016011537/https://sites.google.com/site/dolgepoti/po-zasavski-planinski-poti
+  waymarked: https://obhodnice.pzs.si/index.php?pid=2
+  water_scarce: https://obhodnice.pzs.si/index.php?pid=2
+  permit: https://obhodnice.pzs.si/index.php?pid=2
+last_verified: 2026-11-28

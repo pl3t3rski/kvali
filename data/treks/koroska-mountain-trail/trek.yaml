@@ -1,5 +1,5 @@
 id: koroska-mountain-trail
-status: draft
+status: published
 name: Koroška Mountain Trail (Koroška planinska pot)
 countries:
   - SI
@@ -10,36 +10,90 @@ route:
   start: Ravne na Koroškem
   end: Ravne na Koroškem
   osm_relation_id: 121642
-  gpx_source: https://slovenia-outdoor.com/en/map-detail-2/?id=37634061
+  osm_section:
+    from:
+      - 46.5423
+      - 14.9682
+    via:
+      - - 46.5829
+        - 15.4003
+      - - 46.4203
+        - 14.8718
+    to:
+      - 46.5423
+      - 14.9682
 distance_km: 230
 typical_days:
   min: 10
   max: 12
 when:
-  best_months: []
+  best_months:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+  open_season: "The trail listing marks March to November. Huts on the high section open mainly in summer: Koča na Loki below Raduha opens June to August"
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+  notes: "Mountain huts on the high sections (Pohorje, Uršlja gora, Smrekovec, Raduha, Peca) and inns in the valleys. Some huts open only in summer or at weekends: check before you go."
 difficulty:
   level: 3
-  reason: Rated difficult, with easier sections.
+  reason: Long hut-to-hut days over Peca (2,125 m) and Raduha (2,062 m); much road walking between the high sections. The Alpine Association rates it very demanding
 logistics:
-  nearest_airports: []
+  getting_to_start: Regular buses from Ljubljana to Ravne na Koroškem; parking behind the bus station.
+  nearest_airports:
+    - Ljubljana
 flags:
   permit: none
-  permit_notes: 31 stamp checkpoints.
+  permit_notes: No permit is mentioned by the trail’s own pages. The optional stamp diary has 31 checkpoints.
+  waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: false
 establishment_signals:
   - official status (regional trail of the Alpine Association of Slovenia)
-trip_reports: []
-photos: []
+trip_reports:
+  - url: https://www.hribi.net/trenutne_razmere/slo/koroska_planinska_pot/10001/2630/2
+    title: Koroško planinsko pot sem prehodil v enem zamahu (forum post, 16 June 2013)
+    year_hiked: 2013
+    summary: "One walker does the whole loop clockwise from Uršlja gora in a single push: 67 hours over three nights without sleep, about 220 km. He found the path below the hunting lodge to Žohar poor and the road sections long. In Slovenian"
+  - url: https://www.hribi.net/trenutne_razmere/slo/koroska_planinska_pot/10001/2630/2
+    title: Čudoviti trije dnevi pohajanja (forum post, 17 September 2020)
+    year_hiked: 2020
+    summary: Three days from Ožbalt over Ribniška koča, Kope and Uršlja gora to Smrekovec and Črna, sleeping in huts, about 90 km. The Ožbalt stamp has moved to the village shop. In Slovenian
+photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Uršlja_Gora,_Slovenia_(29754687887).jpg
+    author: Jernej Furman
+    license: CC BY 2.0
+    shows: Uršlja gora, the summit church of St Ursula
+  - file_url: https://commons.wikimedia.org/wiki/File:Ribniška_koča.JPG
+    author: Xyxyx
+    license: CC BY-SA 3.0
+    shows: Ribniška koča, a hut on Pohorje
+  - file_url: https://commons.wikimedia.org/wiki/File:Peca_3855.JPG
+    author: Octopus at Slovenian Wikipedia
+    license: CC BY-SA 3.0
+    shows: The south face of Peca
 sources:
   distance_km: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
   typical_days: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
-  difficulty: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-backpacking/long-distance-trails
-  permit: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
+  difficulty:
+    - https://obhodnice.pzs.si/index.php?pid=7
+    - https://www.slovenia.info/en/things-to-do/active-holidays/hiking-backpacking/long-distance-trails
+  permit:
+    - https://obhodnice.pzs.si/index.php?pid=7
+    - https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
   osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/121642
-conflicts:
-  - field: distance_km
-    values:
-      - value: 230
-        source: https://slovenia-outdoor.com/en/experiences/hiking/long-distance-hiking-trails/
-      - value: 234
-        source: https://wiki.openstreetmap.org/wiki/Sl:Slovenian_Hiking_Routes
-last_verified: 2026-11-27
+  best_months: https://www.outdooractive.com/en/route/backpacking/slovenia/koroska-mountain-trail/37634061/
+  open_season:
+    - https://www.outdooractive.com/en/route/backpacking/slovenia/koroska-mountain-trail/37634061/
+    - https://en.wikipedia.org/wiki/Loka_Lodge_at_Raduha
+  sleeping: https://obhodnice.pzs.si/index.php?pid=7
+  logistics: https://www.outdooractive.com/en/route/backpacking/slovenia/koroska-mountain-trail/37634061/
+  waymarked: https://obhodnice.pzs.si/index.php?pid=7
+last_verified: 2026-11-28

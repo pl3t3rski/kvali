@@ -1,5 +1,5 @@
 id: slovenian-mountain-trail
-status: draft
+status: published
 name: Slovenian Mountain Trail (Slovenska planinska pot / Transverzala)
 countries:
   - SI
@@ -10,7 +10,14 @@ route:
   start: Maribor (Spodnje Radvanje)
   end: Ankaran (Debeli rtič)
   osm_relation_id: 6443086
-distance_km: 617.5
+  osm_section:
+    from:
+      - 46.5323
+      - 15.6283
+    to:
+      - 45.59
+      - 13.7037
+distance_km: 617.4
 total_ascent_m: 37300
 typical_days:
   min: 28
@@ -39,6 +46,7 @@ flags:
   permit_notes: Optional stamp booklet (Dnevnik SPP) for the completion badge.
   waymarked: yes
   exposed_or_via_ferrata: true
+  water_scarce: false
 links:
   official_site: https://www.slovenska-planinska-pot.si/
 establishment_signals:
@@ -78,39 +86,16 @@ photos:
     license: CC BY 2.5
     shows: Trail checkpoint in Tinjan (coastal end)
 sources:
-  distance_km: https://www.slovenska-planinska-pot.si/
+  distance_km: https://en.pzs.si/vsebina.php?pid=58
   total_ascent_m: https://www.slovenska-planinska-pot.si/
-  typical_days: https://www.slovenska-planinska-pot.si/
-  best_months: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
-  open_season: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
-  sleeping: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
-  difficulty: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
-  logistics: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
+  typical_days:
+    - https://en.pzs.si/vsebina.php?pid=58
+    - https://www.cicerone.co.uk/blogs/articles/the-slovene-mountain-trail-a-complete-planning-guide
+  best_months: https://www.cicerone.co.uk/blogs/articles/the-slovene-mountain-trail-a-complete-planning-guide
+  open_season: https://www.cicerone.co.uk/blogs/articles/the-slovene-mountain-trail-a-complete-planning-guide
+  sleeping: https://www.cicerone.co.uk/blogs/articles/the-slovene-mountain-trail-a-complete-planning-guide
+  difficulty: https://www.cicerone.co.uk/blogs/articles/the-slovene-mountain-trail-a-complete-planning-guide
+  logistics: https://www.cicerone.co.uk/blogs/articles/the-slovene-mountain-trail-a-complete-planning-guide
   permit: https://www.slovenska-planinska-pot.si/
   osm_relation_id: https://hiking.waymarkedtrails.org/api/v1/details/relation/6443086
-conflicts:
-  - field: distance_km
-    values:
-      - value: 617.5
-        source: https://www.slovenska-planinska-pot.si/
-      - value: 616.4
-        source: https://www.slovenska-planinska-pot.si/
-      - value: 599
-        source: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-backpacking/long-distance-trails
-      - value: 550
-        source: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
-  - field: typical_days
-    values:
-      - value: 37
-        source: https://www.slovenska-planinska-pot.si/
-      - value: 28
-        source: https://www.slovenia.info/en/things-to-do/active-holidays/hiking-backpacking/long-distance-trails
-      - value: 49
-        source: https://www.cicerone.co.uk/the-slovene-mountain-trail-a-complete-planning-guide
-  - field: total_ascent_m
-    values:
-      - value: 37300
-        source: https://www.slovenska-planinska-pot.si/
-      - value: 45200
-        source: https://en.wikipedia.org/wiki/Slovenian_Mountain_Hiking_Trail
-last_verified: 2026-11-27
+last_verified: 2026-11-28

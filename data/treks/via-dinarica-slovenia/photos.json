@@ -1,18 +1,66 @@
 [
   {
     "source": "commons",
-    "title": "File:Nanos Plateau, western edge 05.jpg",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Nanos_Plateau,_western_edge_05.jpg",
+    "title": "File:Nanos Plateau, western edge 02.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Nanos_Plateau,_western_edge_02.jpg",
     "author": "Ajznponar",
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "shows": "Western edge of the Nanos plateau",
+    "shows": "The western edge of the Nanos plateau, where the trail starts",
     "width": 1600,
     "height": 1198,
     "sizes": {
-      "480": "/photos/via-dinarica-slovenia/29be1ed62e-480.webp",
-      "960": "/photos/via-dinarica-slovenia/29be1ed62e-960.webp",
-      "1600": "/photos/via-dinarica-slovenia/29be1ed62e-1600.webp"
+      "480": "/photos/via-dinarica-slovenia/99db7105aa-480.webp",
+      "960": "/photos/via-dinarica-slovenia/99db7105aa-960.webp",
+      "1600": "/photos/via-dinarica-slovenia/99db7105aa-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Predjama Castle, Slovenia, 20240502 0831 7409.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Predjama_Castle,_Slovenia,_20240502_0831_7409.jpg",
+    "author": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "shows": "Predjama Castle, built into the cliff",
+    "width": 1600,
+    "height": 1065,
+    "sizes": {
+      "480": "/photos/via-dinarica-slovenia/42e3054358-480.webp",
+      "960": "/photos/via-dinarica-slovenia/42e3054358-960.webp",
+      "1600": "/photos/via-dinarica-slovenia/42e3054358-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Rakov Skocjan, Little Natural Arch 01.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Rakov_Skocjan,_Little_Natural_Arch_01.jpg",
+    "author": "Ajznponar",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "shows": "The Little Natural Bridge in Rakov Škocjan",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/via-dinarica-slovenia/326c4bff78-480.webp",
+      "960": "/photos/via-dinarica-slovenia/326c4bff78-960.webp",
+      "1600": "/photos/via-dinarica-slovenia/326c4bff78-1600.webp"
+    }
+  },
+  {
+    "source": "commons",
+    "title": "File:Snežnik (11567814444).jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Sne%C5%BEnik_(11567814444).jpg",
+    "author": "Ognjen Antonič",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "shows": "The summit of Snežnik with its hut",
+    "width": 1600,
+    "height": 901,
+    "sizes": {
+      "480": "/photos/via-dinarica-slovenia/db7bc69fe9-480.webp",
+      "960": "/photos/via-dinarica-slovenia/db7bc69fe9-960.webp",
+      "1600": "/photos/via-dinarica-slovenia/db7bc69fe9-1600.webp"
     }
   }
 ]

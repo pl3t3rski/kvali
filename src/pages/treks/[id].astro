@@ -41,7 +41,7 @@ const flags = trekFlags({
 const days = trek.typical_days;
 const tiles = [
   days && { number: days.min === days.max ? String(days.min) : `${days.min}–${days.max}`, unit: 'days', label: 'on foot' },
-  { number: String(Math.round(stats.distance_km)), unit: 'km', label: 'from end to end' },
+  { number: String(Math.round(stats.distance_km)), unit: 'km', label: trek.route.type === 'loop' ? 'around the loop' : 'from end to end' },
   { number: stats.ascent_m.toLocaleString('en-GB'), unit: 'm', label: 'of climbing' },
   { number: stats.highest_m.toLocaleString('en-GB'), unit: 'm', label: 'highest point' },
 ].filter((tile): tile is { number: string; unit: string; label: string } => Boolean(tile));

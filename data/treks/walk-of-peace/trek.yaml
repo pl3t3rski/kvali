@@ -5,12 +5,11 @@ countries:
   - SI
   - IT
 region: Upper Soča Valley, Brda, Karst, Isonzo Front
-one_liner: Follows the First World War Isonzo Front past some 300 heritage sites from the Julian Alps to Trieste, demanding in the mountains, gentle at the end.
+one_liner: Follows the First World War Isonzo Front from the Julian Alps to Trieste, past some 300 war heritage sites.
 route:
   type: point-to-point
   start: Log pod Mangartom
   end: Trieste (Italy)
-total_ascent_m: 19130
 typical_days:
   min: 13
   max: 19
@@ -24,7 +23,7 @@ when:
     - October
 difficulty:
   level: 3
-  reason: Officially a demanding trail; high point Mt Krn (2,244 m) and about 19,000 m of ascent over 13-19 days.
+  reason: Officially demanding; stages 2 and 5 are rated hard with 1,160–1,360 m of climbing, and stage 2 crosses gorges and landslide areas
 logistics:
   getting_to_start: Summer buses Bovec - Log pod Mangartom (hop on-hop off).
   leaving_from_end: Ends in Trieste.
@@ -32,6 +31,8 @@ logistics:
 flags:
   permit: none
   waymarked: yes
+  water_scarce: false
+  exposed_or_via_ferrata: true
 links:
   official_site: https://www.thewalkofpeace.com/
 establishment_signals:
@@ -57,10 +58,10 @@ photos:
     author: Naturpuur
     license: CC BY 4.0
     shows: Kolovrat open-air WWI museum on the trail above Tolmin
-  - file_url: https://commons.wikimedia.org/wiki/File:Memorial_in_Tolmin,_Slovenia,_along_the_Walk_of_Peace_from_the_Alps_to_the_Adriatic_sea_in_Italy,_EU.jpg
+  - file_url: https://commons.wikimedia.org/wiki/File:"Pot_miru"_Markierung_in_Tolmin,_Slowenien,_EU.jpg
     author: Naturpuur
     license: CC BY 4.0
-    shows: Memorial near Tolmin along the trail
+    shows: A Walk of Peace waymark in Tolmin
 sources:
   distance_km: https://thewalkofpeace.com/?p=13994
   total_ascent_m: https://www.thewalkofpeace.com/wp-content/uploads/2024/03/Walk-of-Peace-information-for-tourist-providers-ANG-1.pdf
@@ -69,19 +70,8 @@ sources:
   difficulty: https://thewalkofpeace.com/?p=13994
   logistics: https://www.thewalkofpeace.com/?p=1773
   permit: https://thewalkofpeace.com/?p=13994
-conflicts:
-  - field: distance_km
-    values:
-      - value: 500+ (whole network, 30 sections)
-        source: https://thewalkofpeace.com/?p=13994
-      - value: 230
-        source: https://www.hiddeneurope.co.uk/the-magazine/issues/hidden-europe-70/of-mountains-and-memories-slovenias-walk-of-peace/
-      - value: 220
-        source: https://www.lonelyplanet.com/news/best-long-haul-treks-slovenia
-  - field: total_ascent_m
-    values:
-      - value: 19130
-        source: https://www.thewalkofpeace.com/wp-content/uploads/2024/03/Walk-of-Peace-information-for-tourist-providers-ANG-1.pdf
-      - value: 19170
-        source: https://www.go2025.eu/en/imports/poi/vipavskadolina/walk-of-peace-from-the-alps-to-the-adriatic
-last_verified: 2026-11-27
+distance_km: 235
+sleeping:
+  type: mixed
+  booking_ahead: recommended
+last_verified: 2026-11-28

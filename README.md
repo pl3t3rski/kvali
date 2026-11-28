@@ -19,7 +19,8 @@ copied into `src/styles/kvali.css` and its pen drawing into `src/design/`.
 | Night theme | Done: follows the device on a first visit, and the header has a switch |
 | Phone layout | Done: the list is a sheet under the map with three heights. No swipe gesture; a button moves it |
 | Route on trek pages | Done: a height profile and a real map of the line (`src/design/Profile.astro`, `src/components/RouteMap.svelte`) |
-| The other nine countries | Imported as drafts with routes, stats and photos. Not reviewed yet; none published |
+| Slovenia | 5 of its 15 treks published: Slovenian Mountain Trail, Koroška and Zasavje mountain trails, the Camino from Obrežje to Trieste, Via Dinarica Slovenia. The rest stay drafts: no source names best months (Loka, E6, E7), no complete route line in OpenStreetMap (Juliana, Via Dinarica White Trail, Karavanke, Pohorje–Kozjak, Carsus, Walk of Peace) or too few trip reports (Trdina) |
+| The other eight countries | Imported as drafts with routes, stats and photos. Not reviewed yet; none published |
 
 ## Setup
 

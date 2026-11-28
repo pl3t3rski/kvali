@@ -30,5 +30,21 @@
       "960": "/photos/e6-slovenia-ciglar-trail/9cdb033559-960.webp",
       "1600": "/photos/e6-slovenia-ciglar-trail/9cdb033559-1600.webp"
     }
+  },
+  {
+    "source": "commons",
+    "title": "File:Slavnik 01.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Slavnik_01.jpg",
+    "author": "ModriDirkac",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "shows": "The summit of Slavnik",
+    "width": 1600,
+    "height": 1200,
+    "sizes": {
+      "480": "/photos/e6-slovenia-ciglar-trail/7b87791a82-480.webp",
+      "960": "/photos/e6-slovenia-ciglar-trail/7b87791a82-960.webp",
+      "1600": "/photos/e6-slovenia-ciglar-trail/7b87791a82-1600.webp"
+    }
   }
 ]
