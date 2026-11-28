@@ -14,7 +14,7 @@ import { Map as MapLibreMap, type ExpressionSpecification, type FilterSpecificat
 import type { FeatureCollection, Point } from 'geojson';
 import type { BBox, RouteLiteProperties, TrekIndexEntry } from '../data/types';
 import type { MapView } from '../lib/url-state';
-import { url } from '../lib/paths';
+import { dataUrl } from '../lib/paths';
 import { addContours, restyleBase, sleepingColourExpression, sleepingOpacityExpression } from './base-map';
 import {
   BASE_STYLE_URL,
@@ -104,7 +104,7 @@ export class TrekMap {
       })),
     };
     map.addSource('trek-dots', { type: 'geojson', data: dots });
-    map.addSource('routes-lite', { type: 'geojson', data: url('/routes-lite.geojson') });
+    map.addSource('routes-lite', { type: 'geojson', data: dataUrl('/routes-lite.geojson') });
     map.addSource('route-detail', { type: 'geojson', data: EMPTY });
 
     const round = { 'line-join': 'round', 'line-cap': 'round' } as const;
@@ -197,7 +197,7 @@ export class TrekMap {
       return;
     }
     try {
-      const response = await fetch(url(`/routes/${id}.geojson`));
+      const response = await fetch(dataUrl(`/routes/${id}.geojson`));
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const detail = await response.json();
       // The selection may have changed while the file was loading.

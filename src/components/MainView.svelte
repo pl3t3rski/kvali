@@ -9,7 +9,7 @@
   import { onMount, tick } from 'svelte';
   import type { TrekIndex } from '../data/types';
   import Button from '../design/Button.svelte';
-  import { url } from '../lib/paths';
+  import { dataUrl } from '../lib/paths';
   import Filters from './Filters.svelte';
   import MapLegend from './MapLegend.svelte';
   import TrekCard from './TrekCard.svelte';
@@ -47,7 +47,7 @@
 
   async function load() {
     try {
-      const response = await fetch(url('/index.json'));
+      const response = await fetch(dataUrl('/index.json'));
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       view.treks = ((await response.json()) as TrekIndex).treks;
       // A link to a trek that no longer exists opens the plain view.
