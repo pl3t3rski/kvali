@@ -11,6 +11,7 @@
   import Button from '../design/Button.svelte';
   import { url } from '../lib/paths';
   import Filters from './Filters.svelte';
+  import MapLegend from './MapLegend.svelte';
   import TrekCard from './TrekCard.svelte';
   import TrekList from './TrekList.svelte';
   import TrekMap from './TrekMap.svelte';
@@ -147,6 +148,7 @@
       {#key theme}
         <TrekMap {view} />
       {/key}
+      <MapLegend unknown={view.treks.some((trek) => !trek.sleeping)} />
     {/if}
   </div>
 </div>

@@ -15,7 +15,7 @@ import type { FeatureCollection, Point } from 'geojson';
 import type { BBox, RouteLiteProperties, TrekIndexEntry } from '../data/types';
 import type { MapView } from '../lib/url-state';
 import { url } from '../lib/paths';
-import { addContours, restyleBase, sleepingColourExpression } from './base-map';
+import { addContours, restyleBase, sleepingColourExpression, sleepingOpacityExpression } from './base-map';
 import {
   BASE_STYLE_URL,
   DEFAULT_BOUNDS,
@@ -93,6 +93,7 @@ export class TrekMap {
   private addLayers(): void {
     const { map, colours: c } = this;
     const sleepingColour = sleepingColourExpression(c);
+    const sleepingOpacity = sleepingOpacityExpression();
 
     const dots: FeatureCollection<Point, RouteLiteProperties> = {
       type: 'FeatureCollection',
@@ -117,10 +118,10 @@ export class TrekMap {
       type: 'circle',
       source: 'trek-dots',
       maxzoom: LINE_MIN_ZOOM,
-      paint: { 'circle-radius': 6, 'circle-color': sleepingColour, 'circle-stroke-color': c.paperDeep, 'circle-stroke-width': 2 },
+      paint: { 'circle-radius': 6, 'circle-color': sleepingColour, 'circle-opacity': sleepingOpacity, 'circle-stroke-color': c.paperDeep, 'circle-stroke-width': 2 },
     });
-    map.addLayer({ id: 'trek-lines', type: 'line', source: 'routes-lite', minzoom: LINE_MIN_ZOOM, layout: round, paint: { 'line-color': sleepingColour, 'line-width': 3.2 } });
-    map.addLayer({ id: 'trek-detail', type: 'line', source: 'route-detail', minzoom: LINE_MIN_ZOOM, layout: round, paint: { 'line-color': sleepingColour, 'line-width': 3.2 } });
+    map.addLayer({ id: 'trek-lines', type: 'line', source: 'routes-lite', minzoom: LINE_MIN_ZOOM, layout: round, paint: { 'line-color': sleepingColour, 'line-opacity': sleepingOpacity, 'line-width': 3.2 } });
+    map.addLayer({ id: 'trek-detail', type: 'line', source: 'route-detail', minzoom: LINE_MIN_ZOOM, layout: round, paint: { 'line-color': sleepingColour, 'line-opacity': sleepingOpacity, 'line-width': 3.2 } });
     // An invisible wide line, so a thin route is easy to point at.
     map.addLayer({ id: 'trek-lines-hit', type: 'line', source: 'routes-lite', minzoom: LINE_MIN_ZOOM, paint: { 'line-color': c.ink, 'line-opacity': 0, 'line-width': 20 } });
     this.applyFilters();

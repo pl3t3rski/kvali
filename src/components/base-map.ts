@@ -9,7 +9,7 @@
 import { addProtocol, setWorkerUrl, type ExpressionSpecification, type Map as MapLibreMap } from 'maplibre-gl';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
 import mlcontour from 'maplibre-contour';
-import { DEM_ATTRIBUTION, DEM_TILES_URL, sleepingColours, type MapColours } from './map-config';
+import { DEM_ATTRIBUTION, DEM_TILES_URL, UNKNOWN_OPACITY, sleepingColours, type MapColours } from './map-config';
 
 // The bundler moves the worker file, so tell MapLibre where it ended up.
 setWorkerUrl(workerUrl);
@@ -119,6 +119,11 @@ export function addContours(map: MapLibreMap, c: MapColours): void {
 }
 
 /** The route colour for a feature, by its `sleeping` property. */
+/** Full strength for a known sleeping type, faded for an unknown one. */
+export function sleepingOpacityExpression(): ExpressionSpecification {
+  return ['match', ['get', 'sleeping'], ['huts', 'guesthouses', 'camping', 'mixed'], 1, UNKNOWN_OPACITY];
+}
+
 export function sleepingColourExpression(c: MapColours): ExpressionSpecification {
   const colours = sleepingColours(c);
   return ['match', ['get', 'sleeping'], 'huts', colours.huts, 'guesthouses', colours.guesthouses, 'camping', colours.camping, 'mixed', colours.mixed, colours.unknown];

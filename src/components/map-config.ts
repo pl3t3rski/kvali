@@ -36,12 +36,18 @@ export function readColours(): MapColours {
 /**
  * Route colour by where you sleep, as the design system sets it: larch for huts, dusk for
  * guesthouses, moss for camping. The design names no colour for mixed sleeping; it gets the
- * plain pen colour, and a trek whose sleeping is not known yet gets the quiet ink.
+ * plain pen colour, and a trek whose sleeping is not known yet gets the quiet ink, faded.
  * Colour is never the only signal: the list and the card say the same in words.
  */
 export function sleepingColours(c: MapColours): Record<SleepingType | 'unknown', string> {
   return { huts: c.larch, guesthouses: c.dusk, camping: c.moss, mixed: c.ink, unknown: c.inkQuiet };
 }
+
+/**
+ * The quiet ink of an unknown trek is close to dusk, so an unknown trek is also drawn faded.
+ * Only drafts can be unknown: a published trek always says where you sleep.
+ */
+export const UNKNOWN_OPACITY = 0.45;
 
 /** OpenFreeMap's plain style. Its colours are replaced with the design tokens once it has loaded. */
 export const BASE_STYLE_URL = 'https://tiles.openfreemap.org/styles/positron';
