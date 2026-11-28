@@ -1,5 +1,6 @@
-# Publishes a preview of the site to GitHub Pages on every push to main.
-# The preview shows drafts too, each marked as a draft, and asks search engines not to index it.
+# Publishes the site to GitHub Pages on every push to main.
+# Only published treks are on it: drafts stay in the repository until they are reviewed.
+# To see drafts, run `npm run dev` locally.
 # Uses only committed files; it makes no requests to OpenStreetMap, Commons or Unsplash.
 name: pages
 
@@ -32,8 +33,8 @@ jobs:
       - run: npm test
       - run: npm run validate
 
-      - name: Build with drafts
-        run: npm run build:drafts
+      - name: Build, published treks only
+        run: npm run build
         env:
           # A project site is served at https://<owner>.github.io/<repository>/
           SITE_URL: https://${{ github.repository_owner }}.github.io

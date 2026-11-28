@@ -62,7 +62,7 @@ npm run fetch:route -- mestia-ushguli --force
    sources, settle the entries under `conflicts` and empty that list.
 4. **Publish.** Set `status: published`. From then on every rule below is an error that fails the build.
 
-Only published treks reach the site. `npm run dev` shows drafts too, marked as drafts.
+Only published treks reach the site, including the GitHub Pages site at pl3t3rski.github.io/kvali. `npm run dev` shows drafts too, marked as drafts.
 
 ## What a published trek needs
 
