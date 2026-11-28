@@ -1,5 +1,5 @@
 id: tobavarchkhili-lakes
-status: draft
+status: published
 name: Tobavarchkhili Lakes trek (Silver Lakes, Egrisi range)
 countries:
   - GE
@@ -8,9 +8,18 @@ one_liner: Remote tent trek to a cluster of high glacial lakes; no villages, she
 route:
   type: point-to-point
   start: Mukhuri
-  end: Skuri (classic) – currently use Okare Pass variant to Skuri, or continue to Khaishi
+  end: Skuri
   osm_relation_id: 15354522
-  gpx_source: https://www.caucasus-trekking.com/treks/trek-to-tobavarchkhili-lakes
+  osm_section:
+    from:
+      - 42.6369
+      - 42.1754
+    via:
+      - - 42.796
+        - 42.251
+    to:
+      - 42.6815
+      - 42.1604
 distance_km: 77.7
 total_ascent_m: 5306
 typical_days:
@@ -28,7 +37,7 @@ sleeping:
   notes: No villages or guesthouses; full camping kit. Kirnakhona shelter exists but is old and in poor condition.
 difficulty:
   level: 3
-  reason: Big cumulative ascent (5,300 m), passes ~2,900 m, little marking, fully self-supported
+  reason: Big cumulative ascent (5,300 m), passes around 2,900 m, little marking, fully self-supported. The classic Magana descent to Skuri was reported impassable in 2026; walkers use the Okare Pass variant
 logistics:
   getting_to_start: 9:00 marshrutka from Zugdidi local bus station to Mukhuri (2+ h); jeeps can shorten the approach to Natipuru.
   leaving_from_end: From Skuri, ride with mineral-water collectors or walk ~2 km to the main road and hitch to Tsalenjikha/Zugdidi.
@@ -51,7 +60,19 @@ trip_reports:
     title: Our trek to Tobavarchkhili lake
     year_hiked: 2019
     summary: Four Belgian friends, 5 days from Mukhuri by the classic trail; cab to Natipuru hut, camped at Okhoje lake.
+  - url: https://vaclavparis.wordpress.com/2023/08/09/the-georgian-caucasus/
+    title: The Georgian Caucasus
+    year_hiked: 2023
+    summary: A fast solo crossing from Skuri over Okare Pass to the lake, then over two more passes in rain and mist and down to Khaishi on the third morning
+  - url: https://www.sipurderech.co.il/%D7%92%D7%90%D7%95%D7%A8%D7%92%D7%99%D7%94/%D7%98%D7%A8%D7%A7-tobavarchkhili
+    title: Tobavarchkhili trek – Silver lake trek
+    year_hiked: 2017
+    summary: A couple takes five days from Mukhuri past Okhoje lake and Tobavarchkhili to Khaishi, with hard route-finding and river crossings. In Hebrew
 photos:
+  - file_url: https://commons.wikimedia.org/wiki/File:Egrisi_Range.jpg
+    author: Jelger Groeneveld
+    license: CC BY 2.0
+    shows: The Egrisi range above the clouds, the mountains this trek crosses
   - file_url: https://commons.wikimedia.org/wiki/File:Tobavarchkhili.jpg
     author: Superhickish
     license: CC BY-SA 4.0
@@ -68,23 +89,4 @@ sources:
   permit: https://www.caucasus-trekking.com/treks/trek-to-tobavarchkhili-lakes
   route_status: https://www.caucasus-trekking.com/treks/trek-to-tobavarchkhili-lakes
   coverage: https://www.lonelyplanet.com/points-of-interest/lake-toba-varchkhili/1524201
-conflicts:
-  - field: distance_km
-    values:
-      - value: 77.7
-        source: https://www.caucasus-trekking.com/treks/trek-to-tobavarchkhili-lakes
-      - value: 75 (Mukhuri – Khaishi)
-        source: https://georgia.travel/mukhuri-tobavarchkhili-lakes-khaishi
-  - field: typical_days
-    values:
-      - value: 3-5
-        source: https://www.caucasus-trekking.com/treks/trek-to-tobavarchkhili-lakes
-      - value: 5-6 (Mukhuri – Khaishi)
-        source: https://georgia.travel/mukhuri-tobavarchkhili-lakes-khaishi
-  - field: route.end
-    values:
-      - value: Skuri (classic; Magana section impassable as of 2026, Okare Pass variant recommended)
-        source: https://www.caucasus-trekking.com/treks/trek-to-tobavarchkhili-lakes
-      - value: Khaishi
-        source: https://georgia.travel/mukhuri-tobavarchkhili-lakes-khaishi
-last_verified: 2026-11-27
+last_verified: 2026-11-28

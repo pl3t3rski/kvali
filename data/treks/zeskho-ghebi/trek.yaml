@@ -1,5 +1,5 @@
 id: zeskho-ghebi
-status: draft
+status: published
 name: Zeskho – Ghebi (Svaneti to Racha)
 countries:
   - GE
@@ -9,7 +9,14 @@ route:
   type: point-to-point
   start: Zeskho (alpine camp)
   end: Ghebi
-  gpx_source: https://www.caucasus-trekking.com/treks/svanetiracha
+  osm_relation_id: 15412627
+  osm_section:
+    from:
+      - 42.8907
+      - 43.1891
+    to:
+      - 42.764
+      - 43.5078
 distance_km: 43.2
 total_ascent_m: 2062
 typical_days:
@@ -44,7 +51,15 @@ links:
 establishment_signals:
   - official_site
   - trip_reports
-trip_reports: []
+trip_reports:
+  - url: https://kray-zemli.com/127-v-svanetiyu-iz-rachi-peshkom-cherez-gory.html
+    title: Пеший поход через горы из Рачи в Сванетию (On foot over the mountains from Racha to Svaneti)
+    year_hiked: 2017
+    summary: A group walks it the other way, from Ghebi over Vatsistsveri Pass, descends the wrong side, loses the trail in the Tskhenistskali valley and reaches Zeskho over Lapuri Pass after calling for help. In Russian
+  - url: https://t.me/fa_huu/5628
+    title: День 1. Тбилиси → деревня Теврешо (Рача) → Брили (a four-day series)
+    year_hiked: 2026
+    summary: Four daily posts from a group that starts above Ghebi in heavy rain, pushes through scrub to Sasvano lake and crosses both passes; on Lapuri Pass the fixed rope was gone and they climbed down without it. In Russian
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:Rioni_river_gorge_in_Upper_Racha.jpg
     author: Jelger Groeneveld
@@ -66,25 +81,4 @@ sources:
   permit: https://transcaucasiantrail.org/en/thru-hike-the-tct
   permit_detail: https://transcaucasiantrail.org/en/2024/08/24/day-12-oni-to-tsana
   waymarked: https://www.caucasus-trekking.com/treks/svanetiracha
-conflicts:
-  - field: distance_km
-    values:
-      - value: 43.2
-        source: https://www.caucasus-trekking.com/treks/svanetiracha
-      - value: 43
-        source: https://lentekhi.odoo.com/zeskho-ghebi
-      - value: 39
-        source: https://www.walkopedia.net/best-world-walks/Georgia/Svaneti-Region
-      - value: 37
-        source: https://www.caucasus-trekking.com/best-treks
-  - field: typical_days
-    values:
-      - value: 3-4
-        source: https://www.caucasus-trekking.com/treks/svanetiracha
-      - value: "3"
-        source: https://georgia.travel/zeskho-ghebi
-  - field: freshness
-    values:
-      - value: caucasus-trekking trek page last updated Feb 2019; TCT has been rebuilding parts of this corridor since
-        source: https://transcaucasiantrail.org/en/2024/08/24/day-12-oni-to-tsana
-last_verified: 2026-11-27
+last_verified: 2026-11-28

@@ -8,12 +8,12 @@
 import { writeFileSync } from 'node:fs';
 import { readAllTrekFolders, readRoute, type TrekFolder } from '../src/data/treks';
 import type { LonLat, RouteFeature, RouteProperties } from '../src/data/types';
-import { geometryOf, lineLengthM, roundLine } from '../src/lib/geo';
+import { distanceM, geometryOf, lineLengthM, roundLine } from '../src/lib/geo';
 import { parseGpx } from './lib/gpx';
 import { fetchRetry } from './lib/http';
 import { collectMainWays, fetchRelation, toCoordinates } from './lib/osm';
 import { error, finish, info, parseArgs, warn } from './lib/report';
-import { cutSection, orientLines, stitchWays } from './lib/stitch';
+import { orientLines, pathBetween, stitchWays } from './lib/stitch';
 
 /** Gaps longer than this are reported for review. */
 const GAP_WARNING_M = 200;
@@ -82,9 +82,27 @@ async function fetchRoute(folder: TrekFolder): Promise<void> {
   let { lines, gaps } = orientLines(fetched.lines.map((line) => roundLine(line, 6)));
   if (route.osm_section && route.osm_relation_id !== undefined) {
     // [latitude, longitude] in trek.yaml; [longitude, latitude] in the geometry.
-    const [fromLat, fromLon] = route.osm_section.from;
-    const [toLat, toLon] = route.osm_section.to;
-    ({ lines, gaps } = orientLines(cutSection(lines, [fromLon, fromLat], [toLon, toLat])));
+    const stops = [route.osm_section.from, ...(route.osm_section.via ?? []), route.osm_section.to].map(([lat, lon]) => [lon, lat] as LonLat);
+    const walked: LonLat[][] = [];
+    for (let i = 1; i < stops.length; i++) {
+      const leg = pathBetween(lines, stops[i - 1], stops[i]);
+      if (leg.length === 0) throw new Error('Two places of route.osm_section are not connected by the mapped ways');
+      // A leg carries on where the one before it stopped, so the two join into one line.
+      const previous = walked[walked.length - 1];
+      const [head, ...rest] = leg;
+      if (previous && previous[previous.length - 1][0] === head[0][0] && previous[previous.length - 1][1] === head[0][1]) {
+        previous.push(...head.slice(1));
+      } else {
+        walked.push(head);
+      }
+      walked.push(...rest);
+    }
+    // The walk already runs from the first place to the second; only the gaps are measured.
+    lines = walked;
+    gaps = walked.slice(1).map((line, index) => {
+      const from = walked[index][walked[index].length - 1];
+      return { from, to: line[0], length_m: Math.round(distanceM(from, line[0])) };
+    });
     fetched.meta.osm_section = route.osm_section;
   }
   if (lines.length === 0) throw new Error('No usable line in the route source');

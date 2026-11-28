@@ -1,5 +1,5 @@
 id: black-rock-lake-lagodekhi
-status: draft
+status: published
 name: Black Rock Lake Trail (Lagodekhi Protected Areas)
 countries:
   - GE
@@ -10,14 +10,19 @@ route:
   start: Lagodekhi Protected Areas visitor centre
   end: Lagodekhi Protected Areas visitor centre
   osm_relation_id: 10543211
-  gpx_source: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
-distance_km: 38.2
+distance_km: 42
 total_ascent_m: 2888
 typical_days:
-  min: 2
+  min: 3
   max: 3
 when:
-  open_season: Late spring to early autumn (georgia.travel)
+  open_season: June to October according to the park administration. In practice the trail opens around mid-June, once the border post is staffed and the snow allows
+  best_months:
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
 sleeping:
   type: huts
   booking_ahead: not-needed
@@ -37,7 +42,7 @@ flags:
   water_scarce: false
   exposed_or_via_ferrata: false
 links:
-  official_site: https://apa.gov.ge/en/eco-tourism/Trails/lagodexis-daculi-teritoriebis-turistuli-bilikebi/4-shvi-kldeebis-tba
+  official_site: https://www.nationalparks.ge/en/site/lagodekhinp/tripsInner/42
 establishment_signals:
   - official_status
   - waymarked
@@ -64,43 +69,17 @@ photos:
     license: CC BY-SA 4.0
     shows: In the Lagodekhi Protected Areas
 sources:
-  distance_km: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
+  distance_km: https://www.nationalparks.ge/en/site/lagodekhinp/tripsInner/42
   total_ascent_m: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
-  typical_days: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
-  open_season: https://georgia.travel/trekking-in-georgia
+  typical_days: https://www.nationalparks.ge/en/site/lagodekhinp/tripsInner/42
+  open_season:
+    - https://nationalparks.ge/en/site/lagodekhinp/guide
+    - https://www.thebaltican.com/blog/lagodekhi-in-may-a-good-time-to-visit
   sleeping: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
   difficulty: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
   logistics: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
   permit: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
   waymarked: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
   camping_rule: https://georgiantravelguide.com/en/black-rock-lake-round-trip
-conflicts:
-  - field: distance_km
-    values:
-      - value: 38.2
-        source: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
-      - value: 48
-        source: https://apa.gov.ge/en/eco-tourism/Trails/lagodexis-daculi-teritoriebis-turistuli-bilikebi/4-shvi-kldeebis-tba
-      - value: 43
-        source: https://everywherewego.net/?p=1558
-  - field: typical_days
-    values:
-      - value: 3 (2 possible for fit hikers)
-        source: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
-      - value: 2-3
-        source: https://georgia.travel/trekking-in-georgia
-      - value: "3"
-        source: https://apa.gov.ge/en/eco-tourism/Trails/lagodexis-daculi-teritoriebis-turistuli-bilikebi/4-shvi-kldeebis-tba
-  - field: route.type
-    values:
-      - value: loop (Meteo shelter up, Demidov hut down)
-        source: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
-      - value: out-and-back to the lake from the shelter
-        source: https://apa.gov.ge/en/eco-tourism/Trails/lagodexis-daculi-teritoriebis-turistuli-bilikebi/4-shvi-kldeebis-tba
-  - field: difficulty
-    values:
-      - value: Hard
-        source: https://www.caucasus-trekking.com/treks/trek-to-the-black-rock-lake
-      - value: Average
-        source: https://apa.gov.ge/en/eco-tourism/Trails/lagodexis-daculi-teritoriebis-turistuli-bilikebi/4-shvi-kldeebis-tba
-last_verified: 2026-11-27
+  best_months: https://nationalparks.ge/en/site/lagodekhinp/guide
+last_verified: 2026-11-28

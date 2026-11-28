@@ -1,5 +1,5 @@
 id: nikoloz-romanov-trail
-status: draft
+status: published
 name: Nikoloz Romanov's Trail (Borjomi-Kharagauli National Park, trail 1)
 countries:
   - GE
@@ -10,20 +10,33 @@ route:
   start: Likani guard station (near Borjomi)
   end: Marelisi guard station (near Kharagauli)
   osm_relation_id: 3740297
-  gpx_source: https://www.apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/nikoloz-romanovis-biliki
+  osm_section:
+    from:
+      - 41.837
+      - 43.336
+    to:
+      - 41.948
+      - 43.283
 distance_km: 43
 typical_days:
   min: 3
   max: 3
 when:
-  open_season: Park lists the trail for all seasons (winter, spring, summer, autumn); rhododendrons bloom May–June
+  best_months:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+  open_season: Park lists the trail for all seasons. Most park trails are accessible from May to October or November; rhododendrons flower in May and June
 sleeping:
   type: huts
   booking_ahead: recommended
-  notes: Lomismta and Sakhvlari tourist shelters, or tents. Shelters are booked through the park visitor centre.
+  notes: "Lomismta and Sakhvlari tourist shelters, or tents. Shelters are basic: carry a sleeping bag, food and a stove. Arrange places at the visitor centre when you register."
 difficulty:
   level: 2
-  reason: Forest climb from 930 m to Lomismta (2,198 m); ~15–18 km days; park rates it average
+  reason: "Forest climb from 930 m to Lomismta (2,198 m); 15–18 km days; park rates it medium. The last day follows a river where walkers report broken bridges and wading: ask the visitor centre before you go"
 logistics:
   getting_to_start: Likani guard station is 5 km from the park visitor centre in Borjomi (Borjomi has trains and marshrutkas from Tbilisi).
   leaving_from_end: Marelisi is hard to leave by marshrutka; the train may be an option.
@@ -32,18 +45,24 @@ logistics:
     - Kutaisi
 flags:
   permit: free-registration
-  permit_notes: Mandatory registration at the Borjomi or Kharagauli visitor centre before starting. One guide site says the park visit is not free; the fee structure was not verified. Wild camping outside designated sites is not allowed in Borjomi NP.
+  permit_notes: Register at the Borjomi or Kharagauli visitor centre before starting. The entry permit is free and rangers ask to see it. Shelters and campsites are paid. Camping outside the marked sites is not allowed.
   waymarked: true
   water_scarce: false
   exposed_or_via_ferrata: false
 links:
-  official_site: https://www.apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/nikoloz-romanovis-biliki
+  official_site: https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/3
 establishment_signals:
   - official_status
   - waymarked
   - official_site
   - trip_reports
-trip_reports: []
+trip_reports:
+  - url: https://evgeniy-taganay.livejournal.com/7083.html
+    title: Национальный парк Боржоми-Харагаули (Borjomi-Kharagauli National Park)
+    summary: A solo walker takes route 1 from Likani, spends an extra day climbing Lomi from the first shelter, then walks out down the gorge to Marelisi, about 55 km with the walk to the railway. Walked in September, posted in 2014. In Russian
+  - url: https://travel.rbc.ua/rus/show/nestandartnaya-gruziya-vpechatlyayushchiy-1631272380.html
+    title: Нестандартная Грузия (Georgia off the usual track)
+    summary: Two walkers do the trail in three days and meet no other hikers. They lose the path on day two and reach the second shelter after dark, then wade the river nine times on the last day because the bridges are bare iron frames. Published in September 2021. In Russian
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:LOMISMTA_MOUNTAIN_GEORGIA.jpg
     author: GagaMumladze2020
@@ -58,23 +77,24 @@ photos:
     license: CC BY-SA 4.0
     shows: Sunset on Mount Lomismta
 sources:
-  distance_km: https://www.apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/nikoloz-romanovis-biliki
-  typical_days: https://www.apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/nikoloz-romanovis-biliki
-  open_season: https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/3
-  sleeping: https://georgiantravelguide.com/en/nikoloz-romanovi-trail
-  difficulty: https://www.apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/nikoloz-romanovis-biliki
+  distance_km: https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/3
+  typical_days: https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/3
+  open_season:
+    - https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/3
+    - https://www.lonelyplanet.com/points-of-interest/borjomi-kharagauli-national-park/1523220
+  sleeping:
+    - https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/3
+    - https://www.lonelyplanet.com/points-of-interest/borjomi-kharagauli-national-park/1523220
+  difficulty:
+    - https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/3
+    - https://www.goingthewholehogg.com/borjomi-kharagauli-national-park-guide/
   logistics: https://caucasus-trekking.com/treks/crossing-of-meskheti-range
-  permit: https://apa.gov.ge/en/eco-tourism/servisebi-da-tarifebi/borjom-xaragaulis-daculi-teritoriebi
-  waymarked: https://nationalparks.ge/en/site/borjomi-kharagaulinp/adventuresInner/9
+  permit:
+    - https://nationalparks.ge/en/site/borjomi-kharagaulinp/guide
+    - https://www.goingthewholehogg.com/borjomi-kharagauli-national-park-guide/
+  waymarked:
+    - https://nationalparks.ge/en/site/borjomi-kharagaulinp/adventuresInner/9
+    - https://www.lonelyplanet.com/points-of-interest/borjomi-kharagauli-national-park/1523220
   camping_rule: https://transcaucasiantrail.org/en/thru-hike-the-tct
-  travel_articles: https://muchbetteradventures.com/magazine/hiking-georgia-5-best-treks-caucasus-mountains
-conflicts:
-  - field: difficulty
-    values:
-      - value: Average / Medium
-        source: https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/3
-      - value: Easy
-        source: https://georgiantravelguide.com/en/nikoloz-romanovi-trail
-      - value: Moderate
-        source: https://muchbetteradventures.com/magazine/hiking-georgia-5-best-treks-caucasus-mountains
-last_verified: 2026-11-27
+  best_months: https://www.lonelyplanet.com/points-of-interest/borjomi-kharagauli-national-park/1523220
+last_verified: 2026-11-28

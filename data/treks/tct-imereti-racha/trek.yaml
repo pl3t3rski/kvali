@@ -10,6 +10,13 @@ route:
   start: Tbilisi–Sachkhere road near Sachkhere (via Drbo)
   end: Oni
   osm_relation_id: 14995924
+  osm_section:
+    from:
+      - 42.2141
+      - 43.5437
+    to:
+      - 42.581
+      - 43.4335
   gpx_source: https://caltopo.com/m/1A5CC
 distance_km: 74
 typical_days:
@@ -49,9 +56,10 @@ establishment_signals:
   - official_status
   - official_site
 trip_reports:
-  - url: https://no.wikiloc.com/hiking-trails/southbound-transcaucasian-trail-imereti-racha-138418580
-    title: "Southbound Transcaucasian Trail: Imereti-Racha"
-    summary: Southbound GPS log with waypoints for camp spots, seasonal springs and overgrown stretches.
+  - url: https://fromsunrisetosunset.com/thru-hiking-new-transcaucasian-trail-georgia/#diary
+    title: Thru-hiking NEW Transcaucasian Trail Georgia
+    year_hiked: 2022
+    summary: "Two hikers walk it southbound from Oni to Drbo in two long days in October: overgrown and unmarked, in cloud and rain, with about eight river crossings (days 24 to 25)"
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:Shkmeri_Village_and_Mount_Potskhrevi.jpg
     author: Yasuhiro Kojima

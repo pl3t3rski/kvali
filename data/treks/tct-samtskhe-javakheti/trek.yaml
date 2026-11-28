@@ -1,5 +1,5 @@
 id: tct-samtskhe-javakheti
-status: draft
+status: published
 name: Transcaucasian Trail – Samtskhe-Javakheti (Gandzani – Borjomi)
 countries:
   - GE
@@ -8,7 +8,7 @@ one_liner: Volcanic plateau, crater lakes and shepherd camps on the TCT's newest
 route:
   type: point-to-point
   start: Gandzani
-  end: Borjomi (or Zanavi)
+  end: Borjomi
   osm_relation_id: 19410123
   osm_section:
     from:
@@ -51,7 +51,18 @@ links:
 establishment_signals:
   - official_status
   - official_site
-trip_reports: []
+trip_reports:
+  - url: https://teletype.in/@dvality/samsari
+    title: Самсари трип (Samsari trip)
+    year_hiked: 2023
+    summary: Five friends take four days from Gandzani over Samsari Pass to Lake Tabatskuri in June, through snowfields, boulders, hail and shepherd dogs, and finish in Bakuriani. In Russian
+  - url: https://mooseandbugs.com/the-transcaucasian-trail-part-ii-across-georgia-to-the-black-sea
+    title: "Transcaucasian Trail Georgia: Day-by-Day Thru-Hike Journal"
+    summary: Three thru-hikers walk north from Gandzani over Samsari Pass, down loose rock into windy meadows, and on through Bakuriani to Borjomi (days 37 to 41)
+  - url: https://fromsunrisetosunset.com/thru-hiking-new-transcaucasian-trail-georgia/#diary
+    title: Thru-hiking NEW Transcaucasian Trail Georgia
+    year_hiked: 2022
+    summary: Two hikers go south in October from Zanavi past Tabatskuri to Gandzani on the lower line by Lake Paravani, not over the pass, with dogs and bad weather on the way (days 32 to 36)
 photos:
   - file_url: https://commons.wikimedia.org/wiki/File:Tabatskuri_Lake.jpg
     author: Yasuhiro Kojima
@@ -77,11 +88,4 @@ sources:
   permit: https://transcaucasiantrail.org/en/thru-hike-the-tct
   waymarked: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/
   water_scarce: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/practical-information/
-conflicts:
-  - field: total_ascent_m
-    values:
-      - value: 3563 (northbound)
-        source: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/
-      - value: 4827 (southbound)
-        source: https://transcaucasiantrail.org/en/hike/samtskhe-javakheti-georgia/
-last_verified: 2026-11-27
+last_verified: 2026-11-28

@@ -123,33 +123,119 @@ export function orientLines(lines: LonLat[][]): { lines: LonLat[][]; gaps: Route
   return { lines: ordered, gaps };
 }
 
+/** A gap up to this long may be stepped over when walking from one place to another. */
+export const BRIDGE_MAX_M = 3000;
+/** Stepping over a gap counts as this many times its length, so mapped ways are preferred. */
+const BRIDGE_COST = 4;
+
 /**
- * Keep only the part of a route between two places. The lines must already be in walking
- * order. Each place is matched to the nearest point of the route; what lies between stays.
+ * The way from one place to another along the mapped lines, by the shortest walk.
+ *
+ * Each place is matched to the nearest point of the lines. Lines connect where they share
+ * a point. A gap between two line ends may be stepped over if it is short; the result is
+ * then several lines, with the gap left open. Side pieces and second variants that are
+ * not on the shortest walk fall away, and the result runs from the first place to the second.
+ *
+ * Returns no lines when the two places are not connected.
  */
-export function cutSection(lines: LonLat[][], from: LonLat, to: LonLat): LonLat[][] {
+export function pathBetween(lines: LonLat[][], from: LonLat, to: LonLat): LonLat[][] {
+  const key = (point: LonLat) => `${point[0]},${point[1]}`;
+  const points = new Map<string, LonLat>();
+  const edges = new Map<string, { to: string; cost: number; bridge: boolean }[]>();
+  const link = (a: LonLat, b: LonLat, cost: number, bridge: boolean) => {
+    const ka = key(a);
+    const kb = key(b);
+    if (ka === kb) return;
+    points.set(ka, a);
+    points.set(kb, b);
+    (edges.get(ka) ?? edges.set(ka, []).get(ka)!).push({ to: kb, cost, bridge });
+    (edges.get(kb) ?? edges.set(kb, []).get(kb)!).push({ to: ka, cost, bridge });
+  };
+
+  const usable = lines.filter((line) => line.length >= 2);
+  for (const line of usable) {
+    for (let i = 1; i < line.length; i++) link(line[i - 1], line[i], distanceM(line[i - 1], line[i]), false);
+  }
+  const ends = usable.flatMap((line, index) => [
+    { point: first(line), line: index },
+    { point: last(line), line: index },
+  ]);
+  for (let i = 0; i < ends.length; i++) {
+    for (let j = i + 1; j < ends.length; j++) {
+      if (ends[i].line === ends[j].line) continue;
+      const gap = distanceM(ends[i].point, ends[j].point);
+      if (gap > 0 && gap <= BRIDGE_MAX_M) link(ends[i].point, ends[j].point, gap * BRIDGE_COST, true);
+    }
+  }
+
   const nearest = (place: LonLat) => {
-    let best = { line: 0, point: 0, distance: Infinity };
-    lines.forEach((line, lineIndex) => {
-      line.forEach((point, pointIndex) => {
-        const distance = distanceM(place, point);
-        if (distance < best.distance) best = { line: lineIndex, point: pointIndex, distance };
-      });
-    });
+    let best: string | undefined;
+    let bestDistance = Infinity;
+    for (const [k, point] of points) {
+      const distance = distanceM(place, point);
+      if (distance < bestDistance) [best, bestDistance] = [k, distance];
+    }
     return best;
   };
-  let a = nearest(from);
-  let b = nearest(to);
-  const reversed = a.line > b.line || (a.line === b.line && a.point > b.point);
-  if (reversed) [a, b] = [b, a];
-  const section = lines
-    .map((line, index) => {
-      if (index < a.line || index > b.line) return [];
-      const start = index === a.line ? a.point : 0;
-      const end = index === b.line ? b.point : line.length - 1;
-      return line.slice(start, end + 1);
-    })
-    .filter((line) => line.length >= 2);
-  // Keep the direction asked for: from the first place to the second.
-  return reversed ? section.reverse().map((line) => [...line].reverse()) : section;
+  const start = nearest(from);
+  const goal = nearest(to);
+  if (!start || !goal) return [];
+
+  // Dijkstra with a binary heap.
+  const cost = new Map<string, number>([[start, 0]]);
+  const previous = new Map<string, { from: string; bridge: boolean }>();
+  const heap: [number, string][] = [[0, start]];
+  const pop = () => {
+    const top = heap[0];
+    const tail = heap.pop()!;
+    if (heap.length > 0) {
+      heap[0] = tail;
+      let i = 0;
+      for (;;) {
+        const left = 2 * i + 1;
+        const right = left + 1;
+        let smallest = i;
+        if (left < heap.length && heap[left][0] < heap[smallest][0]) smallest = left;
+        if (right < heap.length && heap[right][0] < heap[smallest][0]) smallest = right;
+        if (smallest === i) break;
+        [heap[i], heap[smallest]] = [heap[smallest], heap[i]];
+        i = smallest;
+      }
+    }
+    return top;
+  };
+  const push = (item: [number, string]) => {
+    heap.push(item);
+    let i = heap.length - 1;
+    while (i > 0) {
+      const parent = (i - 1) >> 1;
+      if (heap[parent][0] <= heap[i][0]) break;
+      [heap[i], heap[parent]] = [heap[parent], heap[i]];
+      i = parent;
+    }
+  };
+  while (heap.length > 0) {
+    const [walked, at] = pop();
+    if (at === goal) break;
+    if (walked > (cost.get(at) ?? Infinity)) continue;
+    for (const edge of edges.get(at) ?? []) {
+      const next = walked + edge.cost;
+      if (next < (cost.get(edge.to) ?? Infinity)) {
+        cost.set(edge.to, next);
+        previous.set(edge.to, { from: at, bridge: edge.bridge });
+        push([next, edge.to]);
+      }
+    }
+  }
+  if (start !== goal && !previous.has(goal)) return [];
+
+  // Walk back from the goal, starting a new line wherever a gap was stepped over.
+  const result: LonLat[][] = [[points.get(goal)!]];
+  for (let at = goal; at !== start; ) {
+    const step = previous.get(at)!;
+    if (step.bridge) result.unshift([]);
+    result[0].unshift(points.get(step.from)!);
+    at = step.from;
+  }
+  return result.filter((line) => line.length >= 2);
 }

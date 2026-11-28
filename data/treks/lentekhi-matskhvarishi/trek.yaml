@@ -10,6 +10,13 @@ route:
   start: Matskhvarishi
   end: Lentekhi
   osm_relation_id: 15351593
+  osm_section:
+    from:
+      - 43.0137
+      - 42.6278
+    to:
+      - 42.7889
+      - 42.7223
   gpx_source: https://www.loc.wiki/hiking-trails/matskhvarishi-lentekhi-macxvarishi-lentexi-24628422
 distance_km: 44
 typical_days:
@@ -44,10 +51,10 @@ photos:
     shows: Ienashi in the Latali community, Upper Svaneti
 sources:
   distance_km: https://www.loc.wiki/hiking-trails/matskhvarishi-lentekhi-macxvarishi-lentexi-24628422
-  typical_days: https://muchbetteradventures.com/magazine/hiking-georgia-5-best-treks-caucasus-mountains
   sleeping: https://www.loc.wiki/hiking-trails/matskhvarishi-lentekhi-macxvarishi-lentexi-24628422
   difficulty: https://www.loc.wiki/hiking-trails/matskhvarishi-lentekhi-macxvarishi-lentexi-24628422
   listing: https://georgia.travel/cities-towns/lentekhi
+  logistics: https://www.caucasus-trekking.com/treks/lentekhi-to-khaishi-over-uskuri-range
 conflicts:
   - field: total_ascent_m
     values:

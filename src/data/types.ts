@@ -23,7 +23,7 @@ export interface RouteProperties {
   osm_relation_id?: number | number[];
   gpx_source?: string;
   /** The section cut out of a longer relation, as in trek.yaml. */
-  osm_section?: { from: [number, number]; to: [number, number] };
+  osm_section?: { from: [number, number]; to: [number, number]; via?: [number, number][] };
   /** Date the geometry was fetched, YYYY-MM-DD. */
   fetched: string;
   /** How many relations (the route and its stages) and ways the line was built from. */

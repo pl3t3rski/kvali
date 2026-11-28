@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { parseGpx } from '../scripts/lib/gpx';
 import { collectMainWays, toCoordinates, type OsmData } from '../scripts/lib/osm';
-import { orientLines, stitchWays } from '../scripts/lib/stitch';
+import { orientLines, pathBetween, stitchWays } from '../scripts/lib/stitch';
 import type { LonLat } from '../src/data/types';
 
 describe('stitching ways into lines', () => {
@@ -112,5 +112,42 @@ describe('GPX', () => {
   it('refuses a file without a track', () => {
     expect(() => parseGpx('<gpx><wpt lat="46" lon="14"/></gpx>')).toThrow();
     expect(() => parseGpx('<html></html>')).toThrow();
+  });
+});
+
+describe('walking from one place to another along mapped lines', () => {
+  const main: LonLat[] = [[14, 46], [14, 46.01], [14, 46.02], [14, 46.03]];
+  const spur: LonLat[] = [[14, 46.01], [14.02, 46.01]];
+
+  it('keeps the part between the two places and drops a side piece', () => {
+    expect(pathBetween([main, spur], [14, 46.0001], [14, 46.0299])).toEqual([main]);
+    expect(pathBetween([main, spur], [14, 46.011], [14, 46.02])).toEqual([[[14, 46.01], [14, 46.02]]]);
+  });
+
+  it('runs from the first place to the second, whichever way the lines are stored', () => {
+    const walked = pathBetween([main], [14, 46.03], [14, 46]);
+    expect(walked).toEqual([[...main].reverse()]);
+  });
+
+  it('takes the shorter of two variants', () => {
+    const detour: LonLat[] = [[14, 46.01], [14.05, 46.015], [14, 46.02]];
+    expect(pathBetween([main, detour], [14, 46], [14, 46.03])).toEqual([main]);
+  });
+
+  it('steps over a short gap and leaves it open', () => {
+    const before: LonLat[] = [[14, 46], [14, 46.01]];
+    const after: LonLat[] = [[14, 46.015], [14, 46.03]];
+    expect(pathBetween([before, after], [14, 46], [14, 46.03])).toEqual([before, after]);
+  });
+
+  it('finds no way across a gap that is too long', () => {
+    const far: LonLat[] = [[14, 46.2], [14, 46.3]];
+    expect(pathBetween([[[14, 46], [14, 46.01]], far], [14, 46], [14, 46.3])).toEqual([]);
+  });
+
+  it('joins overlapping routes into one walk', () => {
+    const first: LonLat[] = [[14, 46], [14, 46.01], [14.02, 46.01]];
+    const second: LonLat[] = [[14, 46.01], [14, 46.02]];
+    expect(pathBetween([first, second], [14, 46], [14, 46.02])).toEqual([[[14, 46], [14, 46.01], [14, 46.02]]]);
   });
 });

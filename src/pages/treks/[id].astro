@@ -49,6 +49,18 @@ const tiles = [
 const SLEEPING_ICONS: Record<SleepingType, IconName> = { huts: 'hut', guesthouses: 'guesthouse', camping: 'camping', mixed: 'hut' };
 const loop = trek.route.type === 'loop' || !trek.route.end;
 
+// The direction of the line is known only when the trek file says where the walk starts and ends.
+const profileCaption = !trek.route.osm_section
+  ? 'Height along the route line. The line may run from the end of the trek to its start.'
+  : loop
+    ? `Height along the loop, from ${trek.route.start} and back.`
+    : `Height along the route, from ${trek.route.start} on the left to ${trek.route.end} on the right.`;
+
+// Say so when the figure the sources give is far from the one measured on the line.
+const stated = trek.distance_km;
+const statedNote =
+  stated && Math.abs(stated - stats.distance_km) / stats.distance_km > 0.1 ? ` Sources give ${formatKm(Math.round(stated))} for this trek.` : '';
+
 // The one thing on the page that must be seen: what to arrange or watch out for.
 const beforeYouGo = [
   trek.flags?.permit && trek.flags.permit !== 'none' && `${PERMIT_LABELS[trek.flags.permit]}.`,
@@ -213,13 +225,13 @@ const jsonLd = {
         stats.profile && (
           <figure class="figure">
             <Profile profile={stats.profile} distance_km={stats.distance_km} lowest_m={stats.lowest_m} highest_m={stats.highest_m} />
-            <figcaption class="t-caption">Height along the route line. The line may run from the end of the trek to its start.</figcaption>
+            <figcaption class="t-caption">{profileCaption}</figcaption>
           </figure>
         )
       }
       <figure class="figure">
         <RouteMap client:visible id={trek.id} bbox={stats.bbox} label={`Map of ${trek.name}`} />
-        <figcaption class="t-caption">Distance and climbing are measured from this line, not copied from other sites. On a phone, move the map with two fingers.</figcaption>
+        <figcaption class="t-caption">Distance and climbing are measured from this line, not copied from other sites.{statedNote} On a phone, move the map with two fingers.</figcaption>
       </figure>
     </section>
 

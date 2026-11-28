@@ -4,7 +4,7 @@
  * Sent with every request. OSM and Wikimedia ask automated clients to identify
  * themselves; set KVALI_USER_AGENT to add a contact address.
  */
-export const USER_AGENT = process.env.KVALI_USER_AGENT ?? 'KvaliBuild/0.1 (static trek site data script)';
+export const USER_AGENT = process.env.KVALI_USER_AGENT ?? 'trek-site-data-script/0.1';
 
 export class HttpError extends Error {
   constructor(

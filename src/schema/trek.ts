@@ -115,10 +115,13 @@ const trekObject = z.strictObject({
     /** One relation, or several stage relations in walking order when no single relation covers the trek. */
     osm_relation_id: z.union([relationId, z.array(relationId).min(1)]).optional(),
     /**
-     * When the relation is a longer trail and the trek is one section of it: where the section
-     * starts and ends, each as [latitude, longitude]. The route line is cut at the nearest points.
+     * Where the trek starts and ends on the mapped ways, each as [latitude, longitude]. The
+     * route line is then the shortest walk between the two along the ways of the relation
+     * or relations. Use it when the relation is a longer trail, when several relations
+     * overlap, or to set the direction the trek is walked. `via` lists places the walk must
+     * pass on the way, for a trek that takes a longer variant or goes out to a hut and back.
      */
-    osm_section: z.strictObject({ from: latLon, to: latLon }).optional(),
+    osm_section: z.strictObject({ from: latLon, to: latLon, via: z.array(latLon).optional() }).optional(),
     /** A GPX file to use when OpenStreetMap has no relation. A web page that only links to one does not work. */
     gpx_source: httpUrl.optional(),
     /** Licence of the GPX file and the credit it asks for. Needed when `gpx_source` is the geometry source. */

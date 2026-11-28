@@ -14,12 +14,12 @@ copied into `src/styles/kvali.css` and its pen drawing into `src/design/`.
 | Index build, link check, monthly re-verification | Done (`scripts/`) |
 | Main view: map, synced list, five filters, trek card, shareable URL, keyboard use | Done, in the Kvali design (`src/components/`) |
 | Trek pages, country page, About page | Done, in the Kvali design (`src/pages/`) |
-| Georgia | 12 draft treks imported, 9 with a route line. None published yet |
-| CI workflows | Written, not yet run green on GitHub (`.github/workflows/`) |
+| Georgia | Done for now: 9 of 12 treks published, all 12 with a route line. Three stay drafts because no two first-hand trip reports exist for them (Shepherds' Trail, Imereti to Racha, Lentekhi to Matskhvarishi) |
+| CI workflows | Running on GitHub. A push to `main` tests, validates and deploys the preview site to GitHub Pages (`.github/workflows/`) |
 | Night theme | Done: follows the device on a first visit, and the header has a switch |
 | Phone layout | Done: the list is a sheet under the map with three heights. No swipe gesture; a button moves it |
-| Route picture on trek pages | Done as a drawn trace of the route (`src/design/RouteTrace.astro`), not a map image with a base map |
-| The other research files (9 countries) | Not imported yet |
+| Route on trek pages | Done: a height profile and a real map of the line (`src/design/Profile.astro`, `src/components/RouteMap.svelte`) |
+| The other nine countries | Imported as drafts with routes, stats and photos. Not reviewed yet; none published |
 
 ## Setup
 
@@ -105,6 +105,12 @@ and must not suggest a trek it does not show.
   unknown facts, so rules are errors only on a published trek.
 - **Sort order.** Treks sort by the number of `establishment_signals`, as the research ranks them.
 - **Several route ids.** `route.osm_relation_id` may be a list of stage relations, joined in order.
+- **Part of a relation.** `route.osm_section` gives where the trek starts and ends on the mapped ways,
+  as `[latitude, longitude]`, with optional `via` points. The route line is then the shortest walk
+  between them. It sets the direction of the height profile, cuts a trek out of a longer trail and
+  drops stray pieces and variants.
+- **Two distances.** The page shows the distance measured on the route line. When the sources'
+  figure in `distance_km` is more than 10% away, the page says so under the map.
 - **Added fields.** `route.gpx_license`, `sleeping.notes`, `flags.permit_notes`; added generated file `photos.json`.
 - **Side routes.** Besides `alternative`, `excursion` and `approach`, members with the role
   `connection` are left out of the route line.

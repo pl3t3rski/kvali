@@ -10,6 +10,13 @@ route:
   start: Chuberi (Kvemo Marghi)
   end: Ushguli
   osm_relation_id: 16118590
+  osm_section:
+    from:
+      - 43.0183
+      - 42.1905
+    to:
+      - 42.915
+      - 43.0194
   gpx_source: https://caltopo.com/m/27711
 distance_km: 140
 total_ascent_m: 8917

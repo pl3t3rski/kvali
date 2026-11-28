@@ -12,6 +12,13 @@ route:
   osm_relation_id:
     - 13703284
     - 13703285
+  osm_section:
+    from:
+      - 43.044
+      - 42.726
+    to:
+      - 42.915
+      - 43.0194
   gpx_source: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
 distance_km: 56.9
 total_ascent_m: 3106

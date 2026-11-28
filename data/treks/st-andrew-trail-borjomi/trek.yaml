@@ -10,7 +10,13 @@ route:
   start: Atskuri guard station
   end: Marelisi guard station
   osm_relation_id: 3740333
-  gpx_source: https://no.wikiloc.com/hiking-trails/st-andrew-trail-atskuri-marelisi-12593459
+  osm_section:
+    from:
+      - 41.748
+      - 43.177
+    to:
+      - 41.948
+      - 43.283
 distance_km: 54
 typical_days:
   min: 4
@@ -27,10 +33,10 @@ when:
 sleeping:
   type: huts
   booking_ahead: recommended
-  notes: Amarati and Sakhvlari tourist shelters, Sametskhvario guard shelter (two beds), optional Kvazvinevi ranger shelter; tents allowed at these sites. Book shelters through the visitor centre.
+  notes: "Amarati and Sakhvlari tourist shelters, Sametskhvario guard shelter, optional Kvazvinevi ranger shelter; tents allowed at these sites. Shelters are basic: carry a sleeping bag, food and a stove. Arrange places at the visitor centre when you register."
 difficulty:
   level: 3
-  reason: Park rates it hard; long forest climbs to 2,642 m Sametskhvario; days up to 19 km
+  reason: "Park rates it hard; long forest climbs to 2,642 m Sametskhvario; days up to 19 km. A bridge on the last day has been reported damaged: ask the visitor centre before you go"
 logistics:
   getting_to_start: Atskuri guard station is 27 km from the Borjomi visitor centre; register in Borjomi first.
   leaving_from_end: Marelisi is hard to leave by marshrutka; the train may be an option.
@@ -39,12 +45,12 @@ logistics:
     - Kutaisi
 flags:
   permit: free-registration
-  permit_notes: Mandatory registration at the visitor centre before starting; fee structure not verified.
+  permit_notes: Register at the Borjomi or Kharagauli visitor centre before starting. The entry permit is free and rangers ask to see it. Shelters and campsites are paid.
   waymarked: true
   water_scarce: false
   exposed_or_via_ferrata: false
 links:
-  official_site: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
+  official_site: https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/25
 establishment_signals:
   - official_status
   - waymarked
@@ -71,14 +77,20 @@ photos:
     license: CC BY-SA 4.0
     shows: The Sametskhvario shelter
 sources:
-  distance_km: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
-  typical_days: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
+  distance_km: https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/25
+  typical_days: https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/25
   best_months: https://georgiantravelguide.com/en/routes/st-andrew-trail
   open_season: https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/25
-  sleeping: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
-  difficulty: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
+  sleeping:
+    - https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/25
+    - https://www.lonelyplanet.com/points-of-interest/borjomi-kharagauli-national-park/1523220
+  difficulty:
+    - https://nationalparks.ge/en/site/borjomi-kharagaulinp/tripsInner/25
+    - https://www.goingthewholehogg.com/borjomi-kharagauli-national-park-guide/
   logistics: https://caucasus-trekking.com/treks/crossing-of-meskheti-range
-  permit: https://apa.gov.ge/en/eco-tourism/Trails/bordjom-xaragaulis-turistuli-bilikebi-satesto/2-wminda-andria-pirvelwodebulis-biliki
+  permit:
+    - https://nationalparks.ge/en/site/borjomi-kharagaulinp/guide
+    - https://www.goingthewholehogg.com/borjomi-kharagauli-national-park-guide/
   waymarked: https://nationalparks.ge/en/site/borjomi-kharagaulinp/adventuresInner/9
   travel_articles: https://georgia.travel/trekking-in-georgia
 last_verified: 2026-11-28
